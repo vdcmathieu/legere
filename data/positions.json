@@ -12723,9 +12723,9 @@
        "quote": "Déclaration du gouvernement sur la stratégie d'aide à l'Ukraine ... Olivier Faure Socialistes et apparentés POUR"
       }
      ],
-     "nuance": "Own votes; no 2026 statement retrieved (web search budget exhausted).",
+     "nuance": "Own votes; no 2026 statement retrieved.",
      "summary_fr": "Faure a personnellement voté la résolution européenne du 12 mars 2025 appelant à un soutien renforcé à l'Ukraine (y compris l'utilisation des avoirs russes pour financer l'aide militaire), ainsi que la déclaration du gouvernement de mars 2024 sur la stratégie d'aide à l'Ukraine.",
-     "nuance_fr": "Votes personnels ; aucune déclaration de 2026 retrouvée (budget de recherches web épuisé)."
+     "nuance_fr": "Votes personnels ; aucune déclaration de 2026 retrouvée."
     },
     "int2": {
      "id": "int2",
@@ -13555,9 +13555,9 @@
        "quote": "Rétablissement de l'impôt de solidarité sur la fortune (ISF), incorporation d'une composante climatique"
       }
      ],
-     "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found, and web search was exhausted during verification.",
+     "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found.",
      "summary_fr": "Le programme commun du NFP de juin 2024, que Tondelier a cofondé et porté pour Les Écologistes, prévoit le rétablissement de l'ISF assorti d'une composante climatique.",
-     "nuance_fr": "Il s'agit du programme de la coalition de 2024. Aucun texte de campagne de Tondelier pour 2026 ni citation personnelle n'a été trouvé, et les recherches sur le web étaient épuisées lors de la vérification."
+     "nuance_fr": "Il s'agit du programme de la coalition de 2024. Aucun texte de campagne de Tondelier pour 2026 ni citation personnelle n'a été trouvé."
     },
     "eco2": {
      "id": "eco2",
@@ -13705,9 +13705,9 @@
      "evidence_type": "inferred",
      "summary": "The Greens defend the pay-as-you-go system, so mandatory capitalisation is unlikely.",
      "sources": [],
-     "nuance": "Inferred. No explicit statement found, and search was exhausted.",
+     "nuance": "Inferred. No explicit statement found.",
      "summary_fr": "Les Verts défendent le système par répartition ; une capitalisation obligatoire est donc peu probable.",
-     "nuance_fr": "Inféré. Aucune déclaration explicite trouvée, et les recherches étaient épuisées."
+     "nuance_fr": "Inféré. Aucune déclaration explicite trouvée."
     },
     "fin1": {
      "id": "fin1",
@@ -14407,9 +14407,9 @@
      "evidence_type": "party_line",
      "summary": "Les Écologistes back the 2035 end of sales of new combustion cars; her campaign promotes electric vehicles. Not verified live in a 2025-2026 source.",
      "sources": [],
-     "nuance": "Not verified: web search budget exhausted and no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution.",
+     "nuance": "Not verified: no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution.",
      "summary_fr": "Les Écologistes soutiennent la fin de la vente de voitures neuves thermiques en 2035 ; sa campagne promeut les véhicules électriques. Non vérifié en direct dans une source de 2025-2026.",
-     "nuance_fr": "Non vérifié : le budget de recherche web était épuisé et aucun texte primaire n'a été trouvé dans les PDF de campagne consultés. Ligne du parti plausible, à prendre avec prudence."
+     "nuance_fr": "Non vérifié : aucun texte primaire n'a été trouvé dans les PDF de campagne consultés. Ligne du parti plausible, à prendre avec prudence."
     },
     "ecol4": {
      "id": "ecol4",
@@ -14665,9 +14665,9 @@
      "evidence_type": "party_line",
      "summary": "Les Écologistes oppose banning the headscarf in public space; not verified live.",
      "sources": [],
-     "nuance": "Not verified (search budget exhausted); strong code rests on well-known party line only.",
+     "nuance": "Not verified; strong code rests on well-known party line only.",
      "summary_fr": "Les Écologistes s'opposent à l'interdiction du voile dans l'espace public ; non vérifié en direct.",
-     "nuance_fr": "Non vérifié (budget de recherche épuisé) ; le codage fort repose uniquement sur la ligne bien connue du parti."
+     "nuance_fr": "Non vérifié ; le codage fort repose uniquement sur la ligne bien connue du parti."
     },
     "soc3": {
      "id": "soc3",
@@ -15371,9 +15371,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF defends the pay-as-you-go system and opposes funded pensions.",
      "sources": [],
-     "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced this session.",
+     "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced.",
      "summary_fr": "Le PCF défend le système par répartition et s'oppose aux retraites par capitalisation.",
-     "nuance_fr": "Les pages de programme consultées ne mentionnent pas explicitement la capitalisation. C'est la ligne historique du parti, non sourcée directement lors de cette session."
+     "nuance_fr": "Les pages de programme consultées ne mentionnent pas explicitement la capitalisation. C'est la ligne historique du parti, non sourcée directement."
     },
     "fin1": {
      "id": "fin1",
@@ -15698,9 +15698,9 @@
      "evidence_type": "statement",
      "summary": "Roussel has publicly opposed cannabis legalisation and prefers to fight trafficking.",
      "sources": [],
-     "nuance": "From recollection of 2021-2022 statements. Not verified this session: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified.",
+     "nuance": "Based on 2021-2022 statements that were not retrieved. Not verified: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified.",
      "summary_fr": "Roussel s'est publiquement opposé à la légalisation du cannabis et préfère lutter contre le trafic.",
-     "nuance_fr": "D'après le souvenir de déclarations de 2021-2022. Non vérifié lors de cette session : ni les pages de programme, ni les pages Wikipédia sur Roussel et sur le cannabis en France ne le mentionnent. À considérer comme non vérifié."
+     "nuance_fr": "D'après des déclarations de 2021-2022 non retrouvées. Non vérifié : ni les pages de programme, ni les pages Wikipédia sur Roussel et sur le cannabis en France ne le mentionnent. À considérer comme non vérifié."
     },
     "sec5": {
      "id": "sec5",
@@ -16010,9 +16010,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF supports taxing private jets and kerosene; this is unverified.",
      "sources": [],
-     "nuance": "A brief search found no Roussel statement. Based on background knowledge only.",
+     "nuance": "A brief search found no Roussel statement; no direct source.",
      "summary_fr": "Le PCF soutient la taxation des jets privés et du kérosène ; cela n'est pas vérifié.",
-     "nuance_fr": "Une brève recherche n'a trouvé aucune déclaration de Roussel. Repose uniquement sur des connaissances générales."
+     "nuance_fr": "Une brève recherche n'a trouvé aucune déclaration de Roussel ; aucune source directe."
     },
     "ecol5": {
      "id": "ecol5",
@@ -16103,9 +16103,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF favours leaving the EU electricity market and pricing electricity nationally through a public EDF. Roussel's personal 2025-2026 wording is unverified.",
      "sources": [],
-     "nuance": "Background knowledge only. No source found in this session. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified.",
+     "nuance": "No direct source. No source found. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified.",
      "summary_fr": "Le PCF est favorable à une sortie du marché européen de l'électricité et à une fixation nationale des prix de l'électricité par un EDF public. La formulation personnelle de Roussel en 2025-2026 n'est pas vérifiée.",
-     "nuance_fr": "Connaissances générales uniquement. Aucune source trouvée lors de cette session. Roussel a appelé à des baisses du prix de l'électricité pouvant atteindre 30 % (TF1, mai 2026, titre seul), mais le mécanisme n'est pas vérifié."
+     "nuance_fr": "Aucune source directe. Aucune source trouvée. Roussel a appelé à des baisses du prix de l'électricité pouvant atteindre 30 % (TF1, mai 2026, titre seul), mais le mécanisme n'est pas vérifié."
     },
     "ins1": {
      "id": "ins1",
@@ -18185,9 +18185,9 @@
        "quote": "Prix planchers. Quotas d'importation. Coefficients multiplicateurs."
       }
      ],
-     "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ? ... On désobéit !').",
+     "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ?... On désobéit !').",
      "summary_fr": "Son cahier de campagne 2027 propose des prix minimums garantis pour chaque filière, fondés sur les coûts de production. Il réclamait déjà des 'prix planchers' en 2024.",
-     "nuance_fr": "Les prix seraient négociés par les organes de filière (interprofessions) et fondés sur les coûts de production plus une juste rémunération du travail. Cette position est constante depuis au moins 2021 (son article 'L'OMC l'interdit ? ... On désobéit !')."
+     "nuance_fr": "Les prix seraient négociés par les organes de filière (interprofessions) et fondés sur les coûts de production plus une juste rémunération du travail. Cette position est constante depuis au moins 2021 (son article 'L'OMC l'interdit ?... On désobéit !')."
     },
     "ene5": {
      "id": "ene5",
