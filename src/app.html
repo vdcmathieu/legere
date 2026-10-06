@@ -264,6 +264,7 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
 .dash .lead-main { grid-area: main; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
 .dash .lead .head { align-items: center; gap: 16px; }
 .dash .lead .who { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; }
+.dash .lead .who.many { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.2; }
 .dash .lead .pile { display: inline-flex; flex: none; }
 .dash .lead .pile .avatar { margin-left: -22px; box-shadow: 0 0 0 2px var(--card); }
 .dash .lead .pile .avatar:first-child { margin-left: 0; }
@@ -313,10 +314,11 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
 /* heatmap: themes by the top candidates, one ramp, value in every cell */
 .dash .heatmap { font-size: 13px; width: 100%; }
 .dash .heatmap th, .dash .heatmap td { padding: 3px 2px; border-bottom: 0; }
-.dash .heatmap thead th { text-align: center; font: 500 12.5px var(--sans); color: var(--ink); vertical-align: bottom; padding-bottom: 6px; }
+.dash .heatmap thead th { text-align: center; font: 500 11.5px var(--sans); color: var(--ink); vertical-align: bottom; padding-bottom: 6px; }
+.dash .heatmap thead th span { display: block; max-width: 62px; margin: 0 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; letter-spacing: -.01em; }
 .dash .heatmap thead th .avatar { width: 28px; height: 28px; margin: 0 auto 3px; }
-.dash .heatmap tbody th { font: 400 13px/1.2 var(--sans); color: var(--ink); padding-right: 8px; }
-.dash .heatmap td { text-align: center; width: 48px; }
+.dash .heatmap tbody th { font: 400 13px/1.2 var(--sans); color: var(--ink); padding-right: 8px; min-width: 64px; }
+.dash .heatmap td { text-align: center; width: 60px; }
 .dash .heatmap td.na { color: var(--muted); }
 .dash .heatmap .heat { display: block; min-width: 0; padding: 4px 0; font-size: 12.5px; font-variant-numeric: tabular-nums; }
 /* divergences: the three widest gaps */
@@ -351,10 +353,13 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   .dash .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dash .tile.tall { grid-row: auto; }
   .dash .tile.w2, .dash .tile.w3 { grid-column: auto; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: span 2; }
 }
 @media (max-width: 860px) {
   .dash { grid-template-columns: 1fr; }
   .dash .lead, .dash .refine-card { grid-column: 1; grid-row: auto; }
+}
+@media (max-width: 700px) {
   .dash .ranking { grid-template-columns: 1fr; grid-auto-flow: row; grid-template-rows: none; }
   .dash .ranking > :nth-child(6) { border-bottom: 1px solid var(--line); }
 }
@@ -362,6 +367,9 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   .dash .lead, .dash .refine-card, .dash .rank-card, .dash .tile { padding: 18px 16px; }
   .dash .stat .val { font-size: 32px; }
   .dash .tiles { grid-template-columns: 1fr; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: auto; }
+  .dash .heatmap td { width: 52px; }
+  .dash .heatmap thead th span { max-width: 52px; }
   .dash .lead-act .btn { width: 100%; }
 }
 /* ===== /results ===== */
@@ -1063,11 +1071,13 @@ screens.results = () => {
   const worst = withTop.reduce((a, r) => r.cells[0] < a.cells[0] ? r : a, withTop[0]);
   const div = disagreementRows(eff, top);
   const nDiv = Object.entries(eff).filter(([id, e]) => { const cp = candPos(T, id); return cp && Math.abs(e.v - cp.p) >= 2; }).length;
+  /* without a marked disagreement, the tile still shows the three widest (mild) gaps so it is not empty */
+  const gaps = div.length ? div : disagreementRows(eff, top, 1);
   const refined = [!!st.lvl, dilemmasDone(), leadDone(), Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean)].filter(Boolean).length;
   const refineCard = (id, title, sub, done) => `<button type="button" data-go="${id}"><span><b>${title}</b><span>${sub}</span></span>${done ? `<span class="done">${ICON.check} fait</span>` : ""}</button>`;
   const W = tileWidth();
-  let ti = 0;
-  const tile = (id, title, take, body, more, cls) => `<section class="tile ${cls || ""}" id="t-${id}" aria-labelledby="t-${id}-h" data-reveal style="--i:${ti++}">
+  let ti = 2 + CANDS.length; /* reveal order: hero, refine, the ranking rows, then the tiles */
+  const tile =(id, title, take, body, more, cls) => `<section class="tile ${cls || ""}" id="t-${id}" aria-labelledby="t-${id}-h" data-reveal style="--i:${ti++}">
       <h3 id="t-${id}-h">${title}</h3>${take ? `<p class="take">${take}</p>` : ""}${body}
       ${more ? `<details class="sec more"><summary>${more[0]}</summary><div class="body">${more[1]}</div></details>` : ""}</section>`;
   const posChip = v => `<span class="pos">${esc(POS_FR[String(v)] || fmtPos(v))}</span>`;
@@ -1075,11 +1085,11 @@ screens.results = () => {
     tile("themes", `Accord par thème`, withTop.length ? `Avec ${esc(tName)} : accord le plus fort sur ${esc(best.area.fr.toLowerCase())} (${pct(best.cells[0])}&nbsp;%), le plus faible sur ${esc(worst.area.fr.toLowerCase())} (${pct(worst.cells[0])}&nbsp;%).` : "",
       heatmap(areas, topN), null, "tall"),
     tile("map", `Carte des positions`, axisAgreement(ua, da), mapSVG(ua, da, W),
-      [`Lecture et axe européen`, `<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. Les points gris : les candidats, d'après leurs positions documentées.</p>${ua.eu !== null ? `<span class="label">Axe européen</span>${euStrip(ua.eu, da.eu, W)}` : ""}`], "tall"),
+      [`Comment lire la carte`, `<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. Les points gris : les candidats, d'après leurs positions documentées. Chaque axe résume les propositions qui s'y rattachent, de −1 à +1.</p>`], "tall"),
     tile("div", `Là où vous divergez de ${esc(T.name)}`, nDiv ? `${nDiv} proposition${nDiv > 1 ? "s" : ""} sur ${nEff} où vous êtes nettement en désaccord.` : "Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.",
-      div.length ? `<ol class="divs">${div.slice(0, 3).map(r => `<li><p>${esc(SBY[r.id].fr)}</p><p class="muted small">Vous : ${posChip(Math.round(r.e.v))} · ${esc(tName)} : ${posChip(r.cp.p)}</p></li>`).join("")}</ol>` : "",
+      gaps.length ? `${div.length ? "" : `<p class="muted small">Vos écarts les plus grands, tous légers :</p>`}<ol class="divs">${gaps.slice(0, 3).map(r => `<li><p>${esc(SBY[r.id].fr)}</p><p class="muted small">Vous : ${posChip(Math.round(r.e.v))} · ${esc(tName)} : ${posChip(r.cp.p)}</p></li>`).join("")}</ol>` : "",
       div.length ? [`Détail et sources (${div.length})`, disagreements(eff, top)] : null),
-    tile("rob", `Le premier rang change-t-il selon la méthode ?`, robOk ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité.",
+    tile("rob", `Le premier rang change‑t‑il selon la méthode ?`, robOk ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité.",
       `<ul class="specs">${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<li><span class="mark" aria-hidden="true">${k === top ? ICON.check : "≠"}</span><span class="n">${esc(n)}</span><b>${esc(CANDS[k].short || CANDS[k].name)}</b><span class="sr">${k === top ? ", même premier" : ", premier différent"}</span></li>`).join("")}</ul>`, null),
     expK >= 0 || exp === "undecided" ? tile("exp", `Votre intention de départ`, expK >= 0 ? `${esc(CANDS[expK].name)} est classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées.` : "Vous étiez indécis.",
       `<p class="small">${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées dans le détail." : ""}</p>`,
@@ -1101,7 +1111,7 @@ screens.results = () => {
     <section class="lead" data-reveal style="--i:0">
       <div class="lead-main">
         <span class="label">Votre résultat · vous êtes le plus proche de</span>
-        <div class="head">${tied.length === 1 ? avatar(T, "lg") : `<span class="pile">${tied.slice(0, 3).map(k => avatar(CANDS[k], "lg")).join("")}</span>`}<p class="who">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : T.name)}</p></div>
+        <div class="head">${tied.length === 1 ? avatar(T, "lg") : `<span class="pile">${tied.slice(0, 3).map(k => avatar(CANDS[k], "lg")).join("")}</span>`}<p class="who ${tied.length > 1 ? "many" : ""}">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : T.name)}</p></div>
         <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(T.party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
         <p class="small solid">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
         ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
@@ -1227,13 +1237,13 @@ function areaCells(eff, ks) {
 /* one neutral ramp (the accent over the surface), value printed in every cell so nothing is carried by colour alone */
 function heatmap(rows, ks) {
   const cell = v => v === null ? `<td class="na" aria-label="position inconnue">—</td>` : `<td><span class="heat" style="background:color-mix(in srgb, var(--accent) ${Math.round(v * v * 70)}%, transparent);color:${v > 0.75 ? "var(--accent-ink)" : "var(--ink)"}">${pct(v)}</span></td>`;
-  return `<table class="heatmap"><thead><tr><th scope="col"><span class="sr">Thème</span></th>${ks.map(k => `<th scope="col">${avatar(CANDS[k])}<span>${esc(CANDS[k].short || CANDS[k].name)}</span></th>`).join("")}</tr></thead>
-    <tbody>${rows.map(r => `<tr><th scope="row">${esc(r.area.fr)}</th>${r.cells.map(cell).join("")}</tr>`).join("")}</tbody></table>`;
+  return `<div class="tablewrap"><table class="heatmap"><thead><tr><th scope="col"><span class="sr">Thème</span></th>${ks.map(k => `<th scope="col">${avatar(CANDS[k])}<span>${esc(CANDS[k].short || CANDS[k].name)}</span></th>`).join("")}</tr></thead>
+    <tbody>${rows.map(r => `<tr><th scope="row">${esc(r.area.fr)}</th>${r.cells.map(cell).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
-function disagreementRows(eff, k) {
+function disagreementRows(eff, k, minGap = 2) {
   const c = CANDS[k];
   return Object.entries(eff).map(([id, e]) => { const cp = candPos(c, id); return cp ? { id, e, cp, gap: Math.abs(e.v - cp.p) } : null; })
-    .filter(r => r && r.gap >= 2).sort((a, b) => b.gap - a.gap).slice(0, 8);
+    .filter(r => r && r.gap >= minGap).sort((a, b) => b.gap - a.gap).slice(0, 8);
 }
 function disagreements(eff, k) {
   const c = CANDS[k];
