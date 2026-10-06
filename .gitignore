@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 analysis/e2e-out*/
 docs/screens/
+.claude/worktrees/
+.vercel/
+.vercel
+.env*

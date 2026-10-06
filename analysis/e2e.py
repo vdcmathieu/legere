@@ -2,7 +2,9 @@
 
 Plays one respondent through every screen, checks for console errors,
 horizontal overflow and dead ends, and saves screenshots.
-Usage: python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [persona=<cid>]
+Usage: python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [motion] [persona=<cid>]
+Screenshots are taken with reduced motion so they never catch an animation mid-way; pass "motion"
+to run with animations on and check that they never block a click.
 """
 import random, sys
 from pathlib import Path
@@ -11,9 +13,10 @@ from playwright.sync_api import sync_playwright
 url, out = sys.argv[1], Path(sys.argv[2])
 mobile = "mobile" in sys.argv[3:]
 dark = "dark" in sys.argv[3:]
+motion = "motion" in sys.argv[3:]
 persona = next((a.split("=")[1] for a in sys.argv[3:] if a.startswith("persona=")), None)
 out.mkdir(parents=True, exist_ok=True)
-tag = ("mobile" if mobile else "desktop") + ("-dark" if dark else "") + (f"-{persona}" if persona else "")
+tag = ("mobile" if mobile else "desktop") + ("-dark" if dark else "") + ("-motion" if motion else "") + (f"-{persona}" if persona else "")
 rnd = random.Random(7)
 errors, notes = [], []
 
@@ -47,7 +50,7 @@ with sync_playwright() as p:
     b = p.chromium.launch()
     ctx = b.new_context(viewport={"width": 360, "height": 780} if mobile else {"width": 1280, "height": 900},
                         color_scheme="dark" if dark else "light", device_scale_factor=2 if mobile else 1,
-                        has_touch=mobile, is_mobile=mobile)
+                        has_touch=mobile, is_mobile=mobile, reduced_motion="no-preference" if motion else "reduce")
     page = ctx.new_page()
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))
@@ -137,9 +140,22 @@ with sync_playwright() as p:
     shot(page, "10-results-full"); overflow(page, "results-full")
     notes.append("refine done flags: " + str(page.locator(".refine .done").count()))
     page.click("#nav-cands"); page.wait_for_timeout(300)
-    shot(page, "11-fiche"); overflow(page, "fiche")
+    shot(page, "11-candidats"); overflow(page, "candidats")
+    notes.append("candidats route: " + page.evaluate("location.hash") + " | cards: " + str(page.locator(".cd-card").count()))
+    page.locator(".cd-card").first.click(); page.wait_for_timeout(300)
+    shot(page, "11b-fiche"); overflow(page, "fiche")
+    page.click("[data-tab='justice']"); page.wait_for_timeout(200)
+    shot(page, "11c-fiche-justice"); overflow(page, "fiche-justice")
+    notes.append("fiche route: " + page.evaluate("location.hash"))
     page.click("#nav-method"); page.wait_for_timeout(300)
     shot(page, "12-method"); overflow(page, "method")
+    notes.append("method route: " + page.evaluate("location.hash"))
+    if page.locator("#foot-legal").count():
+        page.click("#foot-legal"); page.wait_for_timeout(300)
+        shot(page, "13-legal"); overflow(page, "legal")
+        notes.append("legal route: " + page.evaluate("location.hash") + " | h1: " + page.locator("h1").first.inner_text()[:50])
+    page.go_back(); page.wait_for_timeout(300)
+    notes.append("browser back lands on: " + page.evaluate("location.hash"))
     page.reload(); page.wait_for_timeout(600)
     notes.append("after reload screen: " + page.locator("h1, h2").first.inner_text()[:80])
     page.click("#nav-home"); page.wait_for_timeout(200)

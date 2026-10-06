@@ -3,70 +3,133 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>Legere 2027</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<meta name="theme-color" content="#f1f3ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111716" media="(prefers-color-scheme: dark)">
+<title>Legere - De quels candidats êtes-vous proche ? Présidentielle 2027</title>
+<meta name="description" content="Répondez à une vingtaine de propositions concrètes et découvrez de quels candidats à la présidentielle 2027 vous êtes le plus proche, et pourquoi. Sans inscription : vos réponses restent dans votre navigateur.">
+<link rel="canonical" href="https://legere.vandecatsije.com/">
+<meta property="og:url" content="https://legere.vandecatsije.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Legere">
+<meta property="og:title" content="Legere - De quels candidats êtes-vous proche ?">
+<meta property="og:description" content="Une vingtaine de propositions concrètes, un résultat honnête, et les sources pour le vérifier. Présidentielle 2027.">
+<meta property="og:image" content="https://legere.vandecatsije.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Legere - Avec quelles idées êtes-vous d'accord ?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Legere - De quels candidats êtes-vous proche ?">
+<meta name="twitter:description" content="Une vingtaine de propositions concrètes, un résultat honnête, et les sources pour le vérifier. Présidentielle 2027.">
+<meta name="twitter:image" content="https://legere.vandecatsije.com/og.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/plexsans-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/spectral-500-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-/* One narrow column, one question per screen. Party colours are never used: every candidate shares the same neutral ink. */
+/* Fonts are served from this site (public/fonts): no visitor request reaches a third party. Latin and latin-ext subsets only. */
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/spectral-400-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/spectral-400-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Spectral"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/spectral-400i-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Spectral"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/spectral-400i-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/spectral-500-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/spectral-500-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/spectral-600-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/spectral-600-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Sans"; font-style: normal; font-weight: 400 600; font-display: swap; src: url("fonts/plexsans-var-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Sans"; font-style: normal; font-weight: 400 600; font-display: swap; src: url("fonts/plexsans-var-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Sans"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/plexsans-400i-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Sans"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/plexsans-400i-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* "Le bulletin": ink on stone paper, one narrow column, one question per screen.
+   One accent, a verdigris teal (the patina of the Mariannes in town halls), marks only what the visitor does:
+   the primary button, the progress bar, the selected answer, focus. No French party owns that hue.
+   Candidates, scores and the answer scale stay in the ink family, so no colour ever maps onto a side.
+   The tricolore appears exactly twice, desaturated and decorative (the ribbon at the top edge and the cockade in the mark). */
 :root {
-  --paper: #f4f3ef;
+  --paper: #f1f3ef;
   --card: #ffffff;
-  --ink: #1c2022;
-  --muted: #5a6366;
-  --line: #d8dbd5;
-  --soft: #e9ebe5;
-  --accent: #1e5e59;
+  --ink: #15201f;
+  --muted: #56625f;
+  --line: #d4dbd6;
+  --soft: #e5eae6;
+  --accent: #176b64;
   --accent-ink: #ffffff;
-  --accent-soft: #dcebe7;
-  --warn: #7f4d00;
-  --warn-soft: #f6ead6;
+  --accent-soft: #dceee9;
+  --accent-strong: #11554f;
+  --accent-text: #146059;
+  --warn: #7a5a22;
+  --warn-soft: #f4ecd9;
+  --bleu: #5b6f99;
+  --blanc: #ffffff;
+  --rouge: #b5636d;
+  --shadow: 0 1px 2px rgba(21, 32, 31, .06), 0 8px 24px -12px rgba(21, 32, 31, .18);
   --serif: "Spectral", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --r: 12px;
+  --r-lg: 18px;
   --tap: 52px;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #121615; --card: #1b201f; --ink: #e8ece9; --muted: #a4aeaa; --line: #303937; --soft: #222827;
-    --accent: #7fcac0; --accent-ink: #0d1a18; --accent-soft: #1f3532; --warn: #e5ad62; --warn-soft: #3a2d19;
+    --paper: #111716; --card: #192120; --ink: #e8ece9; --muted: #9faba6; --line: #2b3634; --soft: #1e2826;
+    --accent: #6fcbc1; --accent-ink: #0b1f1d; --accent-soft: #1a3330; --accent-strong: #8ddad1; --accent-text: #7fd3c9;
+    --warn: #d9b66c; --warn-soft: #2d2718;
+    --bleu: #7287b1; --blanc: #cfd5d0; --rouge: #bb717a;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px -12px rgba(0, 0, 0, .6);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #121615; --card: #1b201f; --ink: #e8ece9; --muted: #a4aeaa; --line: #303937; --soft: #222827;
-  --accent: #7fcac0; --accent-ink: #0d1a18; --accent-soft: #1f3532; --warn: #e5ad62; --warn-soft: #3a2d19;
+  --paper: #111716; --card: #192120; --ink: #e8ece9; --muted: #9faba6; --line: #2b3634; --soft: #1e2826;
+  --accent: #6fcbc1; --accent-ink: #0b1f1d; --accent-soft: #1a3330; --accent-strong: #8ddad1; --accent-text: #7fd3c9;
+  --warn: #d9b66c; --warn-soft: #2d2718;
+  --bleu: #7287b1; --blanc: #cfd5d0; --rouge: #bb717a;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px -12px rgba(0, 0, 0, .6);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.5 var(--sans); min-height: 100dvh; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.5 var(--sans); min-height: 100dvh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
 button { font: inherit; color: inherit; }
-.wrap { max-width: 600px; margin: 0 auto; padding: 0 16px 56px; }
+img { display: block; max-width: 100%; }
+.ribbon { display: grid; grid-template-columns: 1fr 1fr 1fr; height: 4px; flex: none; }
+.ribbon i:nth-child(1) { background: var(--bleu); }
+.ribbon i:nth-child(2) { background: var(--blanc); }
+.ribbon i:nth-child(3) { background: var(--rouge); }
+.wrap { width: 100%; max-width: 600px; margin: 0 auto; padding: 0 16px 48px; flex: 1; display: flex; flex-direction: column; }
 .wrap.wide { max-width: 760px; }
+main { flex: 1; }
 h1, h2, h3 { font-family: var(--serif); font-weight: 500; text-wrap: balance; margin: 0; line-height: 1.15; }
 h1 { font-size: clamp(28px, 7vw, 38px); }
 h2 { font-size: 24px; }
 h3 { font-size: 19px; }
 p { margin: 0; }
-a { color: var(--accent); }
+a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .stack { display: flex; flex-direction: column; gap: 18px; }
 .stack-s { display: flex; flex-direction: column; gap: 10px; }
 .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .muted { color: var(--muted); }
 .small { font-size: 15px; }
-.label { font: 600 12.5px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.label { font: 500 14px/1.35 var(--sans); color: var(--muted); }
 .num { font-variant-numeric: tabular-nums; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* top bars */
-.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; padding: 8px 0; }
-.brand { font: 600 21px/1 var(--serif); letter-spacing: .01em; background: none; border: 0; padding: 8px 0; cursor: pointer; color: var(--ink); }
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 12px; min-height: 68px; padding: 12px 0; }
+.top nav.links { margin-left: auto; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font: 600 23px/1 var(--serif); letter-spacing: .005em; background: none; border: 0; padding: 8px 0; cursor: pointer; color: var(--ink); }
+.cockade { width: 24px; height: 24px; flex: none; }
 nav.links { display: flex; gap: 4px; }
-nav.links button { background: none; border: 0; padding: 10px 10px; min-height: 44px; color: var(--muted); font: 500 15px var(--sans); cursor: pointer; border-radius: 8px; }
-.qbar { display: flex; align-items: center; gap: 10px; min-height: 60px; padding: 8px 0; }
+nav.links button { background: none; border: 0; padding: 10px 12px; min-height: 44px; color: var(--muted); font: 500 15px var(--sans); cursor: pointer; border-radius: 999px; }
+nav.links button[aria-current="page"] { color: var(--accent-text); background: var(--accent-soft); }
+nav.links button { white-space: nowrap; }
+nav.links .short { display: none; }
+@media (max-width: 480px) { nav.links .full { display: none; } nav.links .short { display: inline; } nav.links button { padding: 10px 10px; } }
+.qbar { display: flex; align-items: center; gap: 10px; min-height: 68px; padding: 12px 0; }
 .qbar .progress { flex: 1; }
 .icon-btn { width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--ink); flex: none; }
 .icon-btn:disabled { opacity: .3; cursor: default; background: none; }
@@ -78,56 +141,98 @@ nav.links button { background: none; border: 0; padding: 10px 10px; min-height: 
 /* buttons */
 .btn { appearance: none; border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper); font: 600 17px var(--sans); min-height: var(--tap); padding: 12px 22px; border-radius: var(--r); cursor: pointer; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-align: center; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-.btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); font-weight: 500; }
-.btn.link { background: none; border: 0; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; min-height: 44px; width: auto; padding: 8px 4px; font-weight: 500; }
+.btn.ghost { background: var(--card); color: var(--ink); border-color: var(--line); font-weight: 500; }
+.btn.link { background: none; border: 0; color: var(--ink); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; min-height: 44px; width: auto; padding: 8px 4px; font-weight: 500; }
 .btn:disabled { opacity: .45; cursor: default; }
 .btn.auto { width: auto; }
+.btn svg { width: 20px; height: 20px; flex: none; }
 
 /* answer options */
-.opts { display: flex; flex-direction: column; gap: 7px; }
+.opts { display: flex; flex-direction: column; gap: 8px; }
 .opt { width: 100%; min-height: var(--tap); border: 1.5px solid var(--line); background: var(--card); color: var(--ink); border-radius: var(--r); padding: 12px 16px; font: 500 17px/1.3 var(--sans); cursor: pointer; display: flex; align-items: center; gap: 14px; text-align: left; transition: border-color .12s, background .12s; }
-.opt .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--muted); flex: none; display: grid; place-items: center; }
+.opt .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); flex: none; display: grid; place-items: center; background: var(--card); }
 .opt .dot::after { content: ""; width: 10px; height: 10px; border-radius: 50%; background: transparent; }
-.opt.on { border-color: var(--accent); background: var(--accent-soft); }
+.opt.on { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
 .opt.on .dot { border-color: var(--accent); }
 .opt.on .dot::after { background: var(--accent); }
 .opt .sub { display: block; font-size: 14.5px; color: var(--muted); font-weight: 400; margin-top: 2px; }
 .opt .key { margin-left: auto; font: 500 12px var(--sans); color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; }
 .opt.lvl { flex: 1; justify-content: center; min-height: 44px; padding: 8px 6px; font-size: 15px; }
 .chip { border: 1.5px solid var(--line); background: var(--card); color: var(--muted); border-radius: 999px; padding: 10px 16px; min-height: 44px; font: 500 15px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
-.chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.chip svg { width: 18px; height: 18px; }
+.chip.on { border-color: var(--accent); color: var(--accent-text); background: var(--accent-soft); }
 .under { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 
 /* statement */
-.q { display: flex; flex-direction: column; gap: 14px; animation: enter .22s ease-out; }
+.q { display: flex; flex-direction: column; gap: 16px; animation: enter .22s ease-out; }
 @keyframes enter { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-.statement { font: 400 clamp(22px, 5.6vw, 28px)/1.3 var(--serif); text-wrap: pretty; }
-.term { cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; text-decoration: underline dotted var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; border-radius: 3px; }
-.plain { background: var(--soft); border-radius: var(--r); padding: 11px 14px; display: flex; flex-direction: column; gap: 4px; font-size: 15.5px; line-height: 1.42; }
-.plain .label { font-size: 11.5px; }
-.plain .more { align-self: flex-start; background: none; border: 0; padding: 6px 0; color: var(--accent); font: 500 15px var(--sans); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; min-height: 36px; }
+.q > .label { display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; color: var(--ink); font-weight: 500; }
+.q > .label::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.statement { font: 400 clamp(23px, 5.8vw, 29px)/1.3 var(--serif); text-wrap: pretty; }
+.term { cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; text-decoration: underline dotted var(--muted); text-decoration-thickness: 2px; text-underline-offset: 4px; border-radius: 3px; }
+.plain { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0 var(--r) var(--r) 0; padding: 12px 16px; display: flex; flex-direction: column; gap: 4px; font-size: 15.5px; line-height: 1.42; }
+.plain .label { color: var(--accent-text); font-weight: 600; font-size: 14px; }
+.plain .more { align-self: flex-start; background: none; border: 0; padding: 6px 0; color: var(--ink); font: 500 15px var(--sans); cursor: pointer; text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; min-height: 36px; }
 .kbd-hint { font-size: 13.5px; color: var(--muted); text-align: center; }
 kbd { font: 12px var(--sans); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; color: var(--muted); }
 
 /* home */
-.hero { display: flex; flex-direction: column; gap: 18px; padding-top: 12px; }
+.hero { display: flex; flex-direction: column; gap: 18px; padding-top: 22px; }
+.hero h1 { font-size: clamp(34px, 8.6vw, 48px); line-height: 1.06; letter-spacing: -.01em; }
+.hero .intro { font-size: 18px; max-width: 34em; }
+.hero .cta { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.hero .cta .btn { max-width: 420px; }
+.hero .cta .small { text-align: center; }
+/* the specimen: one real proposition laid out as the slip the visitor will answer, stacked like a pile of bulletins */
+.specimen { position: relative; margin: 10px 0 6px; padding: 0 10px; }
+.specimen .slip { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 20px 22px 18px; display: flex; flex-direction: column; gap: 14px; box-shadow: var(--shadow); position: relative; }
+.specimen .slip::before, .specimen .slip::after { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); }
+.specimen .slip::before { transform: rotate(-2.4deg) translate(-8px, 6px); background: var(--soft); }
+.specimen .slip::after { transform: rotate(1.8deg) translate(8px, 10px); background: var(--paper); }
+.specimen .slip > .label { color: var(--accent-text); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+.specimen .slip > .label::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.specimen .text { font: 400 clamp(20px, 5vw, 24px)/1.3 var(--serif); text-wrap: pretty; }
+.specimen .scale { display: flex; align-items: center; gap: 10px; padding-top: 4px; }
+.specimen .scale span { font: 500 13.5px var(--sans); color: var(--muted); }
+.specimen .scale .dots { display: flex; gap: 6px; flex: 1; justify-content: center; }
+.specimen .scale i { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--line); background: var(--card); }
+.specimen .scale i.on { border-color: var(--accent); background: var(--accent); box-shadow: inset 0 0 0 3px var(--card); }
+.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; counter-reset: step; }
+.steps li { display: grid; grid-template-columns: 34px 1fr; gap: 14px; align-items: start; font-size: 16px; counter-increment: step; }
+.steps li::before { content: counter(step); width: 34px; height: 34px; border-radius: 50%; background: var(--accent-soft); color: var(--accent-text); font: 600 15px/34px var(--serif); text-align: center; }
+.steps b { display: block; font-weight: 600; }
 .facts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.facts li { display: flex; gap: 12px; align-items: flex-start; font-size: 16px; }
-.facts svg { width: 22px; height: 22px; flex: none; margin-top: 2px; color: var(--accent); }
+.facts li { display: flex; gap: 12px; align-items: flex-start; font-size: 15.5px; color: var(--muted); }
+.facts svg { width: 20px; height: 20px; flex: none; margin-top: 2px; color: var(--accent-text); }
+.home-sec { display: flex; flex-direction: column; gap: 14px; padding-top: 36px; }
+.home-sec h2 { font-size: 22px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .card.soft { background: var(--soft); border-color: transparent; }
-.note { background: var(--warn-soft); border-radius: var(--r); padding: 12px 14px; font-size: 15px; }
+.card.resume { border-color: var(--accent); box-shadow: var(--shadow); }
+.card.resume > .label { color: var(--accent-text); font-weight: 600; }
+.note { background: var(--soft); border-left: 3px solid var(--ink); border-radius: 0 var(--r) var(--r) 0; padding: 12px 14px; font-size: 15px; }
+.note.warn { background: var(--warn-soft); border-left-color: var(--warn); }
+
+/* footer */
+.foot { border-top: 1px solid var(--line); margin-top: 48px; padding: 24px 0 8px; display: flex; flex-direction: column; gap: 14px; font-size: 14px; color: var(--muted); }
+.foot .foot-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 24px; }
+.foot nav { display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.foot nav button { background: none; border: 0; padding: 6px 0; min-height: 36px; color: var(--ink); font: 500 14.5px var(--sans); cursor: pointer; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.foot .mark { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); font: 600 17px var(--serif); background: none; border: 0; padding: 6px 0; cursor: pointer; }
+.foot .mark .cockade { width: 18px; height: 18px; }
+.foot .fine { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 13.5px; }
 
 /* sheet (dialog) */
-dialog.sheet { border: 0; padding: 0; background: var(--card); color: var(--ink); border-radius: 18px 18px 0 0; width: 100%; max-width: 100%; margin: auto 0 0; max-height: 85vh; max-height: 85dvh; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
+dialog.sheet { border: 0; padding: 0; background: var(--card); color: var(--ink); border-radius: var(--r-lg) var(--r-lg) 0 0; width: 100%; max-width: 100%; margin: auto 0 0; max-height: 85vh; max-height: 85dvh; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
 dialog.sheet::backdrop { background: rgba(0,0,0,.45); }
 dialog.sheet .inner { padding: 12px 20px 28px; display: flex; flex-direction: column; gap: 14px; overflow: auto; max-height: 85dvh; }
 dialog.sheet .grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 4px; }
 dialog.sheet .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-dialog.sheet h2 { font-size: 22px; }
+dialog.sheet h2 { font-size: 22px; padding-top: 6px; }
 dialog.sheet .block { display: flex; flex-direction: column; gap: 4px; font-size: 16px; line-height: 1.45; }
+dialog.sheet .block .label { color: var(--ink); font-weight: 600; }
 @media (min-width: 640px) {
-  dialog.sheet { margin: auto; border-radius: 18px; max-width: 560px; }
+  dialog.sheet { margin: auto; border-radius: var(--r-lg); max-width: 560px; }
   dialog.sheet .grip { display: none; }
 }
 
@@ -138,32 +243,44 @@ dialog.sheet .block { display: flex; flex-direction: column; gap: 4px; font-size
 .strength { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .strength .opt { justify-content: center; text-align: center; padding: 10px 6px; font-size: 15px; }
 
-/* priorities */
-.prio { display: flex; flex-direction: column; gap: 12px; }
-.prio-row { display: flex; flex-direction: column; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
-.prio-row .lvls { display: flex; gap: 6px; }
+/* priorities: one segmented control per theme */
+.prio { display: flex; flex-direction: column; gap: 4px; }
+.prio-row { display: flex; flex-direction: column; gap: 8px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.prio-row > span { font-weight: 500; }
+.prio-row .lvls { display: flex; gap: 0; border: 1.5px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--card); }
+.prio-row .lvls .opt { border: 0; border-radius: 0; box-shadow: none; }
+.prio-row .lvls .opt + .opt { border-left: 1.5px solid var(--line); }
+.prio-row .lvls .opt.on { background: var(--accent-soft); color: var(--accent-text); font-weight: 600; }
+@media (min-width: 560px) { .prio-row { flex-direction: row; align-items: center; justify-content: space-between; } .prio-row .lvls { width: 280px; flex: none; } }
 
 /* results */
 .lead { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 20px; display: flex; flex-direction: column; gap: 10px; }
+.lead .head { display: flex; align-items: center; gap: 16px; }
 .lead .who { font: 500 clamp(26px, 6.4vw, 34px)/1.15 var(--serif); }
 .lead .party { color: var(--muted); font-size: 15.5px; }
+.avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: none; background: var(--soft); border: 1px solid var(--line); filter: grayscale(1); }
+.avatar.lg { width: 72px; height: 72px; }
+.avatar.xl { width: 112px; height: 112px; }
 .ranking { display: flex; flex-direction: column; }
-.res-row { display: grid; grid-template-columns: 28px minmax(0, 1fr) 64px; grid-template-areas: "rank who pct" "rank ci ci"; gap: 4px 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.res-row { display: grid; grid-template-columns: 26px minmax(0, 1fr) 64px; grid-template-areas: "rank who pct" "rank ci ci"; gap: 4px 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.ranking.photos .res-row { grid-template-columns: 26px 40px minmax(0, 1fr) 64px; grid-template-areas: "rank pic who pct" "rank pic ci ci"; }
 .res-row .rank { grid-area: rank; font: 500 15px var(--sans); color: var(--muted); text-align: center; }
+.res-row .avatar { grid-area: pic; }
 .res-row .who { grid-area: who; min-width: 0; }
 .res-row .who b { display: block; font: 500 17px/1.25 var(--sans); }
 .res-row .who span { font-size: 13.5px; color: var(--muted); }
 .res-row .pct { grid-area: pct; font: 600 18px var(--sans); text-align: right; font-variant-numeric: tabular-nums; }
 .res-row .ci { grid-area: ci; position: relative; height: 16px; }
 .ci .track { position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--line); }
-.ci .band { position: absolute; top: 3px; height: 10px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 3px; }
-.ci .pt { position: absolute; top: 0; width: 3px; height: 16px; background: var(--accent); border-radius: 2px; }
-.res-row.tie .who b::after { content: " · ex æquo"; font-weight: 400; color: var(--warn); font-size: 13.5px; }
+.ci .band { position: absolute; top: 3px; height: 10px; background: var(--accent-soft); border: 1px solid var(--muted); border-radius: 3px; }
+.ci .pt { position: absolute; top: 0; width: 3px; height: 16px; background: var(--ink); border-radius: 2px; }
+.res-row.tie .who b::after { content: " · ex æquo"; font-weight: 400; color: var(--muted); font-size: 13.5px; white-space: nowrap; }
 .refine { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .refine button { text-align: left; display: flex; align-items: center; gap: 14px; background: var(--card); border: 1.5px solid var(--line); border-radius: var(--r); padding: 14px 16px; cursor: pointer; min-height: 64px; width: 100%; }
 .refine button b { display: block; font: 500 17px var(--sans); }
 .refine button span { font-size: 14px; color: var(--muted); }
-.refine .done { margin-left: auto; color: var(--accent); font-size: 14px; font-weight: 500; white-space: nowrap; }
+.refine .done { margin-left: auto; color: var(--ink); font-size: 14px; font-weight: 500; white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; }
+.refine .done svg { width: 18px; height: 18px; }
 details.sec { border-top: 1px solid var(--line); }
 details.sec summary { cursor: pointer; padding: 16px 0; font: 500 18px var(--serif); list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
 details.sec summary::-webkit-details-marker { display: none; }
@@ -173,34 +290,349 @@ details.sec .body { padding-bottom: 18px; display: flex; flex-direction: column;
 .tablewrap { overflow-x: auto; }
 table { border-collapse: collapse; font-size: 14.5px; width: 100%; }
 th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font: 600 12px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
-td.num { text-align: right; }
+th { font: 500 13.5px var(--sans); color: var(--muted); }
+td.num, th.num { text-align: right; }
 .heat { display: inline-block; min-width: 42px; text-align: center; border-radius: 4px; padding: 2px 5px; font-weight: 500; }
 .pos { display: inline-block; min-width: 28px; text-align: center; font: 500 13px var(--sans); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
 .src { font-size: 13.5px; color: var(--muted); }
-.lean { font: 500 11px var(--sans); text-transform: uppercase; letter-spacing: .04em; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; color: var(--muted); white-space: nowrap; }
+.lean { font: 500 12px var(--sans); border: 1px solid var(--line); border-radius: 3px; padding: 0 5px; color: var(--muted); white-space: nowrap; }
 svg text { fill: var(--muted); font: 12px var(--sans); }
-svg .cand { fill: var(--ink); }
-svg .you { fill: var(--accent); }
+svg .cand { fill: var(--muted); }
+svg .you { fill: var(--ink); stroke: var(--paper); stroke-width: 2px; }
 textarea { width: 100%; min-height: 110px; resize: vertical; font: 400 17px/1.5 var(--sans); padding: 12px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); }
-select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); max-width: 100%; width: 100%; appearance: none; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M3 6l5 5 5-5' fill='none' stroke='%23777' stroke-width='2'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
+select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); max-width: 100%; width: 100%; appearance: none; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M3 6l5 5 5-5' fill='none' stroke='%23888' stroke-width='2'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.method h2, .method h3 { margin-top: 18px; }
-.method p, .method li { font-size: 16px; }
+
+/* ===== results ===== */
+/* The results screen is a dashboard: a wider container, a hero, a two-column ranking and a grid of tiles.
+   Every mark uses the same ink; emphasis comes from weight, contrast and the respondent's own marker. */
+.wrap:has(.dash) { max-width: 1120px; }
+.dash { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 16px; align-items: stretch; }
+.dash > * { min-width: 0; }
+.dash .lead { grid-column: 1; border-radius: 16px; padding: 24px 24px 22px; gap: 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "main stats" "act stats"; align-items: start; }
+.dash .lead-main { grid-area: main; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dash .lead .head { align-items: center; gap: 16px; }
+.dash .lead .who { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; }
+.dash .lead .who.many { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.2; }
+.dash .lead .pile { display: inline-flex; flex: none; }
+.dash .lead .pile .avatar { margin-left: -22px; box-shadow: 0 0 0 2px var(--card); }
+.dash .lead .pile .avatar:first-child { margin-left: 0; }
+.dash .lead .solid { color: var(--ink); }
+.dash .lead-stats { grid-area: stats; display: flex; flex-direction: column; gap: 14px; padding-left: 22px; border-left: 1px solid var(--line); min-width: 190px; max-width: 240px; }
+.dash .stat { display: flex; flex-direction: column; gap: 2px; }
+.dash .stat .val { font: 600 40px/1 var(--sans); letter-spacing: -.01em; }
+.dash .stat .lbl { font-size: 14px; line-height: 1.3; color: var(--muted); }
+.dash .stat .sub { font-size: 12.5px; color: var(--muted); }
+.dash .meter { display: block; height: 6px; border-radius: 3px; background: var(--soft); margin-top: 6px; overflow: hidden; }
+.dash .meter i { display: block; height: 100%; background: var(--ink); border-radius: 3px; }
+.dash .lead-act { grid-area: act; }
+.dash .lead-act .btn { width: auto; }
+.dash .refine-card { grid-column: 2; grid-row: 1; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.dash .refine-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.dash .refine-head h2 { font-size: 21px; }
+.dash .refine { gap: 6px; }
+.dash .refine button { min-height: 52px; padding: 9px 12px; gap: 10px; border-width: 1px; }
+.dash .refine button b { font-size: 15.5px; }
+.dash .refine button span span { font-size: 13px; display: block; }
+.dash .rank-card, .dash .tiles, .dash .tiles-h, .dash .dash-foot, .dash #copied, .dash #copy-fallback { grid-column: 1 / -1; }
+.dash .rank-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px 10px; display: flex; flex-direction: column; gap: 10px; }
+.dash .rank-head { display: flex; flex-direction: column; gap: 4px; max-width: 72ch; }
+.dash .rank-head h2 { font-size: 22px; }
+.dash .ranking { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; grid-auto-flow: column; grid-template-rows: repeat(6, auto); }
+.dash .res-row { padding: 8px 0; grid-template-columns: 22px minmax(0, 1fr) 56px; }
+.dash .ranking.photos .res-row { grid-template-columns: 22px 36px minmax(0, 1fr) 56px; }
+.dash .res-row .avatar { width: 36px; height: 36px; }
+.dash .res-row .who b { font-size: 16px; }
+.dash .res-row .pct { font-size: 17px; }
+.dash .res-row.top .rank { color: var(--ink); font-weight: 600; }
+.dash .ranking > :nth-child(6), .dash .ranking > :nth-child(12) { border-bottom: 0; }
+.dash .tiles-h { font-size: 22px; margin-top: 10px; }
+.dash .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-flow: dense; gap: 16px; align-items: stretch; }
+.dash .tiles:has(.more[open]) { align-items: start; } /* an opened detail grows its own tile, not its neighbours */
+.dash .tile { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dash .tile.tall { grid-row: span 2; }
+.dash .tile.w2 { grid-column: span 2; }
+.dash .tile.w3 { grid-column: span 3; }
+.dash .tile h3 { font-size: 18px; }
+.dash .tile .take { font: 400 15px/1.4 var(--serif); }
+.dash .tile .more { margin-top: auto; border-top: 1px solid var(--line); }
+.dash .tile .more summary { padding: 10px 0; font: 500 14.5px var(--sans); color: var(--muted); }
+.dash .tile .more[open] summary { color: var(--ink); }
+.dash .tile .more .body { padding-bottom: 6px; font-size: 14.5px; }
+.dash .tile .tablewrap { margin: 0 -4px; }
+.dash .tile svg { display: block; margin: 0 auto; }
+/* heatmap: themes by the top candidates, one ramp, value in every cell */
+.dash .heatmap { font-size: 13px; width: 100%; }
+.dash .heatmap th, .dash .heatmap td { padding: 3px 2px; border-bottom: 0; }
+.dash .heatmap thead th { text-align: center; font: 500 11.5px var(--sans); color: var(--ink); vertical-align: bottom; padding-bottom: 6px; }
+.dash .heatmap thead th span { display: block; max-width: 72px; margin: 0 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.dash .heatmap thead th .avatar { width: 30px; height: 30px; margin: 0 auto 3px; }
+.dash .heatmap tbody th { font: 400 13.5px/1.2 var(--sans); color: var(--ink); padding-right: 14px; width: 1%; white-space: nowrap; }
+.dash .heatmap td { text-align: center; }
+.dash .heatmap td.na { color: var(--muted); }
+.dash .heatmap .heat { display: block; min-width: 0; padding: 5px 0; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+/* divergences: the three widest gaps */
+.dash .divs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; counter-reset: d; }
+.dash .divs li { display: flex; flex-direction: column; gap: 3px; padding: 8px 0 8px 0; border-top: 1px solid var(--line); }
+.dash .divs li p:first-child { font: 400 15px/1.35 var(--serif); }
+/* robustness: four methods, one name each */
+.dash .specs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.dash .specs li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.dash .specs .mark { display: inline-grid; place-items: center; width: 20px; height: 20px; color: var(--ink); font: 600 14px var(--sans); }
+.dash .specs .mark svg { width: 18px; height: 18px; }
+.dash .specs .n { color: var(--muted); line-height: 1.25; }
+.dash .specs b { font-weight: 500; white-space: nowrap; }
+/* profile bars */
+.dash .bars { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.dash .bars li { display: grid; grid-template-columns: 28px 86px minmax(0, 1fr) 44px; gap: 8px; align-items: center; font-size: 14px; }
+.dash .bars .avatar { width: 28px; height: 28px; }
+.dash .bars .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dash .bars .bar { display: block; height: 10px; border-radius: 3px; background: var(--soft); overflow: hidden; }
+.dash .bars .bar i { display: block; height: 100%; background: var(--ink); border-radius: 0 3px 3px 0; }
+.dash .bars .v { text-align: right; font-weight: 500; }
+/* answer quality: label and value pairs */
+.dash .kv { margin: 0; display: flex; flex-direction: column; }
+.dash .kv > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.dash .kv dt { line-height: 1.3; }
+.dash .kv dd { margin: 0; font: 600 20px/1 var(--sans); flex: none; }
+.dash .dash-foot { margin-top: 4px; }
+@media (max-width: 1000px) {
+  .dash .lead { grid-template-columns: 1fr; grid-template-areas: "main" "stats" "act"; }
+  .dash .lead-stats { flex-direction: row; flex-wrap: wrap; gap: 18px 28px; padding: 14px 0 0; border-left: 0; border-top: 1px solid var(--line); max-width: none; }
+  .dash .stat { flex: 1 1 150px; }
+  .dash .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dash .tile.tall { grid-row: auto; }
+  .dash .tile.w2, .dash .tile.w3 { grid-column: auto; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: span 2; }
+  .dash .heatmap tbody th { width: auto; white-space: normal; min-width: 64px; padding-right: 10px; }
+  .dash .heatmap td { width: 60px; }
+}
+@media (max-width: 860px) {
+  .dash { grid-template-columns: 1fr; }
+  .dash .lead, .dash .refine-card { grid-column: 1; grid-row: auto; }
+}
+@media (max-width: 700px) {
+  .dash .ranking { grid-template-columns: 1fr; grid-auto-flow: row; grid-template-rows: none; }
+  .dash .ranking > :nth-child(6) { border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 600px) {
+  .dash .lead, .dash .refine-card, .dash .rank-card, .dash .tile { padding: 18px 16px; }
+  .dash .stat .val { font-size: 32px; }
+  .dash .tiles { grid-template-columns: 1fr; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: auto; }
+  .dash .heatmap td { width: 52px; }
+  .dash .heatmap thead th span { max-width: 52px; font-size: 11px; }
+  .dash .heatmap tbody th { font-size: 13px; }
+  .dash .lead-act .btn { width: 100%; }
+}
+/* ===== /results ===== */
+
+/* candidate fiche */
+.fiche-head { display: flex; gap: 18px; align-items: center; }
+.fiche-head .names { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.fiche-head h1 { font-size: clamp(26px, 6.5vw, 32px); }
+.credit { font-size: 13px; color: var(--muted); }
+/* ===== candidates ===== */
+/* index: a trombinoscope, every card the same size and treatment, alphabetical */
+.cd-index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 12px; }
+.cd-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 20px 12px 16px; cursor: pointer; min-width: 0; }
+.cd-card .avatar { width: 76px; height: 76px; margin-bottom: 8px; }
+.cd-card b { font: 500 18px/1.2 var(--serif); text-wrap: balance; }
+.cd-card .party { font-size: 13.5px; color: var(--muted); }
+.cd-card .role { font-size: 13.5px; line-height: 1.35; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 640px) { .cd-index { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .cd-card { padding: 16px 10px 14px; } .cd-card b { font-size: 17px; } .cd-card .avatar { width: 64px; height: 64px; } }
+/* fiche */
+.cd-nav { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.cd-nav button { background: none; border: 0; padding: 8px 0; min-height: 44px; color: var(--muted); font: 500 14.5px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+.cd-nav button svg { width: 18px; height: 18px; }
+.cd-nav .pn { display: flex; gap: 16px; }
+.cd-head { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px 20px; align-items: center; }
+.cd-head .avatar { width: 96px; height: 96px; }
+.cd-head .names { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.cd-head h1 { font-size: clamp(26px, 6.5vw, 34px); }
+.cd-head .party { color: var(--muted); font-size: 15.5px; }
+.cd-head .role { font-size: 15px; line-height: 1.35; }
+.cd-head .credit { grid-column: 1 / -1; font-size: 12.5px; }
+.cd-bio { font-size: 15.5px; }
+.cd-bio.clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cd-more { align-self: flex-start; background: none; border: 0; padding: 4px 0; min-height: 32px; color: var(--ink); font: 500 14.5px var(--sans); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; cursor: pointer; }
+.cd-facts { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 18px; font-size: 14.5px; line-height: 1.4; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.cd-facts dt { color: var(--muted); }
+.cd-facts dd { margin: 0; }
+.cd-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--line); margin-top: -6px; }
+.cd-tabs button { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 12px 2px; min-height: 48px; font: 500 15px var(--sans); color: var(--muted); cursor: pointer; display: inline-flex; align-items: baseline; justify-content: center; gap: 5px; white-space: nowrap; min-width: 0; }
+.cd-tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.cd-tabs .n { font-size: 12.5px; }
+#cpanel { display: flex; flex-direction: column; gap: 14px; min-height: 200px; }
+.cd-hint { margin-top: -4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.cd-hint .cd-more { flex: none; }
+.cd-empty { font-size: 15px; }
+/* positions: one row per statement, grouped by theme; details open in the sheet so the overview never jumps */
+.cd-themes { column-count: 2; column-gap: 32px; }
+.cd-theme { break-inside: avoid; -webkit-column-break-inside: avoid; padding-bottom: 20px; }
+.cd-theme summary { list-style: none; cursor: pointer; display: block; }
+.cd-theme summary::-webkit-details-marker { display: none; }
+.cd-theme h3 { font-size: 17px; display: flex; align-items: baseline; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--ink); }
+.cd-theme h3 span { font: 500 13px var(--sans); color: var(--muted); margin-left: auto; }
+.cd-theme h3::after { content: "+"; font: 400 20px/1 var(--sans); color: var(--muted); width: 14px; text-align: right; }
+.cd-theme[open] h3::after { content: "−"; }
+.cd-tally { margin: 6px 0 4px; }
+.cd-theme[open] .cd-tally { display: none; }
+.cd-theme[open] { padding-bottom: 20px; }
+.cd-theme:not([open]) { padding-bottom: 0; }
+.cd-prow { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; align-items: start; width: 100%; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; text-align: left; cursor: pointer; font: 400 14px/1.35 var(--sans); color: var(--ink); }
+.cd-prow .pos { width: 92px; min-width: 0; font-size: 12.5px; padding: 2px 4px; white-space: nowrap; margin-top: 1px; }
+.cd-prow .pos.nd { border-style: dashed; color: var(--muted); }
+.cd-prow.nd .txt { color: var(--muted); }
+.cd-stmt { font: 400 17px/1.4 var(--serif); }
+/* parcours, justice, évolutions */
+.cd-list { display: flex; flex-direction: column; }
+.cd-off { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; line-height: 1.4; }
+.cd-off .yrs { color: var(--muted); }
+.cd-case, .cd-rev { display: flex; flex-direction: column; gap: 6px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; line-height: 1.45; }
+.cd-case .meta, .cd-rev .meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.cd-rev .meta b { font-weight: 600; }
+.cd-rev .ba { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 10px; }
+.cd-rev .ba span { color: var(--muted); }
+.cd-list > .small { padding-top: 12px; }
+@media (max-width: 700px) {
+  .cd-themes { column-count: 1; }
+  .cd-head { grid-template-columns: 72px minmax(0, 1fr); gap: 8px 14px; }
+  .cd-head .avatar { width: 72px; height: 72px; }
+  .cd-tabs button { font-size: 14px; }
+  .cd-off { grid-template-columns: 84px minmax(0, 1fr); }
+}
+@media (max-width: 400px) { .cd-facts { grid-template-columns: 1fr; gap: 2px 0; } .cd-facts dd { margin-bottom: 8px; } .cd-facts dd:last-child { margin-bottom: 0; } }
+@media (hover: hover) {
+  .cd-card:hover { border-color: var(--ink); }
+  .cd-nav button:hover, .cd-tabs button:hover { color: var(--ink); }
+  .cd-prow:hover .txt { text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; }
+}
+/* ===== /candidates ===== */
+
+/* long-form pages (method, legal) */
+.page { padding-top: 6px; }
+.page > .label:first-child { color: var(--accent-text); font-weight: 600; margin-bottom: -8px; }
+.page h1 { font-size: clamp(30px, 7vw, 40px); }
+.page > p:first-of-type { font-size: 18px; max-width: 36em; }
+.page h2 { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 25px; }
+.page h3 { margin-top: 6px; font-size: 19px; }
+.page p, .page li { font-size: 16px; line-height: 1.55; }
+.page ul, .page ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+.page .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; }
+.page .panel h3 { margin-top: 0; }
+.page table { font-size: 14px; }
+.page .label { color: var(--muted); }
+
 @media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } }
 @media (hover: none), (pointer: coarse) { .opt .key, .kbd-only { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 @media (hover: hover) {
   nav.links button:hover { color: var(--ink); background: var(--soft); }
+  nav.links button[aria-current="page"]:hover { color: var(--accent-text); background: var(--accent-soft); }
   .icon-btn:hover { background: var(--soft); }
   .btn.ghost:hover { border-color: var(--ink); }
-  .opt:hover { border-color: var(--ink); }
-  .chip:hover { color: var(--ink); }
-  .term:hover { background: var(--accent-soft); }
+  .btn.primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); }
+  .opt:hover { border-color: var(--accent); }
+  .chip:hover { color: var(--ink); border-color: var(--accent); }
+  .term:hover { background: var(--soft); }
   .refine button:hover { border-color: var(--ink); }
+  .foot nav button:hover { text-decoration-color: var(--ink); }
 }
+
+/* ===== motion =====
+   Motion explains three things: where you came from (screen slides follow the direction of travel),
+   what changed (the chosen answer confirms before the next question arrives, bars grow, numbers count),
+   and what matters (one staggered entrance per screen). Everything that moves lives inside
+   @media (prefers-reduced-motion: no-preference); with reduced motion only instant state changes remain.
+
+   Tokens: --dur-1 (micro: press, toggle) · --dur-2 (screen change, open) · --dur-3 (bars, counts, entrances)
+           --ease-out (arrivals) · --ease-in (departures) · --ease-spring (a small confirming overshoot)
+
+   Hooks for any screen's markup (attributes only):
+     data-reveal          fades and rises in when rendered; style="--i:3" staggers by 40ms per index
+     data-reveal="view"   same, but waits until scrolled into view (IntersectionObserver), for long pages
+     data-grow            a bar or meter that grows from 0 to its laid-out width (scaleX, left origin); --i staggers
+     data-count="63"      the first integer in the element's text counts up from 0 to data-count; --i staggers
+   The quiz progress fill (.qbar .progress > i) tweens between questions via the View Transitions API. */
+:root { --dur-1: 120ms; --dur-2: 240ms; --dur-3: 520ms; --ease-out: cubic-bezier(.2, .7, .2, 1); --ease-in: cubic-bezier(.5, 0, .9, .5); --ease-spring: cubic-bezier(.3, 1.4, .5, 1); }
+.q { animation: none; }
+@media (prefers-reduced-motion: no-preference) {
+  /* screen change: a short slide in the direction of travel. View Transitions where supported (html[data-nav]), a plain enter class otherwise */
+  @keyframes m-in-fwd { from { opacity: 0; transform: translateX(28px); } }
+  @keyframes m-in-back { from { opacity: 0; transform: translateX(-28px); } }
+  @keyframes m-in-fade { from { opacity: 0; transform: translateY(6px); } }
+  @keyframes m-out-fwd { to { opacity: 0; transform: translateX(-20px); } }
+  @keyframes m-out-back { to { opacity: 0; transform: translateX(20px); } }
+  @keyframes m-out-fade { to { opacity: 0; } }
+  @keyframes m-pick { 38% { transform: scale(1.02); opacity: 1; } to { transform: scale(1.02) translateX(-20px); opacity: 0; } }
+  .ribbon { view-transition-name: ribbon; }
+  .qbar .progress > i { view-transition-name: progress-fill; }
+  ::view-transition { pointer-events: none; }
+  ::view-transition-group(root) { animation-duration: var(--dur-2); }
+  ::view-transition-old(root), ::view-transition-new(root) { animation-duration: var(--dur-2); animation-fill-mode: both; mix-blend-mode: normal; }
+  ::view-transition-old(root) { animation-name: m-out-fade; animation-timing-function: var(--ease-in); }
+  ::view-transition-new(root) { animation-name: m-in-fade; animation-timing-function: var(--ease-out); }
+  html[data-nav="fwd"]::view-transition-old(root), html[data-nav="answer"]::view-transition-old(root) { animation-name: m-out-fwd; }
+  html[data-nav="fwd"]::view-transition-new(root), html[data-nav="answer"]::view-transition-new(root) { animation-name: m-in-fwd; }
+  html[data-nav="back"]::view-transition-old(root) { animation-name: m-out-back; }
+  html[data-nav="back"]::view-transition-new(root) { animation-name: m-in-back; }
+  /* an answer: the old question holds a beat with the chosen option confirmed, then leaves; the chosen row lingers a little longer */
+  html[data-nav="answer"]::view-transition-old(root) { animation-delay: 110ms; animation-duration: 180ms; }
+  html[data-nav="answer"]::view-transition-new(root) { animation-delay: 150ms; }
+  html[data-nav="answer"]::view-transition-group(root) { animation-delay: 110ms; animation-duration: 180ms; }
+  ::view-transition-group(picked) { animation: none; }
+  ::view-transition-old(picked) { animation: m-pick 290ms var(--ease-in) both; }
+  ::view-transition-group(progress-fill) { animation-duration: var(--dur-3); animation-timing-function: var(--ease-out); }
+  ::view-transition-old(progress-fill), ::view-transition-new(progress-fill) { animation: none; mix-blend-mode: normal; }
+  ::view-transition-old(progress-fill) { display: none; }
+  #app.enter-fwd { animation: m-in-fwd var(--dur-2) var(--ease-out) both; }
+  #app.enter-back { animation: m-in-back var(--dur-2) var(--ease-out) both; }
+  #app.enter-fade { animation: m-in-fade var(--dur-2) var(--ease-out) both; }
+
+  /* entrance hooks */
+  @keyframes m-reveal { from { opacity: 0; transform: translateY(10px); } }
+  @keyframes m-grow { from { transform: scaleX(0); } }
+  [data-reveal] { animation: m-reveal var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms); }
+  [data-reveal="view"] { animation: none; opacity: 0; }
+  [data-reveal="view"].in { animation: m-reveal var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms); opacity: 1; }
+  [data-grow] { animation: m-grow var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms + 80ms); transform-origin: left center; }
+  .ribbon.draw { animation: m-grow 700ms var(--ease-out) both; transform-origin: left center; }
+
+  /* answering */
+  .opt, .chip, .btn, .refine button, .icon-btn { transition: border-color var(--dur-1), background-color var(--dur-1), color var(--dur-1), transform var(--dur-1) var(--ease-out), opacity var(--dur-1); }
+  .opt:active, .chip:active, .refine button:active { transform: scale(.985); }
+  .btn:active:not(:disabled) { transform: scale(.98); }
+  .icon-btn:active:not(:disabled) { transform: scale(.9); }
+  .opt .dot { transition: border-color var(--dur-1); }
+  .opt .dot::after { transition: transform var(--dur-2) var(--ease-spring), background-color var(--dur-1); transform: scale(0); }
+  .opt.on .dot::after { transform: scale(1); }
+  /* the control chosen a moment before a screen change is captured as is: its selected state must not be mid-transition */
+  .picked, .picked .dot, .picked .dot::after { transition: none; }
+  @keyframes m-check { from { stroke-dashoffset: 22; } }
+  @keyframes m-chip-icon { from { width: 0; margin-right: -8px; opacity: 0; } }
+  .chip.on svg { animation: m-chip-icon var(--dur-2) var(--ease-out) both; }
+  .chip.on svg path { stroke-dasharray: 22; animation: m-check 280ms var(--ease-out) 80ms both; }
+  .count { transition: color var(--dur-2); }
+
+  /* opening: the sheet rises, the disclosure unfolds, its body settles */
+  dialog.sheet { transition: translate var(--dur-2) var(--ease-out), opacity var(--dur-2) var(--ease-out), overlay var(--dur-2) allow-discrete, display var(--dur-2) allow-discrete; }
+  dialog.sheet:not([open]) { translate: 0 24px; opacity: 0; }
+  dialog.sheet::backdrop { transition: background-color var(--dur-2), overlay var(--dur-2) allow-discrete, display var(--dur-2) allow-discrete; }
+  dialog.sheet:not([open])::backdrop { background: rgba(0, 0, 0, 0); }
+  @starting-style { dialog.sheet[open] { translate: 0 24px; opacity: 0; } dialog.sheet[open]::backdrop { background: rgba(0, 0, 0, 0); } }
+  details.sec .body { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+  details.sec::details-content { block-size: 0; overflow: clip; transition: block-size var(--dur-2) var(--ease-out), content-visibility var(--dur-2) allow-discrete; }
+  details.sec[open]::details-content { block-size: auto; }
+  details.sec { interpolate-size: allow-keywords; }
+  #reset-confirm:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+  #copied:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+}
+@media print { [data-reveal="view"] { opacity: 1; animation: none; } }
+/* ===== /motion ===== */
 </style>
 
+<div class="ribbon" aria-hidden="true"><i></i><i></i><i></i></div>
 <div class="wrap" id="root"><main id="app"></main></div>
 <dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
   <div class="inner">
@@ -235,7 +667,9 @@ function fresh() {
     ans: {}, imp: {}, hist: [], queue: null, retestShown: [], stopOffered: false, refining: false, seenResults: false,
     dil: {}, dilOrder: null, points: null, lvl: null, lead: {}, expect: null, after: {}, candSel: null };
 }
-function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+/* nothing is stored until the visitor has answered something; a reset removes the key outright */
+function blank() { return !Object.keys(st.ans).length && !Object.keys(st.dil).length && !st.lvl && !Object.keys(st.lead).length && !Object.values(st.open).some(Boolean) && !Object.values(st.after).some(Boolean) && !st.expect; }
+function save() { try { if (blank()) localStorage.removeItem(KEY); else localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
 function load() { try { const s = localStorage.getItem(KEY); return s ? Object.assign(fresh(), JSON.parse(s)) : null; } catch (e) { return null; } }
 
 /* seeded RNG so a session's order is stable across reloads */
@@ -447,7 +881,40 @@ const $ = s => document.querySelector(s);
 const $$ = s => Array.from(document.querySelectorAll(s));
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const pct = x => Math.round(x * 100);
-function go(screen) { st.screen = screen; save(); render(); window.scrollTo(0, 0); }
+/* hash routes: every screen has an address, so the browser back button and shared links work */
+const ROUTES = { home: "", statements: "questions", ready: "pret", results: "resultat", dilemmas: "arbitrages", importance: "priorites", leadership: "profil", reflect: "reflexion", cands: "candidats", method: "methode", legal: "mentions-legales" };
+function hashFor(screen) { return "#/" + (ROUTES[screen] ?? "") + (screen === "cands" && st.candSel ? "/" + st.candSel : ""); }
+function screenFromHash(h) {
+  const parts = (h || "").replace(/^#\/?/, "").split("/").filter(Boolean);
+  const screen = Object.keys(ROUTES).find(k => ROUTES[k] === (parts[0] || ""));
+  if (!screen || (screen === "legal" && !HAS_LEGAL)) return null;
+  if (screen === "cands") st.candSel = parts[1] && CANDS.some(c => c.id === parts[1]) ? parts[1] : null;
+  return screen;
+}
+/* audience: Vercel Web Analytics, cookieless and aggregated; production host only, so local and test runs call nothing.
+   Only the screen address is sent (never answers); the questionnaire is one address however many questions are answered. */
+const ANALYTICS = /(^|\.)vandecatsije\.com$/.test(location.hostname);
+if (ANALYTICS) {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  const s = document.createElement("script"); s.defer = true; s.src = "/_vercel/insights/script.js"; document.head.appendChild(s);
+}
+function trackView() {
+  if (!ANALYTICS) return;
+  const path = location.hash.replace(/^#/, "") || "/";
+  window.va("pageview", { route: path.replace(/^\/candidats\/.+/, "/candidats/[id]"), path });
+}
+function go(screen, candId) {
+  st.screen = screen; if (screen === "cands") st.candSel = candId || null; save();
+  const h = hashFor(screen);
+  if (location.hash !== h) { history.pushState(null, "", h); trackView(); } /* pushState does not fire hashchange: render once, below */
+  render(); window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", () => {
+  const s = screenFromHash(location.hash);
+  if (s === null) { history.replaceState(null, "", hashFor(st.screen)); return; }
+  if (s === st.screen && s !== "cands") return;
+  st.screen = s; save(); render(); window.scrollTo(0, 0); trackView();
+});
 function nStatementsAnswered() { return Object.keys(st.ans).filter(id => SBY[id]).length; }
 const POS_FR = { "-2": "Contre", "-1": "Plutôt contre", "0": "Partagé", "1": "Plutôt pour", "2": "Pour" };
 const TYPE_FR = { programme: "programme", statement: "déclaration", vote: "vote", record_in_office: "action en fonction", party_line: "ligne du parti", inferred: "déduit", none: "aucune" };
@@ -462,10 +929,26 @@ const ICON = {
   clock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>`,
   eye: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.5"/></svg>`,
   lock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>`,
+  /* the cockade: blue centre, white, red outside, as on the 1789 cocarde; decorative, never tied to a candidate */
+  cockade: `<svg class="cockade" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11.5" fill="var(--rouge)"/><circle cx="12" cy="12" r="7.8" fill="var(--blanc)"/><circle cx="12" cy="12" r="4.2" fill="var(--bleu)"/></svg>`,
 };
+const HAS_LEGAL = !!(DATA.legal_html && DATA.legal_html.trim());
+/* portraits are shown only when every candidate has one: unequal treatment would break neutrality */
+const PHOTOS = CANDS.length > 0 && CANDS.every(c => c.photo && c.photo.src);
+function avatar(c, cls) { return PHOTOS ? `<img class="avatar ${cls || ""}" src="${esc(c.photo.src)}" alt="" width="40" height="40" loading="lazy">` : ""; }
 function brandBar() {
-  return `<header class="top"><button type="button" class="brand" id="nav-home" aria-label="Legere, accueil">Legere</button>
-    <nav class="links" aria-label="Navigation"><button type="button" id="nav-cands">Candidats</button><button type="button" id="nav-method">Méthode</button></nav></header>`;
+  const cur = id => st.screen === id ? ' aria-current="page"' : "";
+  /* the result is one tap away from every page once it exists; nothing in the top bar names a candidate */
+  return `<header class="top"><button type="button" class="brand" id="nav-home" aria-label="Legere, accueil">${ICON.cockade}Legere</button>
+    <nav class="links" aria-label="Navigation">${st.seenResults ? `<button type="button" id="nav-results"${cur("results")}><span class="full">Mon résultat</span><span class="short" aria-hidden="true">Résultat</span></button>` : ""}<button type="button" id="nav-cands"${cur("cands")}>Candidats</button><button type="button" id="nav-method"${cur("method")}><span class="full">Comment ça marche</span><span class="short" aria-hidden="true">Méthode</span></button></nav></header>`;
+}
+function footer() {
+  return `<footer class="foot">
+    <div class="foot-top"><button type="button" class="mark" id="foot-home" aria-label="Legere, accueil">${ICON.cockade}Legere</button>
+    <nav aria-label="Pied de page"><button type="button" id="foot-method">Comment ça marche</button><button type="button" id="foot-cands">Fiches candidats</button>${HAS_LEGAL ? `<button type="button" id="foot-legal">Mentions légales et confidentialité</button>` : ""}</nav></div>
+    <p>Legere est un projet civique indépendant et bénévole, sans lien avec un parti, un candidat ou une institution. Chaque candidat est traité avec les mêmes critères et le même niveau d'exigence sur les sources.</p>
+    <div class="fine"><span>Vos réponses restent dans votre navigateur.</span><span>Données au ${esc(DATA.meta.asof_fr)}.</span></div>
+  </footer>`;
 }
 function quizBar(progress, count, backDisabled) {
   return `<div class="qbar"><button type="button" class="icon-btn" id="back" aria-label="Question précédente" ${backDisabled ? "disabled" : ""}>${ICON.back}</button>
@@ -474,9 +957,12 @@ function quizBar(progress, count, backDisabled) {
     <button type="button" class="icon-btn" id="quit" aria-label="Quitter, vos réponses sont conservées">${ICON.close}</button></div>`;
 }
 function wireBrand() {
-  const h = $("#nav-home"); if (h) h.onclick = () => go("home");
-  const c = $("#nav-cands"); if (c) c.onclick = () => go("cands");
-  const m = $("#nav-method"); if (m) m.onclick = () => go("method");
+  const on = (id, fn) => { const el = $(id); if (el) el.onclick = fn; };
+  on("#nav-home", () => go("home")); on("#foot-home", () => go("home"));
+  on("#nav-results", () => go("results"));
+  on("#nav-cands", () => go("cands")); on("#foot-cands", () => go("cands"));
+  on("#nav-method", () => go("method")); on("#foot-method", () => go("method"));
+  on("#foot-legal", () => go("legal"));
 }
 function resumeScreen() {
   if (st.seenResults) return "results";
@@ -502,34 +988,54 @@ function wireTerms(root) {
 /* ------------------------------------------------------------------ screens */
 const screens = {};
 
+/* the specimen on the home page: the first proposition of this visitor's own order, so the preview is exactly what the first screen will show */
+function specimen() {
+  if (!st.queue) initQueue();
+  const s = SBY[st.queue[0]] || S[0];
+  return `<div class="specimen" aria-hidden="true" data-reveal style="--i:3"><div class="slip">
+    <span class="label">${esc(ABY[s.area].fr)}</span>
+    <p class="text">${esc(s.fr)}</p>
+    <div class="scale"><span>Contre</span><div class="dots"><i></i><i></i><i></i><i></i><i></i></div><span>Pour</span></div>
+  </div></div>`;
+}
 screens.home = () => {
   const n = nStatementsAnswered();
   const started = n > 0;
   return brandBar() + `<div class="hero">
-    <span class="label">Présidentielle 2027 · ${CANDS.length} candidats</span>
-    <h1>Avec quelles idées êtes-vous d'accord&nbsp;?</h1>
-    <p>Des propositions concrètes, une à la fois. Dites si vous êtes d'accord ou non. À la fin, vous découvrez de quels candidats vous êtes le plus proche, et pourquoi.</p>
-    <ul class="facts">
-      <li>${ICON.clock}<span>Une dizaine de minutes. Le questionnaire s'arrête de lui-même dès que votre résultat est stable.</span></li>
-      <li>${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
-      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Rien n'est envoyé.</span></li>
-    </ul>
-    ${started ? `<div class="card">
-      <span class="label">En cours</span>
-      <div class="progress" aria-hidden="true"><i style="width:${Math.min(100, n / MIN_STOP * 100)}%"></i></div>
-      <p>${st.seenResults ? "Votre résultat est disponible." : `Vous avez répondu à ${n} proposition${n > 1 ? "s" : ""}.`}</p>
+    <span class="label" data-reveal style="--i:0">Présidentielle d'avril 2027, ${CANDS.length} candidats</span>
+    <h1 data-reveal style="--i:1">Avec quelles idées êtes-vous d'accord&nbsp;?</h1>
+    <p class="intro" data-reveal style="--i:2">Des propositions concrètes, une à la fois. Dites si vous êtes d'accord ou non. À la fin, vous découvrez de quels candidats vous êtes le plus proche, et pourquoi.</p>
+    ${started ? `<div class="card resume" data-reveal style="--i:3">
+      <span class="label">${st.seenResults ? "Votre résultat est prêt" : "Questionnaire en cours"}</span>
+      <div class="progress" aria-hidden="true"><i data-grow style="--i:3;width:${Math.min(100, n / MIN_STOP * 100)}%"></i></div>
+      <p>${st.seenResults ? `Vous avez répondu à ${n} proposition${n > 1 ? "s" : ""}. Vous pouvez revoir votre résultat ou l'affiner.` : `Vous avez répondu à ${n} proposition${n > 1 ? "s" : ""}. Reprenez là où vous vous êtes arrêté.`}</p>
       <button class="btn primary" id="start" type="button">${st.seenResults ? "Voir mon résultat" : "Reprendre"}</button>
       <button class="btn link" id="reset" type="button">Tout recommencer</button>
       <div id="reset-confirm" hidden class="note">Effacer toutes vos réponses ? <button class="btn link" id="reset-yes" type="button">Oui, effacer</button></div>
-    </div>` : `<button class="btn primary" id="start" type="button">Commencer</button>`}
-    <p class="muted small">Positions des candidats établies à partir de leurs programmes, déclarations et votes, chacune avec ses sources. Données au ${esc(DATA.meta.asof_fr)}.</p>
-  </div>`;
+    </div>` : specimen() + `<div class="cta" data-reveal style="--i:4"><button class="btn primary" id="start" type="button">Commencer</button><p class="muted small">Une dizaine de minutes, sans inscription.</p></div>`}
+  </div>
+  <section class="home-sec" aria-labelledby="how" data-reveal="view">
+    <h2 id="how">Comment ça se passe</h2>
+    <ol class="steps">
+      <li><span><b>Vous répondez à une vingtaine de propositions.</b>Une par écran, avec un rappel de la situation actuelle et les arguments de chaque côté.</span></li>
+      <li><span><b>Le questionnaire s'arrête de lui-même.</b>Dès que votre résultat est stable, il vous le propose ; vous pouvez continuer pour l'affiner.</span></li>
+      <li><span><b>Vous découvrez de qui vous êtes proche, et pourquoi.</b>Un classement avec sa marge d'incertitude, vos points de désaccord, et les sources pour tout vérifier.</span></li>
+    </ol>
+  </section>
+  <section class="home-sec" aria-labelledby="trust" data-reveal="view">
+    <h2 id="trust">Ce qui est garanti</h2>
+    <ul class="facts">
+      <li>${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
+      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Elles ne sont jamais envoyées.</span></li>
+      <li>${ICON.clock}<span>Positions établies à partir des programmes, déclarations et votes, chacune avec ses sources, avec le même niveau d'exigence pour chaque candidat.</span></li>
+    </ul>
+  </section>` + footer();
 };
 screens.home.wire = () => {
   wireBrand();
   $("#start").onclick = () => { if (!st.queue) initQueue(); go(resumeScreen() === "home" ? "statements" : resumeScreen()); };
   const r = $("#reset"); if (r) r.onclick = () => { $("#reset-confirm").hidden = false; };
-  const y = $("#reset-yes"); if (y) y.onclick = () => { st = fresh(); save(); render(); };
+  const y = $("#reset-yes"); if (y) y.onclick = () => { try { localStorage.removeItem(KEY); } catch (e) {} st = fresh(); render(); };
 };
 
 /* statements: one per screen */
@@ -556,12 +1062,12 @@ screens.statements = () => {
   else { progress = nAns >= MIN_STOP ? 94 : nAns / MIN_STOP * 90; count = nAns + 1; }
   return quizBar(progress, count, !st.hist.length) + `<div class="q" aria-live="polite">
     <span class="label">${esc(area.fr)}</span>
-    <h1 class="statement">${termify(s.fr)}</h1>
-    ${plain ? `<div class="plain"><span class="label">De quoi parle-t-on ?</span><p>${esc(plain)}</p>${ctx ? `<button type="button" class="more" id="more">Arguments pour et contre</button>` : ""}</div>` : ""}
-    <div class="opts" role="group" aria-label="Votre réponse">
+    <h1 class="statement" data-reveal style="--i:0">${termify(s.fr)}</h1>
+    ${plain ? `<div class="plain" data-reveal style="--i:1"><span class="label">De quoi parle-t-on ?</span><p>${esc(plain)}</p>${ctx ? `<button type="button" class="more" id="more">Arguments pour et contre</button>` : ""}</div>` : ""}
+    <div class="opts" role="group" aria-label="Votre réponse" data-reveal style="--i:2">
       ${OPTS.filter(o => o.v !== null).map((o, i) => `<button type="button" class="opt ${v === o.v ? "on" : ""}" data-v="${o.v}" aria-pressed="${v === o.v}"><span class="dot" aria-hidden="true"></span>${esc(o.fr)}<span class="key" aria-hidden="true">${i + 1}</span></button>`).join("")}
     </div>
-    <div class="under">
+    <div class="under" data-reveal style="--i:3">
       <button type="button" class="chip ${v === null ? "on" : ""}" id="na">Sans avis</button>
       ${isRet ? "" : `<button type="button" class="chip ${st.imp[id] ? "on" : ""}" id="impt" aria-pressed="${!!st.imp[id]}">${st.imp[id] ? ICON.check : ""}Important pour moi</button>`}
     </div>
@@ -576,8 +1082,8 @@ screens.statements.wire = () => {
     if (SBY[id]) applyGates(id, v);
     save(); render(); window.scrollTo(0, 0);
   };
-  $$(".opt[data-v]").forEach(b => b.onclick = () => answer(+b.dataset.v));
-  $("#na").onclick = () => answer(null);
+  $$(".opt[data-v]").forEach(b => b.onclick = () => motion.confirm(b, () => answer(+b.dataset.v)));
+  $("#na").onclick = () => motion.confirm($("#na"), () => answer(null));
   const im = $("#impt"); if (im) im.onclick = () => { st.imp[id] = !st.imp[id]; save(); im.classList.toggle("on", st.imp[id]); im.setAttribute("aria-pressed", st.imp[id]); im.innerHTML = (st.imp[id] ? ICON.check : "") + "Important pour moi"; };
   $("#back").onclick = goBack;
   $("#quit").onclick = () => go(st.refining ? "results" : "home");
@@ -593,7 +1099,7 @@ screens.statements.wire = () => {
   document.onkeydown = e => {
     if (st.screen !== "statements" || $("#sheet").open || e.target.closest("textarea,input,select")) return;
     const m = { "1": -2, "2": -1, "3": 0, "4": 1, "5": 2, "0": null };
-    if (e.key in m) { e.preventDefault(); answer(m[e.key]); }
+    if (e.key in m) { e.preventDefault(); motion.confirm($(`.opt[data-v="${m[e.key]}"]`) || $("#na"), () => answer(m[e.key])); }
     else if (e.key === "Backspace" || e.key === "ArrowLeft") { e.preventDefault(); goBack(); }
   };
 };
@@ -609,16 +1115,16 @@ screens.ready = () => {
   const rem = remainingStatements().length;
   const p = st.stopP;
   return `<div class="qbar"><span class="label">Propositions · ${n} réponses</span></div><div class="stack" style="padding-top:8px">
-    <h1>${st.exhausted ? "Vous avez tout vu." : "Votre résultat est prêt."}</h1>
-    <p>${st.exhausted ? "Vous avez répondu à toutes les propositions disponibles." : p >= STOP_P
+    <h1 data-reveal style="--i:0">${st.exhausted ? "Vous avez tout vu." : "Votre résultat est prêt."}</h1>
+    <p data-reveal style="--i:1">${st.exhausted ? "Vous avez répondu à toutes les propositions disponibles." : p >= STOP_P
       ? `Avec vos ${n} réponses, le même candidat arrive en tête dans ${pct(p)}&nbsp;% des simulations${rem ? ` : c'est assez net pour le voir. Vous pourrez ensuite répondre à d'autres propositions pour affiner le classement` : ""}.`
       : `Avec vos ${n} réponses, plusieurs candidats restent proches de vous à égalité ou presque. D'autres propositions changeraient peu ce constat : le résultat vous montre ces candidats côte à côte.`}</p>
-    <div class="card soft">
+    <div class="card soft" data-reveal style="--i:2">
       <label for="expect"><b>Une question facultative avant de le voir.</b><br><span class="small">${esc(Q.expectation.fr)} Cela sert uniquement à comparer votre intention de départ avec le résultat.</span></label>
       <select id="expect"><option value="">Je préfère ne pas répondre</option>${[...CANDS.map(c => [c.id, `${c.name} (${c.party})`]), ["undecided", "Je ne savais pas encore"], ["blank", "Vote blanc ou abstention"]].map(([v, t]) => `<option value="${v}" ${st.expect === v ? "selected" : ""}>${esc(t)}</option>`).join("")}</select>
     </div>
-    <button class="btn primary" id="on" type="button">Voir mon résultat</button>
-    ${rem ? `<button class="btn ghost" id="more" type="button">Répondre à d'autres propositions d'abord</button>` : ""}
+    <button class="btn primary" id="on" type="button" data-reveal style="--i:3">Voir mon résultat</button>
+    ${rem ? `<button class="btn ghost" id="more" type="button" data-reveal style="--i:4">Répondre à d'autres propositions d'abord</button>` : ""}
   </div>`;
 };
 screens.ready.wire = () => {
@@ -639,7 +1145,7 @@ screens.dilemmas = () => {
     <span class="label">Arbitrage ${idx + 1} sur ${items.length}</span>
     <h1 style="font-size:24px">Si vous deviez choisir, vous privilégieriez…</h1>
     <div class="dilemma" role="group" aria-label="Votre choix">${sides.map(([k, t]) => `<button type="button" class="opt ${cur.side === k ? "on" : ""}" data-k="${k}" aria-pressed="${cur.side === k}"><span class="dot" aria-hidden="true"></span><span>${esc(t)}</span></button>`).join("")}</div>
-    ${cur.side ? `<div class="stack-s"><span class="label">Avec quelle netteté ?</span><div class="strength" role="group" aria-label="Netteté">
+    ${cur.side ? `<div class="stack-s" data-reveal><span class="label">Avec quelle netteté ?</span><div class="strength" role="group" aria-label="Netteté">
       ${["Légèrement", "Nettement", "Très nettement"].map((t, i) => `<button type="button" class="opt" data-s="${i + 1}">${t}</button>`).join("")}</div></div>` : `<p class="muted small">Il n'y a pas de bonne réponse : ces choix servent à vérifier la cohérence de vos réponses.</p>`}
   </div>`;
 };
@@ -647,8 +1153,8 @@ screens.dilemmas.wire = () => {
   const items = Q.dilemmas.items;
   const idx = items.findIndex(d => st.dil[d.id] === undefined || st.dil[d.id].strength === undefined);
   const d = items[idx];
-  $$("[data-k]").forEach(b => b.onclick = () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); });
-  $$("[data-s]").forEach(b => b.onclick = () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); window.scrollTo(0, 0); });
+  $$("[data-k]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); }));
+  $$("[data-s]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); window.scrollTo(0, 0); }));
   $("#back").onclick = () => {
     if (st.dil[d.id]) delete st.dil[d.id];
     else if (idx > 0) delete st.dil[items[idx - 1].id];
@@ -728,7 +1234,7 @@ screens.leadership = () => {
 screens.leadership.wire = () => {
   const items = leadItems();
   const idx = items.findIndex(it => !leadAnswered(it));
-  $$("[data-l]").forEach(b => b.onclick = () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; save(); render(); window.scrollTo(0, 0); });
+  $$("[data-l]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; save(); render(); window.scrollTo(0, 0); }));
   $$("[data-m]").forEach(b => b.onclick = () => {
     const id = b.dataset.m, v = b.dataset.s;
     let sel = Array.isArray(st.lead[id]) ? st.lead[id].slice() : [];
@@ -781,7 +1287,7 @@ function profileFit(c) {
     const mode = L.g2b || "half";
     const pen = pr.convictions.filter(x => cats.includes(x.cat))
       .map(x => x.status === "convicted_final" ? 1 : mode === "all" ? 1 : mode === "half" ? 0.5 : 0);
-    parts.push([L.g2w, 1 - Math.max(0, ...pen), "Condamnations"]);
+    parts.push([L.g2w, 1 - Math.max(0, ...pen), "Condamnations retenues"]);
   }
   if (L.g3 > 0 && pr.reversals != null) parts.push([L.g3, Math.max(0, 1 - pr.reversals / 5), "Constance"]);
   if (L.g4 !== undefined && pr.style != null) parts.push([2, 1 - Math.abs(L.g4 - pr.style) / 4, "Style"]);
@@ -806,6 +1312,7 @@ screens.results = () => {
   /* robustness: rank of top under alternative specifications */
   const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « Important pour moi »", scoreAll(eff, { noFlags: true })]];
   const rob = specs.map(([n, s]) => [n, CANDS.map((c, k) => k).sort((a, b) => s[b] - s[a])[0]]);
+  const robOk = rob.every(r => r[1] === top);
   const ua = userAxes(), da = dilemmaAxes();
   const inc = retestInconsistency(), acq = acquiescence();
   const nNA = Object.values(st.ans).filter(v => v === null).length;
@@ -816,59 +1323,91 @@ screens.results = () => {
   const rem = remainingStatements().length;
   const solid = pTop >= 0.9 ? "Ce premier rang est solide" : pTop >= 0.6 ? "Ce premier rang est assez net" : "Ce classement est serré";
   const tieNames = tied.map(k => CANDS[k].name);
+  const T = CANDS[top], tName = T.short || T.name;
+  const topN = order.slice(0, Math.min(4, CANDS.length));
+  const areas = areaCells(eff, topN);
+  const withTop = areas.filter(r => r.cells[0] !== null);
+  const best = withTop.reduce((a, r) => r.cells[0] > a.cells[0] ? r : a, withTop[0]);
+  const worst = withTop.reduce((a, r) => r.cells[0] < a.cells[0] ? r : a, withTop[0]);
+  const div = disagreementRows(eff, top);
+  const nDiv = Object.entries(eff).filter(([id, e]) => { const cp = candPos(T, id); return cp && Math.abs(e.v - cp.p) >= 2; }).length;
+  /* without a marked disagreement, the tile still shows the three widest (mild) gaps so it is not empty */
+  const gaps = div.length ? div : disagreementRows(eff, top, 1);
+  const refined = [!!st.lvl, dilemmasDone(), leadDone(), Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean)].filter(Boolean).length;
   const refineCard = (id, title, sub, done) => `<button type="button" data-go="${id}"><span><b>${title}</b><span>${sub}</span></span>${done ? `<span class="done">${ICON.check} fait</span>` : ""}</button>`;
-  return brandBar() + `<div class="stack">
-    <span class="label">Votre résultat · ${nEff} propositions prises en compte</span>
-    <div class="lead">
-      <span class="label">Vous êtes le plus proche de</span>
-      <p class="who">${esc(tied.length > 3 ? listFr(tieNames.slice(0, 3)) + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p>
-      <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(CANDS[top].party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
-      <p class="small">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
-    </div>
-    <h2>Le classement complet</h2>
-    <div class="ranking">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
-      <span class="rank num">${i + 1}</span>
-      <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
-      <div class="ci" aria-hidden="true"><div class="track"></div><div class="band" style="left:${X(b.lo)};width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
-      <div class="pct">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
-    <p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p>
-    ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
-
-    <h2>Affiner mon résultat</h2>
-    <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
-    <div class="refine">
-      ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
-      ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
-      ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
-      ${refineCard("leadership", "Le profil que vous attendez", "2 minutes · expérience, probité, constance, style", leadDone())}
-      ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
-    </div>
-
-    <h2>Comprendre ce résultat</h2>
-    <div>
-    <details class="sec"><summary>Là où vous divergez de ${esc(CANDS[top].name)}</summary><div class="body">${disagreements(eff, top)}</div></details>
-    ${expK >= 0 || exp === "undecided" ? `<details class="sec" open><summary>Votre intention de départ</summary><div class="body"><p>${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées ci-dessous." : ""}</p>${expK >= 0 && expK !== top ? disagreements(eff, expK) : ""}</div></details>` : ""}
-    <details class="sec"><summary>Accord par thème avec les ${Math.min(4, CANDS.length)} premiers</summary><div class="body">${areaTable(eff, order.slice(0, 4))}</div></details>
-    <details class="sec"><summary>Carte des positions</summary><div class="body">${mapSVG(ua, da)}<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. ${axisAgreement(ua, da)}</p></div></details>
-    <details class="sec"><summary>Le premier rang change-t-il selon la méthode ?</summary><div class="body">
-      <table><tbody>${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<tr><td>${esc(n)}</td><td><b>${esc(CANDS[k].name)}</b></td></tr>`).join("")}</tbody></table>
-      <p class="muted small">${rob.every(r => r[1] === top) ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité."}</p></div></details>
-    ${pf.some(Boolean) ? `<details class="sec"><summary>Profil attendu (score séparé)</summary><div class="body">${profileTable(pf, order)}</div></details>` : ""}
-    ${st.lead.g6 && st.lead.g6 !== "sincere" ? `<details class="sec"><summary>Dynamique électorale</summary><div class="body">${viability(order)}</div></details>` : ""}
-    <details class="sec"><summary>Qualité de vos réponses</summary><div class="body">
-      <table><tbody>
-      <tr><td>Réponses « sans avis »</td><td class="num">${nNA}</td></tr>
-      <tr><td>Cohérence aux questions reformulées (0 = parfaite, 4 = opposée)</td><td class="num">${inc === null ? "—" : inc.toFixed(1)}</td></tr>
-      <tr><td>Tendance à acquiescer (0 = aucune)</td><td class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1)}</td></tr>
-      </tbody></table>
-      ${inc === null ? `<p class="muted small">Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat.</p>` : ""}
+  const W = tileWidth();
+  let ti = 2 + CANDS.length; /* reveal order: hero, refine, the ranking rows, then the tiles */
+  const tile =(id, title, take, body, more, cls) => `<section class="tile ${cls || ""}" id="t-${id}" aria-labelledby="t-${id}-h" data-reveal style="--i:${ti++}">
+      <h3 id="t-${id}-h">${title}</h3>${take ? `<p class="take">${take}</p>` : ""}${body}
+      ${more ? `<details class="sec more"><summary>${more[0]}</summary><div class="body">${more[1]}</div></details>` : ""}</section>`;
+  const posChip = v => `<span class="pos">${esc(POS_FR[String(v)] || fmtPos(v))}</span>`;
+  const tiles = [
+    tile("themes", `Accord par thème`, withTop.length ? `Avec ${esc(tName)} : accord le plus fort sur ${esc(best.area.fr.toLowerCase())} (${pct(best.cells[0])}&nbsp;%), le plus faible sur ${esc(worst.area.fr.toLowerCase())} (${pct(worst.cells[0])}&nbsp;%).` : "",
+      heatmap(areas, topN), null, "tall w2"),
+    tile("map", `Carte des positions`, axisAgreement(ua, da), mapSVG(ua, da, W),
+      [`Comment lire la carte`, `<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. Les points gris : les candidats, d'après leurs positions documentées. Chaque axe résume les propositions qui s'y rattachent, de −1 à +1.</p>`], "tall"),
+    tile("div", `Là où vous divergez de ${esc(T.name)}`, nDiv ? `${nDiv} proposition${nDiv > 1 ? "s" : ""} sur ${nEff} où vous êtes nettement en désaccord.` : "Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.",
+      gaps.length ? `${div.length ? "" : `<p class="muted small">Vos écarts les plus grands, tous légers :</p>`}<ol class="divs">${gaps.slice(0, 3).map(r => `<li><p>${esc(SBY[r.id].fr)}</p><p class="muted small">Vous : ${posChip(Math.round(r.e.v))} · ${esc(tName)} : ${posChip(r.cp.p)}</p></li>`).join("")}</ol>` : "",
+      div.length ? [`Détail et sources (${div.length})`, disagreements(eff, top)] : null),
+    tile("rob", `Le premier rang change‑t‑il selon la méthode ?`, robOk ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité.",
+      `<ul class="specs">${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<li><span class="mark" aria-hidden="true">${k === top ? ICON.check : "≠"}</span><span class="n">${esc(n)}</span><b>${esc(CANDS[k].short || CANDS[k].name)}</b><span class="sr">${k === top ? ", même premier" : ", premier différent"}</span></li>`).join("")}</ul>`, null),
+    expK >= 0 || exp === "undecided" ? tile("exp", `Votre intention de départ`, expK >= 0 ? `${esc(CANDS[expK].name)} est classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées.` : "Vous étiez indécis.",
+      expK >= 0 ? `<p class="small">Votre choix de départ : ${pct(sc[expK])}&nbsp;% d'accord avec vos réponses.${expK !== top ? " Vos points de désaccord sont listés dans le détail." : ""}</p>` : "",
+      expK >= 0 && expK !== top ? [`Là où vous divergez de ${esc(CANDS[expK].short || CANDS[expK].name)}`, disagreements(eff, expK)] : null) : "",
+    pf.some(Boolean) ? tile("prof", `Profil attendu`, "Score séparé, jamais mélangé à la proximité d'idées.",
+      `<ul class="bars">${topN.map(k => { const p = pf[k]; return `<li>${avatar(CANDS[k])}<span class="n">${esc(CANDS[k].short || CANDS[k].name)}</span><span class="bar" aria-hidden="true"><i data-grow style="--w:${p ? pct(p.score) : 0}%;width:${p ? pct(p.score) : 0}%"></i></span><span class="v num">${p ? pct(p.score) + "&nbsp;%" : "—"}</span></li>`; }).join("")}</ul>`,
+      [`Les ${CANDS.length} candidats et les critères`, profileTable(pf, order)]) : "",
+    tile("qual", `Qualité de vos réponses`, inc === null ? "Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat." : inc >= 1.5 ? "Vos réponses aux propositions reformulées se contredisent en partie." : "Vos réponses aux propositions reformulées sont cohérentes.",
+      `<dl class="kv"><div><dt>Réponses « sans avis »</dt><dd class="num">${nNA}</dd></div>
+      <div><dt>Cohérence aux questions reformulées <span class="muted">(0 = parfaite, 4 = opposée)</span></dt><dd class="num">${inc === null ? "—" : inc.toFixed(1).replace(".", ",")}</dd></div>
+      <div><dt>Tendance à acquiescer <span class="muted">(0 = aucune)</span></dt><dd class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1).replace(".", ",")}</dd></div></dl>
       ${inc !== null && inc >= 1.5 ? `<p class="note">Vos réponses à des propositions reformulées en sens inverse se contredisent en partie. L'incertitude affichée a été élargie en conséquence.</p>` : ""}
-      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}</div></details>
-    </div>
-    <div class="row"><button class="btn ghost auto" id="cands" type="button">Fiches candidats et sources</button><button class="btn ghost auto" id="copy" type="button">Copier mes réponses</button></div>
+      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}`, null),
+  ].filter(Boolean);
+  /* the theme heatmap (two columns) and the map fill the first two rows; the last short tile stretches so no row ends with a hole */
+  const rest = tiles.length - 2, fill = rest % 3 === 1 ? "w3" : rest % 3 === 2 ? "w2" : "";
+  if (fill) tiles[tiles.length - 1] = tiles[tiles.length - 1].replace('class="tile ', `class="tile ${fill} `);
+  return brandBar() + `<div class="dash">
+    <section class="lead" data-reveal style="--i:0">
+      <div class="lead-main">
+        <span class="label">Votre résultat · vous êtes le plus proche de</span>
+        <div class="head">${tied.length === 1 ? avatar(T, "lg") : `<span class="pile">${tied.slice(0, 3).map(k => avatar(CANDS[k], "lg")).join("")}</span>`}<p class="who ${tied.length > 1 ? "many" : ""}">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : T.name)}</p></div>
+        <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : esc(T.party)}</p>
+        <p class="small solid">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
+        ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
+      </div>
+      <div class="lead-stats">
+        <div class="stat"><span class="val"><span data-count="${pct(sc[top])}">${pct(sc[top])}</span>&nbsp;%</span><span class="lbl">d'accord avec vos réponses${tied.length > 1 ? ` (meilleur score)` : ""}</span><span class="sub num">marge d'incertitude : ${pct(bs[top].lo)} à ${pct(bs[top].hi)}&nbsp;%</span></div>
+        <div class="stat"><span class="val"><span data-count="${pct(pTop)}">${pct(pTop)}</span>&nbsp;%</span><span class="lbl">des simulations ${tied.length > 1 ? "placent l'un de ces candidats" : "placent ce candidat"} en tête</span><span class="meter" role="img" aria-label="${pct(pTop)} % des simulations"><i data-grow style="--w:${pct(pTop)}%;width:${pct(pTop)}%"></i></span></div>
+        <div class="stat"><span class="val">${nEff}</span><span class="lbl">propositions prises en compte</span><span class="sub num">${rem ? `${rem} restantes` : "toutes répondues"}</span></div>
+      </div>
+      <div class="lead-act">${rem && pTop < 0.9 ? `<button type="button" class="btn primary" data-go="more">Continuer à répondre</button>` : `<button type="button" class="btn primary" id="top-fiche">Fiche de ${esc(tName)} et sources</button>`}</div>
+    </section>
+    <section class="refine-card" aria-labelledby="refine-h" data-reveal style="--i:1">
+      <div class="refine-head"><h2 id="refine-h">Affiner mon résultat</h2><span class="label num">${refined}/4 fait</span></div>
+      <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
+      <div class="refine">
+        ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
+        ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
+        ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
+        ${refineCard("leadership", "Le profil que vous attendez", "2 minutes · expérience, probité, constance, style", leadDone())}
+        ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
+      </div>
+    </section>
+    <section class="rank-card" aria-labelledby="rank-h">
+      <div class="rank-head"><h2 id="rank-h">Le classement complet</h2><p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p></div>
+      <div class="ranking ${PHOTOS ? "photos" : ""}">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""} ${k === top ? "top" : ""}" data-reveal style="--i:${2 + i}">
+        <span class="rank num">${i + 1}</span>${avatar(c)}
+        <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
+        <div class="ci" role="img" aria-label="marge de ${pct(b.lo)} à ${pct(b.hi)} %"><div class="track"></div><div class="band" data-grow style="left:${X(b.lo)};--w:calc(${X(b.hi)} - ${X(b.lo)});width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
+        <div class="pct num">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
+    </section>
+    <h2 class="tiles-h">Comprendre ce résultat</h2>
+    <div class="tiles">${tiles.join("")}</div>
+    <div class="row dash-foot"><button class="btn ghost auto" id="cands" type="button">Fiches candidats et sources</button><button class="btn ghost auto" id="copy" type="button">Copier mes réponses</button></div>
     <p id="copied" class="muted small" hidden>Réponses copiées dans le presse-papiers.</p>
     <textarea id="copy-fallback" hidden readonly aria-label="Vos réponses"></textarea>
-  </div>`;
+  </div>` + footer();
 };
 screens.results.wire = () => {
   wireBrand();
@@ -878,11 +1417,18 @@ screens.results.wire = () => {
     if (t === "more") { st.refining = true; st.stopOffered = true; save(); go("statements"); } else go(t);
   });
   const c = $("#cands"); if (c) c.onclick = () => go("cands");
+  const tf = $("#top-fiche"); if (tf) tf.onclick = () => { const eff = effective(), sc = scoreAll(eff); st.candSel = CANDS[sc.indexOf(Math.max(...sc))].id; save(); go("cands"); };
   const cp = $("#copy"); if (cp) cp.onclick = () => {
     const txt = JSON.stringify({ answers: st.ans, important: st.imp, open: st.open, after: st.after, dilemmas: st.dil, points: st.points, leadership: st.lead, expectation: st.expect, data_asof: DATA.meta.asof }, null, 1);
     navigator.clipboard.writeText(txt).then(() => { $("#copied").hidden = false; }).catch(() => { const f = $("#copy-fallback"); f.hidden = false; f.value = txt; f.select(); });
   };
 };
+/* inner width of one dashboard tile: the container is not laid out yet when the screen renders, so it follows the viewport */
+function tileWidth() {
+  const vw = window.innerWidth, w = Math.min(1120, vw) - 32;
+  const cols = vw > 1000 ? 3 : vw > 600 ? 2 : 1; /* same breakpoints as the .tiles grid */
+  return Math.max(240, Math.floor((w - 16 * (cols - 1)) / cols) - 2 - (vw > 600 ? 40 : 32));
+}
 function axisAgreement(ua, da) {
   const pairs = ["econ", "cult", "eu"].filter(k => ua[k] !== null && da[k] !== null).map(k => [k, Math.abs(ua[k] - da[k])]);
   const bad = pairs.filter(p => p[1] > 0.5);
@@ -892,8 +1438,8 @@ function axisAgreement(ua, da) {
 }
 /* drawing width follows the screen so labels keep their real size on phones */
 function plotWidth() { const el = $("#app"); return Math.max(300, Math.min(520, (el ? el.clientWidth : 520) - 8)); }
-function mapSVG(ua, da) {
-  const W = plotWidth(), H = Math.round(W * 0.82), P = 46;
+function mapSVG(ua, da, W = plotWidth()) {
+  const H = Math.round(W * 0.82), P = 46;
   /* domain padded beyond [-1, 1] so points on the extremes keep room for their labels */
   const D = 1.18, sx = x => P + (x + D) / (2 * D) * (W - 2 * P), sy = y => H - P - (y + D) / (2 * D) * (H - 2 * P);
   const pts = CANDS.map(c => ({ c, a: candAxes(c) })).filter(o => o.a.econ !== null && o.a.cult !== null);
@@ -927,8 +1473,8 @@ function placeLabels(pts, W, H, P) {
     return { ...p, lx: p.x + 7, ly: p.y + 4, anchor: "start", lead: false };
   });
 }
-function euStrip(u, d) {
-  const W = plotWidth(), P = 46, sx = x => P + (x + 1) / 2 * (W - 2 * P);
+function euStrip(u, d, W = plotWidth()) {
+  const P = 46, sx = x => P + (x + 1) / 2 * (W - 2 * P);
   const pts = CANDS.map(c => ({ c, v: candAxes(c).eu })).filter(o => o.v !== null).sort((a, b) => a.v - b.v);
   return `<div class="tablewrap"><svg viewBox="0 0 ${W} 60" width="100%" style="max-width:${W}px" role="img" aria-label="Axe européen">
     <line x1="${P}" y1="30" x2="${W - P}" y2="30" stroke="var(--line)"/>
@@ -939,76 +1485,261 @@ function euStrip(u, d) {
   </svg></div>
   <p class="muted small">De l'intégration à la souveraineté : ${pts.map(o => esc(o.c.short || o.c.name)).join(" · ")}</p>`;
 }
-function areaTable(eff, ks) {
-  const rows = AREAS.map(a => {
+/* mean agreement per theme for the given candidates, over the statements answered in that theme */
+function areaCells(eff, ks) {
+  return AREAS.map(a => {
     const ids = Object.keys(eff).filter(id => SBY[id].area === a.id);
     if (!ids.length) return null;
     const cells = ks.map(k => { let n = 0, s = 0; ids.forEach(id => { const cp = candPos(CANDS[k], id); if (!cp) return; n++; s += 1 - Math.abs(eff[id].v - cp.p) / 4; }); return n ? s / n : null; });
-    return `<tr><td>${esc(a.fr)}</td>${cells.map(v => v === null ? `<td class="num">—</td>` : `<td class="num"><span class="heat" style="background:color-mix(in srgb, var(--accent) ${Math.round(v * v * 70)}%, transparent);color:${v > 0.75 ? "var(--accent-ink)" : "var(--ink)"}">${pct(v)}</span></td>`).join("")}</tr>`;
+    return { area: a, n: ids.length, cells };
   }).filter(Boolean);
-  return `<div class="tablewrap"><table><thead><tr><th>Thème</th>${ks.map(k => `<th class="num">${esc(CANDS[k].short || CANDS[k].name)}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>`;
+}
+/* one neutral ramp (the accent over the surface), value printed in every cell so nothing is carried by colour alone */
+function heatmap(rows, ks) {
+  const cell = v => v === null ? `<td class="na" aria-label="position inconnue">—</td>` : `<td><span class="heat" style="background:color-mix(in srgb, var(--accent) ${Math.round(v * v * 70)}%, transparent);color:${v > 0.75 ? "var(--accent-ink)" : "var(--ink)"}">${pct(v)}</span></td>`;
+  return `<div class="tablewrap"><table class="heatmap"><thead><tr><th scope="col"><span class="sr">Thème</span></th>${ks.map(k => `<th scope="col">${avatar(CANDS[k])}<span>${esc(CANDS[k].short || CANDS[k].name)}</span></th>`).join("")}</tr></thead>
+    <tbody>${rows.map(r => `<tr><th scope="row">${esc(r.area.fr)}</th>${r.cells.map(cell).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+function disagreementRows(eff, k, minGap = 2) {
+  const c = CANDS[k];
+  return Object.entries(eff).map(([id, e]) => { const cp = candPos(c, id); return cp ? { id, e, cp, gap: Math.abs(e.v - cp.p) } : null; })
+    .filter(r => r && r.gap >= minGap).sort((a, b) => b.gap - a.gap).slice(0, 8);
 }
 function disagreements(eff, k) {
   const c = CANDS[k];
-  const rows = Object.entries(eff).map(([id, e]) => { const cp = candPos(c, id); return cp ? { id, e, cp, gap: Math.abs(e.v - cp.p) } : null; })
-    .filter(r => r && r.gap >= 2).sort((a, b) => b.gap - a.gap).slice(0, 8);
+  const rows = disagreementRows(eff, k);
   if (!rows.length) return `<p>Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.</p>`;
   return rows.map(r => `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:10px">
     <p style="font-family:var(--serif);font-size:17px">${esc(SBY[r.id].fr)}</p>
     <p class="muted small">Vous : <span class="pos">${esc(POS_FR[String(Math.round(r.e.v))] || fmtPos(Math.round(r.e.v)))}</span> · ${esc(c.name)} : <span class="pos">${esc(POS_FR[String(r.cp.p)] || fmtPos(r.cp.p))}</span> (${esc(TYPE_FR[r.cp.type] || r.cp.type)}, ${esc(CONF_FR[r.cp.conf] || "")}). ${esc(r.cp.summary || "")}</p>
     ${srcList(r.cp.sources)}</div>`).join("");
 }
+const PRESUMPTION = "Toute personne mise en cause est présumée innocente tant que sa culpabilité n'a pas été établie par une décision définitive.";
+/* bare URLs (legal cases) shown by their site name */
+function urlList(urls) {
+  if (!urls || !urls.length) return "";
+  const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "source"; } };
+  return `<p class="src">${urls.slice(0, 3).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(host(u))}</a>`).join(" · ")}</p>`;
+}
 function srcList(src) {
   if (!src || !src.length) return "";
-  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.outlet || "source")}</a> ${s.lean ? `<span class="lean">${esc(LEAN_FR[s.lean] || s.lean)}</span>` : ""}`).join(" · ")}</p>`;
+  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.outlet || "source")}</a> ${s.lean ? `<span class="lean">${esc(LEAN_FR[s.lean] || s.lean)}</span>` : ""}`).join(" · ")}</p>`;
 }
 function profileTable(pf, order) {
   if (pf.every(p => !p)) return `<p class="muted">Vous n'avez accordé d'importance à aucun critère de profil.</p>`;
   const catFr = { probity: "probité", speech: "délit de parole", other: "autre délit" };
   const legalTxt = pr => !pr.convictions ? "—" : !pr.convictions.length ? "aucune" :
-    pr.convictions.map(x => `${catFr[x.cat]}${x.status === "convicted_final" ? "" : " (recours en cours)"}`).filter((x, i, a) => a.indexOf(x) === i).join(", ");
-  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th class="num">Exécutif</th><th>Condamnations</th></tr></thead><tbody>
+    pr.convictions.map(x => `${catFr[x.cat]}${x.status === "convicted_final" ? " (définitive)" : " (non définitive, recours en cours)"}`).filter((x, i, a) => a.indexOf(x) === i).join(", ");
+  const mode = { all: "comme une condamnation définitive", half: "pour moitié", final_only: "pas du tout" }[st.lead.g2b] || "pour moitié";
+  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th class="num">Exécutif</th><th>Condamnations pénales</th></tr></thead><tbody>
     ${order.map(k => { const c = CANDS[k], p = pf[k], pr = c.profile || {}; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? pct(p.score) + "&nbsp;%" : "—"}</td><td class="num">${pr.exec_years != null ? String(pr.exec_years).replace(".", ",") + " ans" : "—"}</td><td>${esc(legalTxt(pr))}</td></tr>`; }).join("")}
-  </tbody></table></div><p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
-}
-function viability(order) {
-  const P = DATA.meta.polls || {};
-  return `<p class="muted small">${esc(P.source || "")}. Un sondage n'est pas une prévision, surtout à six mois du scrutin.</p>
-  <table><tbody>${order.map(k => { const c = CANDS[k], p = (P.values || {})[c.id]; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? (p[0] === p[1] ? p[0] : p[0] + "–" + p[1]) + "&nbsp;%" : "non disponible"}</td></tr>`; }).join("")}</tbody></table>`;
+  </tbody></table></div><p class="muted small">Seules les condamnations pénales des catégories que vous avez choisies comptent dans le score ; une condamnation encore susceptible de recours compte ${mode}, comme vous l'avez indiqué. Les enquêtes, mises en examen, relaxes et non-lieux ne comptent jamais. ${PRESUMPTION}</p>
+  <p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
 }
 
-/* ------------------------------------------------------------------ candidate fiches */
+/* ------------------------------------------------------------------ candidates: index and fiches */
+/* alphabetical by surname: the only order that favours nobody */
+const CANDS_AZ = CANDS.slice().sort((a, b) => (a.short || a.name).localeCompare(b.short || b.name, "fr", { sensitivity: "base" }));
+const KIND_RANK = { national_executive: 0, legislative: 1, european: 2, local_executive: 3, party: 4, other: 5 };
+const isCurrentOffice = o => !o.to || o.to === "present";
+function currentOffices(c) { return ((c.record || {}).offices || []).filter(isCurrentOffice).sort((a, b) => (KIND_RANK[a.kind] ?? 9) - (KIND_RANK[b.kind] ?? 9)); }
+function nDocumented(c) { return S.filter(s => { const p = c.positions[s.id]; return p && p.p !== null && p.p !== undefined; }).length; }
+const MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+function dateFr(d) {
+  const m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/.exec(d || "");
+  if (!m) return d || "";
+  const day = m[3] ? (m[3] === "01" ? "1er" : String(+m[3])) + " " : "";
+  return m[2] ? `${day}${MONTHS_FR[+m[2] - 1]} ${m[1]}` : m[1];
+}
+function yearSpan(o) {
+  const y = s => (s || "").slice(0, 4);
+  if (isCurrentOffice(o)) return `depuis ${y(o.from)}`;
+  return y(o.from) === y(o.to) ? y(o.from) : `${y(o.from)}–${y(o.to)}`;
+}
+function photoCredit(c) {
+  const ph = c.photo;
+  if (!PHOTOS || !ph || !(ph.author || ph.license)) return "";
+  return `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}, recadrée et passée en noir et blanc.</p>`;
+}
+let candTab = "positions"; /* which fiche section is open; not persisted */
+
 screens.cands = () => {
-  const sel = st.candSel || CANDS[0].id;
-  const c = CANDS.find(x => x.id === sel) || CANDS[0];
-  const rec = c.record || {};
-  return brandBar() + `<div class="stack">
-    <span class="label">Fiches candidats · positions codées et sources</span>
-    <div class="stack-s"><label for="csel" class="muted small">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
-    <h1 style="font-size:30px">${esc(c.name)}</h1>
-    ${rec.bio ? `<p>${esc(rec.bio)}</p>` : ""}
-    <div class="grid2">
-      <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (o.to || ""))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
-      <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}</div>
-    </div>
-    ${(rec.reversals || []).length ? `<div class="card"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
-    ${rec.media_portrayal ? `<div class="card"><span class="label">Comment la presse le présente</span>
-      <p class="small"><b>Presse de gauche :</b> ${esc(rec.media_portrayal.left_media)}</p>
-      <p class="small"><b>Presse de droite :</b> ${esc(rec.media_portrayal.right_media)}</p>
-      <p class="small"><b>Médias neutres :</b> ${esc(rec.media_portrayal.neutral_media)}</p></div>` : ""}
-    <div class="card"><span class="label">Positions sur les ${S.length} propositions</span>
-      ${AREAS.map(a => `<h3 style="margin-top:6px">${esc(a.fr)}</h3>${S.filter(s => s.area === a.id).map(s => { const p = c.positions[s.id]; return `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:8px">
-        <p class="small"><span class="pos">${esc(p && p.p !== null && p.p !== undefined ? POS_FR[String(p.p)] : "?")}</span> ${esc(s.fr)}</p>
-        ${p && p.p !== null ? `<p class="muted" style="font-size:13.5px">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}. ${esc(p.summary || "")}${p.nuance ? " " + esc(p.nuance) : ""}</p>${srcList(p.sources)}` : `<p class="muted" style="font-size:13.5px">Pas de position documentée.</p>`}
-      </div>`; }).join("")}`).join("")}
-    </div>
-  </div>`;
+  const c = st.candSel && CANDS.find(x => x.id === st.candSel);
+  return brandBar() + (c ? candFiche(c) : candIndex()) + footer();
 };
-screens.cands.wire = () => { wireBrand(); $("#csel").onchange = e => { st.candSel = e.target.value; save(); render(); }; };
+
+function candIndex() {
+  return `<div class="stack">
+    <div class="stack-s"><span class="label">Fiches candidats</span><h1>Les ${CANDS_AZ.length} candidats</h1>
+    <p class="muted small">Par ordre alphabétique. Chaque fiche suit le même plan : positions sur les ${S.length} propositions avec leurs sources, parcours, affaires judiciaires et changements de position.</p></div>
+    <div class="cd-index">${CANDS_AZ.map((c, i) => { const o = currentOffices(c)[0]; return `<button type="button" class="cd-card" data-cand="${esc(c.id)}" data-reveal style="--i:${i}">${avatar(c)}<b>${esc(c.name)}</b><span class="party">${esc(c.party)}</span><span class="role">${esc(o ? o.office.replace(/\s*\([^)]*\)/g, "") : "")}</span></button>`; }).join("")}</div>
+  </div>`;
+}
+
+function candFiche(c) {
+  const i = CANDS_AZ.findIndex(x => x.id === c.id);
+  const prev = CANDS_AZ[(i - 1 + CANDS_AZ.length) % CANDS_AZ.length], next = CANDS_AZ[(i + 1) % CANDS_AZ.length];
+  const rec = c.record || {}, cur = currentOffices(c), nd = nDocumented(c);
+  const tabs = [["positions", "Positions", nd], ["parcours", "Parcours", (rec.offices || []).length], ["justice", "Justice", (rec.legal || []).length], ["evolutions", "Évolutions", (rec.reversals || []).length]];
+  const nav = `<nav class="cd-nav" aria-label="Autres candidats"><button type="button" data-cand="">${ICON.back}Tous les candidats</button>
+    <span class="pn"><button type="button" data-cand="${esc(prev.id)}" aria-label="Candidat précédent : ${esc(prev.name)}">‹ ${esc(prev.short || prev.name)}</button><button type="button" data-cand="${esc(next.id)}" aria-label="Candidat suivant : ${esc(next.name)}">${esc(next.short || next.name)} ›</button></span></nav>`;
+  return `<div class="stack cd-fiche">
+    ${nav}
+    <header class="cd-head">${PHOTOS ? `<img class="avatar" src="${esc(c.photo.src)}" alt="Portrait de ${esc(c.name)}" width="96" height="96">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="party">${esc(c.party)}</p>${cur[0] ? `<p class="role">${esc(cur[0].office)}</p>` : ""}</div>${photoCredit(c)}</header>
+    ${rec.bio ? `<div class="stack-s"><p class="cd-bio clamp" id="cbio">${esc(rec.bio)}</p><button type="button" class="cd-more" id="cbio-more" aria-expanded="false" hidden>Lire la suite</button></div>` : ""}
+    <dl class="cd-facts">
+      <dt>Mandats en cours</dt><dd>${cur.length ? cur.slice(0, 2).map(o => esc(o.office)).join("<br>") : "Aucun mandat en cours recensé."}</dd>
+      <dt>Positions documentées</dt><dd>${nd} sur ${S.length} propositions, chacune avec ses sources.</dd>
+    </dl>
+    <div class="cd-tabs" role="tablist" aria-label="Sections de la fiche">${tabs.map(([id, lbl, n]) => `<button type="button" role="tab" id="tab-${id}" aria-controls="cpanel" aria-selected="${candTab === id}" data-tab="${id}">${lbl}<span class="n num">${n}</span></button>`).join("")}</div>
+    <div id="cpanel" role="tabpanel" aria-labelledby="tab-${candTab}">${candPanel(c)}</div>
+    ${nav}
+  </div>`;
+}
+
+function candPanel(c) {
+  const rec = c.record || {};
+  if (candTab === "parcours") {
+    const offs = (rec.offices || []).slice().sort((a, b) => (b.from || "").localeCompare(a.from || ""));
+    return offs.length ? `<div class="cd-list">${offs.map((o, i) => `<div class="cd-off" data-reveal style="--i:${i}"><span class="yrs num">${esc(yearSpan(o))}</span><span>${esc(o.office)}</span></div>`).join("")}</div>` : `<p class="cd-empty">Aucun mandat recensé.</p>`;
+  }
+  if (candTab === "justice") {
+    const cases = (rec.legal || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    return `<div class="cd-list">${cases.length ? cases.map((l, i) => `<article class="cd-case" data-reveal style="--i:${i}"><p class="meta"><span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span><span class="muted num">${esc(dateFr(l.date))}</span></p><p>${esc(l.case)}</p>${urlList(l.sources)}</article>`).join("")
+      : `<p class="cd-empty">Aucune affaire judiciaire personnelle recensée.</p>`}
+      <p class="muted small">${PRESUMPTION}</p></div>`;
+  }
+  if (candTab === "evolutions") {
+    const revs = rec.reversals || [];
+    return revs.length ? `<div class="cd-list">${revs.map((r, i) => `<article class="cd-rev" data-reveal style="--i:${i}"><p class="meta"><b>${esc(r.topic)}</b><span class="muted num">${esc(r.years || "")}</span></p><div class="ba"><span>Avant</span><p>${esc(r.before)}</p><span>Après</span><p>${esc(r.after)}</p></div>${urlList(r.sources)}</article>`).join("")}</div>`
+      : `<p class="cd-empty">Aucun changement de position documenté.</p>`;
+  }
+  const open = false; /* closed by default: each theme's summary line already gives the balance */
+  const tally = rows => { const v = rows.map(s => c.positions[s.id]).map(p => p && p.p !== null && p.p !== undefined ? p.p : null);
+    const n = f => v.filter(f).length, pr = n(x => x > 0), co = n(x => x !== null && x < 0), mid = n(x => x === 0), nd = n(x => x === null);
+    return [pr && `${pr} pour`, co && `${co} contre`, mid && `${mid} partagé${mid > 1 ? "es" : "e"}`, nd && `${nd} non documentée${nd > 1 ? "s" : ""}`].filter(Boolean).join(" · "); };
+  return `<div class="cd-hint"><p class="muted small">Touchez une proposition pour lire le résumé, la nuance et les sources.</p><button type="button" class="cd-more" id="cd-toggle" data-open="${open}">${open ? "Tout replier" : "Tout déplier"}</button></div>
+    <div class="cd-themes">${AREAS.map((a, i) => { const rows = S.filter(s => s.area === a.id); return `<details class="cd-theme"${open ? " open" : ""} data-reveal style="--i:${i}"><summary><h3>${esc(a.fr)}<span class="num">${rows.length}</span></h3><p class="cd-tally muted small">${tally(rows)}</p></summary>${rows.map(s => { const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined; return `<button type="button" class="cd-prow${ok ? "" : " nd"}" data-s="${esc(s.id)}"><span class="pos${ok ? "" : " nd"}">${ok ? esc(POS_FR[String(p.p)]) : "—"}${ok ? "" : '<span class="sr">position non documentée</span>'}</span><span class="txt">${esc(s.fr)}</span></button>`; }).join("")}</details>`; }).join("")}</div>`;
+}
+
+function candPositionSheet(c, s) {
+  const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined;
+  openSheet(ABY[s.area] ? ABY[s.area].fr : "Proposition", `<p class="cd-stmt">${esc(s.fr)}</p>
+    <div class="block"><span class="label">${esc(c.name)}</span>${ok ? `<p><span class="pos">${esc(POS_FR[String(p.p)])}</span> <span class="muted small">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}</span></p>` : `<p class="muted">Pas de position documentée sur cette proposition.</p>`}</div>
+    ${ok && p.summary ? `<div class="block"><span class="label">En résumé</span><p>${esc(p.summary)}</p></div>` : ""}
+    ${ok && p.nuance ? `<div class="block"><span class="label">Nuance</span><p>${esc(p.nuance)}</p></div>` : ""}
+    ${ok && p.sources && p.sources.length ? `<div class="block"><span class="label">Sources</span>${srcList(p.sources)}</div>` : ""}`);
+}
+
+function wireCandPanel(c) {
+  $$("#cpanel .cd-prow").forEach(b => { b.onclick = () => { const s = SBY[b.dataset.s]; if (s) candPositionSheet(c, s); }; });
+  const tg = $("#cd-toggle");
+  if (tg) tg.onclick = () => { const open = tg.dataset.open !== "true"; tg.dataset.open = String(open); tg.textContent = open ? "Tout replier" : "Tout déplier"; $$("#cpanel .cd-theme").forEach(d => { d.open = open; }); };
+}
+screens.cands.wire = () => {
+  wireBrand();
+  $$("[data-cand]").forEach(b => { b.onclick = () => go("cands", b.dataset.cand || null); });
+  const c = st.candSel && CANDS.find(x => x.id === st.candSel);
+  if (!c) return;
+  const bio = $("#cbio"), more = $("#cbio-more");
+  if (bio && more) {
+    if (bio.scrollHeight > bio.clientHeight + 2) more.hidden = false;
+    more.onclick = () => { const open = bio.classList.toggle("clamp") === false; more.textContent = open ? "Réduire" : "Lire la suite"; more.setAttribute("aria-expanded", String(open)); };
+  }
+  $$(".cd-tabs [data-tab]").forEach(t => { t.onclick = () => {
+    candTab = t.dataset.tab;
+    $$(".cd-tabs [data-tab]").forEach(x => x.setAttribute("aria-selected", String(x === t)));
+    const panel = $("#cpanel"); panel.setAttribute("aria-labelledby", t.id); panel.innerHTML = candPanel(c); wireCandPanel(c);
+  }; });
+  wireCandPanel(c);
+};
 
 /* ------------------------------------------------------------------ method */
-screens.method = () => brandBar() + `<div class="stack method">${DATA.method_html}</div>`;
+screens.method = () => brandBar() + `<div class="stack page">${DATA.method_html}</div>` + footer();
 screens.method.wire = wireBrand;
+screens.legal = () => brandBar() + `<div class="stack page">${HAS_LEGAL ? DATA.legal_html : "<h1>Mentions légales</h1><p>À venir.</p>"}</div>` + footer();
+screens.legal.wire = wireBrand;
+
+/* ===== motion =====
+   motion.swap(apply)      render() hands it the DOM swap; it decides the direction of travel from the screen depth
+                           (a deeper screen slides in from the right, a shallower one from the left, siblings cross-fade,
+                           an in-place re-render swaps without a transition) and runs it inside a View Transition when
+                           the browser has one, with a CSS enter class otherwise. First paint and reduced motion: plain swap.
+   motion.confirm(el, fn)  an answer handler wrapper: marks the chosen control as selected before fn() re-renders,
+                           so the old screen is captured with the choice confirmed and holds a beat before leaving.
+   motion.hooks()          after each swap: counts up [data-count] and watches [data-reveal="view"] (see the CSS block). */
+const motion = (() => {
+  const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const DEPTH = { home: 0, cands: 1, method: 1, legal: 1, statements: 2, ready: 3, results: 4, dilemmas: 5, importance: 5, leadership: 5, reflect: 5 };
+  const stepOf = () => st.screen === "statements" ? st.hist.length
+    : st.screen === "dilemmas" ? Object.values(st.dil).filter(d => d && d.strength).length
+    : st.screen === "leadership" ? leadItems().filter(leadAnswered).length : 0;
+  let prev = null, answering = false, vtId = 0, io = null;
+  function direction() {
+    const cur = { screen: st.screen, step: stepOf() }, was = prev; prev = cur;
+    if (!was) return null;
+    let d = null;
+    if (was.screen !== cur.screen) { const a = DEPTH[was.screen] ?? 1, b = DEPTH[cur.screen] ?? 1; d = b > a ? "fwd" : b < a ? "back" : "fade"; }
+    else d = cur.step > was.step ? "fwd" : cur.step < was.step ? "back" : null;
+    return d === "fwd" && answering ? "answer" : d;
+  }
+  function swap(apply) {
+    const dir = direction(), app = $("#app"), root = document.documentElement;
+    if (!dir || reduced() || !document.startViewTransition) {
+      apply();
+      app.classList.remove("enter-fwd", "enter-back", "enter-fade");
+      if (dir && !reduced()) { void app.offsetWidth; app.classList.add("enter-" + (dir === "answer" ? "fwd" : dir)); }
+      return;
+    }
+    /* callers scroll to the top right after render(); the old screen is captured next frame, so put its scroll back
+       for the capture and apply the caller's scroll to the new screen instead */
+    const y = scrollY; let want = null, captured = false;
+    requestAnimationFrame(() => { if (!captured) { want = scrollY; scrollTo(0, y); } });
+    root.dataset.nav = dir;
+    const id = ++vtId;
+    let vt;
+    try { vt = document.startViewTransition(() => { captured = true; apply(); if (want !== null) scrollTo(0, want); }); }
+    catch (e) { apply(); delete root.dataset.nav; return; }
+    const done = () => { if (vtId === id) delete root.dataset.nav; };
+    vt.finished.then(done, done);
+  }
+  function confirm(el, fn) {
+    if (el && !reduced()) {
+      if (el.classList.contains("opt")) (el.closest("[role=group]") || el.parentElement).querySelectorAll(".opt.on").forEach(x => { if (x !== el) x.classList.remove("on"); });
+      el.classList.add("on", "picked"); el.style.viewTransitionName = "picked";
+      answering = true;
+    }
+    try { fn(); } finally { answering = false; }
+  }
+  function count(el) {
+    const target = parseFloat(el.dataset.count); if (isNaN(target)) return;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let node, m = null;
+    while ((node = walker.nextNode())) { m = /\d+/.exec(node.nodeValue); if (m) break; }
+    if (!m) return;
+    const pre = node.nodeValue.slice(0, m.index), post = node.nodeValue.slice(m.index + m[0].length);
+    const delay = (parseFloat(getComputedStyle(el).getPropertyValue("--i")) || 0) * 40, dur = 520;
+    let t0 = null;
+    const frame = now => {
+      if (!el.isConnected) return;
+      if (t0 === null) t0 = now + delay;
+      const p = Math.min(1, Math.max(0, (now - t0) / dur)), e = 1 - Math.pow(1 - p, 3);
+      node.nodeValue = pre + Math.round(target * e) + post;
+      if (p < 1) requestAnimationFrame(frame);
+    };
+    node.nodeValue = pre + "0" + post; requestAnimationFrame(frame);
+  }
+  function hooks() {
+    if (io) io.disconnect();
+    const views = $$('[data-reveal="view"]:not(.in)');
+    if (reduced() || !("IntersectionObserver" in window)) { views.forEach(v => v.classList.add("in")); return; }
+    io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -6% 0px" });
+    views.forEach(v => io.observe(v));
+    $$("[data-count]").forEach(count);
+  }
+  if (!reduced()) $(".ribbon").classList.add("draw");
+  return { swap, confirm, hooks };
+})();
+/* ===== /motion ===== */
 
 /* ------------------------------------------------------------------ router */
 function render() {
@@ -1016,10 +1747,18 @@ function render() {
   do { s = st.screen; html = (screens[s] || screens.home)(); } while (st.screen !== s && guard++ < 4);
   const fn = screens[st.screen] || screens.home;
   document.onkeydown = null;
-  $("#root").classList.toggle("wide", ["cands", "method"].includes(st.screen));
-  $("#app").innerHTML = html;
-  (fn.wire || (() => {}))();
+  motion.swap(() => {
+    $("#root").classList.toggle("wide", ["cands", "method", "legal"].includes(st.screen));
+    $("#app").innerHTML = html;
+    (fn.wire || (() => {}))();
+    motion.hooks();
+  });
   save();
+  if (location.hash !== hashFor(st.screen)) history.replaceState(null, "", hashFor(st.screen));
+}
+{ /* a deep link opens its screen; flow screens need answers behind them, otherwise they fall back to home */
+  const s = screenFromHash(location.hash);
+  if (s !== null && location.hash.length > 2) st.screen = (["ready", "dilemmas", "importance", "leadership", "reflect"].includes(s) && !nStatementsAnswered()) ? "home" : s;
 }
 render();
 </script>

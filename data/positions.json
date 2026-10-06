@@ -1618,7 +1618,7 @@
    },
    "record": {
     "candidate": "Marine Le Pen",
-    "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; a cassation appeal is pending, so the conviction is not final. In July 2026 she confirmed she will run for president a fourth time, and Jordan Bardella, who had been prepared as the alternative RN candidate, stood aside.",
+    "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; she has lodged a cassation appeal, so the conviction is not final. On 7 July 2026 she announced a fourth presidential candidacy, presenting Jordan Bardella, president of the RN, as her future Prime Minister.",
     "offices": [
      {
       "office": "Regional councillor, Nord-Pas-de-Calais",
@@ -1677,11 +1677,11 @@
       "office_fr": "Députée, 11e circonscription du Pas-de-Calais"
      },
      {
-      "office": "Departmental councillor, Pas-de-Calais (mandate ended following the ineligibility penalty)",
+      "office": "Departmental councillor, Pas-de-Calais (declared to have resigned by the prefect on 10 April 2025 after the ineligibility sentence with provisional execution; confirmed by the Conseil d'État on 10 November 2025)",
       "from": "2021-07-11",
-      "to": "2025-11-10",
+      "to": "2025-04-10",
       "kind": "legislative",
-      "office_fr": "Conseillère départementale, Pas-de-Calais (mandat achevé à la suite de la peine d'inéligibilité)"
+      "office_fr": "Conseillère départementale, Pas-de-Calais (démission d'office prononcée par le préfet le 10 avril 2025 à la suite de la peine d'inéligibilité avec exécution provisoire, confirmée par le Conseil d'État le 10 novembre 2025)"
      },
      {
       "office": "President of the RN group, Assemblée nationale",
@@ -1694,25 +1694,26 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "European Parliament parliamentary assistants case (embezzlement of EU public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine and 5 years' ineligibility with provisional (immediate) execution. Appeal, 7 July 2026: 3 years' prison of which 2 suspended (1 firm year to be served under electronic monitoring), as reported by Public Sénat and Toute l'Europe; Wikipedia gives '1 year firm + 3 years suspended', so the exact total is reported inconsistently. EUR 100,000 fine. 45 months' ineligibility, of which 30 suspended; the 15 firm months were treated as already served (to 30 June 2026), so she is eligible in 2027. Co-defendants on appeal include Louis Aliot (1 year suspended), Bruno Gollnisch (3 years suspended) and Julien Odoul (8 months suspended); Public Sénat reports the RN was fined EUR 2 million (EUR 1 million suspended). She has filed a cassation appeal. On 8 July 2026 the Court of Cassation said it 'could' rule 'au plus tard début avril 2027', a timetable it says may change; the first round is on 18 April 2027. The conviction is therefore not final.",
+      "case": "European Parliament assistants case (embezzlement of public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine, 5 years' ineligibility with provisional execution. Appeal, Paris court of appeal, 7 July 2026: 3 years' prison of which 2 suspended and 1 firm year to be served under electronic monitoring, EUR 100,000 fine, 45 months' ineligibility of which 30 suspended; the 15 firm months were counted as already served, so she is eligible in 2027. She has lodged a cassation appeal; on 8 July 2026 the Cour de cassation said it could rule 'no later than early April 2027', a timetable it said may change. The conviction is not final.",
       "status": "convicted_appeal_pending",
       "date": "2026-07-07",
       "sources": [
-       "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen",
-       "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+       "https://fr.euronews.com/2026/07/07/marine-le-pen-condamnee-a-45-mois-dineligibilite-dont-30-mois-assortis-de-sursis",
        "https://www.touteleurope.eu/vie-politique-des-etats-membres/proces-des-assistants-du-rn-marine-le-pen-condamnee-en-appel-mais-eligible-a-l-election-presidentielle-2027/",
-       "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/presidentielle-bracelet-electronique-pourvoi-en-cassation-les-questions-qui-se-posent-apres-la-condamnation-reduite-de-marine-le-pen-en-appel_8097893.html"
+       "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+       "https://www.leclubdesjuristes.com/en-bref/condamnation-de-marine-le-pen-la-cour-de-cassation-pourrait-statuer-sur-son-pourvoi-au-plus-tard-debut-avril-2027-16873/"
       ],
-      "case_fr": "Affaire des assistants parlementaires du Parlement européen (détournement de fonds publics de l'UE, 2004-2016). Première instance, 31 mars 2025 : 4 ans d'emprisonnement (dont 2 ferme), 100 000 euros d'amende et 5 ans d'inéligibilité avec exécution provisoire (immédiate). Appel, 7 juillet 2026 : 3 ans d'emprisonnement dont 2 avec sursis (1 an ferme à purger sous bracelet électronique), selon Public Sénat et Toute l'Europe ; Wikipédia indique « 1 an ferme + 3 ans avec sursis », le total exact est donc rapporté de manière incohérente. 100 000 euros d'amende. 45 mois d'inéligibilité, dont 30 avec sursis ; les 15 mois fermes ont été considérés comme déjà purgés (jusqu'au 30 juin 2026), si bien qu'elle est éligible en 2027. Parmi les coprévenus en appel figurent Louis Aliot (1 an avec sursis), Bruno Gollnisch (3 ans avec sursis) et Julien Odoul (8 mois avec sursis) ; Public Sénat rapporte que le RN a été condamné à une amende de 2 millions d'euros (dont 1 million avec sursis). Elle a formé un pourvoi en cassation. Le 8 juillet 2026, la Cour de cassation a indiqué qu'elle « pourrait » statuer « au plus tard début avril 2027 », un calendrier qui, selon elle, peut évoluer ; le premier tour a lieu le 18 avril 2027. La condamnation n'est donc pas définitive."
+      "case_fr": "Affaire des assistants parlementaires au Parlement européen (détournement de fonds publics, 2004-2016). Première instance, 31 mars 2025 : 4 ans d'emprisonnement dont 2 ferme, 100 000 euros d'amende, 5 ans d'inéligibilité avec exécution provisoire. Appel, cour d'appel de Paris, 7 juillet 2026 : 3 ans d'emprisonnement dont 2 avec sursis et 1 an ferme aménagé sous bracelet électronique, 100 000 euros d'amende, 45 mois d'inéligibilité dont 30 avec sursis ; les 15 mois fermes ont été considérés comme déjà exécutés, elle est donc éligible en 2027. Elle a formé un pourvoi en cassation ; le 8 juillet 2026, la Cour de cassation a indiqué qu'elle pourrait statuer « au plus tard début avril 2027 », calendrier qu'elle dit susceptible d'évoluer. La condamnation n'est pas définitive."
      },
      {
-      "case": "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing street prayers to an 'occupation'. The Lyon court acquitted her, ruling that the statement did not target the whole Muslim community.",
+      "case": "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing Muslim street prayers to an 'occupation'. The Lyon criminal court acquitted her on 15 December 2015, the prosecution itself having asked for an acquittal.",
       "status": "acquitted",
       "date": "2015-12-15",
       "sources": [
-       "https://en.wikipedia.org/wiki/Marine_Le_Pen"
+       "https://www.lalibre.be/international/2015/12/15/prieres-de-rue-comparees-a-loccupation-marine-le-pen-est-relaxee-par-la-justice-francaise-VIFYASRH7JBONN2NRHIZFP5LWE/",
+       "https://www.lyonmag.com/article/76133/prieres-de-rue-et-occupation-le-parquet-requiert-la-relaxe-de-marine-le-pen"
       ],
-      "case_fr": "Poursuite pour provocation à la haine à raison d'un discours prononcé à Lyon en décembre 2010, comparant les prières de rue à une « occupation ». Le tribunal de Lyon l'a relaxée, jugeant que ces propos ne visaient pas l'ensemble de la communauté musulmane."
+      "case_fr": "Poursuite pour provocation à la haine à raison d'un discours prononcé à Lyon en décembre 2010, comparant les prières de rue à une « occupation ». Le tribunal correctionnel de Lyon l'a relaxée le 15 décembre 2015, le parquet ayant lui-même requis la relaxe."
      }
     ],
     "reversals": [
@@ -1731,15 +1732,15 @@
      },
      {
       "topic": "Russia / Ukraine",
-      "before": "2017: visited Moscow and met Putin, called sanctions 'profoundly unjust and counterproductive' and proposed lifting them; defended the 2014 Crimea referendum.",
-      "after": "Since February 2022 she condemns the invasion 'without ambiguity', and in 2026 the RN denounced Russian 'hostile acts' in Europe. She still opposes further financial aid to Ukraine on budget grounds and defended the Crimea referendum again in 2023, so the shift is partial.",
-      "years": "2017-2026",
+      "before": "March 2017: visited Moscow and met Vladimir Putin, called the EU sanctions on Russia unjust and proposed lifting them.",
+      "after": "Since February 2022 she condemns the Russian invasion of Ukraine, while still opposing part of the military and financial support to Ukraine, so the shift is partial.",
+      "years": "2017-2022",
       "sources": [
        "https://legrandcontinent.eu/fr/2026/09/28/marine-le-pen-peut-elle-vraiment-rompre-avec-poutine/"
       ],
       "topic_fr": "Russie / Ukraine",
-      "before_fr": "2017 : s'est rendue à Moscou et a rencontré Vladimir Poutine, a qualifié les sanctions de « profondément injustes et contre-productives » et proposé de les lever ; a défendu le référendum de 2014 en Crimée.",
-      "after_fr": "Depuis février 2022, elle condamne l'invasion « sans ambiguïté », et en 2026 le RN a dénoncé des « actes hostiles » de la Russie en Europe. Elle s'oppose toujours à de nouvelles aides financières à l'Ukraine pour des raisons budgétaires et a de nouveau défendu le référendum de Crimée en 2023 ; l'évolution est donc partielle."
+      "before_fr": "Mars 2017 : s'est rendue à Moscou et a rencontré Vladimir Poutine, a jugé injustes les sanctions européennes contre la Russie et proposé de les lever.",
+      "after_fr": "Depuis février 2022, elle condamne l'invasion russe de l'Ukraine, tout en restant opposée à une partie du soutien militaire et financier à l'Ukraine ; l'évolution est donc partielle."
      }
     ],
     "delivery": [
@@ -1776,18 +1777,10 @@
       ]
      }
     ],
-    "media_portrayal": {
-     "left_media": "Left-leaning outlets typically present her as the leader of a far-right party whose normalisation is mainly a matter of image. They foreground the embezzlement conviction, her past ties to Russia and the national-preference proposal. This is inferred from general patterns, as Libération, Mediapart and L'Humanité were not opened.",
-     "right_media": "Right-leaning outlets typically present her as a legitimate sovereigntist leader. They tend to frame the prosecution as politicised and to emphasise her immigration, security and purchasing-power proposals. This is inferred, as CNews and Europe 1 pages could not be opened (HTTP 403).",
-     "neutral_media": "France 24, franceinfo, LCP and Public Sénat report the verdict, the sentence and her eligibility in procedural detail and stress the uncertainty before the cassation ruling. They treat the Le Pen/Bardella arrangement as a strategic question for the RN."
-    },
-    "sources_note": "Verified in this session against Public Sénat, LCP, franceinfo, Toute l'Europe, France 24, Le Grand Continent, Euronews, Infobae, Journal du Net, Référence Entreprise, and French and English Wikipedia. CNews and Europe 1 returned HTTP 403, so their URLs were removed. Gaps: no roll-call analysis (datan.fr, nosdeputes.fr, howtheyvote.eu); the full 2027 programme was not reviewed; left- and right-leaning outlets were not read directly, so the media_portrayal lean labels are inferred. Other personal cases listed on Wikipedia (defamation, the 2015 Islamic State images tweet case after her immunity was lifted in 2017, under-declared assets, the 2022 campaign-loan financing inquiries) could not be verified for status within the search budget and are left out. Sources disagree on the appeal prison total (3 years with 2 suspended per Public Sénat and Toute l'Europe, against 1 firm + 3 suspended per Wikipedia).",
-    "bio_fr": "Marine Le Pen (née en 1968) est une avocate devenue femme politique française, qui a dirigé le Front national, rebaptisé Rassemblement national (RN) en 2018, de 2011 à 2021. Elle a atteint le second tour de l'élection présidentielle en 2017 et en 2022, est députée du Pas-de-Calais depuis 2017 et présidente du groupe RN à l'Assemblée nationale depuis 2022. Elle a été condamnée en première instance en mars 2025 et en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires européens ; un pourvoi en cassation est en cours, la condamnation n'est donc pas définitive. En juillet 2026, elle a confirmé qu'elle sera candidate à la présidentielle pour la quatrième fois, et Jordan Bardella, qui avait été préparé comme candidat alternatif du RN, s'est effacé.",
-    "media_portrayal_fr": {
-     "left_media": "Les médias de gauche la présentent généralement comme la dirigeante d'un parti d'extrême droite dont la normalisation relève surtout de l'image. Ils mettent en avant la condamnation pour détournement de fonds, ses liens passés avec la Russie et la proposition de préférence nationale. Ceci est déduit de tendances générales, Libération, Mediapart et L'Humanité n'ayant pas été consultés.",
-     "right_media": "Les médias de droite la présentent généralement comme une dirigeante souverainiste légitime. Ils tendent à présenter les poursuites comme politisées et à mettre l'accent sur ses propositions en matière d'immigration, de sécurité et de pouvoir d'achat. Ceci est déduit, les pages de CNews et d'Europe 1 n'ayant pas pu être ouvertes (HTTP 403).",
-     "neutral_media": "France 24, franceinfo, LCP et Public Sénat rapportent le verdict, la peine et son éligibilité de manière détaillée sur le plan procédural et soulignent l'incertitude avant la décision de la Cour de cassation. Ils traitent l'arrangement entre Marine Le Pen et Jordan Bardella comme une question stratégique pour le RN."
-    }
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: bio, offices, legal statuses, candidacy and reversals re-verified against Euronews, LCP, Toute l'Europe, Le Club des juristes, Conseil d'État / Public Sénat (departmental council), La Libre / Lyon Mag (2015 acquittal), AFP-sourced press for the 7 July 2026 candidacy, and French Wikipedia for office dates. The media_portrayal block was removed: the earlier text was inferred without reading the outlets. Delivery and traits are not displayed and were not re-verified. The Cour de cassation ruling is still pending; recheck before April 2027.",
+    "bio_fr": "Marine Le Pen (née en 1968) est une avocate devenue femme politique, qui a dirigé le Front national, rebaptisé Rassemblement national (RN) en 2018, de 2011 à 2021. Elle a atteint le second tour de l'élection présidentielle en 2017 et en 2022, est députée du Pas-de-Calais depuis 2017 et présidente du groupe RN à l'Assemblée nationale depuis 2022. Elle a été condamnée en première instance en mars 2025 et en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires européens ; elle a formé un pourvoi en cassation, la condamnation n'est donc pas définitive. Le 7 juillet 2026, elle a annoncé sa quatrième candidature à la présidentielle, en présentant Jordan Bardella, président du RN, comme son futur Premier ministre.",
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Verification limits: the WebSearch budget was exhausted (200/200), so checks relied on WebFetch of the cited URLs. Null and party_line entries could not be searched afresh.",
@@ -3670,22 +3663,20 @@
       "status": "convicted_final",
       "date": "2019-12-09",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
-       "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+       "https://www.publicsenat.fr/actualites/politique/melenchon-condamne-a-trois-mois-avec-sursis-pour-la-perquisition-houleuse-a-lfi",
+       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
       ],
       "case_fr": "Rébellion, provocation et intimidation envers l'autorité judiciaire lors des perquisitions du 16 octobre 2018 au siège de LFI : jugé à Bobigny les 19 et 20 septembre 2019 et condamné le 9 décembre 2019 à 3 mois d'emprisonnement avec sursis et 8 000 euros d'amende. Il n'a pas fait appel ; la condamnation est donc définitive."
      },
      {
-      "case": "European Parliament assistants affair (suspected use of EP-paid assistants for the Parti de Gauche, 2009-2017; preliminary inquiry July 2017, judicial investigation from November 2018). Investigating judges closed the instruction on 26 May 2026 without placing Mélenchon under formal investigation (no mise en examen). Two former assistants were témoins assistés. Telos reports that no evidence established his direct involvement or an organised scheme. No formal non-lieu order was located in this check, but with no one mis en examen no trial can follow.",
-      "status": "dismissed",
+      "case": "European Parliament assistants case (suspected use of EP-paid assistants for party work, 2009-2017): preliminary inquiry opened in 2017, judicial investigation from November 2018. The investigating judges closed the investigation on 26 May 2026 without Mélenchon ever being placed under formal investigation (mis en examen) or given assisted-witness status; two former assistants were assisted witnesses. The closing order (non-lieu or referral of other persons) was not yet public as of 6 October 2026.",
+      "status": "investigation",
       "date": "2026-05-26",
       "sources": [
-       "https://www.lessentiel.lu/fr/story/france-melenchon-devrait-finalement-echapper-au-proces-103571189",
        "https://www.lejdd.fr/politique/enquete-sur-les-assistants-parlementaires-de-lfi-linstruction-terminee-sans-mise-en-examen-174903",
-       "https://www.telos-eu.com/fr/politique-francaise-et-internationale/le-pen-bayrou-et-melenchon-face-aux-juges-trois-destins-differents-une-meme-motivation.html",
-       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+       "https://www.publicsenat.fr/actualites/politique/assistants-d-eurodeputes-l-enquete-elargie-a-jean-luc-melenchon-76177"
       ],
-      "case_fr": "Affaire des assistants parlementaires européens (soupçon d'utilisation d'assistants payés par le Parlement européen pour le Parti de Gauche, 2009-2017 ; enquête préliminaire en juillet 2017, information judiciaire à partir de novembre 2018). Les juges d'instruction ont clos l'instruction le 26 mai 2026 sans mettre Mélenchon en examen. Deux anciens assistants ont été placés sous le statut de témoin assisté. Telos rapporte qu'aucun élément n'a établi son implication directe ni un système organisé. Aucune ordonnance formelle de non-lieu n'a été trouvée lors de cette vérification, mais, aucune personne n'étant mise en examen, aucun procès ne peut suivre."
+      "case_fr": "Affaire des assistants parlementaires européens (soupçon d'emplois d'assistants payés par le Parlement européen pour le travail du parti, 2009-2017) : enquête préliminaire ouverte en 2017, information judiciaire à partir de novembre 2018. Les juges d'instruction ont clôturé l'instruction le 26 mai 2026 sans que Mélenchon ait jamais été mis en examen ni placé sous le statut de témoin assisté ; deux anciens assistants étaient témoins assistés. L'ordonnance de règlement (non-lieu ou renvoi d'autres personnes) n'était pas connue au 6 octobre 2026."
      }
     ],
     "reversals": [
@@ -3705,15 +3696,15 @@
      {
       "topic": "Russia / Ukraine",
       "before": "2014: called the annexation of Crimea 'absolutely predictable' and opposed sanctions on Russia.",
-      "after": "February 2022: condemned the Russian invasion while still assigning NATO a share of responsibility; by June 2022 he endorsed arms deliveries, affirming Ukraine's right to defend itself, while opposing deeper French military involvement.",
+      "after": "February 2022: condemned the Russian invasion while advocating 'non-alignment' between Russia and the United States and questioning Western arms deliveries ('if we sent anti-tank weapons, I want to know why', March 2022). He now says Ukraine has the right to defend itself; the shift is partial.",
       "years": "2014-2022",
       "sources": [
-       "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+       "https://www.publicsenat.fr/actualites/politique/ukraine-si-c-est-vrai-qu-on-a-envoye-des-armes-antichars-je-veux-savoir-pourquoi-s",
        "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
       ],
       "topic_fr": "Russie / Ukraine",
       "before_fr": "2014 : a qualifié l'annexion de la Crimée d'« absolument prévisible » et s'est opposé aux sanctions contre la Russie.",
-      "after_fr": "Février 2022 : a condamné l'invasion russe tout en attribuant à l'OTAN une part de responsabilité ; en juin 2022, il approuvait les livraisons d'armes, affirmant le droit de l'Ukraine à se défendre, tout en s'opposant à une implication militaire française plus poussée."
+      "after_fr": "Février 2022 : a condamné l'invasion russe tout en prônant le « non-alignement » entre la Russie et les États-Unis et en questionnant les livraisons d'armes occidentales (« si c'est vrai qu'on a envoyé des armes antichars, je veux savoir pourquoi », mars 2022). Il reconnaît depuis le droit de l'Ukraine à se défendre ; l'évolution est partielle."
      }
     ],
     "delivery": [
@@ -3748,18 +3739,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not directly sampled in this check. LFI and sympathetic outlets present him as the main voice of social rupture and ecological planning, and present the judicial cases as political harassment. After the May 2026 closure, LFI said that no investigating judge had found grounds for a mise en examen.",
-     "right_media": "Right-leaning outlets (JDD, CNews) cover him largely through his legal cases and the 2018 searches. They reported the May 2026 closure of the assistants investigation without indictment.",
-     "neutral_media": "Neutral and encyclopedic sources (Wikipedia, Telos, L'Essentiel) describe a left-wing leader with a long PS career. They mention both his oratorical talent and controversies over provocative statements, and report that he was never charged in the EP assistants case."
-    },
-    "sources_note": "Original research and this verification both hit the 200-search WebSearch cap. The check therefore used direct fetches of French and English Wikipedia (including the French wikitext through the Wikipedia API), L'Essentiel, JDD, Telos and the aggregator pages. CNews returned 403 and could not be confirmed. No primary court releases, AFP, franceinfo or Le Monde pages could be opened, and the French Wikipedia statement that he did not appeal the 2019 judgment is cited to secondary press there. Not consulted: roll-call votes (datan/nosdeputes), the primary programme text, and left-leaning outlets (Libération, Mediapart, L'Humanité). Lean coverage is skewed to neutral and right sources. Aggregators (testpolitique, elyseescope, monvote2027) are secondary and of uncertain lean. Treat delivery and media_portrayal as provisional.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy (3 May 2026, TF1; LCP, La Libre), 2019 conviction (Public Sénat, 9 Dec 2019, no appeal announced), closure of the EP-assistants investigation on 26 May 2026 without mise en examen (JDD, 27 May 2026), office dates (French Wikipedia infobox), 2014 Crimea and 2022 Ukraine statements (Public Sénat). Changed: the Ukraine reversal no longer claims he endorsed arms deliveries in June 2022 (he questioned them); the assistants case is labelled as a closed investigation awaiting its closing order rather than a non-lieu. Removed: media_portrayal (not sampled). Delivery and traits are not displayed and were not re-verified; the 2027 programme items there come from aggregators.",
     "bio_fr": "Jean-Luc Mélenchon est un homme politique français né en 1951. Il a passé une trentaine d'années au Parti socialiste, où il a été sénateur de l'Essonne et ministre délégué à l'Enseignement professionnel (2000-2002), a quitté le PS en 2008 pour cofonder le Parti de Gauche, puis a fondé La France insoumise (LFI) en 2016. Il a été député européen de 2009 à 2017 et député des Bouches-du-Rhône de 2017 à 2022, et s'est présenté à l'élection présidentielle en 2012 (quatrième), 2017 (quatrième) et 2022 (troisième). Le 3 mai 2026, il a annoncé une quatrième candidature pour 2027, fondée sur une version actualisée de L'Avenir en commun et sur une VIe République issue d'une assemblée constituante.",
-    "media_portrayal_fr": {
-     "left_media": "Non échantillonnés directement lors de cette vérification. LFI et les médias qui lui sont favorables le présentent comme la principale voix de la rupture sociale et de la planification écologique, et présentent les affaires judiciaires comme du harcèlement politique. Après la clôture de mai 2026, LFI a affirmé qu'aucun juge d'instruction n'avait trouvé de motif de mise en examen.",
-     "right_media": "Les médias classés à droite (JDD, CNews) le couvrent surtout à travers ses affaires judiciaires et les perquisitions de 2018. Ils ont rapporté la clôture en mai 2026 de l'instruction sur les assistants sans mise en examen.",
-     "neutral_media": "Les sources neutres et encyclopédiques (Wikipédia, Telos, L'Essentiel) décrivent un dirigeant de gauche à la longue carrière au PS. Elles mentionnent à la fois son talent oratoire et les polémiques suscitées par ses déclarations provocatrices, et rapportent qu'il n'a jamais été mis en cause dans l'affaire des assistants du Parlement européen."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Primary source added: L'Avenir en commun 2022 edition sections on laec.fr (fetched; URLs from laec.fr/sommaire). The 2025-edition chapter pages on melenchon2027.fr return 404; the 2026 aggregators La Facture and TestPolitique confirm continuity on ISF, retirement at 60, SMIC, nationalisations and EU disobedience.",
@@ -5507,11 +5490,11 @@
       "office_fr": "Premier ministre"
      },
      {
-      "office": "Mayor of Le Havre (second term, re-elected 2026-03-28)",
+      "office": "Mayor of Le Havre (second term, re-elected March 2026)",
       "from": "2020-07-05",
       "to": "present",
       "kind": "local_executive",
-      "office_fr": "Maire du Havre (second mandat, réélu le 28 mars 2026)"
+      "office_fr": "Maire du Havre (second mandat, réélu en mars 2026)"
      },
      {
       "office": "President of Le Havre Seine Métropole",
@@ -5531,23 +5514,24 @@
     "executive_experience_years": 16,
     "legal": [
      {
-      "case": "Cour de justice de la République judicial investigation into Covid-19 pandemic management (opened 7 July 2020; his home was searched on 15 October 2020). He was placed under the status of témoin assisté (assisted witness) for 'abstention de combattre un sinistre' (failure to act against a disaster), not mis en examen, and the CJR's investigating commission issued a non-lieu (dismissal) for Philippe, Agnès Buzyn and Olivier Véran on 7 July 2025. Never charged or convicted.",
+      "case": "Cour de justice de la République investigation into the management of the Covid-19 pandemic (opened 7 July 2020; his home was searched on 15 October 2020). He was heard as an assisted witness (témoin assisté) for 'abstention de combattre un sinistre' and was never mis en examen. On 7 July 2025 the CJR's investigating commission issued a non-lieu for Philippe, Agnès Buzyn and Olivier Véran, following the prosecutor general's submissions of May 2025.",
       "status": "dismissed",
-      "date": "2020-07-07 (opened); 2025-07-07 (non-lieu)",
+      "date": "2025-07-07",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Cour_de_justice_de_la_République",
+       "https://www.leclubdesjuristes.com/en-bref/gestion-du-covid-19-la-cjr-prononce-un-non-lieu-a-lencontre-de-edouard-philippe-agnes-buzyn-et-olivier-veran-11443/",
+       "https://www.lequotidiendumedecin.fr/liberal-soins-de-ville/justice/gestion-du-covid-19-apres-edouard-philippe-et-agnes-buzyn-olivier-veran-place-comme-temoin-assiste",
        "https://fr.wikipedia.org/wiki/Édouard_Philippe"
       ],
-      "case_fr": "Information judiciaire de la Cour de justice de la République sur la gestion de la pandémie de Covid-19 (ouverte le 7 juillet 2020 ; son domicile a été perquisitionné le 15 octobre 2020). Il a été placé sous le statut de témoin assisté pour « abstention de combattre un sinistre », et non mis en examen, et la commission d'instruction de la CJR a rendu un non-lieu en faveur de Philippe, Agnès Buzyn et Olivier Véran le 7 juillet 2025. Jamais mis en examen pour ces faits ni condamné."
+      "case_fr": "Information judiciaire de la Cour de justice de la République sur la gestion de la pandémie de Covid-19 (ouverte le 7 juillet 2020 ; son domicile a été perquisitionné le 15 octobre 2020). Il a été entendu sous le statut de témoin assisté pour « abstention de combattre un sinistre » et n'a jamais été mis en examen. Le 7 juillet 2025, la commission d'instruction de la CJR a rendu un non-lieu en faveur d'Édouard Philippe, d'Agnès Buzyn et d'Olivier Véran, conformément aux réquisitions du parquet général de mai 2025."
      },
      {
-      "case": "In 2014 the HATVP (the transparency authority) published a critical assessment of his asset declaration because of omissions, and he later filed an updated declaration. This was an administrative finding and not a criminal case.",
+      "case": "In 2014 the HATVP (transparency authority) attached a critical 'appréciation' to his asset declaration as a deputy because of omissions (he was one of 23 parliamentarians out of 1,048 in that situation); he later filed a corrected declaration. An administrative finding, not a criminal case.",
       "status": "civil_or_other",
       "date": "2014",
       "sources": [
        "https://fr.wikipedia.org/wiki/Édouard_Philippe"
       ],
-      "case_fr": "En 2014, la HATVP (Haute Autorité pour la transparence de la vie publique) a publié une appréciation critique de sa déclaration de patrimoine en raison d'omissions, et il a ensuite déposé une déclaration mise à jour. Il s'agissait d'un constat administratif et non d'une affaire pénale."
+      "case_fr": "En 2014, la HATVP (Haute Autorité pour la transparence de la vie publique) a assorti sa déclaration de patrimoine de député d'une « appréciation » critique en raison d'omissions (il faisait partie des 23 parlementaires sur 1 048 dans ce cas) ; il a ensuite déposé une déclaration corrigée. Il s'agit d'un constat administratif et non d'une affaire pénale."
      }
     ],
     "reversals": [
@@ -5594,18 +5578,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched (search quota exhausted).",
-     "right_media": "Not researched (search quota exhausted).",
-     "neutral_media": "Not researched (search quota exhausted)."
-    },
-    "sources_note": "The WebSearch quota was exhausted in both the research and verification passes. All facts come from French Wikipedia pages that were opened and re-checked during verification: Édouard Philippe, Horizons, Gouvernement Philippe II and Cour de justice de la République. The CJR page cites a franceinfo article of 7 July 2025 for the non-lieu, but its URL could not be opened, so it is not cited directly. The profile is thin. It lacks cross-leaning outlets, the Horizons/2027 programme, trait corroboration and media portrayal, so the research should be re-run with search quota available. executive_experience_years counts mayor 2010-10 to 2017-05 (about 6.6 years), PM 2017-05 to 2020-07 (about 3.1) and mayor 2020-07 to 2026-10 (about 6.25), roughly 15.9 years in total. The metropole presidency overlaps the mayoralty and is not double-counted.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: PM and mayoral dates and re-election in March 2026 (LCP), candidacy announced in Le Point in September 2024, campaign launch on 5 July 2026 with the slogan 'Croire en nous' (Europe 1, Public Sénat), departure from the Horizons presidency announced 9 September 2026 with Christophe Béchu taking over on 1 October 2026 (CNews live, 9 Sept 2026; French Wikipedia), CJR non-lieu of 7 July 2025 (Le Club des juristes) and témoin assisté status (Le Quotidien du Médecin), 2013 PMA tribune and 2014 HATVP appréciation (French Wikipedia). Removed: media_portrayal (never researched). executive_experience_years (16) counts mayor 2010-2017, PM 2017-2020 and mayor since 2020; the metropole presidency is not double-counted. Delivery is not displayed and was not re-verified.",
     "bio_fr": "Édouard Philippe (né en 1970) est un homme politique français de centre droit, fondateur d'Horizons (2021). Il a été Premier ministre sous Emmanuel Macron de mai 2017 à juillet 2020 et est maire du Havre depuis 2020, réélu en mars 2026. Il a annoncé sa candidature à l'élection présidentielle de 2027 en septembre 2024 et lancé sa campagne le 5 juillet 2026 (slogan « Croire en nous »). Le 9 septembre 2026, il a annoncé qu'il quitterait la présidence d'Horizons pour bâtir une coalition plus large, et Christophe Béchu lui a succédé le 1er octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non recherché (quota de recherches épuisé).",
-     "right_media": "Non recherché (quota de recherches épuisé).",
-     "neutral_media": "Non recherché (quota de recherches épuisé)."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Verification limits: the session's WebSearch budget (200/200) was used up before this run. All checks were done by WebFetch on the cited URLs, so null positions could not be re-searched. They were re-checked only against the fetched pages (programme, aggregators). All cited URLs were reachable and contained the claimed content.",
@@ -7199,18 +7175,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched: no left-leaning outlet could be consulted. Wikipedia reports that the left criticised the abaya ban and the 2024 environmental rollbacks.",
-     "right_media": "Not researched: no right-leaning outlet could be consulted.",
-     "neutral_media": "Not researched beyond encyclopedic summaries. English Wikipedia reports that early in his premiership he was described as one of France's most popular politicians."
-    },
-    "sources_note": "Both the original research and this verification pass ran with the WebSearch budget exhausted, so no news outlet was reached. Five pages were checked:\n- fr.wikipedia.org/wiki/Gabriel_Attal\n- en.wikipedia.org/wiki/Gabriel_Attal\n- fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal\n- his Assemblée nationale page (assemblee-nationale.fr/dyn/deputes/PA722190), which confirms his current seat and his role as EPR group president\n- the campaign site attalpresident.fr\n\nThe campaign site uses the slogan \"La force d'agir\". It sets out four themes:\n- reducing the debt\n- education and youth\n- removing obstacles to growth\n- fairness between generations\n\nIt also announces a Lyon meeting on 10 October 2026.\n\nLegal: no judicial case appears in the sources checked. This shows only that none was found in limited sources; it does not prove a clean record.\n\nNot covered:\n- reversals, traits and media portrayal\n- assurance chômage, the immigration law, pension votes and the public-finances record\n\nBias caveat: all content comes from secondary encyclopedic sources plus the candidate's own site. A rerun with a search budget and outlets of different leanings is needed before publishing.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: every office date in the list matches the French Wikipedia infobox (Vanves councillor since 30 Mar 2014; deputy 2017-2018, June-July 2022 and since 8 Jul 2024; LREM spokesperson 2018; secretary of state 16 Oct 2018 - 6 Jul 2020; government spokesperson 6 Jul 2020 - 20 May 2022; public accounts 20 May 2022 - 20 Jul 2023; education 20 Jul 2023 - 11 Jan 2024; PM 9 Jan - 5 Sep 2024 with resignation accepted 16 Jul 2024; EPR group president since 13 Jul 2024; Renaissance general secretary since 8 Dec 2024). Candidacy announced 22 May 2026 at Mur-de-Barrez (LCP, Paris Match). No judicial case concerning him personally was found in the press or on Wikipedia; the legal list is therefore empty, which records an absence of findings rather than a court search. Removed: media_portrayal (never researched). Delivery is not displayed and was not re-verified; its Wikipedia-only claims about the later fate of the 'groupes de niveau' and the uniform experiment remain unverified.",
     "bio_fr": "Gabriel Attal (né le 16 mars 1989) est un homme politique de Renaissance qui a débuté du côté socialiste avant de rejoindre le mouvement d'Emmanuel Macron. Il a occupé plusieurs fonctions gouvernementales à partir de 2018 et est devenu le plus jeune Premier ministre de France le 9 janvier 2024. Le président Macron a accepté sa démission le 16 juillet 2024, après les élections législatives anticipées de juin-juillet 2024. Il a ensuite dirigé un gouvernement chargé des affaires courantes jusqu'à la nomination de Michel Barnier le 5 septembre 2024. Il préside le groupe Ensemble pour la République à l'Assemblée nationale depuis juillet 2024 et est secrétaire général de Renaissance depuis décembre 2024. Il a annoncé sa candidature à l'élection présidentielle de 2027 le 22 mai 2026 à Mur-de-Barrez (Aveyron).",
-    "media_portrayal_fr": {
-     "left_media": "Non étudié : aucun média de gauche n'a pu être consulté. Wikipédia rapporte que la gauche a critiqué l'interdiction de l'abaya et les reculs environnementaux de 2024.",
-     "right_media": "Non étudié : aucun média de droite n'a pu être consulté.",
-     "neutral_media": "Non étudié au-delà des synthèses encyclopédiques. Wikipédia en anglais rapporte qu'au début de son passage à Matignon, il était décrit comme l'une des personnalités politiques les plus populaires de France."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Method: the session's WebSearch budget was used up (200/200), so verification relied on WebFetch of the campaign site and Public Sénat, Bing News RSS, and curl. Le Figaro, Le Point, L'Opinion, Capital and La Croix could not be fetched.",
@@ -8167,19 +8135,17 @@
      "position": -2,
      "confidence": "low",
      "evidence_type": "party_line",
-     "summary": "LR backed the Duplomb law reintroducing a banned pesticide to align with EU competitors; Retailleau was associated with it and 'désavoué' when the Council censured it (Aug 2025).",
+     "summary": "LR backed the Duplomb law of July 2025, which reintroduced acetamiprid, a neonicotinoid banned in France but allowed elsewhere in the EU; the Conseil constitutionnel struck that provision down on 7 August 2025. No personal statement by Retailleau on keeping such bans was found.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/search?q=Retailleau+loi+Duplomb+pesticides&hl=fr&gl=FR&ceid=FR:fr",
-       "outlet": "TF1 Info (headline via Google News)",
-       "outlet_lean": "centre",
-       "date": "2025-08-07",
-       "quote": "Retailleau désavoué par le Conseil Constitutionnel (headline)"
+       "url": "https://lcp.fr/actualites/loi-agricole-duplomb-le-conseil-constitutionnel-censure-la-reintroduction-de-l",
+       "outlet": "LCP",
+       "outlet_lean": "neutral"
       }
      ],
-     "nuance": "Headline-level only; no personal verbatim quote retrieved.",
-     "summary_fr": "LR a soutenu la loi Duplomb, qui réintroduisait un pesticide interdit pour s'aligner sur les concurrents de l'UE ; Retailleau y a été associé et « désavoué » lorsque le Conseil constitutionnel l'a censurée (août 2025).",
-     "nuance_fr": "Niveau des titres uniquement ; aucune citation personnelle textuelle retrouvée."
+     "nuance": "",
+     "summary_fr": "LR a soutenu la loi Duplomb de juillet 2025, qui réintroduisait l'acétamipride, un néonicotinoïde interdit en France mais autorisé ailleurs dans l'UE ; le Conseil constitutionnel a censuré cette disposition le 7 août 2025. Aucune déclaration personnelle de Retailleau sur le maintien de telles interdictions n'a été trouvée.",
+     "nuance_fr": ""
     },
     "ecol3": {
      "id": "ecol3",
@@ -8489,19 +8455,22 @@
      "position": -2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "Pushes further restrictions (anti-'entrisme' bill adopted by the Senate in May 2026, veil ban at university), against the view that secularism should not restrict citizens' religious expression further.",
+     "summary": "Pushes further restrictions: his bill against 'entrisme islamiste' was adopted by the Senate on 5 May 2026 (208 to 124), and in January 2025 he said he favoured banning the veil at university and on school outings.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/search?q=Retailleau+Isra%C3%ABl+accord+d%27association&hl=fr&gl=FR&ceid=FR:fr",
-       "outlet": "Mizane Info (headline via Google News)",
-       "outlet_lean": "campaign-or-party",
-       "date": "2026-05-07",
-       "quote": "le Sénat adopte la loi Retailleau contre l'entrisme (headline)"
+       "url": "https://www.publicsenat.fr/actualites/politique/lutte-contre-lentrisme-islamiste-le-senat-adopte-le-texte-de-bruno-retailleau-la-gauche-fait-part-de-sa-honte",
+       "outlet": "Public Sénat",
+       "outlet_lean": "neutral"
+      },
+      {
+       "url": "https://www.leclubdesjuristes.com/en-bref/entrisme-islamiste-le-senat-adopte-la-proposition-de-loi-retailleau-15755/",
+       "outlet": "Le Club des juristes",
+       "outlet_lean": "neutral"
       }
      ],
-     "nuance": "Upgraded from inferred to statement/record based on 2026 bill and university-veil proposal.",
-     "summary_fr": "Pousse à de nouvelles restrictions (projet de loi contre l'« entrisme » adopté par le Sénat en mai 2026, interdiction du voile à l'université), à l'opposé de l'idée que la laïcité ne devrait pas restreindre davantage l'expression religieuse des citoyens.",
-     "nuance_fr": "Reclassé de déduit à déclaration/bilan sur la base du projet de loi de 2026 et de la proposition d'interdiction du voile à l'université."
+     "nuance": "",
+     "summary_fr": "Pousse à de nouvelles restrictions : sa proposition de loi contre l'« entrisme islamiste » a été adoptée par le Sénat le 5 mai 2026 (208 voix contre 124), et en janvier 2025 il s'est dit favorable à l'interdiction du voile à l'université et lors des sorties scolaires.",
+     "nuance_fr": ""
     },
     "soc5": {
      "id": "soc5",
@@ -8902,7 +8871,7 @@
    },
    "record": {
     "candidate": "Bruno Retailleau",
-    "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again from November 2025. He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2015-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate after the party vote of 19 April 2026. He is known for a restrictive line on immigration and security and for socially conservative positions.",
+    "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again since November 2025 (re-elected on 27 September 2026). He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2016-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate by a members' vote on 19 April 2026 (73.8%). He is known for a restrictive line on immigration and security and for socially conservative positions.",
     "offices": [
      {
       "office": "Departmental (general) councillor, Vendée (canton of Mortagne-sur-Sèvre)",
@@ -8926,18 +8895,18 @@
       "office_fr": "Vice-président du conseil régional des Pays de la Loire"
      },
      {
-      "office": "Senator for Vendée",
+      "office": "Senator for Vendée (seat taken by his substitute one month after his appointment as minister)",
       "from": "2004-10-01",
-      "to": "2024-10-01",
+      "to": "2024-10-20",
       "kind": "legislative",
-      "office_fr": "Sénateur de la Vendée"
+      "office_fr": "Sénateur de la Vendée (siège occupé par son suppléant un mois après sa nomination au gouvernement)"
      },
      {
-      "office": "President of the Vendée departmental council",
+      "office": "President of the Vendée general council",
       "from": "2010-10-31",
       "to": "2015-04-01",
       "kind": "local_executive",
-      "office_fr": "Président du conseil départemental de la Vendée"
+      "office_fr": "Président du conseil général de la Vendée"
      },
      {
       "office": "Chair of the UMP/LR group in the Senate",
@@ -8948,7 +8917,7 @@
      },
      {
       "office": "President of the Pays de la Loire regional council",
-      "from": "2015-12-18",
+      "from": "2016-01-04",
       "to": "2017-09-30",
       "kind": "local_executive",
       "office_fr": "Président du conseil régional des Pays de la Loire"
@@ -8961,11 +8930,11 @@
       "office_fr": "Ministre de l'Intérieur (gouvernements Barnier, Bayrou, Lecornu I ; ministre d'État depuis le 23 décembre 2024)"
      },
      {
-      "office": "Senator for Vendée (resumed; re-elected 2026)",
+      "office": "Senator for Vendée (resumed; re-elected 27 September 2026)",
       "from": "2025-11-13",
       "to": "present",
       "kind": "legislative",
-      "office_fr": "Sénateur de la Vendée (retour ; réélu en 2026)"
+      "office_fr": "Sénateur de la Vendée (retour ; réélu le 27 septembre 2026)"
      },
      {
       "office": "President of Les Républicains",
@@ -9016,18 +8985,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not directly verified: Libération, Mediapart and L'Humanité were not read. The secondary sources read report that his 2023 'Français de papier' remark and his rule-of-law comment drew wide criticism from opponents.",
-     "right_media": "Not verified: no right-leaning outlet was read, so no characterisation is given.",
-     "neutral_media": "Public Sénat (Nov 2024) reports his narcotics plan procedurally and gives room to a Socialist senator's partial support and criticism."
-    },
-    "sources_note": "WebSearch was unavailable (session budget exhausted), so verification relied on WebFetch reads of French and English Wikipedia (secondary, centre/neutral), the French Wikipedia article on the narcotrafic law, and one Public Sénat article (Nov 2024, neutral-institutional). Le Monde, Libération, the Sénat site, LR programme pages and 2026 campaign coverage were not consulted directly. The 2026 facts (candidacy on 12 Feb 2026, LR vote on 19 Apr 2026 with 73.8%, Senate re-election in 2026) rest on Wikipedia only. The legal list is empty because no case personally implicating him was found in these sources; absence is not confirmed by a court or AFP search. Mediapart's 2017 report naming him as a recipient of a EUR 3,029 Senate-group reimbursement is not a judicial case against him. Traits are empty because none could be corroborated by two sources of different leanings.",
-    "bio_fr": "Bruno Retailleau (né le 20 novembre 1960 à Cholet) est un homme politique conservateur vendéen et président des Républicains depuis mai 2025. Il a été sénateur de la Vendée de 2004 à 2024, puis de nouveau depuis novembre 2025. Il a présidé le conseil départemental de la Vendée (2010-2015) et la région Pays de la Loire (2015-2017), dirigé le groupe LR au Sénat (2014-2024) et été ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, éphémère (septembre 2024 - octobre 2025). Il a déclaré sa candidature à l'élection présidentielle de 2027 le 12 février 2026 et a été désigné candidat LR après le vote des adhérents du 19 avril 2026. Il est connu pour une ligne restrictive sur l'immigration et la sécurité et pour des positions socialement conservatrices.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié directement : Libération, Mediapart et L'Humanité n'ont pas été lus. Les sources secondaires lues rapportent que sa remarque de 2023 sur les « Français de papier » et son commentaire sur l'État de droit ont suscité de larges critiques de la part de ses opposants.",
-     "right_media": "Non vérifié : aucun média orienté à droite n'a été lu, donc aucune caractérisation n'est donnée.",
-     "neutral_media": "Public Sénat (novembre 2024) rend compte de son plan antidrogue de façon procédurale et laisse place au soutien partiel et aux critiques d'un sénateur socialiste."
-    }
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy declared 12 Feb 2026 (AFP via Public Sénat, Reuters), LR members' vote of 19 Apr 2026 at 73.8% (Le Temps/AFP), re-election as senator on 27 Sep 2026 with the 'Union pour la Vendée' list at 62.48% (interior ministry results), office dates (French Wikipedia infobox: conseiller général 1988-2015, deputy 1994-1997, regional vice-president 1998-2004, senator 1 Oct 2004 - 20 Oct 2024 and since 13 Nov 2025, general council president 2010-2015, Senate group chair 2014-2024, regional president 4 Jan 2016 - 30 Sep 2017, interior minister 21 Sep 2024 - 12 Oct 2025, LR president since 18 May 2025), 2022 'pas soluble dans le macronisme' quote (Public Sénat). No judicial case concerning him personally was found. Removed: media_portrayal (not researched). Delivery is not displayed and was not re-verified.",
+    "bio_fr": "Bruno Retailleau (né le 20 novembre 1960 à Cholet) est un homme politique conservateur vendéen et président des Républicains depuis mai 2025. Il a été sénateur de la Vendée de 2004 à 2024, puis de nouveau depuis novembre 2025 (réélu le 27 septembre 2026). Il a présidé le conseil général de la Vendée (2010-2015) et la région Pays de la Loire (2016-2017), dirigé le groupe LR au Sénat (2014-2024) et été ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, éphémère (septembre 2024 - octobre 2025). Il a déclaré sa candidature à l'élection présidentielle de 2027 le 12 février 2026 et a été désigné candidat LR par le vote des adhérents du 19 avril 2026 (73,8 %). Il est connu pour une ligne restrictive sur l'immigration et la sécurité et pour des positions socialement conservatrices.",
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Search note: the WebSearch budget was exhausted (200/200). I verified through Google News RSS with decoded publisher URLs and fetched the articles directly. Every URL cited was opened or appeared in those results.",
@@ -10504,35 +10465,25 @@
       "case_fr": "Complicité de diffamation publique envers une administration publique (INED ; affirmation sur CNews en avril 2021 selon laquelle l'INED « trafique les chiffres ») : tribunal de Paris, 29 janvier 2024, amende de 1 500 EUR avec sursis ; confirmé en appel le 11 décembre 2024 ; pourvoi rejeté par la Cour de cassation le 27 janvier 2026"
      },
      {
-      "case": "Complicité de diffamation publique against MP Danièle Obono (2020 CNews remarks): tribunal correctionnel de Paris 7 Feb 2024, 1,000 EUR suspended fine; confirmed on appeal Jan 2025; Cour de cassation confirmed the case in June 2026",
-      "status": "convicted_final",
-      "date": "2026-06",
-      "sources": [
-       "https://www.mediapart.fr/journal/politique/260626/cnews-definitivement-condamnee-pour-les-propos-diffamatoires-d-eric-zemmour-contre-daniele-obono",
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Complicité de diffamation publique envers la députée Danièle Obono (propos de 2020 sur CNews) : tribunal correctionnel de Paris, 7 février 2024, amende de 1 000 EUR avec sursis ; confirmé en appel en janvier 2025 ; la Cour de cassation a confirmé la décision en juin 2026"
-     },
-     {
-      "case": "Injure raciale (remarks after the Crépol killing): tribunal correctionnel de Paris 26 March 2025, 9,000 EUR (60 day-fines of 150 EUR); acquitted on other counts; Zemmour announced an appeal. Appeal outcome not verified",
+      "case": "Injure raciale (30 November 2023 remarks on RMC/BFMTV after the Crépol killing, 'deux Frances'): tribunal correctionnel de Paris, 26 March 2025, EUR 9,000 (60 day-fines of EUR 150); acquitted on other counts. Zemmour announced an appeal; the appeal ruling was not known as of 6 October 2026.",
       "status": "convicted_appeal_pending",
       "date": "2025-03-26",
       "sources": [
        "https://www.france24.com/fr/info-en-continu/20250326-cr%C3%A9pol-eric-zemmour-condamn%C3%A9-pour-injure-raciale",
        "https://www.bfmtv.com/police-justice/eric-zemmour-condamne-pour-injure-raciale-apres-des-propos-sur-le-drame-de-crepol_AD-202503260432.html"
       ],
-      "case_fr": "Injure raciale (propos après le meurtre de Crépol) : tribunal correctionnel de Paris, 26 mars 2025, 9 000 EUR (60 jours-amende de 150 EUR) ; relaxé sur les autres chefs ; Zemmour a annoncé faire appel. Issue de l'appel non vérifiée"
+      "case_fr": "Injure raciale (propos du 30 novembre 2023 sur RMC/BFMTV après le meurtre de Crépol, « deux Frances ») : tribunal correctionnel de Paris, 26 mars 2025, 9 000 euros (60 jours-amende de 150 euros) ; relaxé sur les autres chefs. Zemmour a annoncé faire appel ; la décision d'appel n'était pas connue au 6 octobre 2026."
      },
      {
-      "case": "Contestation de crime contre l'humanité (Oct 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 Feb 2021) and on appeal (May 2022); acquittal quashed by the Cour de cassation 5 Sept 2023; convicted on retrial by the cour d'appel de Paris 2 April 2025, 10,000 EUR fine; Zemmour announced a pourvoi en cassation. Cassation outcome not verified",
+      "case": "Contestation de crime contre l'humanité (October 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 February 2021) and on appeal (2022); acquittal quashed by the Cour de cassation on 5 September 2023; convicted on retrial by the cour d'appel de Paris on 2 April 2025, EUR 10,000 fine. Zemmour announced a pourvoi en cassation; the outcome was not known as of 6 October 2026.",
       "status": "convicted_appeal_pending",
       "date": "2025-04-02",
       "sources": [
+       "https://www.thelocal.fr/20250402/frances-zemmour-fined-e10000-over-claim-wwii-leader-saved-jews",
        "https://www.courdecassation.fr/toutes-les-actualites/2023/09/05/contestation-de-lexistence-de-crime-contre-lhumanite-par-un-homme",
-       "https://www.lefigaro.fr/petain-sauveur-de-juifs-francais-eric-zemmour-condamne-a-10-000-euros-d-amende-20250402",
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+       "https://www.lefigaro.fr/petain-sauveur-de-juifs-francais-eric-zemmour-condamne-a-10-000-euros-d-amende-20250402"
       ],
-      "case_fr": "Contestation de crime contre l'humanité (affirmation sur CNews en octobre 2019 selon laquelle Pétain « a sauvé les Juifs français ») : relaxé en première instance (4 février 2021) et en appel (mai 2022) ; relaxe cassée par la Cour de cassation le 5 septembre 2023 ; condamné après renvoi par la cour d'appel de Paris le 2 avril 2025, amende de 10 000 EUR ; Zemmour a annoncé un pourvoi en cassation. Issue de la cassation non vérifiée"
+      "case_fr": "Contestation de crime contre l'humanité (affirmation sur CNews en octobre 2019 selon laquelle Pétain « a sauvé les Juifs français ») : relaxé en première instance (4 février 2021) et en appel (2022) ; relaxe cassée par la Cour de cassation le 5 septembre 2023 ; condamné après renvoi par la cour d'appel de Paris le 2 avril 2025, amende de 10 000 euros. Zemmour a annoncé un pourvoi en cassation ; l'issue n'était pas connue au 6 octobre 2026."
      },
      {
       "case": "Civil judgment for contrefaçon de droits d'auteur and atteinte au droit moral (film extracts in his campaign announcement video): tribunal judiciaire de Paris 4 March 2022, Zemmour and Reconquête ordered to pay about 70,000 EUR to Gaumont, EuropaCorp, Luc Besson, SACD and others; no appeal filed",
@@ -10545,67 +10496,42 @@
       "case_fr": "Jugement civil pour contrefaçon de droits d'auteur et atteinte au droit moral (extraits de films dans sa vidéo d'annonce de candidature) : tribunal judiciaire de Paris, 4 mars 2022, Zemmour et Reconquête condamnés à verser environ 70 000 EUR à Gaumont, EuropaCorp, Luc Besson, la SACD et d'autres ; pas d'appel"
      },
      {
-      "case": "Contrefaçon de droits d'auteur (unauthorised extracts of the documentary 'Le Collège d'à côté'): judgment of 16 Jan 2026; court, amount and appeal status not verified",
-      "status": "civil_or_other",
-      "date": "2026-01-16",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Contrefaçon de droits d'auteur (extraits non autorisés du documentaire « Le Collège d'à côté ») : jugement du 16 janvier 2026 ; juridiction, montant et état de l'appel non vérifiés"
-     },
-     {
-      "case": "Injure homophobe (Oct 2019 CNews remarks): convicted at first instance 28 Sept 2023 (4,000 EUR), acquitted by the cour d'appel de Paris 12 Sept 2024; a civil party (Stop Homophobie) said it would file a pourvoi",
+      "case": "Injure homophobe (October 2019 CNews remarks): convicted at first instance on 28 September 2023 (EUR 4,000), acquitted by the cour d'appel de Paris on 12 September 2024.",
       "status": "acquitted",
       "date": "2024-09-12",
       "sources": [
+       "https://www.lalibre.be/international/europe/2024/09/12/eric-zemmour-condamne-et-relaxe-en-appel-dans-deux-affaires-distinctes-5Q6K776HTBCJTKNFDMZNLIJN2Y/",
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Injure homophobe (propos d'octobre 2019 sur CNews) : condamné en première instance le 28 septembre 2023 (4 000 EUR), relaxé par la cour d'appel de Paris le 12 septembre 2024 ; une partie civile (Stop Homophobie) a dit qu'elle formerait un pourvoi"
+      "case_fr": "Injure homophobe (propos d'octobre 2019 sur CNews) : condamné en première instance le 28 septembre 2023 (4 000 euros), relaxé par la cour d'appel de Paris le 12 septembre 2024."
      },
      {
-      "case": "Provocation à la discrimination (Jan 2022 Public Sénat remarks on immigration and crime), prosecuted by LDH and SOS Racisme: acquitted by the tribunal correctionnel de Paris",
+      "case": "Provocation à la haine (26 January 2022 Public Sénat remarks linking crime to immigration): acquitted by the tribunal correctionnel de Paris on 2 July 2025, the court finding the remarks targeted only 'the delinquent fraction' of immigrants.",
       "status": "acquitted",
-      "date": "2025-07",
+      "date": "2025-07-02",
       "sources": [
+       "https://www.lecourrierdelatlas.com/relaxe-eric-zemmour-echappe-a-une-nouvelle-condamnation/",
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Provocation à la discrimination (propos de janvier 2022 sur Public Sénat à propos de l'immigration et de la délinquance), poursuites de la LDH et de SOS Racisme : relaxé par le tribunal correctionnel de Paris"
+      "case_fr": "Provocation à la haine (propos du 26 janvier 2022 sur Public Sénat liant la délinquance à l'immigration) : relaxé par le tribunal correctionnel de Paris le 2 juillet 2025, le tribunal estimant que les propos ne visaient que « la fraction délinquante » des immigrés."
      },
      {
-      "case": "Diffamation (Feb 2022 France Inter remarks comparing French towns to Afghanistan): acquitted 12 Nov 2024, acquittal confirmed on appeal Oct 2025; Vitry-sur-Seine filed a pourvoi",
+      "case": "Contestation de crime contre l'humanité (passage of his 2021 book calling the deportation of homosexuals from France a 'légende'): acquitted at first instance in June 2025; acquittal confirmed by the cour d'appel de Paris on 25 June 2026.",
       "status": "acquitted",
-      "date": "2025-10",
+      "date": "2026-06-25",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+       "https://www.actu-juridique.fr/penal/il-avait-conteste-la-deportation-dhomosexuels-entre-1940-et-1945-eric-zemmour-gagne-son-second-proces/"
       ],
-      "case_fr": "Diffamation (propos de février 2022 sur France Inter comparant des villes françaises à l'Afghanistan) : relaxé le 12 novembre 2024, relaxe confirmée en appel en octobre 2025 ; la commune de Vitry-sur-Seine a formé un pourvoi"
+      "case_fr": "Contestation de crime contre l'humanité (passage de son livre de 2021 qualifiant de « légende » la déportation d'homosexuels depuis la France) : relaxé en première instance en juin 2025 ; relaxe confirmée par la cour d'appel de Paris le 25 juin 2026."
      },
      {
-      "case": "Contestation de crime contre l'humanité (book passage calling the deportation of homosexuals from France a 'légende'): acquitted 18 Sept 2025; plaintiffs' appeal dismissed June 2026",
+      "case": "Diffamation against teacher Sophie Djigo (2022 remarks about a school trip to the Calais migrant camp), tried in March 2026 with RN officials: acquitted by the tribunal de Paris on 9 June 2026.",
       "status": "acquitted",
-      "date": "2026-06",
+      "date": "2026-06-09",
       "sources": [
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Contestation de crime contre l'humanité (passage d'un livre qualifiant de « légende » la déportation d'homosexuels depuis la France) : relaxé le 18 septembre 2025 ; appel des plaignants rejeté en juin 2026"
-     },
-     {
-      "case": "Diffamation against teacher Sophie Djigo (2022), tried with nine RN officials 30-31 March 2026: acquitted June 2026; the teacher announced an appeal",
-      "status": "acquitted",
-      "date": "2026-06",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Diffamation envers l'enseignante Sophie Djigo (2022), jugé avec neuf responsables du RN les 30 et 31 mars 2026 : relaxé en juin 2026 ; l'enseignante a annoncé faire appel"
-     },
-     {
-      "case": "Prosecution before the 17e chambre for 2021 and 2022 CNews remarks about Senegalese crack dealers (renvoi ordered May 2024). Trial outcome not verified",
-      "status": "indicted",
-      "date": "2024-05",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Poursuites devant la 17e chambre pour des propos tenus sur CNews en 2021 et 2022 à propos de dealers de crack sénégalais (renvoi ordonné en mai 2024). Issue du procès non vérifiée"
+      "case_fr": "Diffamation envers l'enseignante Sophie Djigo (propos de 2022 sur une sortie scolaire au camp de migrants de Calais), jugé en mars 2026 avec des responsables du RN : relaxé par le tribunal de Paris le 9 juin 2026."
      }
     ],
     "reversals": [],
@@ -10622,18 +10548,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Only partly verified. Mediapart (left) reported the final Obono defamation ruling as the latest in a long list of sanctions. Its standfirst reads: 'Dernière sanction d'une longue liste'. Libération (centre-left) also covers each conviction in detail (headlines seen in Wikipedia citations). No wider sample was checked.",
-     "right_media": "Not verified. No CNews, Europe 1, JDD or Valeurs actuelles coverage was opened this session, so their portrayal is not documented here. Le Figaro (centre-right) covered the 2022 ECHR ruling and the 2025 Pétain conviction in factual headlines (URL slugs only; the pages could not be fetched).",
-     "neutral_media": "Partly verified. franceinfo calls him the 'candidat d'extrême droite' and reports his convictions and their final status factually. AFP dispatches (via L'Obs) and France 24 report court decisions without adding commentary."
-    },
-    "sources_note": "WebSearch was unavailable (the session's 200-call quota was used up), so verification relied on direct fetches. These were the raw text of the French Wikipedia pages on Zemmour, Reconquête and the 2027 election, plus the cited articles that could be opened or checked by HTTP status: franceinfo, AFP via L'Obs, France 24, BFM TV, Radio France, Le Dauphiné, Le Club des juristes, ActuaLitté, Mediapart (metadata only), courdecassation.fr, and Le Figaro (HTTP 200, but the content could not be fetched). Le Monde and Libération pages block automated access, so they are not cited. Legal statuses come from court decisions reported up to mid-2026. Two convictions are still under appeal: the Crépol case on appeal and the Pétain case at cassation. Their later outcomes, if any, could not be checked and should be rechecked before publication. No right-leaning outlet was opened, so media_portrayal is unbalanced by omission, and traits and reversals stay empty for lack of sources of more than one leaning.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy confirmed on BFMTV on 17 September 2026 (LCP, Public Sénat), 2022 results (7.07%; Var 4th constituency 23.19%, third), and each remaining legal entry checked against at least one press or court source (Le Club des juristes and INED for the 2025-2026 cassation rulings, La Libre for the 12 Sept 2024 appeal acquittal, France 24 for Crépol, The Local/Le Figaro for the Pétain retrial, Le Courrier de l'Atlas for the 2 July 2025 acquittal, Actu-Juridique for the 25 June 2026 appeal acquittal, press for the 9 June 2026 Djigo acquittal). Removed as unverifiable: the Senegalese 'crack dealers' prosecution (trial outcome not found), the Danièle Obono defamation case (only a Mediapart page that could not be opened), the Vitry-sur-Seine 'Afghanistan' defamation case and the 'Le Collège d'à côté' copyright judgment (Wikipedia only). Two convictions are not final (Crépol: appeal pending; Pétain: cassation pending); recheck before publication. Removed: media_portrayal (right-leaning outlets not read). Delivery is not displayed and was not re-verified.",
     "bio_fr": "Éric Zemmour, né le 31 août 1958 à Montreuil, est un journaliste, essayiste et homme politique français. Il a travaillé au Figaro, à RTL, sur Paris Première et à CNews avant de fonder Reconquête en décembre 2021. Il est arrivé quatrième de l'élection présidentielle de 2022 avec 7,07 % et a confirmé sa candidature pour 2027 sur BFM TV le 17 septembre 2026. Reconquête est classé à l'extrême droite et national-conservateur, et fait campagne sur l'« immigration zéro », l'assimilation et l'euroscepticisme.",
-    "media_portrayal_fr": {
-     "left_media": "Seulement partiellement vérifié. Mediapart (gauche) a rapporté la décision définitive dans l'affaire de diffamation envers Obono comme la dernière d'une longue liste de sanctions. Son chapô indique : « Dernière sanction d'une longue liste ». Libération (centre gauche) couvre aussi chaque condamnation en détail (titres vus dans les citations de Wikipédia). Aucun échantillon plus large n'a été vérifié.",
-     "right_media": "Non vérifié. Aucune couverture de CNews, d'Europe 1, du JDD ou de Valeurs actuelles n'a été ouverte durant cette session, leur traitement n'est donc pas documenté ici. Le Figaro (centre droit) a couvert la décision de la CEDH de 2022 et la condamnation pour les propos sur Pétain de 2025 dans des titres factuels (slugs d'URL uniquement ; les pages n'ont pas pu être consultées).",
-     "neutral_media": "Partiellement vérifié. franceinfo le qualifie de « candidat d'extrême droite » et rapporte ses condamnations et leur état définitif de façon factuelle. Les dépêches de l'AFP (via L'Obs) et France 24 rapportent les décisions de justice sans commentaire."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Method: the WebSearch budget for this session was exhausted (200/200), so verification used direct fetches only: Institut Montaigne 2022 programme pages (all themes), the raw French Wikipedia article on Zemmour, the Reconquête party site, combienjegagne.fr and RTL 18 Sept 2026 (via curl).",
@@ -10747,26 +10665,19 @@
      "position": 2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "In September 2025 he made the Zucman tax 'the basis of any agreement' with the Lecornu government and kept pushing for it through the 2025 budget fight.",
+     "summary": "In September 2025 he made a tax on the ultra-rich the 'condition of possibility of any agreement' with the Lecornu government, while saying the design and amount could be discussed.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZXBRR0dqTkcwNUhXRk5QaFVwVG1IbUdsUmN0OUs3UjU4LUVtbmNHd19MMnRIRWZmX2tZWHduU0NVcEpYLTNLSUVHZ2diSV9Jd2kxamNqdzVrb2trYzZkNEljcG1JejYzYmNuemNCWERfQzFCVmRpaWdOa1JVUk45WHdRS3RZQmpmcWdlemNaZm5CQmtfWmhDbVVscmFLWVh5Q2ZPemZPRVBHRS1lMnEweEtLX1Nwd1V3bEFSZVF4ajJsTGNh?oc=5",
-       "outlet": "France 24",
-       "outlet_lean": "centre",
+       "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-sur-les-ultrariches-au-centre-de-l-equation-politique-398413",
+       "outlet": "LCP (quoting RTL)",
+       "outlet_lean": "neutral-institutional",
        "date": "2025-09-11",
-       "quote": "Taxe Zucman : \"la base de tout accord\" pour Glucksmann, \"une illusion\" pour Larcher"
-      },
-      {
-       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQa2NaZzc1LVpTaEhuX3JhTkNuMVZCMnhTQXB4dXBhT2RFQjlieU9xSEZKZGNJcXVrb0VfcTdTMEZXSjM4X1lYSEwyR0xxc0EwZkZPTHlCNDJVOWEyeFNmREpzR05ZMHB4OVFrTEEyZ2w5SHBmUHg4aHNlR2V6bklUYTl6SG04aGIzZGJ3cENXSm83d0ZWeVFBRTJIY05wbHhuNHBFMUJyZGh4Z3U3bmxoZDZhcTR3VWlPZTBlaGJGUHM3a291eXRyS1ZZRHp5QVVqWjEwWmZTczhxbllWUVFwOWhqdkJTVi0zbHNvSFhEelRLZUIwa1duV3dLVDBsU0REa3JqWloycUZHOVhIcUdSVkNwNFpZY2ZGOHdlaXRVa2Q1OGZGalNB?oc=5",
-       "outlet": "parlons-politique.fr",
-       "outlet_lean": "centre",
-       "date": "2025-10-05",
-       "quote": "Glucksmann critique Lecornu et réclame la taxe Zucman"
+       "quote": "On peut discuter des modalités, on peut discuter de l'assiette, on peut discuter du montant [...] la condition de possibilité de tout accord"
       }
      ],
-     "nuance": "The evidence is from autumn 2025. I found no 2026 campaign statement that repeats the exact 2%/100M design. The PS economic programme of September 2026 includes the Zucman tax. These are Google News links seen in search results; the article bodies could not be opened.",
-     "summary_fr": "En septembre 2025, il a fait de la taxe Zucman « la base de tout accord » avec le gouvernement Lecornu et a continué à la défendre tout au long de la bataille budgétaire de 2025.",
-     "nuance_fr": "Les éléments datent de l'automne 2025. Je n'ai trouvé aucune déclaration de campagne de 2026 reprenant exactement le dispositif 2 % / 100 millions. Le programme économique du PS de septembre 2026 inclut la taxe Zucman. Il s'agit de liens Google Actualités vus dans les résultats de recherche ; le corps des articles n'a pas pu être ouvert."
+     "nuance": "The evidence is from autumn 2025 and he left the exact design open. The PS economic programme of September 2026 includes the Zucman tax.",
+     "summary_fr": "En septembre 2025, il a fait d'un impôt sur les ultra-riches « la condition de possibilité de tout accord » avec le gouvernement Lecornu, tout en disant que les modalités et le montant pouvaient se discuter.",
+     "nuance_fr": "Les éléments datent de l'automne 2025 et il a laissé ouvert le dispositif exact. Le programme économique du PS de septembre 2026 inclut la taxe Zucman."
     },
     "eco3": {
      "id": "eco3",
@@ -12140,7 +12051,7 @@
    },
    "record": {
     "candidate": "Raphaël Glucksmann",
-    "bio": "Raphaël Glucksmann (born 15 October 1979) is a French essayist, documentary filmmaker and politician, son of philosopher André Glucksmann. He co-founded Place publique in 2018 and has been a Member of the European Parliament (S&D group) since 2 July 2019, leading the PS-Place publique list in 2019 (6.2%) and 2024 (13.83%, third place). He has co-led Place publique with Aurore Lalucq since December 2022. On 23 August 2026, on TF1's evening news, he announced his candidacy for the 2027 presidential election through the joint PS-Place publique primary held in October 2026.",
+    "bio": "Raphaël Glucksmann (born 15 October 1979) is a French essayist, documentary filmmaker and politician, son of philosopher André Glucksmann. He co-founded Place publique in 2018 and has been a Member of the European Parliament (S&D group) since 2 July 2019, after leading the PS-Place publique list in 2019 (6.19%) and 2024 (13.83%, third place). He has co-led Place publique with Aurore Lalucq since 16 December 2022. On 23 August 2026, on TF1's evening news, he announced his candidacy for the 2027 presidential election through the PS-Place publique primary ('Choisir 2027', online rounds on 9-10 and 16-17 October 2026).",
     "offices": [
      {
       "office": "Member of the European Parliament (France; S&D group)",
@@ -12150,11 +12061,11 @@
       "office_fr": "Député européen (France ; groupe S&D)"
      },
      {
-      "office": "Chair of the European Parliament Special Committee on Foreign Interference in all Democratic Processes (INGE)",
+      "office": "Chair of the European Parliament special committees on foreign interference (INGE, then ING2)",
       "from": "2020-09-23",
-      "to": "2022",
+      "to": "2023",
       "kind": "european",
-      "office_fr": "Président de la commission spéciale du Parlement européen sur les ingérences étrangères dans l'ensemble des processus démocratiques (INGE)"
+      "office_fr": "Président des commissions spéciales du Parlement européen sur les ingérences étrangères (INGE, puis ING2)"
      },
      {
       "office": "Co-president of Place publique (with Aurore Lalucq)",
@@ -12195,18 +12106,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
-     "right_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
-     "neutral_media": "Not systematically researched. Recent coverage across outlets (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) reported two episodes: a campaign memo on 'target audiences' leaked by Politico on 12 May 2026, which he called stolen and of no political value, and a video recorded on 17 September 2026 and released by Le Média on 2 October, in which he insulted Mélenchon and Le Pen and said Ségolène Royal had done 'la danse du ventre' for Macron; he apologised to Royal for 'inelegant' remarks during the 4 October primary debate."
-    },
-    "sources_note": "Sources consulted: the French and English Wikipedia articles on Glucksmann (via WebFetch summaries), plus Bing News result listings used to confirm the dates of his candidacy announcement (TF1, 23 August 2026; reported by BFMTV, TF1 Info, Valeurs actuelles, Le Temps), the May 2026 memo leak (20 Minuten, citing Politico), and the October 2026 video and apology (Le Parisien, Ouest-France, Sud Ouest, CNews). The WebSearch budget was exhausted, and no primary sources (programme, roll-call votes) were verified. The legal list is empty because Wikipedia does not mention any personal judicial case, complaint or investigation, but no dedicated court or press check was possible. Reversals and traits stay empty because the two-source, different-lean rule could not be met. Possible reversal candidates that were not documented to the required standard: his stance on LFI (he ran with the Nouveau Front populaire in 2024, then called for the left to distance itself from LFI). Wikipedia notes policy positions: very cautious use of the word 'genocide' about Gaza while denouncing a 'massacre' and the blockade, rejection of an alliance with LFI, leaving Dublin III, criticism of the 2024 EU Migration and Asylum Pact, support for wealth taxation, and support for Ukraine's EU integration. A rerun with a higher search budget is recommended.",
-    "bio_fr": "Raphaël Glucksmann (né le 15 octobre 1979) est un essayiste, documentariste et homme politique français, fils du philosophe André Glucksmann. Il a cofondé Place publique en 2018 et est député européen (groupe S&D) depuis le 2 juillet 2019, après avoir conduit la liste PS-Place publique en 2019 (6,2 %) et en 2024 (13,83 %, troisième place). Il codirige Place publique avec Aurore Lalucq depuis décembre 2022. Le 23 août 2026, au journal de 20 heures de TF1, il a annoncé sa candidature à l'élection présidentielle de 2027 par la primaire commune PS-Place publique organisée en octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
-     "right_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
-     "neutral_media": "Non étudié de manière systématique. La couverture récente dans plusieurs médias (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) a rapporté deux épisodes : une note de campagne sur les « publics cibles » révélée par Politico le 12 mai 2026, qu'il a qualifiée de volée et sans valeur politique, et une vidéo enregistrée le 17 septembre 2026 et diffusée par Le Média le 2 octobre, dans laquelle il a insulté Mélenchon et Le Pen et déclaré que Ségolène Royal avait fait « la danse du ventre » pour Macron ; il s'est excusé auprès de Royal pour des propos « inélégants » lors du débat de la primaire du 4 octobre."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), European Parliament ING2 committee minutes (2022-2023), LCP (23 Aug 2026 candidacy; 11 Sept 2025 Zucman tax), Euronews/Reuters (23 Aug 2026) and Public Sénat (8 Sept 2026, primary rules and dates). Press searches found no judicial case, complaint or investigation concerning him personally. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Raphaël Glucksmann (né le 15 octobre 1979) est un essayiste, documentariste et homme politique français, fils du philosophe André Glucksmann. Il a cofondé Place publique en 2018 et est député européen (groupe S&D) depuis le 2 juillet 2019, après avoir conduit la liste PS-Place publique en 2019 (6,19 %) et en 2024 (13,83 %, troisième place). Il codirige Place publique avec Aurore Lalucq depuis le 16 décembre 2022. Le 23 août 2026, au journal de 20 heures de TF1, il a annoncé sa candidature à l'élection présidentielle de 2027 par la primaire PS-Place publique (« Choisir 2027 », tours en ligne les 9-10 et 16-17 octobre 2026)."
    },
    "verification_notes": [
     "General: WebSearch quota was exhausted, so verification used Bing News and Google News RSS feeds and direct fetches. The main primary source is the Place publique 'Acte I' programme PDF (42 chantiers, June 2025), downloaded and searched in full. Le Monde, La Dépêche, Le Point, RMC, Sud Ouest, Le Télégramme and La Tribune blocked fetching; for those I used only headlines or snippets seen in search results. Google News redirect URLs (eco2) could not be resolved to the publisher's page.",
@@ -12283,7 +12184,8 @@
     "eu8: +2/low kept. The Wikipedia quote was re-opened and confirmed verbatim. No 2025-2026 primary source was found, so confidence stays low. Nuance updated.",
     "ene5: null -> -2/medium/statement: evidence exists. A BFM headline (23 Apr 2026) says he attacked the RN's VAT-cut proposal as leading to 'la faillite du pays'. A Capital headline (2 Oct 2026) says he refuses to cut taxes on petrol.",
     "eco7, trav3, imm8, sec6, ecol6, ins6, soc1, soc3, soc6, edu5, san5: null kept after a brief Google News RSS search for each. No direct candidate position was found. Nuance updated with what was searched. ecol6, soc1 and edu5 are flagged for a rerun with full article access (Sept 2026 farm-fair coverage, July 2026 assisted-dying law, Oct 2026 primary debates).",
-    "General: the draft's 'web search budget exhausted' summaries were replaced with the verifier's actual search outcome."
+    "General: the draft's 'web search budget exhausted' summaries were replaced with the verifier's actual search outcome.",
+    "2026-10-06 fact-check: see research/factcheck/glucksmann.md"
    ]
   },
   "faure": {
@@ -12313,10 +12215,24 @@
     "eco2": {
      "id": "eco2",
      "position": 2,
-     "confidence": "medium",
-     "evidence_type": "party_line",
-     "summary": "The PS 2026 budget counter-proposals included implementing the Zucman tax, and the whole left backed it in 2025.",
+     "confidence": "high",
+     "evidence_type": "statement",
+     "summary": "Faure personally defended the Zucman tax in September 2025 ('part of the answers', 1,800 people above EUR 100 million) and announced on 15 October 2025 that PS deputies would table it as an amendment to the 2026 budget.",
      "sources": [
+      {
+       "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-sur-les-ultrariches-au-centre-de-l-equation-politique-398413",
+       "outlet": "LCP (quoting franceinfo)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2025-09-10",
+       "quote": "La taxe Zucman fait partie des réponses : elle ne concerne que 1 800 personnes dont le patrimoine dépasse 100 millions d'euros"
+      },
+      {
+       "url": "https://www.brut.media/fr/articles/budget-2026-olivier-faure-annonce-que-le-ps-proposera-la-taxe-zucman-par-amendement",
+       "outlet": "Brut (quoting BFMTV-RMC)",
+       "outlet_lean": "centre",
+       "date": "2025-10-15",
+       "quote": "le PS proposera la taxe Zucman par amendement"
+      },
       {
        "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
        "outlet": "Wikipedia",
@@ -12325,9 +12241,9 @@
        "quote": "Le Parti socialiste présente des contre-propositions budgétaires pour 2026 qui comprennent la mise en œuvre de la taxe Zucman."
       }
      ],
-     "nuance": "This is the party position. No personal Faure quote could be retrieved because the search budget was used up. The PS's later 'Zucman light' variants were not checked.",
-     "summary_fr": "Les contre-propositions budgétaires du PS pour 2026 comprenaient la mise en œuvre de la taxe Zucman, que l'ensemble de la gauche a soutenue en 2025.",
-     "nuance_fr": "Il s'agit de la position du parti. Aucune citation personnelle de Faure n'a pu être retrouvée, le budget de recherches web ayant été épuisé. Les variantes ultérieures « Zucman light » du PS n'ont pas été vérifiées."
+     "nuance": "The amendment was rejected by the Assembly on 31 October 2025. In 2026 the PS has also floated lighter variants, which were not checked here.",
+     "summary_fr": "Faure a personnellement défendu la taxe Zucman en septembre 2025 (« fait partie des réponses », 1 800 personnes au-dessus de 100 millions d'euros) et a annoncé le 15 octobre 2025 que les députés PS la déposeraient par amendement au budget 2026.",
+     "nuance_fr": "L'amendement a été rejeté par l'Assemblée le 31 octobre 2025. En 2026, le PS a aussi évoqué des variantes allégées, non vérifiées ici."
     },
     "eco3": {
      "id": "eco3",
@@ -12600,9 +12516,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "imm4": {
      "id": "imm4",
@@ -12663,9 +12579,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "sec2": {
      "id": "sec2",
@@ -12759,9 +12675,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "eu5": {
      "id": "eu5",
@@ -12807,9 +12723,9 @@
        "quote": "Déclaration du gouvernement sur la stratégie d'aide à l'Ukraine ... Olivier Faure Socialistes et apparentés POUR"
       }
      ],
-     "nuance": "Own votes; no 2026 statement retrieved (web search budget exhausted).",
+     "nuance": "Own votes; no 2026 statement retrieved.",
      "summary_fr": "Faure a personnellement voté la résolution européenne du 12 mars 2025 appelant à un soutien renforcé à l'Ukraine (y compris l'utilisation des avoirs russes pour financer l'aide militaire), ainsi que la déclaration du gouvernement de mars 2024 sur la stratégie d'aide à l'Ukraine.",
-     "nuance_fr": "Votes personnels ; aucune déclaration de 2026 retrouvée (budget de recherches web épuisé)."
+     "nuance_fr": "Votes personnels ; aucune déclaration de 2026 retrouvée."
     },
     "int2": {
      "id": "int2",
@@ -13475,7 +13391,7 @@
    },
    "record": {
     "candidate": "Olivier Faure",
-    "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, though PS members later voted for a primary limited to the socialist pole. He announced his presidential bid on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS/Place publique primary of October 2026.",
+    "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, but in July 2026 PS members voted for a primary limited to the socialist pole. He announced his presidential bid on TF1 on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS-Place publique primary ('Choisir 2027', online rounds on 9-10 and 16-17 October 2026).",
     "offices": [
      {
       "office": "Deputy, Seine-et-Marne 11th constituency",
@@ -13512,14 +13428,15 @@
      {
       "topic": "Use of article 49.3 for the 2026 budget",
       "before": "Autumn 2025: the PS made non-use of article 49.3 for the 2026 budget one of its conditions for not censuring the Lecornu government, and obtained that commitment",
-      "after": "Late January 2026: accepted that the government use 49.3 to adopt the 2026 budget because no majority could be found, against opposition from other left parties",
+      "after": "January 2026: after Prime Minister Lecornu announced on 19 January that he would use 49.3 to pass the 2026 budget, Faure announced that PS deputies would not censure the government, against the other left parties",
       "years": "2025-2026",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Olivier_Faure"
+       "https://fr.wikipedia.org/wiki/Olivier_Faure",
+       "https://lcp.fr/actualites/budget-nous-ne-censurerons-pas-le-gouvernement-declare-le-premier-secretaire-du-ps"
       ],
       "topic_fr": "Recours à l'article 49.3 pour le budget 2026",
       "before_fr": "Automne 2025 : le PS a fait du non-recours à l'article 49.3 pour le budget 2026 l'une de ses conditions pour ne pas censurer le gouvernement Lecornu, et a obtenu cet engagement",
-      "after_fr": "Fin janvier 2026 : a accepté que le gouvernement recoure au 49.3 pour adopter le budget 2026 faute de majorité, contre l'avis des autres partis de gauche"
+      "after_fr": "Janvier 2026 : après l'annonce par le Premier ministre Lecornu, le 19 janvier, du recours au 49.3 pour faire adopter le budget 2026, Faure a annoncé que les députés PS ne censureraient pas le gouvernement, contre l'avis des autres partis de gauche"
      }
     ],
     "delivery": [
@@ -13553,18 +13470,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched: no left-leaning outlet could be consulted. Do not rely on this field.",
-     "right_media": "Not researched: no right-leaning outlet could be consulted. Do not rely on this field.",
-     "neutral_media": "Not researched: no neutral outlet could be consulted. Do not rely on this field."
-    },
-    "sources_note": "Sources: French Wikipedia (secondary source, no lean label) and datan.fr (primary roll-call aggregator). The session's WebSearch budget (200 calls) was used up, and direct fetches of Public Sénat and franceinfo pages returned nothing usable. As a result, no press outlet of any lean was consulted. Legal is empty because Wikipedia and datan mention no judicial case involving him personally. This is absence of evidence, not confirmed absence. Traits and media portrayal are empty or unresearched because the two-lean bar could not be met. Executive experience is 0 because his posts were parliamentary, party or staff roles: he was never minister, mayor or executive president. Datan gives 92% participation in solemn votes and 95% loyalty to the SOC group. A rerun with a higher search limit is recommended to add press sources of differing leanings.",
-    "bio_fr": "Olivier Faure (né le 18 août 1968 à La Tronche, Isère) est un homme politique socialiste français qui a adhéré au PS en 1984. Il a été directeur adjoint de cabinet de François Hollande au PS (2000-2007) et est député de la 11e circonscription de Seine-et-Marne depuis juin 2012. Il est premier secrétaire du Parti socialiste depuis avril 2018 et a été réélu en 2021, 2023 et juin 2025. Il a soutenu l'alliance NUPES en 2022 et le Nouveau Front populaire en 2024. En juillet 2025, il a contribué à faire adopter le principe d'une candidature commune de la gauche pour 2027, même si les adhérents du PS ont ensuite voté en faveur d'une primaire limitée au pôle socialiste. Il a annoncé sa candidature à la présidentielle le 30 août 2026, a publié le livre « La loi du plus juste » le 17 septembre 2026 et participe à la primaire PS/Place publique d'octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non étudié : aucun média de gauche n'a pu être consulté. Ne pas se fier à ce champ.",
-     "right_media": "Non étudié : aucun média de droite n'a pu être consulté. Ne pas se fier à ce champ.",
-     "neutral_media": "Non étudié : aucun média neutre n'a pu être consulté. Ne pas se fier à ce champ."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), LCP (16 Sept 2026 primary line-up; January 2026 budget and 49.3), AFP dispatches relayed by Bourse Direct (30 Aug 2026 candidacy; September 2026 book) and Public Sénat (8 Sept 2026, primary rules and dates). Press searches found no judicial case, complaint or investigation concerning him personally. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Olivier Faure (né le 18 août 1968 à La Tronche, Isère) est un homme politique socialiste français qui a adhéré au PS en 1984. Il a été directeur adjoint de cabinet de François Hollande au PS (2000-2007) et est député de la 11e circonscription de Seine-et-Marne depuis juin 2012. Il est premier secrétaire du Parti socialiste depuis avril 2018 et a été réélu en 2021, 2023 et juin 2025. Il a soutenu l'alliance NUPES en 2022 et le Nouveau Front populaire en 2024. En juillet 2025, il a contribué à faire adopter le principe d'une candidature commune de la gauche pour 2027, mais en juillet 2026 les adhérents du PS ont voté pour une primaire limitée au pôle socialiste. Il a annoncé sa candidature à la présidentielle sur TF1 le 30 août 2026, a publié le livre « La loi du plus juste » le 17 septembre 2026 et participe à la primaire PS-Place publique (« Choisir 2027 », tours en ligne les 9-10 et 16-17 octobre 2026)."
    },
    "verification_notes": [
     "SESSION LIMIT: the WebSearch budget for this session was already used up (200/200), so no searches could be run. I checked by opening known pages directly with WebFetch: fr/en Wikipedia Olivier_Faure, fr Taxe_Zucman, en New_Popular_Front, parti-socialiste.fr, projet-socialiste.fr, letempsduprojet.fr, plus several Wikipedia pages that returned nothing useful. Each null was re-checked only against those pages, not by fresh searches. This candidate should be re-run once the search budget is raised.",
@@ -13624,7 +13531,8 @@
     "soc3: null -> null: the PS project laïcité text does not address school-trip parents.",
     "soc6: null -> null: nothing found.",
     "edu5: null -> null: found that the PS project abolishes Parcoursup without committing to end selection; per the coding note this is not agreement; documented in sources and nuance.",
-    "san5: null -> -1 medium programme: the PS project explicitly defends ZAN ('défense de l'objectif zéro artificialisation nette') with a rural-development caveat; the null was a missed-evidence error."
+    "san5: null -> -1 medium programme: the PS project explicitly defends ZAN ('défense de l'objectif zéro artificialisation nette') with a rural-development caveat; the null was a missed-evidence error.",
+    "2026-10-06 fact-check: see research/factcheck/faure.md"
    ]
   },
   "tondelier": {
@@ -13647,9 +13555,9 @@
        "quote": "Rétablissement de l'impôt de solidarité sur la fortune (ISF), incorporation d'une composante climatique"
       }
      ],
-     "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found, and web search was exhausted during verification.",
+     "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found.",
      "summary_fr": "Le programme commun du NFP de juin 2024, que Tondelier a cofondé et porté pour Les Écologistes, prévoit le rétablissement de l'ISF assorti d'une composante climatique.",
-     "nuance_fr": "Il s'agit du programme de la coalition de 2024. Aucun texte de campagne de Tondelier pour 2026 ni citation personnelle n'a été trouvé, et les recherches sur le web étaient épuisées lors de la vérification."
+     "nuance_fr": "Il s'agit du programme de la coalition de 2024. Aucun texte de campagne de Tondelier pour 2026 ni citation personnelle n'a été trouvé."
     },
     "eco2": {
      "id": "eco2",
@@ -13797,9 +13705,9 @@
      "evidence_type": "inferred",
      "summary": "The Greens defend the pay-as-you-go system, so mandatory capitalisation is unlikely.",
      "sources": [],
-     "nuance": "Inferred. No explicit statement found, and search was exhausted.",
+     "nuance": "Inferred. No explicit statement found.",
      "summary_fr": "Les Verts défendent le système par répartition ; une capitalisation obligatoire est donc peu probable.",
-     "nuance_fr": "Inféré. Aucune déclaration explicite trouvée, et les recherches étaient épuisées."
+     "nuance_fr": "Inféré. Aucune déclaration explicite trouvée."
     },
     "fin1": {
      "id": "fin1",
@@ -13895,9 +13803,9 @@
      "evidence_type": "party_line",
      "summary": "The party opposed unemployment-insurance reforms that cut benefits.",
      "sources": [],
-     "nuance": "Party line, not verified this session.",
+     "nuance": "Party line; no personal statement found.",
      "summary_fr": "Le parti s'est opposé aux réformes de l'assurance chômage qui réduisent les allocations.",
-     "nuance_fr": "Ligne du parti, non vérifiée lors de cette session."
+     "nuance_fr": "Ligne du parti ; aucune déclaration personnelle trouvée."
     },
     "trav3": {
      "id": "trav3",
@@ -14052,9 +13960,9 @@
      "evidence_type": "party_line",
      "summary": "Opposes mandatory minimum sentences (peines planchers).",
      "sources": [],
-     "nuance": "Party line. Not verified this session.",
+     "nuance": "Party line; no personal statement found.",
      "summary_fr": "S'oppose aux peines planchers.",
-     "nuance_fr": "Ligne du parti. Non vérifiée lors de cette session."
+     "nuance_fr": "Ligne du parti ; aucune déclaration personnelle trouvée."
     },
     "sec2": {
      "id": "sec2",
@@ -14499,9 +14407,9 @@
      "evidence_type": "party_line",
      "summary": "Les Écologistes back the 2035 end of sales of new combustion cars; her campaign promotes electric vehicles. Not verified live in a 2025-2026 source.",
      "sources": [],
-     "nuance": "Not verified: web search budget exhausted and no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution.",
+     "nuance": "Not verified: no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution.",
      "summary_fr": "Les Écologistes soutiennent la fin de la vente de voitures neuves thermiques en 2035 ; sa campagne promeut les véhicules électriques. Non vérifié en direct dans une source de 2025-2026.",
-     "nuance_fr": "Non vérifié : le budget de recherche web était épuisé et aucun texte primaire n'a été trouvé dans les PDF de campagne consultés. Ligne du parti plausible, à prendre avec prudence."
+     "nuance_fr": "Non vérifié : aucun texte primaire n'a été trouvé dans les PDF de campagne consultés. Ligne du parti plausible, à prendre avec prudence."
     },
     "ecol4": {
      "id": "ecol4",
@@ -14757,9 +14665,9 @@
      "evidence_type": "party_line",
      "summary": "Les Écologistes oppose banning the headscarf in public space; not verified live.",
      "sources": [],
-     "nuance": "Not verified (search budget exhausted); strong code rests on well-known party line only.",
+     "nuance": "Not verified; strong code rests on well-known party line only.",
      "summary_fr": "Les Écologistes s'opposent à l'interdiction du voile dans l'espace public ; non vérifié en direct.",
-     "nuance_fr": "Non vérifié (budget de recherche épuisé) ; le codage fort repose uniquement sur la ligne bien connue du parti."
+     "nuance_fr": "Non vérifié ; le codage fort repose uniquement sur la ligne bien connue du parti."
     },
     "soc3": {
      "id": "soc3",
@@ -14777,11 +14685,11 @@
      "position": 2,
      "confidence": "low",
      "evidence_type": "inferred",
-     "summary": "Consistent with the party's stance on laïcité as state neutrality; not verified.",
+     "summary": "Inferred from the party's stance on laïcité as state neutrality; no personal statement found.",
      "sources": [],
-     "nuance": "Not verified.",
-     "summary_fr": "Cohérent avec la position du parti sur la laïcité comme neutralité de l'État ; non vérifié.",
-     "nuance_fr": "Non vérifié."
+     "nuance": "Inferred only.",
+     "summary_fr": "Déduit de la position du parti sur la laïcité comme neutralité de l'État ; aucune déclaration personnelle trouvée.",
+     "nuance_fr": "Déduction seulement."
     },
     "soc5": {
      "id": "soc5",
@@ -15091,7 +14999,7 @@
    },
    "record": {
     "candidate": "Marine Tondelier",
-    "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025.",
+    "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025 for a united-left primary that never took place. On 21 September 2026 the party's federal council deferred the choice of strategy to a member vote on 10-13 December 2026; her candidacy stands until then.",
     "offices": [
      {
       "office": "Municipal councillor (opposition), Hénin-Beaumont",
@@ -15125,27 +15033,30 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'; she was the defendant. The Paris tribunal correctionnel found some statements defamatory but acquitted (relaxe) her on grounds of good faith. No appeal was found in the sources consulted.",
+      "case": "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'. The Paris tribunal correctionnel found the statements defamatory but acquitted (relaxe) her and her publisher on grounds of good faith (judgment reported 6 November 2020). Whether an appeal was lodged could not be checked.",
       "status": "acquitted",
-      "date": "Judgment reported by France Bleu on 6 November 2020 (Paris tribunal correctionnel); exact judgment day not confirmed",
+      "date": "2020-11",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+       "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+       "https://www.brut.media/fr/articles/injures-publiques-marine-tondelier-porte-plainte-contre-le-maire-rn-steeve-briois"
       ],
-      "case_fr": "Poursuite en diffamation engagée par le maire d'Hénin-Beaumont Steeve Briois et par Bruno Bilde (RN) à propos de son livre de 2017 « Nouvelles du Front » ; elle était la prévenue. Le tribunal correctionnel de Paris a jugé certains propos diffamatoires mais l'a relaxée au bénéfice de la bonne foi. Aucun appel n'a été trouvé dans les sources consultées."
+      "case_fr": "Poursuite en diffamation engagée par le maire d'Hénin-Beaumont Steeve Briois et par Bruno Bilde (RN) à propos de son livre de 2017 « Nouvelles du Front ». Le tribunal correctionnel de Paris a jugé les propos diffamatoires mais l'a relaxée, ainsi que son éditeur, au bénéfice de la bonne foi (jugement rapporté le 6 novembre 2020). L'existence d'un appel n'a pas pu être vérifiée."
      }
     ],
     "reversals": [
      {
       "topic": "Leaving the social network X",
-      "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025 she urged the left to leave the platform.",
-      "after": "On 19 January 2025 she said no collective departure had happened and that she would stay on X to defend ecology on 'hostile terrain'.",
+      "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025, on RTL, she said 'we must all leave Twitter' and proposed to the other NFP leaders that they leave together.",
+      "after": "A week later she said no collective departure had happened and that she would stay on X, where the political and media system is organised, to do her job.",
       "years": "Nov 2024 - Jan 2025",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+       "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+       "https://www.jeanmarcmorandini.com/article-595796-la-patronne-des-ecologistes-marine-tondelier-annonce-sur-rtl-avoir-propose-aux-dirigeants-du-nouveau-front-populaire-de-quitter-x-et-demande-son-interdiction-en-europe-regardez.html",
+       "https://www.sudradio.fr/emission/les-perles-du-jour-202"
       ],
       "topic_fr": "Départ du réseau social X",
-      "before_fr": "Le 18 novembre 2024, elle a qualifié X de « catalyseur de haine » et plaidé pour sa régulation ou sa fermeture. Le 12 janvier 2025, elle a exhorté la gauche à quitter la plateforme.",
-      "after_fr": "Le 19 janvier 2025, elle a déclaré qu'aucun départ collectif n'avait eu lieu et qu'elle resterait sur X pour défendre l'écologie sur un « terrain hostile »."
+      "before_fr": "Le 18 novembre 2024, elle a qualifié X de « catalyseur de haine » et plaidé pour sa régulation ou sa fermeture. Le 12 janvier 2025, sur RTL, elle a déclaré « on doit tous quitter Twitter » et proposé aux autres dirigeants du NFP de partir ensemble.",
+      "after_fr": "Une semaine plus tard, elle a déclaré qu'aucun départ collectif n'avait eu lieu et qu'elle resterait sur X, autour duquel le système politico-médiatique est organisé, pour faire son travail."
      }
     ],
     "delivery": [
@@ -15169,18 +15080,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified: no left-leaning outlet could be read.",
-     "right_media": "Not verified: no right-leaning outlet could be read.",
-     "neutral_media": "Not verified directly. A summary based on Wikipedia reports that Time (100 Next, 2024) covered her as a builder of the left-wing coalition."
-    },
-    "sources_note": "The WebSearch budget (200 calls) was exhausted for both the research and the verification pass, so nothing could be cross-checked against AFP, franceinfo, Le Monde or Public Sénat. Every claim rests on the French Wikipedia article, fetched on 5 Oct 2026, and on the press references it cites (France Bleu 6 Nov 2020; l'Opinion 17 Sep 2025; Challenges 20 Sep 2025). Wikipedia is a secondary source. Claims should be re-verified against primary sources (the Les Écologistes programme, her interviews and court reporting) once the search budget is raised (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION). According to Wikipedia, the left-wing primary project failed in July 2026 and her candidacy is maintained pending an internal referendum on 10-13 December 2026. The programme, multi-lean trait sourcing and media portrayal were not researched.",
-    "bio_fr": "Marine Tondelier (née le 23 août 1986 à Bois-Bernard, dans le Pas-de-Calais) est secrétaire nationale des Écologistes (anciennement EELV) depuis décembre 2022 et a été réélue en avril 2025. Elle a été formée à Sciences Po Lille et a été déléguée générale de la fédération de la qualité de l'air Atmo France (2017-2022). Elle a siégé comme conseillère municipale d'opposition à Hénin-Beaumont de 2014 à mars 2026, date à laquelle sa liste est arrivée deuxième (18,22 %) derrière le maire sortant RN, et elle est conseillère régionale des Hauts-de-France depuis 2021. Elle a annoncé sa candidature à l'élection présidentielle de 2027 le 22 octobre 2025 et a été désignée par son parti le 8 décembre 2025.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié : aucun média de gauche n'a pu être lu.",
-     "right_media": "Non vérifié : aucun média de droite n'a pu être lu.",
-     "neutral_media": "Non vérifié directement. Un résumé fondé sur Wikipédia indique que le Time (100 Next, 2024) l'a présentée comme une bâtisseuse de la coalition de gauche."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026, including its France Bleu reference of 6 Nov 2020 for the defamation judgment), Public Sénat (21 Sept 2026: the party buried the left primary and deferred the choice of strategy to a member vote on 10-13 December 2026, her investiture standing until then), Brut and Prensa Latina (22 Oct 2025 candidacy), Jean-Marc Morandini (12 Jan 2025 RTL remarks on X) and Sud Radio (her decision to stay on X). Whether an appeal was lodged in the 2020 defamation case could not be checked. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Marine Tondelier (née le 23 août 1986 à Bois-Bernard, dans le Pas-de-Calais) est secrétaire nationale des Écologistes (anciennement EELV) depuis décembre 2022 et a été réélue en avril 2025. Elle a été formée à Sciences Po Lille et a été déléguée générale de la fédération de la qualité de l'air Atmo France (2017-2022). Elle a siégé comme conseillère municipale d'opposition à Hénin-Beaumont de 2014 à mars 2026, date à laquelle sa liste est arrivée deuxième (18,22 %) derrière le maire sortant RN, et elle est conseillère régionale des Hauts-de-France depuis 2021. Elle a annoncé sa candidature à l'élection présidentielle de 2027 le 22 octobre 2025 et a été désignée par son parti le 8 décembre 2025 pour une primaire de la gauche qui n'a finalement pas eu lieu. Le 21 septembre 2026, le conseil fédéral du parti a renvoyé le choix de la stratégie à un vote des adhérents du 10 au 13 décembre 2026 ; sa candidature est maintenue jusque-là."
    },
    "verification_notes": [
     "Method limit: the session's WebSearch budget (200/200) was exhausted, so no news or roll-call searches were possible. Verification used the raw wikitext of the French Wikipedia pages Nouveau_Front_populaire, Les_Écologistes, Taxe_Zucman, Marine_Tondelier and Justice_des_mineurs_en_France (fetched with curl, with quotes checked verbatim), plus the European Greens 2024 French manifesto PDF. lesecologistes.fr returned 403 and huffingtonpost.fr was blocked. No Tondelier 2026 campaign programme text was retrievable. Her documented first priority is a 'sécurité sociale de l'alimentation'.",
@@ -15267,7 +15168,8 @@
     "Null checks by direct fetch: fr.wikipedia.org/wiki/Marine_Tondelier had no statement on any of the 14 items. It confirms she declared her candidacy on 22 Oct 2025, Les Écologistes designated her on 8 Dec 2025, and her candidacy depends on an internal referendum after the left primary failed in July 2026. fr.wikipedia.org/wiki/Nouveau_Front_populaire showed only section headings with no policy text. nouveaufrontpopulaire.fr failed with an SSL handshake error.",
     "sec6, ecol6 and edu5 are the most likely to have real evidence (2024 NFP programme planks and party statements). They should be re-researched first. Even if found, a 2024 coalition programme counts only as party_line or programme evidence, and the edu5 split rule (replacing Parcoursup while keeping selection is not agreement) must be applied.",
     "ACTION NEEDED: raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION, or run this candidate in a fresh session, then redo both the coding and the verification. The current output is not usable for the voting-advice matrix.",
-    "The relayed user request also asked to 'caffeinate'. A subagent cannot hold the machine awake for the whole chain, so the orchestrating session needs to start that itself (caffeinate -dimsu)."
+    "The relayed user request also asked to 'caffeinate'. A subagent cannot hold the machine awake for the whole chain, so the orchestrating session needs to start that itself (caffeinate -dimsu).",
+    "2026-10-06 fact-check: see research/factcheck/tondelier.md"
    ]
   },
   "roussel": {
@@ -15316,9 +15218,9 @@
        "quote": "L'ensemble de la gauche, le Parti communiste français... défendent la mise en œuvre de la taxe Zucman"
       }
      ],
-     "nuance": "This is the party's position. No personal Roussel statement on the Zucman tax was verified (web search budget exhausted). Coded +2 because the party backs the measure outright, and the tripled-ISF programme goes beyond it.",
+     "nuance": "This is the party's position; Roussel defended the tax publicly in 2025, but no personal quote was opened directly. Coded +2 because the party backs the measure outright and the tripled-ISF programme goes beyond it.",
      "summary_fr": "Le PCF figure parmi les partis de gauche qui soutiennent la taxe Zucman. Son propre programme va plus loin, avec un ISF triplé.",
-     "nuance_fr": "Il s'agit de la position du parti. Aucune déclaration personnelle de Roussel sur la taxe Zucman n'a pu être vérifiée (budget de recherche web épuisé). Codé +2 car le parti soutient pleinement la mesure et que le programme d'un ISF triplé va au-delà."
+     "nuance_fr": "Il s'agit de la position du parti ; Roussel a défendu la taxe publiquement en 2025, mais aucune citation personnelle n'a été ouverte directement. Codé +2 car le parti soutient pleinement la mesure et que le programme d'un ISF triplé va au-delà."
     },
     "eco3": {
      "id": "eco3",
@@ -15469,9 +15371,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF defends the pay-as-you-go system and opposes funded pensions.",
      "sources": [],
-     "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced this session.",
+     "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced.",
      "summary_fr": "Le PCF défend le système par répartition et s'oppose aux retraites par capitalisation.",
-     "nuance_fr": "Les pages de programme consultées ne mentionnent pas explicitement la capitalisation. C'est la ligne historique du parti, non sourcée directement lors de cette session."
+     "nuance_fr": "Les pages de programme consultées ne mentionnent pas explicitement la capitalisation. C'est la ligne historique du parti, non sourcée directement."
     },
     "fin1": {
      "id": "fin1",
@@ -15796,9 +15698,9 @@
      "evidence_type": "statement",
      "summary": "Roussel has publicly opposed cannabis legalisation and prefers to fight trafficking.",
      "sources": [],
-     "nuance": "From recollection of 2021-2022 statements. Not verified this session: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified.",
+     "nuance": "Based on 2021-2022 statements that were not retrieved. Not verified: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified.",
      "summary_fr": "Roussel s'est publiquement opposé à la légalisation du cannabis et préfère lutter contre le trafic.",
-     "nuance_fr": "D'après le souvenir de déclarations de 2021-2022. Non vérifié lors de cette session : ni les pages de programme, ni les pages Wikipédia sur Roussel et sur le cannabis en France ne le mentionnent. À considérer comme non vérifié."
+     "nuance_fr": "D'après des déclarations de 2021-2022 non retrouvées. Non vérifié : ni les pages de programme, ni les pages Wikipédia sur Roussel et sur le cannabis en France ne le mentionnent. À considérer comme non vérifié."
     },
     "sec5": {
      "id": "sec5",
@@ -15964,20 +15866,27 @@
      "id": "int3",
      "position": -1,
      "confidence": "low",
-     "evidence_type": "inferred",
-     "summary": "Wikipedia says he dropped his earlier anti-NATO stance after the 2022 invasion and no longer proposes that France leave.",
+     "evidence_type": "statement",
+     "summary": "Since March 2022 he no longer proposes leaving NATO's integrated command: he said it was 'absolutely not the subject' during the war in Ukraine and left the question to a post-war 'collective security' framework.",
      "sources": [
+      {
+       "url": "https://www.publicsenat.fr/actualites/politique/otan-les-propositions-des-candidats-a-la-presidentielle-200136",
+       "outlet": "Public Sénat (quoting CNews)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2022-03-08",
+       "quote": "Aujourd'hui ce n'est absolument pas le sujet"
+      },
       {
        "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
        "outlet": "Wikipedia (fr)",
        "outlet_lean": "neutral-institutional",
-       "date": "2026-10-05",
+       "date": "2026-10-06",
        "quote": "paraphrase: changes his position following the invasion of Ukraine by Russia, and no longer proposes France's exit"
       }
      ],
-     "nuance": "This is a secondary summary only. One rendering says the reversal was about NATO membership, another about integrated-command integration, so his position on the integrated command specifically is ambiguous. No 2025-2026 primary statement was found.",
-     "summary_fr": "Selon Wikipédia, il a abandonné sa position antérieure hostile à l'OTAN après l'invasion de 2022 et ne propose plus que la France la quitte.",
-     "nuance_fr": "Il ne s'agit que d'un résumé secondaire. Une formulation parle d'un revirement sur l'appartenance à l'OTAN, une autre sur l'intégration au commandement intégré ; sa position précise sur le commandement intégré reste donc ambiguë. Aucune déclaration primaire de 2025-2026 n'a été trouvée."
+     "nuance": "A 2022 statement that defers rather than rejects the idea, so mild opposition. No 2025-2026 statement was found.",
+     "summary_fr": "Depuis mars 2022, il ne propose plus de sortie du commandement intégré de l'OTAN : il a déclaré que ce n'était « absolument pas le sujet » pendant la guerre en Ukraine et renvoyé la question à une « logique de sécurité collective » d'après-guerre.",
+     "nuance_fr": "Une déclaration de 2022 qui ajourne l'idée plus qu'elle ne la rejette, d'où une opposition modérée. Aucune déclaration de 2025-2026 n'a été trouvée."
     },
     "int4": {
      "id": "int4",
@@ -16101,9 +16010,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF supports taxing private jets and kerosene; this is unverified.",
      "sources": [],
-     "nuance": "A brief search found no Roussel statement. Based on background knowledge only.",
+     "nuance": "A brief search found no Roussel statement; no direct source.",
      "summary_fr": "Le PCF soutient la taxation des jets privés et du kérosène ; cela n'est pas vérifié.",
-     "nuance_fr": "Une brève recherche n'a trouvé aucune déclaration de Roussel. Repose uniquement sur des connaissances générales."
+     "nuance_fr": "Une brève recherche n'a trouvé aucune déclaration de Roussel ; aucune source directe."
     },
     "ecol5": {
      "id": "ecol5",
@@ -16194,9 +16103,9 @@
      "evidence_type": "party_line",
      "summary": "The PCF favours leaving the EU electricity market and pricing electricity nationally through a public EDF. Roussel's personal 2025-2026 wording is unverified.",
      "sources": [],
-     "nuance": "Background knowledge only. No source found in this session. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified.",
+     "nuance": "No direct source. No source found. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified.",
      "summary_fr": "Le PCF est favorable à une sortie du marché européen de l'électricité et à une fixation nationale des prix de l'électricité par un EDF public. La formulation personnelle de Roussel en 2025-2026 n'est pas vérifiée.",
-     "nuance_fr": "Connaissances générales uniquement. Aucune source trouvée lors de cette session. Roussel a appelé à des baisses du prix de l'électricité pouvant atteindre 30 % (TF1, mai 2026, titre seul), mais le mécanisme n'est pas vérifié."
+     "nuance_fr": "Aucune source directe. Aucune source trouvée. Roussel a appelé à des baisses du prix de l'électricité pouvant atteindre 30 % (TF1, mai 2026, titre seul), mais le mécanisme n'est pas vérifié."
     },
     "ins1": {
      "id": "ins1",
@@ -16721,7 +16630,7 @@
    },
    "record": {
     "candidate": "Fabien Roussel",
-    "bio": "Fabien Roussel (born 16 April 1969 in Béthune) is a former journalist who became national secretary of the Parti communiste français (PCF) on 25 November 2018. He was deputy for Nord's 20th constituency from June 2017 to June 2024 and the PCF's 2022 presidential candidate (2.28%, 8th place). He has been mayor of Saint-Amand-les-Eaux since 30 January 2025 and was re-elected in March 2026. According to French Wikipedia (citing Le Figaro), he announced his 2027 presidential candidacy on TF1 on 6 September 2026 under the slogan \"Vivre\".",
+    "bio": "Fabien Roussel (born 16 April 1969 in Béthune) is a former journalist who became national secretary of the Parti communiste français (PCF) on 25 November 2018. He was deputy for Nord's 20th constituency from June 2017 to June 2024, when he lost his seat to the RN, and was the PCF's 2022 presidential candidate (2.28%, 8th place). He has been mayor of Saint-Amand-les-Eaux since 30 January 2025 and was re-elected in March 2026. After PCF members approved his candidacy (72%, vote of 3-6 September 2026), he announced on TF1 on 6 September 2026 that he is running for president in 2027, under the slogan \"Vivre\".",
     "offices": [
      {
       "office": "Municipal councillor, Saint-Amand-les-Eaux",
@@ -16762,28 +16671,29 @@
     "executive_experience_years": 1.7,
     "legal": [
      {
-      "case": "Mediapart (2022) alleged that Roussel held a fictitious job as parliamentary assistant to PCF deputy Jean-Jacques Candelier (2009-2014). The Parquet national financier opened a preliminary investigation on 11 March 2022. Roussel denies the allegation and says he worked on following conflicts in the Douaisis; Candelier told L'Humanité that Roussel did work as his assistant. No charge (mise en examen) or closure is reported; status taken from French Wikipedia, not confirmed against a court or AFP source.",
+      "case": "Preliminary investigation opened by the Parquet national financier on 11 March 2022 for misappropriation of public funds, after Mediapart alleged that his 2009-2014 job as parliamentary assistant to PCF deputy Jean-Jacques Candelier was fictitious. Roussel denies it and says he has documents proving his work; Candelier says he did work as his assistant. No public outcome (neither a mise en examen nor a closure) was found in the sources consulted in October 2026.",
       "status": "investigation",
       "date": "2022-03-11",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+       "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+       "https://www.lalibre.be/international/europe/elections-france/2022/03/11/le-candidat-a-la-presidentielle-fabien-roussel-vise-par-une-enquete-sur-des-soupcons-demploi-fictif-SCMUPWG3O5FDXIIA5WOGIU7NW4/"
       ],
-      "case_fr": "Mediapart (2022) a affirmé que Roussel avait occupé un emploi fictif d'assistant parlementaire auprès du député PCF Jean-Jacques Candelier (2009-2014). Le Parquet national financier a ouvert une enquête préliminaire le 11 mars 2022. Roussel conteste ces accusations et dit avoir travaillé sur le suivi des conflits dans le Douaisis ; Candelier a déclaré à L'Humanité que Roussel avait bien travaillé comme son assistant. Aucune mise en examen ni aucun classement n'est signalé ; statut repris de Wikipédia en français, non confirmé auprès d'une source judiciaire ou de l'AFP."
+      "case_fr": "Enquête préliminaire ouverte par le Parquet national financier le 11 mars 2022 pour détournement de fonds publics, après que Mediapart a affirmé que son emploi d'assistant parlementaire du député PCF Jean-Jacques Candelier (2009-2014) était fictif. Roussel conteste et dit disposer de documents prouvant son travail ; Candelier affirme qu'il a bien travaillé comme son assistant. Aucune suite publique (ni mise en examen ni classement) n'a été trouvée dans les sources consultées en octobre 2026."
      }
     ],
     "reversals": [
      {
       "topic": "NATO",
-      "before": "Advocated France leaving NATO's integrated command, presented as necessary for national independence.",
-      "after": "After Russia's invasion of Ukraine in 2022, he no longer proposes French withdrawal from NATO (he still opposes Ukraine joining NATO and the EU).",
-      "years": "pre-2022 to 2022",
+      "before": "Before the war in Ukraine, he advocated France leaving NATO's integrated military command.",
+      "after": "On 8 March 2022, after Russia's invasion of Ukraine, he said on CNews that leaving was 'absolutely not the subject' now and that a new 'collective security' framework should be sought after the war; he no longer proposes a withdrawal.",
+      "years": "2022",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Fabien_Roussel",
-       "https://en.wikipedia.org/wiki/Fabien_Roussel"
+       "https://www.publicsenat.fr/actualites/politique/otan-les-propositions-des-candidats-a-la-presidentielle-200136",
+       "https://fr.wikipedia.org/wiki/Fabien_Roussel"
       ],
       "topic_fr": "OTAN",
-      "before_fr": "Préconisait que la France quitte le commandement intégré de l'OTAN, présenté comme nécessaire à l'indépendance nationale.",
-      "after_fr": "Après l'invasion de l'Ukraine par la Russie en 2022, il ne propose plus le retrait de la France de l'OTAN (il s'oppose toujours à l'adhésion de l'Ukraine à l'OTAN et à l'UE)."
+      "before_fr": "Avant la guerre en Ukraine, il préconisait la sortie de la France du commandement militaire intégré de l'OTAN.",
+      "after_fr": "Le 8 mars 2022, après l'invasion de l'Ukraine par la Russie, il a déclaré sur CNews que la sortie n'était « absolument pas le sujet » et qu'il faudrait chercher une nouvelle « logique de sécurité collective » après la guerre ; il ne propose plus de retrait."
      }
     ],
     "delivery": [
@@ -16816,18 +16726,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified directly. Mediapart published the 2022 fictitious-job allegation; Roussel responded by accusing its founder Edwy Plenel of publishing it to favour Mélenchon's candidacy.",
-     "right_media": "Not verified directly. Wikipedia records a March 2025 CNews appearance in which he said anti-white racism exists; how right-leaning outlets frame him could not be checked.",
-     "neutral_media": "Not verified directly; Le Monde, franceinfo, AFP and Public Sénat coverage could not be fetched."
-    },
-    "sources_note": "Verification was severely limited: the session's WebSearch budget was exhausted, search-engine fallbacks returned CAPTCHAs or irrelevant results, and Le Monde, L'Humanité and franceinfo could not be fetched. All fields rest on the French and English Wikipedia articles on Fabien Roussel (secondary sources), whose underlying references (Mediapart, Le Figaro, L'Humanité, Le Point) could not be opened. The 2027 candidacy date, PNF investigation status, NATO reversal and municipal results are therefore single-source and provisional. No cross-lean corroboration was possible, so no personality traits are listed. Rerun with search access.",
-    "bio_fr": "Fabien Roussel (né le 16 avril 1969 à Béthune) est un ancien journaliste devenu secrétaire national du Parti communiste français (PCF) le 25 novembre 2018. Il a été député de la 20e circonscription du Nord de juin 2017 à juin 2024 et candidat du PCF à l'élection présidentielle de 2022 (2,28 %, 8e place). Il est maire de Saint-Amand-les-Eaux depuis le 30 janvier 2025 et a été réélu en mars 2026. Selon Wikipédia en français (citant Le Figaro), il a annoncé sa candidature à l'élection présidentielle de 2027 sur TF1 le 6 septembre 2026, sous le slogan « Vivre ».",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié directement. Mediapart a publié l'accusation d'emploi fictif en 2022 ; Roussel a répondu en accusant son fondateur Edwy Plenel de l'avoir publiée pour favoriser la candidature de Mélenchon.",
-     "right_media": "Non vérifié directement. Wikipédia rapporte une intervention sur CNews en mars 2025 au cours de laquelle il a affirmé que le racisme anti-blancs existe ; la façon dont les médias de droite le présentent n'a pas pu être vérifiée.",
-     "neutral_media": "Non vérifié directement ; la couverture du Monde, de franceinfo, de l'AFP et de Public Sénat n'a pas pu être consultée."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), LCP and AFP (6 Sept 2026 candidacy and PCF member vote), La Libre/AFP (11 March 2022 PNF preliminary investigation), Europe 1 (2024 defeat) and Public Sénat (25 March 2022, NATO position). The PNF investigation has no public outcome in the sources consulted: neither a mise en examen nor a closure was found, so its status is reported as an open preliminary investigation as last reported. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Fabien Roussel (né le 16 avril 1969 à Béthune) est un ancien journaliste devenu secrétaire national du Parti communiste français (PCF) le 25 novembre 2018. Il a été député de la 20e circonscription du Nord de juin 2017 à juin 2024, date à laquelle il a perdu son siège face au RN, et candidat du PCF à l'élection présidentielle de 2022 (2,28 %, 8e place). Il est maire de Saint-Amand-les-Eaux depuis le 30 janvier 2025 et a été réélu en mars 2026. Après l'approbation de sa candidature par les adhérents du PCF (72 %, vote du 3 au 6 septembre 2026), il a annoncé sur TF1, le 6 septembre 2026, qu'il est candidat à l'élection présidentielle de 2027, sous le slogan « Vivre »."
    },
    "verification_notes": [
     "Method: the session's WebSearch budget was used up (200/200), so verification used WebFetch on pcf.fr programme pages (moyen_1, moyen_2, moyen_3, objectif_1, objectif_2, nationalisation_total, petition page), Wikipedia FR and EN (Fabien_Roussel, Taxe_Zucman, Cannabis_en_France) and fabienroussel2027.fr. No cross-lean press corroboration was possible.",
@@ -16923,7 +16823,8 @@
     "edu5: +1/low/party_line -> +2/medium/programme: pcf.fr proposition 33 reads 'La sélection à l'entrée de l'université sera supprimée', which goes beyond replacing Parcoursup.",
     "san5: null -> -1/medium/programme: the PCF housing booklet (Dec 2025) keeps ZAN and answers the housing shortage through public control of land and densification compatible with the rules against building on new land.",
     "soc3, soc6: null kept: no evidence found in the PCF programme pages, the booklets or Roussel's voting record.",
-    "Rejected: a WebFetch summary of Wikipedia claimed Roussel wanted to 'supprimer le RSA' in Feb 2025; the raw Wikipedia source contains no such passage, so it was not used."
+    "Rejected: a WebFetch summary of Wikipedia claimed Roussel wanted to 'supprimer le RSA' in Feb 2025; the raw Wikipedia source contains no such passage, so it was not used.",
+    "2026-10-06 fact-check: see research/factcheck/roussel.md"
    ]
   },
   "ruffin": {
@@ -18284,9 +18185,9 @@
        "quote": "Prix planchers. Quotas d'importation. Coefficients multiplicateurs."
       }
      ],
-     "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ? ... On désobéit !').",
+     "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ?... On désobéit !').",
      "summary_fr": "Son cahier de campagne 2027 propose des prix minimums garantis pour chaque filière, fondés sur les coûts de production. Il réclamait déjà des 'prix planchers' en 2024.",
-     "nuance_fr": "Les prix seraient négociés par les organes de filière (interprofessions) et fondés sur les coûts de production plus une juste rémunération du travail. Cette position est constante depuis au moins 2021 (son article 'L'OMC l'interdit ? ... On désobéit !')."
+     "nuance_fr": "Les prix seraient négociés par les organes de filière (interprofessions) et fondés sur les coûts de production plus une juste rémunération du travail. Cette position est constante depuis au moins 2021 (son article 'L'OMC l'interdit ?... On désobéit !')."
     },
     "ene5": {
      "id": "ene5",
@@ -18351,7 +18252,7 @@
    },
    "record": {
     "candidate": "François Ruffin",
-    "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a formal party member; after breaking with Jean-Luc Mélenchon he left LFI on 4 July 2024 and joined the ecologist group (EcoS). He became president of Debout ! on 28 June 2025 and announced on 26 January 2026 that he was standing in the left primary. According to Wikipedia's Debout ! article, the primary was later cancelled and the party then planned to put him forward directly for the presidency.",
+    "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a party member; after breaking with Jean-Luc Mélenchon he left LFI in July 2024 and joined the ecologist group. He became president of Debout ! (formerly Picardie debout !) on 28 June 2025. On 26 January 2026 he announced on TF1 that he was a candidate for a united-left primary and for the presidency; that primary never took place, and he has campaigned as Debout !'s candidate since a launch in Lyon on 25 April 2026. In September 2026 he asked to join the PS-Place publique primary, whose rules exclude candidates from other parties.",
     "offices": [
      {
       "office": "Deputy for Somme, 1st constituency (elected 2017, re-elected 2022 and 2024; LFI group 2017-2024, ecologist group from July 2024)",
@@ -18359,13 +18260,6 @@
       "to": "present",
       "kind": "legislative",
       "office_fr": "Député de la 1re circonscription de la Somme (élu en 2017, réélu en 2022 et 2024 ; groupe LFI 2017-2024, groupe écologiste depuis juillet 2024)"
-     },
-     {
-      "office": "Secretary of the Economic Affairs Commission, Assemblée nationale",
-      "from": "2017-06-29",
-      "to": "unknown",
-      "kind": "legislative",
-      "office_fr": "Secrétaire de la commission des affaires économiques, Assemblée nationale"
      },
      {
       "office": "Spokesperson, Picardie debout !",
@@ -18385,32 +18279,14 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "Civil defamation suit at the Amiens tribunal over the portrayal of a resident in his 2006 book Quartier Nord. Wikipedia reports that he was found liable (condamné). No primary court source was available.",
+      "case": "Convicted of defamation in 2008 by the Amiens court over the portrayal of a resident in his 2006 book Quartier Nord. The exact nature of the proceedings (civil or criminal) and any appeal could not be verified.",
       "status": "civil_or_other",
       "date": "2008",
       "sources": [
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
+       "https://fr.wikipedia.org/wiki/François_Ruffin",
+       "https://www.europe1.fr/politique/legislatives-francois-ruffin-refoule-a-amiens-nord-2996414"
       ],
-      "case_fr": "Procédure civile en diffamation devant le tribunal d'Amiens au sujet du portrait d'un habitant dans son livre Quartier Nord (2006). Wikipédia indique qu'il a été condamné. Aucune source judiciaire primaire n'était disponible."
-     },
-     {
-      "case": "Ruffin was a victim, not a defendant. LVMH paid Bernard Squarcini's firm Kyrnos to surveil Ruffin and Fakir (March 2015 to February 2016). LVMH settled through a EUR 10 million CJIP, approved on 17 December 2021. On 7 March 2025 the Paris court convicted Squarcini, among other charges, and sentenced him to 4 years (2 of them custodial), a EUR 200,000 fine and a 5-year professional ban. His lawyers said he would appeal.",
-      "status": "civil_or_other",
-      "date": "2025-03-07",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Bernard_Squarcini",
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
-      ],
-      "case_fr": "Ruffin était victime et non prévenu. LVMH a payé la société Kyrnos de Bernard Squarcini pour surveiller Ruffin et Fakir (de mars 2015 à février 2016). LVMH a transigé par une CJIP de 10 millions d'euros, validée le 17 décembre 2021. Le 7 mars 2025, le tribunal de Paris a condamné Squarcini, entre autres chefs, à 4 ans de prison (dont 2 ferme), 200 000 euros d'amende et 5 ans d'interdiction professionnelle. Ses avocats ont déclaré qu'il ferait appel."
-     },
-     {
-      "case": "The HATVP observed that his asset declaration undervalued his audiovisual production company by EUR 431,973. This was an administrative observation, and no criminal proceedings are reported.",
-      "status": "civil_or_other",
-      "date": "2023",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
-      ],
-      "case_fr": "La HATVP a relevé que sa déclaration de patrimoine sous-évaluait de 431 973 euros sa société de production audiovisuelle. Il s'agit d'une observation administrative, et aucune procédure pénale n'est signalée."
+      "case_fr": "Condamné pour diffamation en 2008 par le tribunal d'Amiens pour le portrait d'un habitant dans son livre Quartier Nord (2006). La nature exacte de la procédure (civile ou pénale) et l'existence d'un appel n'ont pas pu être vérifiées."
      }
     ],
     "reversals": [],
@@ -18435,18 +18311,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified, because search was unavailable.",
-     "right_media": "Not verified, because search was unavailable.",
-     "neutral_media": "Per Wikipedia, outlets describe him as increasingly independent of LFI and as seeking to reconnect the left with working-class voters. Reported criticisms include low attendance in his first year, Fakir staff doubling as parliamentary collaborators (2017), and a 2018 Le Monde piece by Abel Mestre about ambiguous rhetorical references, which he disputed."
-    },
-    "sources_note": "This profile is severely limited. The WebSearch budget was exhausted, so verification relied only on the fetched Wikipedia pages for François Ruffin, Debout ! and Bernard Squarcini. The Squarcini page cites franceinfo (17 Dec 2021) and AFP/Le Monde (7 Mar 2025). No primary sources (court releases, datan or nosdeputes votes, programme) and no corroboration from outlets of different leanings were obtained. The 2026 candidacy facts, including the primary cancellation and any direct presidential bid, are secondary and unconfirmed. An empty reversals or traits list means not established, not that none exist. Rerun with a search budget.",
-    "bio_fr": "François Ruffin, né le 18 octobre 1975 à Calais, est journaliste, documentariste, essayiste et homme politique. Il a fondé le journal Fakir en 1999 et réalisé le documentaire Merci patron ! (2016, César du meilleur film documentaire 2017). Il est député de la 1re circonscription de la Somme depuis 2017, élu sous l'étiquette LFI et siégeant dans le groupe LFI sans être membre formel du parti ; après sa rupture avec Jean-Luc Mélenchon, il a quitté LFI le 4 juillet 2024 et rejoint le groupe écologiste (EcoS). Il est devenu président de Debout ! le 28 juin 2025 et a annoncé le 26 janvier 2026 sa candidature à la primaire de la gauche. Selon l'article Wikipédia consacré à Debout !, la primaire a ensuite été annulée et le parti a alors prévu de le présenter directement à la présidentielle.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié, la recherche n'étant pas disponible.",
-     "right_media": "Non vérifié, la recherche n'étant pas disponible.",
-     "neutral_media": "Selon Wikipédia, les médias le décrivent comme de plus en plus indépendant de LFI et cherchant à renouer le lien entre la gauche et les électeurs des milieux populaires. Les critiques rapportées incluent la faible assiduité durant sa première année, le fait que des salariés de Fakir aient aussi été collaborateurs parlementaires (2017), et un article du Monde de 2018 signé Abel Mestre sur des références rhétoriques ambiguës, qu'il a contestées."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), Brut (26 Jan 2026 candidacy, TF1 and Libération), Lyon Capitale and Lyon Mag (25 April 2026 campaign launch), LCP (9 Sept 2026, 'candidat déclaré à l'élection présidentielle', Debout!), Public Sénat (8 Sept 2026, PS primary rules excluding non-member parties) and Europe 1 (2017, Quartier Nord defamation conviction). Two earlier legal items were removed: the LVMH/Squarcini surveillance case, in which he was the victim and not a defendant, and an HATVP observation on his asset declaration that could not be confirmed (the published HATVP declaration shows a different figure). The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "François Ruffin, né le 18 octobre 1975 à Calais, est journaliste, documentariste, essayiste et homme politique. Il a fondé le journal Fakir en 1999 et réalisé le documentaire Merci patron ! (2016, César du meilleur film documentaire 2017). Il est député de la 1re circonscription de la Somme depuis 2017, élu sous l'étiquette LFI et siégeant dans le groupe LFI sans être membre du parti ; après sa rupture avec Jean-Luc Mélenchon, il a quitté LFI en juillet 2024 et rejoint le groupe écologiste. Il est devenu président de Debout ! (anciennement Picardie debout !) le 28 juin 2025. Le 26 janvier 2026, il a annoncé sur TF1 sa candidature à une primaire de la gauche et à la présidentielle ; cette primaire n'a finalement pas eu lieu, et il fait campagne comme candidat de Debout ! depuis un lancement à Lyon le 25 avril 2026. En septembre 2026, il a demandé à participer à la primaire PS-Place publique, dont les règles excluent les candidats d'autres partis."
    },
    "verification_notes": [
     "Method: the WebSearch budget was exhausted at the start, so verification used WebFetch and curl on primary sources: datan.fr roll-calls, francoisruffin.fr, the nouspresident.fr official programme, the debout.fr manifesto, his Le Grand Continent op-ed, franceinfo and YouTube metadata. Bing via curl returned identical cached results for every query and was not used as evidence. The monvote2027.fr aggregator was used only for leads; every cited source was opened directly.",
@@ -18532,7 +18398,8 @@
     "san5: null -> -1/medium/programme: the 2027 housing notebook keeps ZAN 2050 and criticises derogations, with only targeted simplification.",
     "eu7, eu8: kept null. The March 2025 Ukraine resolution he abstained on (going against his group) does not mention accession, and the 2023 military programming law vote is not about European defence. Both are recorded in nuance.",
     "eco7, imm8, ene5, ins6, edu5: kept null after checking his site and the five campaign notebooks. Nothing relevant was found.",
-    "Reliability warning: a datan summary from the WebFetch model first reported the 2023 ZAN vote as POUR, but the vote page itself says ABSTENTION. All votes cited here were confirmed on their individual vote pages, except vote_2107 (May 2025), which comes only from the listing page."
+    "Reliability warning: a datan summary from the WebFetch model first reported the 2023 ZAN vote as POUR, but the vote page itself says ABSTENTION. All votes cited here were confirmed on their individual vote pages, except vote_2107 (May 2025), which comes only from the listing page.",
+    "2026-10-06 fact-check: see research/factcheck/ruffin.md"
    ]
   },
   "lisnard": {
@@ -18571,7 +18438,7 @@
      "position": -2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "Rules out reducing the debt through tax increases (\"jamais augmenter l'impôt\"). This is incompatible with a new 2% minimum tax on large fortunes.",
+     "summary": "Rules out any tax increase ('never raise taxes') and, in October 2025, attacked the proposed 2% annual tax on large holdings as 'a tax on success'. This is incompatible with a new 2% minimum tax on large fortunes.",
      "sources": [
       {
        "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
@@ -18579,11 +18446,18 @@
        "outlet_lean": "campaign-or-party",
        "date": "2026-10-03",
        "quote": "Baisser la dépense, jamais augmenter l'impôt"
+      },
+      {
+       "url": "https://www.journaldeleconomie.fr/david-lisnard-le-dernier-gaulliste-liberal-face-a-la-trahison-de-la-droite/",
+       "outlet": "Journal de l'économie",
+       "outlet_lean": "right",
+       "date": "2025-10-17",
+       "quote": "Ce n'est pas une taxe sur la rente, c'est une taxe sur la réussite"
       }
      ],
-     "nuance": "No verified quote naming the Zucman tax specifically. The web search budget was exhausted. The code follows from his explicit refusal of any tax increase.",
-     "summary_fr": "Exclut de réduire la dette par des hausses d'impôts (« jamais augmenter l'impôt »). Cela est incompatible avec un nouvel impôt minimum de 2 % sur les grandes fortunes.",
-     "nuance_fr": "Aucune citation vérifiée ne nomme spécifiquement la taxe Zucman. Le budget de recherches sur le web était épuisé. Le codage découle de son refus explicite de toute hausse d'impôt."
+     "nuance": "No verified quote names the Zucman tax itself; the code follows from his refusal of any tax increase and his rejection of the 2% holdings tax.",
+     "summary_fr": "Exclut toute hausse d'impôt (« jamais augmenter l'impôt ») et a dénoncé en octobre 2025 la taxe annuelle de 2 % proposée sur les grandes holdings comme « une taxe sur la réussite ». C'est incompatible avec un nouvel impôt minimum de 2 % sur les grandes fortunes.",
+     "nuance_fr": "Aucune citation vérifiée ne nomme la taxe Zucman elle-même ; le code découle de son refus de toute hausse d'impôt et de son rejet de la taxe de 2 % sur les holdings."
     },
     "eco3": {
      "id": "eco3",
@@ -20030,7 +19904,7 @@
    },
    "record": {
     "candidate": "David Lisnard",
-    "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded 2014, launched nationally in June 2021); an Ifop/Le Figaro poll in June 2026 gave him about 2% in the first round.",
+    "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded in 2014, launched nationally in June 2021), and confirmed it on France 2 on 31 March 2026 when leaving LR.",
     "offices": [
      {
       "office": "General/departmental councillor, Alpes-Maritimes (canton Cannes-Est, then Cannes-2 from 2015)",
@@ -20040,11 +19914,11 @@
       "office_fr": "Conseiller général puis départemental des Alpes-Maritimes (canton de Cannes-Est, puis de Cannes-2 à partir de 2015)"
      },
      {
-      "office": "Vice-president of the Alpes-Maritimes general/departmental council (tourism delegation)",
-      "from": "2014-05-22",
+      "office": "Vice-president of the Alpes-Maritimes departmental council (tourism)",
+      "from": "2015",
       "to": "present",
       "kind": "local_executive",
-      "office_fr": "Vice-président du conseil général puis départemental des Alpes-Maritimes (délégation au tourisme)"
+      "office_fr": "Vice-président du conseil départemental des Alpes-Maritimes (tourisme)"
      },
      {
       "office": "Mayor of Cannes",
@@ -20106,18 +19980,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified: no left-leaning outlet could be consulted directly in this session.",
-     "right_media": "Not verified in 2025-2026 coverage. Older centre-right coverage cited by Wikipedia presents him as a prominent figure on the right (Le Figaro Magazine, June 2020, headline 'l'incontournable').",
-     "neutral_media": "Le Monde (9 April 2026, as cited by Wikipedia) presents his candidacy as an autonomous liberal offer on the right, a configuration not seen since Alain Madelin's 2002 candidacy, and notes that his liberalism struggles to convince within the right."
-    },
-    "sources_note": "WebSearch was unavailable in this verification pass as well (200-search session cap reached), so the profile rests on the French Wikipedia article on David Lisnard, which was fetched and re-read three times. Underlying press references (Le Monde 9 Apr 2026, Nice-Matin 30 Dec 2019, Le Point 2 Jun 2015, Le Figaro Magazine 5 Jun 2020) are cited as reported by Wikipedia and were not opened directly. Wikipedia mentions no judicial investigation, complaint or conviction concerning him personally; this is absence of evidence from one source, not a confirmed clean record. No cross-lean corroboration was possible, so traits and reversals are left empty. Treat as incomplete and rerun with search quota.",
-    "bio_fr": "David Lisnard, né le 2 février 1969 à Limoges, est diplômé de Sciences Po Bordeaux (promotion 1992) et maire de Cannes depuis le 5 avril 2014 (réélu en 2020 et en mars 2026). Il a été élu président de l'Association des maires de France le 17 novembre 2021 et réélu le 22 novembre 2023. Il a appartenu au RPR, à l'UMP et aux Républicains, est devenu vice-président de LR le 28 juin 2025 et a quitté LR le 31 mars 2026. Il a annoncé sur RTL, le 21 janvier 2026, qu'il serait candidat à l'élection présidentielle de 2027 sous la bannière de son mouvement Nouvelle Énergie (fondé en 2014, lancé au niveau national en juin 2021) ; un sondage Ifop/Le Figaro de juin 2026 lui donnait environ 2 % au premier tour.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié : aucun média de gauche n'a pu être consulté directement au cours de cette session.",
-     "right_media": "Non vérifié pour la couverture de 2025-2026. Une couverture plus ancienne de centre droit, citée par Wikipédia, le présente comme une figure marquante de la droite (Le Figaro Magazine, juin 2020, titre « l'incontournable »).",
-     "neutral_media": "Le Monde (9 avril 2026, tel que cité par Wikipédia) présente sa candidature comme une offre libérale autonome à droite, une configuration inédite depuis la candidature d'Alain Madelin en 2002, et note que son libéralisme peine à convaincre au sein de la droite."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), LCP and Europe 1 (31 March 2026 departure from LR and candidacy on France 2), TourMaG (30 June 2015, departmental vice-presidency) and Public Sénat (AMF presidency). Press searches found no judicial case, complaint or investigation concerning him personally. The June 2026 Ifop poll figure was removed from the bio, as no other candidate bio carries poll numbers. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "David Lisnard, né le 2 février 1969 à Limoges, est diplômé de Sciences Po Bordeaux (promotion 1992) et maire de Cannes depuis le 5 avril 2014 (réélu en 2020 et en mars 2026). Il a été élu président de l'Association des maires de France le 17 novembre 2021 et réélu le 22 novembre 2023. Il a appartenu au RPR, à l'UMP et aux Républicains, est devenu vice-président de LR le 28 juin 2025 et a quitté LR le 31 mars 2026. Il a annoncé sur RTL, le 21 janvier 2026, qu'il serait candidat à l'élection présidentielle de 2027 sous la bannière de son mouvement Nouvelle Énergie (fondé en 2014, lancé au niveau national en juin 2021), et l'a confirmé sur France 2 le 31 mars 2026 en quittant LR."
    },
    "verification_notes": [
     "Context: the WebSearch budget was exhausted (200/200). Verification relied on fetching primary sources directly: the unenouvelleenergie.fr programme pages, its 62 campaign FAQ pages (updated 3 Oct 2026), and the Bayeux speech PDF of 17 Jun 2026.",
@@ -20213,7 +20077,8 @@
     "san5: null -> +2 (medium, statement): Lisnard calls the ZAN 'une véritable usine à gaz' (Congrès des maires, 20 Nov 2025), the programme scraps SRU art. 55, and he blames regulation for falling housing output. +1 is possible if he only wants the ZAN amended.",
     "ene5: null -> -1 (low, inferred): his fuel-price answer is a deficit-neutral CEE suspension (22 Sep 2026), not a VAT cut, and the programme raises VAT overall. No explicit rejection was found.",
     "imm8: kept -1 low inferred; added the primary programme source ('Mettre fin à l'automaticité du droit du sol', titres de séjour divided by eight). The Wikipedia quote was confirmed as 'défend notamment la réduction de l'immigration légale'.",
-    "trav3, sec6, eu7, eu8, ecol6, ins6, soc1, soc3, soc6, edu5: kept null. The relevant programme and FAQ pages were checked and contain nothing on these statements. Summaries were rewritten to say what was checked. These items still need a rerun with web search (press interviews, Le Figaro, franceinfo, etc.)."
+    "trav3, sec6, eu7, eu8, ecol6, ins6, soc1, soc3, soc6, edu5: kept null. The relevant programme and FAQ pages were checked and contain nothing on these statements. Summaries were rewritten to say what was checked. These items still need a rerun with web search (press interviews, Le Figaro, franceinfo, etc.).",
+    "2026-10-06 fact-check: see research/factcheck/lisnard.md"
    ]
   }
  }
