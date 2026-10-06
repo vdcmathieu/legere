@@ -10465,35 +10465,25 @@
       "case_fr": "Complicité de diffamation publique envers une administration publique (INED ; affirmation sur CNews en avril 2021 selon laquelle l'INED « trafique les chiffres ») : tribunal de Paris, 29 janvier 2024, amende de 1 500 EUR avec sursis ; confirmé en appel le 11 décembre 2024 ; pourvoi rejeté par la Cour de cassation le 27 janvier 2026"
      },
      {
-      "case": "Complicité de diffamation publique against MP Danièle Obono (2020 CNews remarks): tribunal correctionnel de Paris 7 Feb 2024, 1,000 EUR suspended fine; confirmed on appeal Jan 2025; Cour de cassation confirmed the case in June 2026",
-      "status": "convicted_final",
-      "date": "2026-06",
-      "sources": [
-       "https://www.mediapart.fr/journal/politique/260626/cnews-definitivement-condamnee-pour-les-propos-diffamatoires-d-eric-zemmour-contre-daniele-obono",
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Complicité de diffamation publique envers la députée Danièle Obono (propos de 2020 sur CNews) : tribunal correctionnel de Paris, 7 février 2024, amende de 1 000 EUR avec sursis ; confirmé en appel en janvier 2025 ; la Cour de cassation a confirmé la décision en juin 2026"
-     },
-     {
-      "case": "Injure raciale (remarks after the Crépol killing): tribunal correctionnel de Paris 26 March 2025, 9,000 EUR (60 day-fines of 150 EUR); acquitted on other counts; Zemmour announced an appeal. Appeal outcome not verified",
+      "case": "Injure raciale (30 November 2023 remarks on RMC/BFMTV after the Crépol killing, 'deux Frances'): tribunal correctionnel de Paris, 26 March 2025, EUR 9,000 (60 day-fines of EUR 150); acquitted on other counts. Zemmour announced an appeal; the appeal ruling was not known as of 6 October 2026.",
       "status": "convicted_appeal_pending",
       "date": "2025-03-26",
       "sources": [
        "https://www.france24.com/fr/info-en-continu/20250326-cr%C3%A9pol-eric-zemmour-condamn%C3%A9-pour-injure-raciale",
        "https://www.bfmtv.com/police-justice/eric-zemmour-condamne-pour-injure-raciale-apres-des-propos-sur-le-drame-de-crepol_AD-202503260432.html"
       ],
-      "case_fr": "Injure raciale (propos après le meurtre de Crépol) : tribunal correctionnel de Paris, 26 mars 2025, 9 000 EUR (60 jours-amende de 150 EUR) ; relaxé sur les autres chefs ; Zemmour a annoncé faire appel. Issue de l'appel non vérifiée"
+      "case_fr": "Injure raciale (propos du 30 novembre 2023 sur RMC/BFMTV après le meurtre de Crépol, « deux Frances ») : tribunal correctionnel de Paris, 26 mars 2025, 9 000 euros (60 jours-amende de 150 euros) ; relaxé sur les autres chefs. Zemmour a annoncé faire appel ; la décision d'appel n'était pas connue au 6 octobre 2026."
      },
      {
-      "case": "Contestation de crime contre l'humanité (Oct 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 Feb 2021) and on appeal (May 2022); acquittal quashed by the Cour de cassation 5 Sept 2023; convicted on retrial by the cour d'appel de Paris 2 April 2025, 10,000 EUR fine; Zemmour announced a pourvoi en cassation. Cassation outcome not verified",
+      "case": "Contestation de crime contre l'humanité (October 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 February 2021) and on appeal (2022); acquittal quashed by the Cour de cassation on 5 September 2023; convicted on retrial by the cour d'appel de Paris on 2 April 2025, EUR 10,000 fine. Zemmour announced a pourvoi en cassation; the outcome was not known as of 6 October 2026.",
       "status": "convicted_appeal_pending",
       "date": "2025-04-02",
       "sources": [
+       "https://www.thelocal.fr/20250402/frances-zemmour-fined-e10000-over-claim-wwii-leader-saved-jews",
        "https://www.courdecassation.fr/toutes-les-actualites/2023/09/05/contestation-de-lexistence-de-crime-contre-lhumanite-par-un-homme",
-       "https://www.lefigaro.fr/petain-sauveur-de-juifs-francais-eric-zemmour-condamne-a-10-000-euros-d-amende-20250402",
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+       "https://www.lefigaro.fr/petain-sauveur-de-juifs-francais-eric-zemmour-condamne-a-10-000-euros-d-amende-20250402"
       ],
-      "case_fr": "Contestation de crime contre l'humanité (affirmation sur CNews en octobre 2019 selon laquelle Pétain « a sauvé les Juifs français ») : relaxé en première instance (4 février 2021) et en appel (mai 2022) ; relaxe cassée par la Cour de cassation le 5 septembre 2023 ; condamné après renvoi par la cour d'appel de Paris le 2 avril 2025, amende de 10 000 EUR ; Zemmour a annoncé un pourvoi en cassation. Issue de la cassation non vérifiée"
+      "case_fr": "Contestation de crime contre l'humanité (affirmation sur CNews en octobre 2019 selon laquelle Pétain « a sauvé les Juifs français ») : relaxé en première instance (4 février 2021) et en appel (2022) ; relaxe cassée par la Cour de cassation le 5 septembre 2023 ; condamné après renvoi par la cour d'appel de Paris le 2 avril 2025, amende de 10 000 euros. Zemmour a annoncé un pourvoi en cassation ; l'issue n'était pas connue au 6 octobre 2026."
      },
      {
       "case": "Civil judgment for contrefaçon de droits d'auteur and atteinte au droit moral (film extracts in his campaign announcement video): tribunal judiciaire de Paris 4 March 2022, Zemmour and Reconquête ordered to pay about 70,000 EUR to Gaumont, EuropaCorp, Luc Besson, SACD and others; no appeal filed",
@@ -10506,67 +10496,42 @@
       "case_fr": "Jugement civil pour contrefaçon de droits d'auteur et atteinte au droit moral (extraits de films dans sa vidéo d'annonce de candidature) : tribunal judiciaire de Paris, 4 mars 2022, Zemmour et Reconquête condamnés à verser environ 70 000 EUR à Gaumont, EuropaCorp, Luc Besson, la SACD et d'autres ; pas d'appel"
      },
      {
-      "case": "Contrefaçon de droits d'auteur (unauthorised extracts of the documentary 'Le Collège d'à côté'): judgment of 16 Jan 2026; court, amount and appeal status not verified",
-      "status": "civil_or_other",
-      "date": "2026-01-16",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Contrefaçon de droits d'auteur (extraits non autorisés du documentaire « Le Collège d'à côté ») : jugement du 16 janvier 2026 ; juridiction, montant et état de l'appel non vérifiés"
-     },
-     {
-      "case": "Injure homophobe (Oct 2019 CNews remarks): convicted at first instance 28 Sept 2023 (4,000 EUR), acquitted by the cour d'appel de Paris 12 Sept 2024; a civil party (Stop Homophobie) said it would file a pourvoi",
+      "case": "Injure homophobe (October 2019 CNews remarks): convicted at first instance on 28 September 2023 (EUR 4,000), acquitted by the cour d'appel de Paris on 12 September 2024.",
       "status": "acquitted",
       "date": "2024-09-12",
       "sources": [
+       "https://www.lalibre.be/international/europe/2024/09/12/eric-zemmour-condamne-et-relaxe-en-appel-dans-deux-affaires-distinctes-5Q6K776HTBCJTKNFDMZNLIJN2Y/",
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Injure homophobe (propos d'octobre 2019 sur CNews) : condamné en première instance le 28 septembre 2023 (4 000 EUR), relaxé par la cour d'appel de Paris le 12 septembre 2024 ; une partie civile (Stop Homophobie) a dit qu'elle formerait un pourvoi"
+      "case_fr": "Injure homophobe (propos d'octobre 2019 sur CNews) : condamné en première instance le 28 septembre 2023 (4 000 euros), relaxé par la cour d'appel de Paris le 12 septembre 2024."
      },
      {
-      "case": "Provocation à la discrimination (Jan 2022 Public Sénat remarks on immigration and crime), prosecuted by LDH and SOS Racisme: acquitted by the tribunal correctionnel de Paris",
+      "case": "Provocation à la haine (26 January 2022 Public Sénat remarks linking crime to immigration): acquitted by the tribunal correctionnel de Paris on 2 July 2025, the court finding the remarks targeted only 'the delinquent fraction' of immigrants.",
       "status": "acquitted",
-      "date": "2025-07",
+      "date": "2025-07-02",
       "sources": [
+       "https://www.lecourrierdelatlas.com/relaxe-eric-zemmour-echappe-a-une-nouvelle-condamnation/",
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Provocation à la discrimination (propos de janvier 2022 sur Public Sénat à propos de l'immigration et de la délinquance), poursuites de la LDH et de SOS Racisme : relaxé par le tribunal correctionnel de Paris"
+      "case_fr": "Provocation à la haine (propos du 26 janvier 2022 sur Public Sénat liant la délinquance à l'immigration) : relaxé par le tribunal correctionnel de Paris le 2 juillet 2025, le tribunal estimant que les propos ne visaient que « la fraction délinquante » des immigrés."
      },
      {
-      "case": "Diffamation (Feb 2022 France Inter remarks comparing French towns to Afghanistan): acquitted 12 Nov 2024, acquittal confirmed on appeal Oct 2025; Vitry-sur-Seine filed a pourvoi",
+      "case": "Contestation de crime contre l'humanité (passage of his 2021 book calling the deportation of homosexuals from France a 'légende'): acquitted at first instance in June 2025; acquittal confirmed by the cour d'appel de Paris on 25 June 2026.",
       "status": "acquitted",
-      "date": "2025-10",
+      "date": "2026-06-25",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+       "https://www.actu-juridique.fr/penal/il-avait-conteste-la-deportation-dhomosexuels-entre-1940-et-1945-eric-zemmour-gagne-son-second-proces/"
       ],
-      "case_fr": "Diffamation (propos de février 2022 sur France Inter comparant des villes françaises à l'Afghanistan) : relaxé le 12 novembre 2024, relaxe confirmée en appel en octobre 2025 ; la commune de Vitry-sur-Seine a formé un pourvoi"
+      "case_fr": "Contestation de crime contre l'humanité (passage de son livre de 2021 qualifiant de « légende » la déportation d'homosexuels depuis la France) : relaxé en première instance en juin 2025 ; relaxe confirmée par la cour d'appel de Paris le 25 juin 2026."
      },
      {
-      "case": "Contestation de crime contre l'humanité (book passage calling the deportation of homosexuals from France a 'légende'): acquitted 18 Sept 2025; plaintiffs' appeal dismissed June 2026",
+      "case": "Diffamation against teacher Sophie Djigo (2022 remarks about a school trip to the Calais migrant camp), tried in March 2026 with RN officials: acquitted by the tribunal de Paris on 9 June 2026.",
       "status": "acquitted",
-      "date": "2026-06",
+      "date": "2026-06-09",
       "sources": [
        "https://fr.wikipedia.org/wiki/Éric_Zemmour"
       ],
-      "case_fr": "Contestation de crime contre l'humanité (passage d'un livre qualifiant de « légende » la déportation d'homosexuels depuis la France) : relaxé le 18 septembre 2025 ; appel des plaignants rejeté en juin 2026"
-     },
-     {
-      "case": "Diffamation against teacher Sophie Djigo (2022), tried with nine RN officials 30-31 March 2026: acquitted June 2026; the teacher announced an appeal",
-      "status": "acquitted",
-      "date": "2026-06",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Diffamation envers l'enseignante Sophie Djigo (2022), jugé avec neuf responsables du RN les 30 et 31 mars 2026 : relaxé en juin 2026 ; l'enseignante a annoncé faire appel"
-     },
-     {
-      "case": "Prosecution before the 17e chambre for 2021 and 2022 CNews remarks about Senegalese crack dealers (renvoi ordered May 2024). Trial outcome not verified",
-      "status": "indicted",
-      "date": "2024-05",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Éric_Zemmour"
-      ],
-      "case_fr": "Poursuites devant la 17e chambre pour des propos tenus sur CNews en 2021 et 2022 à propos de dealers de crack sénégalais (renvoi ordonné en mai 2024). Issue du procès non vérifiée"
+      "case_fr": "Diffamation envers l'enseignante Sophie Djigo (propos de 2022 sur une sortie scolaire au camp de migrants de Calais), jugé en mars 2026 avec des responsables du RN : relaxé par le tribunal de Paris le 9 juin 2026."
      }
     ],
     "reversals": [],
@@ -10583,18 +10548,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Only partly verified. Mediapart (left) reported the final Obono defamation ruling as the latest in a long list of sanctions. Its standfirst reads: 'Dernière sanction d'une longue liste'. Libération (centre-left) also covers each conviction in detail (headlines seen in Wikipedia citations). No wider sample was checked.",
-     "right_media": "Not verified. No CNews, Europe 1, JDD or Valeurs actuelles coverage was opened this session, so their portrayal is not documented here. Le Figaro (centre-right) covered the 2022 ECHR ruling and the 2025 Pétain conviction in factual headlines (URL slugs only; the pages could not be fetched).",
-     "neutral_media": "Partly verified. franceinfo calls him the 'candidat d'extrême droite' and reports his convictions and their final status factually. AFP dispatches (via L'Obs) and France 24 report court decisions without adding commentary."
-    },
-    "sources_note": "WebSearch was unavailable (the session's 200-call quota was used up), so verification relied on direct fetches. These were the raw text of the French Wikipedia pages on Zemmour, Reconquête and the 2027 election, plus the cited articles that could be opened or checked by HTTP status: franceinfo, AFP via L'Obs, France 24, BFM TV, Radio France, Le Dauphiné, Le Club des juristes, ActuaLitté, Mediapart (metadata only), courdecassation.fr, and Le Figaro (HTTP 200, but the content could not be fetched). Le Monde and Libération pages block automated access, so they are not cited. Legal statuses come from court decisions reported up to mid-2026. Two convictions are still under appeal: the Crépol case on appeal and the Pétain case at cassation. Their later outcomes, if any, could not be checked and should be rechecked before publication. No right-leaning outlet was opened, so media_portrayal is unbalanced by omission, and traits and reversals stay empty for lack of sources of more than one leaning.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy confirmed on BFMTV on 17 September 2026 (LCP, Public Sénat), 2022 results (7.07%; Var 4th constituency 23.19%, third), and each remaining legal entry checked against at least one press or court source (Le Club des juristes and INED for the 2025-2026 cassation rulings, La Libre for the 12 Sept 2024 appeal acquittal, France 24 for Crépol, The Local/Le Figaro for the Pétain retrial, Le Courrier de l'Atlas for the 2 July 2025 acquittal, Actu-Juridique for the 25 June 2026 appeal acquittal, press for the 9 June 2026 Djigo acquittal). Removed as unverifiable: the Senegalese 'crack dealers' prosecution (trial outcome not found), the Danièle Obono defamation case (only a Mediapart page that could not be opened), the Vitry-sur-Seine 'Afghanistan' defamation case and the 'Le Collège d'à côté' copyright judgment (Wikipedia only). Two convictions are not final (Crépol: appeal pending; Pétain: cassation pending); recheck before publication. Removed: media_portrayal (right-leaning outlets not read). Delivery is not displayed and was not re-verified.",
     "bio_fr": "Éric Zemmour, né le 31 août 1958 à Montreuil, est un journaliste, essayiste et homme politique français. Il a travaillé au Figaro, à RTL, sur Paris Première et à CNews avant de fonder Reconquête en décembre 2021. Il est arrivé quatrième de l'élection présidentielle de 2022 avec 7,07 % et a confirmé sa candidature pour 2027 sur BFM TV le 17 septembre 2026. Reconquête est classé à l'extrême droite et national-conservateur, et fait campagne sur l'« immigration zéro », l'assimilation et l'euroscepticisme.",
-    "media_portrayal_fr": {
-     "left_media": "Seulement partiellement vérifié. Mediapart (gauche) a rapporté la décision définitive dans l'affaire de diffamation envers Obono comme la dernière d'une longue liste de sanctions. Son chapô indique : « Dernière sanction d'une longue liste ». Libération (centre gauche) couvre aussi chaque condamnation en détail (titres vus dans les citations de Wikipédia). Aucun échantillon plus large n'a été vérifié.",
-     "right_media": "Non vérifié. Aucune couverture de CNews, d'Europe 1, du JDD ou de Valeurs actuelles n'a été ouverte durant cette session, leur traitement n'est donc pas documenté ici. Le Figaro (centre droit) a couvert la décision de la CEDH de 2022 et la condamnation pour les propos sur Pétain de 2025 dans des titres factuels (slugs d'URL uniquement ; les pages n'ont pas pu être consultées).",
-     "neutral_media": "Partiellement vérifié. franceinfo le qualifie de « candidat d'extrême droite » et rapporte ses condamnations et leur état définitif de façon factuelle. Les dépêches de l'AFP (via L'Obs) et France 24 rapportent les décisions de justice sans commentaire."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Method: the WebSearch budget for this session was exhausted (200/200), so verification used direct fetches only: Institut Montaigne 2022 programme pages (all themes), the raw French Wikipedia article on Zemmour, the Reconquête party site, combienjegagne.fr and RTL 18 Sept 2026 (via curl).",
