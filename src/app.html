@@ -327,6 +327,7 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   .cd-tabs button { font-size: 14px; }
   .cd-off { grid-template-columns: 84px minmax(0, 1fr); }
 }
+@media (max-width: 400px) { .cd-facts { grid-template-columns: 1fr; gap: 2px 0; } .cd-facts dd { margin-bottom: 8px; } .cd-facts dd:last-child { margin-bottom: 0; } }
 @media (hover: hover) {
   .cd-card:hover { border-color: var(--ink); }
   .cd-nav button:hover, .cd-tabs button:hover { color: var(--ink); }
