@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 D = ROOT / "data"
 CONF = {"high": 1.0, "medium": 0.8, "low": 0.5, "none": 0.0}
-CORE_N = 24
+CORE_N = 10
 
 
 def jload(name, default=None):
@@ -51,26 +51,26 @@ def french_record(r):
 
 
 def pick_core(statements, cands, n=CORE_N):
-    """Greedy: highest discrimination, but every area at least once and
-    each keyed axis at least 4 items, with keying balanced where possible."""
+    """Greedy by discrimination, at most one statement per area, and each keyed
+    axis covered in both directions of wording, plus ecology/energy; the adaptive
+    order does the rest."""
     disc = {s["id"]: discrimination(s["id"], cands) for s in statements}
     by = sorted(statements, key=lambda s: -disc[s["id"]])
     core = []
-    for a in {s["area"] for s in statements}:
-        best = next(s for s in by if s["area"] == a)
-        core.append(best)
+    free = lambda s: s not in core and all(c["area"] != s["area"] for c in core)
     for axis in ("econ", "cult", "eu"):
         for key in (1, -1):
-            have = [s for s in core if s["axis"] == axis and s["key"] == key]
-            for s in by:
-                if len(have) >= 2:
-                    break
-                if s["axis"] == axis and s["key"] == key and s not in core:
-                    core.append(s); have.append(s)
+            s = next((s for s in by if s["axis"] == axis and s["key"] == key and free(s)), None)
+            if s:
+                core.append(s)
+    for group in (("ecol", "ene"),):  # themes voters expect early that no keyed axis covers
+        s = next((s for s in by if s["area"] in group and free(s)), None)
+        if s and not any(c["area"] in group for c in core):
+            core.append(s)
     for s in by:
         if len(core) >= n:
             break
-        if s not in core:
+        if free(s):
             core.append(s)
     return [s["id"] for s in core], disc
 

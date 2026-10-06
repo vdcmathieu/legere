@@ -85,24 +85,27 @@
    "area": "eco",
    "axis": "econ",
    "key": -1,
-   "fr": "Rétablir un impôt sur la fortune incluant le patrimoine financier (type ISF).",
-   "en": "Reinstate a wealth tax that includes financial assets (ISF-style)."
+   "fr": "Rétablir un impôt annuel sur les grandes fortunes qui taxe aussi les placements financiers, et pas seulement l'immobilier (type ISF).",
+   "en": "Reinstate a wealth tax that includes financial assets (ISF-style).",
+   "plain_fr": "L'ISF a été supprimé en 2018 et remplacé par l'IFI, qui ne concerne que l'immobilier, pour les patrimoines immobiliers dépassant 1,3 million d'euros."
   },
   {
    "id": "eco2",
    "area": "eco",
    "axis": "econ",
    "key": -1,
-   "fr": "Instaurer un impôt minimum d'environ 2 % sur les patrimoines supérieurs à 100 millions d'euros.",
-   "en": "Introduce a minimum tax of about 2% on fortunes above EUR 100 million (Zucman-style)."
+   "fr": "Instaurer un impôt minimum d'environ 2 % sur les patrimoines supérieurs à 100 millions d'euros.",
+   "en": "Introduce a minimum tax of about 2% on fortunes above EUR 100 million (Zucman-style).",
+   "plain_fr": "Il n'existe pas d'impôt minimum sur les très hauts patrimoines ; une « taxe Zucman » de 2 % a été rejetée lors du vote du budget 2026."
   },
   {
    "id": "eco3",
    "area": "eco",
    "axis": "econ",
    "key": 1,
-   "fr": "Baisser les impôts de production et les cotisations sociales payées par les entreprises.",
-   "en": "Cut production taxes and employer social contributions to boost business competitiveness."
+   "fr": "Baisser les impôts de production, que les entreprises paient quel que soit leur bénéfice, et les cotisations sociales qu'elles versent sur les salaires.",
+   "en": "Cut production taxes and employer social contributions to boost business competitiveness.",
+   "plain_fr": "Les impôts de production ont été réduits depuis 2021 et les cotisations patronales sont allégées sur les bas salaires."
   },
   {
    "id": "eco4",
@@ -110,7 +113,8 @@
    "axis": "none",
    "key": 0,
    "fr": "Défendre des droits de douane ou des quotas pour protéger certaines filières françaises (agriculture, industrie), même si cela augmente certains prix.",
-   "en": "Protect some French sectors with tariffs or quotas, even if some prices rise."
+   "en": "Protect some French sectors with tariffs or quotas, even if some prices rise.",
+   "plain_fr": "Les droits de douane relèvent de l'Union européenne, qui en a par exemple imposé en 2024 sur les voitures électriques chinoises ; la France ne décide pas seule."
   },
   {
    "id": "eco5",
@@ -118,7 +122,8 @@
    "axis": "econ",
    "key": -1,
    "fr": "Nationaliser ou renationaliser des entreprises de secteurs stratégiques comme les autoroutes, l'eau ou l'énergie.",
-   "en": "Bring strategic sectors such as energy or motorways back under public control."
+   "en": "Bring strategic sectors such as energy or motorways back under public control.",
+   "plain_fr": "EDF appartient à 100 % à l'État depuis 2023 ; les grandes concessions d'autoroutes, privées, s'achèvent entre 2031 et 2036, et l'eau est gérée localement, souvent par des entreprises privées."
   },
   {
    "id": "eco6",
@@ -126,16 +131,18 @@
    "axis": "econ",
    "key": 1,
    "fr": "Baisser l'impôt sur les successions et les donations.",
-   "en": "Lower inheritance and gift taxes."
+   "en": "Lower inheritance and gift taxes.",
+   "plain_fr": "Chaque parent peut transmettre 100 000 euros à chaque enfant sans impôt ; au-delà, le taux monte par tranches jusqu'à 45 %."
   },
   {
    "id": "eco7",
    "area": "eco",
    "axis": "econ",
    "key": 1,
-   "fr": "Augmenter la TVA pour financer une baisse des cotisations sociales sur les salaires (« TVA sociale »).",
+   "fr": "Augmenter la TVA pour financer une baisse des cotisations sociales sur les salaires, ce qu'on appelle la TVA sociale.",
    "en": "Raise VAT to fund lower social contributions on wages ('social VAT').",
-   "new": true
+   "new": true,
+   "plain_fr": "La TVA (20 % au taux normal) rapporte environ 200 milliards d'euros par an ; une TVA sociale votée en 2012 a été abrogée avant d'entrer en vigueur."
   },
   {
    "id": "ret1",
@@ -143,7 +150,8 @@
    "axis": "econ",
    "key": -1,
    "fr": "Ramener l'âge légal de départ à la retraite à 62 ans ou moins.",
-   "en": "Bring the legal retirement age back to 62 or lower."
+   "en": "Bring the legal retirement age back to 62 or lower.",
+   "plain_fr": "La réforme de 2023 devait porter l'âge légal à 64 ans ; elle est suspendue et l'âge légal ne dépasse pas 62 ans et 9 mois jusqu'en janvier 2028."
   },
   {
    "id": "ret2",
@@ -151,7 +159,8 @@
    "axis": "econ",
    "key": 1,
    "fr": "Relever l'âge légal de départ à la retraite au-delà de 64 ans.",
-   "en": "Raise the retirement age above 64 to balance the system."
+   "en": "Raise the retirement age above 64 to balance the system.",
+   "plain_fr": "L'âge légal ne dépasse pas 62 ans et 9 mois jusqu'en janvier 2028 ; la hausse vers 64 ans doit ensuite reprendre, sauf nouvelle décision du Parlement."
   },
   {
    "id": "ret3",
@@ -159,15 +168,17 @@
    "axis": "econ",
    "key": 1,
    "fr": "Introduire une part obligatoire de retraite par capitalisation (cotisations placées et investies), à côté de la retraite par répartition.",
-   "en": "Introduce a mandatory funded (capitalisation) component in the pension system."
+   "en": "Introduce a mandatory funded (capitalisation) component in the pension system.",
+   "plain_fr": "Les retraites françaises reposent sur la répartition : les cotisations des actifs paient les pensions actuelles. La capitalisation n'existe que de façon volontaire (épargne retraite) ou marginale (retraite additionnelle des fonctionnaires)."
   },
   {
    "id": "fin1",
    "area": "fin",
    "axis": "econ",
    "key": 1,
-   "fr": "Ramener rapidement le déficit public sous 3 % du PIB, même au prix de fortes baisses de dépenses.",
-   "en": "Bringing the deficit below 3% of GDP should be a priority, even at the cost of large spending cuts."
+   "fr": "Ramener rapidement le déficit public sous 3 % du PIB, même au prix de fortes baisses de dépenses.",
+   "en": "Bringing the deficit below 3% of GDP should be a priority, even at the cost of large spending cuts.",
+   "plain_fr": "Le déficit public a été de 5,1 % du PIB en 2025 ; l'objectif officiel est de repasser sous 3 % vers 2029."
   },
   {
    "id": "fin2",
@@ -175,7 +186,8 @@
    "axis": "econ",
    "key": 1,
    "fr": "Réduire le nombre total de fonctionnaires et d'agents publics (État, collectivités, hôpitaux).",
-   "en": "Reduce the number of civil servants."
+   "en": "Reduce the number of civil servants.",
+   "plain_fr": "La France compte environ 5,9 millions d'agents publics (État, collectivités, hôpitaux), soit près d'un emploi sur cinq."
   },
   {
    "id": "fin3",
@@ -183,23 +195,26 @@
    "axis": "econ",
    "key": -1,
    "fr": "Accepter davantage de dette publique pour financer des priorités comme la transition écologique ou les services publics.",
-   "en": "Accept more public debt to fund the green transition and public services."
+   "en": "Accept more public debt to fund the green transition and public services.",
+   "plain_fr": "La dette publique atteint environ 3 600 milliards d'euros, soit 119 % du PIB à la mi-2026, et la France emprunte à des taux plus élevés que l'Allemagne."
   },
   {
    "id": "fin4",
    "area": "fin",
    "axis": "none",
    "key": 0,
-   "fr": "Inscrire dans la Constitution une règle limitant le déficit public (« règle d'or »).",
-   "en": "Write a deficit-limiting 'golden rule' into the Constitution."
+   "fr": "Inscrire dans la Constitution une règle d'or, c'est-à-dire une règle limitant le déficit public.",
+   "en": "Write a deficit-limiting 'golden rule' into the Constitution.",
+   "plain_fr": "La Constitution ne fixe aucun plafond de déficit ; les règles budgétaires viennent d'une loi organique de 2012 et des traités européens."
   },
   {
    "id": "trav1",
    "area": "trav",
    "axis": "econ",
    "key": -1,
-   "fr": "Donner au SMIC un « coup de pouce » nettement supérieur à sa revalorisation automatique sur l'inflation.",
-   "en": "Raise the minimum wage significantly faster than inflation."
+   "fr": "Augmenter le SMIC nettement plus que l'inflation, au-delà de sa hausse automatique (un « coup de pouce »).",
+   "en": "Raise the minimum wage significantly faster than inflation.",
+   "plain_fr": "Le SMIC (1 867 € brut par mois depuis juin 2026) est revalorisé automatiquement sur l'inflation ; aucun « coup de pouce » supplémentaire n'a été donné depuis 2012."
   },
   {
    "id": "trav2",
@@ -207,7 +222,8 @@
    "axis": "econ",
    "key": 1,
    "fr": "Réduire la durée ou le montant des allocations chômage.",
-   "en": "Reduce the length or amount of unemployment benefits to encourage return to work."
+   "en": "Reduce the length or amount of unemployment benefits to encourage return to work.",
+   "plain_fr": "L'allocation chômage dure en général au maximum 18 mois avant 55 ans et son montant dépend de l'ancien salaire ; les règles ont été durcies plusieurs fois depuis 2019."
   },
   {
    "id": "trav3",
@@ -216,7 +232,8 @@
    "key": 1,
    "fr": "Maintenir l'obligation de 15 à 20 heures d'activité par semaine pour les bénéficiaires du RSA.",
    "en": "Make the RSA minimum income conditional on mandatory activity hours.",
-   "recode": true
+   "recode": true,
+   "plain_fr": "Depuis janvier 2025, les bénéficiaires du RSA signent un contrat d'engagement prévoyant en principe au moins 15 heures d'activité par semaine, aménageables selon leur situation ; un manquement peut entraîner une suspension."
   },
   {
    "id": "trav4",
@@ -224,7 +241,8 @@
    "axis": "econ",
    "key": -1,
    "fr": "Réduire le temps de travail hebdomadaire (vers 32 heures).",
-   "en": "Reduce weekly working time (towards 32 hours)."
+   "en": "Reduce weekly working time (towards 32 hours).",
+   "plain_fr": "La durée légale du travail est de 35 heures par semaine depuis 2000 ; les salariés à temps plein déclarent travailler en moyenne près de 39 heures."
   },
   {
    "id": "imm1",
@@ -232,7 +250,8 @@
    "axis": "cult",
    "key": 1,
    "fr": "Réduire fortement l'immigration légale (travail, regroupement familial, études).",
-   "en": "Sharply reduce legal immigration (work, family reunification, students)."
+   "en": "Sharply reduce legal immigration (work, family reunification, students).",
+   "plain_fr": "La France a délivré près de 380 000 premiers titres de séjour en 2025, dont près d'un tiers pour études et un quart pour motif familial."
   },
   {
    "id": "imm2",
@@ -240,23 +259,26 @@
    "axis": "none",
    "key": 0,
    "fr": "Réviser la Constitution pour permettre un référendum sur la politique d'immigration.",
-   "en": "Hold a referendum on immigration policy."
+   "en": "Hold a referendum on immigration policy.",
+   "plain_fr": "La Constitution (article 11) ne permet pas, en l'état, de référendum sur la politique d'immigration ; il faudrait d'abord la modifier."
   },
   {
    "id": "imm3",
    "area": "imm",
    "axis": "cult",
    "key": 1,
-   "fr": "Remplacer l'aide médicale d'État (AME) par une aide limitée aux soins urgents.",
-   "en": "Replace state medical aid for undocumented migrants (AME) with urgent-care-only aid."
+   "fr": "Limiter aux soins urgents la prise en charge gratuite des soins des étrangers en situation irrégulière (remplacer l'aide médicale d'État, AME).",
+   "en": "Replace state medical aid for undocumented migrants (AME) with urgent-care-only aid.",
+   "plain_fr": "L'AME couvre gratuitement les soins des étrangers sans titre de séjour à faibles ressources, présents depuis plus de trois mois (sauf pour les mineurs) ; plus de 400 000 personnes en bénéficient."
   },
   {
    "id": "imm4",
    "area": "imm",
    "axis": "cult",
    "key": -1,
-   "fr": "Régulariser les travailleurs sans papiers dans les métiers en tension.",
-   "en": "Regularise undocumented workers in labour-shortage occupations."
+   "fr": "Donner un titre de séjour aux travailleurs sans papiers employés dans les métiers en tension, ceux qui manquent de main-d'œuvre.",
+   "en": "Regularise undocumented workers in labour-shortage occupations.",
+   "plain_fr": "La loi de 2024 permet des régularisations au cas par cas dans les métiers en tension, à titre expérimental ; une circulaire de 2025 a durci les critères."
   },
   {
    "id": "imm5",
@@ -264,7 +286,8 @@
    "axis": "cult",
    "key": 1,
    "fr": "Accorder aux citoyens français une priorité sur les étrangers pour l'accès au logement social et à certaines prestations sociales.",
-   "en": "Give French citizens priority access to social housing and some welfare benefits."
+   "en": "Give French citizens priority access to social housing and some welfare benefits.",
+   "plain_fr": "Les étrangers en séjour régulier ont accès au logement social et aux prestations sociales comme les Français, parfois après un délai (cinq ans de titre de séjour pour le RSA)."
   },
   {
    "id": "imm6",
@@ -272,7 +295,8 @@
    "axis": "cult",
    "key": 1,
    "fr": "Supprimer le droit du sol (l'acquisition de la nationalité française par les enfants nés en France de parents étrangers).",
-   "en": "Abolish birthright citizenship (droit du sol)."
+   "en": "Abolish birthright citizenship (droit du sol).",
+   "plain_fr": "Un enfant né en France de parents étrangers devient français à 18 ans s'il y vit et y a vécu au moins cinq ans depuis ses 11 ans ; Mayotte a des règles plus strictes."
   },
   {
    "id": "imm7",
@@ -280,7 +304,8 @@
    "axis": "cult",
    "key": -1,
    "fr": "Accorder le droit de vote aux élections locales aux étrangers non européens résidant en France.",
-   "en": "Give non-EU foreign residents the right to vote in local elections."
+   "en": "Give non-EU foreign residents the right to vote in local elections.",
+   "plain_fr": "Seuls les Français et les citoyens d'autres pays de l'Union européenne peuvent voter aux élections municipales ; l'étendre aux autres étrangers exigerait de modifier la Constitution."
   },
   {
    "id": "imm8",
@@ -289,15 +314,17 @@
    "key": -1,
    "fr": "Faciliter la naturalisation des étrangers qui résident et travaillent légalement en France depuis plusieurs années.",
    "en": "Make naturalisation easier for foreigners who have lived and worked legally in France for several years.",
-   "new": true
+   "new": true,
+   "plain_fr": "La naturalisation exige en général cinq ans de résidence, des ressources stables, un bon niveau de français et, depuis 2026, la réussite d'un examen civique."
   },
   {
    "id": "sec1",
    "area": "sec",
    "axis": "cult",
    "key": 1,
-   "fr": "Instaurer des peines minimales obligatoires pour les récidivistes (peines planchers).",
-   "en": "Introduce mandatory minimum sentences for repeat offenders."
+   "fr": "Fixer dans la loi des peines planchers, c'est-à-dire une peine minimale que le juge doit prononcer contre les récidivistes.",
+   "en": "Introduce mandatory minimum sentences for repeat offenders.",
+   "plain_fr": "Les peines planchers pour récidivistes ont existé de 2007 à 2014 ; aujourd'hui, le juge choisit la peine dans le cadre fixé par la loi, sans minimum obligatoire."
   },
   {
    "id": "sec2",
@@ -305,23 +332,26 @@
    "axis": "cult",
    "key": 1,
    "fr": "Permettre de juger comme des adultes les mineurs de plus de 16 ans auteurs de crimes graves.",
-   "en": "Allow minors over 16 who commit serious crimes to be tried as adults."
+   "en": "Allow minors over 16 who commit serious crimes to be tried as adults.",
+   "plain_fr": "Un mineur encourt la moitié de la peine d'un adulte (« excuse de minorité ») ; pour les 16-18 ans, le juge peut déjà l'écarter au cas par cas, mais pas par principe (loi de 2025 censurée)."
   },
   {
    "id": "sec3",
    "area": "sec",
    "axis": "cult",
    "key": -1,
-   "fr": "Confier les enquêtes sur les fautes des policiers et gendarmes à un organisme indépendant, à la place de l'IGPN et de l'IGGN.",
-   "en": "Give oversight of the police to a body independent of the police."
+   "fr": "Confier les enquêtes sur les fautes des policiers et gendarmes à un organisme indépendant de la police, à la place de ses services internes (IGPN, IGGN).",
+   "en": "Give oversight of the police to a body independent of the police.",
+   "plain_fr": "Ces enquêtes sont menées par l'IGPN et l'IGGN, services internes à la police et à la gendarmerie ; le Défenseur des droits peut enquêter, sans pouvoir de sanction."
   },
   {
    "id": "sec4",
    "area": "sec",
    "axis": "cult",
    "key": -1,
-   "fr": "Légaliser et encadrer le cannabis récréatif.",
-   "en": "Legalise and regulate recreational cannabis."
+   "fr": "Rendre légal et encadrer le cannabis consommé par loisir, hors usage médical (cannabis récréatif).",
+   "en": "Legalise and regulate recreational cannabis.",
+   "plain_fr": "L'usage de cannabis est un délit, puni le plus souvent d'une amende forfaitaire de 200 euros ; seul le cannabis médical a fait l'objet d'une expérimentation."
   },
   {
    "id": "sec5",
@@ -329,16 +359,18 @@
    "axis": "cult",
    "key": 1,
    "fr": "Généraliser la vidéosurveillance assistée par intelligence artificielle dans l'espace public.",
-   "en": "Roll out AI-assisted video surveillance in public spaces."
+   "en": "Roll out AI-assisted video surveillance in public spaces.",
+   "plain_fr": "Des caméras détectant automatiquement certains événements (sans reconnaissance faciale) sont expérimentées depuis les JO 2024 ; en 2026, le Parlement a prolongé l'expérimentation jusqu'en 2030."
   },
   {
    "id": "sec6",
    "area": "sec",
    "axis": "cult",
    "key": -1,
-   "fr": "Remettre un récépissé lors de chaque contrôle d'identité pour lutter contre les contrôles au faciès.",
+   "fr": "Remettre à la personne contrôlée un document écrit (récépissé) lors de chaque contrôle d'identité, pour lutter contre les contrôles au faciès.",
    "en": "Issue a receipt at every identity check to curb ethnic profiling.",
-   "new": true
+   "new": true,
+   "plain_fr": "La personne contrôlée ne reçoit aucun récépissé ; en 2023, le Conseil d'État a reconnu l'existence de contrôles discriminatoires sans imposer de mesure au gouvernement."
   },
   {
    "id": "eu1",
@@ -346,7 +378,8 @@
    "axis": "eu",
    "key": 1,
    "fr": "Faire primer le droit français sur le droit européen lorsqu'ils entrent en conflit.",
-   "en": "Make French law prevail over EU law when they conflict."
+   "en": "Make French law prevail over EU law when they conflict.",
+   "plain_fr": "Les règles de l'Union européenne priment sur les lois françaises ; la Constitution reste toutefois au sommet de l'ordre juridique français, selon le Conseil constitutionnel et le Conseil d'État."
   },
   {
    "id": "eu2",
@@ -354,7 +387,8 @@
    "axis": "eu",
    "key": -1,
    "fr": "Permettre à l'Union européenne d'emprunter en commun pour financer la défense, le climat ou l'industrie.",
-   "en": "Allow the EU to borrow jointly to fund defence, climate or industry."
+   "en": "Allow the EU to borrow jointly to fund defence, climate or industry.",
+   "plain_fr": "L'Union a déjà emprunté en commun pour le plan de relance post-Covid (jusqu'à 750 milliards) et, depuis 2025, pour des prêts de défense (jusqu'à 150 milliards) ; cela reste exceptionnel."
   },
   {
    "id": "eu3",
@@ -362,7 +396,8 @@
    "axis": "eu",
    "key": 1,
    "fr": "Réduire la contribution de la France au budget de l'Union européenne.",
-   "en": "Reduce France's contribution to the EU budget."
+   "en": "Reduce France's contribution to the EU budget.",
+   "plain_fr": "La France verse environ 30 milliards d'euros par an au budget européen et en reçoit une dizaine de milliards de moins."
   },
   {
    "id": "eu4",
@@ -370,7 +405,8 @@
    "axis": "eu",
    "key": -1,
    "fr": "Supprimer la règle de l'unanimité pour les décisions de politique étrangère de l'Union européenne (décisions à la majorité, sans droit de veto national).",
-   "en": "Abolish unanimity voting for EU foreign policy."
+   "en": "Abolish unanimity voting for EU foreign policy.",
+   "plain_fr": "Les décisions de politique étrangère de l'Union exigent en principe l'accord de tous les États membres : un seul pays peut bloquer des sanctions ou une déclaration."
   },
   {
    "id": "eu5",
@@ -378,7 +414,8 @@
    "axis": "eu",
    "key": 1,
    "fr": "Refuser d'appliquer certaines règles européennes (budgétaires, de concurrence…) lorsque le gouvernement élu les juge contraires à son programme.",
-   "en": "Refuse to apply some EU rules when they block the programme voters chose."
+   "en": "Refuse to apply some EU rules when they block the programme voters chose.",
+   "plain_fr": "Les règles européennes (budget, concurrence, marchés publics) s'imposent aux États ; ne pas les appliquer expose à des procédures et à des amendes européennes."
   },
   {
    "id": "eu6",
@@ -386,7 +423,8 @@
    "axis": "eu",
    "key": 1,
    "fr": "La France devrait sortir de l'Union européenne.",
-   "en": "France should leave the European Union."
+   "en": "France should leave the European Union.",
+   "plain_fr": "La France est l'un des pays fondateurs de l'Union européenne ; le Royaume-Uni est le seul pays à en être sorti (2020)."
   },
   {
    "id": "eu7",
@@ -395,7 +433,8 @@
    "key": -1,
    "fr": "Construire une défense européenne commune (armée européenne, achats d'armement en commun), même si la France perd une partie de son autonomie militaire.",
    "en": "Build a common European defence (European army, joint arms procurement), even if France loses some military autonomy.",
-   "new": true
+   "new": true,
+   "plain_fr": "La défense reste nationale et il n'existe pas d'armée européenne ; l'Union finance depuis 2025 des achats d'armement communs, et la France dispose seule de sa dissuasion nucléaire."
   },
   {
    "id": "eu8",
@@ -404,7 +443,8 @@
    "key": -1,
    "fr": "Poursuivre l'adhésion de l'Ukraine à l'Union européenne.",
    "en": "Continue Ukraine's accession to the European Union.",
-   "new": true
+   "new": true,
+   "plain_fr": "L'Ukraine est candidate depuis 2022 ; les premiers chapitres de négociation ont été ouverts en 2026 après un long blocage. L'adhésion exige l'accord unanime des 27 et aucune date n'est fixée."
   },
   {
    "id": "int1",
@@ -412,7 +452,8 @@
    "axis": "none",
    "key": 0,
    "fr": "Maintenir une aide militaire importante à l'Ukraine.",
-   "en": "Keep providing substantial military aid to Ukraine."
+   "en": "Keep providing substantial military aid to Ukraine.",
+   "plain_fr": "La France a livré à l'Ukraine des canons Caesar, des missiles et des avions Mirage, pour plusieurs milliards d'euros ; aucun cessez-le-feu n'est conclu début octobre 2026."
   },
   {
    "id": "int2",
@@ -420,31 +461,35 @@
    "axis": "none",
    "key": 0,
    "fr": "Envoyer des troupes françaises en Ukraine pour garantir un éventuel cessez-le-feu.",
-   "en": "Send French troops to Ukraine to guarantee a possible ceasefire."
+   "en": "Send French troops to Ukraine to guarantee a possible ceasefire.",
+   "plain_fr": "La France et le Royaume-Uni préparent une force de « réassurance » qui serait déployée en Ukraine après un cessez-le-feu ; elle n'est pas déployée à ce jour."
   },
   {
    "id": "int3",
    "area": "int",
    "axis": "eu",
    "key": 1,
-   "fr": "Quitter le commandement intégré de l'OTAN.",
-   "en": "Leave NATO's integrated military command."
+   "fr": "Retirer la France du commandement militaire intégré de l'OTAN, c'est-à-dire des structures où les armées alliées planifient et commandent ensemble.",
+   "en": "Leave NATO's integrated military command.",
+   "plain_fr": "La France a quitté le commandement intégré de l'OTAN en 1966 et l'a réintégré en 2009 ; elle est restée membre de l'Alliance pendant toute cette période."
   },
   {
    "id": "int4",
    "area": "int",
    "axis": "none",
    "key": 0,
-   "fr": "Suspendre l'accord d'association entre l'UE et Israël en raison de la guerre menée à Gaza.",
-   "en": "Suspend the EU-Israel association agreement over the conduct of the Gaza war."
+   "fr": "Suspendre l'accord d'association entre l'Union européenne et Israël, qui organise leur commerce et leur coopération, en raison de la manière dont la guerre est menée à Gaza.",
+   "en": "Suspend the EU-Israel association agreement over the conduct of the Gaza war.",
+   "plain_fr": "L'accord d'association UE-Israël, en vigueur depuis 2000, n'est pas suspendu : en avril 2026, les 27 n'ont pas trouvé l'unanimité nécessaire pour le faire."
   },
   {
    "id": "int5",
    "area": "int",
    "axis": "none",
    "key": 0,
-   "fr": "Porter le budget de la défense à plus de 3 % du PIB.",
-   "en": "Raise defence spending above 3% of GDP."
+   "fr": "Porter le budget de la défense à plus de 3 % du PIB.",
+   "en": "Raise defence spending above 3% of GDP.",
+   "plain_fr": "Le budget des armées représente environ 2 % du PIB (57 milliards d'euros en 2026, hors pensions) ; l'OTAN vise 3,5 % de dépenses de défense d'ici 2035."
   },
   {
    "id": "int6",
@@ -452,7 +497,8 @@
    "axis": "cult",
    "key": 1,
    "fr": "Rendre obligatoire pour tous les jeunes un service national, militaire ou civique.",
-   "en": "Reinstate compulsory military or national service."
+   "en": "Reinstate compulsory military or national service.",
+   "plain_fr": "La suspension du service militaire obligatoire a été décidée en 1997 ; le SNU a été arrêté fin 2025 et un service militaire volontaire de dix mois accueille ses premiers volontaires en 2026."
   },
   {
    "id": "int7",
@@ -460,15 +506,17 @@
    "axis": "none",
    "key": 0,
    "fr": "Lever progressivement les sanctions contre la Russie en échange d'un accord de paix en Ukraine.",
-   "en": "Gradually lift sanctions on Russia in exchange for a peace deal in Ukraine."
+   "en": "Gradually lift sanctions on Russia in exchange for a peace deal in Ukraine.",
+   "plain_fr": "L'Union européenne a adopté 21 paquets de sanctions contre la Russie depuis 2022, le dernier en juillet 2026 ; aucune levée n'est engagée."
   },
   {
    "id": "ecol1",
    "area": "ecol",
    "axis": "none",
    "key": 0,
-   "fr": "Supprimer les zones à faibles émissions (ZFE) dans les villes.",
-   "en": "Abolish low-emission zones (ZFE) in cities."
+   "fr": "Supprimer les zones à faibles émissions (ZFE), qui limitent la circulation des véhicules les plus polluants dans les grandes villes.",
+   "en": "Abolish low-emission zones (ZFE) in cities.",
+   "plain_fr": "Les ZFE limitent la circulation des véhicules les plus polluants dans les grandes agglomérations ; leur suppression votée en 2026 a été annulée pour vice de procédure."
   },
   {
    "id": "ecol2",
@@ -476,15 +524,17 @@
    "axis": "none",
    "key": 0,
    "fr": "Maintenir en France l'interdiction de pesticides encore autorisés ailleurs en Europe (comme l'acétamipride), même si des concurrents étrangers continuent de les utiliser.",
-   "en": "Ban some pesticides in France even if foreign competitors keep using them."
+   "en": "Ban some pesticides in France even if foreign competitors keep using them.",
+   "plain_fr": "L'acétamipride est interdit en France depuis 2018 mais autorisé dans l'Union européenne jusqu'en 2033 ; sa réintroduction votée en 2025 a été censurée par le Conseil constitutionnel."
   },
   {
    "id": "ecol3",
    "area": "ecol",
    "axis": "none",
    "key": 0,
-   "fr": "Maintenir l'objectif européen de 100 % de voitures neuves sans émissions en 2035 (fin des ventes de thermiques neuves), plutôt que l'assouplir.",
-   "en": "Keep the 2035 end of sales of new combustion-engine cars."
+   "fr": "Maintenir la fin de la vente des voitures neuves à moteur thermique (essence, diesel, hybrides), prévue en 2035 par l'Union européenne, plutôt que l'assouplir.",
+   "en": "Keep the 2035 end of sales of new combustion-engine cars.",
+   "plain_fr": "Un règlement européen de 2023 impose 100 % de voitures neuves sans émissions en 2035 ; la Commission a proposé fin 2025 de ramener l'objectif à 90 %, révision en cours."
   },
   {
    "id": "ecol4",
@@ -492,7 +542,8 @@
    "axis": "none",
    "key": 0,
    "fr": "Taxer davantage le transport aérien (kérosène, vols courts, jets privés).",
-   "en": "Tax air travel more (kerosene, short flights, private jets)."
+   "en": "Tax air travel more (kerosene, short flights, private jets).",
+   "plain_fr": "La taxe sur les billets d'avion a été fortement relevée en 2025, davantage pour les jets privés ; le kérosène des vols commerciaux n'est pas taxé, contrairement aux carburants routiers."
   },
   {
    "id": "ecol5",
@@ -500,24 +551,27 @@
    "axis": "none",
    "key": 0,
    "fr": "En cas de conflit, la lutte contre le changement climatique doit passer avant la croissance économique.",
-   "en": "When they conflict, fighting climate change should come before economic growth."
+   "en": "When they conflict, fighting climate change should come before economic growth.",
+   "plain_fr": "La France vise la neutralité carbone en 2050 ; ses émissions ont nettement baissé depuis 1990, mais la baisse a ralenti en 2024-2025."
   },
   {
    "id": "ecol6",
    "area": "ecol",
    "axis": "econ",
    "key": -1,
-   "fr": "Garantir aux agriculteurs des prix minimaux (prix planchers) pour leurs produits.",
+   "fr": "Garantir aux agriculteurs des prix planchers, c'est-à-dire des prix minimaux pour leurs produits.",
    "en": "Guarantee farmers minimum floor prices for their produce.",
-   "new": true
+   "new": true,
+   "plain_fr": "Il n'existe pas de prix minimum légal garanti aux agriculteurs : les lois Egalim encadrent les négociations commerciales sans fixer de prix plancher, et le droit européen limite les prix fixés par l'État."
   },
   {
    "id": "ene1",
    "area": "ene",
    "axis": "none",
    "key": 0,
-   "fr": "Construire de nouveaux réacteurs nucléaires au-delà des six EPR2 déjà engagés, par exemple les huit réacteurs supplémentaires à l'étude.",
-   "en": "Build new nuclear reactors beyond the six EPR2 already planned."
+   "fr": "Construire de nouveaux réacteurs nucléaires en plus des six déjà prévus (EPR2), par exemple les huit supplémentaires à l'étude.",
+   "en": "Build new nuclear reactors beyond the six EPR2 already planned.",
+   "plain_fr": "Six réacteurs EPR2 sont prévus par paires à Penly, Gravelines et Bugey ; la programmation énergétique de février 2026 met huit réacteurs supplémentaires à l'étude, décision à venir."
   },
   {
    "id": "ene2",
@@ -525,15 +579,17 @@
    "axis": "none",
    "key": 0,
    "fr": "Sortir progressivement du nucléaire.",
-   "en": "Gradually phase out nuclear power."
+   "en": "Gradually phase out nuclear power.",
+   "plain_fr": "Les 57 réacteurs français produisent environ deux tiers de l'électricité du pays ; l'objectif de ramener le nucléaire à 50 % a été abandonné en 2023."
   },
   {
    "id": "ene3",
    "area": "ene",
    "axis": "none",
    "key": 0,
-   "fr": "Décréter un moratoire sur l'installation de nouvelles éoliennes, terrestres et en mer.",
-   "en": "Halt the development of new wind turbines."
+   "fr": "Suspendre l'installation de toute nouvelle éolienne, sur terre comme en mer (moratoire).",
+   "en": "Halt the development of new wind turbines.",
+   "plain_fr": "La France compte plusieurs milliers d'éoliennes terrestres et quelques parcs en mer ; la programmation énergétique de 2026 a revu à la baisse les objectifs d'éolien du projet précédent."
   },
   {
    "id": "ene4",
@@ -541,48 +597,54 @@
    "axis": "eu",
    "key": 1,
    "fr": "Sortir du marché européen de l'électricité pour fixer les prix au niveau national.",
-   "en": "Leave the European electricity market to set prices nationally."
+   "en": "Leave the European electricity market to set prices nationally.",
+   "plain_fr": "La France fait partie du marché européen interconnecté de l'électricité : les prix de gros s'y forment heure par heure entre pays reliés et pèsent sur les tarifs payés par les consommateurs."
   },
   {
    "id": "ene5",
    "area": "ene",
    "axis": "none",
    "key": 0,
-   "fr": "Baisser la TVA sur l'électricité, le gaz et les carburants à 5,5 %.",
+   "fr": "Baisser la TVA sur l'électricité, le gaz et les carburants à 5,5 %.",
    "en": "Cut VAT on electricity, gas and motor fuels to 5.5%.",
-   "new": true
+   "new": true,
+   "plain_fr": "Ces énergies sont soumises au taux normal de TVA de 20 % ; le droit européen permet un taux réduit sur l'électricité et le gaz, mais pas sur les carburants."
   },
   {
    "id": "ins1",
    "area": "ins",
    "axis": "none",
    "key": 0,
-   "fr": "Changer de constitution pour passer à une VIe République plus parlementaire.",
-   "en": "Adopt a new constitution for a more parliamentary Sixth Republic."
+   "fr": "Adopter une nouvelle Constitution donnant plus de pouvoir au Parlement, pour remplacer la Ve République actuelle par une VIe République.",
+   "en": "Adopt a new constitution for a more parliamentary Sixth Republic.",
+   "plain_fr": "La Ve République, en place depuis 1958, donne au président des pouvoirs étendus ; changer de Constitution exigerait de réviser l'actuelle ou de convoquer une assemblée constituante, procédure qu'elle ne prévoit pas."
   },
   {
    "id": "ins2",
    "area": "ins",
    "axis": "none",
    "key": 0,
-   "fr": "Élire les députés à la proportionnelle.",
-   "en": "Elect MPs by proportional representation."
+   "fr": "Élire les députés à la proportionnelle, c'est-à-dire répartir les sièges entre les partis selon leur part des voix.",
+   "en": "Elect MPs by proportional representation.",
+   "plain_fr": "Les députés sont élus au scrutin majoritaire à deux tours, un par circonscription ; sous la Ve République, la proportionnelle n'a été utilisée qu'une fois, en 1986."
   },
   {
    "id": "ins3",
    "area": "ins",
    "axis": "none",
    "key": 0,
-   "fr": "Créer un référendum d'initiative citoyenne (RIC).",
-   "en": "Create a citizens' initiative referendum (RIC)."
+   "fr": "Permettre aux citoyens de déclencher eux-mêmes un référendum en réunissant assez de signatures (référendum d'initiative citoyenne, RIC).",
+   "en": "Create a citizens' initiative referendum (RIC).",
+   "plain_fr": "Il n'existe pas de RIC ; le référendum d'initiative partagée créé en 2008 exige un cinquième des parlementaires et près de cinq millions de signatures, et n'a jamais abouti."
   },
   {
    "id": "ins4",
    "area": "ins",
    "axis": "none",
    "key": 0,
-   "fr": "Supprimer ou restreindre fortement l'usage de l'article 49.3.",
-   "en": "Abolish or strongly restrict use of Article 49.3."
+   "fr": "Supprimer ou limiter fortement l'article 49.3, qui permet au gouvernement de faire adopter une loi sans vote des députés.",
+   "en": "Abolish or strongly restrict use of Article 49.3.",
+   "plain_fr": "Le 49.3 permet d'adopter un texte sans vote, sauf adoption d'une motion de censure ; limité depuis 2008 hors budgets, il a servi en janvier 2026 pour faire passer le budget."
   },
   {
    "id": "ins5",
@@ -590,7 +652,8 @@
    "axis": "none",
    "key": 0,
    "fr": "Élargir le champ du référendum pour permettre de consulter directement les Français sur l'immigration ou la justice.",
-   "en": "Widen the scope of referendums to let voters decide directly on immigration or justice."
+   "en": "Widen the scope of referendums to let voters decide directly on immigration or justice.",
+   "plain_fr": "La Constitution limite le référendum à l'organisation des pouvoirs publics, aux réformes économiques, sociales et environnementales et aux traités ; l'immigration et la justice pénale n'y figurent pas."
   },
   {
    "id": "ins6",
@@ -599,16 +662,18 @@
    "key": 0,
    "fr": "Privatiser tout ou partie de l'audiovisuel public (France Télévisions, Radio France).",
    "en": "Privatise all or part of public broadcasting.",
-   "new": true
+   "new": true,
+   "plain_fr": "France Télévisions, Radio France et les autres médias publics sont financés par une part de la TVA, environ 4 milliards d'euros par an ; aucune privatisation n'est engagée."
   },
   {
    "id": "soc1",
    "area": "soc",
    "axis": "cult",
    "key": -1,
-   "fr": "Maintenir la loi de 2026 qui ouvre, sous conditions strictes, un droit à l'aide à mourir.",
+   "fr": "Maintenir la loi de 2026 qui autorise l'aide à mourir sous conditions strictes.",
    "en": "Allow assisted dying under strict conditions.",
-   "recode": true
+   "recode": true,
+   "plain_fr": "La loi créant un droit à l'aide à mourir pour les adultes atteints d'une maladie grave et incurable, en phase avancée ou terminale, a été promulguée le 18 août 2026."
   },
   {
    "id": "soc2",
@@ -616,16 +681,18 @@
    "axis": "cult",
    "key": 1,
    "fr": "Interdire le port du voile islamique dans l'ensemble de l'espace public.",
-   "en": "Ban the Islamic headscarf in all public spaces."
+   "en": "Ban the Islamic headscarf in all public spaces.",
+   "plain_fr": "Le voile intégral est interdit dans l'espace public depuis 2011 et les signes religieux ostensibles à l'école publique depuis 2004 ; le foulard reste autorisé dans la rue."
   },
   {
    "id": "soc3",
    "area": "soc",
    "axis": "cult",
    "key": 1,
-   "fr": "Interdire les signes religieux ostensibles aux parents qui accompagnent les sorties scolaires.",
+   "fr": "Interdire aux parents qui accompagnent les sorties scolaires de porter des signes religieux bien visibles (« ostensibles »).",
    "en": "Ban conspicuous religious symbols for parents accompanying school trips.",
-   "recode": true
+   "recode": true,
+   "plain_fr": "Aucune loi n'interdit les signes religieux aux parents accompagnateurs : le Conseil d'État a estimé en 2013 qu'ils ne sont pas tenus à la neutralité des agents publics."
   },
   {
    "id": "soc4",
@@ -633,24 +700,27 @@
    "axis": "cult",
    "key": -1,
    "fr": "Ne pas restreindre davantage par la loi l'expression religieuse des citoyens dans l'espace public.",
-   "en": "Secularism should guarantee state neutrality without further restricting citizens' religious expression."
+   "en": "Secularism should guarantee state neutrality without further restricting citizens' religious expression.",
+   "plain_fr": "La loi de 1905 sépare l'État des religions et garantit la liberté de conscience ; des lois de 2004, 2010 et 2021 ont ajouté des restrictions ciblées."
   },
   {
    "id": "soc5",
    "area": "soc",
    "axis": "cult",
    "key": -1,
-   "fr": "Autoriser la gestation pour autrui (GPA) non commerciale, dans un cadre strict.",
-   "en": "Allow regulated, non-commercial surrogacy."
+   "fr": "Autoriser, dans un cadre strict et sans rémunération, qu'une femme porte un enfant pour un couple ou une personne qui en deviendra parent (gestation pour autrui, GPA).",
+   "en": "Allow regulated, non-commercial surrogacy.",
+   "plain_fr": "La GPA est interdite en France depuis 1994 ; les enfants nés par GPA à l'étranger voient leur filiation reconnue sous conditions."
   },
   {
    "id": "soc6",
    "area": "soc",
    "axis": "cult",
    "key": 1,
-   "fr": "Interdire les signes religieux ostensibles à l'université.",
+   "fr": "Interdire le port de signes religieux bien visibles (« ostensibles ») à l'université.",
    "en": "Ban conspicuous religious symbols at university.",
-   "new": true
+   "new": true,
+   "plain_fr": "La loi de 2004 interdit les signes religieux ostensibles aux élèves des écoles, collèges et lycées publics, mais pas aux étudiants ; à l'université, seuls les personnels sont tenus à la neutralité."
   },
   {
    "id": "edu1",
@@ -658,7 +728,8 @@
    "axis": "cult",
    "key": 1,
    "fr": "Instaurer l'uniforme ou une tenue commune obligatoire à l'école.",
-   "en": "Make school uniforms mandatory."
+   "en": "Make school uniforms mandatory.",
+   "plain_fr": "Il n'y a pas d'uniforme obligatoire en France ; une tenue unique a été expérimentée dans une centaine d'établissements volontaires de 2024 à 2026."
   },
   {
    "id": "edu2",
@@ -666,23 +737,26 @@
    "axis": "econ",
    "key": -1,
    "fr": "Recruter beaucoup plus d'enseignants afin de réduire le nombre d'élèves par classe.",
-   "en": "Hire teachers on a large scale to reduce class sizes."
+   "en": "Hire teachers on a large scale to reduce class sizes.",
+   "plain_fr": "La France compte environ 850 000 enseignants ; ses classes de primaire sont un peu plus chargées que la moyenne des pays de l'OCDE, et le nombre d'élèves baisse."
   },
   {
    "id": "edu3",
    "area": "edu",
    "axis": "none",
    "key": 0,
-   "fr": "Rendre obligatoires au collège les groupes de niveau (« groupes de besoins ») en français et en mathématiques.",
-   "en": "Group lower-secondary pupils by ability level in some subjects."
+   "fr": "Rendre obligatoires au collège les groupes de besoins, c'est-à-dire le regroupement des élèves par niveau en français et en mathématiques.",
+   "en": "Group lower-secondary pupils by ability level in some subjects.",
+   "plain_fr": "Les groupes de niveau en français et en mathématiques, obligatoires en 6e et 5e depuis 2024, sont facultatifs depuis la rentrée 2026."
   },
   {
    "id": "edu4",
    "area": "edu",
    "axis": "econ",
    "key": -1,
-   "fr": "Réduire le financement public des écoles privées sous contrat qui ne respectent pas des objectifs de mixité sociale.",
-   "en": "Cut public funding for state-contracted private schools that miss social-mix targets."
+   "fr": "Réduire l'argent public versé aux écoles privées sous contrat avec l'État qui n'atteignent pas des objectifs de mixité sociale (accueil d'élèves de tous milieux).",
+   "en": "Cut public funding for state-contracted private schools that miss social-mix targets.",
+   "plain_fr": "Le privé sous contrat scolarise 17 % des élèves ; l'État paie ses enseignants et l'argent public (État et collectivités) couvre environ les trois quarts de ses coûts, sans condition de mixité sociale."
   },
   {
    "id": "edu5",
@@ -691,7 +765,8 @@
    "key": 0,
    "fr": "Mettre fin à toute sélection à l'entrée de l'université.",
    "en": "End all selection for university entry.",
-   "recode": true
+   "recode": true,
+   "plain_fr": "Depuis 2018 et Parcoursup, les universités fixent des capacités d'accueil et classent les candidats ; certaines licences très demandées refusent des bacheliers, et l'entrée en master est sélective."
   },
   {
    "id": "san1",
@@ -699,23 +774,26 @@
    "axis": "none",
    "key": 0,
    "fr": "Obliger les nouveaux médecins à s'installer pendant quelques années dans les zones qui en manquent.",
-   "en": "Require new doctors to practise for a few years in under-served areas."
+   "en": "Require new doctors to practise for a few years in under-served areas.",
+   "plain_fr": "Les médecins libéraux s'installent où ils veulent et près de six millions de personnes n'ont pas de médecin traitant ; une proposition de loi de régulation votée à l'Assemblée en 2025 reste en suspens."
   },
   {
    "id": "san2",
    "area": "san",
    "axis": "econ",
    "key": 1,
-   "fr": "Augmenter la part des soins laissée à la charge des patients (franchises et forfaits).",
-   "en": "Increase patient co-payments to control health spending."
+   "fr": "Augmenter la part du coût des soins que les patients paient eux-mêmes, via les franchises et forfaits (par exemple sur les médicaments et les consultations).",
+   "en": "Increase patient co-payments to control health spending.",
+   "plain_fr": "Les patients paient 1 euro par boîte de médicament et 2 euros par consultation, non remboursés, dans la limite de 70 euros par an pour chacun depuis octobre 2026."
   },
   {
    "id": "san3",
    "area": "san",
    "axis": "econ",
    "key": -1,
-   "fr": "Encadrer les loyers dans toutes les zones où le logement est rare.",
-   "en": "Cap rents in all areas with housing shortages."
+   "fr": "Encadrer les loyers, c'est-à-dire fixer un loyer maximum, dans toutes les zones où les logements manquent.",
+   "en": "Cap rents in all areas with housing shortages.",
+   "plain_fr": "Les loyers sont plafonnés à titre expérimental dans quelque 70 communes (Paris, Lyon, Lille, Montpellier, Bordeaux…) jusqu'en novembre 2026 ; une prolongation est en discussion au Parlement."
   },
   {
    "id": "san4",
@@ -723,16 +801,18 @@
    "axis": "econ",
    "key": 1,
    "fr": "Ouvrir davantage les services publics (transports, énergie) à la concurrence.",
-   "en": "Open public services (transport, energy) further to competition."
+   "en": "Open public services (transport, energy) further to competition.",
+   "plain_fr": "Le marché de l'énergie est ouvert à la concurrence depuis 2007 ; le train s'ouvre progressivement (TGV, certains TER) et beaucoup de services locaux sont déjà délégués à des entreprises."
   },
   {
    "id": "san5",
    "area": "san",
    "axis": "econ",
    "key": 1,
-   "fr": "Assouplir les normes de construction et l'objectif « zéro artificialisation nette » (ZAN) pour construire davantage de logements.",
+   "fr": "Assouplir les règles de construction et l'objectif « zéro artificialisation nette » (ZAN), qui limite la construction sur des terres naturelles ou agricoles, pour bâtir plus de logements.",
    "en": "Loosen building rules and the zero-net-land-take target to build more housing.",
-   "new": true
+   "new": true,
+   "plain_fr": "La loi de 2021 vise zéro artificialisation nette en 2050, avec une étape en 2031 ; les assouplissements votés en 2026 ont été annulés pour vice de procédure."
   }
  ]
 }

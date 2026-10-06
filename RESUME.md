@@ -10,7 +10,8 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
     python3 research/translate.py merge
     python3 research/make_profiles.py
     python3 build.py                      # -> dist/legere.html
-    python3 analysis/power.py 800         # -> analysis/power_real.json
+    python3 analysis/power.py 800         # -> analysis/power_real.json (accuracy by number of answers)
+    python3 analysis/stop_rules.py analysis/stop_rules.json   # when the checkpoint fires
     python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [persona=<cid>]
 
 ## Data
@@ -24,3 +25,6 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
 2. After the PS-Place publique primary (17-18 Oct 2026): drop the losing candidate(s).
 3. After the Cour de cassation ruling on Le Pen: update record and profile.
 4. Re-run the pipeline and republish to the same artifact URL.
+
+## Flow (2026-10-06)
+10 fixed statements (`CORE_N` in build.py), then adaptive picks. The result is offered from 20 answers when one candidate wins >= 70% of bootstrap draws (`STOP_P` in src/app.html), at the latest after 35 (`MAX_STOP`). Simulated median: 22 answers, 93% correct top-1 among clear cases.

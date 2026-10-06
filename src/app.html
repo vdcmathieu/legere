@@ -1,157 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>Legere 2027</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: one narrow column, like a ballot paper on a table; each question is one bulletin card. Party colours are never used: every candidate shares one neutral ink. */
+/* One narrow column, one question per screen. Party colours are never used: every candidate shares the same neutral ink. */
 :root {
-  --paper: #eef0ec;
-  --card: #fbfcfa;
-  --ink: #1b2124;
-  --muted: #5a6468;
-  --line: #d3d8d4;
-  --accent: #1d5c57;
-  --accent-ink: #f4faf8;
-  --accent-soft: #dbe8e4;
-  --warn: #8a5300;
-  --warn-soft: #f4e7d3;
+  --paper: #f4f3ef;
+  --card: #ffffff;
+  --ink: #1c2022;
+  --muted: #5a6366;
+  --line: #d8dbd5;
+  --soft: #e9ebe5;
+  --accent: #1e5e59;
+  --accent-ink: #ffffff;
+  --accent-soft: #dcebe7;
+  --warn: #7f4d00;
+  --warn-soft: #f6ead6;
   --serif: "Spectral", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-  --r: 6px;
+  --r: 12px;
+  --tap: 52px;
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #111514; --card: #191e1d; --ink: #e5eae7; --muted: #9aa6a2; --line: #2d3533;
-    --accent: #72c2b8; --accent-ink: #0d1a18; --accent-soft: #1c3330; --warn: #e2a85a; --warn-soft: #3a2c18;
+    --paper: #121615; --card: #1b201f; --ink: #e8ece9; --muted: #a4aeaa; --line: #303937; --soft: #222827;
+    --accent: #7fcac0; --accent-ink: #0d1a18; --accent-soft: #1f3532; --warn: #e5ad62; --warn-soft: #3a2d19;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #111514; --card: #191e1d; --ink: #e5eae7; --muted: #9aa6a2; --line: #2d3533;
-  --accent: #72c2b8; --accent-ink: #0d1a18; --accent-soft: #1c3330; --warn: #e2a85a; --warn-soft: #3a2c18;
+  --paper: #121615; --card: #1b201f; --ink: #e8ece9; --muted: #a4aeaa; --line: #303937; --soft: #222827;
+  --accent: #7fcac0; --accent-ink: #0d1a18; --accent-soft: #1f3532; --warn: #e5ad62; --warn-soft: #3a2d19;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); }
-.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 64px; }
-header.top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-bottom: 14px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
-.brand { font: 600 20px/1 var(--serif); letter-spacing: .01em; }
-.brand small { font: 500 11px/1 var(--mono); color: var(--muted); letter-spacing: .08em; margin-left: 8px; text-transform: uppercase; }
-nav.links { display: flex; gap: 14px; flex-wrap: wrap; }
-nav.links button { background: none; border: 0; padding: 0; color: var(--muted); font: 500 13px var(--sans); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line); }
-nav.links button:hover { color: var(--ink); }
-h1, h2, h3 { font-family: var(--serif); font-weight: 500; text-wrap: balance; margin: 0; }
-h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.12; }
-h2 { font-size: 24px; line-height: 1.2; }
-h3 { font-size: 18px; line-height: 1.3; }
-p { margin: 0; max-width: 65ch; }
-.stack { display: flex; flex-direction: column; gap: 16px; }
-.stack-s { display: flex; flex-direction: column; gap: 8px; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.5 var(--sans); min-height: 100dvh; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 600px; margin: 0 auto; padding: 0 16px 56px; }
+.wrap.wide { max-width: 760px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(28px, 7vw, 38px); }
+h2 { font-size: 24px; }
+h3 { font-size: 19px; }
+p { margin: 0; }
+a { color: var(--accent); }
+.stack { display: flex; flex-direction: column; gap: 18px; }
+.stack-s { display: flex; flex-direction: column; gap: 10px; }
 .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .muted { color: var(--muted); }
-.label { font: 500 11px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
-.btn { appearance: none; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); font: 500 14px var(--sans); padding: 10px 18px; border-radius: var(--r); cursor: pointer; }
-.btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
-.btn.ghost:hover { border-color: var(--ink); }
-.btn:disabled { opacity: .4; cursor: default; }
-.btn:focus-visible, button:focus-visible, textarea:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.small { font-size: 15px; }
+.label { font: 600 12.5px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
-/* bulletin card */
-.bulletin { background: var(--card); border: 1px solid var(--line); border-radius: 2px; padding: 22px 22px 20px; box-shadow: 0 1px 0 var(--line), 0 10px 30px -18px rgba(0,0,0,.25); display: flex; flex-direction: column; gap: 18px; }
-.bulletin .meta { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
-.statement { font: 400 clamp(21px, 4.4vw, 27px)/1.35 var(--serif); text-wrap: pretty; }
-.scale { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
-.scale button { border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: var(--r); padding: 10px 4px 8px; font: 500 12.5px/1.25 var(--sans); cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px; min-height: 64px; justify-content: flex-start; }
-.scale button .dot { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--muted); flex: none; box-sizing: border-box; }
-.scale button .slot { width: 18px; height: 18px; display: grid; place-items: center; flex: none; }
-.scale button[data-v="-2"] .dot, .scale button[data-v="2"] .dot { width: 18px; height: 18px; }
-.scale button:hover { border-color: var(--ink); }
-.scale button.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-.scale button.on .dot { background: var(--accent-ink); border-color: var(--accent-ink); }
-.under { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
-.chip { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 5px 12px; font: 500 12.5px var(--sans); cursor: pointer; }
+/* top bars */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; padding: 8px 0; }
+.brand { font: 600 21px/1 var(--serif); letter-spacing: .01em; background: none; border: 0; padding: 8px 0; cursor: pointer; color: var(--ink); }
+nav.links { display: flex; gap: 4px; }
+nav.links button { background: none; border: 0; padding: 10px 10px; min-height: 44px; color: var(--muted); font: 500 15px var(--sans); cursor: pointer; border-radius: 8px; }
+.qbar { display: flex; align-items: center; gap: 10px; min-height: 60px; padding: 8px 0; }
+.qbar .progress { flex: 1; }
+.icon-btn { width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--ink); flex: none; }
+.icon-btn:disabled { opacity: .3; cursor: default; background: none; }
+.icon-btn svg { width: 24px; height: 24px; }
+.progress { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.progress > i { display: block; height: 100%; background: var(--accent); border-radius: 3px; transition: width .35s ease; }
+.count { font: 500 14px var(--sans); color: var(--muted); min-width: 2.5ch; text-align: right; }
+
+/* buttons */
+.btn { appearance: none; border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper); font: 600 17px var(--sans); min-height: var(--tap); padding: 12px 22px; border-radius: var(--r); cursor: pointer; width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-align: center; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); font-weight: 500; }
+.btn.link { background: none; border: 0; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; min-height: 44px; width: auto; padding: 8px 4px; font-weight: 500; }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn.auto { width: auto; }
+
+/* answer options */
+.opts { display: flex; flex-direction: column; gap: 7px; }
+.opt { width: 100%; min-height: var(--tap); border: 1.5px solid var(--line); background: var(--card); color: var(--ink); border-radius: var(--r); padding: 12px 16px; font: 500 17px/1.3 var(--sans); cursor: pointer; display: flex; align-items: center; gap: 14px; text-align: left; transition: border-color .12s, background .12s; }
+.opt .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--muted); flex: none; display: grid; place-items: center; }
+.opt .dot::after { content: ""; width: 10px; height: 10px; border-radius: 50%; background: transparent; }
+.opt.on { border-color: var(--accent); background: var(--accent-soft); }
+.opt.on .dot { border-color: var(--accent); }
+.opt.on .dot::after { background: var(--accent); }
+.opt .sub { display: block; font-size: 14.5px; color: var(--muted); font-weight: 400; margin-top: 2px; }
+.opt .key { margin-left: auto; font: 500 12px var(--sans); color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; }
+.opt.lvl { flex: 1; justify-content: center; min-height: 44px; padding: 8px 6px; font-size: 15px; }
+.chip { border: 1.5px solid var(--line); background: var(--card); color: var(--muted); border-radius: 999px; padding: 10px 16px; min-height: 44px; font: 500 15px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
 .chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
-.chip:hover { color: var(--ink); }
-details.ctx { border-top: 1px dashed var(--line); padding-top: 12px; }
-details.ctx summary { cursor: pointer; color: var(--muted); font-size: 13px; }
-.ctx-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
-.ctx-grid > div { min-width: 0; font-size: 14px; }
-.ctx-today { grid-column: 1 / -1; }
-.progress { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; }
-.progress > i { display: block; height: 100%; background: var(--accent); transition: width .3s; }
-.nav-q { display: flex; justify-content: space-between; gap: 10px; }
-textarea { width: 100%; min-height: 120px; resize: vertical; font: 400 16px/1.5 var(--serif); padding: 12px; border: 1px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); }
-select { font: 14px var(--sans); padding: 8px; border: 1px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); max-width: 100%; }
-kbd { font: 11px var(--mono); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 3px; padding: 0 4px; color: var(--muted); }
+.under { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+/* statement */
+.q { display: flex; flex-direction: column; gap: 14px; animation: enter .22s ease-out; }
+@keyframes enter { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.statement { font: 400 clamp(22px, 5.6vw, 28px)/1.3 var(--serif); text-wrap: pretty; }
+.term { cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; text-decoration: underline dotted var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; border-radius: 3px; }
+.plain { background: var(--soft); border-radius: var(--r); padding: 11px 14px; display: flex; flex-direction: column; gap: 4px; font-size: 15.5px; line-height: 1.42; }
+.plain .label { font-size: 11.5px; }
+.plain .more { align-self: flex-start; background: none; border: 0; padding: 6px 0; color: var(--accent); font: 500 15px var(--sans); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; min-height: 36px; }
+.kbd-hint { font-size: 13.5px; color: var(--muted); text-align: center; }
+kbd { font: 12px var(--sans); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; color: var(--muted); }
+
+/* home */
+.hero { display: flex; flex-direction: column; gap: 18px; padding-top: 12px; }
+.facts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.facts li { display: flex; gap: 12px; align-items: flex-start; font-size: 16px; }
+.facts svg { width: 22px; height: 22px; flex: none; margin-top: 2px; color: var(--accent); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.card.soft { background: var(--soft); border-color: transparent; }
+.note { background: var(--warn-soft); border-radius: var(--r); padding: 12px 14px; font-size: 15px; }
+
+/* sheet (dialog) */
+dialog.sheet { border: 0; padding: 0; background: var(--card); color: var(--ink); border-radius: 18px 18px 0 0; width: 100%; max-width: 100%; margin: auto 0 0; max-height: 85vh; max-height: 85dvh; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
+dialog.sheet::backdrop { background: rgba(0,0,0,.45); }
+dialog.sheet .inner { padding: 12px 20px 28px; display: flex; flex-direction: column; gap: 14px; overflow: auto; max-height: 85dvh; }
+dialog.sheet .grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 4px; }
+dialog.sheet .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+dialog.sheet h2 { font-size: 22px; }
+dialog.sheet .block { display: flex; flex-direction: column; gap: 4px; font-size: 16px; line-height: 1.45; }
+@media (min-width: 640px) {
+  dialog.sheet { margin: auto; border-radius: 18px; max-width: 560px; }
+  dialog.sheet .grip { display: none; }
+}
 
 /* dilemmas */
-.dilemma { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.dilemma button { text-align: left; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: var(--r); padding: 16px; font: 400 17px/1.4 var(--serif); cursor: pointer; min-width: 0; }
-.dilemma button.on { border-color: var(--accent); background: var(--accent-soft); }
-.strength { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.dilemma { display: flex; flex-direction: column; gap: 10px; }
+.dilemma .opt { font: 400 18px/1.4 var(--serif); padding: 16px 18px; align-items: flex-start; }
+.dilemma .opt .dot { margin-top: 3px; }
+.strength { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.strength .opt { justify-content: center; text-align: center; padding: 10px 6px; font-size: 15px; }
 
-/* importance */
-.alloc { display: flex; flex-direction: column; gap: 6px; }
-.alloc-row { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 10px; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--line); }
-.alloc-row .bar { grid-column: 1 / -1; height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
-.alloc-row .bar i { display: block; height: 100%; background: var(--accent); }
-.stepper { display: flex; align-items: center; gap: 4px; }
-.stepper button { width: 32px; height: 32px; border-radius: var(--r); border: 1px solid var(--line); background: var(--card); color: var(--ink); font: 500 16px var(--mono); cursor: pointer; }
-.stepper output { width: 34px; text-align: center; font: 500 15px var(--mono); }
-.total { position: sticky; bottom: 0; background: var(--paper); padding: 12px 0; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+/* priorities */
+.prio { display: flex; flex-direction: column; gap: 12px; }
+.prio-row { display: flex; flex-direction: column; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.prio-row .lvls { display: flex; gap: 6px; }
 
 /* results */
-.res-row { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr) 56px; gap: 12px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); }
-.res-row .who { min-width: 0; }
-.res-row .who b { display: block; font: 500 15px/1.2 var(--sans); }
-.res-row .who span { font-size: 12px; color: var(--muted); }
-.res-row .pct { font: 500 16px var(--mono); text-align: right; }
-.ci { position: relative; height: 22px; }
-.ci .track { position: absolute; left: 0; right: 0; top: 10px; height: 2px; background: var(--line); }
-.ci .band { position: absolute; top: 5px; height: 12px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 2px; }
-.ci .pt { position: absolute; top: 3px; width: 2px; height: 16px; background: var(--accent); }
-.tie { border-left: 3px solid var(--warn); padding-left: 10px; }
-.note { background: var(--warn-soft); border-radius: var(--r); padding: 12px 14px; font-size: 14px; }
-.panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.lead { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 20px; display: flex; flex-direction: column; gap: 10px; }
+.lead .who { font: 500 clamp(26px, 6.4vw, 34px)/1.15 var(--serif); }
+.lead .party { color: var(--muted); font-size: 15.5px; }
+.ranking { display: flex; flex-direction: column; }
+.res-row { display: grid; grid-template-columns: 28px minmax(0, 1fr) 64px; grid-template-areas: "rank who pct" "rank ci ci"; gap: 4px 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.res-row .rank { grid-area: rank; font: 500 15px var(--sans); color: var(--muted); text-align: center; }
+.res-row .who { grid-area: who; min-width: 0; }
+.res-row .who b { display: block; font: 500 17px/1.25 var(--sans); }
+.res-row .who span { font-size: 13.5px; color: var(--muted); }
+.res-row .pct { grid-area: pct; font: 600 18px var(--sans); text-align: right; font-variant-numeric: tabular-nums; }
+.res-row .ci { grid-area: ci; position: relative; height: 16px; }
+.ci .track { position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--line); }
+.ci .band { position: absolute; top: 3px; height: 10px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 3px; }
+.ci .pt { position: absolute; top: 0; width: 3px; height: 16px; background: var(--accent); border-radius: 2px; }
+.res-row.tie .who b::after { content: " · ex æquo"; font-weight: 400; color: var(--warn); font-size: 13.5px; }
+.refine { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.refine button { text-align: left; display: flex; align-items: center; gap: 14px; background: var(--card); border: 1.5px solid var(--line); border-radius: var(--r); padding: 14px 16px; cursor: pointer; min-height: 64px; width: 100%; }
+.refine button b { display: block; font: 500 17px var(--sans); }
+.refine button span { font-size: 14px; color: var(--muted); }
+.refine .done { margin-left: auto; color: var(--accent); font-size: 14px; font-weight: 500; white-space: nowrap; }
+details.sec { border-top: 1px solid var(--line); }
+details.sec summary { cursor: pointer; padding: 16px 0; font: 500 18px var(--serif); list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+details.sec summary::-webkit-details-marker { display: none; }
+details.sec summary::after { content: "+"; font: 400 22px var(--sans); color: var(--muted); }
+details.sec[open] summary::after { content: "−"; }
+details.sec .body { padding-bottom: 18px; display: flex; flex-direction: column; gap: 12px; font-size: 15.5px; }
 .tablewrap { overflow-x: auto; }
-table { border-collapse: collapse; font-size: 13px; width: 100%; }
-th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font: 500 11px var(--mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
-td.num { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
-.heat { display: inline-block; min-width: 38px; text-align: center; border-radius: 3px; padding: 2px 4px; font: 500 12px var(--mono); }
-.pos { display: inline-block; min-width: 26px; text-align: center; font: 500 12px var(--mono); border: 1px solid var(--line); border-radius: 3px; padding: 1px 4px; }
-.src { font-size: 12.5px; color: var(--muted); }
-.src a { color: var(--accent); }
-.lean { font: 500 10.5px var(--mono); text-transform: uppercase; letter-spacing: .04em; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; color: var(--muted); white-space: nowrap; }
-svg text { fill: var(--muted); font: 11px var(--sans); }
+table { border-collapse: collapse; font-size: 14.5px; width: 100%; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+td.num { text-align: right; }
+.heat { display: inline-block; min-width: 42px; text-align: center; border-radius: 4px; padding: 2px 5px; font-weight: 500; }
+.pos { display: inline-block; min-width: 28px; text-align: center; font: 500 13px var(--sans); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+.src { font-size: 13.5px; color: var(--muted); }
+.lean { font: 500 11px var(--sans); text-transform: uppercase; letter-spacing: .04em; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; color: var(--muted); white-space: nowrap; }
+svg text { fill: var(--muted); font: 12px var(--sans); }
 svg .cand { fill: var(--ink); }
 svg .you { fill: var(--accent); }
-.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
-@media (max-width: 560px) {
-  .scale { grid-template-columns: 1fr; }
-  .scale button { flex-direction: row; min-height: 0; padding: 11px 12px; justify-content: flex-start; gap: 12px; text-align: left; }
-  .ctx-grid, .grid2, .dilemma { grid-template-columns: 1fr; }
-  .res-row { grid-template-columns: minmax(0,1fr) 52px; }
-  .res-row .ci { grid-column: 1 / -1; grid-row: 2; }
-  .bulletin { padding: 18px 16px; }
+textarea { width: 100%; min-height: 110px; resize: vertical; font: 400 17px/1.5 var(--sans); padding: 12px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); }
+select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); max-width: 100%; width: 100%; appearance: none; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M3 6l5 5 5-5' fill='none' stroke='%23777' stroke-width='2'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.method h2, .method h3 { margin-top: 18px; }
+.method p, .method li { font-size: 16px; }
+@media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } }
+@media (hover: none), (pointer: coarse) { .opt .key, .kbd-only { display: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+@media (hover: hover) {
+  nav.links button:hover { color: var(--ink); background: var(--soft); }
+  .icon-btn:hover { background: var(--soft); }
+  .btn.ghost:hover { border-color: var(--ink); }
+  .opt:hover { border-color: var(--ink); }
+  .chip:hover { color: var(--ink); }
+  .term:hover { background: var(--accent-soft); }
+  .refine button:hover { border-color: var(--ink); }
 }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 
-<div class="wrap">
-  <header class="top">
-    <div class="brand">Legere <small>Présidentielle 2027</small></div>
-    <nav class="links">
-      <button id="nav-home" type="button">Questionnaire</button>
-      <button id="nav-cands" type="button">Fiches candidats</button>
-      <button id="nav-method" type="button">Méthode</button>
-    </nav>
-  </header>
-  <main id="app"></main>
-</div>
+<div class="wrap" id="root"><main id="app"></main></div>
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+  <div class="inner">
+    <div class="grip" aria-hidden="true"></div>
+    <div class="head"><h2 id="sheet-title"></h2><button type="button" class="icon-btn" id="sheet-x" aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div id="sheet-body" class="stack-s"></div>
+  </div>
+</dialog>
 
 <script>
 const DATA = /*__DATA__*/null;
@@ -168,15 +225,18 @@ const CONF = { high: 1, medium: 0.8, low: 0.5, none: 0 };
 const PRIOR_K = 2;
 const KEY = "legere-2027-v1";
 const OPTS = Q.statement_response.options;
+const MIN_STOP = DATA.core.length + 10; /* the stop rule can fire from here */
+const STOP_P = 0.7; /* bootstrap share of first places; 0.9 sent two thirds of respondents to the cap for no accuracy gain (analysis/stop_rules.py) */
+const MAX_STOP = DATA.core.length + 25; /* past this, more answers barely change the ranking (analysis/power.py): offer the result anyway */
 
 let st = load() || fresh();
 function fresh() {
   return { screen: "home", seed: Math.floor(Math.random() * 1e9), open: {}, o1area: null,
-    ans: {}, imp: {}, hist: [], queue: null, retestShown: [], stopOffered: false,
-    dil: {}, dilOrder: null, points: null, lead: {}, expect: null, after: {}, view: null };
+    ans: {}, imp: {}, hist: [], queue: null, retestShown: [], stopOffered: false, refining: false, seenResults: false,
+    dil: {}, dilOrder: null, points: null, lvl: null, lead: {}, expect: null, after: {}, candSel: null };
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
-function load() { try { const s = localStorage.getItem(KEY); return s ? JSON.parse(s) : null; } catch (e) { return null; } }
+function load() { try { const s = localStorage.getItem(KEY); return s ? Object.assign(fresh(), JSON.parse(s)) : null; } catch (e) { return null; } }
 
 /* seeded RNG so a session's order is stable across reloads */
 function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -312,8 +372,8 @@ function nextAdaptive() {
 function nextStatement() {
   const a = asked();
   const n = Object.keys(st.ans).filter(id => SBY[id]).length;
-  /* insert an unannounced reversed retest every 5 answers once 18 are done */
-  if (n >= 18 && n % 5 === 0) {
+  /* reversed retests live in the optional refinement pass: one every 5 answers once 18 are done */
+  if (st.refining && n >= 18 && n % 5 === 0) {
     const r = RET.find(r => !a.has(r.id) && st.ans[r.reverses] != null && !st.retestShown.includes(n));
     if (r) { st.retestShown.push(n); return r.id; }
   }
@@ -328,10 +388,63 @@ function stability() {
   const top = bs.reduce((b, x, k) => x.pFirst > bs[b].pFirst ? k : b, 0);
   return { pTop: bs[top].pFirst, top };
 }
-function pendingRetests() { return RET.filter(r => st.ans[r.id] === undefined && st.ans[r.reverses] != null); }
+
+/* ------------------------------------------------------------------ glossary (neutral one-liners for terms inside statements; wording of the statements is untouched) */
+const GLOSS = [
+  ["ISF", "Impôt de solidarité sur la fortune", "Impôt annuel sur le patrimoine net (immobilier et financier) des foyers dont le patrimoine dépassait 1,3 million d'euros. Supprimé en 2018 et remplacé par l'IFI, qui ne porte que sur l'immobilier."],
+  ["impôts de production", "Impôts de production", "Impôts payés par les entreprises quel que soit leur bénéfice, calculés par exemple sur leur valeur ajoutée ou leurs locaux (CVAE, CFE, taxe foncière)."],
+  ["TVA sociale", "TVA sociale", "Hausse de la TVA dont le produit sert à baisser les cotisations sociales prélevées sur les salaires. Le financement de la protection sociale passe ainsi en partie du travail vers la consommation."],
+  ["capitalisation", "Retraite par capitalisation", "Les cotisations sont placées et investies, et c'est ce capital qui paie ensuite les pensions, dans un cadre individuel ou collectif. Le système actuel est la répartition : les cotisations des actifs paient directement les pensions des retraités."],
+  ["répartition", "Retraite par répartition", "Système actuel : les cotisations des personnes qui travaillent paient directement les pensions des retraités d'aujourd'hui."],
+  ["sous 3 % du PIB", "Règle des 3 %", "Règle européenne : le déficit annuel de l'État et des administrations ne doit pas dépasser 3 % de la richesse produite dans l'année (le PIB)."],
+  ["règle d'or", "Règle d'or", "Règle limitant le déficit ou la dette que l'État a le droit de faire, que la proposition veut inscrire dans la Constitution pour qu'elle s'impose à tous les gouvernements."],
+  ["SMIC", "SMIC", "Salaire minimum légal : 1 867 € brut par mois pour un temps plein depuis juin 2026, soit un peu moins de 1 500 € net. Il est revalorisé automatiquement au moins comme l'inflation."],
+  ["RSA", "RSA", "Revenu de solidarité active : allocation versée aux personnes sans ressources ou presque, au maximum 651,69 € par mois pour une personne seule sans aucune ressource (avril 2026), moins selon les autres revenus et le logement."],
+  ["regroupement familial", "Regroupement familial", "Procédure qui permet à un étranger en situation régulière de faire venir en France son époux ou son épouse et ses enfants mineurs, sous conditions."],
+  ["AME", "Aide médicale d'État", "Prise en charge des soins des étrangers en situation irrégulière disposant de faibles ressources et présents en France depuis plus de trois mois (sauf pour les mineurs)."],
+  ["métiers en tension", "Métiers en tension", "Métiers où les employeurs peinent à recruter (bâtiment, restauration, aide à domicile…), dont la liste est fixée par arrêté."],
+  ["peines planchers", "Peines planchers", "Peine minimale fixée par la loi pour certaines infractions. Elles ont existé en France de 2007 à 2014 : le juge ne pouvait alors descendre en dessous que par décision motivée."],
+  ["IGPN", "IGPN et IGGN", "Inspection générale de la police nationale et inspection générale de la gendarmerie nationale : les services internes qui enquêtent sur les fautes des policiers et des gendarmes."],
+  ["IGGN", "IGPN et IGGN", "Inspection générale de la police nationale et inspection générale de la gendarmerie nationale : les services internes qui enquêtent sur les fautes des policiers et des gendarmes."],
+  ["récépissé", "Récépissé de contrôle", "Document écrit remis à la personne contrôlée, indiquant la date, le lieu et le motif du contrôle d'identité."],
+  ["unanimité", "Règle de l'unanimité", "En politique étrangère, l'Union européenne ne peut décider, en principe, que si aucun des 27 États ne s'y oppose : chacun dispose d'un droit de veto."],
+  ["OTAN", "OTAN", "Organisation du traité de l'Atlantique Nord : alliance militaire de 32 pays d'Europe et d'Amérique du Nord. La France a quitté son commandement intégré en 1966 et l'a réintégré en 2009."],
+  ["accord d'association", "Accord d'association UE-Israël", "Traité en vigueur depuis 2000 qui organise le commerce et la coopération entre l'Union européenne et Israël."],
+  ["ZFE", "Zone à faibles émissions", "Périmètre urbain où la circulation des véhicules les plus polluants (selon leur vignette Crit'Air) est limitée ou interdite."],
+  ["acétamipride", "Acétamipride", "Insecticide de la famille des néonicotinoïdes, interdit en France depuis 2018 mais encore approuvé au niveau européen et utilisé dans d'autres pays de l'Union."],
+  ["prix planchers", "Prix planchers", "Prix minimum garanti en dessous duquel un produit agricole ne peut pas être acheté au producteur."],
+  ["EPR2", "EPR2", "Modèle de réacteur nucléaire de nouvelle génération conçu par EDF. Six exemplaires sont prévus, par paires, à Penly, Gravelines et Bugey."],
+  ["moratoire", "Moratoire", "Suspension temporaire, décidée par la loi ou le gouvernement, de nouvelles installations ou de nouveaux projets."],
+  ["marché européen de l'électricité", "Marché européen de l'électricité", "Marchés nationaux reliés entre eux, où le prix de gros de l'électricité se forme heure par heure selon l'offre et la demande, souvent aligné sur le coût de la dernière centrale appelée, fréquemment au gaz."],
+  ["VIe République", "VIe République", "Nouveau régime qui remplacerait la Ve République (fondée en 1958) par une nouvelle constitution, en général pour donner plus de pouvoir au Parlement et moins au Président."],
+  ["proportionnelle", "Scrutin proportionnel", "Les sièges de députés sont répartis entre les listes en proportion des voix obtenues, au lieu du scrutin actuel où un seul candidat gagne dans chaque circonscription."],
+  ["RIC", "Référendum d'initiative citoyenne", "Référendum déclenché par les citoyens eux-mêmes, après la collecte d'un nombre suffisant de signatures, sans passer par le Parlement ou le Président."],
+  ["49.3", "Article 49.3", "Article de la Constitution qui permet au gouvernement de faire adopter un texte sans vote des députés, sauf si une motion de censure est votée contre lui."],
+  ["audiovisuel public", "Audiovisuel public", "Organismes publics de télévision, de radio et d'archives financés par l'État : France Télévisions, Radio France, France Médias Monde, Arte France et l'INA."],
+  ["aide à mourir", "Aide à mourir", "Possibilité, pour une personne atteinte d'une maladie grave et incurable, de recevoir ou de s'administrer un produit létal, sous conditions strictes et après avis médical."],
+  ["GPA", "Gestation pour autrui", "Une femme porte un enfant pour un couple ou une personne qui en deviendra le parent. Elle est interdite en France aujourd'hui."],
+  ["groupes de besoins", "Groupes de niveau", "Organisation des cours de français et de mathématiques au collège en groupes constitués selon le niveau des élèves. Obligatoires en 6e et 5e de 2024 à 2026, ils sont facultatifs depuis la rentrée 2026."],
+  ["sous contrat", "École privée sous contrat", "École privée, le plus souvent catholique, dont les enseignants sont payés par l'État en échange du respect des programmes officiels."],
+  ["franchises et forfaits", "Franchises et forfaits", "Sommes laissées à la charge du patient et non remboursées par l'Assurance maladie, par exemple 1 € par boîte de médicament ou 2 € par consultation."],
+  ["ZAN", "Zéro artificialisation nette", "Objectif fixé par la loi Climat de 2021 : ne plus augmenter, d'ici 2050, la surface totale de terres naturelles ou agricoles transformées en zones bâties ou aménagées : toute nouvelle surface artificialisée devrait être compensée par une surface rendue à la nature."],
+  ["Encadrer les loyers", "Encadrement des loyers", "Plafond légal fixé par zone et par type de logement, au-dessus duquel un propriétaire ne peut pas louer, comme à Paris, Lyon ou Lille aujourd'hui."],
+  ["ostensibles", "Signes religieux ostensibles", "Signes ou tenues par lesquels une personne manifeste ostensiblement, c'est-à-dire de façon affichée et immédiatement visible, une appartenance religieuse (par exemple un voile, une kippa ou une grande croix). C'est le terme de la loi de 2004 sur l'école publique ; les signes discrets restent autorisés."]
+];
+const GLOSS_BY = Object.fromEntries(GLOSS.map(g => [g[0], g]));
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/* wrap known terms in a tappable button; the text itself is not modified */
+function termify(text) {
+  let h = esc(text);
+  for (const [k] of GLOSS) {
+    const re = new RegExp("(^|[^A-Za-zÀ-ÿ0-9])(" + escRe(esc(k)) + ")(?![A-Za-zÀ-ÿ0-9])");
+    h = h.replace(re, (m, pre, t) => `${pre}<span role="button" tabindex="0" class="term" data-t="${esc(k)}" aria-label="Définition : ${esc(t)}">${t}</span>`);
+  }
+  return h;
+}
 
 /* ------------------------------------------------------------------ rendering helpers */
 const $ = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const pct = x => Math.round(x * 100);
 function go(screen) { st.screen = screen; save(); render(); window.scrollTo(0, 0); }
@@ -339,165 +452,210 @@ function nStatementsAnswered() { return Object.keys(st.ans).filter(id => SBY[id]
 const POS_FR = { "-2": "Contre", "-1": "Plutôt contre", "0": "Partagé", "1": "Plutôt pour", "2": "Pour" };
 const TYPE_FR = { programme: "programme", statement: "déclaration", vote: "vote", record_in_office: "action en fonction", party_line: "ligne du parti", inferred: "déduit", none: "aucune" };
 const STATUS_FR = { convicted_final: "condamnation définitive", convicted_appeal_pending: "condamnation, recours en cours", indicted: "mise en examen", investigation: "enquête", acquitted: "relaxe ou acquittement", dismissed: "non-lieu ou classement", civil_or_other: "procédure civile ou autre" };
+const LEAN_FR = { "neutral-institutional": "institutionnel", "campaign-or-party": "source partisane", "think-tank": "think tank", "fact-check": "fact-check", centre: "centre", "centre-right": "centre droit", "centre-left": "centre gauche", right: "droite", left: "gauche", "far-right": "extrême droite", "far-left": "extrême gauche" };
 const CONF_FR = { high: "fiabilité élevée", medium: "fiabilité moyenne", low: "fiabilité faible", none: "—" };
 function fmtPos(p) { return p === null || p === undefined ? "?" : (p > 0 ? "+" + p : String(p)); }
+const ICON = {
+  back: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>`,
+  close: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>`,
+  check: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`,
+  clock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>`,
+  eye: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.5"/></svg>`,
+  lock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg>`,
+};
+function brandBar() {
+  return `<header class="top"><button type="button" class="brand" id="nav-home" aria-label="Legere, accueil">Legere</button>
+    <nav class="links" aria-label="Navigation"><button type="button" id="nav-cands">Candidats</button><button type="button" id="nav-method">Méthode</button></nav></header>`;
+}
+function quizBar(progress, count, backDisabled) {
+  return `<div class="qbar"><button type="button" class="icon-btn" id="back" aria-label="Question précédente" ${backDisabled ? "disabled" : ""}>${ICON.back}</button>
+    <div class="progress" role="progressbar" aria-label="Avancement" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(progress)}"><i style="width:${progress}%"></i></div>
+    ${count !== undefined ? `<span class="count num" aria-hidden="true">${count}</span>` : ""}
+    <button type="button" class="icon-btn" id="quit" aria-label="Quitter, vos réponses sont conservées">${ICON.close}</button></div>`;
+}
+function wireBrand() {
+  const h = $("#nav-home"); if (h) h.onclick = () => go("home");
+  const c = $("#nav-cands"); if (c) c.onclick = () => go("cands");
+  const m = $("#nav-method"); if (m) m.onclick = () => go("method");
+}
+function resumeScreen() {
+  if (st.seenResults) return "results";
+  if (st.stopOffered) return "ready";
+  return nStatementsAnswered() > 0 ? "statements" : "home";
+}
+/* bottom sheet */
+function openSheet(title, bodyHtml) {
+  $("#sheet-title").textContent = title; $("#sheet-body").innerHTML = bodyHtml;
+  const d = $("#sheet"); if (!d.open) d.showModal();
+}
+$("#sheet-x").onclick = () => $("#sheet").close();
+$("#sheet").onclick = e => { if (e.target === e.currentTarget) e.currentTarget.close(); };
+function wireTerms(root) {
+  (root || document).querySelectorAll(".term").forEach(b => {
+    /* an inline span, not a <button>: a button is inline-block and breaks lines badly around multi-word terms */
+    const open = () => { const g = GLOSS_BY[b.dataset.t]; if (g) openSheet(g[1], `<p>${esc(g[2])}</p>`); };
+    b.onclick = open;
+    b.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); e.stopPropagation(); open(); } };
+  });
+}
 
 /* ------------------------------------------------------------------ screens */
 const screens = {};
 
 screens.home = () => {
-  const started = nStatementsAnswered() > 0;
-  return `<div class="stack">
-    <span class="label">Questionnaire d'orientation · ${esc(DATA.meta.asof_fr)}</span>
-    <h1>Avec quelles idées êtes-vous d'accord, avant de savoir qui les porte&nbsp;?</h1>
-    <p>Des propositions concrètes (une trentaine suffisent souvent, 80 au plus), quelques arbitrages et vos priorités. Aucun candidat n'est nommé avant la fin. Le résultat donne votre proximité avec chaque candidat, avec sa marge d'incertitude.</p>
-    <div class="grid2">
-      <div class="panel"><span class="label">Durée</span><p>15 à 20 minutes. Le questionnaire s'arrête de lui-même quand votre résultat est stable, et vous pouvez continuer pour l'affiner.</p></div>
-      <div class="panel"><span class="label">Confidentialité</span><p>Vos réponses restent dans ce navigateur. Rien n'est envoyé ni enregistré ailleurs.</p></div>
-    </div>
-    <p class="muted">Positions des candidats établies à partir de leurs programmes, déclarations et votes, chacune avec ses sources, consultables dans les fiches. ${CANDS.length} candidats couverts. Données au ${esc(DATA.meta.asof_fr)}.</p>
-    <div class="row">
-      <button class="btn" id="start" type="button">${started ? "Reprendre" : "Commencer"}</button>
-      ${started ? `<button class="btn ghost" id="reset" type="button">Tout recommencer</button>` : ""}
-    </div>
-    <div id="reset-confirm" hidden class="note">Effacer toutes vos réponses ? <button class="btn ghost" id="reset-yes" type="button">Oui, effacer</button></div>
+  const n = nStatementsAnswered();
+  const started = n > 0;
+  return brandBar() + `<div class="hero">
+    <span class="label">Présidentielle 2027 · ${CANDS.length} candidats</span>
+    <h1>Avec quelles idées êtes-vous d'accord&nbsp;?</h1>
+    <p>Des propositions concrètes, une à la fois. Dites si vous êtes d'accord ou non. À la fin, vous découvrez de quels candidats vous êtes le plus proche, et pourquoi.</p>
+    <ul class="facts">
+      <li>${ICON.clock}<span>Une dizaine de minutes. Le questionnaire s'arrête de lui-même dès que votre résultat est stable.</span></li>
+      <li>${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
+      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Rien n'est envoyé.</span></li>
+    </ul>
+    ${started ? `<div class="card">
+      <span class="label">En cours</span>
+      <div class="progress" aria-hidden="true"><i style="width:${Math.min(100, n / MIN_STOP * 100)}%"></i></div>
+      <p>${st.seenResults ? "Votre résultat est disponible." : `Vous avez répondu à ${n} proposition${n > 1 ? "s" : ""}.`}</p>
+      <button class="btn primary" id="start" type="button">${st.seenResults ? "Voir mon résultat" : "Reprendre"}</button>
+      <button class="btn link" id="reset" type="button">Tout recommencer</button>
+      <div id="reset-confirm" hidden class="note">Effacer toutes vos réponses ? <button class="btn link" id="reset-yes" type="button">Oui, effacer</button></div>
+    </div>` : `<button class="btn primary" id="start" type="button">Commencer</button>`}
+    <p class="muted small">Positions des candidats établies à partir de leurs programmes, déclarations et votes, chacune avec ses sources. Données au ${esc(DATA.meta.asof_fr)}.</p>
   </div>`;
 };
 screens.home.wire = () => {
-  $("#start").onclick = () => { if (st.screen === "home") go(resumeScreen()); };
+  wireBrand();
+  $("#start").onclick = () => { if (!st.queue) initQueue(); go(resumeScreen() === "home" ? "statements" : resumeScreen()); };
   const r = $("#reset"); if (r) r.onclick = () => { $("#reset-confirm").hidden = false; };
   const y = $("#reset-yes"); if (y) y.onclick = () => { st = fresh(); save(); render(); };
 };
-function resumeScreen() {
-  if (st.view && st.view !== "home") return st.view;
-  return "open";
-}
 
-/* open questions before */
-screens.open = () => {
-  const o = Q.open_before;
-  return `<div class="stack">
-    <span class="label">Avant de commencer · 3 questions ouvertes</span>
-    <p class="muted">Écrivez librement. Ces réponses servent à votre réflexion et ne sont pas notées, sauf le thème choisi à la première question, qui vous sera rappelé au moment de pondérer vos priorités.</p>
-    ${o.map(q => `<div class="bulletin">
-      <label class="statement" for="t-${q.id}" style="font-size:20px">${esc(q.fr)}</label>
-      <textarea id="t-${q.id}">${esc(st.open[q.id] || "")}</textarea>
-      ${q.followup ? `<div class="row"><label for="o1area" class="muted">${esc(q.followup.fr)}</label>
-        <select id="o1area"><option value="">—</option>${AREAS.map(a => `<option value="${a.id}" ${st.o1area === a.id ? "selected" : ""}>${esc(a.fr)}</option>`).join("")}</select></div>` : ""}
-    </div>`).join("")}
-    <div class="nav-q"><button class="btn ghost" id="back" type="button">Retour</button><button class="btn" id="next" type="button">Passer aux propositions</button></div>
-  </div>`;
-};
-screens.open.wire = () => {
-  Q.open_before.forEach(q => { $("#t-" + q.id).oninput = e => { st.open[q.id] = e.target.value; save(); }; });
-  $("#o1area").onchange = e => { st.o1area = e.target.value || null; save(); };
-  $("#back").onclick = () => go("home");
-  $("#next").onclick = () => { if (!st.queue) initQueue(); go("statements"); };
-};
-
-/* statements */
+/* statements: one per screen */
 screens.statements = () => {
   if (!st.queue) initQueue();
   const id = st.current && !(st.current in st.ans) ? st.current : nextStatement();
   st.current = id; save();
   const nAns = nStatementsAnswered();
   const coreLeft = DATA.core.filter(c => !(c in st.ans) && gateImputations(st.ans)[c] === undefined).length;
-  if (!id) return finishStatementsScreen(true);
-  if (coreLeft === 0 && !st.stopOffered && nAns >= DATA.core.length + 6 && !RBY[id]) {
+  if (!id) { st.exhausted = true; st.screen = st.refining ? "results" : "ready"; st.stopOffered = true; save(); return ""; }
+  if (!st.refining && coreLeft === 0 && !st.stopOffered && nAns >= MIN_STOP && !RBY[id]) {
     const s = stability();
-    if (s.pTop >= 0.9 && !pendingRetests().length) { st.stopOffered = true; save(); return finishStatementsScreen(false, s); }
+    if (s.pTop >= STOP_P || nAns >= MAX_STOP) { st.stopOffered = true; st.stopP = s.pTop; st.screen = "ready"; save(); return ""; }
   }
   const s = SBY[id] || RBY[id];
   const isRet = !!RBY[id];
-  const area = isRet ? ABY[SBY[RBY[id].reverses].area] : ABY[s.area];
-  const ctx = !isRet && DATA.context[id];
+  const base = isRet ? RBY[id].reverses : id;
+  const area = ABY[SBY[base].area];
+  const ctx = DATA.context[base];
+  const plain = s.plain_fr || (ctx && ctx.today_fr);
   const v = st.ans[id];
-  const total = Math.max(DATA.core.length + 10, nAns + 1);
-  return `<div class="stack">
-    <div class="progress" aria-hidden="true"><i style="width:${Math.min(100, nAns / total * 100)}%"></i></div>
-    <article class="bulletin" aria-live="polite">
-      <div class="meta"><span class="label">${esc(area.fr)}</span><span class="label mono">${nAns + 1}${coreLeft ? ` · ${coreLeft} essentielles restantes` : " · affinage"}</span></div>
-      <p class="statement">${esc(s.fr)}</p>
-      <div class="scale" role="group" aria-label="Votre réponse">
-        ${OPTS.filter(o => o.v !== null).map((o, i) => `<button type="button" data-v="${o.v}" class="${v === o.v ? "on" : ""}" aria-pressed="${v === o.v}"><span class="slot"><span class="dot"></span></span>${esc(o.fr)}</button>`).join("")}
-      </div>
-      <div class="under">
-        <button type="button" class="chip ${v === null ? "on" : ""}" id="na">Sans avis</button>
-        ${isRet ? "" : `<button type="button" class="chip ${st.imp[id] ? "on" : ""}" id="impt" aria-pressed="${!!st.imp[id]}">${esc(Q.statement_response.important_toggle.fr)}</button>`}
-      </div>
-      ${ctx ? `<details class="ctx"><summary>En savoir plus sur cette proposition</summary>
-        <div class="ctx-grid"><div class="ctx-today"><span class="label">Aujourd'hui</span><p>${esc(ctx.today_fr)}</p></div>
-        <div><span class="label">Argument pour</span><p>${esc(ctx.pour_fr)}</p></div><div><span class="label">Argument contre</span><p>${esc(ctx.contre_fr)}</p></div></div></details>` : ""}
-    </article>
-    <div class="nav-q"><button class="btn ghost" id="back" type="button" ${st.hist.length ? "" : "disabled"}>Précédente</button>
-      <span class="muted" style="font-size:12.5px">Clavier : <kbd>1</kbd>–<kbd>5</kbd>, <kbd>0</kbd> sans avis</span></div>
+  let progress, count;
+  if (st.refining) { progress = Math.min(100, nAns / S.length * 100); count = nAns; }
+  else { progress = nAns >= MIN_STOP ? 94 : nAns / MIN_STOP * 90; count = nAns + 1; }
+  return quizBar(progress, count, !st.hist.length) + `<div class="q" aria-live="polite">
+    <span class="label">${esc(area.fr)}</span>
+    <h1 class="statement">${termify(s.fr)}</h1>
+    ${plain ? `<div class="plain"><span class="label">De quoi parle-t-on ?</span><p>${esc(plain)}</p>${ctx ? `<button type="button" class="more" id="more">Arguments pour et contre</button>` : ""}</div>` : ""}
+    <div class="opts" role="group" aria-label="Votre réponse">
+      ${OPTS.filter(o => o.v !== null).map((o, i) => `<button type="button" class="opt ${v === o.v ? "on" : ""}" data-v="${o.v}" aria-pressed="${v === o.v}"><span class="dot" aria-hidden="true"></span>${esc(o.fr)}<span class="key" aria-hidden="true">${i + 1}</span></button>`).join("")}
+    </div>
+    <div class="under">
+      <button type="button" class="chip ${v === null ? "on" : ""}" id="na">Sans avis</button>
+      ${isRet ? "" : `<button type="button" class="chip ${st.imp[id] ? "on" : ""}" id="impt" aria-pressed="${!!st.imp[id]}">${st.imp[id] ? ICON.check : ""}Important pour moi</button>`}
+    </div>
+    ${st.refining ? `<button type="button" class="btn ghost" id="to-results">Voir mon résultat</button>` : ""}
+    <p class="kbd-hint">« Sans avis » ne compte pas dans le résultat.<span class="kbd-only"> Au clavier : <kbd>1</kbd> à <kbd>5</kbd>, <kbd>0</kbd> sans avis.</span></p>
   </div>`;
 };
 screens.statements.wire = () => {
-  const id = st.current; if (!id || !$(".scale")) return bindFinish();
+  const id = st.current; if (!id) return;
   const answer = v => {
     st.ans[id] = v; st.hist.push(id); st.current = null;
     if (SBY[id]) applyGates(id, v);
-    save(); render();
+    save(); render(); window.scrollTo(0, 0);
   };
-  document.querySelectorAll(".scale button").forEach(b => b.onclick = () => answer(+b.dataset.v));
+  $$(".opt[data-v]").forEach(b => b.onclick = () => answer(+b.dataset.v));
   $("#na").onclick = () => answer(null);
-  const im = $("#impt"); if (im) im.onclick = () => { st.imp[id] = !st.imp[id]; save(); im.classList.toggle("on", st.imp[id]); im.setAttribute("aria-pressed", st.imp[id]); };
-  $("#back").onclick = () => { const prev = st.hist.pop(); if (!prev) return; delete st.ans[prev]; st.current = prev; save(); render(); };
+  const im = $("#impt"); if (im) im.onclick = () => { st.imp[id] = !st.imp[id]; save(); im.classList.toggle("on", st.imp[id]); im.setAttribute("aria-pressed", st.imp[id]); im.innerHTML = (st.imp[id] ? ICON.check : "") + "Important pour moi"; };
+  $("#back").onclick = goBack;
+  $("#quit").onclick = () => go(st.refining ? "results" : "home");
+  const tr = $("#to-results"); if (tr) tr.onclick = () => go("results");
+  const more = $("#more"); if (more) more.onclick = () => {
+    const base = RBY[id] ? RBY[id].reverses : id, ctx = DATA.context[base];
+    openSheet("Pour et contre", `<div class="block"><span class="label">Aujourd'hui</span><p>${esc(ctx.today_fr)}</p></div>
+      <div class="block"><span class="label">Argument pour</span><p>${esc(ctx.pour_fr)}</p></div>
+      <div class="block"><span class="label">Argument contre</span><p>${esc(ctx.contre_fr)}</p></div>
+      <p class="muted small">Un argument de chaque côté, formulé de façon neutre. À vous de juger.</p>`);
+  };
+  wireTerms();
   document.onkeydown = e => {
-    if (st.screen !== "statements" || e.target.closest("textarea,input,select")) return;
+    if (st.screen !== "statements" || $("#sheet").open || e.target.closest("textarea,input,select")) return;
     const m = { "1": -2, "2": -1, "3": 0, "4": 1, "5": 2, "0": null };
     if (e.key in m) { e.preventDefault(); answer(m[e.key]); }
+    else if (e.key === "Backspace" || e.key === "ArrowLeft") { e.preventDefault(); goBack(); }
   };
 };
-function finishStatementsScreen(exhausted, s) {
-  const rem = remainingStatements().length;
-  return `<div class="stack">
-    <span class="label">Propositions · ${nStatementsAnswered()} réponses</span>
-    <h2>${exhausted ? "Vous avez répondu à toutes les propositions." : "Votre résultat est déjà stable."}</h2>
-    ${exhausted ? "" : `<p>Sur 300 rééchantillonnages de vos réponses, le même candidat arrive en tête dans ${pct(s.pTop)}&nbsp;% des cas. Vous pouvez continuer pour affiner le reste du classement (${rem} propositions restantes) ou passer à la suite.</p>`}
-    <div class="row">
-      ${exhausted ? "" : `<button class="btn ghost" id="more" type="button">Continuer à répondre</button>`}
-      <button class="btn" id="on" type="button">Passer aux arbitrages</button>
-    </div>
-  </div>`;
-}
-function bindFinish() {
-  const m = $("#more"); if (m) m.onclick = () => { st.stopOffered = true; st.forceAll = true; save(); render(); };
-  const o = $("#on"); if (o) o.onclick = () => go("dilemmas");
+function goBack() {
+  const prev = st.hist.pop();
+  if (!prev) { go("home"); return; }
+  delete st.ans[prev]; st.current = prev; save(); render(); window.scrollTo(0, 0);
 }
 
-/* dilemmas */
+/* checkpoint: the result is ready */
+screens.ready = () => {
+  const n = nStatementsAnswered();
+  const rem = remainingStatements().length;
+  const p = st.stopP;
+  return `<div class="qbar"><span class="label">Propositions · ${n} réponses</span></div><div class="stack" style="padding-top:8px">
+    <h1>${st.exhausted ? "Vous avez tout vu." : "Votre résultat est prêt."}</h1>
+    <p>${st.exhausted ? "Vous avez répondu à toutes les propositions disponibles." : p >= STOP_P
+      ? `Avec vos ${n} réponses, le même candidat arrive en tête dans ${pct(p)}&nbsp;% des simulations${rem ? ` : c'est assez net pour le voir. Vous pourrez ensuite répondre à d'autres propositions pour affiner le classement` : ""}.`
+      : `Avec vos ${n} réponses, plusieurs candidats restent proches de vous à égalité ou presque. D'autres propositions changeraient peu ce constat : le résultat vous montre ces candidats côte à côte.`}</p>
+    <div class="card soft">
+      <label for="expect"><b>Une question facultative avant de le voir.</b><br><span class="small">${esc(Q.expectation.fr)} Cela sert uniquement à comparer votre intention de départ avec le résultat.</span></label>
+      <select id="expect"><option value="">Je préfère ne pas répondre</option>${[...CANDS.map(c => [c.id, `${c.name} (${c.party})`]), ["undecided", "Je ne savais pas encore"], ["blank", "Vote blanc ou abstention"]].map(([v, t]) => `<option value="${v}" ${st.expect === v ? "selected" : ""}>${esc(t)}</option>`).join("")}</select>
+    </div>
+    <button class="btn primary" id="on" type="button">Voir mon résultat</button>
+    ${rem ? `<button class="btn ghost" id="more" type="button">Répondre à d'autres propositions d'abord</button>` : ""}
+  </div>`;
+};
+screens.ready.wire = () => {
+  $("#expect").onchange = e => { st.expect = e.target.value || null; save(); };
+  $("#on").onclick = () => go("results");
+  const m = $("#more"); if (m) m.onclick = () => { st.refining = true; save(); go("statements"); };
+};
+
+/* dilemmas: one per screen, two taps */
 screens.dilemmas = () => {
   const items = Q.dilemmas.items;
   if (!st.dilOrder) { const r = rng(st.seed + 7); st.dilOrder = items.map(() => r() < 0.5); save(); }
   const idx = items.findIndex(d => st.dil[d.id] === undefined || st.dil[d.id].strength === undefined);
-  if (idx < 0) { return `<div class="stack"><h2>Arbitrages terminés.</h2><div class="row"><button class="btn" id="on" type="button">Pondérer vos priorités</button></div></div>`; }
+  if (idx < 0) { st.screen = "results"; save(); return ""; }
   const d = items[idx], flip = st.dilOrder[idx], cur = st.dil[d.id] || {};
   const sides = flip ? [["b", d.b], ["a", d.a]] : [["a", d.a], ["b", d.b]];
-  return `<div class="stack">
-    <div class="progress"><i style="width:${idx / items.length * 100}%"></i></div>
+  return quizBar(idx / items.length * 100, `${idx + 1}/${items.length}`, false) + `<div class="q">
     <span class="label">Arbitrage ${idx + 1} sur ${items.length}</span>
-    <h2>Si vous deviez choisir, vous privilégieriez…</h2>
-    <div class="dilemma">${sides.map(([k, t]) => `<button type="button" data-k="${k}" class="${cur.side === k ? "on" : ""}">${esc(t)}</button>`).join("")}</div>
-    ${cur.side ? `<div class="stack-s"><span class="label">Avec quelle netteté ?</span><div class="strength">
-      ${["Légèrement", "Nettement", "Très nettement"].map((t, i) => `<button type="button" class="chip" data-s="${i + 1}">${t}</button>`).join("")}</div></div>` : ""}
-    <div class="nav-q"><button class="btn ghost" id="back" type="button">Précédent</button></div>
+    <h1 style="font-size:24px">Si vous deviez choisir, vous privilégieriez…</h1>
+    <div class="dilemma" role="group" aria-label="Votre choix">${sides.map(([k, t]) => `<button type="button" class="opt ${cur.side === k ? "on" : ""}" data-k="${k}" aria-pressed="${cur.side === k}"><span class="dot" aria-hidden="true"></span><span>${esc(t)}</span></button>`).join("")}</div>
+    ${cur.side ? `<div class="stack-s"><span class="label">Avec quelle netteté ?</span><div class="strength" role="group" aria-label="Netteté">
+      ${["Légèrement", "Nettement", "Très nettement"].map((t, i) => `<button type="button" class="opt" data-s="${i + 1}">${t}</button>`).join("")}</div></div>` : `<p class="muted small">Il n'y a pas de bonne réponse : ces choix servent à vérifier la cohérence de vos réponses.</p>`}
   </div>`;
 };
 screens.dilemmas.wire = () => {
-  const o = $("#on"); if (o) { o.onclick = () => go("importance"); return; }
   const items = Q.dilemmas.items;
   const idx = items.findIndex(d => st.dil[d.id] === undefined || st.dil[d.id].strength === undefined);
   const d = items[idx];
-  document.querySelectorAll(".dilemma button").forEach(b => b.onclick = () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); });
-  document.querySelectorAll("[data-s]").forEach(b => b.onclick = () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); });
+  $$("[data-k]").forEach(b => b.onclick = () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); });
+  $$("[data-s]").forEach(b => b.onclick = () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); window.scrollTo(0, 0); });
   $("#back").onclick = () => {
-    if (st.dil[d.id]) { delete st.dil[d.id]; }
-    else if (idx > 0) { delete st.dil[items[idx - 1].id]; }
-    else { go("statements"); return; }
+    if (st.dil[d.id]) delete st.dil[d.id];
+    else if (idx > 0) delete st.dil[items[idx - 1].id];
+    else { go("results"); return; }
     save(); render();
   };
+  $("#quit").onclick = () => go("results");
 };
 function dilemmaAxes() {
   const acc = { econ: [], cult: [], eu: [] };
@@ -508,90 +666,100 @@ function dilemmaAxes() {
   }
   return Object.fromEntries(Object.entries(acc).map(([k, v]) => [k, v.length ? v.reduce((a, b) => a + b, 0) / v.length : null]));
 }
+function dilemmasDone() { return Q.dilemmas.items.every(d => st.dil[d.id] && st.dil[d.id].strength); }
 
-/* importance */
+/* priorities: three levels per theme, converted to the 100-point split the scoring expects */
+const LVL_W = [0.5, 1, 2], LVL_FR = ["Moins", "Normal", "Plus"];
+function syncPoints() {
+  if (!st.lvl) { st.points = null; return; }
+  const w = AREAS.map(a => LVL_W[st.lvl[a.id] ?? 1]), tot = w.reduce((x, y) => x + y, 0);
+  st.points = Object.fromEntries(AREAS.map((a, i) => [a.id, w[i] / tot * 100]));
+}
 screens.importance = () => {
-  if (!st.points) { st.points = Object.fromEntries(AREAS.map(a => [a.id, 0])); }
-  const tot = Object.values(st.points).reduce((a, b) => a + b, 0);
-  return `<div class="stack">
-    <span class="label">Vos priorités</span>
-    <h2>Répartissez 100 points entre les thèmes.</h2>
-    <p class="muted">Plus un thème reçoit de points, plus il pèse dans le calcul. Un thème à 0 ne compte pas.${st.o1area ? ` Au début, vous avez cité comme problème principal un sujet lié à « ${esc(ABY[st.o1area].fr)} ».` : ""}</p>
-    <div class="alloc">${AREAS.map(a => { const v = st.points[a.id] || 0; return `<div class="alloc-row">
-      <span>${esc(a.fr)}</span>
-      <div class="stepper"><button type="button" data-a="${a.id}" data-d="-5" aria-label="Retirer 5 points à ${esc(a.fr)}">−</button><output>${v}</output><button type="button" data-a="${a.id}" data-d="5" aria-label="Ajouter 5 points à ${esc(a.fr)}">+</button></div>
-      <div class="bar"><i style="width:${v}%"></i></div></div>`; }).join("")}</div>
-    <div class="total"><span class="mono">${tot} / 100 points</span>
-      <div class="row"><button class="btn ghost" id="equal" type="button">Répartir également</button>
-      <button class="btn" id="on" type="button" ${tot === 100 ? "" : "disabled"}>Continuer</button></div></div>
+  if (!st.lvl) { st.lvl = Object.fromEntries(AREAS.map(a => [a.id, 1])); syncPoints(); save(); }
+  return `<div class="qbar"><button type="button" class="icon-btn" id="back" aria-label="Retour au résultat">${ICON.back}</button><span class="label">Vos priorités</span></div><div class="stack">
+    <h1 style="font-size:26px">Quels thèmes pèsent le plus dans votre vote&nbsp;?</h1>
+    <p class="muted">« Plus » compte double, « Moins » compte moitié. Laissez « Normal » pour les thèmes qui ne vous préoccupent ni plus ni moins que les autres.${st.o1area ? ` Vous aviez cité un problème lié à « ${esc(ABY[st.o1area].fr)} ».` : ""}</p>
+    <div class="prio">${AREAS.map(a => `<div class="prio-row"><span>${esc(a.fr)}</span>
+      <div class="lvls" role="group" aria-label="${esc(a.fr)}">${LVL_FR.map((t, i) => `<button type="button" class="opt lvl ${st.lvl[a.id] === i ? "on" : ""}" data-a="${a.id}" data-l="${i}" aria-pressed="${st.lvl[a.id] === i}">${t}</button>`).join("")}</div></div>`).join("")}</div>
+    <button class="btn primary" id="on" type="button">Enregistrer et voir le résultat</button>
   </div>`;
 };
 screens.importance.wire = () => {
-  document.querySelectorAll("[data-a]").forEach(b => b.onclick = () => {
-    const a = b.dataset.a, d = +b.dataset.d, tot = Object.values(st.points).reduce((x, y) => x + y, 0);
-    const nv = Math.max(0, st.points[a] + d);
-    if (d > 0 && tot + d > 100) return;
-    st.points[a] = nv; save(); render();
+  $$("[data-a]").forEach(b => b.onclick = () => {
+    st.lvl[b.dataset.a] = +b.dataset.l; syncPoints(); save();
+    const row = b.parentElement; row.querySelectorAll("button").forEach(x => { const on = x === b; x.classList.toggle("on", on); x.setAttribute("aria-pressed", on); });
   });
-  $("#equal").onclick = () => { const base = Math.floor(100 / AREAS.length); let rest = 100 - base * AREAS.length; AREAS.forEach(a => { st.points[a.id] = base + (rest-- > 0 ? 1 : 0); }); save(); render(); };
-  $("#on").onclick = () => go("leadership");
+  $("#back").onclick = () => go("results");
+  $("#on").onclick = () => go("results");
 };
 
-/* leadership */
-screens.leadership = () => {
+/* leadership: one item per screen */
+function leadItems() {
   const L = Q.leadership.items;
+  const legalOff = Array.isArray(st.lead.g2) && st.lead.g2.includes("none");
+  return L.filter(it => !(legalOff && (it.id === "g2w" || it.id === "g2b")));
+}
+/* a multi-select item stays pending until its continue button is pressed */
+function leadAnswered(it) { const v = st.lead[it.id]; return v !== undefined && !(Array.isArray(v) && !v.length) && st.leadMultiOpen !== it.id; }
+function leadDone() { return leadItems().every(leadAnswered); }
+screens.leadership = () => {
+  const items = leadItems();
+  const idx = items.findIndex(it => !leadAnswered(it));
+  if (idx < 0) { st.screen = "results"; save(); return ""; }
+  const it = items[idx], v = st.lead[it.id];
   const imp = ["Aucune", "Faible", "Moyenne", "Forte", "Décisive"];
   const lik = OPTS.filter(o => o.v !== null);
-  const ctl = it => {
-    const v = st.lead[it.id];
-    if (it.type === "scale5") return `<div class="scale">${imp.map((t, i) => `<button type="button" data-l="${it.id}" data-v="${i}" class="${v === i ? "on" : ""}"><span class="slot"><span class="dot"></span></span>${t}</button>`).join("")}</div>`;
-    if (it.type === "likert5") return `<div class="scale">${lik.map(o => `<button type="button" data-l="${it.id}" data-v="${o.v}" class="${v === o.v ? "on" : ""}"><span class="slot"><span class="dot"></span></span>${esc(o.fr)}</button>`).join("")}</div>`;
-    if (it.type === "bipolar5") return `<div class="stack-s"><div class="row" style="justify-content:space-between"><span class="muted" style="max-width:45%">${esc(it.left)}</span><span class="muted" style="max-width:45%;text-align:right">${esc(it.right)}</span></div>
-      <div class="scale">${[-2, -1, 0, 1, 2].map(x => `<button type="button" data-l="${it.id}" data-v="${x}" class="${v === x ? "on" : ""}" aria-label="${x}"><span class="slot"><span class="dot"></span></span></button>`).join("")}</div></div>`;
-    if (it.type === "multi") {
-      const sel = Array.isArray(v) ? v : [];
-      return `<div class="stack-s">${[...it.options, it.none_option].map(o => `<button type="button" class="chip ${sel.includes(o.v) ? "on" : ""}" style="text-align:left;border-radius:var(--r)" aria-pressed="${sel.includes(o.v)}" data-m="${it.id}" data-s="${o.v}">${esc(o.fr)}</button>`).join("")}</div>`;
-    }
-    return `<div class="stack-s">${it.options.map(o => `<button type="button" class="chip ${v === o.v ? "on" : ""}" style="text-align:left;border-radius:var(--r)" data-l="${it.id}" data-s="${o.v}">${esc(o.fr)}</button>`).join("")}</div>`;
-  };
-  /* the weight and appeal questions only matter when some offence category counts */
-  const legalOff = Array.isArray(st.lead.g2) && st.lead.g2.includes("none");
-  const shown = L.filter(it => !(legalOff && (it.id === "g2w" || it.id === "g2b")));
-  const done = shown.every(it => st.lead[it.id] !== undefined && !(Array.isArray(st.lead[it.id]) && !st.lead[it.id].length));
-  return `<div class="stack">
+  const opt = (attrs, on, label) => `<button type="button" class="opt ${on ? "on" : ""}" ${attrs} aria-pressed="${on}"><span class="dot" aria-hidden="true"></span><span>${label}</span></button>`;
+  let ctl = "";
+  if (it.type === "scale5") ctl = imp.map((t, i) => opt(`data-l="${it.id}" data-v="${i}"`, v === i, t)).join("");
+  else if (it.type === "likert5") ctl = lik.map(o => opt(`data-l="${it.id}" data-v="${o.v}"`, v === o.v, esc(o.fr))).join("");
+  else if (it.type === "bipolar5") ctl = [[-2, "Tout à fait : " + it.left], [-1, "Plutôt : " + it.left], [0, "Entre les deux"], [1, "Plutôt : " + it.right], [2, "Tout à fait : " + it.right]].map(([x, t]) => opt(`data-l="${it.id}" data-v="${x}"`, v === x, esc(t))).join("");
+  else if (it.type === "multi") { const sel = Array.isArray(v) ? v : []; ctl = [...it.options, it.none_option].map(o => opt(`data-m="${it.id}" data-s="${o.v}"`, sel.includes(o.v), esc(o.fr))).join(""); }
+  else ctl = it.options.map(o => opt(`data-l="${it.id}" data-s="${o.v}"`, v === o.v, esc(o.fr))).join("");
+  return quizBar(idx / items.length * 100, `${idx + 1}/${items.length}`, false) + `<div class="q">
     <span class="label">Le profil que vous attendez</span>
-    <h2>Au-delà des idées : expérience, probité, constance, style.</h2>
-    <p class="muted">Ces réponses produisent un second score, présenté à côté de la proximité d'idées et jamais mélangé sans votre accord.</p>
-    ${shown.map(it => `<div class="bulletin"><p class="statement" style="font-size:19px">${esc(it.fr)}</p>${ctl(it)}</div>`).join("")}
-    <div class="nav-q"><button class="btn ghost" id="back" type="button">Retour</button><button class="btn" id="on" type="button" ${done ? "" : "disabled"}>Continuer</button></div>
+    <h1 style="font-size:24px">${esc(it.fr)}</h1>
+    ${it.type === "multi" ? `<p class="muted small">Plusieurs réponses possibles.</p>` : ""}
+    <div class="opts" role="group" aria-label="Votre réponse">${ctl}</div>
+    ${it.type === "multi" ? `<button class="btn primary" id="on" type="button" ${Array.isArray(v) && v.length ? "" : "disabled"}>Continuer</button>` : ""}
   </div>`;
 };
 screens.leadership.wire = () => {
-  const rerender = () => { save(); const y = window.scrollY; render(); window.scrollTo(0, y); };
-  document.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; rerender(); });
-  document.querySelectorAll("[data-m]").forEach(b => b.onclick = () => {
+  const items = leadItems();
+  const idx = items.findIndex(it => !leadAnswered(it));
+  $$("[data-l]").forEach(b => b.onclick = () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; save(); render(); window.scrollTo(0, 0); });
+  $$("[data-m]").forEach(b => b.onclick = () => {
     const id = b.dataset.m, v = b.dataset.s;
     let sel = Array.isArray(st.lead[id]) ? st.lead[id].slice() : [];
     if (v === "none") sel = sel.includes("none") ? [] : ["none"];
     else { sel = sel.filter(x => x !== "none"); sel = sel.includes(v) ? sel.filter(x => x !== v) : [...sel, v]; }
-    st.lead[id] = sel; rerender();
+    st.lead[id] = sel; st.leadMultiOpen = id; save(); render();
   });
-  $("#back").onclick = () => go("importance");
-  $("#on").onclick = () => go("expect");
+  const on = $("#on"); if (on) on.onclick = () => { st.leadMultiOpen = null; save(); render(); window.scrollTo(0, 0); };
+  $("#back").onclick = () => {
+    const prev = items[idx - 1];
+    if (prev) { delete st.lead[prev.id]; save(); render(); } else go("results");
+  };
+  $("#quit").onclick = () => go("results");
 };
 
-/* expectation */
-screens.expect = () => `<div class="stack">
-  <span class="label">Dernière question avant les résultats</span>
-  <h2>${esc(Q.expectation.fr)}</h2>
-  <p class="muted">Vos réponses précédentes sont enregistrées : ce choix ne les modifie pas. Il sert seulement à comparer votre intention de départ avec le résultat.</p>
-  <div class="stack-s">${[...CANDS.map(c => [c.id, `${c.name} (${c.party})`]), ["undecided", "Je ne savais pas"], ["blank", "Vote blanc ou abstention"]]
-    .map(([v, t]) => `<button type="button" class="chip ${st.expect === v ? "on" : ""}" style="text-align:left;border-radius:var(--r)" data-e="${v}">${esc(t)}</button>`).join("")}</div>
-  <div class="nav-q"><button class="btn ghost" id="back" type="button">Retour</button><button class="btn" id="on" type="button" ${st.expect ? "" : "disabled"}>Voir mes résultats</button></div>
-</div>`;
-screens.expect.wire = () => {
-  document.querySelectorAll("[data-e]").forEach(b => b.onclick = () => { st.expect = b.dataset.e; save(); render(); });
-  $("#back").onclick = () => go("leadership");
+/* open questions, all optional */
+screens.reflect = () => {
+  const o = [...Q.open_before, ...Q.open_after];
+  return `<div class="qbar"><button type="button" class="icon-btn" id="back" aria-label="Retour au résultat">${ICON.back}</button><span class="label">Pour réfléchir</span></div><div class="stack">
+    <h1 style="font-size:26px">Quelques questions ouvertes, facultatives.</h1>
+    <p class="muted">Écrivez librement : ces réponses ne sont pas notées et restent dans votre navigateur.</p>
+    ${o.map(q => `<div class="stack-s"><label for="t-${q.id}"><b>${esc(q.fr)}</b></label><textarea id="t-${q.id}">${esc((Q.open_before.includes(q) ? st.open : st.after)[q.id] || "")}</textarea>
+      ${q.followup ? `<label for="o1area" class="muted small">${esc(q.followup.fr)}</label><select id="o1area"><option value="">—</option>${AREAS.map(a => `<option value="${a.id}" ${st.o1area === a.id ? "selected" : ""}>${esc(a.fr)}</option>`).join("")}</select>` : ""}</div>`).join("")}
+    <button class="btn primary" id="on" type="button">Revenir au résultat</button>
+  </div>`;
+};
+screens.reflect.wire = () => {
+  Q.open_before.forEach(q => { $("#t-" + q.id).oninput = e => { st.open[q.id] = e.target.value; save(); }; });
+  Q.open_after.forEach(q => { $("#t-" + q.id).oninput = e => { st.after[q.id] = e.target.value; save(); }; });
+  $("#o1area").onchange = e => { st.o1area = e.target.value || null; save(); };
+  $("#back").onclick = () => go("results");
   $("#on").onclick = () => go("results");
 };
 
@@ -621,11 +789,13 @@ function profileFit(c) {
   const w = parts.reduce((a, p) => a + p[0], 0);
   return w ? { score: parts.reduce((a, p) => a + p[0] * p[1], 0) / w, parts } : null;
 }
+function listFr(names) { return names.length <= 1 ? names.join("") : names.slice(0, -1).join(", ") + " et " + names[names.length - 1]; }
 
 screens.results = () => {
   const eff = effective();
   const nEff = Object.keys(eff).length;
-  if (nEff < 5) return `<div class="stack"><h2>Pas encore assez de réponses.</h2><p>Répondez à au moins quelques propositions pour obtenir un résultat.</p><button class="btn" id="to-q" type="button">Reprendre le questionnaire</button></div>`;
+  if (nEff < 5) return brandBar() + `<div class="stack"><h1>Pas encore assez de réponses.</h1><p>Répondez à quelques propositions pour obtenir un résultat.</p><button class="btn primary" id="to-q" type="button">Reprendre le questionnaire</button></div>`;
+  st.seenResults = true; save();
   const sc = scoreAll(eff), bs = bootstrap(eff, 1000);
   const order = CANDS.map((c, k) => k).sort((a, b) => sc[b] - sc[a]);
   const top = order[0];
@@ -634,7 +804,7 @@ screens.results = () => {
   const lo = Math.min(...order.map(k => bs[k].lo)) - 0.02, hi = Math.max(...order.map(k => bs[k].hi)) + 0.02;
   const X = x => ((x - lo) / (hi - lo) * 100).toFixed(2) + "%";
   /* robustness: rank of top under alternative specifications */
-  const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « compte beaucoup »", scoreAll(eff, { noFlags: true })]];
+  const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « Important pour moi »", scoreAll(eff, { noFlags: true })]];
   const rob = specs.map(([n, s]) => [n, CANDS.map((c, k) => k).sort((a, b) => s[b] - s[a])[0]]);
   const ua = userAxes(), da = dilemmaAxes();
   const inc = retestInconsistency(), acq = acquiescence();
@@ -642,46 +812,72 @@ screens.results = () => {
   const exp = st.expect;
   const expK = CANDS.findIndex(c => c.id === exp);
   const pf = CANDS.map(profileFit);
-  return `<div class="stack">
-    <span class="label">Vos résultats · ${nEff} propositions prises en compte</span>
-    <h2>Proximité d'idées avec chaque candidat</h2>
-    <p class="muted">Le trait marque votre score, la bande son intervalle à 90&nbsp;% (rééchantillonnage de vos réponses et de leur imprécision). Les candidats encadrés en orange ne peuvent pas être départagés de façon fiable.</p>
-    <div>${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
-      <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)} · en tête ${pct(b.pFirst)}&nbsp;%</span></div>
+  const pTop = bs[top].pFirst;
+  const rem = remainingStatements().length;
+  const solid = pTop >= 0.9 ? "Ce premier rang est solide" : pTop >= 0.6 ? "Ce premier rang est assez net" : "Ce classement est serré";
+  const tieNames = tied.map(k => CANDS[k].name);
+  const refineCard = (id, title, sub, done) => `<button type="button" data-go="${id}"><span><b>${title}</b><span>${sub}</span></span>${done ? `<span class="done">${ICON.check} fait</span>` : ""}</button>`;
+  return brandBar() + `<div class="stack">
+    <span class="label">Votre résultat · ${nEff} propositions prises en compte</span>
+    <div class="lead">
+      <span class="label">Vous êtes le plus proche de</span>
+      <p class="who">${esc(tied.length > 3 ? listFr(tieNames.slice(0, 3)) + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p>
+      <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(CANDS[top].party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
+      <p class="small">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
+    </div>
+    <h2>Le classement complet</h2>
+    <div class="ranking">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
+      <span class="rank num">${i + 1}</span>
+      <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
       <div class="ci" aria-hidden="true"><div class="track"></div><div class="band" style="left:${X(b.lo)};width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
       <div class="pct">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
-    ${tied.length > 1 ? `<div class="note">${tied.map(k => esc(CANDS[k].name)).join(", ")} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
-    <div class="panel"><span class="label">Robustesse du premier rang</span>
+    <p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p>
+    ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
+
+    <h2>Affiner mon résultat</h2>
+    <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
+    <div class="refine">
+      ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
+      ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
+      ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
+      ${refineCard("leadership", "Le profil que vous attendez", "2 minutes · expérience, probité, constance, style", leadDone())}
+      ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
+    </div>
+
+    <h2>Comprendre ce résultat</h2>
+    <div>
+    <details class="sec"><summary>Là où vous divergez de ${esc(CANDS[top].name)}</summary><div class="body">${disagreements(eff, top)}</div></details>
+    ${expK >= 0 || exp === "undecided" ? `<details class="sec" open><summary>Votre intention de départ</summary><div class="body"><p>${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées ci-dessous." : ""}</p>${expK >= 0 && expK !== top ? disagreements(eff, expK) : ""}</div></details>` : ""}
+    <details class="sec"><summary>Accord par thème avec les ${Math.min(4, CANDS.length)} premiers</summary><div class="body">${areaTable(eff, order.slice(0, 4))}</div></details>
+    <details class="sec"><summary>Carte des positions</summary><div class="body">${mapSVG(ua, da)}<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. ${axisAgreement(ua, da)}</p></div></details>
+    <details class="sec"><summary>Le premier rang change-t-il selon la méthode ?</summary><div class="body">
       <table><tbody>${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<tr><td>${esc(n)}</td><td><b>${esc(CANDS[k].name)}</b></td></tr>`).join("")}</tbody></table>
-      <p class="muted" style="font-size:13px">${rob.every(r => r[1] === top) ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité."}</p></div>
-    ${expK >= 0 || exp === "undecided" ? `<div class="panel"><span class="label">Votre intention de départ</span><p>${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Plus bas, les propositions où vous divergez de ce candidat montrent ce qui fait la différence." : ""}</p></div>` : ""}
-    <div class="panel"><span class="label">Carte des positions</span>${mapSVG(ua, da)}
-      <p class="muted" style="font-size:13px">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. ${axisAgreement(ua, da)}</p></div>
-    <div class="panel"><span class="label">Accord par thème avec les ${Math.min(4, CANDS.length)} premiers</span>${areaTable(eff, order.slice(0, 4))}</div>
-    <div class="panel"><span class="label">Là où vous divergez de ${esc(CANDS[top].name)}</span>${disagreements(eff, top)}</div>
-    ${expK >= 0 && expK !== top ? `<div class="panel"><span class="label">Là où vous divergez de ${esc(CANDS[expK].name)}, votre intention de départ</span>${disagreements(eff, expK)}</div>` : ""}
-    <div class="panel"><span class="label">Profil attendu (score séparé)</span>${profileTable(pf, order)}</div>
-    ${st.lead.g6 && st.lead.g6 !== "sincere" ? `<div class="panel"><span class="label">Dynamique électorale</span>${viability(order)}</div>` : ""}
-    <div class="panel"><span class="label">Qualité de vos réponses</span>
+      <p class="muted small">${rob.every(r => r[1] === top) ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité."}</p></div></details>
+    ${pf.some(Boolean) ? `<details class="sec"><summary>Profil attendu (score séparé)</summary><div class="body">${profileTable(pf, order)}</div></details>` : ""}
+    ${st.lead.g6 && st.lead.g6 !== "sincere" ? `<details class="sec"><summary>Dynamique électorale</summary><div class="body">${viability(order)}</div></details>` : ""}
+    <details class="sec"><summary>Qualité de vos réponses</summary><div class="body">
       <table><tbody>
       <tr><td>Réponses « sans avis »</td><td class="num">${nNA}</td></tr>
       <tr><td>Cohérence aux questions reformulées (0 = parfaite, 4 = opposée)</td><td class="num">${inc === null ? "—" : inc.toFixed(1)}</td></tr>
       <tr><td>Tendance à acquiescer (0 = aucune)</td><td class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1)}</td></tr>
       </tbody></table>
-      ${inc !== null && inc >= 1.5 ? `<p class="note">Vos réponses à des propositions reformulées en sens inverse se contredisent en partie. L'incertitude affichée a été élargie en conséquence.</p>` : ""}</div>
-    <div class="panel"><span class="label">Pour aller plus loin</span>
-      ${Q.open_after.map(q => `<label for="t-${q.id}">${esc(q.fr)}</label><textarea id="t-${q.id}">${esc(st.after[q.id] || "")}</textarea>`).join("")}
-      ${st.open.o3 ? `<p class="muted">Au début, vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}
+      ${inc === null ? `<p class="muted small">Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat.</p>` : ""}
+      ${inc !== null && inc >= 1.5 ? `<p class="note">Vos réponses à des propositions reformulées en sens inverse se contredisent en partie. L'incertitude affichée a été élargie en conséquence.</p>` : ""}
+      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}</div></details>
     </div>
-    <div class="row"><button class="btn ghost" id="to-q" type="button">Modifier mes réponses</button><button class="btn ghost" id="cands" type="button">Fiches candidats</button><button class="btn ghost" id="copy" type="button">Copier mes réponses</button></div>
-    <p id="copied" class="muted" hidden>Réponses copiées dans le presse-papiers.</p>
-    <textarea id="copy-fallback" hidden readonly></textarea>
+    <div class="row"><button class="btn ghost auto" id="cands" type="button">Fiches candidats et sources</button><button class="btn ghost auto" id="copy" type="button">Copier mes réponses</button></div>
+    <p id="copied" class="muted small" hidden>Réponses copiées dans le presse-papiers.</p>
+    <textarea id="copy-fallback" hidden readonly aria-label="Vos réponses"></textarea>
   </div>`;
 };
 screens.results.wire = () => {
-  $("#to-q").onclick = () => { st.stopOffered = true; go("statements"); };
+  wireBrand();
+  const tq = $("#to-q"); if (tq) { tq.onclick = () => go("statements"); return; }
+  $$("[data-go]").forEach(b => b.onclick = () => {
+    const t = b.dataset.go;
+    if (t === "more") { st.refining = true; st.stopOffered = true; save(); go("statements"); } else go(t);
+  });
   const c = $("#cands"); if (c) c.onclick = () => go("cands");
-  Q.open_after.forEach(q => { const t = $("#t-" + q.id); if (t) t.oninput = e => { st.after[q.id] = e.target.value; save(); }; });
   const cp = $("#copy"); if (cp) cp.onclick = () => {
     const txt = JSON.stringify({ answers: st.ans, important: st.imp, open: st.open, after: st.after, dilemmas: st.dil, points: st.points, leadership: st.lead, expectation: st.expect, data_asof: DATA.meta.asof }, null, 1);
     navigator.clipboard.writeText(txt).then(() => { $("#copied").hidden = false; }).catch(() => { const f = $("#copy-fallback"); f.hidden = false; f.value = txt; f.select(); });
@@ -690,12 +886,12 @@ screens.results.wire = () => {
 function axisAgreement(ua, da) {
   const pairs = ["econ", "cult", "eu"].filter(k => ua[k] !== null && da[k] !== null).map(k => [k, Math.abs(ua[k] - da[k])]);
   const bad = pairs.filter(p => p[1] > 0.5);
-  if (!pairs.length) return "";
+  if (!pairs.length) return "Tranchez les arbitrages pour comparer vos principes généraux à vos choix concrets.";
   const nm = { econ: "économique", cult: "culturel", eu: "européen" };
   return bad.length ? `Sur l'axe ${bad.map(b => nm[b[0]]).join(" et ")}, vos arbitrages et vos réponses détaillées ne vous placent pas au même endroit : vos principes généraux et vos choix concrets divergent, ce qui est fréquent et mérite réflexion.` : "Vos arbitrages et vos réponses détaillées vous placent au même endroit.";
 }
 /* drawing width follows the screen so labels keep their real size on phones */
-function plotWidth() { const el = $("#app"); return Math.max(300, Math.min(520, (el ? el.clientWidth : 520) - 40)); }
+function plotWidth() { const el = $("#app"); return Math.max(300, Math.min(520, (el ? el.clientWidth : 520) - 8)); }
 function mapSVG(ua, da) {
   const W = plotWidth(), H = Math.round(W * 0.82), P = 46;
   /* domain padded beyond [-1, 1] so points on the extremes keep room for their labels */
@@ -707,24 +903,24 @@ function mapSVG(ua, da) {
     <line x1="${P}" y1="${H / 2}" x2="${W - P}" y2="${H / 2}" stroke="var(--line)" stroke-dasharray="3 4"/>
     <text x="${P}" y="${H - P + 18}">← redistribution</text><text x="${W - P}" y="${H - P + 18}" text-anchor="end">marché →</text>
     <text x="${P - 8}" y="${P - 10}">↑ autorité, tradition</text><text x="${P - 8}" y="${H - 12}">↓ libéralisme culturel</text>
-    ${placeLabels(pts.map(o => ({ x: sx(o.a.econ), y: sy(o.a.cult), t: o.c.short || o.c.name })), W).map(l => `<circle cx="${l.x}" cy="${l.y}" r="4" class="cand"/>${l.lead ? `<line x1="${l.x}" y1="${l.y}" x2="${l.lx + (l.anchor === "end" ? 2 : -2)}" y2="${l.ly - 4}" stroke-width="0.8" stroke="var(--line)"/>` : ""}<text x="${l.lx}" y="${l.ly}" text-anchor="${l.anchor}" style="fill:var(--ink)">${esc(l.t)}</text>`).join("")}
+    ${placeLabels(pts.map(o => ({ x: sx(o.a.econ), y: sy(o.a.cult), t: o.c.short || o.c.name })), W, H, P).map(l => `<circle cx="${l.x}" cy="${l.y}" r="4" class="cand"/>${l.lead ? `<line x1="${l.x}" y1="${l.y}" x2="${l.lx + (l.anchor === "end" ? 2 : -2)}" y2="${l.ly - 4}" stroke-width="0.8" stroke="var(--line)"/>` : ""}<text x="${l.lx}" y="${l.ly}" text-anchor="${l.anchor}" style="fill:var(--ink)">${esc(l.t)}</text>`).join("")}
     ${ua.econ !== null && ua.cult !== null ? `<circle cx="${sx(ua.econ)}" cy="${sy(ua.cult)}" r="7" class="you"/>` : ""}
     ${da.econ !== null && da.cult !== null ? `<circle cx="${sx(da.econ)}" cy="${sy(da.cult)}" r="7" fill="none" stroke="var(--accent)" stroke-width="2"/>` : ""}
   </svg></div>
   ${ua.eu !== null ? `<div class="stack-s"><span class="label">Axe européen</span>${euStrip(ua.eu, da.eu)}</div>` : ""}`;
 }
 /* place each label right of its point, else left, nudging down until it no longer overlaps an earlier one */
-function placeLabels(pts, W) {
-  const cw = 6.2, lh = 13;
+function placeLabels(pts, W, H, P) {
+  const cw = 6.6, lh = 14;
   const placed = pts.map(p => ({ x0: p.x - 5, x1: p.x + 5, y0: p.y - 5, y1: p.y + 5 }));
   const hit = (a, b) => a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
   return pts.sort((a, b) => a.y - b.y || a.x - b.x).map(p => {
     const w = p.t.length * cw;
-    for (const k of [0, -1, 1, -2, 2, 3, -3, 4]) {
+    for (const k of [0, -1, 1, -2, 2, 3, -3, 4, -4, 5, -5]) {
       for (const side of [1, -1]) {
         const lx = side > 0 ? p.x + 7 : p.x - 7, ly = p.y + 4 + k * lh;
         const box = side > 0 ? { x0: lx, x1: lx + w, y0: ly - 10, y1: ly + 2 } : { x0: lx - w, x1: lx, y0: ly - 10, y1: ly + 2 };
-        if (box.x1 > W - 2 || box.x0 < 2) continue;
+        if (box.x1 > W - 2 || box.x0 < 2 || box.y0 < P - 14 || box.y1 > H - P - 2) continue;
         if (!placed.some(b => hit(b, box))) { placed.push(box); return { ...p, lx, ly, anchor: side > 0 ? "start" : "end", lead: k !== 0 }; }
       }
     }
@@ -734,14 +930,14 @@ function placeLabels(pts, W) {
 function euStrip(u, d) {
   const W = plotWidth(), P = 46, sx = x => P + (x + 1) / 2 * (W - 2 * P);
   const pts = CANDS.map(c => ({ c, v: candAxes(c).eu })).filter(o => o.v !== null).sort((a, b) => a.v - b.v);
-  return `<div class="tablewrap"><svg viewBox="0 0 ${W} ${60 + pts.length * 0}" width="100%" style="max-width:${W}px" role="img" aria-label="Axe européen">
+  return `<div class="tablewrap"><svg viewBox="0 0 ${W} 60" width="100%" style="max-width:${W}px" role="img" aria-label="Axe européen">
     <line x1="${P}" y1="30" x2="${W - P}" y2="30" stroke="var(--line)"/>
     <text x="${P}" y="54">${W < 440 ? "← intégration" : "← intégration européenne"}</text><text x="${W - P}" y="54" text-anchor="end">${W < 440 ? "souveraineté →" : "souveraineté nationale →"}</text>
-    ${pts.map((o, i) => `<line x1="${sx(o.v)}" y1="22" x2="${sx(o.v)}" y2="38" stroke="var(--ink)" stroke-width="1.5"><title>${esc(o.c.name)}</title></line>`).join("")}
+    ${pts.map(o => `<line x1="${sx(o.v)}" y1="22" x2="${sx(o.v)}" y2="38" stroke="var(--ink)" stroke-width="1.5"><title>${esc(o.c.name)}</title></line>`).join("")}
     <circle cx="${sx(u)}" cy="30" r="6" class="you"/>
     ${d !== null && d !== undefined ? `<circle cx="${sx(d)}" cy="30" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>` : ""}
   </svg></div>
-  <p class="muted" style="font-size:12.5px">De l'intégration à la souveraineté : ${pts.map(o => esc(o.c.short || o.c.name)).join(" · ")}</p>`;
+  <p class="muted small">De l'intégration à la souveraineté : ${pts.map(o => esc(o.c.short || o.c.name)).join(" · ")}</p>`;
 }
 function areaTable(eff, ks) {
   const rows = AREAS.map(a => {
@@ -758,27 +954,27 @@ function disagreements(eff, k) {
     .filter(r => r && r.gap >= 2).sort((a, b) => b.gap - a.gap).slice(0, 8);
   if (!rows.length) return `<p>Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.</p>`;
   return rows.map(r => `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:10px">
-    <p style="font-family:var(--serif);font-size:16px">${esc(SBY[r.id].fr)}</p>
-    <p class="muted" style="font-size:13px">Vous : <span class="pos">${fmtPos(Math.round(r.e.v))}</span> · ${esc(c.name)} : <span class="pos">${fmtPos(r.cp.p)}</span> (${esc(TYPE_FR[r.cp.type] || r.cp.type)}, ${esc(CONF_FR[r.cp.conf] || "")}). ${esc(r.cp.summary || "")}</p>
+    <p style="font-family:var(--serif);font-size:17px">${esc(SBY[r.id].fr)}</p>
+    <p class="muted small">Vous : <span class="pos">${esc(POS_FR[String(Math.round(r.e.v))] || fmtPos(Math.round(r.e.v)))}</span> · ${esc(c.name)} : <span class="pos">${esc(POS_FR[String(r.cp.p)] || fmtPos(r.cp.p))}</span> (${esc(TYPE_FR[r.cp.type] || r.cp.type)}, ${esc(CONF_FR[r.cp.conf] || "")}). ${esc(r.cp.summary || "")}</p>
     ${srcList(r.cp.sources)}</div>`).join("");
 }
 function srcList(src) {
   if (!src || !src.length) return "";
-  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.outlet || "source")}</a> <span class="lean">${esc(s.lean || "")}</span>`).join(" · ")}</p>`;
+  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.outlet || "source")}</a> ${s.lean ? `<span class="lean">${esc(LEAN_FR[s.lean] || s.lean)}</span>` : ""}`).join(" · ")}</p>`;
 }
 function profileTable(pf, order) {
   if (pf.every(p => !p)) return `<p class="muted">Vous n'avez accordé d'importance à aucun critère de profil.</p>`;
   const catFr = { probity: "probité", speech: "délit de parole", other: "autre délit" };
-  const legalTxt = pr => !pr.convictions ? "—" : !pr.convictions.length ? "aucune condamnation" :
+  const legalTxt = pr => !pr.convictions ? "—" : !pr.convictions.length ? "aucune" :
     pr.convictions.map(x => `${catFr[x.cat]}${x.status === "convicted_final" ? "" : " (recours en cours)"}`).filter((x, i, a) => a.indexOf(x) === i).join(", ");
-  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th>Exécutif</th><th>Justice</th></tr></thead><tbody>
-    ${order.map(k => { const c = CANDS[k], p = pf[k], pr = c.profile || {}; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? pct(p.score) + "&nbsp;%" : "—"}</td><td class="num">${pr.exec_years != null ? pr.exec_years + " ans" : "—"}</td><td>${esc(legalTxt(pr))}</td></tr>`; }).join("")}
-  </tbody></table></div><p class="muted" style="font-size:13px">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
+  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th class="num">Exécutif</th><th>Condamnations</th></tr></thead><tbody>
+    ${order.map(k => { const c = CANDS[k], p = pf[k], pr = c.profile || {}; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? pct(p.score) + "&nbsp;%" : "—"}</td><td class="num">${pr.exec_years != null ? String(pr.exec_years).replace(".", ",") + " ans" : "—"}</td><td>${esc(legalTxt(pr))}</td></tr>`; }).join("")}
+  </tbody></table></div><p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
 }
 function viability(order) {
   const P = DATA.meta.polls || {};
-  return `<p class="muted" style="font-size:13px">${esc(P.source || "")}. Un sondage n'est pas une prévision, surtout à six mois du scrutin.</p>
-  <table><tbody>${order.map(k => { const c = CANDS[k], p = (P.values || {})[c.id]; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? p[0] + "–" + p[1] + "&nbsp;%" : "non disponible"}</td></tr>`; }).join("")}</tbody></table>`;
+  return `<p class="muted small">${esc(P.source || "")}. Un sondage n'est pas une prévision, surtout à six mois du scrutin.</p>
+  <table><tbody>${order.map(k => { const c = CANDS[k], p = (P.values || {})[c.id]; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? (p[0] === p[1] ? p[0] : p[0] + "–" + p[1]) + "&nbsp;%" : "non disponible"}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
 /* ------------------------------------------------------------------ candidate fiches */
@@ -786,43 +982,44 @@ screens.cands = () => {
   const sel = st.candSel || CANDS[0].id;
   const c = CANDS.find(x => x.id === sel) || CANDS[0];
   const rec = c.record || {};
-  return `<div class="stack">
+  return brandBar() + `<div class="stack">
     <span class="label">Fiches candidats · positions codées et sources</span>
-    <div class="row"><label for="csel" class="muted">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
-    <h2>${esc(c.name)}</h2>
+    <div class="stack-s"><label for="csel" class="muted small">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
+    <h1 style="font-size:30px">${esc(c.name)}</h1>
     ${rec.bio ? `<p>${esc(rec.bio)}</p>` : ""}
     <div class="grid2">
-      <div class="panel"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p style="font-size:13.5px">${esc(o.office)} <span class="muted mono">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (o.to || ""))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
-      <div class="panel"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<p style="font-size:13.5px">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted mono">${esc(l.date)}</span></p>`).join("") || "<p style='font-size:13.5px'>Aucune affaire personnelle recensée.</p>"}</div>
+      <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (o.to || ""))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
+      <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}</div>
     </div>
-    ${(rec.reversals || []).length ? `<div class="panel"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p style="font-size:13.5px"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
-    ${rec.media_portrayal ? `<div class="panel"><span class="label">Comment la presse le présente</span>
-      <p style="font-size:13.5px"><b>Presse de gauche :</b> ${esc(rec.media_portrayal.left_media)}</p>
-      <p style="font-size:13.5px"><b>Presse de droite :</b> ${esc(rec.media_portrayal.right_media)}</p>
-      <p style="font-size:13.5px"><b>Médias neutres :</b> ${esc(rec.media_portrayal.neutral_media)}</p></div>` : ""}
-    <div class="panel"><span class="label">Positions sur les ${S.length} propositions</span>
+    ${(rec.reversals || []).length ? `<div class="card"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
+    ${rec.media_portrayal ? `<div class="card"><span class="label">Comment la presse le présente</span>
+      <p class="small"><b>Presse de gauche :</b> ${esc(rec.media_portrayal.left_media)}</p>
+      <p class="small"><b>Presse de droite :</b> ${esc(rec.media_portrayal.right_media)}</p>
+      <p class="small"><b>Médias neutres :</b> ${esc(rec.media_portrayal.neutral_media)}</p></div>` : ""}
+    <div class="card"><span class="label">Positions sur les ${S.length} propositions</span>
       ${AREAS.map(a => `<h3 style="margin-top:6px">${esc(a.fr)}</h3>${S.filter(s => s.area === a.id).map(s => { const p = c.positions[s.id]; return `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:8px">
-        <p style="font-size:14px"><span class="pos">${fmtPos(p && p.p)}</span> ${esc(s.fr)}</p>
-        ${p && p.p !== null ? `<p class="muted" style="font-size:12.5px">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}. ${esc(p.summary || "")}${p.nuance ? " " + esc(p.nuance) : ""}</p>${srcList(p.sources)}` : `<p class="muted" style="font-size:12.5px">Pas de position documentée.</p>`}
+        <p class="small"><span class="pos">${esc(p && p.p !== null && p.p !== undefined ? POS_FR[String(p.p)] : "?")}</span> ${esc(s.fr)}</p>
+        ${p && p.p !== null ? `<p class="muted" style="font-size:13.5px">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}. ${esc(p.summary || "")}${p.nuance ? " " + esc(p.nuance) : ""}</p>${srcList(p.sources)}` : `<p class="muted" style="font-size:13.5px">Pas de position documentée.</p>`}
       </div>`; }).join("")}`).join("")}
     </div>
   </div>`;
 };
-screens.cands.wire = () => { $("#csel").onchange = e => { st.candSel = e.target.value; save(); render(); }; };
+screens.cands.wire = () => { wireBrand(); $("#csel").onchange = e => { st.candSel = e.target.value; save(); render(); }; };
 
 /* ------------------------------------------------------------------ method */
-screens.method = () => `<div class="stack">${DATA.method_html}</div>`;
+screens.method = () => brandBar() + `<div class="stack method">${DATA.method_html}</div>`;
+screens.method.wire = wireBrand;
 
 /* ------------------------------------------------------------------ router */
 function render() {
+  let html = "", guard = 0, s;
+  do { s = st.screen; html = (screens[s] || screens.home)(); } while (st.screen !== s && guard++ < 4);
   const fn = screens[st.screen] || screens.home;
   document.onkeydown = null;
-  $("#app").innerHTML = fn();
+  $("#root").classList.toggle("wide", ["cands", "method"].includes(st.screen));
+  $("#app").innerHTML = html;
   (fn.wire || (() => {}))();
-  if (!["cands", "method", "home"].includes(st.screen)) { st.view = st.screen; save(); }
+  save();
 }
-$("#nav-home").onclick = () => go(st.view && st.view !== "home" ? st.view : "home");
-$("#nav-cands").onclick = () => go("cands");
-$("#nav-method").onclick = () => go("method");
 render();
 </script>

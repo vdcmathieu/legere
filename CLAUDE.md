@@ -9,6 +9,7 @@ Published privately as a claude.ai Artifact: https://claude.ai/artifact/5Mts8uDs
 - `data/` - statement bank, questionnaire modules, candidate positions, explainers, method page.
 - `research/` - pipeline that produced the candidate codings (journals, consolidation, translation).
 - `analysis/power.py` - Monte-Carlo power analysis behind the stop rule; `analysis/e2e.py` - browser E2E.
+- `docs/ux-research.md` - Mobbin patterns behind the one-question-per-screen redesign; `docs/screens/` - E2E screenshots.
 
 See RESUME.md for the full pipeline and open follow-ups.
 
