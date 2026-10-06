@@ -18438,7 +18438,7 @@
      "position": -2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "Rules out reducing the debt through tax increases (\"jamais augmenter l'impôt\"). This is incompatible with a new 2% minimum tax on large fortunes.",
+     "summary": "Rules out any tax increase ('never raise taxes') and, in October 2025, attacked the proposed 2% annual tax on large holdings as 'a tax on success'. This is incompatible with a new 2% minimum tax on large fortunes.",
      "sources": [
       {
        "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
@@ -18446,11 +18446,18 @@
        "outlet_lean": "campaign-or-party",
        "date": "2026-10-03",
        "quote": "Baisser la dépense, jamais augmenter l'impôt"
+      },
+      {
+       "url": "https://www.journaldeleconomie.fr/david-lisnard-le-dernier-gaulliste-liberal-face-a-la-trahison-de-la-droite/",
+       "outlet": "Journal de l'économie",
+       "outlet_lean": "right",
+       "date": "2025-10-17",
+       "quote": "Ce n'est pas une taxe sur la rente, c'est une taxe sur la réussite"
       }
      ],
-     "nuance": "No verified quote naming the Zucman tax specifically. The web search budget was exhausted. The code follows from his explicit refusal of any tax increase.",
-     "summary_fr": "Exclut de réduire la dette par des hausses d'impôts (« jamais augmenter l'impôt »). Cela est incompatible avec un nouvel impôt minimum de 2 % sur les grandes fortunes.",
-     "nuance_fr": "Aucune citation vérifiée ne nomme spécifiquement la taxe Zucman. Le budget de recherches sur le web était épuisé. Le codage découle de son refus explicite de toute hausse d'impôt."
+     "nuance": "No verified quote names the Zucman tax itself; the code follows from his refusal of any tax increase and his rejection of the 2% holdings tax.",
+     "summary_fr": "Exclut toute hausse d'impôt (« jamais augmenter l'impôt ») et a dénoncé en octobre 2025 la taxe annuelle de 2 % proposée sur les grandes holdings comme « une taxe sur la réussite ». C'est incompatible avec un nouvel impôt minimum de 2 % sur les grandes fortunes.",
+     "nuance_fr": "Aucune citation vérifiée ne nomme la taxe Zucman elle-même ; le code découle de son refus de toute hausse d'impôt et de son rejet de la taxe de 2 % sur les holdings."
     },
     "eco3": {
      "id": "eco3",
@@ -19897,7 +19904,7 @@
    },
    "record": {
     "candidate": "David Lisnard",
-    "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded 2014, launched nationally in June 2021); an Ifop/Le Figaro poll in June 2026 gave him about 2% in the first round.",
+    "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded in 2014, launched nationally in June 2021), and confirmed it on France 2 on 31 March 2026 when leaving LR.",
     "offices": [
      {
       "office": "General/departmental councillor, Alpes-Maritimes (canton Cannes-Est, then Cannes-2 from 2015)",
@@ -19907,11 +19914,11 @@
       "office_fr": "Conseiller général puis départemental des Alpes-Maritimes (canton de Cannes-Est, puis de Cannes-2 à partir de 2015)"
      },
      {
-      "office": "Vice-president of the Alpes-Maritimes general/departmental council (tourism delegation)",
-      "from": "2014-05-22",
+      "office": "Vice-president of the Alpes-Maritimes departmental council (tourism)",
+      "from": "2015",
       "to": "present",
       "kind": "local_executive",
-      "office_fr": "Vice-président du conseil général puis départemental des Alpes-Maritimes (délégation au tourisme)"
+      "office_fr": "Vice-président du conseil départemental des Alpes-Maritimes (tourisme)"
      },
      {
       "office": "Mayor of Cannes",
@@ -19973,18 +19980,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified: no left-leaning outlet could be consulted directly in this session.",
-     "right_media": "Not verified in 2025-2026 coverage. Older centre-right coverage cited by Wikipedia presents him as a prominent figure on the right (Le Figaro Magazine, June 2020, headline 'l'incontournable').",
-     "neutral_media": "Le Monde (9 April 2026, as cited by Wikipedia) presents his candidacy as an autonomous liberal offer on the right, a configuration not seen since Alain Madelin's 2002 candidacy, and notes that his liberalism struggles to convince within the right."
-    },
-    "sources_note": "WebSearch was unavailable in this verification pass as well (200-search session cap reached), so the profile rests on the French Wikipedia article on David Lisnard, which was fetched and re-read three times. Underlying press references (Le Monde 9 Apr 2026, Nice-Matin 30 Dec 2019, Le Point 2 Jun 2015, Le Figaro Magazine 5 Jun 2020) are cited as reported by Wikipedia and were not opened directly. Wikipedia mentions no judicial investigation, complaint or conviction concerning him personally; this is absence of evidence from one source, not a confirmed clean record. No cross-lean corroboration was possible, so traits and reversals are left empty. Treat as incomplete and rerun with search quota.",
-    "bio_fr": "David Lisnard, né le 2 février 1969 à Limoges, est diplômé de Sciences Po Bordeaux (promotion 1992) et maire de Cannes depuis le 5 avril 2014 (réélu en 2020 et en mars 2026). Il a été élu président de l'Association des maires de France le 17 novembre 2021 et réélu le 22 novembre 2023. Il a appartenu au RPR, à l'UMP et aux Républicains, est devenu vice-président de LR le 28 juin 2025 et a quitté LR le 31 mars 2026. Il a annoncé sur RTL, le 21 janvier 2026, qu'il serait candidat à l'élection présidentielle de 2027 sous la bannière de son mouvement Nouvelle Énergie (fondé en 2014, lancé au niveau national en juin 2021) ; un sondage Ifop/Le Figaro de juin 2026 lui donnait environ 2 % au premier tour.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié : aucun média de gauche n'a pu être consulté directement au cours de cette session.",
-     "right_media": "Non vérifié pour la couverture de 2025-2026. Une couverture plus ancienne de centre droit, citée par Wikipédia, le présente comme une figure marquante de la droite (Le Figaro Magazine, juin 2020, titre « l'incontournable »).",
-     "neutral_media": "Le Monde (9 avril 2026, tel que cité par Wikipédia) présente sa candidature comme une offre libérale autonome à droite, une configuration inédite depuis la candidature d'Alain Madelin en 2002, et note que son libéralisme peine à convaincre au sein de la droite."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), LCP and Europe 1 (31 March 2026 departure from LR and candidacy on France 2), TourMaG (30 June 2015, departmental vice-presidency) and Public Sénat (AMF presidency). Press searches found no judicial case, complaint or investigation concerning him personally. The June 2026 Ifop poll figure was removed from the bio, as no other candidate bio carries poll numbers. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "David Lisnard, né le 2 février 1969 à Limoges, est diplômé de Sciences Po Bordeaux (promotion 1992) et maire de Cannes depuis le 5 avril 2014 (réélu en 2020 et en mars 2026). Il a été élu président de l'Association des maires de France le 17 novembre 2021 et réélu le 22 novembre 2023. Il a appartenu au RPR, à l'UMP et aux Républicains, est devenu vice-président de LR le 28 juin 2025 et a quitté LR le 31 mars 2026. Il a annoncé sur RTL, le 21 janvier 2026, qu'il serait candidat à l'élection présidentielle de 2027 sous la bannière de son mouvement Nouvelle Énergie (fondé en 2014, lancé au niveau national en juin 2021), et l'a confirmé sur France 2 le 31 mars 2026 en quittant LR."
    },
    "verification_notes": [
     "Context: the WebSearch budget was exhausted (200/200). Verification relied on fetching primary sources directly: the unenouvelleenergie.fr programme pages, its 62 campaign FAQ pages (updated 3 Oct 2026), and the Bayeux speech PDF of 17 Jun 2026.",
@@ -20080,7 +20077,8 @@
     "san5: null -> +2 (medium, statement): Lisnard calls the ZAN 'une véritable usine à gaz' (Congrès des maires, 20 Nov 2025), the programme scraps SRU art. 55, and he blames regulation for falling housing output. +1 is possible if he only wants the ZAN amended.",
     "ene5: null -> -1 (low, inferred): his fuel-price answer is a deficit-neutral CEE suspension (22 Sep 2026), not a VAT cut, and the programme raises VAT overall. No explicit rejection was found.",
     "imm8: kept -1 low inferred; added the primary programme source ('Mettre fin à l'automaticité du droit du sol', titres de séjour divided by eight). The Wikipedia quote was confirmed as 'défend notamment la réduction de l'immigration légale'.",
-    "trav3, sec6, eu7, eu8, ecol6, ins6, soc1, soc3, soc6, edu5: kept null. The relevant programme and FAQ pages were checked and contain nothing on these statements. Summaries were rewritten to say what was checked. These items still need a rerun with web search (press interviews, Le Figaro, franceinfo, etc.)."
+    "trav3, sec6, eu7, eu8, ecol6, ins6, soc1, soc3, soc6, edu5: kept null. The relevant programme and FAQ pages were checked and contain nothing on these statements. Summaries were rewritten to say what was checked. These items still need a rerun with web search (press interviews, Le Figaro, franceinfo, etc.).",
+    "2026-10-06 fact-check: see research/factcheck/lisnard.md"
    ]
   }
  }
