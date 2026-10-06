@@ -18252,7 +18252,7 @@
    },
    "record": {
     "candidate": "François Ruffin",
-    "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a formal party member; after breaking with Jean-Luc Mélenchon he left LFI on 4 July 2024 and joined the ecologist group (EcoS). He became president of Debout ! on 28 June 2025 and announced on 26 January 2026 that he was standing in the left primary. According to Wikipedia's Debout ! article, the primary was later cancelled and the party then planned to put him forward directly for the presidency.",
+    "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a party member; after breaking with Jean-Luc Mélenchon he left LFI in July 2024 and joined the ecologist group. He became president of Debout ! (formerly Picardie debout !) on 28 June 2025. On 26 January 2026 he announced on TF1 that he was a candidate for a united-left primary and for the presidency; that primary never took place, and he has campaigned as Debout !'s candidate since a launch in Lyon on 25 April 2026. In September 2026 he asked to join the PS-Place publique primary, whose rules exclude candidates from other parties.",
     "offices": [
      {
       "office": "Deputy for Somme, 1st constituency (elected 2017, re-elected 2022 and 2024; LFI group 2017-2024, ecologist group from July 2024)",
@@ -18260,13 +18260,6 @@
       "to": "present",
       "kind": "legislative",
       "office_fr": "Député de la 1re circonscription de la Somme (élu en 2017, réélu en 2022 et 2024 ; groupe LFI 2017-2024, groupe écologiste depuis juillet 2024)"
-     },
-     {
-      "office": "Secretary of the Economic Affairs Commission, Assemblée nationale",
-      "from": "2017-06-29",
-      "to": "unknown",
-      "kind": "legislative",
-      "office_fr": "Secrétaire de la commission des affaires économiques, Assemblée nationale"
      },
      {
       "office": "Spokesperson, Picardie debout !",
@@ -18286,32 +18279,14 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "Civil defamation suit at the Amiens tribunal over the portrayal of a resident in his 2006 book Quartier Nord. Wikipedia reports that he was found liable (condamné). No primary court source was available.",
+      "case": "Convicted of defamation in 2008 by the Amiens court over the portrayal of a resident in his 2006 book Quartier Nord. The exact nature of the proceedings (civil or criminal) and any appeal could not be verified.",
       "status": "civil_or_other",
       "date": "2008",
       "sources": [
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
+       "https://fr.wikipedia.org/wiki/François_Ruffin",
+       "https://www.europe1.fr/politique/legislatives-francois-ruffin-refoule-a-amiens-nord-2996414"
       ],
-      "case_fr": "Procédure civile en diffamation devant le tribunal d'Amiens au sujet du portrait d'un habitant dans son livre Quartier Nord (2006). Wikipédia indique qu'il a été condamné. Aucune source judiciaire primaire n'était disponible."
-     },
-     {
-      "case": "Ruffin was a victim, not a defendant. LVMH paid Bernard Squarcini's firm Kyrnos to surveil Ruffin and Fakir (March 2015 to February 2016). LVMH settled through a EUR 10 million CJIP, approved on 17 December 2021. On 7 March 2025 the Paris court convicted Squarcini, among other charges, and sentenced him to 4 years (2 of them custodial), a EUR 200,000 fine and a 5-year professional ban. His lawyers said he would appeal.",
-      "status": "civil_or_other",
-      "date": "2025-03-07",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/Bernard_Squarcini",
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
-      ],
-      "case_fr": "Ruffin était victime et non prévenu. LVMH a payé la société Kyrnos de Bernard Squarcini pour surveiller Ruffin et Fakir (de mars 2015 à février 2016). LVMH a transigé par une CJIP de 10 millions d'euros, validée le 17 décembre 2021. Le 7 mars 2025, le tribunal de Paris a condamné Squarcini, entre autres chefs, à 4 ans de prison (dont 2 ferme), 200 000 euros d'amende et 5 ans d'interdiction professionnelle. Ses avocats ont déclaré qu'il ferait appel."
-     },
-     {
-      "case": "The HATVP observed that his asset declaration undervalued his audiovisual production company by EUR 431,973. This was an administrative observation, and no criminal proceedings are reported.",
-      "status": "civil_or_other",
-      "date": "2023",
-      "sources": [
-       "https://fr.wikipedia.org/wiki/François_Ruffin"
-      ],
-      "case_fr": "La HATVP a relevé que sa déclaration de patrimoine sous-évaluait de 431 973 euros sa société de production audiovisuelle. Il s'agit d'une observation administrative, et aucune procédure pénale n'est signalée."
+      "case_fr": "Condamné pour diffamation en 2008 par le tribunal d'Amiens pour le portrait d'un habitant dans son livre Quartier Nord (2006). La nature exacte de la procédure (civile ou pénale) et l'existence d'un appel n'ont pas pu être vérifiées."
      }
     ],
     "reversals": [],
@@ -18336,18 +18311,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified, because search was unavailable.",
-     "right_media": "Not verified, because search was unavailable.",
-     "neutral_media": "Per Wikipedia, outlets describe him as increasingly independent of LFI and as seeking to reconnect the left with working-class voters. Reported criticisms include low attendance in his first year, Fakir staff doubling as parliamentary collaborators (2017), and a 2018 Le Monde piece by Abel Mestre about ambiguous rhetorical references, which he disputed."
-    },
-    "sources_note": "This profile is severely limited. The WebSearch budget was exhausted, so verification relied only on the fetched Wikipedia pages for François Ruffin, Debout ! and Bernard Squarcini. The Squarcini page cites franceinfo (17 Dec 2021) and AFP/Le Monde (7 Mar 2025). No primary sources (court releases, datan or nosdeputes votes, programme) and no corroboration from outlets of different leanings were obtained. The 2026 candidacy facts, including the primary cancellation and any direct presidential bid, are secondary and unconfirmed. An empty reversals or traits list means not established, not that none exist. Rerun with a search budget.",
-    "bio_fr": "François Ruffin, né le 18 octobre 1975 à Calais, est journaliste, documentariste, essayiste et homme politique. Il a fondé le journal Fakir en 1999 et réalisé le documentaire Merci patron ! (2016, César du meilleur film documentaire 2017). Il est député de la 1re circonscription de la Somme depuis 2017, élu sous l'étiquette LFI et siégeant dans le groupe LFI sans être membre formel du parti ; après sa rupture avec Jean-Luc Mélenchon, il a quitté LFI le 4 juillet 2024 et rejoint le groupe écologiste (EcoS). Il est devenu président de Debout ! le 28 juin 2025 et a annoncé le 26 janvier 2026 sa candidature à la primaire de la gauche. Selon l'article Wikipédia consacré à Debout !, la primaire a ensuite été annulée et le parti a alors prévu de le présenter directement à la présidentielle.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié, la recherche n'étant pas disponible.",
-     "right_media": "Non vérifié, la recherche n'étant pas disponible.",
-     "neutral_media": "Selon Wikipédia, les médias le décrivent comme de plus en plus indépendant de LFI et cherchant à renouer le lien entre la gauche et les électeurs des milieux populaires. Les critiques rapportées incluent la faible assiduité durant sa première année, le fait que des salariés de Fakir aient aussi été collaborateurs parlementaires (2017), et un article du Monde de 2018 signé Abel Mestre sur des références rhétoriques ambiguës, qu'il a contestées."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), Brut (26 Jan 2026 candidacy, TF1 and Libération), Lyon Capitale and Lyon Mag (25 April 2026 campaign launch), LCP (9 Sept 2026, 'candidat déclaré à l'élection présidentielle', Debout!), Public Sénat (8 Sept 2026, PS primary rules excluding non-member parties) and Europe 1 (2017, Quartier Nord defamation conviction). Two earlier legal items were removed: the LVMH/Squarcini surveillance case, in which he was the victim and not a defendant, and an HATVP observation on his asset declaration that could not be confirmed (the published HATVP declaration shows a different figure). The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "François Ruffin, né le 18 octobre 1975 à Calais, est journaliste, documentariste, essayiste et homme politique. Il a fondé le journal Fakir en 1999 et réalisé le documentaire Merci patron ! (2016, César du meilleur film documentaire 2017). Il est député de la 1re circonscription de la Somme depuis 2017, élu sous l'étiquette LFI et siégeant dans le groupe LFI sans être membre du parti ; après sa rupture avec Jean-Luc Mélenchon, il a quitté LFI en juillet 2024 et rejoint le groupe écologiste. Il est devenu président de Debout ! (anciennement Picardie debout !) le 28 juin 2025. Le 26 janvier 2026, il a annoncé sur TF1 sa candidature à une primaire de la gauche et à la présidentielle ; cette primaire n'a finalement pas eu lieu, et il fait campagne comme candidat de Debout ! depuis un lancement à Lyon le 25 avril 2026. En septembre 2026, il a demandé à participer à la primaire PS-Place publique, dont les règles excluent les candidats d'autres partis."
    },
    "verification_notes": [
     "Method: the WebSearch budget was exhausted at the start, so verification used WebFetch and curl on primary sources: datan.fr roll-calls, francoisruffin.fr, the nouspresident.fr official programme, the debout.fr manifesto, his Le Grand Continent op-ed, franceinfo and YouTube metadata. Bing via curl returned identical cached results for every query and was not used as evidence. The monvote2027.fr aggregator was used only for leads; every cited source was opened directly.",
@@ -18433,7 +18398,8 @@
     "san5: null -> -1/medium/programme: the 2027 housing notebook keeps ZAN 2050 and criticises derogations, with only targeted simplification.",
     "eu7, eu8: kept null. The March 2025 Ukraine resolution he abstained on (going against his group) does not mention accession, and the 2023 military programming law vote is not about European defence. Both are recorded in nuance.",
     "eco7, imm8, ene5, ins6, edu5: kept null after checking his site and the five campaign notebooks. Nothing relevant was found.",
-    "Reliability warning: a datan summary from the WebFetch model first reported the 2023 ZAN vote as POUR, but the vote page itself says ABSTENTION. All votes cited here were confirmed on their individual vote pages, except vote_2107 (May 2025), which comes only from the listing page."
+    "Reliability warning: a datan summary from the WebFetch model first reported the 2023 ZAN vote as POUR, but the vote page itself says ABSTENTION. All votes cited here were confirmed on their individual vote pages, except vote_2107 (May 2025), which comes only from the listing page.",
+    "2026-10-06 fact-check: see research/factcheck/ruffin.md"
    ]
   },
   "lisnard": {
