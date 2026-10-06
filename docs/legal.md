@@ -10,7 +10,9 @@ Items marked **LAWYER** are where a short consultation with a French media or el
 Decisions taken on 2026-10-06, after this research:
 - The poll table was removed from the site, so the poll-law items (loi 77-808 caption, range presentation, poll freeze) no longer apply as long as no poll is shown again.
 - Host: Vercel Inc. at https://legere.vandecatsije.com; the host block in `data/legal.html` is filled in except Vercel's phone number.
-- Publisher: Mathieu is named, without a postal address; the contact email is still a placeholder.
+- Publisher: Mathieu is named, without a postal address; contact legere@vandecatsije.com.
+- Audience measurement: cookieless Vercel Web Analytics (page address, referrer, country, device), described in `data/legal.html`; Google Analytics was rejected because it needs a consent banner and transfers data to Google.
+- Vercel's phone number is not shown: Vercel publishes none.
 - Done in the UI: self-hosted fonts with OFL files, source links and a presumption-of-innocence line on judicial cases, "Condamnations pénales" label with its rule, `removeItem` on reset, `noopener noreferrer` on external links, photo credits noting the crop and black-and-white edit.
 
 Status legend: **DONE** = in the repo now; **TO DO** = must happen before a public launch; **DECIDE** = Mathieu's call; **N/A** = researched and does not apply.
