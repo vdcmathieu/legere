@@ -891,17 +891,29 @@ function screenFromHash(h) {
   if (screen === "cands") st.candSel = parts[1] && CANDS.some(c => c.id === parts[1]) ? parts[1] : null;
   return screen;
 }
+/* audience: Vercel Web Analytics, cookieless and aggregated; production host only, so local and test runs call nothing.
+   Only the screen address is sent (never answers); the questionnaire is one address however many questions are answered. */
+const ANALYTICS = /(^|\.)vandecatsije\.com$/.test(location.hostname);
+if (ANALYTICS) {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  const s = document.createElement("script"); s.defer = true; s.src = "/_vercel/insights/script.js"; document.head.appendChild(s);
+}
+function trackView() {
+  if (!ANALYTICS) return;
+  const path = location.hash.replace(/^#/, "") || "/";
+  window.va("pageview", { route: path.replace(/^\/candidats\/.+/, "/candidats/[id]"), path });
+}
 function go(screen, candId) {
   st.screen = screen; if (screen === "cands") st.candSel = candId || null; save();
   const h = hashFor(screen);
-  if (location.hash !== h) history.pushState(null, "", h); /* pushState does not fire hashchange: render once, below */
+  if (location.hash !== h) { history.pushState(null, "", h); trackView(); } /* pushState does not fire hashchange: render once, below */
   render(); window.scrollTo(0, 0);
 }
 window.addEventListener("hashchange", () => {
   const s = screenFromHash(location.hash);
   if (s === null) { history.replaceState(null, "", hashFor(st.screen)); return; }
   if (s === st.screen && s !== "cands") return;
-  st.screen = s; save(); render(); window.scrollTo(0, 0);
+  st.screen = s; save(); render(); window.scrollTo(0, 0); trackView();
 });
 function nStatementsAnswered() { return Object.keys(st.ans).filter(id => SBY[id]).length; }
 const POS_FR = { "-2": "Contre", "-1": "Plutôt contre", "0": "Partagé", "1": "Plutôt pour", "2": "Pour" };
@@ -1014,7 +1026,7 @@ screens.home = () => {
     <h2 id="trust">Ce qui est garanti</h2>
     <ul class="facts">
       <li>${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
-      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Rien n'est envoyé.</span></li>
+      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Elles ne sont jamais envoyées.</span></li>
       <li>${ICON.clock}<span>Positions établies à partir des programmes, déclarations et votes, chacune avec ses sources, avec le même niveau d'exigence pour chaque candidat.</span></li>
     </ul>
   </section>` + footer();

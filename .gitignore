@@ -4,3 +4,4 @@ __pycache__/
 analysis/e2e-out*/
 docs/screens/
 .claude/worktrees/
+.vercel/
