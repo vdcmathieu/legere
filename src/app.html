@@ -303,6 +303,130 @@ textarea { width: 100%; min-height: 110px; resize: vertical; font: 400 17px/1.5 
 select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--card); color: var(--ink); max-width: 100%; width: 100%; appearance: none; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M3 6l5 5 5-5' fill='none' stroke='%23888' stroke-width='2'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
+/* ===== results ===== */
+/* The results screen is a dashboard: a wider container, a hero, a two-column ranking and a grid of tiles.
+   Every mark uses the same ink; emphasis comes from weight, contrast and the respondent's own marker. */
+.wrap:has(.dash) { max-width: 1120px; }
+.dash { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 16px; align-items: stretch; }
+.dash > * { min-width: 0; }
+.dash .lead { grid-column: 1; border-radius: 16px; padding: 24px 24px 22px; gap: 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "main stats" "act stats"; align-items: start; }
+.dash .lead-main { grid-area: main; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dash .lead .head { align-items: center; gap: 16px; }
+.dash .lead .who { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; }
+.dash .lead .who.many { font-size: clamp(22px, 2.4vw, 28px); line-height: 1.2; }
+.dash .lead .pile { display: inline-flex; flex: none; }
+.dash .lead .pile .avatar { margin-left: -22px; box-shadow: 0 0 0 2px var(--card); }
+.dash .lead .pile .avatar:first-child { margin-left: 0; }
+.dash .lead .solid { color: var(--ink); }
+.dash .lead-stats { grid-area: stats; display: flex; flex-direction: column; gap: 14px; padding-left: 22px; border-left: 1px solid var(--line); min-width: 190px; max-width: 240px; }
+.dash .stat { display: flex; flex-direction: column; gap: 2px; }
+.dash .stat .val { font: 600 40px/1 var(--sans); letter-spacing: -.01em; }
+.dash .stat .lbl { font-size: 14px; line-height: 1.3; color: var(--muted); }
+.dash .stat .sub { font-size: 12.5px; color: var(--muted); }
+.dash .meter { display: block; height: 6px; border-radius: 3px; background: var(--soft); margin-top: 6px; overflow: hidden; }
+.dash .meter i { display: block; height: 100%; background: var(--ink); border-radius: 3px; }
+.dash .lead-act { grid-area: act; }
+.dash .lead-act .btn { width: auto; }
+.dash .refine-card { grid-column: 2; grid-row: 1; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.dash .refine-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.dash .refine-head h2 { font-size: 21px; }
+.dash .refine { gap: 6px; }
+.dash .refine button { min-height: 52px; padding: 9px 12px; gap: 10px; border-width: 1px; }
+.dash .refine button b { font-size: 15.5px; }
+.dash .refine button span span { font-size: 13px; display: block; }
+.dash .rank-card, .dash .tiles, .dash .tiles-h, .dash .dash-foot, .dash #copied, .dash #copy-fallback { grid-column: 1 / -1; }
+.dash .rank-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px 10px; display: flex; flex-direction: column; gap: 10px; }
+.dash .rank-head { display: flex; flex-direction: column; gap: 4px; max-width: 72ch; }
+.dash .rank-head h2 { font-size: 22px; }
+.dash .ranking { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; grid-auto-flow: column; grid-template-rows: repeat(6, auto); }
+.dash .res-row { padding: 8px 0; grid-template-columns: 22px minmax(0, 1fr) 56px; }
+.dash .ranking.photos .res-row { grid-template-columns: 22px 36px minmax(0, 1fr) 56px; }
+.dash .res-row .avatar { width: 36px; height: 36px; }
+.dash .res-row .who b { font-size: 16px; }
+.dash .res-row .pct { font-size: 17px; }
+.dash .res-row.top .rank { color: var(--ink); font-weight: 600; }
+.dash .ranking > :nth-child(6), .dash .ranking > :nth-child(12) { border-bottom: 0; }
+.dash .tiles-h { font-size: 22px; margin-top: 10px; }
+.dash .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-flow: dense; gap: 16px; align-items: stretch; }
+.dash .tiles:has(.more[open]) { align-items: start; } /* an opened detail grows its own tile, not its neighbours */
+.dash .tile { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.dash .tile.tall { grid-row: span 2; }
+.dash .tile.w2 { grid-column: span 2; }
+.dash .tile.w3 { grid-column: span 3; }
+.dash .tile h3 { font-size: 18px; }
+.dash .tile .take { font: 400 15px/1.4 var(--serif); }
+.dash .tile .more { margin-top: auto; border-top: 1px solid var(--line); }
+.dash .tile .more summary { padding: 10px 0; font: 500 14.5px var(--sans); color: var(--muted); }
+.dash .tile .more[open] summary { color: var(--ink); }
+.dash .tile .more .body { padding-bottom: 6px; font-size: 14.5px; }
+.dash .tile .tablewrap { margin: 0 -4px; }
+.dash .tile svg { display: block; margin: 0 auto; }
+/* heatmap: themes by the top candidates, one ramp, value in every cell */
+.dash .heatmap { font-size: 13px; width: 100%; }
+.dash .heatmap th, .dash .heatmap td { padding: 3px 2px; border-bottom: 0; }
+.dash .heatmap thead th { text-align: center; font: 500 11.5px var(--sans); color: var(--ink); vertical-align: bottom; padding-bottom: 6px; }
+.dash .heatmap thead th span { display: block; max-width: 72px; margin: 0 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.dash .heatmap thead th .avatar { width: 30px; height: 30px; margin: 0 auto 3px; }
+.dash .heatmap tbody th { font: 400 13.5px/1.2 var(--sans); color: var(--ink); padding-right: 14px; width: 1%; white-space: nowrap; }
+.dash .heatmap td { text-align: center; }
+.dash .heatmap td.na { color: var(--muted); }
+.dash .heatmap .heat { display: block; min-width: 0; padding: 5px 0; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+/* divergences: the three widest gaps */
+.dash .divs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; counter-reset: d; }
+.dash .divs li { display: flex; flex-direction: column; gap: 3px; padding: 8px 0 8px 0; border-top: 1px solid var(--line); }
+.dash .divs li p:first-child { font: 400 15px/1.35 var(--serif); }
+/* robustness: four methods, one name each */
+.dash .specs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.dash .specs li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.dash .specs .mark { display: inline-grid; place-items: center; width: 20px; height: 20px; color: var(--ink); font: 600 14px var(--sans); }
+.dash .specs .mark svg { width: 18px; height: 18px; }
+.dash .specs .n { color: var(--muted); line-height: 1.25; }
+.dash .specs b { font-weight: 500; white-space: nowrap; }
+/* profile bars */
+.dash .bars { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.dash .bars li { display: grid; grid-template-columns: 28px 86px minmax(0, 1fr) 44px; gap: 8px; align-items: center; font-size: 14px; }
+.dash .bars .avatar { width: 28px; height: 28px; }
+.dash .bars .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dash .bars .bar { display: block; height: 10px; border-radius: 3px; background: var(--soft); overflow: hidden; }
+.dash .bars .bar i { display: block; height: 100%; background: var(--ink); border-radius: 0 3px 3px 0; }
+.dash .bars .v { text-align: right; font-weight: 500; }
+/* answer quality: label and value pairs */
+.dash .kv { margin: 0; display: flex; flex-direction: column; }
+.dash .kv > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.dash .kv dt { line-height: 1.3; }
+.dash .kv dd { margin: 0; font: 600 20px/1 var(--sans); flex: none; }
+.dash .dash-foot { margin-top: 4px; }
+@media (max-width: 1000px) {
+  .dash .lead { grid-template-columns: 1fr; grid-template-areas: "main" "stats" "act"; }
+  .dash .lead-stats { flex-direction: row; flex-wrap: wrap; gap: 18px 28px; padding: 14px 0 0; border-left: 0; border-top: 1px solid var(--line); max-width: none; }
+  .dash .stat { flex: 1 1 150px; }
+  .dash .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dash .tile.tall { grid-row: auto; }
+  .dash .tile.w2, .dash .tile.w3 { grid-column: auto; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: span 2; }
+  .dash .heatmap tbody th { width: auto; white-space: normal; min-width: 64px; padding-right: 10px; }
+  .dash .heatmap td { width: 60px; }
+}
+@media (max-width: 860px) {
+  .dash { grid-template-columns: 1fr; }
+  .dash .lead, .dash .refine-card { grid-column: 1; grid-row: auto; }
+}
+@media (max-width: 700px) {
+  .dash .ranking { grid-template-columns: 1fr; grid-auto-flow: row; grid-template-rows: none; }
+  .dash .ranking > :nth-child(6) { border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 600px) {
+  .dash .lead, .dash .refine-card, .dash .rank-card, .dash .tile { padding: 18px 16px; }
+  .dash .stat .val { font-size: 32px; }
+  .dash .tiles { grid-template-columns: 1fr; }
+  .dash .tiles > .tile:last-child:nth-child(odd) { grid-column: auto; }
+  .dash .heatmap td { width: 52px; }
+  .dash .heatmap thead th span { max-width: 52px; font-size: 11px; }
+  .dash .heatmap tbody th { font-size: 13px; }
+  .dash .lead-act .btn { width: 100%; }
+}
+/* ===== /results ===== */
+
 /* candidate fiche */
 .fiche-head { display: flex; gap: 18px; align-items: center; }
 .fiche-head .names { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
@@ -1008,6 +1132,7 @@ screens.results = () => {
   /* robustness: rank of top under alternative specifications */
   const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « Important pour moi »", scoreAll(eff, { noFlags: true })]];
   const rob = specs.map(([n, s]) => [n, CANDS.map((c, k) => k).sort((a, b) => s[b] - s[a])[0]]);
+  const robOk = rob.every(r => r[1] === top);
   const ua = userAxes(), da = dilemmaAxes();
   const inc = retestInconsistency(), acq = acquiescence();
   const nNA = Object.values(st.ans).filter(v => v === null).length;
@@ -1018,55 +1143,88 @@ screens.results = () => {
   const rem = remainingStatements().length;
   const solid = pTop >= 0.9 ? "Ce premier rang est solide" : pTop >= 0.6 ? "Ce premier rang est assez net" : "Ce classement est serré";
   const tieNames = tied.map(k => CANDS[k].name);
+  const T = CANDS[top], tName = T.short || T.name;
+  const topN = order.slice(0, Math.min(4, CANDS.length));
+  const areas = areaCells(eff, topN);
+  const withTop = areas.filter(r => r.cells[0] !== null);
+  const best = withTop.reduce((a, r) => r.cells[0] > a.cells[0] ? r : a, withTop[0]);
+  const worst = withTop.reduce((a, r) => r.cells[0] < a.cells[0] ? r : a, withTop[0]);
+  const div = disagreementRows(eff, top);
+  const nDiv = Object.entries(eff).filter(([id, e]) => { const cp = candPos(T, id); return cp && Math.abs(e.v - cp.p) >= 2; }).length;
+  /* without a marked disagreement, the tile still shows the three widest (mild) gaps so it is not empty */
+  const gaps = div.length ? div : disagreementRows(eff, top, 1);
+  const refined = [!!st.lvl, dilemmasDone(), leadDone(), Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean)].filter(Boolean).length;
   const refineCard = (id, title, sub, done) => `<button type="button" data-go="${id}"><span><b>${title}</b><span>${sub}</span></span>${done ? `<span class="done">${ICON.check} fait</span>` : ""}</button>`;
-  return brandBar() + `<div class="stack">
-    <span class="label">Votre résultat · ${nEff} propositions prises en compte</span>
-    <div class="lead">
-      <span class="label">Vous êtes le plus proche de</span>
-      <div class="head">${tied.length === 1 ? avatar(CANDS[top], "lg") : ""}<p class="who">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p></div>
-      <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(CANDS[top].party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
-      <p class="small">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
-    </div>
-    <h2>Le classement complet</h2>
-    <div class="ranking ${PHOTOS ? "photos" : ""}">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
-      <span class="rank num">${i + 1}</span>${avatar(c)}
-      <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
-      <div class="ci" aria-hidden="true"><div class="track"></div><div class="band" style="left:${X(b.lo)};width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
-      <div class="pct">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
-    <p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p>
-    ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
-
-    <h2>Affiner mon résultat</h2>
-    <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
-    <div class="refine">
-      ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
-      ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
-      ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
-      ${refineCard("leadership", "Le profil que vous attendez", "2 minutes · expérience, probité, constance, style", leadDone())}
-      ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
-    </div>
-
-    <h2>Comprendre ce résultat</h2>
-    <div>
-    <details class="sec"><summary>Là où vous divergez de ${esc(CANDS[top].name)}</summary><div class="body">${disagreements(eff, top)}</div></details>
-    ${expK >= 0 || exp === "undecided" ? `<details class="sec" open><summary>Votre intention de départ</summary><div class="body"><p>${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées ci-dessous." : ""}</p>${expK >= 0 && expK !== top ? disagreements(eff, expK) : ""}</div></details>` : ""}
-    <details class="sec"><summary>Accord par thème avec les ${Math.min(4, CANDS.length)} premiers</summary><div class="body">${areaTable(eff, order.slice(0, 4))}</div></details>
-    <details class="sec"><summary>Carte des positions</summary><div class="body">${mapSVG(ua, da)}<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. ${axisAgreement(ua, da)}</p></div></details>
-    <details class="sec"><summary>Le premier rang change-t-il selon la méthode ?</summary><div class="body">
-      <table><tbody>${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<tr><td>${esc(n)}</td><td><b>${esc(CANDS[k].name)}</b></td></tr>`).join("")}</tbody></table>
-      <p class="muted small">${rob.every(r => r[1] === top) ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité."}</p></div></details>
-    ${pf.some(Boolean) ? `<details class="sec"><summary>Profil attendu (score séparé)</summary><div class="body">${profileTable(pf, order)}</div></details>` : ""}
-    <details class="sec"><summary>Qualité de vos réponses</summary><div class="body">
-      <table><tbody>
-      <tr><td>Réponses « sans avis »</td><td class="num">${nNA}</td></tr>
-      <tr><td>Cohérence aux questions reformulées (0 = parfaite, 4 = opposée)</td><td class="num">${inc === null ? "—" : inc.toFixed(1)}</td></tr>
-      <tr><td>Tendance à acquiescer (0 = aucune)</td><td class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1)}</td></tr>
-      </tbody></table>
-      ${inc === null ? `<p class="muted small">Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat.</p>` : ""}
+  const W = tileWidth();
+  let ti = 2 + CANDS.length; /* reveal order: hero, refine, the ranking rows, then the tiles */
+  const tile =(id, title, take, body, more, cls) => `<section class="tile ${cls || ""}" id="t-${id}" aria-labelledby="t-${id}-h" data-reveal style="--i:${ti++}">
+      <h3 id="t-${id}-h">${title}</h3>${take ? `<p class="take">${take}</p>` : ""}${body}
+      ${more ? `<details class="sec more"><summary>${more[0]}</summary><div class="body">${more[1]}</div></details>` : ""}</section>`;
+  const posChip = v => `<span class="pos">${esc(POS_FR[String(v)] || fmtPos(v))}</span>`;
+  const tiles = [
+    tile("themes", `Accord par thème`, withTop.length ? `Avec ${esc(tName)} : accord le plus fort sur ${esc(best.area.fr.toLowerCase())} (${pct(best.cells[0])}&nbsp;%), le plus faible sur ${esc(worst.area.fr.toLowerCase())} (${pct(worst.cells[0])}&nbsp;%).` : "",
+      heatmap(areas, topN), null, "tall w2"),
+    tile("map", `Carte des positions`, axisAgreement(ua, da), mapSVG(ua, da, W),
+      [`Comment lire la carte`, `<p class="muted small">Point plein : vous, d'après les propositions. Cercle : vous, d'après les arbitrages. Les points gris : les candidats, d'après leurs positions documentées. Chaque axe résume les propositions qui s'y rattachent, de −1 à +1.</p>`], "tall"),
+    tile("div", `Là où vous divergez de ${esc(T.name)}`, nDiv ? `${nDiv} proposition${nDiv > 1 ? "s" : ""} sur ${nEff} où vous êtes nettement en désaccord.` : "Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.",
+      gaps.length ? `${div.length ? "" : `<p class="muted small">Vos écarts les plus grands, tous légers :</p>`}<ol class="divs">${gaps.slice(0, 3).map(r => `<li><p>${esc(SBY[r.id].fr)}</p><p class="muted small">Vous : ${posChip(Math.round(r.e.v))} · ${esc(tName)} : ${posChip(r.cp.p)}</p></li>`).join("")}</ol>` : "",
+      div.length ? [`Détail et sources (${div.length})`, disagreements(eff, top)] : null),
+    tile("rob", `Le premier rang change‑t‑il selon la méthode ?`, robOk ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité.",
+      `<ul class="specs">${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<li><span class="mark" aria-hidden="true">${k === top ? ICON.check : "≠"}</span><span class="n">${esc(n)}</span><b>${esc(CANDS[k].short || CANDS[k].name)}</b><span class="sr">${k === top ? ", même premier" : ", premier différent"}</span></li>`).join("")}</ul>`, null),
+    expK >= 0 || exp === "undecided" ? tile("exp", `Votre intention de départ`, expK >= 0 ? `${esc(CANDS[expK].name)} est classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées.` : "Vous étiez indécis.",
+      `<p class="small">${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées dans le détail." : ""}</p>`,
+      expK >= 0 && expK !== top ? [`Là où vous divergez de ${esc(CANDS[expK].short || CANDS[expK].name)}`, disagreements(eff, expK)] : null) : "",
+    pf.some(Boolean) ? tile("prof", `Profil attendu`, "Score séparé, jamais mélangé à la proximité d'idées.",
+      `<ul class="bars">${topN.map(k => { const p = pf[k]; return `<li>${avatar(CANDS[k])}<span class="n">${esc(CANDS[k].short || CANDS[k].name)}</span><span class="bar" aria-hidden="true"><i data-grow style="--w:${p ? pct(p.score) : 0}%;width:${p ? pct(p.score) : 0}%"></i></span><span class="v num">${p ? pct(p.score) + "&nbsp;%" : "—"}</span></li>`; }).join("")}</ul>`,
+      [`Les ${CANDS.length} candidats et les critères`, profileTable(pf, order)]) : "",
+    tile("qual", `Qualité de vos réponses`, inc === null ? "Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat." : inc >= 1.5 ? "Vos réponses aux propositions reformulées se contredisent en partie." : "Vos réponses aux propositions reformulées sont cohérentes.",
+      `<dl class="kv"><div><dt>Réponses « sans avis »</dt><dd class="num">${nNA}</dd></div>
+      <div><dt>Cohérence aux questions reformulées <span class="muted">(0 = parfaite, 4 = opposée)</span></dt><dd class="num">${inc === null ? "—" : inc.toFixed(1).replace(".", ",")}</dd></div>
+      <div><dt>Tendance à acquiescer <span class="muted">(0 = aucune)</span></dt><dd class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1).replace(".", ",")}</dd></div></dl>
       ${inc !== null && inc >= 1.5 ? `<p class="note">Vos réponses à des propositions reformulées en sens inverse se contredisent en partie. L'incertitude affichée a été élargie en conséquence.</p>` : ""}
-      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}</div></details>
-    </div>
-    <div class="row"><button class="btn ghost auto" id="cands" type="button">Fiches candidats et sources</button><button class="btn ghost auto" id="copy" type="button">Copier mes réponses</button></div>
+      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}`, null),
+  ].filter(Boolean);
+  /* the theme heatmap (two columns) and the map fill the first two rows; the last short tile stretches so no row ends with a hole */
+  const rest = tiles.length - 2, fill = rest % 3 === 1 ? "w3" : rest % 3 === 2 ? "w2" : "";
+  if (fill) tiles[tiles.length - 1] = tiles[tiles.length - 1].replace('class="tile ', `class="tile ${fill} `);
+  return brandBar() + `<div class="dash">
+    <section class="lead" data-reveal style="--i:0">
+      <div class="lead-main">
+        <span class="label">Votre résultat · vous êtes le plus proche de</span>
+        <div class="head">${tied.length === 1 ? avatar(T, "lg") : `<span class="pile">${tied.slice(0, 3).map(k => avatar(CANDS[k], "lg")).join("")}</span>`}<p class="who ${tied.length > 1 ? "many" : ""}">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : T.name)}</p></div>
+        <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(T.party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
+        <p class="small solid">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
+        ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
+      </div>
+      <div class="lead-stats">
+        <div class="stat"><span class="val"><span data-count="${pct(sc[top])}">${pct(sc[top])}</span>&nbsp;%</span><span class="lbl">d'accord avec vos réponses${tied.length > 1 ? ` (meilleur score)` : ""}</span><span class="sub num">marge d'incertitude : ${pct(bs[top].lo)} à ${pct(bs[top].hi)}&nbsp;%</span></div>
+        <div class="stat"><span class="val"><span data-count="${pct(pTop)}">${pct(pTop)}</span>&nbsp;%</span><span class="lbl">des simulations ${tied.length > 1 ? "placent l'un de ces candidats" : "placent ce candidat"} en tête</span><span class="meter" role="img" aria-label="${pct(pTop)} % des simulations"><i data-grow style="--w:${pct(pTop)}%;width:${pct(pTop)}%"></i></span></div>
+        <div class="stat"><span class="val">${nEff}</span><span class="lbl">propositions prises en compte</span><span class="sub num">${rem ? `${rem} restantes` : "toutes répondues"}</span></div>
+      </div>
+      <div class="lead-act">${rem && pTop < 0.9 ? `<button type="button" class="btn primary" data-go="more">Continuer à répondre</button>` : `<button type="button" class="btn primary" id="top-fiche">Fiche de ${esc(tName)} et sources</button>`}</div>
+    </section>
+    <section class="refine-card" aria-labelledby="refine-h" data-reveal style="--i:1">
+      <div class="refine-head"><h2 id="refine-h">Affiner mon résultat</h2><span class="label num">${refined}/4 fait</span></div>
+      <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
+      <div class="refine">
+        ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
+        ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
+        ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
+        ${refineCard("leadership", "Le profil que vous attendez", "2 minutes · expérience, probité, constance, style", leadDone())}
+        ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
+      </div>
+    </section>
+    <section class="rank-card" aria-labelledby="rank-h">
+      <div class="rank-head"><h2 id="rank-h">Le classement complet</h2><p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p></div>
+      <div class="ranking ${PHOTOS ? "photos" : ""}">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""} ${k === top ? "top" : ""}" data-reveal style="--i:${2 + i}">
+        <span class="rank num">${i + 1}</span>${avatar(c)}
+        <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
+        <div class="ci" role="img" aria-label="marge de ${pct(b.lo)} à ${pct(b.hi)} %"><div class="track"></div><div class="band" data-grow style="left:${X(b.lo)};--w:calc(${X(b.hi)} - ${X(b.lo)});width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
+        <div class="pct num">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
+    </section>
+    <h2 class="tiles-h">Comprendre ce résultat</h2>
+    <div class="tiles">${tiles.join("")}</div>
+    <div class="row dash-foot"><button class="btn ghost auto" id="cands" type="button">Fiches candidats et sources</button><button class="btn ghost auto" id="copy" type="button">Copier mes réponses</button></div>
     <p id="copied" class="muted small" hidden>Réponses copiées dans le presse-papiers.</p>
     <textarea id="copy-fallback" hidden readonly aria-label="Vos réponses"></textarea>
   </div>` + footer();
@@ -1079,11 +1237,18 @@ screens.results.wire = () => {
     if (t === "more") { st.refining = true; st.stopOffered = true; save(); go("statements"); } else go(t);
   });
   const c = $("#cands"); if (c) c.onclick = () => go("cands");
+  const tf = $("#top-fiche"); if (tf) tf.onclick = () => { const eff = effective(), sc = scoreAll(eff); st.candSel = CANDS[sc.indexOf(Math.max(...sc))].id; save(); go("cands"); };
   const cp = $("#copy"); if (cp) cp.onclick = () => {
     const txt = JSON.stringify({ answers: st.ans, important: st.imp, open: st.open, after: st.after, dilemmas: st.dil, points: st.points, leadership: st.lead, expectation: st.expect, data_asof: DATA.meta.asof }, null, 1);
     navigator.clipboard.writeText(txt).then(() => { $("#copied").hidden = false; }).catch(() => { const f = $("#copy-fallback"); f.hidden = false; f.value = txt; f.select(); });
   };
 };
+/* inner width of one dashboard tile: the container is not laid out yet when the screen renders, so it follows the viewport */
+function tileWidth() {
+  const vw = window.innerWidth, w = Math.min(1120, vw) - 32;
+  const cols = vw > 1000 ? 3 : vw > 600 ? 2 : 1; /* same breakpoints as the .tiles grid */
+  return Math.max(240, Math.floor((w - 16 * (cols - 1)) / cols) - 2 - (vw > 600 ? 40 : 32));
+}
 function axisAgreement(ua, da) {
   const pairs = ["econ", "cult", "eu"].filter(k => ua[k] !== null && da[k] !== null).map(k => [k, Math.abs(ua[k] - da[k])]);
   const bad = pairs.filter(p => p[1] > 0.5);
@@ -1093,8 +1258,8 @@ function axisAgreement(ua, da) {
 }
 /* drawing width follows the screen so labels keep their real size on phones */
 function plotWidth() { const el = $("#app"); return Math.max(300, Math.min(520, (el ? el.clientWidth : 520) - 8)); }
-function mapSVG(ua, da) {
-  const W = plotWidth(), H = Math.round(W * 0.82), P = 46;
+function mapSVG(ua, da, W = plotWidth()) {
+  const H = Math.round(W * 0.82), P = 46;
   /* domain padded beyond [-1, 1] so points on the extremes keep room for their labels */
   const D = 1.18, sx = x => P + (x + D) / (2 * D) * (W - 2 * P), sy = y => H - P - (y + D) / (2 * D) * (H - 2 * P);
   const pts = CANDS.map(c => ({ c, a: candAxes(c) })).filter(o => o.a.econ !== null && o.a.cult !== null);
@@ -1128,8 +1293,8 @@ function placeLabels(pts, W, H, P) {
     return { ...p, lx: p.x + 7, ly: p.y + 4, anchor: "start", lead: false };
   });
 }
-function euStrip(u, d) {
-  const W = plotWidth(), P = 46, sx = x => P + (x + 1) / 2 * (W - 2 * P);
+function euStrip(u, d, W = plotWidth()) {
+  const P = 46, sx = x => P + (x + 1) / 2 * (W - 2 * P);
   const pts = CANDS.map(c => ({ c, v: candAxes(c).eu })).filter(o => o.v !== null).sort((a, b) => a.v - b.v);
   return `<div class="tablewrap"><svg viewBox="0 0 ${W} 60" width="100%" style="max-width:${W}px" role="img" aria-label="Axe européen">
     <line x1="${P}" y1="30" x2="${W - P}" y2="30" stroke="var(--line)"/>
@@ -1140,19 +1305,29 @@ function euStrip(u, d) {
   </svg></div>
   <p class="muted small">De l'intégration à la souveraineté : ${pts.map(o => esc(o.c.short || o.c.name)).join(" · ")}</p>`;
 }
-function areaTable(eff, ks) {
-  const rows = AREAS.map(a => {
+/* mean agreement per theme for the given candidates, over the statements answered in that theme */
+function areaCells(eff, ks) {
+  return AREAS.map(a => {
     const ids = Object.keys(eff).filter(id => SBY[id].area === a.id);
     if (!ids.length) return null;
     const cells = ks.map(k => { let n = 0, s = 0; ids.forEach(id => { const cp = candPos(CANDS[k], id); if (!cp) return; n++; s += 1 - Math.abs(eff[id].v - cp.p) / 4; }); return n ? s / n : null; });
-    return `<tr><td>${esc(a.fr)}</td>${cells.map(v => v === null ? `<td class="num">—</td>` : `<td class="num"><span class="heat" style="background:color-mix(in srgb, var(--accent) ${Math.round(v * v * 70)}%, transparent);color:${v > 0.75 ? "var(--accent-ink)" : "var(--ink)"}">${pct(v)}</span></td>`).join("")}</tr>`;
+    return { area: a, n: ids.length, cells };
   }).filter(Boolean);
-  return `<div class="tablewrap"><table><thead><tr><th>Thème</th>${ks.map(k => `<th class="num">${esc(CANDS[k].short || CANDS[k].name)}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>`;
+}
+/* one neutral ramp (the accent over the surface), value printed in every cell so nothing is carried by colour alone */
+function heatmap(rows, ks) {
+  const cell = v => v === null ? `<td class="na" aria-label="position inconnue">—</td>` : `<td><span class="heat" style="background:color-mix(in srgb, var(--accent) ${Math.round(v * v * 70)}%, transparent);color:${v > 0.75 ? "var(--accent-ink)" : "var(--ink)"}">${pct(v)}</span></td>`;
+  return `<div class="tablewrap"><table class="heatmap"><thead><tr><th scope="col"><span class="sr">Thème</span></th>${ks.map(k => `<th scope="col">${avatar(CANDS[k])}<span>${esc(CANDS[k].short || CANDS[k].name)}</span></th>`).join("")}</tr></thead>
+    <tbody>${rows.map(r => `<tr><th scope="row">${esc(r.area.fr)}</th>${r.cells.map(cell).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+function disagreementRows(eff, k, minGap = 2) {
+  const c = CANDS[k];
+  return Object.entries(eff).map(([id, e]) => { const cp = candPos(c, id); return cp ? { id, e, cp, gap: Math.abs(e.v - cp.p) } : null; })
+    .filter(r => r && r.gap >= minGap).sort((a, b) => b.gap - a.gap).slice(0, 8);
 }
 function disagreements(eff, k) {
   const c = CANDS[k];
-  const rows = Object.entries(eff).map(([id, e]) => { const cp = candPos(c, id); return cp ? { id, e, cp, gap: Math.abs(e.v - cp.p) } : null; })
-    .filter(r => r && r.gap >= 2).sort((a, b) => b.gap - a.gap).slice(0, 8);
+  const rows = disagreementRows(eff, k);
   if (!rows.length) return `<p>Aucun désaccord marqué sur les propositions auxquelles vous avez répondu.</p>`;
   return rows.map(r => `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:10px">
     <p style="font-family:var(--serif);font-size:17px">${esc(SBY[r.id].fr)}</p>
