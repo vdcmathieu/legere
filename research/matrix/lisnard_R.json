@@ -1,0 +1,180 @@
+{
+ "collect": {
+  "candidate": "David Lisnard",
+  "bio": "David Lisnard, born 2 February 1969 in Limoges, is a Sciences Po Bordeaux graduate who has been mayor of Cannes since April 2014 (re-elected 2020 and 2026). He was president of the Association des maires de France from November 2021 and was re-elected in November 2023. He belonged to the RPR, UMP and Les Républicains, and was LR vice-president from June 2025. He left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027, under the banner of his movement Nouvelle Énergie. The movement was founded in 2014 and launched nationally in June 2021. A June 2026 Ifop poll gave him about 2% in the first round.",
+  "offices": [
+   {
+    "office": "Departmental councillor, Alpes-Maritimes (canton Cannes-2), vice-president for tourism",
+    "from": "2008-03-16",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Mayor of Cannes",
+    "from": "2014-04-05",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of the Cannes Pays de Lérins agglomeration",
+    "from": "2017-07-20",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of the Association des maires de France (AMF)",
+    "from": "2021-11-17",
+    "to": "present (re-elected Nov 2023; current status to be checked)",
+    "kind": "other"
+   },
+   {
+    "office": "Vice-president of Les Républicains",
+    "from": "2025-06-28",
+    "to": "2026-03-31",
+    "kind": "party"
+   },
+   {
+    "office": "Founder of Nouvelle Énergie",
+    "from": "2014",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 12.5,
+  "legal": [
+   {
+    "case": "Cannes burkini ban order (Aug 2016). The Conseil d'Etat ruled similar bans illegal on 26 Aug 2016, and in May 2018 the city was ordered to reimburse a fine. This is an administrative ruling against the municipality, not a criminal case against him personally.",
+    "status": "civil_or_other",
+    "date": "2016-08 to 2018-05",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Party loyalty and the LR primary",
+    "before": "A member of the RPR, UMP and then LR for about 30 years. He was LR vice-president from June 2025 and took part in LR's internal debates.",
+    "after": "Left LR on 31 March 2026 after opposing its primary process, and declared an independent candidacy.",
+    "years": "2025-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Cannes municipal management: debt reduced by about 55.5 million euros (2014-2019) and one of France's densest video-surveillance networks, with a reorganised municipal police.",
+    "assessment": "These are the figures his own camp and the sources used here present as achievements. The sources used here contain no critical assessment of them, so the balance is limited.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   },
+   {
+    "what": "2016 burkini ban order and the March 2020 beach disinfection with hydrogen peroxide and bleach, done despite Health Ministry opposition.",
+    "assessment": "Both episodes were criticised as legally invalid or ineffective. The burkini ruling is documented, with the Conseil d'Etat decision and the 2018 reimbursement.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified. The WebSearch budget was exhausted, so no left-leaning outlet could be consulted.",
+   "right_media": "Not verified. No right-leaning outlet could be consulted.",
+   "neutral_media": "Per the Wikipedia summary, Le Monde presents his liberal platform as an attempt to occupy an autonomous economic-right space left empty since Alain Madelin's 2002 candidacy. It also notes skepticism about it within the right."
+  },
+  "sources_note": "WebSearch was unavailable (200-search session cap reached), so this profile rests almost entirely on the French Wikipedia article on David Lisnard. Several claims in it come from press articles that I did not open myself. The Nouvelle Énergie and Lisnard campaign sites could not be fetched. No cross-lean corroboration was possible. Left blank: his programme details, whether he has any personal investigations, his documented reversals other than the LR departure, and traits attested by multiple sources. The immigration and provinces proposals come from Wikipedia and need primary-source confirmation. The 2% poll and the 500-endorsement claim (2 Sep 2026, a figure his camp claims) are unverified secondary-source items. This profile should be treated as incomplete and rerun when search quota is available."
+ },
+ "verify": {
+  "candidate": "David Lisnard",
+  "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded 2014, launched nationally in June 2021); an Ifop/Le Figaro poll in June 2026 gave him about 2% in the first round.",
+  "offices": [
+   {
+    "office": "General/departmental councillor, Alpes-Maritimes (canton Cannes-Est, then Cannes-2 from 2015)",
+    "from": "2008-03-16",
+    "to": "present",
+    "kind": "other"
+   },
+   {
+    "office": "Vice-president of the Alpes-Maritimes general/departmental council (tourism delegation)",
+    "from": "2014-05-22",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Mayor of Cannes",
+    "from": "2014-04-05",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of the Cannes Pays de Lérins agglomeration",
+    "from": "2017-07-20",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of the Association des maires de France (AMF)",
+    "from": "2021-11-17",
+    "to": "present",
+    "kind": "other"
+   },
+   {
+    "office": "Vice-president of Les Républicains",
+    "from": "2025-06-28",
+    "to": "2026-03-31",
+    "kind": "party"
+   },
+   {
+    "office": "Founder and president of Nouvelle Énergie",
+    "from": "2014",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 12.5,
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Cannes municipal management: debt reduced by about 55.5 million euros between 2014 and 2019 (Nice-Matin, 30 Dec 2019, as cited by Wikipedia), and an expanded video-surveillance network described as one of France's densest, alongside a reorganised municipal police (Le Point, 2 June 2015, as cited by Wikipedia).",
+    "assessment": "These figures are reported by regional and centre-right press as achievements. No critical or left-leaning assessment was found in the sources consulted, so the balance is limited.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   },
+   {
+    "what": "July/August 2016 municipal order banning beachwear 'ostentatiously showing a religious affiliation' (the so-called burkini ban), and 2020 Covid-era disinfection of Cannes beaches with hydrogen peroxide (three days, 8,400 euros) plus some streets with bleach at the end of March 2020.",
+    "assessment": "On 26 August 2016 the Conseil d'Etat ruled a similar order (Villeneuve-Loubet) illegal, and in May 2018 the city of Cannes was ordered to reimburse a fine issued under its order; this was an administrative/municipal matter, not a case against him personally. The disinfection went ahead despite advice from the Health Ministry and the Haut Conseil de la santé publique.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified: no left-leaning outlet could be consulted directly in this session.",
+   "right_media": "Not verified in 2025-2026 coverage. Older centre-right coverage cited by Wikipedia presents him as a prominent figure on the right (Le Figaro Magazine, June 2020, headline 'l'incontournable').",
+   "neutral_media": "Le Monde (9 April 2026, as cited by Wikipedia) presents his candidacy as an autonomous liberal offer on the right, a configuration not seen since Alain Madelin's 2002 candidacy, and notes that his liberalism struggles to convince within the right."
+  },
+  "sources_note": "WebSearch was unavailable in this verification pass as well (200-search session cap reached), so the profile rests on the French Wikipedia article on David Lisnard, which was fetched and re-read three times. Underlying press references (Le Monde 9 Apr 2026, Nice-Matin 30 Dec 2019, Le Point 2 Jun 2015, Le Figaro Magazine 5 Jun 2020) are cited as reported by Wikipedia and were not opened directly. Wikipedia mentions no judicial investigation, complaint or conviction concerning him personally; this is absence of evidence from one source, not a confirmed clean record. No cross-lean corroboration was possible, so traits and reversals are left empty. Treat as incomplete and rerun with search quota.",
+  "verification_notes": [
+   "bio: 're-elected in November 2023' -> 're-elected on 22 November 2023'; added Sciences Po class of 1992 and Ifop/Le Figaro attribution: precision per Wikipedia",
+   "bio: 'president of the AMF from November 2021' -> 'elected ... on 17 November 2021': exact date",
+   "offices[0]: single office 'Departmental councillor ... vice-president for tourism' from 2008 (local_executive) -> split into councillor from 2008-03-16 (kind other) and vice-president (tourism) from 2014-05-22 (local_executive): Wikipedia states he became vice-president delegated to tourism on 22 May 2014, not 2008; canton was Cannes-Est until 2015",
+   "offices[AMF].to: 'present (re-elected Nov 2023; current status to be checked)' -> 'present': Wikipedia lists him as still in office in 2026",
+   "offices[Nouvelle Énergie].office: 'Founder' -> 'Founder and president': minor clarification",
+   "executive_experience_years: 12.5 -> 12.5 (unchanged): mayor since April 2014 to October 2026 = 12.5 years; departmental vice-presidency and agglomeration presidency overlap and are not added",
+   "legal[0] burkini ban: removed from legal -> kept in delivery: the brief covers cases involving him personally; this was an administrative ruling against the municipality (and the Conseil d'Etat ruling concerned Villeneuve-Loubet's order, not Cannes's)",
+   "reversals[0] party loyalty / LR primary: dropped: leaving a party is not a documented change of policy position; per Wikipedia he consistently defended an open right-and-centre primary and left because LR's designation method did not provide it",
+   "delivery[1]: 'March 2020 beach disinfection with hydrogen peroxide and bleach' -> beaches disinfected with hydrogen peroxide (three days, 8,400 euros) and some streets with bleach at end of March 2020: draft conflated two episodes; also added HCSP advice",
+   "delivery[1].assessment: 'criticised as legally invalid or ineffective' -> factual description of the rulings and health-authority advice: removed uncited characterisation",
+   "delivery[0]: added the underlying outlets (Nice-Matin, Le Point) as cited by Wikipedia",
+   "media_portrayal.right_media: 'Not verified' -> noted older Le Figaro Magazine 2020 headline as cited by Wikipedia, flagged as not 2025-2026",
+   "media_portrayal.neutral_media: reworded to cite Le Monde 9 Apr 2026 (Alexandre Pedro) explicitly, matching Wikipedia's quoted wording",
+   "sources_note: rewritten to reflect this verification pass; removed reference to unverified 500-endorsement claim and immigration/provinces proposals not present in the profile",
+   "sources: only https://fr.wikipedia.org/wiki/David_Lisnard retained (confirmed fetched); no other URLs were in the draft"
+  ]
+ }
+}

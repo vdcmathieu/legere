@@ -1,0 +1,1045 @@
+{
+ "collect": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "PCF/Roussel campaign page calls for restoring and tripling the ISF.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "RÉTABLISSEMENT ET TRIPLEMENT DE L'ISF"
+     }
+    ],
+    "nuance": "Search budget exhausted mid-task; only pcf.fr and Wikipedia were fetched. Whether financial assets are included is not stated, but a tripled ISF clearly exceeds the statement."
+   },
+   {
+    "id": "eco2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "A tripled ISF goes further than a 2% floor tax; PCF-aligned left backed the Zucman tax, but no direct Roussel statement was verified this session.",
+    "sources": [],
+    "nuance": "Coded +1 from party line and recollection; not verified by an opened source."
+   },
+   {
+    "id": "eco3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PCF opposes unconditional employer-contribution cuts, favouring conditioned aid; Roussel is however friendly to SMEs and industry.",
+    "sources": [],
+    "nuance": "Inferred, unverified."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel campaigns on deindustrialisation, 'produire français' and criticises free-trade agreements.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "criticizing free-trade agreements that undermine French workers (summary of article)"
+     }
+    ],
+    "nuance": "No explicit tariff or quota statement verified."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes renationalising motorways, energy companies and more (Total nationalisation on campaign page).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "Advocacy for nationalizing Total energy company (page summary)"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "renationalizing certain sectors (autoroutes, energy companies, insurance) (summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eco6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF wants heavier taxation of large estates; no Roussel statement on lowering inheritance tax verified.",
+    "sources": [],
+    "nuance": "Inferred from party line."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retirement at 60 with full pension.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "LA RETRAITE À 60 ANS À TAUX PLEIN"
+     }
+    ],
+    "nuance": "Goes beyond 62."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Opposes any rise; wants 60.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "LA RETRAITE À 60 ANS À TAUX PLEIN"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF defends pay-as-you-go system and opposes capitalisation.",
+    "sources": [],
+    "nuance": "Not directly sourced this session."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "inferred",
+    "summary": "Programme is expansionary (500,000 civil servants, SMIC rise); austerity-driven deficit cutting rejected.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "RECRUTEMENT DE 500 000 FONCTIONNAIRES"
+     }
+    ],
+    "nuance": "Inferred from spending programme."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes recruiting 500,000 civil servants.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "RECRUTEMENT DE 500 000 FONCTIONNAIRES"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Large public-service and investment programme financed by taxation and credit; no explicit debt statement verified.",
+    "sources": [],
+    "nuance": "Roussel tends to stress financing by taxes on capital and ECB credit rather than debt alone, hence +1."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes the golden rule.",
+    "sources": [],
+    "nuance": "Not directly sourced this session."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "SMIC to 1,600 euros net.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "AUGMENTATION DU SMIC À 1600€ NET PAR MOIS"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes unemployment-insurance cuts.",
+    "sources": [],
+    "nuance": "Not directly sourced."
+   },
+   {
+    "id": "trav3",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel has favoured work-oriented replacement of RSA (job guarantee, Feb 2025) but PCF opposes punitive conditionality.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "In February 2025, he advocated eliminating the RSA, prioritizing job guarantees (summary)"
+     }
+    ],
+    "nuance": "Mixed; ambiguous."
+   },
+   {
+    "id": "trav4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "32-hour week.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "LA SEMAINE DE TRAVAIL À 32 HEURES"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel denies linking immigration to unemployment and rejects the right's framing, but is less liberal than the rest of the left.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "I don't link immigration and unemployment...it's shameful to say that (summary)"
+     }
+    ],
+    "nuance": "Not verified on legal-immigration volumes."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "He supports citizen-initiated referendums generally; nothing on immigration."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF defends AME.",
+    "sources": [],
+    "nuance": "Not directly sourced."
+   },
+   {
+    "id": "imm4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF supports regularisation of workers; Roussel's personal emphasis is less clear.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF rejects national preference.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes ending droit du sol.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "PCF long supports local voting rights for foreign residents.",
+    "sources": [],
+    "nuance": "Unverified this session."
+   },
+   {
+    "id": "sec1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes mandatory minimums; Roussel's tough-on-security stance tempers this.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "30-year sentences for killing authority figures (summary)"
+     }
+    ],
+    "nuance": "Unverified on peines planchers."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes weakening juvenile justice.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left generally favours independent police oversight.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel has publicly opposed cannabis legalisation, favouring fighting trafficking.",
+    "sources": [],
+    "nuance": "From recollection of 2022 statements; not verified this session."
+   },
+   {
+    "id": "sec5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Prioritises community policing over technological surveillance; PCF sceptical of AI video surveillance.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Programme includes disobeying EU rules that block social policy.",
+    "sources": [],
+    "nuance": "Unverified wording."
+   },
+   {
+    "id": "eu2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Critical of EU treaties but favours pooling for investment; no direct evidence.",
+    "sources": [],
+    "nuance": "Mixed."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Sovereigntist leaning against ceding foreign policy vetoes.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "PCF programme supports disobeying EU treaty rules that block the programme.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Criticizes European treaties... seeks greater national autonomy (summary)"
+     }
+    ],
+    "nuance": "Wording of disobedience not verified this session."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Criticises EU treaties but does not propose withdrawal.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "doesn't propose French EU withdrawal (summary)"
+     }
+    ],
+    "nuance": ""
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "PCF programme (proposition 127) reinstates the wealth tax, triples its yield, raises its rates and progressivity, and abolishes the flat tax (PFU).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "L'impôt sur la fortune sera rétabli ... Son taux et sa progressivité seront accentués"
+     },
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "RÉTABLISSEMENT ET TRIPLEMENT DE L'ISF"
+     }
+    ],
+    "nuance": "The asset base is not spelled out, but the ISF being restored included financial assets, so a restored and tripled ISF meets the statement in full. The detailed text is the 2022 'Jours heureux' programme, which pcf.fr still shows as the platform in 2026. The 2027 campaign site (fabienroussel2027.fr) has no detailed programme yet."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "The PCF is listed among the left-wing parties that back the Zucman tax. Its own programme goes further, with a tripled ISF.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "L'ensemble de la gauche, le Parti communiste français... défendent la mise en œuvre de la taxe Zucman"
+     }
+    ],
+    "nuance": "This is the party's position. No personal Roussel statement on the Zucman tax was verified (web search budget exhausted). Coded +2 because the party backs the measure outright, and the tripled-ISF programme goes beyond it."
+   },
+   {
+    "id": "eco3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme (proposition 11) abolishes the CICE-derived employer-contribution exemptions. A PCF petition calls for conditioning business aid and cutting the number of business tax breaks and subsidies by two thirds.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Les aides non contrôlées comme le crédit d'impôt pour la compétitivité et l'emploi (CICE) transformé en exonérations... seront supprimées."
+     },
+     {
+      "url": "https://www.pcf.fr/petition_conditionnement_aide_aux_grandes_entreprises",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (2025-2026 campaign)",
+      "quote": "Diviser par trois le nombre de dépenses fiscales et de subventions budgétaires aux entreprises d'ici 2030"
+     }
+    ],
+    "nuance": "Production taxes are not addressed explicitly. Roussel is friendly to SMEs and industry, but the programme removes existing contribution cuts rather than adding new ones."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme opposes free-trade treaties and calls for 'maîtrise des échanges' through a replacement for the WTO (proposition 171). Roussel campaigns on reindustrialisation.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "traités de libre-échange ... maîtrise des échanges (paraphrase of proposition 171)"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "ont transformé nos frontières en passoires (April 2023, about free-trade treaties)"
+     }
+    ],
+    "nuance": "No explicit tariff or quota proposal, and no acceptance of higher prices, was found. Coded +1 as a partial match."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes nationalising TotalEnergies and Engie alongside EDF. The programme lists nationalisations (EDF, Engie, SNCF and others), and Roussel calls for renationalising the motorways.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/nationalisation_total",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-2026 (PPL n°750 tabled in the Senate in 2024)",
+      "quote": "Nationaliser TotalEnergies, et Engie, aux côtés d'EDF, dans une ambition de service public"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "renationalisations dans certains secteurs, mentionnant les autoroutes, l'énergie (EDF et Engie)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eco6",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposition 128 makes inheritance tax much more progressive (twice as many brackets) and repeals avoidance schemes, with a EUR 170,000 allowance.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Une franchise de 170 000 euros sera instituée"
+     }
+    ],
+    "nuance": "Mixed in effect: the allowance would lower tax on modest estates, while large estates would pay more. Overall direction is against lowering the tax, hence -1."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retirement at 60 on a full pension (proposition 8).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Une loi rétablira la retraite à 60 ans, à taux plein"
+     },
+     {
+      "url": "https://www.pcf.fr",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "LA RETRAITE À 60 ANS À TAUX PLEIN"
+     }
+    ],
+    "nuance": "Goes beyond 62."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Opposes any rise. Wants retirement at 60.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Une loi rétablira la retraite à 60 ans, à taux plein"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF defends the pay-as-you-go system and opposes funded pensions.",
+    "sources": [],
+    "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced this session."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme (proposition 156) wants to permanently end the 3% deficit rule and the stability pact, which it calls an 'austerity straitjacket'. It also recruits 500,000 public employees.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "La France agira pour rendre définitif la fin des 3 % de déficits publics autorisés et du carcan austéritaire"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes creating 500,000 public-service jobs (proposition 29).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Il sera créé 500 000 emplois dans la fonction publique et les services publics"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "A large public-service and investment programme, financed mainly through taxing capital and a democratically controlled ECB (proposition 157). No explicit statement on debt was verified.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "ending ECB independence, under democratic control (paraphrase of proposition 157)"
+     }
+    ],
+    "nuance": "Coded +1 because the emphasis is on tax and ECB credit rather than debt as such."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme rejects the 3% deficit rule and the stability pact. A constitutional deficit cap runs directly against it.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "rendre définitif la fin des 3 % de déficits publics autorisés"
+     }
+    ],
+    "nuance": "The constitutional golden rule is not addressed by name. The position is deduced from the explicit rejection of deficit caps."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Raise the SMIC quickly to 1,600 euros net (proposition 1).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Le smic horaire sera augmenté pour atteindre rapidement 1 600 euros net par mois"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme (proposition 2) restores the jobseeker rights cut by earlier governments, both the qualifying period and the benefit level.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Les demandeuses et demandeurs d'emploi retrouveront leurs droits attaqués ... sur le niveau de l'allocation"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav3",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In February 2025 Roussel suggested abolishing the RSA in favour of a guaranteed job. The programme offers each person either a job or paid training (proposition 6) rather than conditionality.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "supprimer le revenu de solidarité active (RSA), préférant la garantie d'un emploi (February 2025)"
+     }
+    ],
+    "nuance": "Mixed: his stance is work-centred, but it replaces the RSA with a job guarantee rather than attaching activity hours to the RSA."
+   },
+   {
+    "id": "trav4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "32-hour week with no loss of pay (proposition 9).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_1",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "La semaine de travail passera à 32 heures, sans diminution de salaires."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme opens legal, safe routes for migrants and expands refugee reception (proposition 162). Roussel says he does not link immigration to unemployment, though his 'frontières passoires' rhetoric is less liberal than the rest of the left.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Des voies légales et sécurisées devront être ouvertes pour les migrant·e·s"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Je ne fais pas de lien entre immigration et chômage, [...] c'est honteux de dire cela (April 2023)"
+     }
+    ],
+    "nuance": "No statement on volumes of work, family or student immigration was found. Coded -1 rather than -2 because his rhetoric is more ambivalent than the programme."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "The programme (proposition 134) provides for referendums triggered by one million citizens in general, but says nothing on immigration specifically."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF defends the AME.",
+    "sources": [],
+    "nuance": "Not directly sourced. The programme pages opened do not mention the AME."
+   },
+   {
+    "id": "imm4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF supports regularising undocumented workers. Roussel's personal emphasis is less clear.",
+    "sources": [],
+    "nuance": "Unverified. The programme pages opened mention regularisation only for people in prostitution (objectif 5)."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF rejects national preference.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF opposes ending droit du sol.",
+    "sources": [],
+    "nuance": "Unverified. The programme pages opened do not mention droit du sol."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme gives foreign residents the vote in local and European elections (proposition 134).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Le droit de vote des résident·e·s étranger·e·s aux élections locales et européennes sera instauré."
+     }
+    ],
+    "nuance": "2022 programme. No 2025-2026 reversal was found."
+   },
+   {
+    "id": "sec1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme expands alternatives to imprisonment (proposition 143) and tackles the root causes of crime (proposition 144). Roussel has also proposed heavier sentences for specific crimes.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "expanded alternatives to incarceration (paraphrase of proposition 143)"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "peine de trente ans d'emprisonnement pour l'assassinat de tout détenteur d'une autorité"
+     }
+    ],
+    "nuance": "Mandatory minimum sentences are not addressed by name."
+   },
+   {
+    "id": "sec2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme ends imprisonment for 13- to 16-year-olds and restricts it for 16- to 18-year-olds (proposition 143), the opposite direction to treating 16+ offenders as adults.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "ends incarceration of 13-16 year olds and limits it for 16-18 year olds (paraphrase of proposition 143)"
+     }
+    ],
+    "nuance": "The programme does not mention trying minors as adults by name."
+   },
+   {
+    "id": "sec3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposition 141: an independent body will oversee police activity.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Une instance indépendante sera chargée du contrôle de l'activité policière."
+     }
+    ],
+    "nuance": "2022 programme. Roussel is otherwise pro-police (30,000 more community police)."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel has publicly opposed cannabis legalisation and prefers to fight trafficking.",
+    "sources": [],
+    "nuance": "From recollection of 2021-2022 statements. Not verified this session: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified."
+   },
+   {
+    "id": "sec5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Prioritises community policing (proposition 141) over technological surveillance.",
+    "sources": [],
+    "nuance": "Inferred. The programme pages opened do not mention video surveillance."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme complains that EU treaties let unaccountable bodies override national democratic choices, and seeks a break with the treaties.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_2",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "les décisions d'instances soustraites à tout contrôle citoyen auront systématiquement prévalu sur les choix démocratiques des nations"
+     }
+    ],
+    "nuance": "No explicit proposal that French law should prevail over EU law was found."
+   },
+   {
+    "id": "eu2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants a European climate and social pact worth 900 billion euros a year (proposition 155), but is critical of EU structures, pacifist on defence, and silent on joint borrowing.",
+    "sources": [],
+    "nuance": "Mixed. No direct evidence on joint borrowing."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "The EU section of the programme (moyen_3) does not address France's EU budget contribution."
+   },
+   {
+    "id": "eu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Sovereigntist leaning, favouring a 'Europe à géométrie choisie' of sovereign nations (proposition 159), which argues against giving up foreign-policy vetoes.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme seeks a 'rupture' with the current EU treaties and an end to the stability pact (proposition 156), but frames this as negotiation, not unilateral non-application.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "Elle engagera des discussions pour un processus de rupture avec les traités européens actuels"
+     }
+    ],
+    "nuance": "No 'désobéissance' wording was found in the programme. Coded as a partial match."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants to build a 'new Union' of sovereign nations rather than leave. Criticises the EU treaties but does not propose withdrawal.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_3",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022 programme, still hosted Oct 2026",
+      "quote": "dans l'objectif de construire une Union nouvelle : celle des peuples et des nations souverains, libres et associés"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "critique les traités européens sans proposer la sortie de la France de l'UE (paraphrase)"
+     }
+    ],
+    "nuance": ""
+   }
+  ],
+  "verification_notes": [
+   "Method: the session's WebSearch budget was used up (200/200), so verification used WebFetch on pcf.fr programme pages (moyen_1, moyen_2, moyen_3, objectif_1, objectif_2, nationalisation_total, petition page), Wikipedia FR and EN (Fabien_Roussel, Taxe_Zucman, Cannabis_en_France) and fabienroussel2027.fr. No cross-lean press corroboration was possible.",
+   "General: the detailed programme on pcf.fr is the 2022 'La France des jours heureux' text (180 proposals). The pcf.fr homepage presents it in a 2026 context, but fabienroussel2027.fr (candidacy announced 6 Sept 2026, slogan 'Vivre') has no detailed programme yet. Source dates were changed from '2026-10' to '2022 programme, still hosted Oct 2026' where applicable.",
+   "eco1: +2 high kept; source replaced with the proposition 127 text from pcf.fr/moyen_1 (ISF restored, higher rates and progressivity, PFU abolished).",
+   "eco2: +1 low party_line -> +2 medium party_line: Wikipedia Taxe_Zucman says the PCF backs the Zucman tax. Full party support, with no Roussel statement against it, is a +2; the draft had no source.",
+   "eco3: -1 low inferred -> -2 medium programme: proposition 11 abolishes the CICE-derived contribution exemptions, and a PCF petition calls for cutting business tax breaks and subsidies by two thirds.",
+   "eco4: +1 low statement -> +1 medium programme: proposition 171 (against free-trade treaties, 'maîtrise des échanges') added as source. No explicit tariff wording found, so +1 kept.",
+   "eco5: +2 high kept; the 'page summary' pseudo-quote was replaced with the verbatim petition text from pcf.fr/nationalisation_total; Wikipedia quote made verbatim.",
+   "eco6: -1 low party_line -> -1 medium programme: proposition 128 (more progressive inheritance tax, EUR 170k allowance) found.",
+   "ret1/ret2: kept; added the proposition 8 source from pcf.fr/objectif_1.",
+   "ret3: -2 medium -> -2 low: no source found on capitalisation in the programme pages opened.",
+   "fin1: -2 medium inferred -> -2 high programme: proposition 156 explicitly ends the 3% rule and the stability pact.",
+   "fin2: kept; source made more specific (proposition 29, objectif_2).",
+   "fin3: kept at +1 low inferred; added the proposition 157 (ECB) context.",
+   "fin4: -2 medium party_line -> -2 medium programme: proposition 156 rejects the 3% deficit rule; the golden rule is not named.",
+   "trav1: kept; added the proposition 1 verbatim source.",
+   "trav2: -2 medium party_line -> -2 high programme: proposition 2 restores the qualifying period and benefit levels.",
+   "trav3: kept at 0 low; the Wikipedia quote was replaced with the verbatim French text.",
+   "trav4: kept; added the proposition 9 source.",
+   "imm1: -1 low statement -> -1 medium programme: proposition 162 (legal routes, wider refugee reception) found; the Wikipedia quote was made verbatim.",
+   "imm2: null kept after a check; the programme's citizen referendum (proposition 134) is not immigration-specific.",
+   "imm3: -2 medium -> -2 low: no source; the programme is silent on the AME.",
+   "imm6: -2 medium -> -2 low: no source; the programme is silent on droit du sol.",
+   "imm7: +2 medium party_line -> +2 high programme: proposition 134 gives foreign residents the vote in local and European elections.",
+   "sec1: -1 low party_line -> -1 low inferred: proposition 143 (alternatives to imprisonment) added; the Wikipedia quote was made verbatim.",
+   "sec2: -1 low party_line -> -2 medium programme: proposition 143 ends imprisonment under 16 and restricts it for 16- to 18-year-olds, the opposite direction to the statement.",
+   "sec3: +1 low party_line -> +2 high programme: proposition 141 says 'Une instance indépendante sera chargée du contrôle de l'activité policière.'",
+   "sec4: -2 low kept but flagged: no source could be found this session (Wikipedia pages and the programme are silent). The code rests on recollection only; consider null if the orchestrator requires sourced evidence.",
+   "eu1: +1 low programme -> +1 low inferred: no primacy or disobedience wording in the programme. The draft's 'programme' type was unsupported; the moyen_2 intro sentence was added as a source.",
+   "eu2: kept at 0 low; proposition 155 (900 billion euro European climate pact) noted.",
+   "eu3: null kept after a check of the moyen_3 EU section.",
+   "eu5: +2 medium programme -> +1 low programme: the programme frames the break with the treaties as negotiation (propositions 154 and 156), with no 'désobéissance' wording, so +2 overstated it.",
+   "eu6: -2 high statement -> -2 high programme: proposition 156 ('construire une Union nouvelle') added; the Wikipedia summary relabelled as paraphrase.",
+   "URLs: all cited URLs were opened this session. pcf.fr/programme and pcf.fr/le_programme return 404; fabienroussel2022.fr redirects to fabienroussel2027.fr, whose /programme returns 404."
+  ]
+ }
+}

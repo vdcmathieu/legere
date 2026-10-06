@@ -1,0 +1,1205 @@
+{
+ "collect": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "int1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "LFI voted against the 2024 France-Ukraine security accord; Mélenchon has opposed arms deliveries since 2022 and promotes non-alignment and a rapid ceasefire.",
+    "sources": [
+     {
+      "url": "https://www.euractiv.fr/section/defense/news/lassemblee-nationale-vote-en-faveur-de-laccord-de-securite-franco-ukrainien-le-rn-et-lfi-sy-opposent/",
+      "outlet": "Euractiv",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-12",
+      "quote": "LFI voted against the agreement; Le Gall called France's support a 'blank check' (paraphrase of search summary)"
+     },
+     {
+      "url": "https://www.france24.com/fr/europe/20220301-jean-luc-m%C3%A9lenchon-regrette-la-fourniture-d-armes-%C3%A0-l-ukraine-par-l-ue",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-03-01",
+      "quote": "Mélenchon regrette la fourniture d'armes à l'Ukraine par l'UE"
+     }
+    ],
+    "nuance": "No 2026 statement found; evidence is 2022-2025. Programme stresses ceasefire and negotiation, not arms."
+   },
+   {
+    "id": "int2",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Troops only as peacekeepers under UN authority and command; opposes NATO/unilateral deployments.",
+    "sources": [
+     {
+      "url": "https://melenchon.fr/2025/03/09/si-tu-veux-la-paix-organise-la/",
+      "outlet": "melenchon.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-09",
+      "quote": "Paraphrase: any interposition troops only under UN authority and command; Ukraine must not join NATO."
+     }
+    ],
+    "nuance": "Conditional openness to a UN force, but opposes the French/European coalition-of-the-willing format as worded. -1 rather than 0."
+   },
+   {
+    "id": "int3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: withdraw immediately from NATO integrated command, then gradually from NATO.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Se retirer immédiatement du commandement intégré de l'OTAN"
+     }
+    ],
+    "nuance": "Consistent with L'Avenir en commun 2022."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Mélenchon says an LFI government would push suspension of the EU-Israel agreement plus arms embargo; LFI launched a citizens' initiative.",
+    "sources": [
+     {
+      "url": "https://linsoumission.fr/2026/05/11/melenchon-accord-ue-israel/",
+      "outlet": "L'insoumission",
+      "outlet_lean": "far-left",
+      "date": "2026-05-11",
+      "quote": "L'économie d'Israël ne peut pas vivre sans l'Europe."
+     }
+    ],
+    "nuance": "Source is party-aligned; the position is consistent with the programme and well established."
+   },
+   {
+    "id": "int5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit 3% rejection found; programme prioritises a public defence sector and non-alignment, and he questions war-driven spending.",
+    "sources": [
+     {
+      "url": "https://melenchon.fr/2025/03/09/si-tu-veux-la-paix-organise-la/",
+      "outlet": "melenchon.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-09",
+      "quote": "Paraphrase: questions whether war debt is subsidy to capitalism rather than security."
+     }
+    ],
+    "nuance": "LFI generally opposes the rearmament surge; no precise figure found. Coded -1 low confidence."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme proposes a nine-month 'conscription citoyenne' for under-25s, paid minimum wage, mixing military training and public-utility tasks.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "nine-month 'conscription citoyenne' for those under 25 (paraphrase)"
+     }
+    ],
+    "nuance": "Appears as a programme summary item; whether compulsory is not fully verified against the primary text. 'Conscription' implies obligation."
+   },
+   {
+    "id": "int7",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "He has opposed sanctions as escalation (2022) and wants a negotiated peace; no explicit statement on phased lifting found.",
+    "sources": [
+     {
+      "url": "https://www.france24.com/fr/europe/20220301-jean-luc-m%C3%A9lenchon-regrette-la-fourniture-d-armes-%C3%A0-l-ukraine-par-l-ue",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-03-01",
+      "quote": "sanctions can only lead to escalation (paraphrase of search summary)"
+     }
+    ],
+    "nuance": "Leans for as part of a peace deal, but he insists Ukraine be at the table and Russian troops withdraw. 0 given mixed evidence."
+   },
+   {
+    "id": "ecol1",
+    "position": 1,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: moratorium on ZFE in current form (social inequity), not outright abolition.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Décréter un moratoire sur les zones à faibles émissions (ZFE)"
+     }
+    ],
+    "nuance": "Partial: moratorium and redesign, not abolition."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: immediately ban the most dangerous pesticides (glyphosate, neonicotinoids) and plan reductions.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes)"
+     }
+    ],
+    "nuance": "Programme also mentions protectionist measures for agriculture; not verified explicitly about foreign competition."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No 2035 end-of-sales position found in the programme summary, which focuses on SUV limits and French EV manufacturing.",
+    "sources": [],
+    "nuance": "LFI generally supports phasing out thermal cars, but not verified."
+   },
+   {
+    "id": "ecol4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme eliminates short air routes where trains exist (under 4 hours); LFI has long backed kerosene and private-jet taxation but not verified in this session.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "eliminating airline routes under 4 hours where train alternatives exist (paraphrase)"
+     }
+    ],
+    "nuance": "Short-flight ban is regulation not tax; coded +1."
+   },
+   {
+    "id": "ecol5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme built on 'planification écologique' with 200bn euro investment and a 'règle verte'; ecology takes priority.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "planification écologique ... 200 billion euros"
+     }
+    ],
+    "nuance": "Explicit priority over growth is inferred from the programme's logic and LFI's anti-productivism."
+   },
+   {
+    "id": "ene1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: exit nuclear, abandon EPR projects.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Sortir du nucléaire : abandonner les projets d'EPR"
+     }
+    ],
+    "nuance": "Some LFI figures are pro-nuclear internally."
+   },
+   {
+    "id": "ene2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: phase out nuclear (reported by 2050), 100% renewables.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "planifier le démantèlement, la réhabilitation et la reconversion des sites"
+     }
+    ],
+    "nuance": "Internal dissent noted by elyseescope."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: emergency plan for offshore wind and massive solar and wind infrastructure.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "un plan d'urgence pour l'éolien maritime"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ene4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: cancel liberalisation of electricity and gas markets, renationalise EDF and Engie, disobey incompatible EU rules.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Annuler la libéralisation du marché de l'électricité et du gaz"
+     }
+    ],
+    "nuance": "Formulated as cancelling liberalisation and national pricing."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: convene a Constituante for a Sixth Republic.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Convoquer une Constituante pour passer à la 6e République"
+     }
+    ],
+    "nuance": "Parliamentary character consistent with LFI's anti-presidentialism."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: elect the National Assembly by proportional representation.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Élire l'Assemblée nationale au scrutin proportionnel"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: introduce the RIC.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Instaurer le Référendum d'initiative citoyenne"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: abolish forced-vote procedures such as 49.3.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Abolir les procédures de votes forcés...comme l'article 49.3"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RIC and constituent referendums are core, but no explicit endorsement of referendums on immigration or justice found; LFI is wary of referendums on immigration.",
+    "sources": [],
+    "nuance": "Broader referendum scope supported in general, topic-specific stance unverified."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme: constitutionalise the 'droit de mourir dans la dignité'.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "droit de mourir dans la dignité"
+     }
+    ],
+    "nuance": "LFI group votes on the 2025 assisted dying bill not checked."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes restrictions on the veil in public space; Mélenchon defends the 1905 law framework and no veil ban beyond current law.",
+    "sources": [],
+    "nuance": "No source opened this session; coded from well-known party line."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes extending bans to accompanying parents and universities.",
+    "sources": [],
+    "nuance": "Not verified via search this session (search budget exhausted)."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI conception of laïcité is state neutrality and freedom of conscience.",
+    "sources": [],
+    "nuance": "Not verified this session; Mélenchon has also stressed firm secularism in schools."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; LFI position is mixed and the programme summary does not mention it.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on school uniforms.",
+    "sources": [],
+    "nuance": "LFI opposed the uniform experiment in 2024 per memory, unverified."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme rebuilds public education with massive hiring; L'Avenir en commun planned smaller classes.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "education service rebuilding commitments (paraphrase)"
+     }
+    ],
+    "nuance": "Detail inferred from the 2022 programme."
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposed the 2023 'groupes de niveau' reform.",
+    "sources": [],
+    "nuance": "Not verified this session."
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI supports ending public funding for private schools or conditioning it strongly.",
+    "sources": [],
+    "nuance": "Not verified this session."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: dismantle Parcoursup.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Démanteler le système Parcoursup"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "san1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI favours incentives and public health centres over coercion; 2022 programme opposed compulsory installation in principle for regulation of installation though.",
+    "sources": [],
+    "nuance": "Mixed and unverified; coded -1 low."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: repeal the 2024 rise in medical franchises.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Abroger la hausse des franchises médicales de 2024"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI supports rent controls and a rent freeze; programme includes price blocking.",
+    "sources": [],
+    "nuance": "Rent-cap detail not verified this session."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme opposes tendering of transport lines, renationalises SNCF, EDF and Engie.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Oppose mise en concurrence of transport lines; renationalize SNCF (paraphrase)"
+     }
+    ],
+    "nuance": "None."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "int1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "In March 2024 LFI voted against the France-Ukraine security accord, which included up to 3bn euros of military aid. Mélenchon regretted EU arms deliveries in 2022, calling them co-belligerence. The 2027 programme focuses on a diplomatic framework for a ceasefire and says nothing about military aid.",
+    "sources": [
+     {
+      "url": "https://www.euractiv.fr/section/defense/news/lassemblee-nationale-vote-en-faveur-de-laccord-de-securite-franco-ukrainien-le-rn-et-lfi-sy-opposent/",
+      "outlet": "Euractiv",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-12",
+      "quote": "Paraphrase of headline: the Assemblée voted for the Franco-Ukrainian security accord; RN and LFI opposed it (article body not reachable)."
+     },
+     {
+      "url": "https://www.france24.com/fr/europe/20220301-jean-luc-m%C3%A9lenchon-regrette-la-fourniture-d-armes-%C3%A0-l-ukraine-par-l-ue",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-03-01",
+      "quote": "Je regrette que l'Union européenne ait décidé de fournir des armements nécessaires à une guerre"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "En Ukraine, agir pour créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes"
+     }
+    ],
+    "nuance": "No explicit 2025-2026 statement against arms deliveries was found. The 2024 vote was a non-binding Article 50-1 consultation. The 2027 programme is silent on aid, so -2 rests on 2022-2024 evidence and confidence is lowered to medium."
+   },
+   {
+    "id": "int2",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He would accept interposition troops only under UN authority and UN military command, and opposes a NATO or coalition-of-the-willing deployment.",
+    "sources": [
+     {
+      "url": "https://melenchon.fr/2025/03/09/si-tu-veux-la-paix-organise-la/",
+      "outlet": "melenchon.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-09",
+      "quote": "Paraphrase: if troops were deployed to interpose and guarantee peace, they could only be under UN authority and its military command."
+     }
+    ],
+    "nuance": "His openness to a UN force is conditional, and he rejects the French/European format the statement implies. Coded -1 rather than 0."
+   },
+   {
+    "id": "int3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme calls for leaving NATO's integrated command immediately, then the organisation itself in stages.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même"
+     }
+    ],
+    "nuance": "Consistent with L'Avenir en commun 2022."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme calls for sanctions on the Netanyahu government, ending economic cooperation agreements with Israel and an arms embargo. LFI also backed a European Citizens' Initiative to suspend the EU-Israel association agreement.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "interrompre les accords de coopération économique avec Israël et décréter un embargo sur les armes"
+     },
+     {
+      "url": "https://linsoumission.fr/2026/05/11/melenchon-accord-ue-israel/",
+      "outlet": "L'insoumission",
+      "outlet_lean": "far-left",
+      "date": "2026-05-11",
+      "quote": "L'économie d'Israël ne peut pas vivre sans l'Europe. Ils auraient été obligés d'arrêter le carnage"
+     }
+    ],
+    "nuance": "The position is well established in both the programme and recent statements."
+   },
+   {
+    "id": "int5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit position on a 3% target was found. The programme prioritises a public arms sector and non-alignment. He has asked whether war debt is a subsidy to capitalism.",
+    "sources": [
+     {
+      "url": "https://melenchon.fr/2025/03/09/si-tu-veux-la-paix-organise-la/",
+      "outlet": "melenchon.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-09",
+      "quote": "Paraphrase: questions whether war debt is anything other than a subsidy to capitalism in crisis."
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Créer un pôle public de l'armement, stopper les privatisations des industries d'armement"
+     }
+    ],
+    "nuance": "The programme sets no spending figure. -1 is an inference, so confidence is low."
+   },
+   {
+    "id": "int6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme creates a compulsory nine-month citizen service ('conscription citoyenne') for under-25s, paid at the SMIC. Military service is an optional part of that compulsory service.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Ouvrir la possibilité d'un service militaire comme composante optionnelle du service citoyen obligatoire"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: nine-month citizen conscription for under-25s, men and women, paid at revalued SMIC."
+     }
+    ],
+    "nuance": "The statement says 'military OR national' service. He backs a compulsory national service in which the military part is optional, which is a full form of the statement."
+   },
+   {
+    "id": "int7",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "In 2022 he questioned sanctions such as the SWIFT exclusion and called for negotiation. The 2027 programme seeks a ceasefire and the withdrawal of Russian troops. No explicit statement on lifting sanctions step by step for peace was found.",
+    "sources": [
+     {
+      "url": "https://www.france24.com/fr/europe/20220301-jean-luc-m%C3%A9lenchon-regrette-la-fourniture-d-armes-%C3%A0-l-ukraine-par-l-ue",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-03-01",
+      "quote": "Le peuple russe n'est pas notre ennemi, ne le confondons pas avec le régime nationaliste"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/europe",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "agir pour créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes"
+     }
+    ],
+    "nuance": "Evidence is mixed and old, so the code is 0 with low confidence."
+   },
+   {
+    "id": "ecol1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2027 programme calls for a moratorium on ZFE in their current, socially unequal design. On 28 May 2025 the LFI group voted with LR, RN and UDR for the article abolishing ZFE.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Décréter un moratoire sur les zones à faibles émissions (ZFE) dans leur conception actuelle"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Zone_à_faibles_émissions_mobilité",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "adopté en séance publique le 28 mai 2025 avec le soutien de ces deux groupes, ainsi que des groupes LFI et UDR"
+     }
+    ],
+    "nuance": "The group vote for abolition points to +2, but the newer programme speaks of a moratorium and redesign. Coded +1 on the current programme."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme bans the most dangerous pesticides (glyphosate, neonicotinoids) immediately. The summary says it also bans imports of products containing them.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes)"
+     }
+    ],
+    "nuance": "The ban is unilateral and not conditional on foreign competitors, which matches the statement."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "The 2027 programme has no 2035 end-of-sales position. It focuses on limiting SUVs and building light electric vehicles in France.",
+    "sources": [],
+    "nuance": "A fetch of the climate chapter found no '2035' or 'thermique' vehicle measure. The search budget was exhausted, so EP group votes were not checked."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme ends kerosene tax exemptions and abolishes flights where a train alternative takes under four hours.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/economie",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Mettre fin aux niches fiscales sur le kérosène"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supprimer les lignes aériennes quand l'alternative en train est inférieure à quatre heures"
+     }
+    ],
+    "nuance": "The kerosene measure is framed around e-commerce dumping. No private-jet tax was found in the summary. The short-flight measure is a ban rather than a tax."
+   },
+   {
+    "id": "ecol5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme rests on ecological planning and a constitutional 'règle verte': take no more from nature than it can rebuild.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Inscrire dans la Constitution le principe de la « règle verte »"
+     }
+    ],
+    "nuance": "The programme does not explicitly rank climate above growth. The ranking is read from the règle verte, which as a constitutional rule overrides growth."
+   },
+   {
+    "id": "ene1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme exits nuclear and abandons EPR projects.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Sortir du nucléaire : abandonner les projets d'EPR"
+     }
+    ],
+    "nuance": "Some LFI figures are pro-nuclear internally."
+   },
+   {
+    "id": "ene2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme exits nuclear and plans the dismantling and conversion of nuclear sites.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Sortir du nucléaire : abandonner les projets d'EPR (European Pressurized Reactor), planifier le démantèlement"
+     }
+    ],
+    "nuance": "The phase-out is planned, which matches 'progressivement'."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme includes an emergency plan for offshore wind and secures the industry's development.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Mettre en œuvre un plan d'urgence pour l'éolien maritime"
+     }
+    ],
+    "nuance": "No onshore-wind measure was found, but nothing suggests halting wind."
+   },
+   {
+    "id": "ene4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme cancels liberalisation of the electricity and gas market, renationalises EDF and Engie, and restores regulated tariffs based on production costs.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Annuler la libéralisation du marché de l'électricité et du gaz"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Remettre en place des tarifs réglementés de l'énergie calculés à partir des coûts de production"
+     }
+    ],
+    "nuance": "The summary never says 'leave the European electricity market' explicitly. The draft's 'disobey EU rules' wording was not found in the programme. National cost-based pricing is the substance of the statement, so the code stays +2 at medium confidence."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme convenes a Constituante for a Sixth Republic with 'un régime parlementaire stable'.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Convoquer une Constituante pour passer à la 6e République"
+     }
+    ],
+    "nuance": "The parliamentary character is explicit in the programme."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme elects the National Assembly by proportional representation.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Élire l'Assemblée nationale au scrutin proportionnel"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme creates a RIC that can recall elected officials, propose or repeal laws, and amend the Constitution.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Instaurer le Référendum d'initiative citoyenne"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme's RIC can propose or repeal any law, and referendums become compulsory for constitutional changes and new EU treaties. No explicit endorsement of referendums on immigration or justice was found.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen"
+     }
+    ],
+    "nuance": "A general-purpose RIC implicitly reaches these topics, but the statement echoes a right-wing proposal on immigration that LFI does not back as such."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme abolishes forced-vote procedures such as Article 49.3.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Abolir les procédures de « votes forcés » du Parlement comme l'article 49.3"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme writes into the Constitution the right to die with dignity, including with assistance, plus guaranteed palliative care.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/sante",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "mourir dans la dignité (y compris avec assistance)"
+     }
+    ],
+    "nuance": "LFI votes on the 2025 assisted-dying bill were not verified (search budget exhausted)."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes restrictions on the veil in public space. The programme stresses freedom of conscience and contains no veil ban.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Garantir la liberté de conscience et l'application stricte de la laïcité"
+     }
+    ],
+    "nuance": "No direct statement on a general veil ban was opened this session. The code rests on the well-known party line, so confidence is low."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes extending the ban on religious symbols to parents on school trips and to universities.",
+    "sources": [],
+    "nuance": "Not verified this session (search budget exhausted). The programme summary does not mention it."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI's laïcité centres on state neutrality and freedom of conscience. The programme pairs freedom of conscience with 'strict' laïcité aimed at state funding of religion.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Garantir la liberté de conscience et l'application stricte de la laïcité"
+     }
+    ],
+    "nuance": "'Strict' laïcité in the programme targets the state, for example no public money for religious buildings, not citizens' expression. No direct statement was opened."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme explicitly rejects surrogacy (GPA) and puts the best interest of the child first.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/institutions",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Refuser la gestation pour autrui (GPA), faire prévaloir l'intérêt supérieur de l'enfant comme principe premier"
+     }
+    ],
+    "nuance": "The refusal is unqualified, so it also covers non-commercial GPA."
+   },
+   {
+    "id": "edu1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme suspends the school-uniform experiment.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/education",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Suspendre l'expérimentation de l'uniforme"
+     }
+    ],
+    "nuance": "Ending even the experiment is clear opposition to making uniforms mandatory."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme cuts class sizes everywhere to beat the European average of 19 pupils, with systematic teacher hiring.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/education",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Réduire partout les effectifs par classe pour faire mieux que la moyenne en Europe"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme ends ability groups in collège and keeps mixed-ability classes.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/education",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "en mettant fin aux groupes de niveaux au collège"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme applies a malus to public funding of contracted private schools that contribute to social segregation, and repeals the loi Carle.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/education",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Appliquer un malus au financement public des établissements privés sous contrat contribuant à la ségrégation socio-scolaire"
+     }
+    ],
+    "nuance": "Nearly a word-for-word match with the statement."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme dismantles Parcoursup and guarantees selection-free university access for all bac holders.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/education",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "san1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme regulates where doctors may set up practice, makes on-call duty compulsory and recruits salaried public doctors for under-served areas.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/sante",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Réguler l'installation des médecins et généraliser les guichets uniques"
+     }
+    ],
+    "nuance": "Regulating where doctors set up is a constraint on new doctors, but not explicitly a requirement to serve a few years in under-served areas. Coded +1 for this partial support."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme repeals the 2024 rise in medical co-payments and aims for '100% Sécu' coverage.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/sante",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Abroger la hausse des franchises médicales de 2024"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme caps rents everywhere in France and lowers them in big cities.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/economie",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Encadrer les loyers partout sur le territoire et à la baisse dans les grandes villes"
+     }
+    ],
+    "nuance": "This goes further than the statement, which covers only shortage areas."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme renationalises SNCF and refuses tendering of rail lines. It cancels energy-market liberalisation and renationalises EDF and Engie.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: renationalise SNCF, refuse competitive tendering of lines."
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/climat",
+      "outlet": "votons-2027.fr (programme summary)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Annuler la libéralisation du marché de l'électricité et du gaz"
+     }
+    ],
+    "nuance": "None."
+   }
+  ],
+  "verification_notes": [
+   "Search budget was exhausted early (200/200 WebSearch). All checks used WebFetch of the votons-2027.fr programme chapters (europe, climat, institutions, sante, education, economie, securite), the France 24, melenchon.fr and L'insoumission pages, and Wikipédia. melenchon2027.fr/programme2025/livre says the programme is being updated, so votons-2027.fr remains the programme proxy.",
+   "Euractiv URL redirects (301) to euractiv.com, which could not be fetched. The URL is kept and the quote is marked as a paraphrase of the headline.",
+   "int1: -2/high -> -2/medium: no 2025-2026 evidence; the 2024 vote was a non-binding 50-1 debate; 2027 programme silent on aid. Added verbatim France 24 quote and programme source.",
+   "int4: sources: added the programme measure (interrompre les accords de coopération économique avec Israël, arms embargo); evidence_type statement -> programme.",
+   "int5: added programme public arms sector source; code unchanged.",
+   "int6: +1/medium -> +2/high: europe chapter confirms 'service citoyen obligatoire' with an optional military part; the statement says military OR national service, so this is full support.",
+   "int7: France 24 quote replaced with a verified verbatim line; added programme source; code unchanged.",
+   "ecol1: +1/high -> +1/medium: found LFI group voted on 28 May 2025 for ZFE abolition (Wikipédia). The current programme is a moratorium on the current design, so +1 is kept with confidence lowered and the vote added.",
+   "ecol2: nuance corrected: programme also bans imports of the products, so the ban is unilateral, which matches the statement.",
+   "ecol3: null kept: climat chapter fetched, no 2035 or thermal-car measure.",
+   "ecol4: +1 -> +2/medium: economie chapter has 'Mettre fin aux niches fiscales sur le kérosène', which with the short-flight ban is strong support.",
+   "ecol5: source quote replaced with the verbatim règle verte measure (the '200 billion' quote was not found on the page); code unchanged.",
+   "ene4: +2/high -> +2/medium: 'disobey EU rules' and an explicit exit from the EU market were not found; added the regulated cost-based tariffs quote.",
+   "ins1: source moved to the institutions chapter, which confirms 'régime parlementaire stable'.",
+   "ins5: added the programme referendum source; code unchanged.",
+   "soc1: +2/medium -> +2/high: sante chapter confirms 'mourir dans la dignité (y compris avec assistance)'.",
+   "soc2: -2/medium -> -2/low: no source opened; party line only. Added programme freedom-of-conscience source.",
+   "soc4: added programme source; code +2/low kept.",
+   "soc5: null -> -2/high programme: institutions chapter says 'Refuser la gestation pour autrui (GPA)'. The null was wrong.",
+   "edu1: null -> -2/high programme: 'Suspendre l'expérimentation de l'uniforme'.",
+   "edu2: +2/medium -> +2/high: verbatim class-size measure found.",
+   "edu3: -2/low party_line -> -2/high programme: 'mettant fin aux groupes de niveaux au collège'.",
+   "edu4: +2/low party_line -> +2/high programme: malus on funding of private schools under contract that contribute to segregation.",
+   "edu5: source moved to the education chapter with a verbatim quote.",
+   "san1: -1/low party_line -> +1/medium programme: 'Réguler l'installation des médecins'. The draft wrongly said he opposes constraint.",
+   "san3: +2/medium party_line -> +2/high programme: 'Encadrer les loyers partout sur le territoire'.",
+   "san4: added the energy liberalisation source; code unchanged.",
+   "Unverified, left as is: int2, int3, ene1-3, ins2-4, san2 confirmed against programme; soc3 remains unsourced party line."
+  ]
+ }
+}

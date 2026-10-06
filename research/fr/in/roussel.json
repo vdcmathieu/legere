@@ -1,0 +1,443 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "PCF programme (proposition 127) reinstates the wealth tax, triples its yield, raises its rates and progressivity, and abolishes the flat tax (PFU).",
+   "nuance": "The asset base is not spelled out, but the ISF being restored included financial assets, so a restored and tripled ISF meets the statement in full. The detailed text is the 2022 'Jours heureux' programme, which pcf.fr still shows as the platform in 2026. The 2027 campaign site (fabienroussel2027.fr) has no detailed programme yet."
+  },
+  {
+   "id": "eco2",
+   "summary": "The PCF is listed among the left-wing parties that back the Zucman tax. Its own programme goes further, with a tripled ISF.",
+   "nuance": "This is the party's position. No personal Roussel statement on the Zucman tax was verified (web search budget exhausted). Coded +2 because the party backs the measure outright, and the tripled-ISF programme goes beyond it."
+  },
+  {
+   "id": "eco3",
+   "summary": "The programme (proposition 11) abolishes the CICE-derived employer-contribution exemptions. A PCF petition calls for conditioning business aid and cutting the number of business tax breaks and subsidies by two thirds.",
+   "nuance": "Production taxes are not addressed explicitly. Roussel is friendly to SMEs and industry, but the programme removes existing contribution cuts rather than adding new ones."
+  },
+  {
+   "id": "eco4",
+   "summary": "The programme opposes free-trade treaties and calls for 'maîtrise des échanges' through a replacement for the WTO (proposition 171). Roussel campaigns on reindustrialisation.",
+   "nuance": "No explicit tariff or quota proposal, and no acceptance of higher prices, was found. Coded +1 as a partial match."
+  },
+  {
+   "id": "eco5",
+   "summary": "Proposes nationalising TotalEnergies and Engie alongside EDF. The programme lists nationalisations (EDF, Engie, SNCF and others), and Roussel calls for renationalising the motorways.",
+   "nuance": ""
+  },
+  {
+   "id": "eco6",
+   "summary": "Proposition 128 makes inheritance tax much more progressive (twice as many brackets) and repeals avoidance schemes, with a EUR 170,000 allowance.",
+   "nuance": "Mixed in effect: the allowance would lower tax on modest estates, while large estates would pay more. Overall direction is against lowering the tax, hence -1."
+  },
+  {
+   "id": "ret1",
+   "summary": "Retirement at 60 on a full pension (proposition 8).",
+   "nuance": "Goes beyond 62."
+  },
+  {
+   "id": "ret2",
+   "summary": "Opposes any rise. Wants retirement at 60.",
+   "nuance": ""
+  },
+  {
+   "id": "ret3",
+   "summary": "The PCF defends the pay-as-you-go system and opposes funded pensions.",
+   "nuance": "The programme pages opened do not mention capitalisation explicitly. This is the long-standing party line, not directly sourced this session."
+  },
+  {
+   "id": "fin1",
+   "summary": "The programme (proposition 156) wants to permanently end the 3% deficit rule and the stability pact, which it calls an 'austerity straitjacket'. It also recruits 500,000 public employees.",
+   "nuance": ""
+  },
+  {
+   "id": "fin2",
+   "summary": "Proposes creating 500,000 public-service jobs (proposition 29).",
+   "nuance": ""
+  },
+  {
+   "id": "fin3",
+   "summary": "A large public-service and investment programme, financed mainly through taxing capital and a democratically controlled ECB (proposition 157). No explicit statement on debt was verified.",
+   "nuance": "Coded +1 because the emphasis is on tax and ECB credit rather than debt as such."
+  },
+  {
+   "id": "fin4",
+   "summary": "The programme rejects the 3% deficit rule and the stability pact. A constitutional deficit cap runs directly against it.",
+   "nuance": "The constitutional golden rule is not addressed by name. The position is deduced from the explicit rejection of deficit caps."
+  },
+  {
+   "id": "trav1",
+   "summary": "Raise the SMIC quickly to 1,600 euros net (proposition 1).",
+   "nuance": ""
+  },
+  {
+   "id": "trav2",
+   "summary": "The programme (proposition 2) restores the jobseeker rights cut by earlier governments, both the qualifying period and the benefit level.",
+   "nuance": ""
+  },
+  {
+   "id": "trav3",
+   "summary": "As a deputy, Roussel voted against the whole projet de loi pour le plein emploi at first reading (10 Oct 2023). That law created the 15-20 hours of activity required of RSA recipients. No 2025-2026 promise to abolish the obligation was found.",
+   "nuance": "He opposed creating the obligation, but no abolition pledge was found, so this is -1 rather than -2. The PCF programme on pcf.fr (proposition 42) wants to open the RSA to under-25s and eventually replace it with a guaranteed job or training scheme."
+  },
+  {
+   "id": "trav4",
+   "summary": "32-hour week with no loss of pay (proposition 9).",
+   "nuance": ""
+  },
+  {
+   "id": "imm1",
+   "summary": "The programme opens legal, safe routes for migrants and expands refugee reception (proposition 162). Roussel says he does not link immigration to unemployment, though his 'frontières passoires' rhetoric is less liberal than the rest of the left.",
+   "nuance": "No statement on volumes of work, family or student immigration was found. Coded -1 rather than -2 because his rhetoric is more ambivalent than the programme."
+  },
+  {
+   "id": "imm2",
+   "summary": "No evidence found.",
+   "nuance": "The programme (proposition 134) provides for referendums triggered by one million citizens in general, but says nothing on immigration specifically."
+  },
+  {
+   "id": "imm3",
+   "summary": "The PCF defends the AME.",
+   "nuance": "Not directly sourced. The programme pages opened do not mention the AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "The PCF supports regularising undocumented workers. Roussel's personal emphasis is less clear.",
+   "nuance": "Unverified. The programme pages opened mention regularisation only for people in prostitution (objectif 5)."
+  },
+  {
+   "id": "imm5",
+   "summary": "The PCF rejects national preference.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "imm6",
+   "summary": "The PCF opposes ending droit du sol.",
+   "nuance": "Unverified. The programme pages opened do not mention droit du sol."
+  },
+  {
+   "id": "imm7",
+   "summary": "The programme gives foreign residents the vote in local and European elections (proposition 134).",
+   "nuance": "2022 programme. No 2025-2026 reversal was found."
+  },
+  {
+   "id": "sec1",
+   "summary": "The programme expands alternatives to imprisonment (proposition 143) and tackles the root causes of crime (proposition 144). Roussel has also proposed heavier sentences for specific crimes.",
+   "nuance": "Mandatory minimum sentences are not addressed by name."
+  },
+  {
+   "id": "sec2",
+   "summary": "The programme ends imprisonment for 13- to 16-year-olds and restricts it for 16- to 18-year-olds (proposition 143), the opposite direction to treating 16+ offenders as adults.",
+   "nuance": "The programme does not mention trying minors as adults by name."
+  },
+  {
+   "id": "sec3",
+   "summary": "Proposition 141: an independent body will oversee police activity.",
+   "nuance": "2022 programme. Roussel is otherwise pro-police (30,000 more community police)."
+  },
+  {
+   "id": "sec4",
+   "summary": "Roussel has publicly opposed cannabis legalisation and prefers to fight trafficking.",
+   "nuance": "From recollection of 2021-2022 statements. Not verified this session: the programme pages and the Wikipedia pages on Roussel and on cannabis in France do not mention it. Treat as unverified."
+  },
+  {
+   "id": "sec5",
+   "summary": "Prioritises community policing (proposition 141) over technological surveillance.",
+   "nuance": "Inferred. The programme pages opened do not mention video surveillance."
+  },
+  {
+   "id": "eu1",
+   "summary": "The programme complains that EU treaties let unaccountable bodies override national democratic choices, and seeks a break with the treaties.",
+   "nuance": "No explicit proposal that French law should prevail over EU law was found."
+  },
+  {
+   "id": "eu2",
+   "summary": "Wants a European climate and social pact worth 900 billion euros a year (proposition 155), but is critical of EU structures, pacifist on defence, and silent on joint borrowing.",
+   "nuance": "Mixed. No direct evidence on joint borrowing."
+  },
+  {
+   "id": "eu3",
+   "summary": "No evidence found.",
+   "nuance": "The EU section of the programme (moyen_3) does not address France's EU budget contribution."
+  },
+  {
+   "id": "eu4",
+   "summary": "Sovereigntist leaning, favouring a 'Europe à géométrie choisie' of sovereign nations (proposition 159), which argues against giving up foreign-policy vetoes.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "eu5",
+   "summary": "The programme seeks a 'rupture' with the current EU treaties and an end to the stability pact (proposition 156), but frames this as negotiation, not unilateral non-application.",
+   "nuance": "No 'désobéissance' wording was found in the programme. Coded as a partial match."
+  },
+  {
+   "id": "eu6",
+   "summary": "Wants to build a 'new Union' of sovereign nations rather than leave. Criticises the EU treaties but does not propose withdrawal.",
+   "nuance": ""
+  },
+  {
+   "id": "int1",
+   "summary": "In 2025-2026 Roussel has argued that France's social model should not pay for the war in Ukraine, and he has called for a stop to the 'war economy' and to 'surarmement'. This points to reducing the military effort, not keeping it substantial.",
+   "nuance": "Evidence comes from headlines only; the article bodies could not be opened. No verified explicit call to end arms deliveries, hence -1. A critical Libération piece (Sept 2026) describes an 'indulgence' toward Russia; that is an opponent's characterisation and was not used for the code."
+  },
+  {
+   "id": "int2",
+   "summary": "Roussel called Macron's 2024 remarks about sending troops 'irresponsible and dangerous'. In September 2025 he called Macron a 'va-t-en-guerre' and said 'we do not want this war'.",
+   "nuance": "The 2024 statement concerned troops during the war, not a ceasefire-guarantee force. The September 2025 remark came during the reassurance-force debate, but its exact target is unverified. Coded -1 because opposition specifically to a post-ceasefire guarantee force is not confirmed."
+  },
+  {
+   "id": "int3",
+   "summary": "Wikipedia says he dropped his earlier anti-NATO stance after the 2022 invasion and no longer proposes that France leave.",
+   "nuance": "This is a secondary summary only. One rendering says the reversal was about NATO membership, another about integrated-command integration, so his position on the integrated command specifically is ambiguous. No 2025-2026 primary statement was found."
+  },
+  {
+   "id": "int4",
+   "summary": "Roussel co-signed a July 2025 tribune demanding sanctions against the Israeli government. In April 2026 he called for an end to EU trade with Israel. In September 2026 the PCF explicitly demanded suspension of the EU-Israel association agreement.",
+   "nuance": "The explicit 'suspension' wording is in a PCF statement. Roussel's personal statements go further, calling for an end to EU trade with Israel."
+  },
+  {
+   "id": "int5",
+   "summary": "As a declared 2027 candidate, Roussel called for a stop to the 'war economy' and to the 'surarmement' of France and the EU.",
+   "nuance": "No explicit percentage of GDP was verified. The code rests on his opposition to further military build-up."
+  },
+  {
+   "id": "int6",
+   "summary": "No verified evidence found.",
+   "nuance": "A brief search covering the November 2025 debate on a voluntary military service turned up no Roussel position on compulsory service. He criticised the army chief's remarks ('des mots qui glacent le sang', BFM, 23 Nov 2025), but those remarks were not about conscription."
+  },
+  {
+   "id": "int7",
+   "summary": "No verified evidence found.",
+   "nuance": "The draft inferred -1 from a 'pro-Ukraine stance' that 2025-2026 evidence does not support (see int1). No statement on sanctions relief was found."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Roussel called ZFE a 'bombe sociale' and advocated postponing them, not explicitly abolishing them.",
+   "nuance": "The source is from 2023, the only one found. Postponement is a conditional or partial position. No verified Roussel reaction to the 2025-2026 parliamentary vote abolishing ZFE."
+  },
+  {
+   "id": "ecol2",
+   "summary": "The PCF supports phasing out pesticides alongside support for farmers. The 'despite foreign competition' clause is unverified.",
+   "nuance": "No Roussel statement on the loi Duplomb or acetamiprid was found in a brief search. He favours protectionist measures and mirror clauses, which may make him hesitant about unilateral bans."
+  },
+  {
+   "id": "ecol3",
+   "summary": "No verified evidence found.",
+   "nuance": "The draft's -1 came from background knowledge only. A brief search found no Roussel statement on the 2035 deadline."
+  },
+  {
+   "id": "ecol4",
+   "summary": "The PCF supports taxing private jets and kerosene; this is unverified.",
+   "nuance": "A brief search found no Roussel statement. Based on background knowledge only."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Roussel frames ecology through industrial production and social justice, rejecting both degrowth and growth-first.",
+   "nuance": "Mixed; unverified."
+  },
+  {
+   "id": "ene1",
+   "summary": "Roussel strongly supports nuclear power: in a June 2025 speech he called it 'a sustainable sector for the 21st century', and the PCF promotes a nuclear-renewable mix. A commitment to reactors beyond the six EPR2 is not verified.",
+   "nuance": "The cited homepage line does not mention extra reactors, so the code is +1 until a number beyond six EPR2 is verified."
+  },
+  {
+   "id": "ene2",
+   "summary": "Roussel opposes a nuclear phase-out and defends a nuclear-plus-renewables mix.",
+   "nuance": ""
+  },
+  {
+   "id": "ene3",
+   "summary": "He supports renewables alongside nuclear, so he opposes a halt, though he has criticised excesses in wind-farm development.",
+   "nuance": "No verified statement on a wind moratorium."
+  },
+  {
+   "id": "ene4",
+   "summary": "The PCF favours leaving the EU electricity market and pricing electricity nationally through a public EDF. Roussel's personal 2025-2026 wording is unverified.",
+   "nuance": "Background knowledge only. No source found in this session. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified."
+  },
+  {
+   "id": "ins1",
+   "summary": "Roussel favours a VIe République.",
+   "nuance": "Whether his VIe République is more parliamentary is not verified."
+  },
+  {
+   "id": "ins2",
+   "summary": "In May 2025 Roussel was 'peu favorable' to the government's proportional-representation plan and said it was 'pas la priorité'.",
+   "nuance": "His personal 2025 stance departs from the PCF's historical support for proportional representation. He may object to Matignon's specific design, not the principle, so the code is 0."
+  },
+  {
+   "id": "ins3",
+   "summary": "Roussel supports a RIC on any subject, consulting citizens whenever they ask.",
+   "nuance": "Secondary source; the date of the original statement was not verified."
+  },
+  {
+   "id": "ins4",
+   "summary": "In October 2025 Roussel said it would be 'raide' (harsh) to censure a government that renounces 49.3, which implies he values giving it up.",
+   "nuance": "No verified explicit call to abolish 49.3. The PCF has historically opposed it."
+  },
+  {
+   "id": "ins5",
+   "summary": "Roussel wants citizen referendums 'on any subject', which would logically cover immigration or justice. No specific statement on those areas was found.",
+   "nuance": "Partial support: he backs a general widening, not specifically immigration or justice."
+  },
+  {
+   "id": "soc1",
+   "summary": "On 4 June 2024 Roussel, then a deputy, voted against the amendments deleting Article 5 of the end-of-life bill, the article that created assisted dying. That suggests he supports the principle. No 2025-2026 statement on keeping or repealing the 2026 law was found.",
+   "nuance": "The vote was on the 2024 bill, which lapsed at the dissolution, not on the 2026 law. He was no longer a deputy when the 2026 law passed. +1 rather than +2 because there is no explicit commitment to keep the law."
+  },
+  {
+   "id": "soc2",
+   "summary": "Roussel defends a 1905-style laïcité. No verified support for a ban on the veil in all public spaces.",
+   "nuance": "A March 2025 CNews interview touched on veil bans. Far-left critics (Révolution Permanente) accused him of 'courir après l'extrême droite' over an 'interdiction du voile', but that is an opponent's characterisation and the context was probably sport competitions. With no direct evidence, -2 was too strong for an inferred code."
+  },
+  {
+   "id": "soc3",
+   "summary": "No evidence was found in the PCF programme pages, the 2025-2026 thematic booklets or Roussel's voting record.",
+   "nuance": "Searched the PCF programme and booklets for laïcité and religious symbols with no result. WebSearch budget exhausted, so not searched further."
+  },
+  {
+   "id": "soc4",
+   "summary": "Roussel is a firm defender of laïcité: he approved the 2023 abaya ban at school and has made strong statements on political Islam. Mixed against the 'no further restriction' clause.",
+   "nuance": "Supporting the abaya ban leans against 'no further restriction'; overall still mixed."
+  },
+  {
+   "id": "soc5",
+   "summary": "Roussel is reported to oppose GPA; the PCF is divided.",
+   "nuance": "A brief search found no verified statement."
+  },
+  {
+   "id": "edu1",
+   "summary": "No verified evidence found.",
+   "nuance": "The draft coded 0 with no evidence, but 0 is reserved for an explicitly mixed position, so the code becomes null."
+  },
+  {
+   "id": "edu2",
+   "summary": "The PCF programme includes mass public-sector recruitment of 500,000 civil servants.",
+   "nuance": "The cited line does not mention teachers or class sizes; teacher-specific figures were not verified. +2 is plausible but not demonstrated."
+  },
+  {
+   "id": "edu3",
+   "summary": "The PCF opposes grouping pupils by ability.",
+   "nuance": "Unverified; a brief search found nothing from Roussel."
+  },
+  {
+   "id": "edu4",
+   "summary": "The PCF supports conditioning or cutting private-school funding.",
+   "nuance": "Unverified; a brief search found nothing from Roussel."
+  },
+  {
+   "id": "edu5",
+   "summary": "The PCF programme (proposition 33) explicitly abolishes selection at university entry and scraps Parcoursup. The baccalauréat would guarantee a place in the chosen higher-education course.",
+   "nuance": "The proposal ends selection itself, not only the Parcoursup platform, so it matches the statement in full. The wording dates from the 2022 programme still on pcf.fr."
+  },
+  {
+   "id": "san1",
+   "summary": "No verified evidence found.",
+   "nuance": "The draft coded 0 with no evidence. A brief search found no Roussel position on compulsory installation of new doctors."
+  },
+  {
+   "id": "san2",
+   "summary": "In July 2026 Roussel denounced the higher medical co-payments: 'le gouvernement choisit de faire payer les malades'.",
+   "nuance": "Only the headline was seen; the article body could not be opened."
+  },
+  {
+   "id": "san3",
+   "summary": "The PCF supports rent control. Roussel campaigns on rising rents ('+20% in five years'), but a call to generalise rent control is unverified.",
+   "nuance": "SeLoger (28 Sep 2026) covered his housing plans but could not be opened."
+  },
+  {
+   "id": "san4",
+   "summary": "Roussel wants to renationalise EDF, Engie, motorways and insurers, which is the opposite of further opening to competition.",
+   "nuance": "The original source line (500,000 civil servants) did not address competition and was replaced. In April 2026 he also proposed nationalising TotalEnergies (franceinfo headline)."
+  },
+  {
+   "id": "eco7",
+   "summary": "The PCF programme on pcf.fr (proposition 125) says indirect taxes such as VAT will be cut, not raised. The PCF social-security booklet (Dec 2025) says moving social-security funding from employer contributions onto taxes shifts the burden onto households, and it defends financing through cotisations. Social VAT is the opposite of both.",
+   "nuance": "Neither source names 'TVA sociale', but both reject its two parts: they want VAT cut, and they defend employer contributions as the way to fund social security. Both are PCF party documents promoted as the 2027 candidate's programme, not a personal Roussel interview."
+  },
+  {
+   "id": "imm8",
+   "summary": "No statement by Roussel or the PCF on making naturalisation easier was found. The PCF programme (proposition 89) promises to regularise undocumented workers, which is a separate measure.",
+   "nuance": "The draft's +1 was unsourced, and the adjacent evidence points both ways: the party supports regularising workers, while Roussel has personally called for France to be 'plus ferme' on migrant workers (2023). Left uncoded rather than guessed."
+  },
+  {
+   "id": "sec6",
+   "summary": "The PCF programme (proposition 88) commits to fighting ethnic profiling by bringing in a receipt for each identity check.",
+   "nuance": "This is the programme currently on the PCF site, whose wording comes from 2022. No 2025-2026 personal statement by Roussel was found. He takes a more security-focused line than the rest of the left, so the confidence stays at medium."
+  },
+  {
+   "id": "eu7",
+   "summary": "The PCF peace-and-defence booklet for the 2027 campaign (May 2026) attacks the EU's militarisation and the €800bn 'Rearm EU' plan. It criticises the Lisbon treaty for strengthening the EU's military side and calls for French defence independence and leaving NATO. Only limited European cooperation, for example on satellite positioning (geolocation), is accepted.",
+   "nuance": "The booklet accepts targeted European cooperation and wants a European defence industrial and technological base, but it rejects any loss of French military autonomy. It is a party document, not a Roussel interview."
+  },
+  {
+   "id": "eu8",
+   "summary": "The PCF's 2026 peace booklet blames Ukrainian leaders who worked to integrate Ukraine into the 'euro-atlantic' bloc for part of the war's origins, and it calls a Ukrainian military victory 'utopian'. In March 2024 Roussel voted against the government declaration on the Franco-Ukrainian security agreement. No explicit 2025-2026 statement on Ukraine's EU accession was found.",
+   "nuance": "Inferred from adjacent positions. 'Euro-atlantic' refers mainly to NATO, and the March 2024 vote was on a security agreement rather than on EU accession. In November 2022 he voted for the resolution supporting Ukraine. Needs a direct statement."
+  },
+  {
+   "id": "ecol6",
+   "summary": "The PCF programme (proposition 62) promises a farm law to guarantee base prices that pay for farmers' work. Prices would be set for each product at a yearly conference of producer organisations, the government and supermarket buying groups, and selling at a loss would be banned.",
+   "nuance": "The wording dates from the 2022 programme still on pcf.fr (it refers to 'En 2022'). No newer statement by Roussel personally was retrieved."
+  },
+  {
+   "id": "ene5",
+   "summary": "The PCF programme (proposition 58) sets VAT on electricity and gas consumption at 5.5%. For motor fuels, the September 2026 campaign proposals are to cap the price at €1.60 a litre and lower state taxes. Proposition 125 cuts VAT and the fuel excise (TICPE) without naming a rate.",
+   "nuance": "Partial match: 5.5% is explicit for electricity and gas, but for fuels only a tax cut and a price cap are promised, with no 5.5% VAT rate. Hence +1."
+  },
+  {
+   "id": "ins6",
+   "summary": "No specific statement on France Télévisions or Radio France was retrieved. The PCF programme calls for ending the privatisation of public services and for creating a large Ministry of Culture, Popular Education and Media.",
+   "nuance": "Inferred from the party's general opposition to privatising public services, with nothing specific to public broadcasting found. The direction is very likely, but the confidence stays low."
+  },
+  {
+   "id": "soc6",
+   "summary": "No evidence was found in the PCF programme pages, the 2025-2026 thematic booklets or Roussel's voting record.",
+   "nuance": "Searched the PCF programme and booklets with no result. Not coded."
+  },
+  {
+   "id": "san5",
+   "summary": "The PCF housing booklet (Dec 2025) acknowledges the tension between ZAN and the housing shortage. It keeps the ZAN target: its answer is public control of land, plus densification so that construction stays compatible with the rules against building on new land.",
+   "nuance": "The booklet blames speculation on land, not ZAN or building standards, for the shortage. It does not explicitly campaign against loosening the rules, so this is -1."
+  }
+ ],
+ "record": {
+  "bio": "Fabien Roussel (born 16 April 1969 in Béthune) is a former journalist who became national secretary of the Parti communiste français (PCF) on 25 November 2018. He was deputy for Nord's 20th constituency from June 2017 to June 2024 and the PCF's 2022 presidential candidate (2.28%, 8th place). He has been mayor of Saint-Amand-les-Eaux since 30 January 2025 and was re-elected in March 2026. According to French Wikipedia (citing Le Figaro), he announced his 2027 presidential candidacy on TF1 on 6 September 2026 under the slogan \"Vivre\".",
+  "offices": [
+   "Municipal councillor, Saint-Amand-les-Eaux",
+   "Deputy (Nord, 20th constituency)",
+   "National secretary (secrétaire national) of the PCF",
+   "Mayor of Saint-Amand-les-Eaux",
+   "PCF candidate, presidential election (2.28%, 8th)"
+  ],
+  "legal": [
+   "Mediapart (2022) alleged that Roussel held a fictitious job as parliamentary assistant to PCF deputy Jean-Jacques Candelier (2009-2014). The Parquet national financier opened a preliminary investigation on 11 March 2022. Roussel denies the allegation and says he worked on following conflicts in the Douaisis; Candelier told L'Humanité that Roussel did work as his assistant. No charge (mise en examen) or closure is reported; status taken from French Wikipedia, not confirmed against a court or AFP source."
+  ],
+  "reversals": [
+   {
+    "topic": "NATO",
+    "before": "Advocated France leaving NATO's integrated command, presented as necessary for national independence.",
+    "after": "After Russia's invasion of Ukraine in 2022, he no longer proposes French withdrawal from NATO (he still opposes Ukraine joining NATO and the EU)."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Deputy 2017-2024 in opposition (PCF / GDR group). He was rapporteur of a bill to create a French list of tax havens (2017-2018). No law adopted under his name is documented in the sources consulted.",
+    "assessment": "Legislative record could not be checked against roll-call sites (datan.fr, nosdeputes.fr) or cross-lean outlets; only a secondary source (Wikipedia) was available."
+   },
+   {
+    "what": "2022 presidential programme proposals (not enacted): SMIC raised to 1,500 euros net, legal retirement age back to 60, wealth tax restored and tripled, recruitment of 30,000 police, and an energy mix of nuclear and renewables.",
+    "assessment": "These are campaign proposals, not delivered measures; the 2027 programme was not verified."
+   },
+   {
+    "what": "Mayor of Saint-Amand-les-Eaux since 30 January 2025, succeeding Alain Bocquet; his list won the March 2026 municipal election in the first round with 51.06% and he was re-elected mayor on 22 March 2026.",
+    "assessment": "Executive record is short (about 1.7 years); no assessment of his municipal record was found in the sources consulted."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified directly. Mediapart published the 2022 fictitious-job allegation; Roussel responded by accusing its founder Edwy Plenel of publishing it to favour Mélenchon's candidacy.",
+   "right_media": "Not verified directly. Wikipedia records a March 2025 CNews appearance in which he said anti-white racism exists; how right-leaning outlets frame him could not be checked.",
+   "neutral_media": "Not verified directly; Le Monde, franceinfo, AFP and Public Sénat coverage could not be fetched."
+  }
+ }
+}

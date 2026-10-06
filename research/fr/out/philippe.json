@@ -1,0 +1,445 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Opposé au rétablissement de l'ISF. Son gouvernement (2017-2020) a remplacé l'ISF par l'IFI et le prélèvement forfaitaire unique (flat tax), et il défend le maintien de ce cadre.",
+   "nuance": "Les deux sources sont des agrégateurs de guides de vote. Le bilan en fonctions (ISF remplacé par l'IFI en 2018) est bien établi."
+  },
+  {
+   "id": "eco2",
+   "summary": "Le groupe Horizons a voté contre les amendements sur la taxe Zucman en commission (octobre 2025). Philippe défend le cadre IFI et flat tax.",
+   "nuance": "Il s'agit d'un vote de groupe en commission des finances, non d'un scrutin public. Aucune citation personnelle de Philippe sur la taxe Zucman n'a été retrouvée. Le « Philippe Juvin » cité dans l'article de LCP est un député LR, et non Édouard Philippe."
+  },
+  {
+   "id": "eco3",
+   "summary": "Le programme propose une baisse de 50 Md EUR des impôts de production, financée par 50 Md EUR de subventions publiques « improductives » en moins.",
+   "nuance": "Aucune baisse des cotisations sociales patronales n'a été confirmée. Le volet sur les impôts de production de l'énoncé est explicite et de grande ampleur."
+  },
+  {
+   "id": "eco4",
+   "summary": "Le programme appelle à une protection au niveau de l'UE face à la concurrence chinoise (transferts de technologies, quotas de production, coentreprises dans les secteurs stratégiques). Il ne propose aucun droit de douane national, et sa ligne générale est libérale.",
+   "nuance": "Position mixte : il privilégie des outils de protection au niveau de l'UE et s'oppose au protectionnisme national. Un agrégateur (presi2027) l'estime « plutôt contre »."
+  },
+  {
+   "id": "eco5",
+   "summary": "Globalement opposé aux nationalisations, qu'il n'a acceptées en 2020 qu'en dernier recours, en situation d'urgence.",
+   "nuance": "Aucune déclaration précise sur les autoroutes ou l'énergie n'a été trouvée."
+  },
+  {
+   "id": "eco6",
+   "summary": "Aucun élément ne montre une proposition de baisse des droits de succession ou de donation. Il s'oppose à leur hausse.",
+   "nuance": "Il s'est opposé à une contribution exceptionnelle sur les grands patrimoines. presi2027 l'estime « plutôt pour » un allègement mais ne cite aucune mesure ; cette position n'a donc pas été codée."
+  },
+  {
+   "id": "ret1",
+   "summary": "Refuse le retour à 62 ans et souhaite porter l'âge légal à 65 ans.",
+   "nuance": ""
+  },
+  {
+   "id": "ret2",
+   "summary": "Propose de relever progressivement l'âge de la retraite à 65 ans et la durée de cotisation à 45 ans.",
+   "nuance": "Annoncé dans une vidéo le 29 septembre 2026."
+  },
+  {
+   "id": "ret3",
+   "summary": "Propose un système mixte, par répartition et par capitalisation, dans lequel l'État effectue un premier versement sur le plan d'épargne de chaque jeune actif. Le caractère obligatoire des cotisations n'est pas précisé.",
+   "nuance": "Soutien partiel : il souhaite une part de capitalisation, mais son caractère obligatoire n'est pas clairement établi."
+  },
+  {
+   "id": "fin1",
+   "summary": "Ramener le déficit de plus de 5 % à 2 % du PIB d'ici la fin du mandat, sans nouvel impôt, grâce à des économies de dépenses telles que 50 Md EUR de subventions publiques en moins. Règle d'or inscrite dans la Constitution.",
+   "nuance": "L'objectif du programme (2 %) va au-delà des 3 % de l'énoncé. L'engagement de ne créer aucun impôt nouveau suppose des baisses de dépenses."
+  },
+  {
+   "id": "fin2",
+   "summary": "Aucun élément explicite en 2025-2026 sur une réduction du nombre de fonctionnaires.",
+   "nuance": "Les pages du programme consultées ne disent rien sur les effectifs. L'objectif de Macron en 2017 de 120 000 fonctionnaires en moins a été assoupli en 2019 sous son gouvernement, mais aucune position personnelle actuelle n'a été trouvée."
+  },
+  {
+   "id": "fin3",
+   "summary": "Fait de la réduction de la dette une condition de la souveraineté et vise un déficit de 2 % sans nouvel impôt. Il s'oppose à un recours accru à l'endettement.",
+   "nuance": ""
+  },
+  {
+   "id": "fin4",
+   "summary": "Le programme propose une règle d'or constitutionnelle sur les déficits, éventuellement adoptée par référendum.",
+   "nuance": ""
+  },
+  {
+   "id": "trav1",
+   "summary": "Comme Premier ministre, il a refusé tout « coup de pouce » au SMIC au-delà de la revalorisation automatique.",
+   "nuance": "La citation date de 2019 ; aucune position plus récente n'a été trouvée."
+  },
+  {
+   "id": "trav2",
+   "summary": "Son gouvernement a durci en 2019 les conditions d'éligibilité à l'assurance chômage et le mode de calcul des allocations. Sa position actuelle est estimée à partir de ce bilan.",
+   "nuance": "L'agrégateur indique qu'il s'agit d'une position estimée. Aucune déclaration de 2025-2026 n'a été trouvée."
+  },
+  {
+   "id": "trav3",
+   "summary": "Favorable au maintien de la conditionnalité du RSA à un nombre d'heures d'activité. Le groupe Horizons a soutenu la loi pour le plein emploi de 2023, qui a introduit l'obligation de 15 heures.",
+   "nuance": "Il s'agit d'un vote de groupe, et Philippe n'est pas député. Les deux agrégateurs le classent « plutôt pour » et non « tout à fait pour », d'où le +1. Aucune citation personnelle de 2025-2026 n'a été trouvée."
+  },
+  {
+   "id": "trav4",
+   "summary": "Souhaite que l'on travaille davantage d'heures par semaine et par an, soit le contraire d'un mouvement vers les 32 heures.",
+   "nuance": ""
+  },
+  {
+   "id": "imm1",
+   "summary": "Programme : restreindre l'immigration familiale, fixer des quotas migratoires annuels votés par le Parlement afin de choisir l'immigration économique, et dénoncer l'accord de 1968 avec l'Algérie. Il accepte l'immigration de travail dans les secteurs en tension.",
+   "nuance": "Soutien partiel : il veut restreindre et sélectionner l'immigration, et non la réduire fortement de façon générale. La citation « fermer les vannes » ne concerne que Mayotte."
+  },
+  {
+   "id": "imm2",
+   "summary": "Aucune proposition de référendum sur l'immigration n'a été trouvée. Il est favorable à un recours sélectif au référendum, notamment pour la règle d'or budgétaire.",
+   "nuance": "France-Vote mentionne « un recours choisi au référendum », mais pas sur l'immigration."
+  },
+  {
+   "id": "imm3",
+   "summary": "Selon les agrégateurs, il est favorable à une restriction de l'AME, dans le prolongement du délai de carence de 2019, et à son maintien sous une forme encadrée, centrée sur l'urgence.",
+   "nuance": "Source d'agrégateurs uniquement, et les comptes rendus sont contradictoires (« s'oppose à la suppression » contre « soins d'urgence uniquement »). Aucune citation de source primaire n'a été retrouvée."
+  },
+  {
+   "id": "imm4",
+   "summary": "Un agrégateur indique qu'il propose des quotas de régularisation dans les secteurs en tension et qu'il admet la nécessité de recourir à des travailleurs étrangers.",
+   "nuance": "Source d'agrégateur uniquement, sans source primaire. Des quotas supposent une forme limitée et encadrée plutôt qu'une régularisation large. La lecture inverse (-1) ne reposait sur aucune source."
+  },
+  {
+   "id": "imm5",
+   "summary": "Aucun élément sur une priorité nationale pour le logement social ou les prestations.",
+   "nuance": "Le programme propose bien de mettre fin aux prestations sociales pour les étrangers qui commettent des délits, ce qui n'équivaut pas à une priorité nationale."
+  },
+  {
+   "id": "imm6",
+   "summary": "Propose de suspendre le droit du sol à Mayotte (août 2026) et de durcir l'accès à la nationalité, mais ne réclame pas son abolition au niveau national.",
+   "nuance": "Soutien partiel, propre à Mayotte. Au niveau national, il ne se positionne pas pour l'abolition. Selon un agrégateur, le groupe Horizons a voté contre la suppression totale du droit du sol à Mayotte."
+  },
+  {
+   "id": "imm7",
+   "summary": "Horizons s'oppose au droit de vote local des étrangers non européens.",
+   "nuance": "Il s'agit de la position du parti. Aucune déclaration personnelle de Philippe n'a été retrouvée."
+  },
+  {
+   "id": "sec1",
+   "summary": "Le programme propose des peines planchers pour les infractions les plus graves. Les agrégateurs indiquent qu'il est favorable à leur rétablissement pour les récidivistes.",
+   "nuance": "Le programme articule les peines planchers autour de la gravité de l'infraction, notamment les atteintes aux dépositaires de l'autorité publique, plutôt qu'autour de la récidive. Le cadrage sur les récidivistes vient de l'agrégateur."
+  },
+  {
+   "id": "sec2",
+   "summary": "Horizons a soutenu la loi de 2025 supprimant l'excuse de minorité pour les récidivistes de 16 ans et plus.",
+   "nuance": "Partiel : la loi concerne les récidivistes, et non tous les crimes graves. Il s'agit d'un vote de groupe, non d'une déclaration personnelle."
+  },
+  {
+   "id": "sec3",
+   "summary": "Comme Premier ministre, il a défendu en 2019 le contrôle interne de la police par l'IGPN (affaire Steve Maia Caniço).",
+   "nuance": "Source ancienne ; aucune position de 2025-2026 n'a été trouvée."
+  },
+  {
+   "id": "sec4",
+   "summary": "Opposé à la légalisation et favorable à des amendes systématiques pour l'usage de cannabis. Son gouvernement a créé l'amende forfaitaire délictuelle.",
+   "nuance": "Rapporté par des agrégateurs."
+  },
+  {
+   "id": "sec5",
+   "summary": "Le programme propose un « état d'urgence contre le narcotrafic » avec un usage ciblé de la reconnaissance faciale. Son gouvernement a lancé l'application ALICEM en 2019. Il ne s'agit pas d'un déploiement général de la vidéosurveillance par IA.",
+   "nuance": "Partiel : usage ciblé, et non généralisation."
+  },
+  {
+   "id": "eu1",
+   "summary": "Aucune position explicite trouvée sur la primauté du droit de l'UE.",
+   "nuance": "Sa ligne pro-européenne laisse penser à une opposition, mais cela n'a pas été codé."
+  },
+  {
+   "id": "eu2",
+   "summary": "Soutient l'« Europe puissance » et une défense européenne commune, mais aucune position explicite sur l'emprunt commun de l'UE n'a été trouvée.",
+   "nuance": ""
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": ""
+  },
+  {
+   "id": "eu4",
+   "summary": "Aucune position documentée.",
+   "nuance": ""
+  },
+  {
+   "id": "eu5",
+   "summary": "Défend la discipline budgétaire, y compris une règle d'or constitutionnelle, et a une ligne pro-UE. Aucune déclaration explicite sur la non-application des règles de l'UE.",
+   "nuance": "Déduit de positions voisines."
+  },
+  {
+   "id": "eu6",
+   "summary": "Fermement opposé à une sortie de l'UE ; il défend l'« Europe puissance » et une défense commune.",
+   "nuance": ""
+  },
+  {
+   "id": "int1",
+   "summary": "Fortement pro-ukrainien : a rencontré Zelensky à Kiev en mai 2026, s'est engagé à un soutien « même au-delà » de la guerre ; le programme maintient le soutien militaire et financier aussi longtemps que nécessaire.",
+   "nuance": "La formulation du programme provient d'un agrégateur ; aucune page de programme primaire n'a été trouvée (le site d'Horizons n'a pas de page programme). Visite à Kiev corroborée par Euronews et le JDD."
+  },
+  {
+   "id": "int2",
+   "summary": "À Kiev (mai 2026), a soutenu le déploiement de troupes européennes en Ukraine une fois la paix revenue, afin de dissuader de nouvelles attaques russes.",
+   "nuance": "Il parle de troupes européennes sans préciser la part française, d'où le codage +1. Désormais corroboré par un média neutre."
+  },
+  {
+   "id": "int3",
+   "summary": "Atlantiste : lie une OTAN forte à la défense européenne et souhaite l'adhésion de l'Ukraine à l'OTAN. Rien n'indique qu'il veuille quitter le commandement intégré.",
+   "nuance": "La citation sur l'OTAN date de 2018. Son plaidoyer de 2026 pour l'adhésion de l'Ukraine à l'OTAN confirme sa position atlantiste actuelle. Aucune déclaration explicite sur le commandement intégré."
+  },
+  {
+   "id": "int4",
+   "summary": "Défend le droit d'Israël à se défendre et a exprimé des réserves (juillet 2025) sur la reconnaissance de la Palestine ; aucune déclaration sur l'accord d'association UE-Israël.",
+   "nuance": "Déduit de déclarations voisines ; la principale citation date de novembre 2023."
+  },
+  {
+   "id": "int5",
+   "summary": "Programme (selon un agrégateur) : budget de la défense porté à 3 % du PIB d'ici 2030, ce qui atteint le seuil de 3 % sans le dépasser.",
+   "nuance": "L'énoncé demande PLUS de 3 %, et son objectif est exactement de 3 % d'ici 2030 ; il s'agit donc d'un soutien partiel (+1). Formulation d'un agrégateur, et non d'un programme primaire."
+  },
+  {
+   "id": "int6",
+   "summary": "Propose d'étendre le service militaire volontaire (de 3 000 à 50 000 places par an) et les réservistes (de 45 000 à 250 000), sans service obligatoire.",
+   "nuance": "En 2023, il s'est demandé si la conscription pourrait devenir nécessaire (MonVote2027). Son programme actuel repose sur le volontariat. Source d'agrégateur uniquement."
+  },
+  {
+   "id": "int7",
+   "summary": "Ligne ferme à l'égard de Moscou et qualifie d'abandon de l'Ukraine une trahison ; aucune déclaration explicite sur la levée des sanctions en échange d'un accord de paix.",
+   "nuance": "Simple déduction. « Sans conditions » laisse la place à un dialogue conditionnel, et comme Premier ministre il a reçu Medvedev (2019)."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Comme Premier ministre, son gouvernement a fait adopter la loi d'orientation des mobilités (décembre 2019), qui a instauré les zones à faibles émissions mobilité (ZFE-m) ; aucune déclaration actuelle trouvée.",
+   "nuance": "Fondé uniquement sur son bilan (il était Premier ministre lors de l'adoption de la LOM). Aucune déclaration de 2025-2026 sur les votes de suppression des ZFE n'a été trouvée. Le budget de recherches web étant épuisé, la vérification a été limitée."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Rapporté comme refusant les interdictions de pesticides sans alternatives, comme dans le dossier du glyphosate sous son gouvernement.",
+   "nuance": "MonVote2027 indique qu'il a « voté pour » la loi Duplomb (juillet 2025). Cela ne peut être exact : il n'est plus député depuis 2020. Au mieux, le groupe Horizons l'a votée. Source d'agrégateur indirecte."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Rapporté comme réservé sur l'interdiction en 2035 des voitures neuves à moteur thermique et souhaitant son assouplissement par réalisme industriel.",
+   "nuance": "Une seule source d'agrégateur indirecte. MonVote2027 n'a trouvé aucune position explicite."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Un agrégateur indique qu'il est opposé à une fiscalité plus lourde sur le transport aérien, pour des raisons de compétitivité et de pouvoir d'achat.",
+   "nuance": "Source indirecte. Comme Premier ministre, son gouvernement a bien instauré en 2019 une écocontribution sur les billets d'avion (de 1,50 à 18 EUR, selon MonVote2027), soit une hausse modeste."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Pragmatique : soutient la décarbonation mais résiste aux interdictions sans alternatives ; ne place pas le climat avant la croissance.",
+   "nuance": "Déduit uniquement de positions voisines."
+  },
+  {
+   "id": "ene1",
+   "summary": "Programme : 6 EPR2 suivis d'une seconde série de 8 réacteurs.",
+   "nuance": "Formulation d'un agrégateur. votons-2027.fr indique aussi « en relançant le nucléaire »."
+  },
+  {
+   "id": "ene2",
+   "summary": "Fermement favorable au nucléaire : « La France aura plus de nucléaire » (avril 2026).",
+   "nuance": "Cohérent avec son parcours (ancien cadre d'Areva) et son programme EPR2."
+  },
+  {
+   "id": "ene3",
+   "summary": "Souhaite développer l'éolien en mer et le solaire, et s'oppose donc à l'arrêt des nouvelles éoliennes.",
+   "nuance": "« Sans saturer les paysages » signale une retenue sur l'éolien terrestre, mais rien n'indique un arrêt. Formulation d'un agrégateur."
+  },
+  {
+   "id": "ene4",
+   "summary": "Pro-européen ; un agrégateur estime qu'il s'oppose à une sortie unilatérale du marché européen de l'électricité.",
+   "nuance": "L'agrégateur précise qu'il s'agit d'une estimation."
+  },
+  {
+   "id": "ins1",
+   "summary": "Rejette une VIe République et souhaite revenir aux sources de la Ve.",
+   "nuance": "Le refus explicite date de 2018. La formule « sources de la Ve » va dans le même sens."
+  },
+  {
+   "id": "ins2",
+   "summary": "A averti en mai 2025 que la proportionnelle perpétuerait l'absence de majorité ; le programme ne proposerait qu'« une dose de proportionnelle ».",
+   "nuance": "Il rejette la proportionnelle intégrale, tandis qu'une dose partielle figurerait peut-être dans le programme. Codé -1 (opposition partielle)."
+  },
+  {
+   "id": "ins3",
+   "summary": "Hostile au RIC : « ça me hérisse » (2019).",
+   "nuance": "Ancien (2019, pendant les Gilets jaunes). Rien n'indique un changement depuis."
+  },
+  {
+   "id": "ins4",
+   "summary": "Comme Premier ministre, il a utilisé le 49.3 pour la réforme des retraites (février-mars 2020) et s'oppose à sa suppression.",
+   "nuance": "Son recours au 49.3 en 2020 est bien documenté. Aucune déclaration récente sur sa limitation."
+  },
+  {
+   "id": "ins5",
+   "summary": "Souhaite gouverner par référendum (retraites, règle budgétaire), mais aucun élément sur un élargissement de son champ à l'immigration ou à la justice.",
+   "nuance": "Les référendums qu'il propose (retraites, règle budgétaire) ne nécessitent pas un champ plus large. Aucune déclaration sur des référendums en matière d'immigration ou de justice n'a été trouvée."
+  },
+  {
+   "id": "soc1",
+   "summary": "En janvier 2025 (TF1), il a évoqué la fin de vie de son père mais a dit ne pas vouloir inscrire l'aide à mourir dans la loi. Aucune déclaration n'a été trouvée sur le maintien ou l'abrogation de la loi de juillet 2026.",
+   "nuance": "Il s'est opposé à une législation avant l'adoption de la loi et aucun engagement d'abrogation n'a été trouvé, d'où -1 et non -2. Un agrégateur fait état d'une ouverture à une aide strictement encadrée, ce qui contredit le compte rendu de TF1, d'où une faible confiance. Il n'est pas député et n'a donc émis aucun vote personnel."
+  },
+  {
+   "id": "soc2",
+   "summary": "Affirme qu'une interdiction générale du voile serait contraire à la laïcité française (2025).",
+   "nuance": ""
+  },
+  {
+   "id": "soc3",
+   "summary": "Comme Premier ministre, en octobre 2019, il s'est opposé à une loi interdisant le voile aux parents accompagnateurs de sorties scolaires, estimant que les usagers du service public ne sont pas tenus à la neutralité. En août 2026, il a déclaré qu'il n'y avait pas lieu d'aller plus loin que la loi actuelle sur le voile.",
+   "nuance": "La déclaration sur les sorties scolaires date de 2019. Elle est cohérente avec sa ligne d'août 2026, « pas nécessaire d'aller plus loin » (titre de BFM, vu lors d'une précédente passe), qui portait sur la proposition de Le Pen pour l'espace public. La formulation (« l'enjeu aujourd'hui n'est pas... ») est ferme mais non absolue, d'où le maintien du -1."
+  },
+  {
+   "id": "soc4",
+   "summary": "Conçoit la laïcité comme la neutralité de l'État et non comme l'uniformité, et s'oppose à l'extension des interdictions de signes religieux ; ferme sur les services publics et contre le séparatisme.",
+   "nuance": "+1 plutôt que +2 car il soutient aussi des mesures plus dures contre le séparatisme. Source d'agrégateur uniquement."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucune position sur la GPA trouvée.",
+   "nuance": "MonVote2027 ne mentionne pas non plus de position sur la GPA. Il a soutenu l'extension de la PMA en 2018."
+  },
+  {
+   "id": "edu1",
+   "summary": "Le programme permet aux chefs d'établissement d'imposer un uniforme ; pas d'obligation nationale.",
+   "nuance": "Partiel : option au niveau de l'établissement, non obligatoire partout."
+  },
+  {
+   "id": "edu2",
+   "summary": "Privilégie des revalorisations salariales des enseignants liées à des contreparties ; aucun plan de recrutement massif ni de réduction des effectifs par classe n'a été trouvé.",
+   "nuance": "Déduit de l'absence d'engagements de recrutement et de son attention à la discipline budgétaire."
+  },
+  {
+   "id": "edu3",
+   "summary": "Favorable à l'autonomie des établissements et à un recentrage sur les fondamentaux ; aucune déclaration directe sur les groupes de niveau.",
+   "nuance": "Déduit. Les groupes de niveau ont été adoptés par le gouvernement Attal (2023-2024), que Horizons a soutenu ; Philippe n'en faisait pas partie."
+  },
+  {
+   "id": "edu4",
+   "summary": "Estimation d'un agrégateur : attaché à la liberté d'enseignement et opposé à une réduction du financement public des établissements privés sous contrat.",
+   "nuance": "Simple estimation. MonVote2027 n'a trouvé aucune position. La conditionnalité de mixité sociale de l'énoncé n'est pas abordée."
+  },
+  {
+   "id": "edu5",
+   "summary": "Son gouvernement a créé Parcoursup et introduit des prérequis d'admission à l'université (les attendus) par la loi ORE de 2018, mettant fin au tirage au sort d'APB. Il s'oppose à sa suppression.",
+   "nuance": "Son bilan est l'introduction de critères de sélection à l'entrée de l'université, soit le contraire de l'énoncé. Aucune déclaration de 2025-2026 portant précisément sur la sélection n'a été trouvée."
+  },
+  {
+   "id": "san1",
+   "summary": "S'attaque aux déserts médicaux par de fortes incitations à l'installation et davantage de maisons de santé, sans contrainte.",
+   "nuance": "Le choix des incitations exclut toute contrainte. Aucun rejet explicite de l'installation obligatoire n'a été trouvé."
+  },
+  {
+   "id": "san2",
+   "summary": "Aucun élément sur une hausse du reste à charge des patients ; le programme évoque seulement la stabilisation des dépenses de santé par la prévention et la technologie.",
+   "nuance": "Le « plutôt pour » de Presi2027 est présenté comme une estimation. MonVote2027 n'a trouvé aucune position explicite."
+  },
+  {
+   "id": "san3",
+   "summary": "Fermement opposé à l'encadrement des loyers, qu'il qualifie de moyen de détruire une ville (décembre 2025).",
+   "nuance": "La citation est récente (décembre 2025), et non ancienne."
+  },
+  {
+   "id": "san4",
+   "summary": "Un agrégateur le classe « plutôt pour » une ouverture plus large des services publics à la concurrence.",
+   "nuance": "La réforme ferroviaire de 2018 de son gouvernement (pacte ferroviaire) a fixé le calendrier d'ouverture du rail à la concurrence. Aucune source primaire n'a été consultée sur ce point. Position actuelle non explicite."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucun élément trouvé sur une « TVA sociale » (hausse de la TVA pour financer une baisse des cotisations sur les salaires).",
+   "nuance": "Le programme baisse les impôts de production de 50 Md EUR, compensés par une réduction des aides aux entreprises et non par une hausse de la TVA (MonVote2027 Q39). Il s'agit d'un mécanisme différent, qui n'a donc pas été retenu pour cet item. Le budget de recherches WebSearch était épuisé. Seuls les profils de MonVote2027, Presi2027, Votons-2027, France-Vote, de l'IFRAP et de candidats-presidentielle-2027 ont été vérifiés, et aucun ne mentionne la TVA sociale."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucune déclaration sur la naturalisation des résidents légaux de longue durée. Des éléments voisins vont vers un durcissement : il veut restreindre l'accès à la nationalité à Mayotte et être « plus exigeant » envers les nouveaux arrivants.",
+   "nuance": "Déduit. La mesure sur Mayotte est territoriale. Il soutient aussi une immigration de travail « choisie et contrôlée », ce qui peut jouer dans les deux sens pour la naturalisation. Aucune proposition nationale sur la naturalisation n'a été trouvée."
+  },
+  {
+   "id": "sec6",
+   "summary": "Réservé sur les récépissés de contrôle d'identité. Son gouvernement (2017-2020) ne les a pas adoptés, et un agrégateur le classe « plutôt contre ».",
+   "nuance": "Source d'agrégateur marquée « indirecte ». Aucune déclaration personnelle n'a été trouvée. Il a également défendu le contrôle interne de l'IGPN comme Premier ministre en 2019."
+  },
+  {
+   "id": "eu7",
+   "summary": "Soutient une base industrielle de défense européenne et de plus fortes capacités communes de l'UE. En 2018, il était favorable à une capacité d'intervention européenne complémentaire de l'OTAN et ne soutenait pas une armée européenne autonome qui la remplacerait.",
+   "nuance": "Soutien partiel. Il soutient les achats conjoints et une base industrielle, mais rien n'indique qu'il accepte de perdre l'autonomie militaire française ou qu'il souhaite une armée européenne unique. Il insiste aussi sur l'effort de défense propre de la France. La citation de 2018 est ancienne."
+  },
+  {
+   "id": "eu8",
+   "summary": "Soutient l'adhésion de l'Ukraine à l'UE. Il en a discuté avec Zelensky à Kiev en mai 2026 et, selon un agrégateur, défend l'entrée de l'Ukraine à la fois dans l'UE et dans l'OTAN.",
+   "nuance": "Euronews indique que l'adhésion a été abordée mais ne rapporte aucune citation littérale de Philippe sur l'UE. Son engagement explicite portait sur l'adhésion à l'OTAN. Le +2 repose sur la caractérisation de l'agrégateur, d'où une faible confiance. Aucune condition ni aucun calendrier n'ont été trouvés."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Prudent sur les prix planchers agricoles. Lorsque Macron les a évoqués en 2024, il a réservé son jugement dans l'attente de précisions.",
+   "nuance": "Source de 2024 (Salon de l'agriculture), paraphrase d'un agrégateur. Aucune position de 2025-2026 n'a été trouvée. Sa ligne économique libérale rend un soutien actif peu probable, mais aucune opposition n'est documentée."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucune position explicite sur une baisse de la TVA sur l'énergie et les carburants à 5,5 %. Un agrégateur indique qu'il préfère la stabilité fiscale et doute que les baisses de TVA soient répercutées sur les prix.",
+   "nuance": "Déduit de sa priorité à la réduction du déficit et de la note de l'agrégateur. En 2019, il avait qualifié la TVA à zéro sur les produits essentiels d'« intellectuellement possible », ce qui est un signal contraire (MonVote2027). Il a gelé les hausses de taxes sur les carburants en 2018 mais n'a pas baissé la TVA."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucun soutien à la privatisation de l'audiovisuel public. Son gouvernement a mené une réforme de la gouvernance (une société holding) et maintenu le financement public.",
+   "nuance": "Fondé sur son bilan de 2019 comme Premier ministre (réforme de l'audiovisuel, redevance maintenue à l'époque). Aucune déclaration de 2025-2026 rejetant explicitement la privatisation n'a été trouvée, d'où -1 et non -2."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucune déclaration sur les signes religieux à l'université. Son raisonnement selon lequel les usagers des services publics ne sont pas tenus à la neutralité, et sa ligne d'août 2026 « pas nécessaire d'aller plus loin », laissent penser qu'il s'opposerait à une interdiction.",
+   "nuance": "Déduit. Presi2027 classe « neutre / non positionné » son item laïcité combiné, qui inclut l'université. Aucune déclaration propre à l'université n'a été trouvée."
+  },
+  {
+   "id": "san5",
+   "summary": "Préfère libérer l'offre de logements et simplifier les règles de construction plutôt que construire massivement du logement social. Aucune position explicite sur le ZAN n'a été trouvée.",
+   "nuance": "Soutien partiel. La simplification des règles est documentée par un agrégateur (« source indirecte »). L'assouplissement du ZAN ne l'est pas. Sa plateforme sur le logement de décembre 2025 (renforcement des droits des propriétaires, opposition à l'encadrement des loyers) va dans le même sens."
+  }
+ ],
+ "record": {
+  "bio": "Édouard Philippe (né en 1970) est un homme politique français de centre droit, fondateur d'Horizons (2021). Il a été Premier ministre sous Emmanuel Macron de mai 2017 à juillet 2020 et est maire du Havre depuis 2020, réélu en mars 2026. Il a annoncé sa candidature à l'élection présidentielle de 2027 en septembre 2024 et lancé sa campagne le 5 juillet 2026 (slogan « Croire en nous »). Le 9 septembre 2026, il a annoncé qu'il quitterait la présidence d'Horizons pour bâtir une coalition plus large, et Christophe Béchu lui a succédé le 1er octobre 2026.",
+  "offices": [
+   "Maire du Havre (premier mandat)",
+   "Député de la Seine-Maritime",
+   "Premier ministre",
+   "Maire du Havre (second mandat, réélu le 28 mars 2026)",
+   "Président du Havre Seine Métropole",
+   "Président d'Horizons"
+  ],
+  "legal": [
+   "Information judiciaire de la Cour de justice de la République sur la gestion de la pandémie de Covid-19 (ouverte le 7 juillet 2020 ; son domicile a été perquisitionné le 15 octobre 2020). Il a été placé sous le statut de témoin assisté pour « abstention de combattre un sinistre », et non mis en examen, et la commission d'instruction de la CJR a rendu un non-lieu en faveur de Philippe, Agnès Buzyn et Olivier Véran le 7 juillet 2025. Jamais mis en examen pour ces faits ni condamné.",
+   "En 2014, la HATVP (Haute Autorité pour la transparence de la vie publique) a publié une appréciation critique de sa déclaration de patrimoine en raison d'omissions, et il a ensuite déposé une déclaration mise à jour. Il s'agissait d'un constat administratif et non d'une affaire pénale."
+  ],
+  "reversals": [
+   {
+    "topic": "PMA (procréation médicalement assistée pour toutes les femmes)",
+    "before": "Y était opposé dans une tribune de 2013.",
+    "after": "Comme Premier ministre, il a porté l'engagement de campagne de Macron et a dit avoir « évolué sur cette question »."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Réforme des retraites de 2020 (système universel par points) : le gouvernement a recouru à l'article 49.3 en première lecture à l'Assemblée nationale (29 février 2020), puis suspendu la réforme en mars 2020 en raison du Covid. Elle n'a jamais été adoptée.",
+    "assessment": "Niveau de synthèse uniquement. La source relève le recours au 49.3 et son soutien ultérieur à un relèvement de l'âge de la retraite (65-67 ans). Aucune évaluation équilibrée issue de sources de sensibilités différentes n'a été obtenue."
+   },
+   {
+    "what": "Gouvernement Philippe II (21 juin 2017 au 3 juillet 2020) : ordonnances sur le code du travail, lois et budgets",
+    "assessment": "La page recense des ordonnances et des lois, mais le détail n'a pas pu être récupéré. Aucune évaluation de sources de sensibilités différentes n'a été obtenue."
+   },
+   {
+    "what": "Limitation de vitesse à 80 km/h sur les routes secondaires (juillet 2018), qu'il a personnellement défendue",
+    "assessment": "La source indique qu'il l'a imposée contre la préférence de Macron et qu'elle a pu alimenter les tensions des Gilets jaunes. Aucune évaluation de sources de sensibilités différentes n'a été obtenue."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non recherché (quota de recherches épuisé).",
+   "right_media": "Non recherché (quota de recherches épuisé).",
+   "neutral_media": "Non recherché (quota de recherches épuisé)."
+  }
+ }
+}

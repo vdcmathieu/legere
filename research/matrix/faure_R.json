@@ -1,0 +1,185 @@
+{
+ "collect": {
+  "candidate": "Olivier Faure",
+  "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician, a PS member since 1984 and deputy for Seine-et-Marne's 11th constituency since 2012. He has led the Parti socialiste as First Secretary since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024, and negotiated a common-candidate process with other left parties. He announced his candidacy for the 2027 presidential nomination on 30 August 2026 and published the book \"La loi du plus juste\" in September 2026.",
+  "offices": [
+   {
+    "office": "Deputy, Seine-et-Marne 11th constituency",
+    "from": "2012",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "PS national spokesman",
+    "from": "2014",
+    "to": "2016",
+    "kind": "party"
+   },
+   {
+    "office": "President of the Nouvelle Gauche/PS group in the Assemblée nationale",
+    "from": "2016",
+    "to": "2018",
+    "kind": "legislative"
+   },
+   {
+    "office": "First Secretary of the Parti socialiste",
+    "from": "2018-04",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Support for Cazeneuve as PM (2024)",
+    "before": "Backed the Nouveau Front populaire unity pact and said the NFP should supply the PM",
+    "after": "Declined unconditional support for a government led by Bernard Cazeneuve, an ex-PS figure, which split his party",
+    "years": "2024",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "topic": "Retirement reform",
+    "before": "Called for repeal of the 2023 pension reform (retirement age 64)",
+    "after": "Late 2025: negotiated a suspension with PM Lecornu, freezing the legal age at 62 years 9 months until January 2028, rather than full repeal. This is a compromise more than a reversal, so it is arguably only nuance.",
+    "years": "2023-2025",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "topic": "Budget 2026 and use of 49.3",
+    "before": "The PS had opposed use of 49.3 as a method",
+    "after": "Accepted its use for adopting the 2026 budget, against opposition from other left parties",
+    "years": "2025-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Pushed through the unified transit pass in Île-de-France (Pass Navigo unification, as a deputy)",
+    "assessment": "Cited as a concrete achievement in his Wikipedia profile. Not independently assessed; no balanced sources beyond Wikipedia were obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "what": "Rebuilt the left alliance: NUPES 2022, NFP 2024, common-candidate designation process agreed July 2025",
+    "assessment": "Credited with keeping the PS in a union strategy. Critics inside the PS, who favour a federation behind Glucksmann, say he is too dependent on LFI. Only Wikipedia was consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "what": "Negotiated suspension of the pension reform with PM Lecornu (age frozen at 62y9m until Jan 2028)",
+    "assessment": "A concrete concession obtained from the government while the PS was in opposition. Other left parties criticised the compromise. No multi-lean sources obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not researched: the web search budget was exhausted before any outlet was consulted. Do not rely on this field.",
+   "right_media": "Not researched. Do not rely on this field.",
+   "neutral_media": "Not researched. Do not rely on this field."
+  },
+  "sources_note": "Only the French Wikipedia article on Olivier Faure could be fetched, because the session's 200-call WebSearch limit was already used. Wikipedia is a secondary, non-primary source with no lean label. The profile is therefore thin and unverified: no roll-call votes, programme, or outlets of differing leanings were checked. Legal is empty from absence of evidence in the article, not confirmed absence of cases. Traits and media portrayal are empty or unreliable. Executive experience is coded 0 because no ministerial or mayoral office was found, but this was not cross-checked. The \"La loi du plus juste\" proposals (regularising undocumented workers, AI levy for pensions, SMIC at 1,700 euros) come from Wikipedia. The retirement and 49.3 items are paraphrased from it. A rerun with a higher search limit is recommended."
+ },
+ "verify": {
+  "candidate": "Olivier Faure",
+  "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, though PS members later voted for a primary limited to the socialist pole. He announced his presidential bid on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS/Place publique primary of October 2026.",
+  "offices": [
+   {
+    "office": "Deputy, Seine-et-Marne 11th constituency",
+    "from": "2012-06",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "PS national spokesman",
+    "from": "2014-08",
+    "to": "2016-12",
+    "kind": "party"
+   },
+   {
+    "office": "President of the Socialist group in the Assemblée nationale (SER, renamed Nouvelle Gauche in 2017)",
+    "from": "2016-12",
+    "to": "2018-04",
+    "kind": "legislative"
+   },
+   {
+    "office": "First Secretary of the Parti socialiste",
+    "from": "2018-04",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Use of article 49.3 for the 2026 budget",
+    "before": "Autumn 2025: the PS made non-use of article 49.3 for the 2026 budget one of its conditions for not censuring the Lecornu government, and obtained that commitment",
+    "after": "Late January 2026: accepted that the government use 49.3 to adopt the 2026 budget because no majority could be found, against opposition from other left parties",
+    "years": "2025-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Had an amendment adopted in December 2014 that enabled the single-fare Pass Navigo in Île-de-France",
+    "assessment": "Cited as a concrete parliamentary achievement in his Wikipedia profile. It has not been independently assessed, and no sources of differing leanings were consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "what": "Kept the PS in left alliances: NUPES 2022, NFP 2024, and a common-candidate principle for 2027 agreed in Bagneux in July 2025",
+    "assessment": "Credited with keeping the PS in a union strategy. Opponents inside the PS, who would rather back Raphaël Glucksmann in a federation, accuse him of being subordinate to Mélenchon/LFI. PS members later rejected his preferred open primary (55.5% backed a primary limited to the socialist pole). Only Wikipedia was consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure"
+    ]
+   },
+   {
+    "what": "Negotiated a suspension of the 2023 pension reform with PM Lecornu in late 2025 (legal age frozen at 62 years 9 months until January 2028), which was voted on 12 November 2025 in the PLFSS 2026; he voted for the PLFSS on final reading on 16 December 2025",
+    "assessment": "A concrete concession obtained while the PS was in opposition. Other left parties criticised the compromise. No sources of differing leanings were obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Olivier_Faure",
+     "https://datan.fr/deputes/seine-et-marne-77/depute_olivier-faure"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not researched: no left-leaning outlet could be consulted. Do not rely on this field.",
+   "right_media": "Not researched: no right-leaning outlet could be consulted. Do not rely on this field.",
+   "neutral_media": "Not researched: no neutral outlet could be consulted. Do not rely on this field."
+  },
+  "sources_note": "Sources: French Wikipedia (secondary source, no lean label) and datan.fr (primary roll-call aggregator). The session's WebSearch budget (200 calls) was used up, and direct fetches of Public Sénat and franceinfo pages returned nothing usable. As a result, no press outlet of any lean was consulted. Legal is empty because Wikipedia and datan mention no judicial case involving him personally. This is absence of evidence, not confirmed absence. Traits and media portrayal are empty or unresearched because the two-lean bar could not be met. Executive experience is 0 because his posts were parliamentary, party or staff roles: he was never minister, mayor or executive president. Datan gives 92% participation in solemn votes and 95% loyalty to the SOC group. A rerun with a higher search limit is recommended to add press sources of differing leanings.",
+  "verification_notes": [
+   "bio: 'PS member since 1984 ... negotiated a common-candidate process' -> added joining the PS in 1984 (confirmed), his 2000-2007 Hollande staff role, the July 2025 principle being followed by PS members choosing a socialist-pole-only primary, the book date of 17 Sept 2026, and the October 2026 PS/Place publique primary: precision and balance, per Wikipedia",
+   "offices[0]: from '2012' -> '2012-06': Wikipedia gives 20 June 2012",
+   "offices[1]: '2014'-'2016' -> '2014-08'-'2016-12': Wikipedia gives 26 Aug 2014 - 17 Dec 2016",
+   "offices[2]: 'President of the Nouvelle Gauche/PS group', 2016-2018 -> 'Socialist group (SER, renamed Nouvelle Gauche in 2017)', 2016-12 to 2018-04: the group was not called Nouvelle Gauche in Dec 2016; dates 13 Dec 2016 - 11 Apr 2018 per Wikipedia",
+   "executive_experience_years: 0 -> 0: confirmed, no ministerial, mayoral or executive-presidency role; Wikipedia lists no local mandates",
+   "legal: [] -> []: no case found in Wikipedia or datan; noted in sources_note as absence of evidence",
+   "reversals[Cazeneuve]: removed -> dropped: refusing unconditional support for a Cazeneuve government is consistent with backing an NFP prime minister, so it is not a change of position; the 'before' claim was also not in the cited source",
+   "reversals[Retirement reform]: removed -> dropped: the draft itself called it a compromise or nuance; a negotiated suspension while keeping the repeal goal is not a documented reversal (kept under delivery)",
+   "reversals[49.3]: before 'The PS had opposed use of 49.3 as a method' -> 'the PS made non-use of 49.3 for the 2026 budget a condition and obtained that commitment from Lecornu': Wikipedia documents the specific earlier demand, which makes this a genuine reversal; it rests on a single source",
+   "delivery[0]: 'Pushed through the unified transit pass (Pass Navigo unification)' -> 'Had an amendment adopted in Dec 2014 enabling the single-fare Pass Navigo': matches the source wording",
+   "delivery[1]: added the Bagneux July 2025 detail and the PS members' 55.5% vote against his preferred open primary; 'Critics inside the PS who favour federation behind Glucksmann' -> 'opponents inside the PS ... accuse him of being subordinate to Mélenchon/LFI': aligned with the source and balanced",
+   "delivery[2]: added the 12 Nov 2025 vote on the freeze and his vote for the PLFSS 2026 on 16 Dec 2025; added the datan.fr source (fetched and confirmed)",
+   "traits: [] -> []: no trait could be attested by two sources of different leanings",
+   "media_portrayal: reworded as neutral 'not researched' notes: no outlets were consulted",
+   "sources_note: rewritten to reflect the sources actually used (Wikipedia, datan.fr) and the failed fetches",
+   "URLs: https://fr.wikipedia.org/wiki/Olivier_Faure and https://datan.fr/deputes/seine-et-marne-77/depute_olivier-faure were both fetched and confirmed; no unconfirmed URL remains"
+  ]
+ }
+}

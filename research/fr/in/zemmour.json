@@ -1,0 +1,444 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Opposes bringing back the ISF; the 2022 programme also cut the IFI by taking the main residence out of its base.",
+   "nuance": "Evidence dates from the 2022 campaign. No 2027 programme had been published at the time of checking."
+  },
+  {
+   "id": "eco2",
+   "summary": "Inferred from his opposition to the ISF and the tax-cutting agenda he shares with Reconquête.",
+   "nuance": "No explicit Zemmour statement on the Zucman tax was verified. The search budget ran out before one could be found."
+  },
+  {
+   "id": "eco3",
+   "summary": "The 2022 programme cut production taxes by a further EUR 30bn and lowered corporate tax. It also offered a 'zéro charge' bonus exempt from social contributions.",
+   "nuance": "This is the 2022 programme. In 2026 Reconquête was still campaigning on 'baisse d'impôts et de charges' (combienjegagne.fr)."
+  },
+  {
+   "id": "eco4",
+   "summary": "In 2022 he proposed higher taxes on imports from outside the EU, a ban on agricultural imports that fail French standards, and a national preference in public procurement.",
+   "nuance": "Coded +1 because he never accepted the price-rise trade-off. Reconquête's more liberal turn in 2025-26 may soften this. Could be +2."
+  },
+  {
+   "id": "eco5",
+   "summary": "No evidence found on renationalising motorways or energy.",
+   "nuance": "The 2022 programme had a sovereign investment fund and new nuclear plants (EPR), but no return of motorways or energy to public control. Not researched further."
+  },
+  {
+   "id": "eco6",
+   "summary": "The 2022 programme exempted family-business transfers from inheritance and gift duties. It also raised the gift allowance to EUR 200,000 every 10 years.",
+   "nuance": "The draft said he abolished inheritance tax in direct line. That was not verified; the verified measures are the family-business exemption and the larger allowance. These are 2022 positions."
+  },
+  {
+   "id": "ret1",
+   "summary": "The 2022 programme raised the legal retirement age to 64 by 2030, which is the opposite of returning to 62.",
+   "nuance": "This is the 2022 position. No 2027 pension stance was verified."
+  },
+  {
+   "id": "ret2",
+   "summary": "The 2022 plan set the age at 64 and added one more year of contributions. It did not go beyond 64.",
+   "nuance": "He never explicitly rejected an age above 64. Coded -1 because his own plan stopped at 64. The 2027 stance was not checked and could differ."
+  },
+  {
+   "id": "ret3",
+   "summary": "No verified evidence of a mandatory funded (capitalisation) pension component.",
+   "nuance": "The draft's +1 came from recollection. Neither the Institut Montaigne summary of the 2022 programme nor Wikipedia mentions capitalisation."
+  },
+  {
+   "id": "fin1",
+   "summary": "The 2022 programme aimed to get the deficit below 3% by 2025, partly through savings. In 2025-26 Reconquête campaigned on EUR 130bn of spending cuts.",
+   "nuance": "The cuts were also meant to pay for tax cuts, so deficit reduction is not clearly his top priority. Hence +1. The 130bn plan is Sarah Knafo's."
+  },
+  {
+   "id": "fin2",
+   "summary": "The Reconquête homepage features 'Il faut supprimer 800 000 postes de fonctionnaires !'.",
+   "nuance": "The video is Sarah Knafo's (YouTube oEmbed author), not Zemmour's own. It sits on his party's homepage. No personal Zemmour statement was verified."
+  },
+  {
+   "id": "fin3",
+   "summary": "Inferred from the party's spending-cut and anti-debt line and his scepticism of green subsidies (he would redirect wind and solar support).",
+   "nuance": "Inferred. No explicit statement found."
+  },
+  {
+   "id": "fin4",
+   "summary": "Plausibly supportive given his fiscal-hawk line. No explicit evidence.",
+   "nuance": "Inferred. Not verified."
+  },
+  {
+   "id": "trav1",
+   "summary": "The 2022 programme did not raise the SMIC. It raised net pay instead by cutting CSG (9.2% to 2.5%) and exempting overtime.",
+   "nuance": "This is the 2022 programme."
+  },
+  {
+   "id": "trav2",
+   "summary": "Inferred from his pro-work, anti-'assistanat' line. No explicit proposal on unemployment benefits was found.",
+   "nuance": "In September 2026 he proposed expelling foreigners unemployed for more than about a year. That concerns immigration, not benefit levels."
+  },
+  {
+   "id": "trav3",
+   "summary": "In October 2023 Reconquête attacked the RN for opposing the requirement of about 15 hours of activity for RSA recipients, presenting itself as the only party against 'assistanat'. That implies support for keeping the obligation.",
+   "nuance": "This is a party position, voiced by Marion Maréchal's team, who has since left Reconquête. No personal statement by Zemmour was found. In 2026 Sarah Knafo said 'il n'y a pas d'assistés en France' and blamed the system, which may soften the anti-assistanat framing. No sign Reconquête wants to abolish the obligation."
+  },
+  {
+   "id": "trav4",
+   "summary": "Pro-work line: the 2022 programme fully exempted overtime from tax and charges. No 32-hour proposal.",
+   "nuance": "Inferred from adjacent measures. No explicit statement on 32 hours."
+  },
+  {
+   "id": "imm1",
+   "summary": "Calls for 'immigration zéro' and an end to family reunification. In September 2026 he went further, calling for expulsions of legal residents who are long-term unemployed.",
+   "nuance": "Confirmed in 2026 (BFMTV interview reported by RTL)."
+  },
+  {
+   "id": "imm2",
+   "summary": "The 2022 programme put immigration to a referendum and would follow the result even against the EU.",
+   "nuance": "This is the 2022 programme. Not re-checked for 2027."
+  },
+  {
+   "id": "imm3",
+   "summary": "The 2022 programme abolished AME outright, which goes further than urgent-care-only.",
+   "nuance": "He wants more than the statement: outright abolition. Coded +2 as strong support for restricting AME. Urgent care would remain only through existing emergency-care funds."
+  },
+  {
+   "id": "imm4",
+   "summary": "The 2022 programme banned regularising anyone who entered illegally. In 2026 he called for removing all undocumented migrants.",
+   "nuance": "Explicit programme position, confirmed in 2026."
+  },
+  {
+   "id": "imm5",
+   "summary": "The 2022 programme withdrew non-contributory benefits from non-EU foreigners, a 'préférence nationale' for social benefits.",
+   "nuance": "The social-housing priority part was not verified."
+  },
+  {
+   "id": "imm6",
+   "summary": "The 2022 programme abolished droit du sol.",
+   "nuance": "2022 programme. No sign of a reversal."
+  },
+  {
+   "id": "imm7",
+   "summary": "Inferred from his national-preference and zero-immigration stance.",
+   "nuance": "Inferred. No explicit statement verified."
+  },
+  {
+   "id": "sec1",
+   "summary": "The 2022 programme brought in minimum sentences for every crime and offence, wider than repeat offenders only.",
+   "nuance": "2022 programme."
+  },
+  {
+   "id": "sec2",
+   "summary": "The 2022 programme lowered the age of criminal majority from 18 to 16.",
+   "nuance": "Goes further than the statement: it covers all offences by 16-year-olds, not only serious crimes."
+  },
+  {
+   "id": "sec3",
+   "summary": "Pro-police and hostile to external oversight. No explicit evidence.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "sec4",
+   "summary": "Presumed opposed to legalising cannabis, in line with his law-and-order stance. No source verified.",
+   "nuance": "The draft called this a 'statement' but had no source. Downgraded to inferred."
+  },
+  {
+   "id": "sec5",
+   "summary": "Supports video surveillance and has praised AI. The AI-assisted surveillance proposal itself was not checked.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "eu1",
+   "summary": "The 2022 programme revised Article 55 of the Constitution so that any new national law prevails over existing EU law.",
+   "nuance": "Applies to new laws over existing EU law. 2022 programme."
+  },
+  {
+   "id": "eu2",
+   "summary": "Presumed opposed to EU joint borrowing, given his sovereigntist stance.",
+   "nuance": "Inferred. The Reconquête MEPs' votes were not checked."
+  },
+  {
+   "id": "eu3",
+   "summary": "Eurosceptic and focused on cutting spending, so likely supports a smaller contribution.",
+   "nuance": "Inferred. No explicit proposal verified."
+  },
+  {
+   "id": "eu4",
+   "summary": "Sovereigntist who opposes new transfers of competence, so he would keep the veto.",
+   "nuance": "Inferred from 'bloquer tout nouveau transfert de compétence'."
+  },
+  {
+   "id": "eu5",
+   "summary": "The 2022 programme set aside EU rules to control migration and would follow an immigration referendum against EU opinion. He said France should do 'ce qu'on a envie de faire'.",
+   "nuance": "2022 positions."
+  },
+  {
+   "id": "eu6",
+   "summary": "He backs staying in the EU, reformed into a 'Europe des Nations'. He also said leaving the euro would be worse than having joined it.",
+   "nuance": "Some observers call this a 'soft Frexit'. That is a characterisation by others, not his stated position. 2022 positions; 2027 stance not verified."
+  },
+  {
+   "id": "int1",
+   "summary": "No evidence retrieved.",
+   "nuance": "Verifier re-check: WebSearch budget exhausted; Wikipedia only says he condemned Russia's 2022 invasion despite earlier pro-Russia stance, which says nothing about sustained military aid. Not coded."
+  },
+  {
+   "id": "int2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; official speeches 2024 checked, nothing on troops in Ukraine. Not coded."
+  },
+  {
+   "id": "int3",
+   "summary": "Pledged at Reconquête's founding rally (Villepinte, Dec 2021) to remove France from NATO's integrated command; his 2022 campaign site criticises membership of the integrated command as forcing France to follow the US.",
+   "nuance": "Stance dates from the 2021-2022 campaign. No 2025-2026 reaffirmation was found, and the post-2022 Ukraine context could have moved it. The campaign page criticises membership but its excerpt contains no explicit exit measure; the explicit pledge comes via secondary reporting of the founding rally."
+  },
+  {
+   "id": "int4",
+   "summary": "No direct statement on the EU-Israel association agreement, but he called the Gaza war 'the fight of our civilisation', visited Israel in solidarity and in June 2025 opposed ceasefire calls and fully backed Israeli actions.",
+   "nuance": "Inferred from his consistent unconditional support for Israel's war conduct; nothing found on the association agreement itself. Low confidence."
+  },
+  {
+   "id": "int5",
+   "summary": "No evidence on a specific defence-spending target retrieved.",
+   "nuance": "Wikipedia notes he calls for strengthening the armed forces, but gives no % of GDP figure, so this statement is not coded."
+  },
+  {
+   "id": "int6",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; campaign priority pages and 2024 speeches checked, nothing found. Not coded."
+  },
+  {
+   "id": "int7",
+   "summary": "No evidence retrieved.",
+   "nuance": "Wikipedia mentions he argued for a closer relationship with Russia (pre-2022) but nothing on sanctions-for-peace. Not coded."
+  },
+  {
+   "id": "ecol1",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ecol2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ecol3",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ecol4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ecol5",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ene1",
+   "summary": "No evidence retrieved.",
+   "nuance": "Campaign 'industrie' page checked: no nuclear measure in it. Not coded."
+  },
+  {
+   "id": "ene2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ene3",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ene4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ins1",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ins2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ins3",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ins4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "ins5",
+   "summary": "No evidence retrieved.",
+   "nuance": "The 2022 independence page wants to question the primacy of international treaties on migration, but nothing on widening the referendum was retrieved. Not coded."
+  },
+  {
+   "id": "soc1",
+   "summary": "Zemmour told franceinfo he will promise in the campaign to repeal the 2026 assisted-dying law.",
+   "nuance": "An explicit repeal promise made after the law was adopted on 15 July 2026. In May 2025 he called it 'une espèce de rétablissement de la peine de mort qui ne dit pas son nom' (CNews headline)."
+  },
+  {
+   "id": "soc2",
+   "summary": "His 2022 presidential programme proposed banning the Islamic veil (hijab) in all public places.",
+   "nuance": "Based on the 2022 programme, which matches the statement's wording. The original programme site now redirects to a login wall and the archive could not be fetched, so the source is a secondary citation of it. No 2025-2026 restatement was retrieved."
+  },
+  {
+   "id": "soc3",
+   "summary": "The 2022 programme banned the Islamic veil in all public space, and in 2025 Zemmour said it must be banned 'partout'. That covers parents accompanying school trips.",
+   "nuance": "No statement names school-trip parents specifically. A general public-space ban would include them, so the code is inferred from the broader rule. The measure targets the Islamic veil, not all conspicuous religious symbols."
+  },
+  {
+   "id": "soc4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Not coded directly. His veil-in-public-space proposal (soc2) implies opposition; it could be coded -2 inferred if the app allows it."
+  },
+  {
+   "id": "soc5",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "edu1",
+   "summary": "No evidence retrieved.",
+   "nuance": "The 2022 'instruction' page checked: it lists abolishing the collège unique and raising the bac level, with no uniform measure. Not coded."
+  },
+  {
+   "id": "edu2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "edu3",
+   "summary": "No evidence retrieved.",
+   "nuance": "The 2022 programme proposes 'la suppression du collège unique', which is close to ability streaming but not the same as grouping by level in some subjects. Not coded; it could be +1 or +2 inferred if that link is accepted."
+  },
+  {
+   "id": "edu4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "edu5",
+   "summary": "No statement found on ending selection for university entry.",
+   "nuance": "Searches on Parcoursup or selection plus Zemmour turned up nothing usable. His general stance favours merit and authority, which makes support for ending selection unlikely, but there is no direct evidence, so it stays null."
+  },
+  {
+   "id": "san1",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "san2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "san3",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "san4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Search budget exhausted; not coded."
+  },
+  {
+   "id": "eco7",
+   "summary": "No statement by Zemmour or Reconquête on a 'TVA sociale' found.",
+   "nuance": "Searched Google News, French Wikipedia and the archived 2022 programme (purchasing-power sheet: cuts to social charges funded by fighting fraud and cutting benefits for non-Europeans, with no VAT increase mentioned). No evidence either way, so the position stays null."
+  },
+  {
+   "id": "imm8",
+   "summary": "The 2022 programme planned to make naturalisation harder, end birthright citizenship (droit du sol) and strip binational offenders of nationality. That is the opposite of easier naturalisation.",
+   "nuance": "Based on the 2022 programme, since no 2025-2026 statement specifically on naturalisation was found. The 'zero immigration' line has not changed since."
+  },
+  {
+   "id": "sec6",
+   "summary": "No statement found on receipts for identity checks.",
+   "nuance": "A search on 'Zemmour récépissé / contrôles au faciès' returned only his 2011 conviction stories, nothing on the policy. Very likely opposed, but there is no evidence, so it stays null."
+  },
+  {
+   "id": "eu7",
+   "summary": "Zemmour wants French defence autonomy and opposes an integrated European defence, which he says would put France under the European Commission. His 2022 defence programme rejects 'fédéralisme européen' and planned to leave NATO integrated command to regain 'pleine indépendance'.",
+   "nuance": "The 2024 CNews statement is known only through a fact-checker's paraphrase. The programme is from 2022. No 2025-2026 statement on joint arms procurement specifically was found."
+  },
+  {
+   "id": "eu8",
+   "summary": "The 2022 Europe programme pledged to refuse any new EU enlargement. That covers Ukraine's accession.",
+   "nuance": "The programme was published in January 2022, before Ukraine applied (February 2022) and became a candidate. It is a general refusal of enlargement and does not name Ukraine. No 2025-2026 statement by Zemmour on Ukrainian accession was found. He opposed arms deliveries and sanctions in 2022."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No statement found supporting or opposing guaranteed minimum (floor) prices for farmers.",
+   "nuance": "The 2022 agriculture programme relied on ending joint purchasing groups, short supply chains, import bans and opting out of free-trade talks, with no floor prices. In January 2026 he said he supported protesting farmers, but nothing on prix planchers. Stays null."
+  },
+  {
+   "id": "ene5",
+   "summary": "No Zemmour proposal found to cut VAT on energy and fuel to 5.5%.",
+   "nuance": "The 5.5% energy-VAT proposal found in search belongs to Marine Le Pen and the RN. Zemmour's 2022 energy, automobilistes and purchasing-power sheets offer other measures (replacing ARENH, employers covering 50% of fuel costs) and no VAT cut. Stays null."
+  },
+  {
+   "id": "ins6",
+   "summary": "The 2022 programme pledged to abolish the licence fee by privatising the main public broadcasting channels. Zemmour named France Inter and France Télévisions in December 2021, and Reconquête kept calling for privatisation in 2025.",
+   "nuance": "The 2021-2022 plan (L'Opinion) would hand France 3 and France Bleu to the regions and privatise France 2, franceinfo TV, France Inter, Mouv and FIP, so partial but substantial privatisation. That matches 'tout ou partie'. The 2025 evidence is Sarah Knafo (party line)."
+  },
+  {
+   "id": "soc6",
+   "summary": "The 2022 programme banned the Islamic veil in all public space. In May 2025 Zemmour cited the debate on banning it at universities and said it must be banned everywhere.",
+   "nuance": "Targets the Islamic veil specifically, not all conspicuous symbols. Les Surligneurs (2025-03-27) also reports him calling for 'discrétion dans l'espace public'."
+  },
+  {
+   "id": "san5",
+   "summary": "No Zemmour statement found on loosening building rules or the ZAN target for housing.",
+   "nuance": "The draft's +1 had no source and rested only on 'right-wing hostility is common'. His 2022 programme proposed abolishing the SRU law (per Gilles Ivaldi, cited on Wikipedia), which is adjacent but not the same issue. Set to null instead of guessing."
+  }
+ ],
+ "record": {
+  "bio": "Éric Zemmour, born 31 August 1958 in Montreuil, is a French journalist, essayist and politician. He worked at Le Figaro, RTL, Paris Première and CNews before founding Reconquête in December 2021. He finished fourth in the 2022 presidential election with 7.07% and confirmed his 2027 candidacy on BFM TV on 17 September 2026. Reconquête is classed as far-right and national-conservative, and campaigns on \"zero immigration\", assimilation and Euroscepticism.",
+  "offices": [
+   "Presidential candidate (4th, 7.07%)",
+   "Founder and president of Reconquête",
+   "Candidate in Var 4th constituency (3rd, eliminated first round, 23.19%)"
+  ],
+  "legal": [
+   "Provocation à la discrimination raciale (March 2010 remarks on Canal+ 'Salut les Terriens' and France Ô): 17e chambre, tribunal de Paris, 18 Feb 2011, 1,000 EUR suspended fine in each of two judgments plus damages; Zemmour announced on 1 March 2011 he would not appeal",
+   "Provocation à la haine religieuse envers les musulmans (France 5 'C à vous', Sept 2016): cour d'appel de Paris 3 May 2018, 5,000 EUR fine; pourvoi rejected by the Cour de cassation 17 Sept 2019; ECHR (Zemmour v. France) found no violation of Article 10 on 20 Dec 2022",
+   "Complicité d'injure publique et provocation à la haine (CNews 'Face à l'info', Sept 2020 remarks on unaccompanied migrant minors): tribunal de Paris 17 Jan 2022, 10,000 EUR (100 day-fines of 100 EUR); confirmed on appeal; pourvoi rejected by the Cour de cassation 2 Dec 2025",
+   "Injure publique et provocation à la haine raciale (speech at the 'Convention de la droite', 28 Sept 2019): convicted at first instance 25 Sept 2020, acquitted on appeal 8 Sept 2021, acquittal quashed by the Cour de cassation 21 Feb 2023, convicted on retrial by the cour d'appel de Paris 22 Feb 2024 (15,000 EUR fine); pourvoi rejected 16 Sept 2025",
+   "Injure à caractère raciste against Hapsatou Sy: tribunal de Paris 12 Jan 2023, 4,000 EUR fine; confirmed by the cour d'appel de Paris 28 March 2024; pourvoi rejected by the Cour de cassation 2 Sept 2025",
+   "Diffamation against lawyer Patrick Klugman (April 2022 France 2 remarks on the death of Jérémie Cohen): convicted Jan 2024, 1,000 EUR fine; confirmed on appeal Dec 2024; pourvoi rejected by the Cour de cassation 2 Dec 2025",
+   "Complicité de diffamation publique envers une administration publique (INED; April 2021 CNews claim that INED 'trafique les chiffres'): tribunal de Paris 29 Jan 2024, 1,500 EUR suspended fine; confirmed on appeal 11 Dec 2024; pourvoi rejected by the Cour de cassation 27 Jan 2026",
+   "Complicité de diffamation publique against MP Danièle Obono (2020 CNews remarks): tribunal correctionnel de Paris 7 Feb 2024, 1,000 EUR suspended fine; confirmed on appeal Jan 2025; Cour de cassation confirmed the case in June 2026",
+   "Injure raciale (remarks after the Crépol killing): tribunal correctionnel de Paris 26 March 2025, 9,000 EUR (60 day-fines of 150 EUR); acquitted on other counts; Zemmour announced an appeal. Appeal outcome not verified",
+   "Contestation de crime contre l'humanité (Oct 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 Feb 2021) and on appeal (May 2022); acquittal quashed by the Cour de cassation 5 Sept 2023; convicted on retrial by the cour d'appel de Paris 2 April 2025, 10,000 EUR fine; Zemmour announced a pourvoi en cassation. Cassation outcome not verified",
+   "Civil judgment for contrefaçon de droits d'auteur and atteinte au droit moral (film extracts in his campaign announcement video): tribunal judiciaire de Paris 4 March 2022, Zemmour and Reconquête ordered to pay about 70,000 EUR to Gaumont, EuropaCorp, Luc Besson, SACD and others; no appeal filed",
+   "Contrefaçon de droits d'auteur (unauthorised extracts of the documentary 'Le Collège d'à côté'): judgment of 16 Jan 2026; court, amount and appeal status not verified",
+   "Injure homophobe (Oct 2019 CNews remarks): convicted at first instance 28 Sept 2023 (4,000 EUR), acquitted by the cour d'appel de Paris 12 Sept 2024; a civil party (Stop Homophobie) said it would file a pourvoi",
+   "Provocation à la discrimination (Jan 2022 Public Sénat remarks on immigration and crime), prosecuted by LDH and SOS Racisme: acquitted by the tribunal correctionnel de Paris",
+   "Diffamation (Feb 2022 France Inter remarks comparing French towns to Afghanistan): acquitted 12 Nov 2024, acquittal confirmed on appeal Oct 2025; Vitry-sur-Seine filed a pourvoi",
+   "Contestation de crime contre l'humanité (book passage calling the deportation of homosexuals from France a 'légende'): acquitted 18 Sept 2025; plaintiffs' appeal dismissed June 2026",
+   "Diffamation against teacher Sophie Djigo (2022), tried with nine RN officials 30-31 March 2026: acquitted June 2026; the teacher announced an appeal",
+   "Prosecution before the 17e chambre for 2021 and 2022 CNews remarks about Senegalese crack dealers (renvoi ordered May 2024). Trial outcome not verified"
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "He has held no national or local executive or legislative office, so his record is electoral. He won 7.07% in the 2022 presidential first round. In the 2022 legislative elections Reconquête won no seats; its national share is given as 4.24% in the draft and 3.61% on Reconquête's Wikipedia page. In the 2024 European elections it won 5.47% and 5 MEPs.",
+    "assessment": "He founded a party that has lasted since December 2021 but has won no seats in the National Assembly. Four of its five MEPs elected in 2024 (Marion Maréchal, Nicolas Bay, Guillaume Peltier and Laurence Trochu) were expelled in June 2024 after calling for support of the RN-led right-wing coalition; Sarah Knafo stayed. Only Wikipedia was checked for this item, so no balanced assessment from sources of different leanings is available."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Only partly verified. Mediapart (left) reported the final Obono defamation ruling as the latest in a long list of sanctions. Its standfirst reads: 'Dernière sanction d'une longue liste'. Libération (centre-left) also covers each conviction in detail (headlines seen in Wikipedia citations). No wider sample was checked.",
+   "right_media": "Not verified. No CNews, Europe 1, JDD or Valeurs actuelles coverage was opened this session, so their portrayal is not documented here. Le Figaro (centre-right) covered the 2022 ECHR ruling and the 2025 Pétain conviction in factual headlines (URL slugs only; the pages could not be fetched).",
+   "neutral_media": "Partly verified. franceinfo calls him the 'candidat d'extrême droite' and reports his convictions and their final status factually. AFP dispatches (via L'Obs) and France 24 report court decisions without adding commentary."
+  }
+ }
+}

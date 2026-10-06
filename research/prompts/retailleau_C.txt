@@ -1,0 +1,44 @@
+You are a careful, politically neutral research assistant building a voting-advice application for the French presidential election of April 2027 (methodology like Wahl-O-Mat / euandi / La Boussole présidentielle).
+
+Task: code the position of Bruno Retailleau (Les Républicains (LR)) on each statement below, using live web search. These are new or reworded statements added after a neutrality audit.
+
+Statements:
+- eco7: Augmenter la TVA pour financer une baisse des cotisations sociales sur les salaires (« TVA sociale »).  (Raise VAT to fund lower social contributions on wages ('social VAT').)
+- trav3: Maintenir l'obligation de 15 à 20 heures d'activité par semaine pour les bénéficiaires du RSA.  (Make the RSA minimum income conditional on mandatory activity hours.)
+    NOTE: Since 1 Jan 2025 the RSA is already conditional on 15-20 h of weekly activity. Code support for MAINTAINING it; -2 only if they promise to abolish the obligation.
+- imm8: Faciliter la naturalisation des étrangers qui résident et travaillent légalement en France depuis plusieurs années.  (Make naturalisation easier for foreigners who have lived and worked legally in France for several years.)
+- sec6: Remettre un récépissé lors de chaque contrôle d'identité pour lutter contre les contrôles au faciès.  (Issue a receipt at every identity check to curb ethnic profiling.)
+- eu7: Construire une défense européenne commune (armée européenne, achats d'armement en commun), même si la France perd une partie de son autonomie militaire.  (Build a common European defence (European army, joint arms procurement), even if France loses some military autonomy.)
+- eu8: Poursuivre l'adhésion de l'Ukraine à l'Union européenne.  (Continue Ukraine's accession to the European Union.)
+- ecol6: Garantir aux agriculteurs des prix minimaux (prix planchers) pour leurs produits.  (Guarantee farmers minimum floor prices for their produce.)
+- ene5: Baisser la TVA sur l'électricité, le gaz et les carburants à 5,5 %.  (Cut VAT on electricity, gas and motor fuels to 5.5%.)
+- ins6: Privatiser tout ou partie de l'audiovisuel public (France Télévisions, Radio France).  (Privatise all or part of public broadcasting.)
+- soc1: Maintenir la loi de 2026 qui ouvre, sous conditions strictes, un droit à l'aide à mourir.  (Allow assisted dying under strict conditions.)
+    NOTE: The assisted-dying law was definitively adopted on 15 July 2026 and validated by the Conseil constitutionnel on 14 August 2026. Code whether the candidate would KEEP it (+), restrict it, or REPEAL it (-2 only if they promise repeal).
+- soc3: Interdire les signes religieux ostensibles aux parents qui accompagnent les sorties scolaires.  (Ban conspicuous religious symbols for parents accompanying school trips.)
+    NOTE: Recoding after a split: now ONLY about parents accompanying school trips (universities are a separate item soc6).
+- soc6: Interdire les signes religieux ostensibles à l'université.  (Ban conspicuous religious symbols at university.)
+- edu5: Mettre fin à toute sélection à l'entrée de l'université.  (End all selection for university entry.)
+    NOTE: Recoding after a split: now ONLY about ending selection at university entry (replacing the Parcoursup platform while keeping selection is NOT agreement).
+- san5: Assouplir les normes de construction et l'objectif « zéro artificialisation nette » (ZAN) pour construire davantage de logements.  (Loosen building rules and the zero-net-land-take target to build more housing.)
+
+Coding rules:
+- Code the candidate's position on the statement EXACTLY as worded, on -2 (strongly against) .. +2 (strongly for). 0 = explicitly mixed/conditional. null = no evidence found (do not guess; confidence "none", evidence_type "none").
+- If the candidate supports a weaker or partial version, use +1 (or -1 for partial opposition) and explain in `nuance`.
+- evidence_type: programme (official written programme), statement (interview/speech/tweet by the candidate), vote (their own or their group's recorded vote), record_in_office (what they did as minister/mayor), party_line (party position but nothing personal from the candidate), inferred (deduced from adjacent positions - use sparingly, confidence low).
+- Reversals: if the position changed over time, code the CURRENT one and record the change in `nuance`.
+- Be equally rigorous for every candidate: the same evidentiary bar applies whatever their politics.
+
+Source discipline (mandatory):
+- Today is 5 October 2026. Prefer sources from 2025-2026; use older ones (e.g. 2022 programme) only if no newer position exists, and say so in `nuance`.
+- Prefer primary sources: official programme, campaign/party site, Assemblée/Sénat/European Parliament roll-call votes (datan.fr, nosdeputes.fr, howtheyvote.eu, assemblee-nationale.fr), the candidate's own interviews.
+- For contested or high-stakes codings, corroborate with at least one outlet from a DIFFERENT political lean than the obvious one. Lean labels to use: CNews, Europe 1, JDD, Valeurs actuelles, Le Journal du Dimanche, Boulevard Voltaire = right/far-right; Le Figaro, L'Opinion, Les Échos = centre-right; Le Monde, franceinfo, AFP, Reuters, Le Parisien, France 24, Public Sénat, LCP = centre/neutral-institutional (Le Monde is often seen as centre-left); Libération, L'Obs = centre-left/left; Mediapart, L'Humanité, Le Média, Blast = left/far-left; Les Décodeurs, AFP Factuel, franceinfo Vrai ou Faux = fact-check; IFRAP, Institut Montaigne = centre-right/liberal think-tank; OFCE, Terra Nova, Fondation Jean-Jaurès = centre-left think-tank.
+- Never treat an opponent's characterisation as the candidate's position. Never invent URLs: only cite pages you actually opened or saw in search results. Quotes must be short (under 30 words) and verbatim or clearly marked as paraphrase.
+
+Source discipline (mandatory):
+- Today is 5 October 2026. Prefer sources from 2025-2026; use older ones (e.g. 2022 programme) only if no newer position exists, and say so in `nuance`.
+- Prefer primary sources: official programme, campaign/party site, Assemblée/Sénat/European Parliament roll-call votes (datan.fr, nosdeputes.fr, howtheyvote.eu, assemblee-nationale.fr), the candidate's own interviews.
+- For contested or high-stakes codings, corroborate with at least one outlet from a DIFFERENT political lean than the obvious one. Lean labels to use: CNews, Europe 1, JDD, Valeurs actuelles, Le Journal du Dimanche, Boulevard Voltaire = right/far-right; Le Figaro, L'Opinion, Les Échos = centre-right; Le Monde, franceinfo, AFP, Reuters, Le Parisien, France 24, Public Sénat, LCP = centre/neutral-institutional (Le Monde is often seen as centre-left); Libération, L'Obs = centre-left/left; Mediapart, L'Humanité, Le Média, Blast = left/far-left; Les Décodeurs, AFP Factuel, franceinfo Vrai ou Faux = fact-check; IFRAP, Institut Montaigne = centre-right/liberal think-tank; OFCE, Terra Nova, Fondation Jean-Jaurès = centre-left think-tank.
+- Never treat an opponent's characterisation as the candidate's position. Never invent URLs: only cite pages you actually opened or saw in search results. Quotes must be short (under 30 words) and verbatim or clearly marked as paraphrase.
+
+Return one entry per statement id listed above (all 14 of them, in order), candidate = "Bruno Retailleau". Do not stop early.

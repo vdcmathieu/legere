@@ -1,0 +1,239 @@
+{
+ "collect": {
+  "candidate": "Édouard Philippe",
+  "bio": "Édouard Philippe (born 1970) is a French centre-right politician and founder of Horizons (2021). He was Prime Minister under Emmanuel Macron from May 2017 to July 2020 and has been mayor of Le Havre since 2020, re-elected in March 2026. He announced his 2027 presidential candidacy in 2024 and launched his campaign on 5 July 2026 (slogan \"Croire en nous\"). He left the Horizons presidency on 9 September 2026 to build a broader coalition; Christophe Béchu took over on 1 October 2026.",
+  "offices": [
+   {
+    "office": "Mayor of Le Havre (first term)",
+    "from": "2010",
+    "to": "2017",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Deputy for Seine-Maritime",
+    "from": "2012",
+    "to": "2017",
+    "kind": "legislative"
+   },
+   {
+    "office": "Prime Minister",
+    "from": "2017-05-15",
+    "to": "2020-07-03",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Mayor of Le Havre (second term, re-elected 2026-03-28)",
+    "from": "2020-07-05",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of Le Havre Seine Métropole",
+    "from": "2020-07-15",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of Horizons",
+    "from": "2021-10-09",
+    "to": "2026-09-09",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 19,
+  "legal": [
+   {
+    "case": "Judicial investigation (Cour de justice de la République) into Covid-19 pandemic management, opened 7 July 2020; his home was searched on 15 October 2020. His current status in 2026 (témoin assisté, mis en examen, cleared) could NOT be verified. No conviction known.",
+    "status": "investigation",
+    "date": "2020-07-07 (opened); 2020-10-15 (search)",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "case": "HATVP censure in 2014 for opacity of his asset declaration (property values and legal fees). Administrative finding, not a criminal case.",
+    "status": "civil_or_other",
+    "date": "2014",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Speed limit 80 km/h",
+    "before": "As PM he was reported to oppose the measure, contrary to Macron.",
+    "after": "He then introduced it in July 2018.",
+    "years": "2018",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "topic": "PMA (assisted reproduction)",
+    "before": "He opposed it in a 2013 tribune.",
+    "after": "He later said he had 'evolved' while PM.",
+    "years": "2013-2019",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "topic": "Relationship with Macron",
+    "before": "He criticised Macron in 2014-2017 (the Wikipedia summary quotes 'old banking cynicism').",
+    "after": "He became his PM. In autumn 2025 he distanced himself again and called the 2024 dissolution 'absurd'.",
+    "years": "2014-2025",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "2020 pension reform pushed through with Article 49.3 (later suspended during Covid)",
+    "assessment": "Summary-level only. Source mentions the 49.3 use and his advocacy of raising the retirement age to 65-67. Balanced assessment from sources of different leanings NOT obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "what": "Government of Philippe II (June 2017 to July 2020)",
+    "assessment": "The Wikipedia page lists labour ordinances, laws and budgets, but the detail was not retrievable. Cross-leaning assessments NOT obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gouvernement_Édouard_Philippe_(2)"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not researched (search quota exhausted).",
+   "right_media": "Not researched (search quota exhausted).",
+   "neutral_media": "Not researched (search quota exhausted)."
+  },
+  "sources_note": "The WebSearch quota (200 calls) was exhausted before I could run any search. Everything above comes from three French Wikipedia pages that I opened (Édouard Philippe, Horizons, Gouvernement Philippe II), so it is thin and incomplete. Not covered: Horizons or Philippe 2027 programme, cross-leaning outlets, trait corroboration, media portrayal, and the current status of the CJR case. The executive_experience_years figure of about 19 is my own sum of the dates above: mayor 2010-2017, PM 2017-2020, mayor 2020 to 2026. The traits list is empty because no trait had two sources of different leanings. The research should be re-run with search quota available.",
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Édouard Philippe",
+  "bio": "Édouard Philippe (born 1970) is a French centre-right politician and founder of Horizons (2021). He was Prime Minister under Emmanuel Macron from May 2017 to July 2020 and has been mayor of Le Havre since 2020, re-elected in March 2026. He announced his 2027 presidential candidacy in September 2024 and launched his campaign on 5 July 2026 (slogan \"Croire en nous\"). On 9 September 2026 he announced he would leave the Horizons presidency to build a broader coalition, and Christophe Béchu took over on 1 October 2026.",
+  "offices": [
+   {
+    "office": "Mayor of Le Havre (first term)",
+    "from": "2010-10-24",
+    "to": "2017-05-20",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Deputy for Seine-Maritime",
+    "from": "2012",
+    "to": "2017-06-15",
+    "kind": "legislative"
+   },
+   {
+    "office": "Prime Minister",
+    "from": "2017-05-15",
+    "to": "2020-07-03",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Mayor of Le Havre (second term, re-elected 2026-03-28)",
+    "from": "2020-07-05",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of Le Havre Seine Métropole",
+    "from": "2020-07-15",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "President of Horizons",
+    "from": "2021-10-09",
+    "to": "2026-10-01",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 16,
+  "legal": [
+   {
+    "case": "Cour de justice de la République judicial investigation into Covid-19 pandemic management (opened 7 July 2020; his home was searched on 15 October 2020). He was placed under the status of témoin assisté (assisted witness) for 'abstention de combattre un sinistre' (failure to act against a disaster), not mis en examen, and the CJR's investigating commission issued a non-lieu (dismissal) for Philippe, Agnès Buzyn and Olivier Véran on 7 July 2025. Never charged or convicted.",
+    "status": "dismissed",
+    "date": "2020-07-07 (opened); 2025-07-07 (non-lieu)",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Cour_de_justice_de_la_République",
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "case": "In 2014 the HATVP (the transparency authority) published a critical assessment of his asset declaration because of omissions, and he later filed an updated declaration. This was an administrative finding and not a criminal case.",
+    "status": "civil_or_other",
+    "date": "2014",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "PMA (medically assisted reproduction for all women)",
+    "before": "Opposed it in a 2013 tribune.",
+    "after": "As PM he carried Macron's campaign pledge and said he had 'evolved on this question'.",
+    "years": "2013-2019",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "2020 pension reform (universal points system): the government used Article 49.3 at first reading in the Assemblée nationale (29 February 2020), then suspended the reform in March 2020 because of Covid. It was never adopted.",
+    "assessment": "Summary-level only. The source records the 49.3 use and his later support for raising the retirement age (65-67). No balanced assessment from sources of different leanings was obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   },
+   {
+    "what": "Government of Philippe II (21 June 2017 to 3 July 2020): labour-code ordinances, laws and budgets",
+    "assessment": "The page lists ordinances and laws, but the detail could not be retrieved. No cross-leaning assessments were obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gouvernement_Édouard_Philippe_(2)"
+    ]
+   },
+   {
+    "what": "80 km/h speed limit on secondary roads (July 2018), which he championed personally",
+    "assessment": "The source says he pushed it against Macron's preference and that it may have fed Gilets jaunes tensions. No cross-leaning assessment was obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Édouard_Philippe"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not researched (search quota exhausted).",
+   "right_media": "Not researched (search quota exhausted).",
+   "neutral_media": "Not researched (search quota exhausted)."
+  },
+  "sources_note": "The WebSearch quota was exhausted in both the research and verification passes. All facts come from French Wikipedia pages that were opened and re-checked during verification: Édouard Philippe, Horizons, Gouvernement Philippe II and Cour de justice de la République. The CJR page cites a franceinfo article of 7 July 2025 for the non-lieu, but its URL could not be opened, so it is not cited directly. The profile is thin. It lacks cross-leaning outlets, the Horizons/2027 programme, trait corroboration and media portrayal, so the research should be re-run with search quota available. executive_experience_years counts mayor 2010-10 to 2017-05 (about 6.6 years), PM 2017-05 to 2020-07 (about 3.1) and mayor 2020-07 to 2026-10 (about 6.25), roughly 15.9 years in total. The metropole presidency overlaps the mayoralty and is not double-counted.",
+  "verification_notes": [
+   "legal[0].status: investigation -> dismissed: Wikipedia (CJR page, citing franceinfo of 7 July 2025) says Philippe, Buzyn and Véran were placed under témoin assisté status and then received a non-lieu on 7 July 2025. The date he became témoin assisté was not found, and no appeal was found.",
+   "legal[0].case/date: 'status could NOT be verified' -> témoin assisté then non-lieu, date adds 2025-07-07: same source.",
+   "legal[0].sources: added https://fr.wikipedia.org/wiki/Cour_de_justice_de_la_République: the page was opened and contains the fact.",
+   "legal[1].case: 'HATVP censure' -> 'critical assessment ... omissions, later updated declaration': the Wikipedia wording does not support the stronger word 'censure'.",
+   "offices[0].from/to: 2010/2017 -> 2010-10-24/2017-05-20: exact dates from Wikipedia.",
+   "offices[1].to: 2017 -> 2017-06-15: exact date from Wikipedia. The start is kept as 2012 because Wikipedia gives 24 March 2012, which conflicts with the June 2012 legislative election and could not be verified.",
+   "offices[5].to: 2026-09-09 -> 2026-10-01: 9 September 2026 was the announcement, and the handover to Béchu took effect on 1 October 2026 (Horizons Wikipedia page).",
+   "executive_experience_years: 19 -> 16: the draft's own dates sum to about 15.9 years (6.6 + 3.1 + 6.25), not 19.",
+   "bio: 'announced in 2024' -> 'September 2024'; 'left on 9 September' -> 'announced on 9 September ... Béchu took over 1 October': precision from Wikipedia.",
+   "reversals[80 km/h]: removed: wrong as drafted. Wikipedia says Philippe championed the measure against Macron's preference, so it was never a change of position. It is moved to delivery.",
+   "reversals[Relationship with Macron]: removed: a change in personal or political alignment is not a documented policy reversal. The quote 'old banking cynicism' was also inaccurate (the source paraphrases it as 'the cynicism of an old operator').",
+   "reversals[PMA]: kept, quote corrected to 'evolved on this question': the source documents a genuine change of position.",
+   "delivery[0]: 'pushed through with 49.3' -> '49.3 at first reading, then suspended and never adopted': the reform was not enacted, so the old wording overstated it.",
+   "delivery[1]: added the government dates 21 June 2017 to 3 July 2020: verified on the page.",
+   "delivery[2]: added 80 km/h as a delivery item: this keeps the fact that was moved out of reversals.",
+   "traits: left empty: no trait is attested by two sources of different leanings.",
+   "media_portrayal: unchanged (not researched): no sources were available, and nothing was invented.",
+   "All remaining URLs were opened during verification and confirmed to exist."
+  ]
+ }
+}

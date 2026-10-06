@@ -1,0 +1,434 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Soutient le rétablissement d'un impôt sur la fortune. En octobre 2025, il s'est plaint de l'exclusion d'un retour de l'ISF, et il a voté en 2022 pour le rétablissement de l'ISF.",
+   "nuance": "Il présente la taxe Zucman comme un ajout à 'l'imposition du patrimoine'. Aucun dispositif précis d'ISF (notamment l'inclusion ou non des actifs financiers) n'apparaît dans les pages du programme 2026 consultées."
+  },
+  {
+   "id": "eco2",
+   "summary": "Soutient explicitement la taxe Zucman de 2 % sur les plus grandes fortunes, qu'il qualifie de 'un bon outil'.",
+   "nuance": "Il la présente comme 'un moyen parmi d'autres' et veut 15 à 20 milliards d'euros de recettes issues des milliardaires."
+  },
+  {
+   "id": "eco3",
+   "summary": "Raille la 'baisse des charges' comme la ligne favorable aux entreprises de Macron et de Bardella. Son programme rejette la réindustrialisation par les 'cadeaux fiscaux'.",
+   "nuance": "Aucune proposition explicite sur les impôts de production ou les cotisations patronales n'a été trouvée. Par le passé, il a plutôt défendu de conditionner les exonérations que de les supprimer, d'où le code maintenu à -1."
+  },
+  {
+   "id": "eco4",
+   "summary": "Se déclare, ainsi que Debout !, protectionniste. Le programme bloque les importations agricoles vendues sous les prix planchers garantis, et il a soutenu des droits de douane de 50 à 80 % pour sauver l'usine Eurolysine.",
+   "nuance": "Son protectionnisme est ciblé : une centaine de produits stratégiques, et non des droits de douane sur tout. Cela correspond à la formule 'certains secteurs' de l'énoncé."
+  },
+  {
+   "id": "eco5",
+   "summary": "Le programme met fin aux concessions autoroutières au profit d'une tarification publique et évolue progressivement vers une production d'électricité 100 % publique via EDF. Il a aussi voté pour nationaliser ArcelorMittal France.",
+   "nuance": "Il approuve également la fin de la concurrence dans la vente d'électricité au détail."
+  },
+  {
+   "id": "eco6",
+   "summary": "Veut taxer davantage les grosses successions, ce qui est l'opposé de l'énoncé.",
+   "nuance": "Il vise les transmissions importantes. Aucune position n'a été trouvée sur les successions modestes ou moyennes."
+  },
+  {
+   "id": "ret1",
+   "summary": "Le texte de son directeur de programme et porte-parole cite 'la retraite à 60 ans' comme mesure phare. Il exige l'abrogation de la réforme de 64 ans et a voté pour sa suspension.",
+   "nuance": "La ligne '60 ans' provient de l'introduction de son directeur de programme, présentée comme un héritage commun du NFP. Le corps du programme insiste aussi sur un départ anticipé pour les métiers pénibles."
+  },
+  {
+   "id": "ret2",
+   "summary": "Demande l'abrogation de la réforme des 64 ans, il s'oppose donc clairement à un âge supérieur à 64 ans.",
+   "nuance": ""
+  },
+  {
+   "id": "ret3",
+   "summary": "Sa propre vidéo s'intitule 'La retraite par capitalisation : c'est non !'.",
+   "nuance": "Titre de la vidéo vérifié via les métadonnées de YouTube. La transcription n'a pas été examinée."
+  },
+  {
+   "id": "fin1",
+   "summary": "Rejette la réduction du déficit par des coupes dans les dépenses et affirme que les gens ordinaires ont déjà payé. Il veut à la place des recettes provenant des très riches.",
+   "nuance": "Il ne balaie pas la question des déficits et critique le 'déficit géant' de Le Maire. Il rejette fermement la voie des 'coupes massives dans les dépenses'."
+  },
+  {
+   "id": "fin2",
+   "summary": "Veut renforcer les hôpitaux, les écoles, la justice et la police, qu'il décrit comme des services publics asphyxiés. Cela contredit une réduction du nombre de fonctionnaires.",
+   "nuance": "Aucun objectif chiffré d'effectifs n'a été trouvé."
+  },
+  {
+   "id": "fin3",
+   "summary": "Le manifeste veut exclure des règles de déficit les investissements tournés vers l'avenir et un grand plan d'investissement européen. Cela revient à accepter un investissement vert financé par la dette.",
+   "nuance": "Il associe surtout les dépenses à de nouveaux impôts sur les très riches et n'appelle pas ouvertement à 'plus de dette'. D'où +1 et non +2."
+  },
+  {
+   "id": "fin4",
+   "summary": "Veut assouplir les règles de déficit pour l'investissement, ce qui est incompatible avec une règle d'or constitutionnelle. Il affirme aussi que les critères budgétaires de l'UE 'limitent l'investissement'.",
+   "nuance": "Aucune déclaration trouvée sur une règle d'or constitutionnelle en tant que telle. Le code repose sur son opposition explicite aux règles de déficit contraignantes."
+  },
+  {
+   "id": "trav1",
+   "summary": "Propose un SMIC net de 1 700 euros (environ +19 %) et l'indexation des salaires sur l'inflation.",
+   "nuance": "Le texte du directeur de programme cite un 'SMIC à 1 600€', tandis que les comptes rendus de presse du lancement à Lyon mentionnent 1 700 euros nets. Les deux niveaux sont bien supérieurs à l'inflation."
+  },
+  {
+   "id": "trav2",
+   "summary": "A voté contre la loi de juin 2026 transposant l'amendement sur l'assurance chômage. Il soutient que le problème tient aux mauvais emplois, non aux travailleurs oisifs.",
+   "nuance": "La page de datan ne précise pas si l'amendement réduisait la durée ou le montant des allocations. Le vote montre une opposition, mais le lien avec l'énoncé n'est pas confirmé."
+  },
+  {
+   "id": "trav3",
+   "summary": "A voté contre le projet de loi 'plein emploi' de 2023, qui a créé l'obligation d'activité de 15 à 20 heures pour les bénéficiaires du RSA.",
+   "nuance": "Opposition à la loi qui a instauré l'obligation. Aucune promesse de la supprimer n'a été trouvée, d'où -1 et non -2. Ses cahiers de campagne 2027 ne mentionnent pas le RSA."
+  },
+  {
+   "id": "trav4",
+   "summary": "Aucune proposition personnelle de 32 heures trouvée. Son programme 2026 met l'accent sur le 'temps libéré' et la qualité de l'emploi mais ne fixe aucune réduction générale de la durée hebdomadaire.",
+   "nuance": "Le programme du NFP de 2024 qu'il a soutenu comprenait une réduction du temps de travail pour les métiers pénibles ; cité de mémoire, non revérifié. Les pages Nous Président de 2026 consultées ne mentionnent pas les 32 heures. Pourrait être nul."
+  },
+  {
+   "id": "imm1",
+   "summary": "S'oppose fermement à toute nouvelle immigration de travail ('nous refusons une immigration de travailleurs'). Il n'appelle pas à réduire le regroupement familial ni l'immigration étudiante, et il soutient la régularisation des personnes déjà présentes.",
+   "nuance": "Position mixte : restrictive sur un canal (le travail), favorable à la régularisation et à l'asile. En 2023, il a voté contre la loi sur l'immigration qui durcissait le regroupement familial."
+  },
+  {
+   "id": "imm2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Son programme propose des référendums sur des mesures écologiques issues de la Convention citoyenne pour le climat (nouspresident.fr/travaillisme-ecologique). Aucun sur l'immigration n'a été trouvé."
+  },
+  {
+   "id": "imm3",
+   "summary": "A dénoncé la tentative de la loi sur l'immigration de 2023 de limiter les soins aux étrangers et a voté contre. Cela signifie qu'il défend l'AME.",
+   "nuance": "Source de 2023, aucune déclaration de 2025-2026 sur l'AME n'ayant été trouvée. La citation est une attaque générale contre la restriction des soins aux étrangers et ne nomme pas l'AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "Soutient explicitement la régularisation des sans-papiers déjà présents en France, pour des raisons humanitaires et pour la 'production'. Il veut que tous les résidents puissent travailler.",
+   "nuance": "Il défend une régularisation plus large, et non seulement dans les métiers en tension, tout en refusant toute nouvelle immigration de travail."
+  },
+  {
+   "id": "imm5",
+   "summary": "A attaqué la loi de 2023 pour avoir retiré les aides au logement (APL) aux familles étrangères, et a voté contre ses délais de carence pour les prestations.",
+   "nuance": "Source de 2023. Son programme de 2025 insiste sur l'égalité de traitement 'qu'importe leur territoire, leur couleur de peau, leur religion'."
+  },
+  {
+   "id": "imm6",
+   "summary": "A dénoncé la loi sur l'immigration de 2023 parce que 'des principes, comme le droit du sol' étaient 'attaqués'.",
+   "nuance": "Source de 2023 ; aucune déclaration plus récente trouvée."
+  },
+  {
+   "id": "imm7",
+   "summary": "Son groupe et son ancienne ligne de parti soutiennent le droit de vote local des résidents non européens. Aucune déclaration personnelle trouvée.",
+   "nuance": "Non vérifié personnellement. Le soutien du groupe ECOS n'est rapporté que par un agrégateur, sans vérification par un scrutin public."
+  },
+  {
+   "id": "sec1",
+   "summary": "La ligne de gauche et du groupe ECOS s'oppose aux peines planchers. Il a voté contre le projet de loi de justice pénale de juillet 2026, dont le contenu n'a toutefois pas été vérifié.",
+   "nuance": "Il n'a pas été confirmé que ce projet de loi contenait des peines planchers. Aucune déclaration personnelle sur les peines planchers n'a été trouvée."
+  },
+  {
+   "id": "sec2",
+   "summary": "Probablement opposé à l'abandon de la spécificité de la justice des mineurs.",
+   "nuance": "Non vérifié. Son vote sur la loi Attal de 2025 sur la justice des mineurs n'a pas été trouvé sur datan."
+  },
+  {
+   "id": "sec3",
+   "summary": "La ligne de gauche soutient un contrôle indépendant de la police. Il a voté contre le projet de loi de 2026 créant une présomption de légitime défense pour les policiers et contre la loi 'sécurité globale' de 2020.",
+   "nuance": "Aucune déclaration personnelle sur un organe de contrôle indépendant n'a été trouvée. Les votes cités ne sont que des éléments indirects."
+  },
+  {
+   "id": "sec4",
+   "summary": "Son ancienne ligne de parti LFI soutient une légalisation encadrée. Sa position personnelle en 2025-2026 n'est pas vérifiée.",
+   "nuance": "Un agrégateur indique qu'il a cosigné la proposition de loi de légalisation de LFI de 2021. Ni nosdeputes ni la page de l'Assemblée n'ont pu être consultés pour le confirmer."
+  },
+  {
+   "id": "sec5",
+   "summary": "A voté contre la loi de 2023 sur les Jeux olympiques, dont la mesure la plus contestée était l'expérimentation de la vidéosurveillance algorithmique (IA).",
+   "nuance": "Vote sur l'ensemble du projet de loi en 2023. Aucune déclaration autonome de 2025-2026 sur la vidéosurveillance par IA n'a été trouvée."
+  },
+  {
+   "id": "eu1",
+   "summary": "Le manifeste de Debout ! s'engage à désobéir aux traités européens lorsqu'ils entrent en conflit avec ses engagements. C'est proche d'une primauté générale du droit français, mais plus étroit.",
+   "nuance": "Une stratégie de désobéissance sélective, et non une règle constitutionnelle de primauté du droit français, d'où +1."
+  },
+  {
+   "id": "eu2",
+   "summary": "Soutient un 'grand plan d'investissement européen' et s'est félicité que l'UE ait desserré les cordons de la bourse après le Covid. Il s'oppose à ce que la politique industrielle de défense soit confiée à la Commission.",
+   "nuance": "Soutient l'investissement européen pour le climat et l'industrie. Rejette une défense pilotée par la Commission ('sûrement pas par le biais de la Commission'), ce qui va à l'encontre du volet défense de l'énoncé. L'emprunt commun n'est jamais nommé explicitement."
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Sa tribune sur l'UE, son manifeste et les pages de son programme ont été consultés ; rien sur la contribution de la France au budget de l'UE."
+  },
+  {
+   "id": "eu4",
+   "summary": "S'oppose explicitement au passage de la politique étrangère de l'UE au vote à la majorité qualifiée et affirme que la diplomatie et la défense doivent rester aux États.",
+   "nuance": "Il répond à la proposition de von der Leyen de sortir 'du carcan de l'unanimité'."
+  },
+  {
+   "id": "eu5",
+   "summary": "Le manifeste de Debout ! s'engage à désobéir aux traités européens qui bloquent son programme. Le plan agricole accepte un 'rapport de force avec la Commission'.",
+   "nuance": ""
+  },
+  {
+   "id": "eu6",
+   "summary": "Veut que la France soit 'la locomotive d'une indépendance européenne' et qu'elle cherche des alliés au sein de l'UE. Aucune proposition de sortie.",
+   "nuance": "Il est très critique du cœur libre-échangiste de l'UE et favorable à la désobéissance aux traités, mais il agit au sein de l'UE et ne défend pas le Frexit."
+  },
+  {
+   "id": "int1",
+   "summary": "Bilan contrasté. Le 12 mars 2025, il s'est abstenu sur la résolution européenne visant à renforcer le soutien à l'Ukraine, rompant avec son groupe ECOS, qui a voté pour. Le 12 mars 2024, alors qu'il était encore à LFI, il a voté contre la stratégie d'aide à l'Ukraine du gouvernement. En 2022, il a déclaré que les livraisons d'armes avaient arrêté l'armée russe, mais il a plaidé pour des négociations.",
+   "nuance": "Il ne s'est pas opposé à l'aide en bloc, mais son abstention de 2025 contre la ligne de son propre groupe et son vote contre de 2024 rendent 'fortement pour' inexact. Je n'ai trouvé aucune déclaration de 2026 sur le niveau de l'aide."
+  },
+  {
+   "id": "int2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches WebSearch épuisé. Son propre site (recherché pour Ukraine, troupes, défense) ne contient aucune déclaration sur l'envoi de troupes."
+  },
+  {
+   "id": "int3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Son site ne contient aucun article sur la sortie du commandement intégré de l'OTAN. En 2025, il a dénoncé la 'vassalité' européenne envers les États-Unis, ce qui est trop générique pour être codé."
+  },
+  {
+   "id": "int4",
+   "summary": "Il a appelé à plusieurs reprises à suspendre ou à remettre en cause l'accord d'association UE-Israël à propos de Gaza : en novembre 2023, en janvier 2024 et de nouveau en décembre 2024.",
+   "nuance": "L'appel explicite le plus récent date de décembre 2024. En 2025, il a continué de critiquer la conduite de la guerre par Israël (lettre du 23 juin 2025). Je n'ai pas pu chercher de corroboration auprès d'un média d'une autre sensibilité, la confiance est donc moyenne."
+  },
+  {
+   "id": "int5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Il a voté contre la loi de programmation militaire 2024-2030 en 2023, alors qu'il était à LFI. Ce vote ne renseigne pas sur un objectif de 3 % du PIB, il n'est donc pas codé."
+  },
+  {
+   "id": "int6",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une recherche sur son site n'a rien donné sur le service militaire ou national obligatoire."
+  },
+  {
+   "id": "int7",
+   "summary": "Aucun élément trouvé sur une levée des sanctions en échange d'un accord de paix.",
+   "nuance": "En 2022, il a écrit que 'nos peuples souffrent' des sanctions et a exhorté à négocier. Il n'a jamais proposé de lever les sanctions dans le cadre d'un accord, ce n'est donc pas codé."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une recherche sur son site des termes ZFE et 'zones à faibles émissions' n'a donné aucun article pertinent."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Il a voté contre la loi Duplomb le 8 juillet 2025 et contre la loi d'urgence agricole de 2026 qui a réautorisé l'acétamipride. Les deux pesticides en jeu sont interdits en France mais encore utilisés ailleurs dans l'UE. En 2018, il a voté pour l'interdiction du glyphosate.",
+   "nuance": "Il associe les interdictions nationales à un protectionnisme contre les importations qui ne respectent pas les normes françaises (Mercosur), et n'accepte donc pas une exposition unilatérale à la concurrence étrangère. Les deux votes ont suivi la ligne de son groupe."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Aucune déclaration trouvée sur la fin de la vente de voitures à moteur thermique en 2035."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Il veut réduire le trafic aérien. Il a déposé une proposition de loi interdisant les vols là où un train est disponible et proposé des quotas carbone individuels, les jets privés étant 'de ce fait prohibés'. Il préfère explicitement les quotas et les interdictions aux taxes.",
+   "nuance": "Les deux sources sont anciennes (2019-2020) et je n'ai rien trouvé de plus récent. Il soutient davantage une limitation du transport aérien que sa taxation, d'où le code +1 et non +2."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Il s'oppose au productivisme et appelle à une jonction sociale et écologique, mais je n'ai trouvé aucune déclaration explicite sur l'arbitrage."
+  },
+  {
+   "id": "ene1",
+   "summary": "Le 21 mars 2023, alors qu'il était à LFI, il a voté contre la loi d'accélération de la construction de nouveaux réacteurs nucléaires. En 2024, il a aussi voté contre le projet de loi sur la gouvernance de la sûreté nucléaire.",
+   "nuance": "Ce sont des votes de 2023 suivant la ligne du groupe, avant son départ de LFI. Je n'ai trouvé aucune déclaration de lui en 2025-2026 sur les nouveaux réacteurs, d'où la faible confiance."
+  },
+  {
+   "id": "ene2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Je n'ai trouvé aucune position explicite sur la sortie du nucléaire. Le vote de 2023 contre l'accélération de la construction n'établit pas un soutien à la sortie."
+  },
+  {
+   "id": "ene3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Le 24 juin 2025, il a voté contre le projet de loi de programmation énergétique Gremillet (PPE), amendé à l'Assemblée. Ses dispositions ne sont pas visibles sur la page du scrutin, il n'est donc pas utilisé."
+  },
+  {
+   "id": "ene4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Aucune déclaration trouvée sur la sortie du marché européen de l'électricité."
+  },
+  {
+   "id": "ins1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une recherche sur son site de 'VIe République' et de Constitution n'a donné aucune position sur une nouvelle constitution. La ligne de LFI ne doit pas lui être attribuée puisqu'il a quitté le parti."
+  },
+  {
+   "id": "ins2",
+   "summary": "En juin 2025, il a écrit qu'il était d'accord avec Édouard Philippe pour dire que la proportionnelle est inutile.",
+   "nuance": "C'est un revirement. Le 6 mai 2021, avec LFI, il a voté pour une proposition de loi instaurant la proportionnelle intégrale (Datan, 15e législature). La position actuelle est une remarque d'une ligne, elle est donc codée -1 et non -2."
+  },
+  {
+   "id": "ins3",
+   "summary": "Il soutient le référendum d'initiative citoyenne (RIC). En mai 2023, il a appelé à signer une pétition en sa faveur.",
+   "nuance": "La source est secondaire et date de 2023. Je n'ai trouvé aucune réaffirmation en 2025-2026."
+  },
+  {
+   "id": "ins4",
+   "summary": "Il a attaqué à plusieurs reprises l'usage de l'article 49.3 par les gouvernements et voté les motions de censure qui ont suivi. Je n'ai trouvé aucune proposition explicite de supprimer l'article.",
+   "nuance": "Il critique la manière dont l'article est utilisé mais n'a pas proposé de le réformer, d'où le code +1 avec une faible confiance. La source date de 2022."
+  },
+  {
+   "id": "ins5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Je n'ai trouvé aucune position sur l'élargissement du référendum à l'immigration ou à la justice."
+  },
+  {
+   "id": "soc1",
+   "summary": "A voté pour la loi sur l'aide à mourir en lecture définitive le 15 juillet 2026, ainsi qu'en première lecture (mai 2025) et en février 2026.",
+   "nuance": "Il a voté pour la loi à chaque étape. Aucune déclaration sur son maintien après la promulgation n'a été trouvée, mais le fait d'avoir voté pour le texte final laisse fortement penser qu'il la maintiendrait."
+  },
+  {
+   "id": "soc2",
+   "summary": "Il s'oppose à de nouvelles interdictions du foulard. Il a critiqué l'appel de Bardella à interdire le voile dans les bâtiments publics et défend les mères voilées lors des sorties scolaires.",
+   "nuance": "Il s'oppose même à des interdictions plus restreintes, son opposition à une interdiction dans tout l'espace public en découle donc. Je n'ai trouvé aucune citation portant spécifiquement sur une interdiction totale dans l'espace public."
+  },
+  {
+   "id": "soc3",
+   "summary": "En 2025, il s'est explicitement opposé à l'interdiction du voile pour les mères qui accompagnent les sorties scolaires, en affirmant que la loi de 2004 ne concerne que l'école.",
+   "nuance": "Il a présenté la poussée en faveur de telles interdictions comme une trahison de la loi de 1905 ('Ils la bafouent'). La position provient d'un article de 2025 et non du programme de 2027."
+  },
+  {
+   "id": "soc4",
+   "summary": "Il décrit la laïcité comme la liberté de religion, la neutralité n'étant exigée que des agents publics, et soutient que la loi de 1905 existante suffit.",
+   "nuance": "Il demande l'application de l'article 31 de la loi de 1905 contre les pressions religieuses plutôt que l'adoption de nouvelles restrictions."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une recherche sur son site de la GPA n'a rien donné."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Aucune déclaration trouvée sur l'uniforme scolaire."
+  },
+  {
+   "id": "edu2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Il se plaint des enseignants non remplacés, mais je n'ai trouvé aucun plan explicite de recrutement massif ou de réduction des effectifs par classe."
+  },
+  {
+   "id": "edu3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Aucune déclaration trouvée sur le regroupement des élèves par niveau."
+  },
+  {
+   "id": "edu4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "En janvier 2024, il a attaqué l'établissement Stanislas comme lieu de 'reproduction sociale', mais il n'a pas évoqué les conditions de financement."
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucun élément trouvé sur la fin de la sélection à l'entrée à l'université.",
+   "nuance": "Non codé. Une recherche sur son site de 'Parcoursup' n'a renvoyé qu'un appel à manifester de 2019, sans position sur la sélection."
+  },
+  {
+   "id": "san1",
+   "summary": "Le 14 juin 2023, il a voté pour l'amendement Garot régulant l'installation des médecins dans les zones bien dotées. C'est une forme partielle de contrainte.",
+   "nuance": "L'amendement restreint l'installation dans les zones surdotées. Il n'oblige pas les nouveaux médecins à exercer dans les zones sous-dotées, d'où +1. Le vote date de 2023, avec le groupe."
+  },
+  {
+   "id": "san2",
+   "summary": "Aucun élément direct trouvé sur les franchises.",
+   "nuance": "Il a voté contre le budget de la sécurité sociale 2026 (PLFSS) à chaque lecture. Ce budget contenait de nombreuses mesures, le vote ne peut donc pas être attribué aux seules franchises."
+  },
+  {
+   "id": "san3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "En avril 2025, il a dit que les dirigeants 'laissent faire le marché' sur le logement, mais il n'a pas mentionné l'encadrement des loyers."
+  },
+  {
+   "id": "san4",
+   "summary": "Il attaque systématiquement la 'concurrence libre et non faussée' et l'Etat organisateur de la concurrence. Je n'ai trouvé aucune déclaration précise sur les transports ou l'énergie.",
+   "nuance": "C'est déduit de sa posture antilibérale générale, la confiance est donc faible."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucun élément trouvé sur une 'TVA sociale'. Ses cahiers de campagne 2027 (nouspresident.fr) et son propre site n'en parlent pas.",
+   "nuance": "Non codé. Le budget de recherches sur le web a été épuisé pendant la vérification, seuls ses propres sites et datan.fr ont donc été consultés."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucun élément trouvé sur la naturalisation. Une recherche sur son site de naturalisation et de régularisation n'a rien donné de pertinent.",
+   "nuance": "Non codé. Il a critiqué l'immigration de travail (Wikipédia), mais cela ne concerne pas la naturalisation."
+  },
+  {
+   "id": "sec6",
+   "summary": "Après la mort de Nahel, il a inscrit un récépissé pour les contrôles d'identité parmi ses propositions de réforme de la police, en citant les contrôles visant les minorités.",
+   "nuance": "La source date de 2023. Aucune réaffirmation en 2025-2026 n'a été trouvée, et les cahiers de campagne 2027 ne traitent pas de la police."
+  },
+  {
+   "id": "eu7",
+   "summary": "Aucun élément trouvé sur une défense européenne commune ou une armée européenne.",
+   "nuance": "Non codé. Il a voté contre la loi de programmation militaire 2024-2030 (datan vote_1778, 2023), qui est une loi budgétaire nationale. Il s'est abstenu sur la résolution de mars 2025 sur l'Ukraine, qui appelait aussi à une défense européenne indépendante. Aucun de ces votes n'est assez précis pour coder cet énoncé."
+  },
+  {
+   "id": "eu8",
+   "summary": "Aucun élément trouvé sur l'adhésion de l'Ukraine à l'UE.",
+   "nuance": "Non codé. Il s'est abstenu sur la résolution du 12 mars 2025 de soutien à l'Ukraine, allant à l'encontre de son groupe, qui a voté pour (datan vote_988, 17e législature). Selon la description de datan, ce texte ne mentionne pas l'adhésion. Son site ne contient qu'un appel de 2022 à des négociations de paix."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Son cahier de campagne 2027 propose des prix minimums garantis pour chaque filière, fondés sur les coûts de production. Il réclamait déjà des 'prix planchers' en 2024.",
+   "nuance": "Les prix seraient négociés par les organes de filière (interprofessions) et fondés sur les coûts de production plus une juste rémunération du travail. Cette position est constante depuis au moins 2021 (son article 'L'OMC l'interdit ? ... On désobéit !')."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucun élément trouvé sur une proposition de réduire la TVA sur l'énergie à 5,5 %.",
+   "nuance": "Non codé. Sa question écrite de 2026 sur les prix des carburants et du gaz ne propose aucune mesure sur la TVA. Son cahier de campagne appelle à un service public de l'électricité tarifé au coût de production et ne mentionne pas la TVA."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucune position explicite trouvée sur la privatisation de l'audiovisuel public.",
+   "nuance": "Non codé. En 2019, il a critiqué la 'réforme de l'audiovisuel public' du gouvernement (menace sur Soir 3), ce qui laisse penser à une opposition, mais rien sur la privatisation n'a été vérifié."
+  },
+  {
+   "id": "soc6",
+   "summary": "Dans le même article de 2025, il s'est opposé à l'interdiction des signes religieux pour les étudiants, qui sont des adultes.",
+   "nuance": "Cela répond directement aux propositions de 2025 de Darmanin et de Retailleau d'interdire le voile à l'université."
+  },
+  {
+   "id": "san5",
+   "summary": "Son cahier de campagne 2027 sur le logement conserve l'objectif ZAN 2050, critique les 'multiples dérogations' qui l'ont affaibli, et privilégie la densification et la réutilisation des bâtiments existants. Il ne simplifie que des règles précises, comme les labels et certaines contraintes patrimoniales.",
+   "nuance": "Il s'oppose à l'assouplissement du ZAN pour construire davantage, mais simplifierait quelques règles précises, d'où -1. En 2023, il s'est abstenu sur la proposition de loi qui assouplissait le ZAN (datan vote_2046, 16e législature). Un premier résumé de datan a indiqué à tort ce vote comme POUR, alors que la page du scrutin indique ABSTENTION."
+  }
+ ],
+ "record": {
+  "bio": "François Ruffin, né le 18 octobre 1975 à Calais, est journaliste, documentariste, essayiste et homme politique. Il a fondé le journal Fakir en 1999 et réalisé le documentaire Merci patron ! (2016, César du meilleur film documentaire 2017). Il est député de la 1re circonscription de la Somme depuis 2017, élu sous l'étiquette LFI et siégeant dans le groupe LFI sans être membre formel du parti ; après sa rupture avec Jean-Luc Mélenchon, il a quitté LFI le 4 juillet 2024 et rejoint le groupe écologiste (EcoS). Il est devenu président de Debout ! le 28 juin 2025 et a annoncé le 26 janvier 2026 sa candidature à la primaire de la gauche. Selon l'article Wikipédia consacré à Debout !, la primaire a ensuite été annulée et le parti a alors prévu de le présenter directement à la présidentielle.",
+  "offices": [
+   "Député de la 1re circonscription de la Somme (élu en 2017, réélu en 2022 et 2024 ; groupe LFI 2017-2024, groupe écologiste depuis juillet 2024)",
+   "Secrétaire de la commission des affaires économiques, Assemblée nationale",
+   "Porte-parole, Picardie debout !",
+   "Président, Debout ! (anciennement Picardie debout !)"
+  ],
+  "legal": [
+   "Procédure civile en diffamation devant le tribunal d'Amiens au sujet du portrait d'un habitant dans son livre Quartier Nord (2006). Wikipédia indique qu'il a été condamné. Aucune source judiciaire primaire n'était disponible.",
+   "Ruffin était victime et non prévenu. LVMH a payé la société Kyrnos de Bernard Squarcini pour surveiller Ruffin et Fakir (de mars 2015 à février 2016). LVMH a transigé par une CJIP de 10 millions d'euros, validée le 17 décembre 2021. Le 7 mars 2025, le tribunal de Paris a condamné Squarcini, entre autres chefs, à 4 ans de prison (dont 2 ferme), 200 000 euros d'amende et 5 ans d'interdiction professionnelle. Ses avocats ont déclaré qu'il ferait appel.",
+   "La HATVP a relevé que sa déclaration de patrimoine sous-évaluait de 431 973 euros sa société de production audiovisuelle. Il s'agit d'une observation administrative, et aucune procédure pénale n'est signalée."
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "A réalisé le documentaire Merci patron ! (2016) sur LVMH et Bernard Arnault, récompensé par le César 2017. Député, il a déposé un grand nombre d'amendements (4 098 durant sa première législature, presque tous rejetés). Il conserve le SMIC net sur son indemnité et reverse environ 3 000 euros par mois à des associations. Il a aussi fléché son allocation publique de financement des partis vers le PCF.",
+    "assessment": "Wikipédia signale un nombre élevé d'amendements et d'interventions en commission (162). Il signale aussi une faible assiduité durant sa première année : il était le député LFI le moins présent aux votes (22 %), et l'un des moins présents en commission. Peu de textes de sa main ont été adoptés. Aucun examen des scrutins publics ni aucune appréciation de médias de sensibilités différentes n'ont pu être obtenus."
+   },
+   {
+    "what": "A appelé en juin 2024 à un front uni de la gauche, devenu le Nouveau Front populaire. Il a ensuite quitté LFI le 4 juillet 2024 et rejoint le groupe écologiste.",
+    "assessment": "Wikipédia le décrit comme une rupture avec Mélenchon due à un profond désaccord moral et électoral. Aucun média d'une autre sensibilité n'a été consulté."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non vérifié, la recherche n'étant pas disponible.",
+   "right_media": "Non vérifié, la recherche n'étant pas disponible.",
+   "neutral_media": "Selon Wikipédia, les médias le décrivent comme de plus en plus indépendant de LFI et cherchant à renouer le lien entre la gauche et les électeurs des milieux populaires. Les critiques rapportées incluent la faible assiduité durant sa première année, le fait que des salariés de Fakir aient aussi été collaborateurs parlementaires (2017), et un article du Monde de 2018 signé Abel Mestre sur des références rhétoriques ambiguës, qu'il a contestées."
+  }
+ }
+}

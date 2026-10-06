@@ -1,0 +1,1079 @@
+{
+ "collect": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and Attal oppose new wealth taxes; programme targets spending cuts, not tax hikes. No explicit ISF statement retrieved.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "Ce n'est pas avec l'épargne des Français qu'on va rembourser la dette"
+     }
+    ],
+    "nuance": "Inferred from fiscal stance (EUR 150bn spending cuts by 2032, no savings tax increase). Web search budget was exhausted, so no direct quote on ISF."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance leadership (Braun-Pivet) opposed the Zucman tax as counterproductive; Attal's own statement not retrieved.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Braun-Pivet opposed the Zucman tax, deeming it counterproductive and potentially unconstitutional (paraphrase)"
+     }
+    ],
+    "nuance": "Attal not mentioned in the page; coded from party line and his no-new-taxes platform. Needs verification."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme wants to lower employer social contributions so net wages rise; long Renaissance record of production-tax cuts.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Reduce employer charges so net salary rises (paraphrase of page)"
+     }
+    ],
+    "nuance": "Production taxes not explicitly mentioned on the page fetched."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on tariffs/quotas; programme speaks of agricultural and industrial sovereignty and an EU single economy.",
+    "sources": [],
+    "nuance": "Left null; Renaissance generally favours EU-level trade defence, not national tariffs."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on renationalising energy or motorways; programme stresses energy independence.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "eco6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Opposes any inheritance tax increase and wants to ease lifetime gifts, a partial move toward lighter taxation of transfers.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "facilitate and streamline lifetime gifts (paraphrase)"
+     }
+    ],
+    "nuance": "No explicit cut in rates; facilitation of gifts only."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Defended the 2023 reform (64) and calls for refounding the system; programme says issue becomes contribution duration, not age.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation"
+     }
+    ],
+    "nuance": "No pledge to return to 62."
+   },
+   {
+    "id": "ret2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Programme shifts focus to contribution duration and pension overhaul under EUR 150bn savings, without a stated higher legal age.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation"
+     }
+    ],
+    "nuance": "Neither rules out nor commits to an age above 64; could be longer contribution duration."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Advocates funded pensions alongside pay-as-you-go, e.g. EUR 1,000 state-funded savings per child; not a mandatory component.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "state-funded retirement savings plan of EUR 1,000 per child (paraphrase)"
+     }
+    ],
+    "nuance": "Partial version; voluntary/incentivised, not mandatory."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Zero deficit within 10 years, EUR 150bn cuts by 2032, no spending taboo, EUR 10bn cut to ministry budgets as PM.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "zéro déficit en 10 ans maximum"
+     }
+    ],
+    "nuance": "Aim is zero deficit, stronger than the 3% threshold."
+   },
+   {
+    "id": "fin2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Plans public-sector voluntary departures and territorial consolidation as part of EUR 150bn savings; no headcount target found.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-dans-politico-europe-ukraine-ia-et-finances-publiques-quatre-priorites-pour-preparer-la-france-de-demain",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-24",
+      "quote": "public sector voluntary departures (summary of page)"
+     }
+    ],
+    "nuance": "Education, ecology and defence protected."
+   },
+   {
+    "id": "fin3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Prioritises deficit reduction, though proposes a common EU debt for climate adaptation and protects education, ecology and defence spending.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Aucune dépense ne doit être un tabou. Toutes les administrations devront participer"
+     }
+    ],
+    "nuance": "Opposes more national debt; open to EU-level joint debt."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Programme page contains no constitutional golden rule; Renaissance has previously floated one but not retrieved for Attal.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "trav1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Raises wages via productivity and lower employer contributions ('droit au brut'), not a faster SMIC increase.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Lower social contributions so net salary rises (paraphrase)"
+     }
+    ],
+    "nuance": "No SMIC-above-inflation pledge."
+   },
+   {
+    "id": "trav2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes unemployment insurance reform that incentivises work (EUR 4bn savings, 100,000 jobs); as PM prepared the 2024 tightening blocked by dissolution.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "créer 100 000 emplois et d'économiser plus de 4 milliards d'euros"
+     }
+    ],
+    "nuance": "Details of duration/amount not given."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants social spending to 'incite activity'; RSA conditionality already enacted under the 2023 law he supported. No explicit RSA hours quote.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "inciter davantage à l'activité et réduire son coût budgétaire"
+     }
+    ],
+    "nuance": "RSA not mentioned on fetched page."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants people to work more (remove 220-hour overtime cap); promotes four-day week with same hours only.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Remove current limit of 220 annual overtime hours (paraphrase)"
+     }
+    ],
+    "nuance": "Four-day week is flexible scheduling, not fewer hours."
+   },
+   {
+    "id": "imm1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "'Accueillir moins pour accueillir mieux': Canada-style points system, family reunification to diminish, work immigration prioritised.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "accueillir moins pour accueillir mieux"
+     }
+    ],
+    "nuance": "Reduction targeted, not sharp across work and students."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Borders programme has no immigration referendum; his referendum proposal concerns a European one.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "imm3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No AME position found in programme.",
+    "sources": [],
+    "nuance": "As PM in 2024 the government kept AME; reform not verified."
+   },
+   {
+    "id": "imm4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on regularising workers in labour-shortage jobs for 2027.",
+    "sources": [],
+    "nuance": "2023 immigration law included a regularisation clause backed by Renaissance; Attal's current position not verified."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "imm6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on droit du sol for mainland France.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance has not supported foreigners' local vote; Attal's platform has no such proposal.",
+    "sources": [],
+    "nuance": "Inferred from absence in programme and party stance."
+   },
+   {
+    "id": "sec1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "sec2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; as PM he pushed juvenile justice tightening (2024) but not verified here.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "sec3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and Attal opposed legalising cannabis; platform has no such proposal.",
+    "sources": [],
+    "nuance": "Not verified with a 2026 source."
+   },
+   {
+    "id": "sec5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Pro-integration federalist approach; sovereign powers stay with states but no pledge on primacy of French law.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "fédéralisme économique, technologique et écologique"
+     }
+    ],
+    "nuance": "Inferred from federalist stance."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes common debt to finance climate adaptation in his 'ecological union'.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-17",
+      "quote": "a common debt to finance adaptation to climate change (paraphrase)"
+     }
+    ],
+    "nuance": "Applies to a core group of willing countries."
+   },
+   {
+    "id": "eu3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Federalist integration implies not cutting contribution; no explicit statement.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Denounces 'vétocratie européenne' and says the EU of 27 reached its limits, favouring a hard core.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-17",
+      "quote": "vétocratie européenne"
+     }
+    ],
+    "nuance": "Foreign policy unanimity not named explicitly; sovereign powers stay with states."
+   },
+   {
+    "id": "eu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Strongly pro-EU federalist; no evidence he would disapply EU rules.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for United States of Europe with a pan-European referendum.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "Etats-Unis d'Europe"
+     }
+    ],
+    "nuance": "Strongly against leaving."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No ISF-style wealth tax in Attal's programme. He promises to cut the deficit without raising taxes and opposes higher taxes on savings, life insurance and inheritance.",
+    "sources": [
+     {
+      "url": "https://www.epochtimes.fr/presidentielle-2027-gabriel-attal-veut-supprimer-100-000-postes-de-fonctionnaires-3298495.html",
+      "outlet": "Epoch Times France",
+      "outlet_lean": "right",
+      "date": "2026-07-03",
+      "quote": "une stratégie de réduction du déficit sans hausse d'impôts"
+     },
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "Ce n'est pas avec l'épargne des Français qu'on va rembourser la dette française."
+     }
+    ],
+    "nuance": "No explicit statement on reinstating the ISF was retrieved. The code is inferred from his no-tax-rise platform and his opposition to the Zucman tax (see eco2)."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "The Assemblée rejected the Zucman tax (2% on fortunes over EUR 100m) on 31 Oct 2025 by 228 to 172. The bloc central, which includes the Renaissance group Attal chairs, opposed it and called it a 'mirage'.",
+    "sources": [
+     {
+      "url": "https://www.touteleurope.eu/economie-et-social/budget-2026-l-assemblee-nationale-rejette-la-taxe-zucman-tous-les-regards-braques-a-gauche/",
+      "outlet": "Toute l'Europe",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-10-31",
+      "quote": "était considérée comme un \" mirage \" par le bloc central"
+     },
+     {
+      "url": "https://www.lejdd.fr/economie/budget-2026-la-taxe-zucman-rejetee-par-les-deputes-163556",
+      "outlet": "JDD",
+      "outlet_lean": "right",
+      "date": "2025-10-31",
+      "quote": "rejetée par l'Assemblée nationale, avec 228 voix contre et 172 pour"
+     }
+    ],
+    "nuance": "Group-level vote. Attal's personal roll-call vote was not checked on datan/assemblee-nationale. He commented after the rejection (BFM, 31 Oct 2025) that a compromise 'ne plaît pas à tout le monde'. A 2026 Le Figaro piece on candidates' tax plans (paywalled) was not read."
+   },
+   {
+    "id": "eco3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Attal's 'droit au brut' lowers social contributions (the programme names employee charges, 'charges salariales') to raise net pay. He also says labour costs should not have risen since 2024. No pledge to cut production taxes or employer contributions specifically was found.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "en réduisant les charges salariales pour faire monter le salaire net"
+     },
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/michel-barnier-a-ecrit-a-gabriel-attal-apres-qu-il-lui-a-reproche-des-augmentations-d-impots-lors-du-debat-au-medef_AN-202608280305.html",
+      "outlet": "BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-08-28",
+      "quote": "il aurait fallu \"ne pas augmenter le coût du travail depuis 2024\""
+     }
+    ],
+    "nuance": "Partial support. The statement names production taxes and employer contributions. His flagship cut targets employee contributions; he opposes raising employer costs but does not clearly pledge to lower them."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on national tariffs or quotas to protect French sectors.",
+    "sources": [],
+    "nuance": "A brief search found nothing. His economic federalism ('disparition totale des frontières économiques' within an EU core) points away from national tariffs, but that is not coded."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on bringing energy or motorways back under public control.",
+    "sources": [],
+    "nuance": "A brief search found nothing. The dette-écologique programme page discusses energy independence but does not mention EDF or nationalisation."
+   },
+   {
+    "id": "eco6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes any rise in inheritance taxation and wants to make lifetime gifts easier and smoother (to grandchildren, great-nephews and great-nieces).",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "faciliter et fluidifier les donations du vivant"
+     }
+    ],
+    "nuance": "Partial support. No explicit cut to inheritance tax rates; he blocks increases and eases gift transfers."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to abolish the legal retirement age and move to a universal system based on contribution duration, with a real penalty for leaving early and a real bonus for leaving late. He rejects parametric fixes, so he does not support returning to 62.",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-30",
+      "quote": "une vraie décote si vous partez tôt, une vraie surcote si vous partez tard"
+     },
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-gabriel-attal-promet-la-plus-grande-reforme-institutionnelle-depuis-1958-s-il-est-elu_AD-202608010333.html",
+      "outlet": "BFMTV/AFP",
+      "outlet_lean": "centre",
+      "date": "2026-08-01",
+      "quote": "il redit vouloir supprimer l'âge légal de départ pour mettre en place un système universel avec une part de capitalisation"
+     }
+    ],
+    "nuance": "His current position (abolish the legal age) replaces the earlier defence of the 2023 reform at 64. The 2023 reform has since been suspended at 62 years and 9 months. Without a legal age, early departure would still be possible, but with a strong penalty."
+   },
+   {
+    "id": "ret2",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Rejects raising the legal age (he called Philippe's 65 plan 'palliative care' and said 'On n'en est plus à bouger les paramètres'). He prefers abolishing the legal age, with a penalty/bonus system based on contribution duration.",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-30",
+      "quote": "On n'en est plus à bouger les paramètres ou les curseurs"
+     }
+    ],
+    "nuance": "Coded -1, not -2: he opposes a higher legal age, but his system aims to make people work longer through strong penalties and bonuses."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes a universal system 'avec une part de capitalisation' ('a real capitalisation pillar'), a state-funded EUR 1,000 retirement savings plan per child, and 50% of profit-sharing directed to retirement savings plans.",
+    "sources": [
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-gabriel-attal-promet-la-plus-grande-reforme-institutionnelle-depuis-1958-s-il-est-elu_AD-202608010333.html",
+      "outlet": "BFMTV/AFP",
+      "outlet_lean": "centre",
+      "date": "2026-08-01",
+      "quote": "un système universel avec une part de capitalisation"
+     },
+     {
+      "url": "https://attalpresident.fr/actualites/aux-assises-de-l-afer-gabriel-attal-defend-une-epargne-qui-finance-l-economie-francaise",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "l'ouverture d'un plan d'épargne retraite de 1000€ par l'État"
+     }
+    ],
+    "nuance": "Sources do not say whether the capitalisation part would be mandatory. If it is built into the universal system it could be compulsory, which would make it +2. Kept at +1 until the mechanism is confirmed."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Zero deficit in at most 10 years (balanced budget by 2037), up to EUR 150bn in savings, no tax rises, and a voluntary-departure plan for 100,000 civil servants. As PM in 2024 he cut ministry budgets by EUR 10bn.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "L'objectif est clair : zéro déficit en 10 ans maximum."
+     },
+     {
+      "url": "https://www.epochtimes.fr/presidentielle-2027-gabriel-attal-veut-supprimer-100-000-postes-de-fonctionnaires-3298495.html",
+      "outlet": "Epoch Times France",
+      "outlet_lean": "right",
+      "date": "2026-07-03",
+      "quote": "un objectif de retour à l'équilibre des finances publiques en 2037"
+     }
+    ],
+    "nuance": "His target (zero deficit) is stricter than the 3% threshold. He frames it as 'rigoureuse et sérieuse' rather than austerity."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Pledges to cut 100,000 civil-service posts through a voluntary-departure plan with a severance bonus, and to remove one layer of local government.",
+    "sources": [
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-gabriel-attal-promet-la-plus-grande-reforme-institutionnelle-depuis-1958-s-il-est-elu_AD-202608010333.html",
+      "outlet": "BFMTV/AFP",
+      "outlet_lean": "centre",
+      "date": "2026-08-01",
+      "quote": "un plan de départs volontaires de 100.000 fonctionnaires, accompagné d'une prime de départ"
+     },
+     {
+      "url": "https://www.epochtimes.fr/presidentielle-2027-gabriel-attal-veut-supprimer-100-000-postes-de-fonctionnaires-3298495.html",
+      "outlet": "Epoch Times France",
+      "outlet_lean": "right",
+      "date": "2026-07-03",
+      "quote": "L'objectif affiché est de supprimer 100.000 postes"
+     }
+    ],
+    "nuance": "Reached through attrition and voluntary departures. Education, the armed forces, justice and the interior are reportedly spared."
+   },
+   {
+    "id": "fin3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Treats national debt as a loss of sovereignty and targets zero deficit. He backs EU-level common debt for climate adaptation.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Un pays surendetté est un pays qui abandonne sa souveraineté"
+     },
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-17",
+      "quote": "dette commune pour financer l'adaptation au dérèglement climatique"
+     }
+    ],
+    "nuance": "Opposes more national debt but is open to joint EU borrowing for climate, so partial opposition (-1)."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No constitutional golden rule found. His fiscal plan includes 'impunité budgétaire zéro' with sanctions, which is not a constitutional deficit cap.",
+    "sources": [],
+    "nuance": "A brief search (Le Monde/Le Parisien headlines of 2 July 2026) found no golden-rule pledge."
+   },
+   {
+    "id": "trav1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Raises wages through productivity and lower contributions ('droit au brut': +EUR 250 net for a EUR 2,200 net salary), not through faster SMIC increases.",
+    "sources": [
+     {
+      "url": "https://www.midilibre.fr/2026/09/16/presidentielle-2027-travailler-30-minutes-de-plus-ou-augmenter-le-smic-a-1-700-euros-voici-ce-que-proposent-les-candidats-sur-le-pouvoir-dachat-13553518.php",
+      "outlet": "Midi Libre/AFP",
+      "outlet_lean": "centre",
+      "date": "2026-09-16",
+      "quote": "\" Droit au brut \", martèle Gabriel Attal (Renaissance)"
+     },
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "en réduisant les charges salariales pour faire monter le salaire net"
+     }
+    ],
+    "nuance": "No pledge to raise the SMIC above inflation. Not explicitly opposed either, hence -1."
+   },
+   {
+    "id": "trav2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As PM (March 2024) he proposed cutting the maximum benefit duration (to no less than 12 months, from 18) and tightening eligibility. His 2027 programme promises an unemployment insurance reform that 'incite au travail' and saves over EUR 4bn.",
+    "sources": [
+     {
+      "url": "https://www.boursorama.com/actualite-economique/actualites/attal-souhaite-une-nouvelle-reforme-de-l-assurance-chomage-en-2024-9e44649f375f2377804578374eabfd63",
+      "outlet": "Boursorama/Reuters",
+      "outlet_lean": "centre",
+      "date": "2024-03-27",
+      "quote": "a préconisé mercredi un durcissement des conditions d'indemnisation du chômage"
+     },
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "une réforme de l'assurance chômage permettant de créer 100 000 emplois et d'économiser plus de 4 milliards d'euros"
+     }
+    ],
+    "nuance": "The 2027 programme does not specify duration or amount cuts, so confidence is medium. The 2024 tightening was halted after the dissolution."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants social spending to encourage work. The RSA activity requirement (2023 law) was passed by the government he served in. No 2026 quote on RSA hours.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "l'effort devra d'abord porter sur la dépense sociale"
+     }
+    ],
+    "nuance": "RSA is not mentioned on the programme pages fetched."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants people to work more: remove the 220-hour annual overtime cap. Promotes a four-day week only as a reorganisation of existing hours, 'where possible'.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "supprimer le plafond d'heures supplémentaires fixé par le Code du travail"
+     }
+    ],
+    "nuance": "The four-day week means flexible scheduling, not fewer hours."
+   },
+   {
+    "id": "imm1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "'Accueillir moins pour accueillir mieux': a Canada-style points system, family reunification to fall, work to become the first ground for immigration ahead of family and student immigration, and limiting quotas voted by Parliament every two years.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "ce que nous voulons, c'est accueillir moins pour accueillir mieux"
+     },
+     {
+      "url": "https://www.lejdd.fr/politique/immigration-gabriel-attal-propose-des-quotas-par-metier-et-par-origine-geographique-180879",
+      "outlet": "JDD",
+      "outlet_lean": "right",
+      "date": "2026-08-10",
+      "quote": "Je souhaite que l'immigration de travail devienne le premier motif d'immigration au détriment de l'immigration familiale, de l'immigration étudiante"
+     }
+    ],
+    "nuance": "He wants an overall reduction, but work immigration is prioritised rather than cut sharply, so partial support (+1)."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Proposes an annual multi-question referendum day and limiting immigration quotas set by Parliament. No referendum specifically on immigration policy found.",
+    "sources": [],
+    "nuance": "BFMTV/AFP (1 Aug 2026) reports annual referendums and 'quotas limitatifs', but not as a referendum topic. La Croix (3 Aug 2026, not fetchable) links 'référendums' and 'quotas migratoires' in its headline. Worth a check if accessible."
+   },
+   {
+    "id": "imm3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No AME position found.",
+    "sources": [],
+    "nuance": "A brief search found nothing. As PM in 2024 his government kept AME."
+   },
+   {
+    "id": "imm4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No current evidence on regularising undocumented workers in labour-shortage jobs.",
+    "sources": [],
+    "nuance": "A brief search found nothing. Profession-based quotas concern new arrivals, not regularisation."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A brief search found nothing."
+   },
+   {
+    "id": "imm6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on abolishing droit du sol nationally.",
+    "sources": [],
+    "nuance": "His government (Feb 2024, interior minister Darmanin) announced ending droit du sol in Mayotte only. No mainland position found."
+   },
+   {
+    "id": "imm7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on local voting rights for non-EU foreigners.",
+    "sources": [],
+    "nuance": "The draft coded -2 on party line with no source. A search found nothing, so null."
+   },
+   {
+    "id": "sec1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on peines planchers.",
+    "sources": [],
+    "nuance": "A brief search found nothing. He promises an 'in-depth' justice reform without detail."
+   },
+   {
+    "id": "sec2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Authored the 2025 law (definitively adopted 19 May 2025) that, for repeat offenders aged 16 and over, makes the reduced sentence for minors ('excuse de minorité') the exception and allows immediate trial ('comparution immédiate').",
+    "sources": [
+     {
+      "url": "https://www.bluewin.ch/fr/infos/international/justice-des-mineurs-la-r-forme-attal-aboutit-au-parlement-fran-ais-2703542.html",
+      "outlet": "Bluewin/AFP",
+      "outlet_lean": "centre",
+      "date": "2025-05-19",
+      "quote": "la proposition de loi de Gabriel Attal pour durcir la justice des mineurs a été définitivement adoptée"
+     }
+    ],
+    "nuance": "Partial: it targets repeat offenders and stops short of trying minors as adults. Some provisions may have been struck down by the Conseil constitutionnel (not verified)."
+   },
+   {
+    "id": "sec3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A brief search found nothing."
+   },
+   {
+    "id": "sec4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "As PM he took a hard line on drug use ('tolérer en même temps la consommation dans les \"beaux quartiers\"'). No explicit 2025-2026 statement on cannabis legalisation.",
+    "sources": [
+     {
+      "url": "https://www.msn.com/fr-fr/actualite/other/gabriel-attal-son-clan-la-coca%C3%AFne-et-vanity-fair-%C3%A7a-donne-l-image-d-une-caste-parisienne-qui-vit-en-autarcie/ar-AA28BJC0",
+      "outlet": "Marianne (via MSN)",
+      "outlet_lean": "centre-left",
+      "date": "2026-07-24",
+      "quote": "On ne peut pas condamner les assassinats de jeunes de 16 ans dans les “quartiers”, et tolérer en même temps la consommation dans les “beaux quartiers”."
+     }
+    ],
+    "nuance": "In 2020 he was reportedly 'favorable' to a debate on legalisation (L'Express headline). The quote is from his time as PM and concerns drug use in general, so the code is weak and inferred."
+   },
+   {
+    "id": "sec5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A brief search found nothing."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-integration federalist ('États-Unis d'Europe'). Nothing suggests he would put French law above EU law.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "un fédéralisme économique, technologique et écologique"
+     }
+    ],
+    "nuance": "Inferred from his federalist stance. No explicit statement on primacy."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes common debt to finance climate adaptation within his 'États-Unis d'Europe' ecological union.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-17",
+      "quote": "dette commune pour financer l'adaptation au dérèglement climatique"
+     }
+    ],
+    "nuance": "Would apply to a core group of willing states."
+   },
+   {
+    "id": "eu3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "His federalist integration agenda and support for common EU debt suggest he would not cut the contribution. No explicit statement.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Denounces 'vétocratie européenne' and says the 27-member EU has reached its limits. But he says sovereign (régalien) powers would stay with member states.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-17",
+      "quote": "vétocratie européenne"
+     },
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "les compétences régaliennes resteraient à la main des États"
+     }
+    ],
+    "nuance": "His veto critique targets economic, technological and ecological integration. Keeping régalien powers national cuts against majority voting in foreign policy, so partial (+1) and inferred."
+   },
+   {
+    "id": "eu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Strongly pro-EU federalist. No evidence he would refuse to apply EU rules.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "un fédéralisme économique, technologique et écologique"
+     }
+    ],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for a 'États-Unis d'Europe' approved by a first pan-European referendum.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "le premier référendum européen"
+     }
+    ],
+    "nuance": "Strongly against leaving."
+   }
+  ],
+  "verification_notes": [
+   "Method: the session's WebSearch budget was used up (200/200), so verification relied on WebFetch of the campaign site and Public Sénat, Bing News RSS, and curl. Le Figaro, Le Point, L'Opinion, Capital and La Croix could not be fetched.",
+   "eco1: -2 low party_line -> -2 low inferred: no ISF statement found. Now cites the 'sans hausse d'impôts' strategy (Epoch Times) plus the AFER page; the evidence is an inference, not a party line.",
+   "eco2: -2 low party_line -> -2 medium vote: the bloc central, including the EPR group Attal chairs, opposed the Zucman tax, rejected 228-172 on 31 Oct 2025 (Toute l'Europe, JDD). The paraphrased Wikipedia source was replaced.",
+   "eco3: +2 medium programme -> +1 medium statement: the programme page cuts employee contributions ('charges salariales'), not employer contributions or production taxes. The draft paraphrase 'reduce employer charges' was wrong. He only says labour costs should not have risen (BFMTV).",
+   "eco6: +1 low -> +1 medium: verbatim quote 'faciliter et fluidifier les donations du vivant' confirmed on the AFER page.",
+   "ret1: -2 medium record_in_office -> -2 medium statement: outdated basis. His current position (Aug-Sep 2026) is to abolish the legal age altogether, with penalty/bonus. The 2023 reform has been suspended. Sources: Public Sénat, BFMTV/AFP.",
+   "ret2: 0 low programme -> -1 medium statement: he explicitly rejects raising the legal age (attacks Philippe's 65 plan as 'soins palliatifs', 'On n'en est plus à bouger les paramètres').",
+   "ret3: +1 low statement -> +1 medium statement: confirmed 'système universel avec une part de capitalisation' (BFMTV/AFP 1 Aug 2026). Whether it is mandatory is still unclear, so not +2.",
+   "fin1: kept +2 high: the 'zéro déficit en 10 ans maximum' quote was verified. Removed the unverified 'EUR 150bn by 2032' date and added the 2037 target (Epoch Times).",
+   "fin2: +1 medium -> +2 high programme: a 100,000 civil-servant voluntary-departure plan was found (BFMTV/AFP, Epoch Times). The draft's 'no headcount target found' was wrong.",
+   "fin3: kept -1 medium: removed the unverified 'protects education, ecology and defence' claim and added the Reims common-debt source.",
+   "trav1: kept -1 medium: replaced the paraphrase with a verbatim programme quote and Midi Libre/AFP 'droit au brut'.",
+   "trav2: +2 high programme -> +2 medium record_in_office: the 2027 programme gives no specifics on duration or amount. The +2 rests on his March 2024 PM proposal to cut duration toward 12 months (Boursorama/Reuters).",
+   "trav4: kept -2 medium: the overtime-cap removal quote was verified verbatim and the paraphrase replaced.",
+   "imm1: kept +1 medium: added JDD (right-lean outlet) corroboration that work immigration is prioritised over family and student immigration.",
+   "imm7: -2 low party_line (no source) -> null: no evidence found; an unsourced party-line code does not meet the bar.",
+   "sec2: null -> +1 medium vote: Attal authored the 2025 juvenile-justice law that reverses the excuse de minorité for repeat offenders aged 16+ and allows immediate trial (Bluewin/AFP). Partial version of 'judged as adults'.",
+   "sec4: -2 low party_line (no source) -> -1 low inferred: no explicit legalisation stance. A hard line on drug use as PM, and a 2020 openness to debate (L'Express headline), make -2 unsupported.",
+   "eu1: -2 low statement -> -2 low inferred: the source shows federalism, not a statement on primacy.",
+   "eu4: +2 medium statement -> +1 low inferred: 'vétocratie' is not tied to foreign policy, and he says régalien powers stay with states (franceinfo).",
+   "eu5: added a franceinfo source; code unchanged.",
+   "Null checks: eco4, eco5, fin4, imm2, imm3, imm4, imm5, imm6, sec1, sec3 and sec5 were each searched briefly with no qualifying evidence; they remain null. imm2: annual referendums and limiting quotas exist, but no immigration referendum was confirmed. La Croix (unfetchable) is worth checking.",
+   "URL check: all draft URLs on attalpresident.fr and franceinfo resolved. The draft's Wikipedia Taxe Zucman source was replaced."
+  ]
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "question": "French presidential election of 2027 (as of October 2026). Cover: (a) the declared and likely candidates across the whole spectrum - far left (LFI: Mélenchon or successor), left/greens (PS, Écologistes, PCF, Place Publique/Glucksmann, any left primary), centre/Renaissance and allies (Attal, Philippe/Horizons, Bayrou/MoDem), right (LR: Retailleau, Wauquiez, Bertrand etc.), far right (RN: Le Pen given her ineligibility appeal, or Bardella; Reconquête/Zemmour, Marion Maréchal), plus notable others; (b) each party's programme and the candidates' concrete positions on economy/taxes/pensions, public spending/debt, immigration, security/justice, Europe/EU, foreign policy (Ukraine, Russia, Israel/Gaza, NATO), ecology/energy/nuclear, institutions (6th republic, proportional, referendums), social issues (end of life, laïcité), education, health; (c) personalities and track records - votes, offices held, past reversals, legal affairs, delivery in office; (d) latest polling. Use sources across the spectrum and explicitly note each source's bias (e.g. CNews/JDD/Valeurs actuelles = right/far-right, Le Figaro = centre-right, Le Monde = centre-left, Libération/Mediapart/L'Humanité = left, plus AFP/Reuters/Politico Europe and fact-checkers like Les Décodeurs and AFP Factuel). Flag which positions are official programme vs statement vs inferred.",
+ "summary": "As of early October 2026, the field for the April 2027 presidential election (first round 18 April, runoff 2 May) is crowded. France 24 counted 27 declared candidates on 18 September. The main names are Le Pen (RN), Mélenchon (LFI), Philippe (Horizons), Attal (Renaissance), Retailleau (LR), Zemmour (Reconquête), Glucksmann (Place publique), Tondelier (Écologistes), Roussel (PCF), Ruffin (Debout !), Bertrand, Lisnard and several PS hopefuls. The biggest structural fact is that Marine Le Pen, not Bardella, is the RN candidate. On 7 July 2026 the Paris Court of Appeal confirmed her conviction for embezzlement. It gave her 3 years in prison (1 firm, served under an electronic tag), a EUR 100,000 fine and 45 months of ineligibility, 30 of them suspended. The 15 firm months had already been served since 31 March 2025, so she is legally eligible, although her own cassation appeal is pending. The left is fragmented. The unitary left primary died after PS members voted on 9 July 2026 (55.5%) for a closed primary of the PS-led 'pôle socialiste'. Glucksmann and four PS figures are in that primary (10-11 and 17-18 October). Ruffin, Tondelier, Roussel and Mélenchon are running separately. The latest verified poll is Toluna Harris Interactive for M6/RTL, fieldwork 8-10 Sept 2026. It puts Le Pen first in every scenario at 33-36% and Mélenchon at 16-17%. The centre is split between Philippe (14-19%) and Attal (8-15%). Glucksmann is at 10-12%, Retailleau 7-10%, Hollande 7% and Zemmour 5%. Verified evidence on concrete policy positions is thin. It covers the RN's Assembly votes (against assisted dying, for suspending the pension reform, for abolishing low-emission zones, for re-authorising pesticides) and Attal's zero-deficit plan. It does not yet cover most candidates' programmes or the policy areas the question asked about.",
+ "findings": [
+  {
+   "claim": "Marine Le Pen's appeal ruling, 7 July 2026, as recorded in the court's own press release. She was convicted of embezzling public funds as an MEP and of complicity in embezzlement as party president, in the FN/RN European Parliament assistants case. The sentence is 3 years in prison, 2 of them suspended. The firm year is served at home under an electronic tag. She also got a EUR 100,000 fine and 45 months of ineligibility, 30 of them suspended (15 months firm). The court ruled that the ineligibility she had served since the first-instance ruling of 31 March 2025 already made up for the breach of probity. It added that ignoring this would infringe the freedom to stand for election.",
+   "confidence": "high",
+   "sources": [
+    "https://www.cours-appel.justice.fr/sites/default/files/2026-07/20260707%20-%20CA%20Paris%20-%20CP.pdf",
+    "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/",
+    "Public Sénat live coverage (institutional, neutral)",
+    "RTS (Swiss public broadcaster)",
+    "touteleurope.eu"
+   ],
+   "evidence": "Three verifiers each voted 3-0 on the court's own press release and confirmed the quoted text against the extracted PDF. Le Club des Juristes (legal think tank), Public Sénat, RTS and Touteleurope give the same figures. Neutral and institutional sources only, so source bias is low.",
+   "vote": "3-0 (merged from claims 1 and 10, and the sentence part of claim 0)"
+  },
+  {
+   "claim": "Le Pen is legally eligible for 2027 and is the declared RN candidate. The first-instance court ordered immediate application of the ineligibility from 31 March 2025, so the 15 firm months ran out around 30 June 2026, before the appeal ruling. She announced her candidacy on TF1's 20h news on the evening of 7 July 2026. Bardella publicly backed her and went back to being number two. Practical caveats: she has filed a cassation appeal (briefs due by 15 October 2026, ruling promised before 18 April 2027). The prosecutor general reportedly chose not to appeal to the Cour de cassation, so the sentence cannot be made harsher. She had earlier said she could not campaign while wearing an electronic tag, which could last until about July 2027. Le Club des Juristes reports that her cassation appeal suspends the sentence, including the tag, until the court rules.",
+   "confidence": "high",
+   "sources": [
+    "https://www.cours-appel.justice.fr/sites/default/files/2026-07/20260707%20-%20CA%20Paris%20-%20CP.pdf",
+    "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/",
+    "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
+    "https://www.cnews.fr/france/2026-06-09/presidentielle-2027-qui-sont-les-candidats-deja-en-lice-1621746 (right-leaning; facts corroborated by neutral outlets)",
+    "touteleurope.eu, RTS, lettreaudiovisuel.com"
+   ],
+   "evidence": "Claims 0, 8 and 15 were confirmed 3-0 and claim 11 2-1. The eligibility arithmetic is the verifiers' inference, but Le Club des Juristes, RTS and Touteleurope state the conclusion outright. The candidacy is confirmed by France 24 (public, centre) and by CNews (right). Agreement across that spread supports the factual core. 'Declared' means a political declaration: the official list, with its 500 sponsorships, is only validated by the Conseil constitutionnel in early 2027.",
+   "vote": "3-0 / 3-0 / 3-0 / 2-1 (claims 0, 8, 15, 11 merged)"
+  },
+  {
+   "claim": "The declared field as of France 24's update of 18 September 2026: 27 officially declared candidates, with more expected. They include Mélenchon (LFI), Attal (Renaissance), Philippe (Horizons), Retailleau (LR), Le Pen (RN), Zemmour (Reconquête), Glucksmann (Place publique), Tondelier (Écologistes), Roussel (PCF), Ruffin (Debout !), Bertrand (Nous France), Lisnard (Nouvelle Énergie) and PS figures Faure, Bouamrane, Guedj and Royal. Minor candidates are Arthaud, Asselineau, Batho, Branco, Dupont-Aignan, Egger, Kazib, Labib, Massard, Maurel and Philippot. The PS figures and Glucksmann are primary contenders, not final nominees.",
+   "confidence": "high",
+   "sources": [
+    "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
+    "touteleurope.eu",
+    "repere2027.fr / electionpresidentielle2027.com (trackers, seen as search snippets)",
+    "JDD (right-leaning; counts 40 declared or likely)"
+   ],
+   "evidence": "Confirmed 3-0. The verifier checked the full list of 27 names and parties on the page. Trackers give different totals (23, 27, 40) because they define and date their counts differently. Dates reported by the trackers: Retailleau declared 12 Feb 2026, Lisnard 31 Mar 2026, Mélenchon 3 May 2026, Roussel 6 Sept 2026 (invested by 72.06% of PCF members).",
+   "vote": "3-0"
+  },
+  {
+   "claim": "The left is split. The broad unitary left primary ('Front populaire 2027', scheduled for 11 October 2026) is de facto dead. LFI and Place publique refused to take part from the start. The PCF chose its own candidacy, and Roussel was invested in September 2026. On 9 July 2026, PS members voted 55.5% for a primary restricted to the 'pôle socialiste' (PS plus allies such as Place publique), which buried the unitary process. Clémentine Autain withdrew on 11 July, Benjamin Lucas-Lundy on 7 July and Lydie Massard on 9 September. Ruffin and Tondelier are formally the last candidates in the unitary primary and have kept their presidential bids anyway. The result is that LFI (Mélenchon), PCF (Roussel), Écologistes (Tondelier), Debout ! (Ruffin) and the PS-Place publique primary winner are all running at once.",
+   "confidence": "high",
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026",
+    "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
+    "LCP (parliamentary channel, 10 July 2026)",
+    "parlons-politique.fr",
+    "Journal du Net / MSN (Roussel investiture)",
+    "L'insoumission (pro-LFI partisan, 28 Apr 2026)",
+    "franceinfo (public, Sept 2026)"
+   ],
+   "evidence": "Claims 9, 12, 13 and 14 were each confirmed 3-0. Wikipedia is a secondary source, but LCP (neutral), France 24 (public), parlons-politique and a pro-LFI outlet back it up independently. LCP quotes Tondelier saying PS members had 'decided to bury the primary'. English Wikipedia and Elyseescope still describe the 11 October vote as live, but they are older and use pre-collapse framing. One small conflict: LCP calls the PS primary closed to the PS only, while two other sources say it includes the 'pôle socialiste' with Place publique.",
+   "vote": "3-0 (claims 9, 12, 13, 14 merged)"
+  },
+  {
+   "claim": "Raphaël Glucksmann (Place publique, MEP) declared on TF1 on Sunday 23 August 2026. He is running in the social-democratic primary organised with the PS (rounds around 10-11 and 17-18 October 2026). He categorically refuses any alliance with LFI: he said that if he wins there will 'never again' be an agreement with LFI, and he accused LFI of antisemitism. CNews appears to contradict itself on whether he refused a primary, but the two points are compatible. He turned down the separate unitary left primary, and he also refused to open his own primary to Ruffin.",
+   "confidence": "high",
+   "sources": [
+    "https://www.cnews.fr/france/2026-06-09/presidentielle-2027-qui-sont-les-candidats-deja-en-lice-1621746 (right-leaning; returned 403 to the verifier)",
+    "France 24 (23 Aug 2026, public)",
+    "franceinfo (public)",
+    "fr.wikipedia Primaire de la gauche unitaire de 2026",
+    "elections2027.com (8 Sept 2026)"
+   ],
+   "evidence": "Confirmed 3-0. The verifier could not open the CNews page directly but confirmed every element through France 24 and franceinfo, both public broadcasters. Sources disagree on the primary dates: one snippet gives the first round as 9-10 October, France 24 gives 10-11 October.",
+   "vote": "3-0"
+  },
+  {
+   "claim": "Latest verified polling: the Toluna Harris Interactive barometer for M6/RTL, Wave 5 (fieldwork 8-10 Sept 2026, 2,052 registered voters). Le Pen leads the first round in every scenario at 33-36%, recording her first slight decline (-2). Bardella was not tested. Mélenchon is stable at 16-17%. In the scenario where both Philippe and Attal run, Mélenchon (16%) is 2 points ahead of Philippe (14%). Across scenarios: Philippe 14-19%, Attal 8-15%, Glucksmann 10-12%, Retailleau 7-10%, Hollande 7% (-1), Zemmour 5% in every hypothesis. A newer Toluna Wave 6 exists (fieldwork 22-24 Sept, published 28 Sept, reported by France 24 as 'Le Pen creuse l'écart'). It has Le Pen at 35-36%, so the 'decline' did not last.",
+   "confidence": "medium",
+   "sources": [
+    "https://tolunacorporate.com/fr/intentions-de-vote-a-lelection-presidentielle-2027-septembre-2026/",
+    "France 24 (reporting Toluna Wave 6)"
+   ],
+   "evidence": "Claims 5 and 6 were confirmed 3-0 against the pollster's own publication. Confidence is medium because this is one pollster, one wave, and the numbers depend on who is tested in each scenario. The verifier only saw the Wave 6 figures through press coverage. The second-round projections from the same release (Le Pen 67% v Mélenchon, 56% v Attal, 55% v Philippe) were REFUTED 1-2 and must not be used. The OpinionWay/JDD June 2026 figures were also refuted 0-3. That sponsor is right-leaning and the sample was small (901).",
+   "vote": "3-0 (claims 5, 6 merged)"
+  },
+  {
+   "claim": "The RN's voting record in the Assembly (17th legislature), from official roll calls. On end of life, the RN group voted AGAINST creating a right to assisted dying at first reading (27 May 2025: 101 against, 19 for, 3 abstaining) and at final reading (15 July 2026: 106 against, 12 for). That bill was adopted 291-241. On pensions, the group voted FOR suspending the 2023 reform until 1 January 2028 (12 Nov 2025, one article of the 2026 social security budget bill at first reading, adopted 255-146). On ecology and agriculture, it voted FOR abolishing low-emission zones (ZFE) on 28 May 2025, FOR the Duplomb agriculture law on 8 July 2025, and FOR the agricultural emergency law that re-authorises acetamiprid and flupyradifurone on 20 July 2026 (all 122 RN deputies; adopted 296-224). This is recorded behaviour, a different category from programme pledges.",
+   "confidence": "high",
+   "sources": [
+    "https://datan.fr/groupes/legislature-17/rn/votes",
+    "https://datan.fr/votes/legislature-17/vote_2107",
+    "https://datan.fr/votes/legislature-17/vote_8280",
+    "datan vote_8427",
+    "Assemblée nationale news page",
+    "France 24 / AFP (12 Nov 2025)",
+    "ASH, economiematin.fr, echosplus.com"
+   ],
+   "evidence": "Claims 2, 3 and 4 were each confirmed 3-0. Datan republishes the official Assemblée roll-call data, so it is effectively primary and non-partisan, and AFP and the Assemblée confirm the key tallies. Nuances to carry into any questionnaire: the RN was not unanimous on assisted dying. On 14 April 2026 it voted against an amendment making ZFEs optional, which reflects its push for full abolition, not support for ZFEs. LFI and the PCF voted against the pension suspension because they saw it as a mere postponement.",
+   "vote": "3-0 (claims 2, 3, 4 merged)"
+  },
+  {
+   "claim": "Gabriel Attal's public-finance pledge (candidate statement, July 2026). He aims for a 0% of GDP public deficit by 2037, with the deficit back below 3% before 2032. He plans 120-150 billion euros of savings over that period and a German-style budgetary 'golden rule' written into the Constitution by referendum. Secondary reports add three more measures: no tax rises, 100,000 fewer civil-service posts and a one-year freeze on benefit uprating.",
+   "confidence": "high",
+   "sources": [
+    "https://www.ifrap.org/comparateurs/presidentielles-2027 (IFRAP: liberal / pro-spending-cut think tank)",
+    "attalpresident.fr (campaign site, citing Le Parisien interview of 3 July 2026)",
+    "JDD (right-leaning), Public Sénat, TIME France, info.fr"
+   ],
+   "evidence": "Confirmed 3-0. Attal's own campaign site gives the figures, so this is a primary candidate statement rather than unverified think-tank compilation. IFRAP's framing comes from a liberal viewpoint, but its figures match the campaign site. The extra measures (civil-service cuts, benefit freeze) are secondary reporting only. This is a pledge. Whether it can be delivered has not been assessed.",
+   "vote": "3-0"
+  }
+ ],
+ "caveats": "Coverage is very uneven compared with the research question. Positions that survived verification exist only for the RN (as Assembly votes) and for Attal (public finances). Nothing verified covers these areas:\n- the programmes of LFI/Mélenchon, LR/Retailleau, Philippe, Zemmour, Glucksmann, Tondelier, Roussel or Ruffin;\n- immigration, security, the EU, foreign policy (Ukraine, Russia, Israel/Gaza, NATO), nuclear energy, institutions (6th republic, proportional representation), laïcité, education or health;\n- personalities and records in office beyond Le Pen's legal case.\nA questionnaire that maps candidate positions cannot yet be built on this base for most candidates. Further targeted research per candidate and per policy area is needed.\n\nSeveral plausible claims were refuted and must not be reused:\n- second-round projections;\n- the OpinionWay/JDD June 2026 poll;\n- the claim that Retailleau was designated by 73.8% of LR members and that Lisnard then left LR;\n- the claim that Philippe declared in 'September 2024';\n- older franceinfo snapshots from March 2026.\n\nTime sensitivity:\n- The PS-Place publique primary (10-11 and 17-18 October 2026) will change the field within weeks.\n- The Cour de cassation will rule on Le Pen before 18 April 2027.\n- Polls are a single pollster's waves (Toluna Wave 5, with Wave 6 known only through press coverage).\n- Official candidacies (500 sponsorships) are only validated in early 2027.\n\nSource bias:\n- Datan, the court release, France 24, LCP and Public Sénat are neutral or institutional.\n- CNews and the JDD are right-leaning and were used only for facts that neutral outlets corroborated.\n- IFRAP is a liberal think tank, but its figures matched Attal's own site.\n- L'insoumission is pro-LFI.\n- Wikipedia was used as a secondary aggregator.\n\nSeveral conclusions are verifier inference rather than source statements: the eligibility arithmetic, and 'Bardella no longer on the table'. Commentators also corroborate both.",
+ "openQuestions": [
+  "What are the concrete, sourced programme positions of the other main candidates (Mélenchon/LFI, Retailleau/LR, Philippe, Zemmour, Glucksmann or the PS primary winner, Tondelier, Roussel, Ruffin)? Areas: immigration, the EU, Ukraine/Russia, Israel/Gaza, nuclear power, institutions, laïcité, education and health. Which of these positions are official programme and which are only statements?",
+  "Who wins the PS-Place publique primary (10-11 and 17-18 October 2026)? Does the losing side, or Hollande, stay in the race?",
+  "Will the electronic tag on Le Pen's firm prison year actually take effect, or stay suspended by the cassation appeal, before or during the campaign? How does the Cour de cassation rule before 18 April 2027, and would any outcome revive a Bardella candidacy?",
+  "What do polls other than Toluna (Ifop, Elabe, Ipsos, OpinionWay) show for the first round, and what verified second-round projections exist after the PS primary settles the left?"
+ ],
+ "refuted": [
+  {
+   "claim": "Second-round projections (September 2026): Le Pen would get 67% against Mélenchon (-1), 56% against Attal (-1) and 55% against Philippe (stable).",
+   "vote": "1-2",
+   "source": "https://tolunacorporate.com/fr/intentions-de-vote-a-lelection-presidentielle-2027-septembre-2026/"
+  },
+  {
+   "claim": "In the OpinionWay poll for the JDD (fieldwork 10-11 June 2026), the RN candidate (Marine Le Pen or Jordan Bardella, tested as a single option) leads first-round vote intentions with 33-35% depending on the hypothesis, about 14-16 points ahead of the nearest rival. Caveats: the JDD is a right-leaning sponsor, and this is an online quota sample of 901 registered voters.",
+   "vote": "0-3",
+   "source": "https://www.opinion-way.com/fr/publications/les-intentions-de-vote-a-lelection-presidentielle-de-2027-2026-23706/"
+  },
+  {
+   "claim": "The race for the second runoff place is tight between the centre candidate (Edouard Philippe or Gabriel Attal), Raphael Glucksmann and Jean-Luc Melenchon. The PDF report gives the figures: with Attal (hypothesis 1), Attal 14%, Glucksmann 14%, Melenchon 13%. With Philippe (hypothesis 2), Philippe 19%, Glucksmann 13%, Melenchon 13%.",
+   "vote": "0-3",
+   "source": "https://www.opinion-way.com/fr/publications/les-intentions-de-vote-a-lelection-presidentielle-de-2027-2026-23706/"
+  },
+  {
+   "claim": "Marine Le Pen was sentenced on 31 March 2025 to five years of ineligibility with immediate effect and two years of firm prison in the RN parliamentary assistants case; after her early-2026 appeal trial, the appeal ruling was scheduled for 7 July 2026. Jordan Bardella is the RN's plan B if she is barred. (Source: franceinfo, public broadcaster, generally neutral/centre; article dated 26 March 2026, so the appeal outcome must be checked elsewhere.)",
+   "vote": "0-3",
+   "source": "https://www.franceinfo.fr/elections/presidentielle/de-lfi-au-rn-qui-sont-les-candidats-declares-ou-pressentis-pour-la-presidentielle-2027-a-un-an-de-l-echeance_7893704.html"
+  },
+  {
+   "claim": "A left primary was scheduled for 11 October 2026 and was backed especially by Les Ecologistes. LFI rejected it, and the article summary says the PCF and Place publique also disputed it. Declared left candidates as of March 2026 included Marine Tondelier (Ecologistes, designated December 2025), Jérôme Guedj (PS, February 2026), François Ruffin (January 2026), Clémentine Autain (June 2025) and Delphine Batho (November 2025). Glucksmann, Roussel and Faure were described as likely candidates.",
+   "vote": "0-3",
+   "source": "https://www.franceinfo.fr/elections/presidentielle/de-lfi-au-rn-qui-sont-les-candidats-declares-ou-pressentis-pour-la-presidentielle-2027-a-un-an-de-l-echeance_7893704.html"
+  },
+  {
+   "claim": "Édouard Philippe (Horizons) officially declared his candidacy in September 2024. Gabriel Attal (Renaissance) and Gérald Darmanin were listed as likely candidates for the presidential camp.",
+   "vote": "0-3",
+   "source": "https://www.franceinfo.fr/elections/presidentielle/de-lfi-au-rn-qui-sont-les-candidats-declares-ou-pressentis-pour-la-presidentielle-2027-a-un-an-de-l-echeance_7893704.html"
+  },
+  {
+   "claim": "LR members chose party leader Bruno Retailleau as their 2027 candidate with 73.8% of the vote in an internal consultation, which ruled out a primary. Turnout was 60.01%, or about 46,000 of 76,000 members. David Lisnard then left LR and founded the more economically liberal party Nouvelle Énergie.",
+   "vote": "0-3",
+   "source": "https://www.cnews.fr/france/2026-06-09/presidentielle-2027-qui-sont-les-candidats-deja-en-lice-1621746"
+  }
+ ],
+ "unverified": [],
+ "sources": [
+  {
+   "url": "https://www.franceinfo.fr/elections/presidentielle/de-lfi-au-rn-qui-sont-les-candidats-declares-ou-pressentis-pour-la-presidentielle-2027-a-un-an-de-l-echeance_7893704.html",
+   "quality": "secondary",
+   "angle": "Candidate field and declarations",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
+   "quality": "secondary",
+   "angle": "Candidate field and declarations",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/",
+   "quality": "secondary",
+   "angle": "Candidate field and declarations",
+   "claimCount": 4
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026",
+   "quality": "secondary",
+   "angle": "Candidate field and declarations",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.cnews.fr/france/2026-06-09/presidentielle-2027-qui-sont-les-candidats-deja-en-lice-1621746",
+   "quality": "secondary",
+   "angle": "Candidate field and declarations",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.ifrap.org/comparateurs/presidentielles-2027",
+   "quality": "secondary",
+   "angle": "Official programmes and policy positions",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection",
+   "quality": "secondary",
+   "angle": "Official programmes and policy positions",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.publicsenat.fr/dossier/election-presidentielle-2027",
+   "quality": "secondary",
+   "angle": "Official programmes and policy positions",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.cours-appel.justice.fr/sites/default/files/2026-07/20260707%20-%20CA%20Paris%20-%20CP.pdf",
+   "quality": "primary",
+   "angle": "Track records, votes and legal affairs",
+   "claimCount": 5
+  },
+  {
+   "url": "https://datan.fr/groupes/legislature-17/rn/votes",
+   "quality": "primary",
+   "angle": "Track records, votes and legal affairs",
+   "claimCount": 5
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election",
+   "quality": "secondary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite",
+   "quality": "secondary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-melenchon-et-philippe-au-coude-a-coude-pour-la-qualification-au-second-tour-bardella-toujours-largement-en-tete-selon-le-sondage-odoxa",
+   "quality": "secondary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://tolunacorporate.com/fr/intentions-de-vote-a-lelection-presidentielle-2027-septembre-2026/",
+   "quality": "primary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.opinion-way.com/fr/publications/les-intentions-de-vote-a-lelection-presidentielle-de-2027-2026-23706/",
+   "quality": "primary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.connexionfrance.com/news/france-2027-presidential-vote-polls-show-tight-race-for-second-place/817132",
+   "quality": "secondary",
+   "angle": "Latest polling",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.parlons-politique.fr/elections/presidentielle-2027-comment-vincent-bollore-cherche-a-deplacer-le-debat-politique-sans-se-presenter-aux-electeurs_25704/",
+   "quality": "blog",
+   "angle": "Cross-spectrum media framing and source bias",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.strategies.fr/actualites/medias/LQ6455212C/les-medias-se-mettent-en-ordre-de-marche-pour-la-presidentielle-de-2027.html",
+   "quality": "unreliable",
+   "angle": "Cross-spectrum media framing and source bias",
+   "claimCount": 0
+  },
+  {
+   "url": "https://ukandeu.ac.uk/frances-2027-presidential-race-a-new-transitional-election/",
+   "quality": "secondary",
+   "angle": "Cross-spectrum media framing and source bias",
+   "claimCount": 5
+  },
+  {
+   "url": "https://www.france24.com/en/france/20260629-french-2027-presidential-election-can-the-rn-win-without-le-pen-bardella",
+   "quality": "secondary",
+   "angle": "Cross-spectrum media framing and source bias",
+   "claimCount": 5
+  }
+ ],
+ "stats": {
+  "angles": 5,
+  "sourcesFetched": 20,
+  "claimsExtracted": 94,
+  "claimsVerified": 25,
+  "confirmed": 18,
+  "killed": 7,
+  "unverified": 0,
+  "afterSynthesis": 8,
+  "urlDupes": 2,
+  "budgetDropped": 8,
+  "agentCalls": 102
+ }
+}

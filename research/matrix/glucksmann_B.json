@@ -1,0 +1,915 @@
+{
+ "collect": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Supports increased weapons deliveries to Ukraine and a war-economy posture (2024 campaign).",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "paraphrase: supports increased weapons provision to Ukraine; advocates war economy"
+     }
+    ],
+    "nuance": "Only a 2024 secondary source via Wikipedia; no 2025-2026 primary source could be checked because the web-search budget was exhausted."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not guessed."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Stated that France must remain in NATO.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "paraphrase: 'France must remain in NATO' (Marianne, 2019)"
+     }
+    ],
+    "nuance": "2019 statement, no newer source found. Not verified for 2026."
+   },
+   {
+    "id": "int4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; howtheyvote fetch returned the wrong MEP."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Only a 100 bn EUR EU defence fund proposal found (2024), no GDP-share target.",
+    "sources": [],
+    "nuance": "Not codable on the 3% GDP wording."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "int7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Called for ending French imports of Russian gas and oil in 2022; no evidence on lifting sanctions for a peace deal.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022",
+      "quote": "paraphrase: advocates ending imports of Russian gas and oil (Le Monde tribune)"
+     }
+    ],
+    "nuance": "Inferred from adjacent hawkish stance; low confidence."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ene1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Said in 2024 that exiting nuclear cannot be an objective.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "paraphrase: exiting nuclear 'cannot be an objective'"
+     }
+    ],
+    "nuance": "2024 source only; not checked against 2026 primary positions."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "san4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Place publique's 2025 programme, co-signed by Glucksmann, calls for a drastic increase in military aid to Ukraine. That fits his 2024 call for a war-economy posture.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Augmenter drastiquement l'aide militaire à l'Ukraine qui est notre première ligne de défense"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "paraphrase: France should fully enter a war economy to help Ukraine (2024 European campaign)"
+     }
+    ],
+    "nuance": "The programme is dated June 2025 and Glucksmann is co-director of the publication. I found no sign that he changed this position before October 2026."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence on sending French troops to guarantee a ceasefire.",
+    "sources": [],
+    "nuance": "The 2025 programme covers aid, a European defence fund and extending nuclear deterrence, but says nothing about a reassurance force. Web search was exhausted, so I could not check 2025-2026 interviews. Do not infer a position."
+   },
+   {
+    "id": "int3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In 2019 he said France must stay in NATO. Nothing found on the integrated military command specifically.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "paraphrase: France must remain in NATO and maintain NATO-EU relations (Marianne, 2019)"
+     }
+    ],
+    "nuance": "Staying in NATO is a different question from staying in its integrated command. The 2025 programme does not mention NATO and stresses European defence instead. The only source is an old statement relayed second-hand."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Place publique (August 2026) calls for suspending the EU-Israel association agreement.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/posts/2i0gWFYaKIzY29qXbIwzpP/l-europe-doit-s-elever-contre-la-colonisation-israelienne",
+      "outlet": "Place publique",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-21",
+      "quote": "Conditionner la coopération avec Israël au respect du droit international et suspendre l'accord d'association UE-Israël."
+     }
+    ],
+    "nuance": "This is a party communiqué from Glucksmann's party, which he co-chairs, not a verified personal statement. It justifies suspension mainly by West Bank colonisation and international law, not only by the conduct of the Gaza war. He has also refused to call Gaza a 'genocide' (2024)."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No national target as a share of GDP found. The programme proposes a 500 bn EUR European defence fund financed by joint borrowing.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "fonds européen de défense de 500 milliards d'euros via un emprunt commun"
+     }
+    ],
+    "nuance": "His hawkish line on defence makes support likely, but there is no evidence on the wording '>3% of GDP', so it is not coded."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme wants to recreate a universal republican rite of passage at majority to replace military service. It does not say it would be compulsory or military.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Travailler à recréer un rite de passage républicain et universel autour de la majorité pour remplacer le service militaire"
+     }
+    ],
+    "nuance": "'Universal' points towards something for everyone, close to a national service. Whether it would be compulsory, and what it would contain, is not specified, so this is a weaker version of the statement."
+   },
+   {
+    "id": "int7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants an immediate ban on Russian gas imports. Nothing found specifically on lifting sanctions in exchange for a peace deal.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Interdire immédiatement toute importation de gaz russe"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022",
+      "quote": "paraphrase: advocates ending imports of Russian gas and oil (Le Monde tribune)"
+     }
+    ],
+    "nuance": "Inferred from a consistently hawkish stance on Russia, hence low confidence."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on low-emission zones (ZFE).",
+    "sources": [],
+    "nuance": "The 2025 programme does not mention ZFE. Web search was exhausted."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme wants to ban the most harmful pesticides, including glyphosate and neonicotinoids, and to impose mirror clauses on imports.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "interdisant les pesticides les plus néfastes, glyphosate, néonicotinoïdes tueurs d'abeilles"
+     }
+    ],
+    "nuance": "The EU has authorised glyphosate until 2033, so a French ban means banning what competitors use. The programme pairs the ban with 'mesures miroirs' to shield farmers from imports that do not meet the same standards, and does not use the 'even if competitors' framing explicitly."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit evidence on the 2035 end of combustion-car sales.",
+    "sources": [],
+    "nuance": "The programme backs small affordable electric cars, social leasing and 100%-electric fleets for large companies. That suggests support, but the 2035 deadline is not mentioned and his position on the 2025-26 EU revision is unverified."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants to end the VAT and kerosene-tax exemptions, extend the ban on domestic flights and tax private jets.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "suppression des exonérations de TVA et de taxe sur le kérosène, étendre l'interdiction des vols intérieurs ... taxation des plus gros pollueurs individuels (jets privés"
+     }
+    ],
+    "nuance": "Covers all three items in the statement."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on ranking climate above economic growth.",
+    "sources": [],
+    "nuance": "The programme frames ecology as compatible with 'puissance' and industrial growth and never states a trade-off."
+   },
+   {
+    "id": "ene1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Wants to strengthen nuclear's role, including building new units on time. It does not commit beyond the six planned EPR2.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Conforter le rôle du nucléaire, énergie pilotable et décarbonée, en assurant ... la construction à temps de nouvelles unités."
+     }
+    ],
+    "nuance": "Supports a weaker version: new reactors yes, but how many is unspecified, and 'à temps' points to the programme already planned."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Opposes phasing out nuclear: the programme wants to strengthen nuclear's role, and in 2024 he said exiting cannot be an objective.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Conforter le rôle du nucléaire, énergie pilotable et décarbonée"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "paraphrase: exiting nuclear 'cannot be an objective'"
+     }
+    ],
+    "nuance": "In 2024 he avoided a firm line. By 2025 the programme clearly supports nuclear."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants a large multi-year investment plan in all renewables, wind included.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Lancer un grand plan d'investissement pluriannuel dans toutes les énergies renouvelables ... soleil, vent"
+     }
+    ],
+    "nuance": "Halting wind development is not addressed directly, but it contradicts the stated plan."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants part of electricity bills based on French production costs instead of the volatile market price. Leaving the European market is not proposed.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Fixer une partie de la facture ... sur le coût de production de notre électricité nucléaire et renouvelable, et non plus sur un prix de marché"
+     }
+    ],
+    "nuance": "He shares the goal of cost-based prices but proposes doing it within the EU framework; his pro-European federalist line makes exiting the market unlikely. Inferred, hence low confidence."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants a more parliamentary regime (PM invested by the Assembly, constructive censure) and a citizens' convention laying the basis of a constituent assembly to change the Constitution.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "une grande convention citoyenne qui jettera les bases d'une assemblée constituante pour changer la Constitution."
+     }
+    ],
+    "nuance": "The programme does not use the label 'VIe République', but the substance (a new constitution, a parliamentary shift) matches the statement."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants proportional representation introduced immediately, preferably with regional constituencies.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Instaurer immédiatement la proportionnelle, de préférence par circonscriptions régionales"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ins3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants a citizens' initiative right that can trigger local and national referendums.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale"
+     }
+    ],
+    "nuance": "The programme does not call it a 'RIC' and leaves the design vague ('séquences démocratiques'), so this is coded as a partial version."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants a constructive vote of no confidence that would end Article 49.3.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "censure “constructive” ... ce qui permettra de mettre fin au 49.3."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on widening referendums to immigration or justice.",
+    "sources": [],
+    "nuance": "Not addressed in the 2025 programme. Web search was exhausted."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on assisted dying.",
+    "sources": [],
+    "nuance": "Not in the 2025 programme. His EP role means no French vote record. Web search was exhausted."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not addressed in the programme. Web search was exhausted."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not addressed in the programme. Web search was exhausted."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "The programme 'firmly defends' laïcité as liberty of conscience plus an emancipation principle. It neither proposes nor rejects new restrictions on citizens.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Elle garantit la liberté de conscience et de culte, mais ne se limite pas à la tolérance : elle est un principe d'émancipation."
+     }
+    ],
+    "nuance": "Too ambiguous to code on the statement's 'without further restricting' clause."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on surrogacy (GPA).",
+    "sources": [],
+    "nuance": "Not addressed in the programme. Web search was exhausted."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on school uniforms.",
+    "sources": [],
+    "nuance": "Not addressed in the programme."
+   },
+   {
+    "id": "edu2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants fewer pupils per teacher in primary school and a trial in secondary, plus a pay rise for all teachers over 5 years.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Réduire le nombre d'élèves par enseignant en primaire et l'expérimenter dans le second degré"
+     }
+    ],
+    "nuance": "A weaker version: there is no 'massive' hiring commitment, and secondary school would only get a trial."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on ability grouping.",
+    "sources": [],
+    "nuance": "Not addressed in the programme."
+   },
+   {
+    "id": "edu4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Wants state-contracted private schools brought into the school catchment map (carte scolaire) to improve social mix. Cutting their funding is not mentioned.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Intégrer les établissements privés sous contrat à la carte scolaire pour garantir une répartition équitable des élèves et renforcer la mixité sociale."
+     }
+    ],
+    "nuance": "Shares the goal (social mix) through a different tool; no funding sanction is proposed."
+   },
+   {
+    "id": "edu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Wants to 'deeply rethink' Parcoursup through consultation. Abolishing it or ending selection is not proposed.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Repenser en profondeur Parcoursup à travers une concertation réunissant parents, étudiants, universités"
+     }
+    ],
+    "nuance": "The programme wants to reform Parcoursup, not abolish it, which counts as partial opposition to the statement."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "The programme only says it wants to 'support' doctors setting up in practice. It mentions no obligation and does not reject one.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Soutenir l'installation, diversifier les pratiques et valoriser les évolutions de carrières"
+     }
+    ],
+    "nuance": "The wording suggests incentives, but it is not explicit enough to code."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Place publique strongly opposes the July 2026 government plan to double medical franchises, calling it unjust and ineffective.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/posts/5alHI42mxxIp7GNFA9ImFX/franchises-medicales-s-lecornu-envoie-la-facture-du-deficit-aux-malades",
+      "outlet": "Place publique",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-29",
+      "quote": "Place publique s'oppose avec force à ce type de mesures injustes et inefficaces."
+     }
+    ],
+    "nuance": "This is a party communiqué, not a verified personal statement by Glucksmann (party co-chair)."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants rent caps in high-pressure housing areas.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Encadrer les loyers dans les zones en grande tension pour garantir l'accès au logement aux ménages modestes."
+     }
+    ],
+    "nuance": "'Zones en grande tension' corresponds closely to the statement's 'areas with housing shortages'."
+   },
+   {
+    "id": "san4",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to reverse 'the dogma of free and undistorted competition' and end competition between public administrations and the private sector.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique (Acte I programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Revenir sur le dogme de la concurrence libre et non faussée"
+     }
+    ],
+    "nuance": "Clear opposition to more competition in general, but nothing specific on liberalising transport or energy, hence -1."
+   }
+  ],
+  "verification_notes": [
+   "Primary source found: Place publique 'Acte I' programme (PDF metadata/title dated 2025-06-23; Glucksmann co-director of publication) at https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf. All quotes below come from the extracted text. WebSearch budget was exhausted (200/200), so verification relied on WebFetch/curl of primary pages and Wikipedia.",
+   "Wikipedia FR re-fetched: the draft's paraphrases (war economy 2024, NATO 2019 via Marianne, Russian gas, 'exiting nuclear cannot be an objective' 2024) are accurately reported. No fabricated URLs in the draft.",
+   "int1: +2 medium statement -> +2 high programme: the 2025 programme says 'Augmenter drastiquement l'aide militaire à l'Ukraine'. Primary source added.",
+   "int3: -2 medium -> -1 low: the only evidence is a 2019 statement on staying in NATO, which does not address the integrated command. That would be an off-by-one strength error.",
+   "int4: null -> +2 medium party_line: a Place publique post (2026-08-21) calls to 'suspendre l'accord d'association UE-Israël'. Its rationale is West Bank colonisation and international law rather than the Gaza war alone, as noted in nuance.",
+   "int5: kept null; corrected the summary from 100 bn to the 2025 programme's 500 bn EUR European defence fund; no GDP target.",
+   "int6: null -> +1 low programme: the programme proposes a universal republican rite of passage to replace military service; compulsory nature unspecified.",
+   "int7: kept -1 low inferred; added the 2025 programme source ('Interdire immédiatement toute importation de gaz russe').",
+   "ecol2: null -> +2 medium programme: wants to ban glyphosate and neonicotinoids, with mirror measures on imports.",
+   "ecol4: null -> +2 high programme: end the kerosene/VAT exemptions, extend the domestic flight ban, tax private jets.",
+   "ene1: null -> +1 low programme: 'construction à temps de nouvelles unités', with no commitment beyond the six EPR2.",
+   "ene2: -2 medium statement -> -2 high programme: 'Conforter le rôle du nucléaire' in the 2025 programme supersedes the hedged 2024 remark.",
+   "ene3: null -> -2 medium programme: multi-year investment plan in all renewables, wind included.",
+   "ene4: null -> -1 low inferred: wants cost-based pricing for part of the bill but does not propose leaving the EU market.",
+   "ins1: null -> +2 medium programme: constituent assembly to change the Constitution plus a parliamentary shift.",
+   "ins2: null -> +2 high programme: 'Instaurer immédiatement la proportionnelle'.",
+   "ins3: null -> +1 medium programme: citizens' initiative right triggering referendums; vague design and not called 'RIC'.",
+   "ins4: null -> +2 high programme: constructive censure 'permettra de mettre fin au 49.3'.",
+   "edu2: null -> +1 medium programme: reduce pupils per teacher in primary, trial in secondary; no massive hiring pledge.",
+   "edu4: null -> +1 low programme: private schools under contract brought into the carte scolaire for social mix; no funding cut.",
+   "edu5: null -> -1 low programme: 'Repenser en profondeur Parcoursup', reform rather than abolition.",
+   "san2: null -> -2 medium party_line: Place publique 2026-07-29 post opposes doubling the franchises ('s'oppose avec force').",
+   "san3: null -> +2 high programme: 'Encadrer les loyers dans les zones en grande tension'.",
+   "san4: null -> -1 medium programme: 'Revenir sur le dogme de la concurrence libre et non faussée'.",
+   "soc4, san1: kept null with the programme quoted in the summary; the wording is too ambiguous to code on the statement as worded.",
+   "Nulls I kept after checking the programme: int2, ecol1, ecol3, ecol5, ins5, soc1, soc2, soc3, soc5, edu1, edu3. These topics are absent from the 2025 programme, and web search was exhausted, so 2025-2026 interviews could not be checked. Highest-priority follow-ups: int2 (troops), int5 (GDP target), soc1 (assisted dying) and ecol3 (2035)."
+  ]
+ }
+}

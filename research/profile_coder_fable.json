@@ -1,0 +1,184 @@
+{
+  "lepen": {
+    "style": 1,
+    "style_why": "Behaviour as RN group president 2022-2026: pursued institutional normalisation ('stratégie de la cravate') and bargained with Barnier in Nov 2024, then censured him anyway on 4 Dec 2024 once her ultimatum was not met; voted down Bayrou (8 Sept 2025) and censured Lecornu II (Oct 2025); refuses any coalition and demands dissolution. Stated method is to bypass parliamentary debate by referendum: 'il y a une chose qui est mieux que le débat, c'est le vote... on arrête de blablater' (Feb 2025). Coded +1 rather than +2 because the RN group does negotiate (Barnier concessions, budget amendments) before confronting.",
+    "continuity": -2,
+    "continuity_why": "Campaigns on total rupture with the Macron years (immigration, energy, pensions, 'macronie'); RN voted to suspend the 2023 pension reform and against the 2026 budget; she calls for Macron's departure and an immediate dissolution.",
+    "reversals": 5,
+    "reversal_list": [
+      "Euro / Frexit: 2017 programme proposed leaving the euro and a referendum on EU exit -> softened late April 2017, formally dropped by 2019 and absent from the 2022 programme (2017-2022)",
+      "Retirement at 60: general return to 60 (2012, 2017) -> 2022: 60 only for careers started before 20, otherwise up to 62 -> 2026: 62 as the standard age (2017-2026)",
+      "Death penalty: 2012 proposed a referendum on reinstating it -> Feb 2017 abandoned it in favour of 'perpétuité réelle' (2012-2017)",
+      "Same-sex marriage: 2017 programme pledged to repeal the 2013 law and replace it with a civil union -> 2022 pledge dropped (2017-2022)",
+      "Russia: 2017 called EU sanctions 'profondément injustes et contre-productives' after meeting Putin -> from Feb 2022 condemns the invasion 'sans ambiguïté' while still defending the 2014 Crimea vote (partial reversal, 2017-2023)"
+    ],
+    "sources": [
+      "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-veut-un-referendum-sur-le-droit-du-sol-pour-arreter-de-blablater_7063088.html",
+      "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "https://legrandcontinent.eu/fr/2026/09/28/marine-le-pen-peut-elle-vraiment-rompre-avec-poutine/",
+      "https://www.euronews.com/2017/04/30/le-pen-softens-stance-on-euro",
+      "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection"
+    ]
+  },
+  "melenchon": {
+    "style": 2,
+    "style_why": "Doctrine of 'conflictualisation' openly claimed by LFI; LFI tabled or voted every censure motion 2024-2026 (Barnier, seven against Bayrou, Lecornu II on 16 Oct 2025, the 2026 budget 49.3), filed a destitution motion against Macron, demanded his resignation, and broke with the PS over its non-censure deals. Stated governing method: apply 'tout le programme' from May 2027, convene a constituent assembly for a 6th Republic, abolish 49.3 but also 'désobéir' to EU treaties. The 2022 NUPES negotiation shows he can build an electoral cartel, but on his own terms (the 2024 NFP candidate purges illustrate this).",
+    "continuity": -2,
+    "continuity_why": "Programme is built as the explicit reversal of the Macron record: repeal of the 2023 pension reform (retirement at 60), repeal of the unemployment-insurance reform, 'révolution fiscale', 6th Republic; he treats 2017-2026 as a period to be dismantled.",
+    "reversals": 4,
+    "reversal_list": [
+      "Europe: voted yes to Maastricht in 1992 as a 'compromis de gauche' -> from 1996 called it a 'échec total', campaigned no in 2005, now 'Plan A / Plan B' disobedience to the treaties (1992-2005)",
+      "Nuclear power: pro-nuclear as a PS senator and minister -> after Fukushima (2011) committed to a full nuclear phase-out, kept in every programme since (2011-2012)",
+      "Islamophobia: refused the word and the concept in 2012-2016 ('je n'emploie pas ce mot') -> marched against Islamophobia on 10 Nov 2019 and made the fight against it a party line (2016-2019)",
+      "Russia / Ukraine: 2014 called the Crimea annexation 'prévisible', opposed sanctions -> 2022 condemned the invasion as an 'escalade insupportable' and by June 2022 accepted arms deliveries he had initially regretted (partial reversal, 2014-2022)"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+      "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+      "https://www.france24.com/fr/europe/20220301-jean-luc-m%C3%A9lenchon-regrette-la-fourniture-d-armes-%C3%A0-l-ukraine-par-l-ue",
+      "https://melenchon2027.fr/programme/decouvrir/"
+    ]
+  },
+  "philippe": {
+    "style": 1,
+    "style_why": "As PM he launched the Grand débat (2019) and withdrew the 'âge pivot' after CFDT talks (Jan 2020), but he passed the 2020 pension reform by 49.3 and the labour ordinances by decree. Since 2025 he argues against the compromise politics of the hung Assembly: he opposes proportional representation because it produces an 'absence de majorité', urged Lecornu to use 49.3 on the 2026 budget (Dec 2025), called the pension-suspension deal a mistake, and called for Macron to resign to get a clear majority rather than continue a negotiated minority government. Stated method: 'un exécutif renforcé', re-dissolve after election to obtain a majority.",
+    "continuity": 1,
+    "continuity_why": "Defends the 2017-2020 supply-side record he implemented (pension age, labour reform, immigration quotas) and would extend it (retirement at 65-67), but judges the 2024 dissolution 'funeste et absurde', repeatedly asked Macron to step down, and runs on a change of method and a new centre-right party. Partial continuity, framed as 'poursuivre autrement'.",
+    "reversals": 3,
+    "reversal_list": [
+      "PMA: opposed opening assisted reproduction to single women and lesbian couples in a 2013 op-ed -> carried the bioethics law extending it as PM, saying he had 'évolué sur cette question' (2013-2019)",
+      "Proportional representation: carried Macron's 2017 pledge of a 'dose de proportionnelle' -> 2025 declared himself 'défavorable' to proportional voting (2017-2025)",
+      "Retirement age: 2019-2020 reform kept the legal age at 62 (points system, 'âge d'équilibre' at 64 then withdrawn) -> from 2021 proposes raising the legal age to 65-67 (2020-2026)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe",
+      "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "https://www.france-vote.fr/actualites/programme-edouard-philippe-horizons-2027"
+    ]
+  },
+  "attal": {
+    "style": -1,
+    "style_why": "As EPR group leader (July 2024-) he anchored the 'socle commun' coalition with LR and MoDem, never censured Barnier, Bayrou or Lecornu, accepted Lecornu's suspension of the 2023 pension reform he had defended rather than bring the government down (Oct-Nov 2025), and in Nov 2025 called for a 'partage du pouvoir'. His own site advertises the 'Dialogues de Bercy pour tenter de trouver des compromis'. As PM (Jan-Sept 2024) he also acted fast and unilaterally (abaya ban as minister, EUR 10bn cut by decree, farmer concessions within days), hence -1 rather than -2.",
+    "continuity": 1,
+    "continuity_why": "The Renaissance candidate and heir of the record (pension reform, unemployment reform, 'France Travail') which he defends, but he has staged a public distance: said he 'ne comprend plus' Macron's decisions, called the dissolution a mistake, took the party against Macron's wishes (Dec 2024) and campaigns on a 'nouveau chapitre' with a zero-deficit plan. Continuity on substance, rupture on method.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_S%C3%A9bastien_Lecornu_II",
+      "https://attalpresident.fr/gabriel-attal",
+      "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+  },
+  "retailleau": {
+    "style": 1,
+    "style_why": "Two records. As Senate LR leader (2014-2024) he was a legislative deal-maker (cross-party narcotrafic law adopted April 2025, Blanc LR / Durain PS). As interior minister (Sept 2024-Oct 2025) he clashed publicly with Barnier, Bayrou and Macron (immigration, 'l'État de droit n'est pas intangible', renewables op-ed), resigned from Lecornu I within hours over Le Maire's appointment (Oct 2025) and refused to return. As candidate: 'J'irai très vite', constitutional referendum by autumn 2027, let the people 'censurer la censure' of the Conseil constitutionnel, 'qu'on n'attende pas de moi un ralliement' (Sept 2026).",
+    "continuity": -1,
+    "continuity_why": "Calls the Macron record 'désastreux' and runs on 'rupture' (immigration, security, spending, EU law primacy), yet served 13 months in Macron-era governments and keeps the core 2017-2023 economic orientations (2023 pension reform, supply-side tax policy, nuclear relaunch). Rupture on sovereignty and order, continuity on economics.",
+    "reversals": 2,
+    "reversal_list": [
+      "Governing with Macron's camp: 2022 refused any government agreement with Renaissance -> Sept 2024 joined the Barnier government alongside Renaissance ministers and stayed under Bayrou (2022-2024)",
+      "Europe: 20 years in de Villiers' souverainiste MPF (anti-Maastricht, no to the 2005 constitutional treaty) -> joined the UMP in 2012 and now defends staying in the EU and the euro while seeking derogations on migration (1992-2012, gradual)"
+    ],
+    "sources": [
+      "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+      "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "https://en.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+  },
+  "zemmour": {
+    "style": 2,
+    "style_why": "No elective office, so the record is party and alliance behaviour: founded Reconquête (Dec 2021) to impose his 'union des droites' on his terms, expelled four MEPs including Marion Maréchal in June 2024 for backing the RN-Ciotti alliance, lost de Villiers and Maréchal; stated method is to override EU law and courts by national law and referendum on immigration and to pursue 'remigration'. Confrontation is the brand; no documented negotiation or coalition-building that cost him anything.",
+    "continuity": -2,
+    "continuity_why": "Describes the Macron years as accelerating the 'grand remplacement' and national decline; proposes to end immigration, abolish droit du sol and family reunification, national preference; total rupture.",
+    "reversals": 2,
+    "reversal_list": [
+      "Euro exit: 2010s writings and TV commentary advocated leaving the euro -> 2021-2022 campaign dropped it as having 'plus d'inconvénients que d'avantages' (2014-2021)",
+      "Russia: long-standing admiration for Putin and call for a Franco-Russian rapprochement, said in Feb 2022 Russia would not invade -> condemned the invasion after 24 Feb 2022 (partial reversal, 2018-2022)"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "https://fr.wikipedia.org/wiki/Reconqu%C3%AAte_(parti_politique)"
+    ]
+  },
+  "glucksmann": {
+    "style": -1,
+    "style_why": "Founded Place publique (2019) to federate the pro-European left; joined NUPES (2022) and NFP (2024) only after obtaining written guarantees (Ukraine, antisemitism); in Aug 2026 described his method as 'un rapport de force et une négociation' with explicit red lines and conditional censure, aligned with the PS group's case-by-case line since the dissolution; programme proposes a constructive censure motion to end 49.3 and proportional representation. The hard exclusion of LFI from any governing coalition keeps this at -1 rather than -2.",
+    "continuity": -1,
+    "continuity_why": "Programme repeals the 2023 pension reform and the unemployment-insurance reform and raises taxes on large estates, but he keeps and radicalises the Macron line on Europe, defence and Ukraine (EUR 100bn defence fund, use of frozen Russian assets). Social rupture, geopolitical continuity.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://www.franceinfo.fr/politique/raphael-glucksmann/raphael-glucksmann-soutiendra-la-censure-du-gouvernement-en-cas-de-regression-sociale-et-ecologique-lors-du-budget-2027_8169527.html",
+      "https://fr.wikipedia.org/wiki/Rapha%C3%ABl_Glucksmann"
+    ]
+  },
+  "faure": {
+    "style": -2,
+    "style_why": "The clearest negotiator in the field: built NUPES (2022) and NFP (2024) with LFI, then from Jan 2025 ran a 'non-censure' strategy with Bayrou (budget concessions, pension 'conclave'), negotiated the suspension of the 2023 pension reform with Lecornu in exchange for not censuring (Oct 2025), and in Jan 2026 accepted the use of 49.3 to pass the 2026 budget because no majority could be found. Did this against LFI, the Écologistes and 40% of his own party (Nancy congress, June 2025, 51% re-election).",
+    "continuity": -1,
+    "continuity_why": "Says the page of Macronism must be turned (repeal of the pension reform, tax justice, Zucman tax), yet twice let Macron-camp budgets pass and voted the 2017 confidence abstention; in practice accepts large parts of the framework while demanding social corrections.",
+    "reversals": 1,
+    "reversal_list": [
+      "Article 49.3: PS line under Faure demanded ending or restricting 49.3 and censured its use by Barnier (Dec 2024) -> end of Jan 2026 agreed to let Lecornu use 49.3 to adopt the 2026 budget (2024-2026)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Fran%C3%A7ois_Bayrou",
+      "https://fr.wikipedia.org/wiki/Gouvernement_S%C3%A9bastien_Lecornu_II"
+    ]
+  },
+  "tondelier": {
+    "style": -1,
+    "style_why": "Within the left she is the coalition-maker: co-architect and public mediator of the NFP between PS and LFI (June-July 2024), relentless promoter of a united-left primary (2025-2026), elected party secretary with 90.8%. Toward the government she is confrontational: Écologistes voted every censure (Barnier Dec 2024, Bayrou Jan and Sept 2025, Lecornu II 16 Oct 2025) and rejected the PS non-censure and 49.3 deals; in Feb 2025 she called for a constituent referendum. Net: seeks broad majorities inside her camp, not across the aisle.",
+    "continuity": -2,
+    "continuity_why": "Frames the Macron years as social and ecological regression (pension reform, pesticides, ZFE repeal, 'Duplomb' law); NFP programme she defends repeals the pension and unemployment reforms and calls the 5th Republic 'fatiguée'.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/twitter-est-une-souffrance-marine-tondelier-appelle-a-reguler-ou-fermer-le-reseau-social-d-elon-musk_AV-202411190629.html",
+      "https://www.lefigaro.fr/politique/marine-tondelier-reste-sur-x-pour-continuer-a-defendre-l-ecologie-en-terrain-hostile-20250120"
+    ]
+  },
+  "roussel": {
+    "style": 0,
+    "style_why": "Ran autonomously in 2022, declared NUPES 'caduque' in April 2023, then re-joined the NFP in 2024; PCF deputies voted every censure motion 2024-2026 and backed abolishing 49.3, and he has no executive record. He talks of 'rassemblement' and dialogue with working-class voters across party lines but has not negotiated with governments nor imposed a line by force. No clear signal either way.",
+    "continuity": -2,
+    "continuity_why": "Calls his project a 'rupture' with Macron's economic model: retirement at 60 (constant since 2017), repeal of the unemployment reform, accused Macron of creating a 'climat de guerre civile' during the 2023 pension protests.",
+    "reversals": 1,
+    "reversal_list": [
+      "NATO: traditional PCF line of leaving NATO or its integrated command -> after the Feb 2022 invasion of Ukraine no longer proposes withdrawal, unlike Mélenchon (2020-2022)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "https://www.pcf.fr/"
+    ]
+  },
+  "ruffin": {
+    "style": -1,
+    "style_why": "Initiated the NFP call on 9 June 2024, then broke with Mélenchon on 4 July 2024 over strategy, calling him 'un obstacle' to a left victory; refuses to 'hurler sur les bancs' of the Assembly because it feeds the RN; self-describes as social-democrat, accepted Renaissance withdrawals in his favour in 2024, and committed to a united-left primary rather than a solo run. Voted the censures with the left, so not a cross-aisle negotiator.",
+    "continuity": -2,
+    "continuity_why": "His whole career since the 2017 'Merci patron!' and Whirlpool fights is built against Macron's labour, pension and fiscal orientations; campaigns on repealing them.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Ruffin",
+      "https://fr.wikipedia.org/wiki/Debout_!_(parti_politique)"
+    ]
+  },
+  "lisnard": {
+    "style": 1,
+    "style_why": "As AMF president (2021-) he was elected with cross-party support and governed the association with the socialist André Laignel as first vice-president, a consensual record. As candidate he chose exit over compromise (left LR on 31 March 2026 rather than accept its primary rules) and his method is speed and decision: 'une révolution de la liberté', 'rompre avec l'étatisme', EUR 80bn of savings in year one, 'beaucoup de réformes peuvent être réalisées dès le début', migration policy by referendum 'indépendamment des hautes cours de justice'.",
+    "continuity": -1,
+    "continuity_why": "Attacks the Macron years as 'étatisme et bureaucratie', calls the outgoing budgets 'socialistes', but shares and would extend the supply-side direction (later retirement, lower production taxes, nuclear). Rupture in degree and method more than in direction.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://unenouvelleenergie.fr/notre-programme/",
+      "https://monvote2027.fr/candidat/lisnard",
+      "https://fr.wikipedia.org/wiki/David_Lisnard"
+    ]
+  }
+}

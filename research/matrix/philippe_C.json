@@ -1,0 +1,434 @@
+{
+ "collect": {
+  "candidate": "Édouard Philippe",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Centre-right Horizons line favours work conditionality for RSA; no source retrieved this session.",
+    "sources": [],
+    "nuance": "Inferred from general positioning only and not verified. Needs a rerun to confirm he backs maintaining the 15-20 h rule."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Horizons is pro-European and favours more joint defence efforts; no source retrieved this session.",
+    "sources": [],
+    "nuance": "Inferred and unverified. The clause 'even if France loses military autonomy' may lower support to +1 or 0. Needs a rerun."
+   },
+   {
+    "id": "eu8",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Horizons has been pro-Ukraine and pro-enlargement in general terms; no source retrieved this session.",
+    "sources": [],
+    "nuance": "Inferred and unverified. He may attach conditions or a long timeline. Needs a rerun."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Édouard Philippe",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a 'TVA sociale' (raising VAT to fund lower wage contributions).",
+    "sources": [],
+    "nuance": "The programme cuts production taxes by 50 bn EUR, offset by cuts to business subsidies, not by a VAT rise (MonVote2027 Q39). That is a different mechanism, so it was not used for this item. WebSearch budget was exhausted. Only the MonVote2027, Presi2027, Votons-2027, France-Vote, IFRAP and candidats-presidentielle-2027 profiles were checked, and none mentions TVA sociale."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Favours keeping the RSA conditional on activity hours. The Horizons group backed the 2023 full-employment law that introduced the 15-hour requirement.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "La loi plein emploi, adoptee par 310 voix contre 251 le 10 octobre 2023 avec le soutien du groupe Horizons [...] conditionne le RSA a 15 heures hebdomadaires d'activite obligatoire."
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Favorable à la conditionnalité du RSA à des heures d'activité ou d'insertion, dans la logique de la loi « plein emploi » soutenue par Horizons."
+     }
+    ],
+    "nuance": "This is a group vote, and Philippe is not a deputy. Both aggregators rate him 'plutôt pour', not 'tout à fait pour', hence +1. No personal 2025-26 quote was found."
+   },
+   {
+    "id": "imm8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No statement on naturalising long-term legal residents. Adjacent evidence points to tightening: he wants to restrict access to nationality in Mayotte and to be 'more demanding' with newcomers.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Sans restreindre l'accès à la nationalité française à Mayotte, on va dans le mur."
+     }
+    ],
+    "nuance": "Inferred. The Mayotte measure is territorial. He also backs chosen labour immigration ('choisie et contrôlée'), which could cut either way for naturalisation. No nationwide naturalisation proposal was found."
+   },
+   {
+    "id": "sec6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Reserved on identity-check receipts. His 2017-2020 government did not adopt them, and an aggregator rates him 'plutôt contre'.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Réservé sur les dispositifs de contrôle renforcé des pratiques policières (récépissés, renforcement des enquêtes indépendantes), auxquels son gouvernement ne s'était pas montré favorable."
+     }
+    ],
+    "nuance": "Aggregator source marked 'indirect'. No personal statement was found. He also defended IGPN internal oversight as PM in 2019."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Backs a European defence industrial base and stronger common EU capabilities. In 2018 he favoured a European intervention capability complementary to NATO and did not back an autonomous European army replacing it.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/edouard-philippe",
+      "outlet": "Candidats Présidentielle 2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Bâtir une base industrielle et technologique de défense européenne (drones, munitions, spatial)"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2018-02-17",
+      "quote": "Philippe plaide pour l'Initiative européenne d'intervention comme pilier opérationnel complémentaire à l'OTAN, sans armée autonome de substitution."
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Très pro-européen, il défend une défense européenne, l'harmonisation fiscale et un renforcement des capacités communes de l'Union."
+     }
+    ],
+    "nuance": "Partial support. He backs joint procurement and an industrial base, but nothing shows he accepts losing French military autonomy or wants a single European army. He also stresses raising France's own defence effort. The 2018 quote is old."
+   },
+   {
+    "id": "eu8",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports Ukraine's EU accession. He discussed it with Zelensky in Kyiv in May 2026 and, per an aggregator, defends Ukraine joining both the EU and NATO.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Déplacement à Kiev en mai 2026, rencontre avec Volodymyr Zelensky, soutien à l'adhésion de l'Ukraine à l'UE et à l'OTAN"
+     },
+     {
+      "url": "https://fr.euronews.com/my-europe/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv",
+      "outlet": "Euronews",
+      "outlet_lean": "centre",
+      "date": "2026-05-26",
+      "quote": "Paraphrase: Philippe and Zelensky discussed Ukraine's accession to the European Union during the Kyiv meeting."
+     }
+    ],
+    "nuance": "Euronews reports that accession was discussed but gives no verbatim Philippe quote on the EU. His explicit pledge was on NATO membership. The +2 rests on the aggregator's characterisation, hence low confidence. No conditions or timeline were found."
+   },
+   {
+    "id": "ecol6",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Cautious on farm floor prices. When Macron floated them in 2024, he withheld judgement pending details.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "Position prudente sur les prix planchers proposés par Macron au Salon de l'Agriculture, attendant des précisions avant de se prononcer"
+     }
+    ],
+    "nuance": "2024 source (Salon de l'agriculture), aggregator paraphrase. No 2025-26 position was found. His liberal economic line makes active support unlikely, but no opposition is documented."
+   },
+   {
+    "id": "ene5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit position on cutting energy and fuel VAT to 5.5%. An aggregator says he prefers fiscal stability and doubts that VAT cuts are passed on to prices.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Pas de position tranchée sur une baisse de TVA ciblée : il privilégie la stabilité fiscale et doute de l'efficacité des baisses de TVA répercutées sur les prix."
+     }
+    ],
+    "nuance": "Inferred from his deficit-reduction priority and the aggregator note. In 2019 he called zero VAT on essentials 'intellectuellement possible', which is a counter-signal (MonVote2027). He froze fuel-tax rises in 2018 but did not cut VAT."
+   },
+   {
+    "id": "ins6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "No support for privatising public broadcasting. His government pursued a governance reform (a holding company) and kept public funding.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Favorable à une réforme de la gouvernance de l'audiovisuel public (projet de holding porté sous son gouvernement), sans soutenir sa privatisation."
+     }
+    ],
+    "nuance": "Based on his 2019 record as PM (audiovisual reform, licence fee kept at the time). No 2025-26 statement explicitly rejecting privatisation was found, hence -1, not -2."
+   },
+   {
+    "id": "soc1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In January 2025 (TF1) he spoke about his father's end of life but said he did not want assisted dying written into law. No statement on keeping or repealing the July 2026 law was found.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Édouard Philippe évoque l'expérience personnelle de la fin de vie de son père, mais déclare ne pas souhaiter que l'aide à mourir soit inscrite dans la loi."
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Position nuancée : ouvert à une aide à mourir très encadrée selon certaines sources, mais il a exprimé des réserves sur le texte débattu au Parlement."
+     }
+    ],
+    "nuance": "He opposed legislating before the law passed, and no repeal pledge was found, so -1, not -2. One aggregator reports openness to tightly regulated aid, which conflicts with the TF1 account, hence low confidence. He is not a deputy, so he cast no personal vote."
+   },
+   {
+    "id": "soc3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "As PM in October 2019 he opposed a law banning headscarves for parents on school trips, arguing that service users are not bound by neutrality. In August 2026 he said there was no need to go further than current law on the veil.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019-10",
+      "quote": "L'enjeu aujourd'hui n'est pas de faire une loi sur les accompagnants scolaires. Les usagers des services publics ne sont pas soumis à l'obligation de neutralité."
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "ferme sur la laïcité dans les services publics, mais opposé à l'extension des interdictions de signes religieux dans l'espace public"
+     }
+    ],
+    "nuance": "The school-trip statement is from 2019. It is consistent with his August 2026 'pas nécessaire d'aller plus loin' line (BFM headline, seen in an earlier run), which concerned Le Pen's public-space proposal. The wording ('l'enjeu aujourd'hui n'est pas...') is firm but not absolute, so -1 is kept."
+   },
+   {
+    "id": "soc6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No statement on religious symbols at university. His stated reasoning that users of public services are not bound by neutrality, and his August 2026 'no need to go further' line, point to opposing a ban.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "opposé à l'extension des interdictions de signes religieux dans l'espace public"
+     }
+    ],
+    "nuance": "Inferred. Presi2027 rates its combined laïcité item, which includes university, as 'neutre / non positionné'. No university-specific statement was found."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "His government created Parcoursup and introduced university admission prerequisites (attendus) through the 2018 ORE law, ending the APB lottery. He opposes abolishing it.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2017-10-30",
+      "quote": "Parcoursup remplace APB, met fin au tirage au sort et garantit une réponse à chaque candidat"
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Parcoursup a été créé sous son gouvernement (loi ORE de 2018) : il est défavorable à sa suppression, tout en restant ouvert à des ajustements."
+     }
+    ],
+    "nuance": "His record is the introduction of selection criteria at university entry, the opposite of the statement. No 2025-26 statement specifically on selection was found."
+   },
+   {
+    "id": "san5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Prefers freeing up housing supply and simplifying building rules over massive social-housing construction. No explicit position on ZAN was found.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "il mise plutôt sur la libération de l'offre et la simplification des normes de construction."
+     }
+    ],
+    "nuance": "Partial support. Rule simplification is documented by an aggregator ('source indirecte'). Loosening ZAN is not. His December 2025 housing platform (strengthening landlords' rights, opposing rent control) points the same way."
+   }
+  ],
+  "verification_notes": [
+   "Method: the session's WebSearch budget was exhausted (200/200) on the first call. I did not get around it by scraping search engines. Instead I fetched known aggregator profile pages already cited in earlier Philippe runs (MonVote2027, Presi2027, Votons-2027, France-Vote, IFRAP, candidats-presidentielle-2027, Euronews). All codings here therefore rest on aggregators plus earlier-run evidence, and should be rechecked against primary sources once search is available.",
+   "eco7: null -> null: no evidence on TVA sociale in any profile. The production-tax cut is offset by subsidy cuts, not VAT.",
+   "trav3: +1 low inferred -> +1 medium vote: MonVote2027 documents Horizons' support for the 2023 plein-emploi law (15 h RSA condition). Both aggregators rate him 'plutôt pour', so +1 is kept. Sources added.",
+   "imm8: null -> -1 low inferred: adjacent evidence (restricting nationality access in Mayotte, 'plus exigeants' with newcomers). Nothing direct on naturalisation.",
+   "sec6: null -> -1 low record_in_office: Presi2027 'plutôt contre' (indirect); his government did not favour récépissés.",
+   "eu7: +1 low inferred -> +1 medium statement: sources added (European defence industrial base; 2018 'complémentaire à l'OTAN, sans armée autonome de substitution'). The autonomy-loss clause keeps it at +1.",
+   "eu8: +1 low inferred -> +2 low statement: Presi2027 reports support for EU accession after the May 2026 Kyiv visit, and Euronews confirms accession was discussed. No conditions found. Confidence stays low because there is no verbatim quote.",
+   "ecol6: null -> 0 low statement: MonVote2027 reports a cautious, wait-and-see stance on floor prices (2024).",
+   "ene5: null -> -1 low inferred: Presi2027 says he prefers fiscal stability and doubts VAT-cut pass-through. A 2019 counter-signal is noted.",
+   "ins6: null -> -1 low record_in_office: Presi2027 says he backs governance reform 'sans soutenir sa privatisation'.",
+   "soc1: null -> -1 low statement: January 2025 TF1 statement against writing assisted dying into law. No repeal pledge, so not -2. A conflicting aggregator line is noted.",
+   "soc3: null -> -1 medium statement: 2019 PM statement opposing a law on school-trip accompanying parents, consistent with the August 2026 'no need to go further' line.",
+   "soc6: null -> -1 low inferred: no university-specific statement; inferred from his neutrality reasoning and 2026 line.",
+   "edu5: null -> -2 medium record_in_office: his government created Parcoursup and the ORE admission prerequisites, and he opposes abolition.",
+   "san5: null -> +1 low statement: Presi2027 says he favours freeing supply and simplifying construction norms. ZAN is not documented."
+  ]
+ }
+}

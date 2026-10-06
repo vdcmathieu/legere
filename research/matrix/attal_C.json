@@ -1,0 +1,329 @@
+{
+ "collect": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted (200/200) before any search ran.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not researched. Needs rerun."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The campaign programme pages (travail-salaires, dette-de-letat) do not mention VAT or a social VAT. He funds lower charges through cuts to social spending instead.",
+    "sources": [],
+    "nuance": "His 28 Sept 2026 Batimat speech says net wages should rise through lower charges, funded by pension and unemployment-insurance reforms. That points away from a VAT-funded switch, but it is not a statement on social VAT. Web search was unavailable (session budget exhausted), so press coverage could not be checked. Needs a rerun with search."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "As Prime Minister he supported extending the RSA reform that requires at least 15 hours per week of activity. This obligation is now in force, and nothing suggests he wants to abolish it.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "He supported extending the reform of the Revenu de solidarité active (RSA), including a requirement for beneficiaries to undertake at least 15 hours per week"
+     }
+    ],
+    "nuance": "The only source is a secondary one (Wikipedia), so confidence is low. The campaign programme pages do not mention the RSA. His programme also stresses social spending that 'incites activity', which is consistent with keeping the obligation. A primary 2025-2026 source is still needed."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on naturalisation. The borders programme page does not mention it.",
+    "sources": [],
+    "nuance": "Adjacent evidence leans restrictive. His programme says 'accueillir moins pour accueillir mieux', and on 6 Feb 2025 he voted for the bill tightening access to French nationality in Mayotte (Datan). That bill concerns birthright acquisition, not naturalisation, so it was not used to code this item. Web search was unavailable."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on receipts for identity checks.",
+    "sources": [],
+    "nuance": "He voted for the July 2026 bill creating a presumption of self-defence for police (Datan). That is not evidence on receipts. Web search was unavailable."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "His programme calls for massive, jointly conducted European defence investment and for strengthening France's role in defending Europe. It does not propose a European army or accept any loss of French military autonomy.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "investissements massifs, menés en commun, au niveau européen"
+     },
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "La défense de l'Europe repose en partie sur nos épaules, nous devons les renforcer."
+     }
+    ],
+    "nuance": "This is a partial version of the statement: he backs joint procurement and investment, but not an army or giving up autonomy. His 'United States of Europe' speech in Reims (17 Sept 2026) covers economic, technological and ecological federation, not defence."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on Ukraine's EU accession. The programme, the Politico interview (24 Sept 2026) and the Reims Europe speech (17 Sept 2026) were checked.",
+    "sources": [],
+    "nuance": "He strongly supports Ukraine: the programme says 'continuer sans relâche à soutenir l'Ukraine', and he voted for the 12 March 2025 resolution strengthening support. He also says the 27-member EU 'a atteint ses limites' and favours a federal core. Whether that supports or works against enlargement is unclear, so the item is not coded. Web search was unavailable."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on guaranteed price floors for farmers.",
+    "sources": [],
+    "nuance": "As PM he made concessions to farmers in Jan-Feb 2024 (diesel subsidy kept). The 'prix planchers' announcement of Feb 2024 came from Macron and could not be tied to Attal personally. He voted for the 2025 agricultural sovereignty law, the 2025 Duplomb law and the July 2026 emergency agricultural law, but these are not evidence on price floors. Web search was unavailable."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on cutting VAT on energy to 5.5%. The ecological debt programme page discusses energy but not VAT.",
+    "sources": [],
+    "nuance": "His zero-deficit-in-10-years priority makes support unlikely, but that is not evidence. Web search was unavailable."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on privatising public broadcasting.",
+    "sources": [],
+    "nuance": "Datan's vote listing as retrieved showed no public-broadcasting vote. Web search was unavailable."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "Attal voted for the assisted-dying bill at first reading (27 May 2025) and at the final reading (15 July 2026). He would keep the law.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/hauts-de-seine-92/depute_gabriel-attal/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir (Lecture définitive) - POUR"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Attal supports the legalisation of euthanasia."
+     }
+    ],
+    "nuance": "His votes are consistent across readings, and there is no sign he wants to restrict or repeal the law."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on parents who accompany school trips. His laïcité statements concern pupils (abaya ban) and minors (headscarf ban for under-15s in public space).",
+    "sources": [],
+    "nuance": "In the 9 Sept 2026 franceinfo interview, the line about shielding children from religious influences at school is about pupils, not adult accompanying parents. He has also said he is not for a general headscarf ban, which leaves his view on adults unclear. Not coded. Web search was unavailable."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on religious symbols at university.",
+    "sources": [],
+    "nuance": "He rejects a general headscarf ban ('Je ne suis pas pour l'interdiction générale du voile', Europe 1, Nov 2025) but backs one for minors. University students are mostly adults, so this hints at opposition, but it is not direct evidence. Web search was unavailable."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "As a deputy he voted for the 2017 ORE law, which created Parcoursup and selective admission mechanisms. This opposes ending all selection at university entry.",
+    "sources": [
+     {
+      "url": "https://www.assemblee-nationale.fr/dyn/15/scrutins/351",
+      "outlet": "Assemblée nationale",
+      "outlet_lean": "neutral-institutional",
+      "date": "2017-12-19",
+      "quote": "Scrutin public n°351 sur l'ensemble du projet de loi relatif à l'orientation et à la réussite des étudiants"
+     }
+    ],
+    "nuance": "His POUR vote is verified on the Assemblée roll call, but the vote is from 2017. No 2025-2026 statement was found, and the education programme page does not mention university entry. Confidence is lowered from medium to low because the evidence is old."
+   },
+   {
+    "id": "san5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In his 28 Sept 2026 housing speech at Batimat, he pledged to restart the housing market by removing barriers to construction. He also cited his PM-era simplification work with housing minister Kasbarian.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment",
+      "outlet": "attalpresident.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "relancer le marché du logement en levant les freins à la construction et à l'investissement"
+     }
+    ],
+    "nuance": "This is a partial version of the statement: easing rules to build more in general. The article does not mention ZAN. The quote was not re-extracted verbatim on this pass (the fetch tool paraphrased it), so treat it as close paraphrase."
+   }
+  ],
+  "verification_notes": [
+   "Context: no web searches were possible (the session's 200-search budget was exhausted). I verified by fetching known pages directly: campaign programme pages, Datan, the Assemblée roll call, Wikipedia, and pages already cited in the attal_A/B verify files. Nulls without search remain provisional and need a rerun with search budget.",
+   "trav3: null -> +2 (low, record_in_office): en.wikipedia states he supported extending the RSA reform with the 15 h/week requirement; secondary source only.",
+   "eu7: null -> +1 (low, programme): the frontieres programme page calls for massive joint European defence investment; nothing on a European army or accepting lost autonomy, hence partial.",
+   "soc1: null -> +2 (high, vote): Datan lists POUR on 27 May 2025 (first reading) and 15 July 2026 (final reading).",
+   "edu5: null -> -2 (low, vote): the AN scrutin n°351 (19 Dec 2017) confirms a POUR vote on the ORE/Parcoursup law; evidence is old, so confidence is low.",
+   "san5: null -> +1 (low, statement): the 28 Sept 2026 Batimat speech pledges to lift barriers to construction; ZAN is not mentioned, hence partial.",
+   "soc3: kept null. Rejected the earlier attal_B inference (+1): the 9 Sept 2026 'influences religieuses à l'École' quote concerns pupils, not accompanying parents.",
+   "eu8: kept null. He strongly supports Ukraine (programme, March 2025 resolution vote), but no statement on EU accession was found, and his 'EU of 27 reached its limits' line makes inference unsafe.",
+   "eco7, imm8, sec6, ecol6, ene5, ins6, soc6: kept null. The relevant programme pages and Datan votes were checked and show no evidence; adjacent hints are recorded in nuance."
+  ]
+ }
+}

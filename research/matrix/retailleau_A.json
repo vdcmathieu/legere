@@ -1,0 +1,1129 @@
+{
+ "collect": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes tax increases on the wealthy; LR line is against ISF return.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposes tax increases on the wealthy (tool summary of article)"
+     }
+    ],
+    "nuance": "Web search budget was exhausted; only one page fetched. Coding rests on that plus background knowledge."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LR and Retailleau rejected the Zucman tax in 2025 debates.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposes tax increases on the wealthy (tool summary)"
+     }
+    ],
+    "nuance": "No specific Zucman quote verified live."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Favours lower production taxes and charges; cuts public spending to fund them.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Preferred VAT increase over CSG increases for competitiveness (tool summary)"
+     }
+    ],
+    "nuance": "Competitiveness-first line; specific programme figures not verified."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found in the sources reachable.",
+    "sources": [],
+    "nuance": "Not searched successfully."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not searched successfully."
+   },
+   {
+    "id": "eco6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR traditionally favours lower inheritance taxes; not verified for Retailleau personally.",
+    "sources": [],
+    "nuance": "Inferred from party line."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Defends the 64 reform and raising the age.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Defends raising retirement age to address economic crisis (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports raising the age in principle; whether above 64 specifically is not verified.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supports raising retirement age (tool summary)"
+     }
+    ],
+    "nuance": "Partial: supports further effort; exact target age unverified."
+   },
+   {
+    "id": "ret3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on mandatory capitalisation.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Prioritises spending cuts and deficit reduction.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "réduction de la dépense publique"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Defends reducing civil servant numbers.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "reducing civil servant numbers (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from spending-cut stance.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "fin4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR Senate group has backed a constitutional budget-balance rule; not verified live.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Called big SMIC increase proposals disheartening.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "désolante"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR favours tougher unemployment insurance conditions; not verified personally.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR and Retailleau support RSA conditionality (15-20h activity), consistent with the 2023 law.",
+    "sources": [],
+    "nuance": "Background knowledge; not verified live."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Supports returning to 39 hours.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supports returning to 39-hour work weeks (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Says immigration is not a chance; restricts family reunification.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "l'immigration n'est pas une chance"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Has called for a referendum on immigration; not verified live.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants AME reform, finds it too favourable; urgent-care-only version is the LR line.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "too favorable (tool summary)"
+     }
+    ],
+    "nuance": "Reform confirmed; exact urgent-care-only wording unverified."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "record_in_office",
+    "summary": "Aimed to end Valls circular regularisation.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "end the Valls circular softening regularization (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR backs national priority for some benefits; not verified personally.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes eliminating birthright citizenship.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Proposes eliminating birthright citizenship (tool summary)"
+     }
+    ],
+    "nuance": "Exact scope unverified."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LR is opposed.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Champions longer sentences for early offenders; LR backs peines planchers.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "expanded prison sentences for early offenses (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Supports lowering criminal majority age to 16.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "lowering criminal majority age to 16 (tool summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Defended police as Interior Minister; inferred.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Strongly anti-cannabis as minister; not verified live.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Supports strengthened surveillance; AI video surveillance specifics unverified.",
+    "sources": [],
+    "nuance": "Partial."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Opposed treaties citing EU legal supremacy; has pushed a constitutional shield on immigration.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "opposed Maastricht, Lisbon (tool summary)"
+     }
+    ],
+    "nuance": "Current position not verified."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from constitutional-shield stance on immigration.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LR and Retailleau do not call for leaving the EU.",
+    "sources": [],
+    "nuance": "Not verified live."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes any tax increase, including on the highest earners and wealth; no sign of support for an ISF return.",
+    "sources": [
+     {
+      "url": "https://www.tf1info.fr/politique/en-bref-palestine-remaniement-taxe-zucman-ce-qu-il-faut-retenir-de-l-interview-de-bruno-retailleau-ministre-demissionnaire-de-l-interieur-sur-lci-2396194.html",
+      "outlet": "TF1 Info",
+      "outlet_lean": "centre",
+      "date": "2025-09-22",
+      "quote": "Une opposition à la taxe Zucman... et à toute hausse des impôts."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "s'oppose à toute hausse d'impôt pour les plus riches"
+     }
+    ],
+    "nuance": "There is no explicit 2026 quote on the ISF itself. The coding rests on his general refusal to raise taxes on the wealthy (2020 and 2025)."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Explicitly rejected the Zucman tax, saying investors would leave France.",
+    "sources": [
+     {
+      "url": "https://www.tf1info.fr/politique/en-bref-palestine-remaniement-taxe-zucman-ce-qu-il-faut-retenir-de-l-interview-de-bruno-retailleau-ministre-demissionnaire-de-l-interieur-sur-lci-2396194.html",
+      "outlet": "TF1 Info",
+      "outlet_lean": "centre",
+      "date": "2025-09-22",
+      "quote": "si demain on appliquait la taxe Zucman, les investisseurs quitteraient la France"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: cut social contributions by 30 bn euros and abolish most production taxes (CVAE, C3S, CFE) for 40 bn euros.",
+    "sources": [
+     {
+      "url": "https://www.capital.fr/economie-politique/fin-des-35h-et-de-la-sur-reglementation-bruno-retailleau-veut-tourner-la-page-du-macronisme-economique-1530482",
+      "outlet": "Capital",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-25",
+      "quote": "30 milliards d'euros de cotisations en moins ... suppressions drastiques ... d'une majorité des impôts de production"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Fiercely opposed the EU-Mercosur free-trade deal to protect French agriculture, and threatened censure if Macron voted for it.",
+    "sources": [
+     {
+      "url": "https://www.lemonde.fr/politique/article/2026/01/07/mercosur-emmanuel-macron-prend-le-risque-d-une-censure-du-gouvernement-s-il-vote-pour-l-accord-de-libre-echange-previent-bruno-retailleau_6660890_823448.html",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2026-01-07",
+      "quote": "Mercosur : Emmanuel Macron « prend le risque d'une censure » du gouvernement s'il vote pour l'accord de libre-échange, prévient Bruno Retailleau (headline)"
+     }
+    ],
+    "nuance": "This is a partial match. Opposing a trade deal is not an explicit call for new tariffs or quotas, and his wider programme is pro-business and liberal."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No current evidence that he supports renationalising energy or motorways.",
+    "sources": [],
+    "nuance": "In 2005 he opposed motorway privatisation (Wikipedia fr). Opposing a sale does not mean backing renationalisation, and nothing recent was found. In 2026 his energy focus is nuclear investment."
+   },
+   {
+    "id": "eco6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Pledged to be the president who lowers inheritance taxes.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/heritages-et-droits-de-succession-que-proposent-les-candidats-a-l-election",
+      "outlet": "LCP-Assemblée nationale",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-08-27",
+      "quote": "Je ne serai pas le président qui augmentera les droits de succession mais celui qui les baissera"
+     }
+    ],
+    "nuance": "He made the pledge in L'Opinion on 26-27 August 2026."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Pension plan: minimum age 63 with a 7%/year penalty, and the full rate at 65. He does not return to 62.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "outlet": "LCP-Assemblée nationale",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-23",
+      "quote": "L'âge minimal de départ, c'est 63 ans"
+     }
+    ],
+    "nuance": "His minimum age of 63 is below today's 64, but only with a heavy penalty, and the full rate moves to 65. He remains clearly against 62 or lower."
+   },
+   {
+    "id": "ret2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Sets an automatic full-rate age of 65, indexed to life expectancy, while allowing departure from 63 with a penalty.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "outlet": "LCP-Assemblée nationale",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-23",
+      "quote": "le départ à taux plein automatique serait fixé à 65 ans"
+     },
+     {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-30",
+      "quote": "un âge de départ minimal à 63 ans pour une carrière complète"
+     }
+    ],
+    "nuance": "This is a partial match: the effective 'âge d'équilibre' rises to 65, while the minimum legal age falls to 63."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes a capitalisation component for young workers: 1% of gross salary, split employee/employer, aiming for 25-30% of their future pensions.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-30",
+      "quote": "25 à 30% des retraites des jeunes"
+     },
+     {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "outlet": "LCP-Assemblée nationale",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-23",
+      "quote": "une part de retraite par capitalisation 'pour les jeunes'"
+     }
+    ],
+    "nuance": "No source we could open says whether it is mandatory. The employer-plus-employee contribution design suggests a generalised scheme, but that is unverified, so +1 rather than +2."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Warns of a 'Greek scenario' and backs an emergency spending-cut plan: capping welfare at 70% of SMIC, fewer civil servants and a pension reform.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/je-serai-le-protecteur-des-travailleurs-pas-des-profiteurs-bruno-retailleau-defend-un-durcissement-des-aides-sociales-963669",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-07-01",
+      "quote": "Un jour, on va avoir un pépin"
+     }
+    ],
+    "nuance": "His priority on spending cuts is clear. No explicit 3%-deficit date was verified."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants to cut public-sector headcount, citing a figure of 600,000 fewer public agents over ten years, and to stop replacing retirees systematically.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/je-serai-le-protecteur-des-travailleurs-pas-des-profiteurs-bruno-retailleau-defend-un-durcissement-des-aides-sociales-963669",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-07-01",
+      "quote": "engager une réduction des effectifs dans la fonction publique, en cessant de remplacer systématiquement les départs à la retraite"
+     },
+     {
+      "url": "https://www.capital.fr/economie-politique/fin-des-35h-et-de-la-sur-reglementation-bruno-retailleau-veut-tourner-la-page-du-macronisme-economique-1530482",
+      "outlet": "Capital",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-25",
+      "quote": "Bruno Retailleau vise 600 000 agents publics en moins sur dix ans (related headline)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Treats debt as an imminent danger and wants to reduce borrowing, not increase it.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/je-serai-le-protecteur-des-travailleurs-pas-des-profiteurs-bruno-retailleau-defend-un-durcissement-des-aides-sociales-963669",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-07-01",
+      "quote": "On lève plus de 30 milliards d'euros d'emprunts par mois pour faire face à la dette."
+     }
+    ],
+    "nuance": "His backing for a golden-rule referendum (see fin4) supports this coding."
+   },
+   {
+    "id": "fin4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for a referendum before end-2026 to write a budget golden rule into the Constitution.",
+    "sources": [
+     {
+      "url": "https://www.lopinion.fr/politique/la-regle-dor-budgetaire-une-proposition-consensuelle-a-lefficacite-discutee",
+      "outlet": "L'Opinion",
+      "outlet_lean": "centre-right",
+      "date": "2026-10-01",
+      "quote": "le seul bouclier, c'est le référendum, une règle d'or"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Called a sharp SMIC increase 'désolante' (2018). He now raises take-home pay through contribution cuts, not the SMIC.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Il qualifie également de « désolante » la forte hausse du SMIC préconisée par ... Guillaume Peltier"
+     },
+     {
+      "url": "https://www.midilibre.fr/2026/09/16/presidentielle-2027-travailler-30-minutes-de-plus-ou-augmenter-le-smic-a-1-700-euros-voici-ce-que-proposent-les-candidats-sur-le-pouvoir-dachat-13553518.php",
+      "outlet": "Midi Libre (AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-16",
+      "quote": "Des rabais de cotisations défendus par Bruno Retailleau ... jusqu'au Smic porté à 1 700 euros voulu par Jean-Luc Mélenchon"
+     }
+    ],
+    "nuance": "The explicit SMIC quote dates from 2018. In 2026 his purchasing-power route is cutting contributions and paying for extra hours, not raising the SMIC."
+   },
+   {
+    "id": "trav2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to be 'less generous' on unemployment insurance and to revive the Attal unemployment-benefit reform.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/je-serai-le-protecteur-des-travailleurs-pas-des-profiteurs-bruno-retailleau-defend-un-durcissement-des-aides-sociales-963669",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-07-01",
+      "quote": "être moins généreux sur l'assurance chômage"
+     },
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-07",
+      "quote": "relancer la réforme de l'assurance chômage, en reprenant la réforme Attal"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes a 'revenu d'incitation à l'activité' that makes 15 hours of activity mandatory for RSA recipients.",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-07",
+      "quote": "en rendant obligatoire les 15 heures d'activité complémentaire au RSA"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants to remove the 35 hours from the Labour Code and raise working time, the opposite of 32 hours.",
+    "sources": [
+     {
+      "url": "https://www.capital.fr/economie-politique/fin-des-35h-et-de-la-sur-reglementation-bruno-retailleau-veut-tourner-la-page-du-macronisme-economique-1530482",
+      "outlet": "Capital",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-25",
+      "quote": "Les 35 heures seraient ainsi supprimées du Code du travail"
+     }
+    ],
+    "nuance": "His 2019 position was a return to 39 hours. In 2026 he favours abolishing the statutory 35 hours, with extra hours exempt from contributions."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to reduce legal immigration: curbs on student visas (fees, resources, quotas by field), changes to family reunification via the EU directive, and tighter asylum.",
+    "sources": [
+     {
+      "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "outlet": "Les Républicains (JDD interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-31",
+      "quote": "Si nous voulons stopper l'immigration illégale et réduire l'immigration légale, il faudra le faire avec fermeté et méthode."
+     },
+     {
+      "url": "https://www.sudouest.fr/politique/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-30542278.php",
+      "outlet": "Sud Ouest (AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-09",
+      "quote": "une loi pour réduire l'immigration"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Pledges a constitutional revision to widen the referendum, then a referendum on an immigration law early in his term.",
+    "sources": [
+     {
+      "url": "https://www.sudouest.fr/politique/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-30542278.php",
+      "outlet": "Sud Ouest (AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-09",
+      "quote": "Je prends cet engagement que ce seront les Français qui enfin définiront la politique migratoire"
+     },
+     {
+      "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "outlet": "Les Républicains (JDD interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-31",
+      "quote": "soumettre aux Français, dans les premiers mois de mon mandat, un projet de loi complet sur l'immigration"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Proposes abolishing the AME and replacing it with a narrower scheme. He has long advocated switching to an urgent-care aid (AMU).",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/je-serai-le-protecteur-des-travailleurs-pas-des-profiteurs-bruno-retailleau-defend-un-durcissement-des-aides-sociales-963669",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-07-01",
+      "quote": "Il propose également de supprimer l'aide médicale d'État (AME)"
+     },
+     {
+      "url": "https://www.lecourrierdelatlas.com/ame-trop-chere-b-retailleau-reaffirme-sa-volonte-de-passer-a-lamu/",
+      "outlet": "Le Courrier de l'Atlas",
+      "outlet_lean": "centre",
+      "date": "2024-11-27",
+      "quote": "AME trop chère, B. Retailleau réaffirme sa volonté de passer à l'AMU (headline)"
+     }
+    ],
+    "nuance": "The 2026 article paraphrases the replacement scheme oddly ('contre-aide'). The urgent-care (AMU) form is attested from 2024."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "As minister he repealed the Valls circular (seven years' presence required, regularisation 'exceptional'). As candidate he rejects regularising workers for labour-shortage sectors.",
+    "sources": [
+     {
+      "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "outlet": "Les Républicains (JDD interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-31",
+      "quote": "l'idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation"
+     },
+     {
+      "url": "https://www.maire-info.com/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article2-29333",
+      "outlet": "Maire-info",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-01-27",
+      "quote": "Elle abroge la « circulaire Valls » et durcit les critères que celle-ci imposait."
+     }
+    ],
+    "nuance": "His 2025 circular told prefects to favour the statutory labour-shortage route among the few exceptional regularisations. His overall stance is clearly against, and in 2026 he explicitly rejects the labour-shortage argument."
+   },
+   {
+    "id": "imm5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to make foreigners' access to welfare conditional on five years of legal residence and work. This is a residence condition, not an explicit national-priority rule.",
+    "sources": [
+     {
+      "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "outlet": "Les Républicains (JDD interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-31",
+      "quote": "Je veux conditionner l'accès aux aides sociales, pour les étrangers, à cinq ans de résidence légale et de travail."
+     }
+    ],
+    "nuance": "This is a partial version. No quote was found backing priority for French citizens in social housing."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to abolish droit du sol nationwide, by referendum.",
+    "sources": [
+     {
+      "url": "https://www.sudouest.fr/politique/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-30542278.php",
+      "outlet": "Sud Ouest (AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-09",
+      "quote": "On ne peut pas devenir français par hasard, en catimini, de façon automatique."
+     },
+     {
+      "url": "https://www.lemonde.fr/politique/article/2026/09/08/bruno-retailleau-souhaite-supprimer-le-droit-du-sol-par-referendum_6768586_823448.html",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2026-09-08",
+      "quote": "Bruno Retailleau souhaite supprimer le droit du sol par référendum (headline)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR opposes local voting rights for non-EU foreigners. No personal 2025-2026 quote from Retailleau was verified.",
+    "sources": [],
+    "nuance": "This is the party line plus consistency with his citizenship-restriction agenda. It was not verified live."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants mandatory minimum sentences ('peines minimales') so the judge 'has no choice', citing attacks on police, gendarmes and firefighters.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-09-08",
+      "quote": "je veux des peines minimales pour que quand on tabasse un policier, un gendarme, un pompier, le juge n'ait pas le choix"
+     }
+    ],
+    "nuance": "His example targets attacks on emergency workers. A recidivist-specific scope was not verified."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to lower the age of criminal majority to 15, going beyond the statement.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/en-direct-droit-du-sol-immigration-ecole-ce-quil-faut-retenir-de-lentretien-de-bruno-retailleau-dans-objectif-elysee-2027-1064093",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-09-08",
+      "quote": "Pour les mineurs, je veux abaisser la majorité pénale à 15 ans."
+     }
+    ],
+    "nuance": "His position hardened from 16 (2025 'révolution pénale') to 15 in September 2026."
+   },
+   {
+    "id": "sec3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "As Interior Minister he consistently defended the police. No statement on an independent oversight body was found.",
+    "sources": [],
+    "nuance": "This is inferred from his record."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Declared himself 'totally against' legalising cannabis and said legalisation 'doesn't work'.",
+    "sources": [
+     {
+      "url": "https://www.leparisien.fr/societe/sante/la-legalisation-du-cannabis-ca-ne-marche-pas-estime-bruno-retailleau-18-02-2025-IY5JHF75WJFZ3JHSX33CGBFT2U.php",
+      "outlet": "Le Parisien",
+      "outlet_lean": "centre",
+      "date": "2025-02-18",
+      "quote": "La légalisation du cannabis, « ça ne marche pas », estime Bruno Retailleau (headline)"
+     },
+     {
+      "url": "https://www.ouest-france.fr/societe/drogue/legalisation-du-cannabis-proposee-par-deux-deputes-bruno-retailleau-se-dit-totalement-contre-3f784e08-edc2-11ef-ab5f-86b228b95af6",
+      "outlet": "Ouest-France",
+      "outlet_lean": "centre",
+      "date": "2025-02-18",
+      "quote": "Bruno Retailleau se dit « totalement contre » (headline)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "As minister he pushed for systematic CCTV ('vidéoprotection'), and the government he sat in sought to extend algorithmic video surveillance.",
+    "sources": [
+     {
+      "url": "https://www.humanite.fr/politique/bruno-retailleau/la-videosurveillance-lautre-obsession-de-bruno-retailleau",
+      "outlet": "L'Humanité",
+      "outlet_lean": "left",
+      "date": "2024-11-19",
+      "quote": "a de nouveau évoqué une mise en place systématique de la « vidéoprotection »"
+     }
+    ],
+    "nuance": "His backing for generalising AI-assisted surveillance specifically is not confirmed by a quote of his own, and the source is a critical left-wing outlet."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes a 'constitutional shield' letting French law prevail over EU law in certain situations (immigration, security).",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-03",
+      "quote": "permettre, dans certaines situations, au droit français de primer sur le droit européen"
+     }
+    ],
+    "nuance": "This is partial: it applies in certain cases (fundamental interests) and not as a general rule of French-law primacy. He voted against Maastricht and Lisbon."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on EU joint borrowing.",
+    "sources": [],
+    "nuance": "A brief search found nothing personal."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on France's EU budget contribution.",
+    "sources": [],
+    "nuance": "A brief search found nothing personal."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on unanimity in EU foreign policy.",
+    "sources": [],
+    "nuance": "A brief search found nothing."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants an organic law able to set aside the effect of European rules and case law contrary to France's 'fundamental interests', so that his immigration and security programme can be implemented.",
+    "sources": [
+     {
+      "url": "https://laclepublique.fr/national/articles/2026/2026-09-05-retailleau-reforme-constitutionnelle/",
+      "outlet": "La Clé Publique",
+      "outlet_lean": "centre",
+      "date": "2026-09-05",
+      "quote": "permettre à une loi organique, dans certains cas, d'écarter l'effet d'une jurisprudence européenne contraire aux « intérêts fondamentaux » de la France"
+     },
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-03",
+      "quote": "un « bouclier constitutionnel » afin de permettre, dans certaines situations, au droit français de primer sur le droit européen"
+     }
+    ],
+    "nuance": "The statement's 'some EU rules' wording matches his 'in certain cases' mechanism. He also says he will change EU rules from within (e.g. the family reunification directive)."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Does not call for leaving the EU. He wants to change EU rules from inside and sees a right-leaning Europe as a source of French influence.",
+    "sources": [
+     {
+      "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "outlet": "Les Républicains (JDD interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-31",
+      "quote": "Dans une Europe qui se droitise, ce sera la condition de notre influence."
+     }
+    ],
+    "nuance": "The 'no exit' reading comes from his reform-from-within stance; no explicit anti-Frexit quote was found."
+   }
+  ],
+  "verification_notes": [
+   "Search note: the WebSearch budget was exhausted (200/200). I verified through Google News RSS with decoded publisher URLs and fetched the articles directly. Every URL cited was opened or appeared in those results.",
+   "General: the draft cited Wikipedia (fr) for nearly everything, and many of those passages date from 2018-2020. I replaced or added 2025-2026 primary or press sources wherever I found them.",
+   "eco1: -2/medium kept; added TF1 Info 2025 source; evidence_type statement kept; nuance notes no explicit 2026 ISF quote.",
+   "eco2: party_line/medium -> statement/high: TF1 Info 22/09/2025 quotes him directly against the Zucman tax.",
+   "eco3: statement/medium -> programme/high: Capital 25/09/2026 details 30bn contribution cuts and abolition of most production taxes.",
+   "eco4: null -> +1/low statement: opposes EU-Mercosur deal (Le Monde 07/01/2026); partial match, so +1.",
+   "eco5: null kept; 2005 opposition to motorway privatisation found but it is not support for renationalisation; noted in nuance.",
+   "eco6: +1/low party_line -> +2/high statement: 'celui qui les baissera' (L'Opinion via LCP, 27/08/2026).",
+   "ret1: -2/high statement -> -2/high programme: Sept 2026 plan sets minimum age 63 (with penalty) and full rate at 65; replaced Wikipedia tool-summary source.",
+   "ret2: +1/low -> +1/medium programme: full-rate age 65 confirmed (LCP, franceinfo), but the minimum age drops to 63, so +1 is partial.",
+   "ret3: null -> +1/medium programme: capitalisation component for young workers (1% of salary, 25-30% of pensions); mandatory status unverified, so not +2.",
+   "fin1: +2 kept; replaced Wikipedia with Europe 1 01/07/2026 (Greek-scenario warning, spending-cut plan).",
+   "fin2: +2/medium -> +2/high programme: Europe 1 July 2026 and Capital (600,000 fewer agents over 10 years).",
+   "fin3: inferred/low -> statement/medium: explicit debt alarm quotes (Europe 1, July 2026).",
+   "fin4: +1/low party_line -> +2/high statement: calls for a golden-rule referendum before end-2026 (L'Opinion 01/10/2026).",
+   "trav1: -2/high -> -2/medium: only evidence is the 2018 'désolante' quote; added AFP/Midi Libre 2026 showing a contribution-cut approach.",
+   "trav2: +1/low party_line -> +2/high statement: 'être moins généreux sur l'assurance chômage' (Europe 1 2026) and Attal reform revival (Public Sénat Jan 2026).",
+   "trav3: +2/low party_line -> +2/high programme: mandatory 15 hours activity for RSA (Public Sénat 07/01/2026).",
+   "trav4: -2/high kept; source updated from 2019 '39 heures' to Capital 2026 (35 hours removed from Labour Code).",
+   "imm1: +2/medium -> +2/high: LR/JDD interview 31/05/2026 explicitly says 'réduire l'immigration légale' with concrete measures.",
+   "imm2: +2/low (no source) -> +2/high: referendum on immigration pledged (Sud Ouest/AFP Sept 2026; LR May 2026).",
+   "imm3: +2/medium -> +2/high: proposes abolishing the AME (Europe 1 July 2026); AMU switch attested in 2024.",
+   "imm4: record_in_office -> statement, -2/high kept: 2026 quote rejects regularisation including the labour-shortage argument; nuance notes his 2025 circular prioritised the statutory labour-shortage route within exceptional regularisations.",
+   "imm5: +2/low party_line -> +1/medium statement: his own proposal is 5 years' residence and work for foreigners' welfare access, a partial version, not national priority.",
+   "imm6: +2/medium -> +2/high: droit du sol abolition by referendum (Sud Ouest/AFP, Le Monde Sept 2026).",
+   "imm7: -2/medium party_line -> -2/low: no personal evidence found, so confidence lowered.",
+   "sec1: +2/medium kept; source replaced with Europe 1 08/09/2026 'peines minimales'; noted the scope is attacks on police, not explicitly recidivists.",
+   "sec2: +2/medium -> +2/high: now wants criminal majority at 15 (Europe 1 08/09/2026); hardened from 16.",
+   "sec4: -2/medium record_in_office (no source) -> -2/high statement: 'totalement contre' legalisation (Ouest-France, Le Parisien 18/02/2025).",
+   "sec5: +1/low kept; added L'Humanité 2024 source (critical outlet), noted the AI-specific stance is unconfirmed.",
+   "eu1: +1/low -> +1/medium: 'constitutional shield' for French-law primacy in certain situations (Public Sénat 03/09/2026); partial, so +1.",
+   "eu5: +1/low inferred -> +2/medium statement: organic law to set aside European case law against fundamental interests (La Clé Publique 05/09/2026), matching the 'some EU rules' wording.",
+   "eu6: -2/medium party_line -> -2/medium statement: 2026 interview frames influence within a right-leaning Europe; no Frexit.",
+   "eu2/eu3/eu4: null kept after brief searches found nothing personal."
+  ]
+ }
+}

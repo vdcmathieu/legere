@@ -1,0 +1,430 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Programme calls for a new tax effort targeted on very large fortunes, and he backs the Zucman tax. He has not committed to bringing back a broad ISF; within the primary, Ségolène Royal is the one pushing the ISF.",
+   "nuance": "Supports a wealth tax limited to the ultra-rich (Zucman-style), not an ISF-style tax on all large fortunes, so +1. A franceinfo fact-check of the October 2026 primary debate quotes Royal, not Glucksmann, on the ISF."
+  },
+  {
+   "id": "eco2",
+   "summary": "In September 2025 he made the Zucman tax 'the basis of any agreement' with the Lecornu government and kept pushing for it through the 2025 budget fight.",
+   "nuance": "The evidence is from autumn 2025. I found no 2026 campaign statement that repeats the exact 2%/100M design. The PS economic programme of September 2026 includes the Zucman tax. These are Google News links seen in search results; the article bodies could not be opened."
+  },
+  {
+   "id": "eco3",
+   "summary": "No evidence on cutting production taxes or employer contributions. His wage measure is a CSG cut for employees, funded by taxing 'méga-héritiers'.",
+   "nuance": "The programme criticises the 'absence de conditionnement des aides publiques aux entreprises' but says nothing on production taxes. Searches came back empty."
+  },
+  {
+   "id": "eco4",
+   "summary": "Wants 'targeted and intelligent protectionism': stronger trade-defence tools, safeguard clauses for threatened sectors, anti-dumping measures and a Buy European Act, mainly at EU level.",
+   "nuance": "Protection is mostly at European level, through public procurement and trade defence. He does not say he accepts price rises, and national tariffs are not proposed."
+  },
+  {
+   "id": "eco5",
+   "summary": "No evidence on bringing energy or motorways back under public control. The programme backs nuclear and public steering of industrial development, but not nationalisation.",
+   "nuance": "The draft's +1 was inferred without a source. The programme mentions regional funds taking stakes in key firms, but nothing on EDF or motorways. A search found nothing."
+  },
+  {
+   "id": "eco6",
+   "summary": "Wants to raise taxes on 'méga-héritages': top marginal rate from 45% to 50% above EUR 2M, plus a tighter Pacte Dutreil, for about EUR 15bn. He says 99% of inheritances would be unaffected.",
+   "nuance": "Supported by sources of different leans. He does not propose lowering taxes on small inheritances; he only leaves them unchanged."
+  },
+  {
+   "id": "ret1",
+   "summary": "Wants to repeal the 2023 reform and keeps 62 as the 'reference' legal age. He rules out a general return to 60, and the system would be modulated by arduousness: some leave earlier, others later.",
+   "nuance": "He clarified this at the 4 October 2026 debate; until late September he had avoided naming an age. Coded +1, not +2, because 62 is a reference age and he says many would leave later ('Certains doivent partir plus tard, c'est la justice')."
+  },
+  {
+   "id": "ret2",
+   "summary": "Wants to repeal the 64-year reform and sets 62 as the reference age, but says openly that some people will have to work longer to balance the system.",
+   "nuance": "He opposes a general rise of the legal age above 64; 'abroger la réforme Macron de 2023' is in the programme. But he accepts later departures for some groups, partly to balance the system, so 'strongly against' overstates it."
+  },
+  {
+   "id": "ret3",
+   "summary": "His October 2026 pension proposal explicitly excludes capitalisation.",
+   "nuance": "Coded from the headline; the video could not be opened. Entrevue also reports his commitment to the pay-as-you-go system ('système par répartition')."
+  },
+  {
+   "id": "fin1",
+   "summary": "Wants a credible debt-reduction path through targeted savings and new revenue, and rejects funding his measures by 'breaking the social model'. He does not accept large spending cuts.",
+   "nuance": "He does want fiscal consolidation, so this is partial disagreement: he rejects only the 'even at the cost of large spending cuts' part. He does not commit to a 3% date."
+  },
+  {
+   "id": "fin2",
+   "summary": "The programme wants to support and better pay civil servants and index the index point to inflation. It says nothing on headcount.",
+   "nuance": "Inferred: the position on headcount comes from the pay and attractiveness agenda."
+  },
+  {
+   "id": "fin3",
+   "summary": "Wants 'massive' investment in schools, defence, reindustrialisation and the green transition, but while reducing debt and deficits. He says he will not fund wage measures by increasing debt.",
+   "nuance": "Mixed. He accepts strategic public reinvestment ('Nous assumons pleinement un réinvestissement stratégique') but not more national debt. He backs joint EU borrowing (see eu2), not national borrowing."
+  },
+  {
+   "id": "fin4",
+   "summary": "No position found on a constitutional golden rule. Opposition is inferred from his stance in favour of investment.",
+   "nuance": "No evidence either way; a search found nothing. Could reasonably be null."
+  },
+  {
+   "id": "trav1",
+   "summary": "Wants the SMIC at EUR 1,600 net within two years of taking office, roughly +12%, well above expected inflation.",
+   "nuance": "This is a June 2025 programme measure, repeated in September 2026 coverage. It is less ambitious than Faure's or Mélenchon's EUR 1,700, but still clearly faster than inflation."
+  },
+  {
+   "id": "trav2",
+   "summary": "Programme calls for repealing Macron's unemployment-insurance reform as 'unfair and ineffective'.",
+   "nuance": "Programme dated 2025; I found no 2026 statement that changes it."
+  },
+  {
+   "id": "trav3",
+   "summary": "No evidence found on keeping the 15-20 h activity requirement for RSA recipients.",
+   "nuance": "A Google News RSS check ('Glucksmann RSA', 'Glucksmann RSA heures') returned nothing on his own position. Left null."
+  },
+  {
+   "id": "trav4",
+   "summary": "Not a 32-hour advocate: the programme has no reduction of working time and he stresses that some must work longer.",
+   "nuance": "Inferred; a search for 'Glucksmann 32 heures' returned nothing."
+  },
+  {
+   "id": "imm1",
+   "summary": "Rejects 'zero immigration' as economically ruinous. Wants to repeal the 2024 immigration law, generalise multi-year permits and open legal work-migration routes matched to economic needs.",
+   "nuance": "In 2026 he talks of 'régulation réaliste et cohérente' and proposed a citizens' convention on immigration (May 2026). That signals a more cautious tone, but not support for sharp cuts."
+  },
+  {
+   "id": "imm2",
+   "summary": "He proposes a citizens' convention on immigration, not a referendum. No explicit statement against a referendum was found.",
+   "nuance": "His programme generally favours citizen-initiated referendums, so opposition to an immigration referendum is not certain. Seen as a search result; the article could not be opened."
+  },
+  {
+   "id": "imm3",
+   "summary": "No personal statement on the AME was found. The left, PS included, defends the AME, and his programme stresses newcomers' access to rights, health included.",
+   "nuance": "Party line only; a search found nothing."
+  },
+  {
+   "id": "imm4",
+   "summary": "Programme calls for making it easier to regularise undocumented workers, and for allowing asylum seekers to work.",
+   "nuance": "Broader than shortage occupations, so it includes the statement. Programme dated 2025."
+  },
+  {
+   "id": "imm5",
+   "summary": "Opposes national-preference measures in line with the left. The programme's anti-discrimination stance points the same way, but I found no specific statement.",
+   "nuance": "Verify. Probably stronger than -1, but no personal source was found."
+  },
+  {
+   "id": "imm6",
+   "summary": "Opposes abolishing droit du sol (left party line).",
+   "nuance": "No personal statement found."
+  },
+  {
+   "id": "imm7",
+   "summary": "Programme calls for giving non-EU foreigners the vote in local elections, and lowering the voting age to 16.",
+   "nuance": "This is in his own party's programme, not only the PS line. I found no 2026 restatement."
+  },
+  {
+   "id": "sec1",
+   "summary": "Left opposes peines planchers. His programme stresses local justice, mediation and community service, with no mandatory minimums.",
+   "nuance": "No personal statement found; party line."
+  },
+  {
+   "id": "sec2",
+   "summary": "Probable opposition, in line with the left; no personal statement.",
+   "nuance": "Not addressed in the programme."
+  },
+  {
+   "id": "sec3",
+   "summary": "The left generally supports independent oversight of the police. His programme only commits to reviewing France's public-order policing doctrine.",
+   "nuance": "The programme says nothing about replacing or making the IGPN independent."
+  },
+  {
+   "id": "sec4",
+   "summary": "Gives no position on legalisation and defers it to a citizens' convention on drug policy, 'notamment la question de la légalisation du cannabis'.",
+   "nuance": "Coded 0 because he states explicitly that he defers the question."
+  },
+  {
+   "id": "sec5",
+   "summary": "No evidence on AI-assisted video surveillance in public spaces.",
+   "nuance": "The draft's 'vote' coding had no source. On howtheyvote.eu, the AI Act final vote (13 March 2024) does not list Glucksmann's individual vote. Even if he voted yes, the AI Act limits biometric identification rather than deciding on French public-space surveillance. A search found nothing."
+  },
+  {
+   "id": "eu1",
+   "summary": "Federalist pro-European. His programme calls for a new EU 'reunification' treaty, a much bigger EU budget and qualified-majority voting, which cannot be squared with French law prevailing over EU law.",
+   "nuance": "No explicit statement on legal primacy was found, so this is inferred. The direction is very likely."
+  },
+  {
+   "id": "eu2",
+   "summary": "Programme calls for a EUR 500bn European defence fund financed by joint EU borrowing, reserved for European production. In 2024 he campaigned on a EUR 100bn fund financed by a European loan.",
+   "nuance": "Consistent from 2024 to 2026."
+  },
+  {
+   "id": "eu3",
+   "summary": "Programme calls for 'massively' increasing the EU budget and giving the EU new own resources.",
+   "nuance": "New own resources could change how France pays in, but the direction is clearly against reducing the EU budget."
+  },
+  {
+   "id": "eu4",
+   "summary": "Programme calls for a treaty moving the European Council to qualified-majority voting.",
+   "nuance": "A general move to QMV, which covers foreign policy, but foreign policy is not named specifically."
+  },
+  {
+   "id": "eu5",
+   "summary": "Strongly pro-EU and federalist; refusing to apply EU rules contradicts his whole European project.",
+   "nuance": "No explicit statement found; inferred from his federalist programme."
+  },
+  {
+   "id": "eu6",
+   "summary": "His whole programme is built on 'Une France puissante grâce à une Europe souveraine'. He firmly rejects leaving the EU.",
+   "nuance": "MEP and leader of a pro-European list since 2019."
+  },
+  {
+   "id": "int1",
+   "summary": "Place publique's 2025 programme, co-signed by Glucksmann, calls for a drastic increase in military aid to Ukraine. That fits his 2024 call for a war-economy posture.",
+   "nuance": "The programme is dated June 2025 and Glucksmann is co-director of the publication. I found no sign that he changed this position before October 2026."
+  },
+  {
+   "id": "int2",
+   "summary": "No verified evidence on sending French troops to guarantee a ceasefire.",
+   "nuance": "The 2025 programme covers aid, a European defence fund and extending nuclear deterrence, but says nothing about a reassurance force. Web search was exhausted, so I could not check 2025-2026 interviews. Do not infer a position."
+  },
+  {
+   "id": "int3",
+   "summary": "In 2019 he said France must stay in NATO. Nothing found on the integrated military command specifically.",
+   "nuance": "Staying in NATO is a different question from staying in its integrated command. The 2025 programme does not mention NATO and stresses European defence instead. The only source is an old statement relayed second-hand."
+  },
+  {
+   "id": "int4",
+   "summary": "Place publique (August 2026) calls for suspending the EU-Israel association agreement.",
+   "nuance": "This is a party communiqué from Glucksmann's party, which he co-chairs, not a verified personal statement. It justifies suspension mainly by West Bank colonisation and international law, not only by the conduct of the Gaza war. He has also refused to call Gaza a 'genocide' (2024)."
+  },
+  {
+   "id": "int5",
+   "summary": "No national target as a share of GDP found. The programme proposes a 500 bn EUR European defence fund financed by joint borrowing.",
+   "nuance": "His hawkish line on defence makes support likely, but there is no evidence on the wording '>3% of GDP', so it is not coded."
+  },
+  {
+   "id": "int6",
+   "summary": "The programme wants to recreate a universal republican rite of passage at majority to replace military service. It does not say it would be compulsory or military.",
+   "nuance": "'Universal' points towards something for everyone, close to a national service. Whether it would be compulsory, and what it would contain, is not specified, so this is a weaker version of the statement."
+  },
+  {
+   "id": "int7",
+   "summary": "Wants an immediate ban on Russian gas imports. Nothing found specifically on lifting sanctions in exchange for a peace deal.",
+   "nuance": "Inferred from a consistently hawkish stance on Russia, hence low confidence."
+  },
+  {
+   "id": "ecol1",
+   "summary": "No evidence found on low-emission zones (ZFE).",
+   "nuance": "The 2025 programme does not mention ZFE. Web search was exhausted."
+  },
+  {
+   "id": "ecol2",
+   "summary": "The programme wants to ban the most harmful pesticides, including glyphosate and neonicotinoids, and to impose mirror clauses on imports.",
+   "nuance": "The EU has authorised glyphosate until 2033, so a French ban means banning what competitors use. The programme pairs the ban with 'mesures miroirs' to shield farmers from imports that do not meet the same standards, and does not use the 'even if competitors' framing explicitly."
+  },
+  {
+   "id": "ecol3",
+   "summary": "No explicit evidence on the 2035 end of combustion-car sales.",
+   "nuance": "The programme backs small affordable electric cars, social leasing and 100%-electric fleets for large companies. That suggests support, but the 2035 deadline is not mentioned and his position on the 2025-26 EU revision is unverified."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Wants to end the VAT and kerosene-tax exemptions, extend the ban on domestic flights and tax private jets.",
+   "nuance": "Covers all three items in the statement."
+  },
+  {
+   "id": "ecol5",
+   "summary": "No evidence on ranking climate above economic growth.",
+   "nuance": "The programme frames ecology as compatible with 'puissance' and industrial growth and never states a trade-off."
+  },
+  {
+   "id": "ene1",
+   "summary": "Wants to strengthen nuclear's role, including building new units on time. It does not commit beyond the six planned EPR2.",
+   "nuance": "Supports a weaker version: new reactors yes, but how many is unspecified, and 'à temps' points to the programme already planned."
+  },
+  {
+   "id": "ene2",
+   "summary": "Opposes phasing out nuclear: the programme wants to strengthen nuclear's role, and in 2024 he said exiting cannot be an objective.",
+   "nuance": "In 2024 he avoided a firm line. By 2025 the programme clearly supports nuclear."
+  },
+  {
+   "id": "ene3",
+   "summary": "Wants a large multi-year investment plan in all renewables, wind included.",
+   "nuance": "Halting wind development is not addressed directly, but it contradicts the stated plan."
+  },
+  {
+   "id": "ene4",
+   "summary": "Wants part of electricity bills based on French production costs instead of the volatile market price. Leaving the European market is not proposed.",
+   "nuance": "He shares the goal of cost-based prices but proposes doing it within the EU framework; his pro-European federalist line makes exiting the market unlikely. Inferred, hence low confidence."
+  },
+  {
+   "id": "ins1",
+   "summary": "Wants a more parliamentary regime (PM invested by the Assembly, constructive censure) and a citizens' convention laying the basis of a constituent assembly to change the Constitution.",
+   "nuance": "The programme does not use the label 'VIe République', but the substance (a new constitution, a parliamentary shift) matches the statement."
+  },
+  {
+   "id": "ins2",
+   "summary": "Wants proportional representation introduced immediately, preferably with regional constituencies.",
+   "nuance": ""
+  },
+  {
+   "id": "ins3",
+   "summary": "Wants a citizens' initiative right that can trigger local and national referendums.",
+   "nuance": "The programme does not call it a 'RIC' and leaves the design vague ('séquences démocratiques'), so this is coded as a partial version."
+  },
+  {
+   "id": "ins4",
+   "summary": "Wants a constructive vote of no confidence that would end Article 49.3.",
+   "nuance": ""
+  },
+  {
+   "id": "ins5",
+   "summary": "No evidence on widening referendums to immigration or justice.",
+   "nuance": "Not addressed in the 2025 programme. Web search was exhausted."
+  },
+  {
+   "id": "soc1",
+   "summary": "No explicit statement found on keeping or repealing the 2026 assisted-dying law.",
+   "nuance": "The only items found are a March 2024 TV segment (Quotidien) where he spoke movingly about his parents' end of life (Toutelatele, Gala). The headlines do not state a policy position, and nothing dated after the law's July 2026 adoption was found. As an MEP he did not vote on the national law. Left null. The PS group pushed the law through (Libération, Feb 2026), so a rerun should look for a direct quote."
+  },
+  {
+   "id": "soc2",
+   "summary": "No evidence found.",
+   "nuance": "Not addressed in the programme. Web search was exhausted."
+  },
+  {
+   "id": "soc3",
+   "summary": "No evidence found on banning religious symbols for parents on school trips.",
+   "nuance": "Search returned only a 2020 Le Monde interview on Islamist fundamentalism and general 2019-2020 coverage of the debate, with no Glucksmann position on accompanying parents. A Sept 2026 item covers Olivier Faure's line on the veil at school, but that is not Glucksmann's view. Left null."
+  },
+  {
+   "id": "soc4",
+   "summary": "The programme 'firmly defends' laïcité as liberty of conscience plus an emancipation principle. It neither proposes nor rejects new restrictions on citizens.",
+   "nuance": "Too ambiguous to code on the statement's 'without further restricting' clause."
+  },
+  {
+   "id": "soc5",
+   "summary": "No evidence found on surrogacy (GPA).",
+   "nuance": "Not addressed in the programme. Web search was exhausted."
+  },
+  {
+   "id": "edu1",
+   "summary": "No evidence found on school uniforms.",
+   "nuance": "Not addressed in the programme."
+  },
+  {
+   "id": "edu2",
+   "summary": "Wants fewer pupils per teacher in primary school and a trial in secondary, plus a pay rise for all teachers over 5 years.",
+   "nuance": "A weaker version: there is no 'massive' hiring commitment, and secondary school would only get a trial."
+  },
+  {
+   "id": "edu3",
+   "summary": "No evidence found on ability grouping.",
+   "nuance": "Not addressed in the programme."
+  },
+  {
+   "id": "edu4",
+   "summary": "Wants state-contracted private schools brought into the school catchment map (carte scolaire) to improve social mix. Cutting their funding is not mentioned.",
+   "nuance": "Shares the goal (social mix) through a different tool; no funding sanction is proposed."
+  },
+  {
+   "id": "edu5",
+   "summary": "No evidence found on ending selection at university entry.",
+   "nuance": "The 'Glucksmann Parcoursup' search returned coverage of the October 2026 PS primary debates (e.g. 'colère lycéenne', a pledge of a single education minister), but nothing on abolishing selection. The October 2026 debates might hold relevant material, so a rerun is worth it. Left null."
+  },
+  {
+   "id": "san1",
+   "summary": "The programme only says it wants to 'support' doctors setting up in practice. It mentions no obligation and does not reject one.",
+   "nuance": "The wording suggests incentives, but it is not explicit enough to code."
+  },
+  {
+   "id": "san2",
+   "summary": "Place publique strongly opposes the July 2026 government plan to double medical franchises, calling it unjust and ineffective.",
+   "nuance": "This is a party communiqué, not a verified personal statement by Glucksmann (party co-chair)."
+  },
+  {
+   "id": "san3",
+   "summary": "Wants rent caps in high-pressure housing areas.",
+   "nuance": "'Zones en grande tension' corresponds closely to the statement's 'areas with housing shortages'."
+  },
+  {
+   "id": "san4",
+   "summary": "Wants to reverse 'the dogma of free and undistorted competition' and end competition between public administrations and the private sector.",
+   "nuance": "Clear opposition to more competition in general, but nothing specific on liberalising transport or energy, hence -1."
+  },
+  {
+   "id": "eco7",
+   "summary": "No evidence found on a 'TVA sociale' (raising VAT to cut wage contributions).",
+   "nuance": "Verifier ran a brief Google News RSS check and found no item tying Glucksmann to a TVA sociale. His 2026 statements reject VAT cuts on fuel (see ene5) and favour taxing superprofits and the ultra-rich, which says nothing direct about a VAT-for-contributions swap. Left null."
+  },
+  {
+   "id": "imm8",
+   "summary": "No evidence found on making naturalisation easier.",
+   "nuance": "A Google News RSS check ('Glucksmann naturalisation') returned only unrelated items. Left null."
+  },
+  {
+   "id": "sec6",
+   "summary": "No evidence found on receipts for identity checks.",
+   "nuance": "A Google News RSS check ('Glucksmann récépissé contrôle') returned no items. Left null."
+  },
+  {
+   "id": "eu7",
+   "summary": "He has long called for a common European defence financed jointly: a 100 bn euro defence fund through new EU borrowing (2024) and a 500 bn euro common European loan (March 2025). No source we could check says he accepts a European army or a loss of French military autonomy.",
+   "nuance": "Support for the core of the statement (common defence, pooled funding and procurement) is clear and has been consistent from 2024 to 2025. The statement also asks for acceptance of a European army and a loss of French military autonomy. That part is not confirmed: the 'armée européenne' search returned no Glucksmann statement on it. Coded +1 instead of +2. Article bodies could not be opened because the Google News links are behind a consent and decoding wall, so the quotes are the headlines. Place publique describes itself as European federalist, which suggests +2 is possible, but that is the party line."
+  },
+  {
+   "id": "eu8",
+   "summary": "Supports bringing Ukraine into the EU, according to a secondary summary. He is one of the most consistently pro-Ukraine figures on the French left.",
+   "nuance": "The Wikipedia wording was re-opened and confirmed. Searches turned up no dated 2025-2026 primary quote on EU accession specifically. The 2024 coverage (l'Opinion, Mar 2024: 'adhésions floues et lignes claires') suggests nuances inside the PS-PP camp that could not be read. The strong pro-Ukraine record makes +2 plausible, but the evidence is secondary, so confidence stays low. A primary 2025-2026 quote is needed."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No direct evidence found on guaranteed minimum (floor) prices for farmers.",
+   "nuance": "Search found Sept 2026 coverage ('À la foire de Châlons-en-Champagne, Raphaël Glucksmann place les agriculteurs au cœur de son programme', ici.fr) and a 2024 Public Sénat comparison of farm programmes. None of the visible text mentions prix planchers, and the articles could not be opened. Left null, but this item is a good candidate for a rerun with full article access."
+  },
+  {
+   "id": "ene5",
+   "summary": "Opposes cutting taxes on fuel. In April 2026 he called the RN's proposal to cut VAT a road to 'la faillite du pays'. In October 2026 he refused a cut in petrol taxes and argued for taxing oil companies' 'war profits' instead.",
+   "nuance": "The statement is close to the RN's 5.5% energy VAT proposal, which he explicitly attacked. The rejection is clear for fuel and for the RN VAT cut in general. Nothing specific was found on electricity or gas VAT. Boursorama (Sept 2026) reports he asked for 'much more substantial' targeted fuel aid, so he opposes the tax-cut route rather than relief altogether. The quotes are headlines because the article bodies could not be opened (Google News consent and decoding wall)."
+  },
+  {
+   "id": "ins6",
+   "summary": "No statement by Glucksmann found on privatising public broadcasting.",
+   "nuance": "The Google News RSS check returned the 2026 Alloncle commission controversy and the left's general defence of public broadcasting, but no Glucksmann quote. His camp almost certainly opposes privatisation, but coding it would be inference from the party line. Left null."
+  },
+  {
+   "id": "soc6",
+   "summary": "No evidence found on banning religious symbols at university.",
+   "nuance": "Brief search found nothing. Left null."
+  },
+  {
+   "id": "san5",
+   "summary": "No evidence found on loosening building rules or the ZAN target.",
+   "nuance": "Brief search found nothing specific. Left null."
+  }
+ ],
+ "record": {
+  "bio": "Raphaël Glucksmann (born 15 October 1979) is a French essayist, documentary filmmaker and politician, son of philosopher André Glucksmann. He co-founded Place publique in 2018 and has been a Member of the European Parliament (S&D group) since 2 July 2019, leading the PS-Place publique list in 2019 (6.2%) and 2024 (13.83%, third place). He has co-led Place publique with Aurore Lalucq since December 2022. On 23 August 2026, on TF1's evening news, he announced his candidacy for the 2027 presidential election through the joint PS-Place publique primary held in October 2026.",
+  "offices": [
+   "Member of the European Parliament (France; S&D group)",
+   "Chair of the European Parliament Special Committee on Foreign Interference in all Democratic Processes (INGE)",
+   "Co-president of Place publique (with Aurore Lalucq)",
+   "Special adviser to Georgian President Mikheil Saakashvili"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Human-rights work on China in the European Parliament (Xinjiang, forced labour in supply chains), which led China to sanction him in 2021 (Wikipedia reports the sanctions were lifted in April 2025, when China lifted sanctions on sitting MEPs); led a seven-MEP delegation to Taiwan in November 2021.",
+    "assessment": "Documented on Wikipedia; the April 2025 lifting of sanctions on MEPs is confirmed by press reports, but none of the snippets seen names Glucksmann individually. No multi-lean assessment of impact could be gathered."
+   },
+   {
+    "what": "Chaired the European Parliament special committee on foreign interference (elected chair 23 September 2020); proposed a EUR 100bn European defence fund in the 2024 campaign.",
+    "assessment": "Chairmanship confirmed by French and English Wikipedia; legislative outcomes and a balanced assessment were not verified. The EUR 100bn proposal is taken from the original draft and was not re-verified."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
+   "right_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
+   "neutral_media": "Not systematically researched. Recent coverage across outlets (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) reported two episodes: a campaign memo on 'target audiences' leaked by Politico on 12 May 2026, which he called stolen and of no political value, and a video recorded on 17 September 2026 and released by Le Média on 2 October, in which he insulted Mélenchon and Le Pen and said Ségolène Royal had done 'la danse du ventre' for Macron; he apologised to Royal for 'inelegant' remarks during the 4 October primary debate."
+  }
+ }
+}

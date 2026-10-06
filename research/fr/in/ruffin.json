@@ -1,0 +1,434 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Supports bringing back a wealth tax. In October 2025 he complained that a return of the ISF had been ruled out, and he voted for reinstating the ISF in 2022.",
+   "nuance": "He calls the Zucman tax an addition to 'l'imposition du patrimoine'. No exact ISF design (whether it covers financial assets) appears in the 2026 programme pages checked."
+  },
+  {
+   "id": "eco2",
+   "summary": "Explicitly backs the 2% Zucman tax on the largest fortunes, which he calls 'un bon outil'.",
+   "nuance": "He presents it as 'un moyen parmi d'autres' and wants 15-20 billion euros raised from billionaires."
+  },
+  {
+   "id": "eco3",
+   "summary": "Mocks 'baisse des charges' as the business-friendly line of Macron and Bardella. His programme rejects reindustrialisation through 'cadeaux fiscaux'.",
+   "nuance": "No explicit proposal on production taxes or employer contributions was found. In the past he favoured making exemptions conditional, not abolishing them, so the code stays at -1."
+  },
+  {
+   "id": "eco4",
+   "summary": "Calls himself and Debout! protectionist. The programme blocks farm imports priced below guaranteed floor prices, and he backed 50-80% tariffs to save the Eurolysine plant.",
+   "nuance": "His protectionism is targeted: about 100 strategic products, not tariffs on everything. That matches the statement's 'some sectors'."
+  },
+  {
+   "id": "eco5",
+   "summary": "The programme ends motorway concessions in favour of public pricing and moves gradually to 100% public electricity production through EDF. He also voted to nationalise ArcelorMittal France.",
+   "nuance": "He also endorses ending competition in retail electricity sales."
+  },
+  {
+   "id": "eco6",
+   "summary": "Wants heavier taxation of large inheritances, which is the opposite of the statement.",
+   "nuance": "He targets large transmissions. No position was found on small or middle-sized estates."
+  },
+  {
+   "id": "ret1",
+   "summary": "The text by his programme director and spokesperson cites 'la retraite à 60 ans' as a flagship measure. He demands abrogation of the 64 reform and voted to suspend it.",
+   "nuance": "The '60 ans' line comes from his programme director's introduction, presented as common NFP heritage. The programme body also stresses earlier retirement for arduous jobs."
+  },
+  {
+   "id": "ret2",
+   "summary": "Calls for the 64 reform to be abrogated, so he clearly opposes going beyond 64.",
+   "nuance": ""
+  },
+  {
+   "id": "ret3",
+   "summary": "His own video is titled 'La retraite par capitalisation : c'est non !'.",
+   "nuance": "Video title checked through YouTube metadata. The transcript was not reviewed."
+  },
+  {
+   "id": "fin1",
+   "summary": "Rejects deficit reduction through spending cuts and says ordinary people have already paid. He wants revenue from the very rich instead.",
+   "nuance": "He does not dismiss deficits, and he criticises Le Maire's 'déficit géant'. He strongly rejects the 'large spending cuts' route."
+  },
+  {
+   "id": "fin2",
+   "summary": "Wants hospitals, schools, justice and police strengthened, describing them as starved public services. This contradicts cutting civil-servant numbers.",
+   "nuance": "No explicit headcount target was found."
+  },
+  {
+   "id": "fin3",
+   "summary": "The manifesto wants future-oriented investment excluded from deficit rules and a large European investment plan. This amounts to accepting debt-financed green investment.",
+   "nuance": "He mainly pairs spending with new taxes on the very rich, and he does not openly call for 'more debt'. Hence +1, not +2."
+  },
+  {
+   "id": "fin4",
+   "summary": "Wants to loosen deficit rules for investment, which is incompatible with a constitutional golden rule. He also says EU budgetary criteria 'limitent l'investissement'.",
+   "nuance": "No statement found on a constitutional golden rule as such. The code rests on his explicit opposition to binding deficit rules."
+  },
+  {
+   "id": "trav1",
+   "summary": "Proposes a net SMIC of 1,700 euros (about +19%) and indexing wages on inflation.",
+   "nuance": "The programme director's text cites 'SMIC à 1 600€', while press reports of the Lyon launch say 1,700 euros net. Either is well above inflation."
+  },
+  {
+   "id": "trav2",
+   "summary": "Voted against the June 2026 law transposing the unemployment-insurance amendment. He argues the problem is bad jobs, not idle workers.",
+   "nuance": "The datan page does not say whether the amendment cut benefit length or amount. The vote shows opposition, but the link to the statement is not confirmed."
+  },
+  {
+   "id": "trav3",
+   "summary": "Voted against the 2023 'plein emploi' bill, which created the 15-20 hour activity requirement for RSA recipients.",
+   "nuance": "Opposition to the law that introduced the obligation. No promise to abolish it was found, so -1 and not -2. His 2027 campaign notebooks do not mention the RSA."
+  },
+  {
+   "id": "trav4",
+   "summary": "No personal 32-hour proposal found. His 2026 programme stresses 'temps libéré' and job quality but sets no general cut in weekly hours.",
+   "nuance": "The NFP 2024 programme he backed included working-time reduction for arduous jobs; recalled from memory, not re-verified. The 2026 Nous Président pages checked do not mention 32 hours. Could be null."
+  },
+  {
+   "id": "imm1",
+   "summary": "Firmly opposes new labour immigration ('nous refusons une immigration de travailleurs'). He does not call for cutting family reunification or students, and he supports regularising people already here.",
+   "nuance": "Mixed: he is restrictive on one channel (work) and supports regularisation and asylum. In 2023 he voted against the immigration law that tightened family reunification."
+  },
+  {
+   "id": "imm2",
+   "summary": "No evidence found.",
+   "nuance": "His programme proposes referendums on ecological measures from the Convention citoyenne pour le climat (nouspresident.fr/travaillisme-ecologique). None on immigration was found."
+  },
+  {
+   "id": "imm3",
+   "summary": "Denounced the 2023 immigration law's attempt to limit care for foreigners and voted against it. This means he defends AME.",
+   "nuance": "2023 source, as no 2025-26 statement on AME was found. The quote is a general attack on restricting care for foreigners and does not name AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "Explicitly supports regularising undocumented people already in France, for humanitarian reasons and for 'production'. He wants all residents able to work.",
+   "nuance": "He backs broader regularisation, not only in shortage occupations, while refusing new labour immigration."
+  },
+  {
+   "id": "imm5",
+   "summary": "Attacked the 2023 law for taking housing benefit (APL) away from foreign families, and voted against its benefit-waiting periods.",
+   "nuance": "2023 source. His 2025 programme stresses equal treatment 'qu'importe leur territoire, leur couleur de peau, leur religion'."
+  },
+  {
+   "id": "imm6",
+   "summary": "Denounced the 2023 immigration law because 'des principes, comme le droit du sol' were 'attaqués'.",
+   "nuance": "2023 source; no newer statement found."
+  },
+  {
+   "id": "imm7",
+   "summary": "His group and his former party line support local voting rights for non-EU residents. No personal statement found.",
+   "nuance": "Unverified personally. The ECOS group's support is reported only by an aggregator, not checked against a roll-call."
+  },
+  {
+   "id": "sec1",
+   "summary": "Left/ECOS line opposes mandatory minimum sentences. He voted against the July 2026 criminal-justice bill, though its contents were not checked.",
+   "nuance": "Whether that bill contained peines planchers was not confirmed. No personal statement on minimum sentences was found."
+  },
+  {
+   "id": "sec2",
+   "summary": "Likely opposed to dropping juvenile-justice specificity.",
+   "nuance": "Unverified. His vote on the 2025 Attal juvenile-justice law was not found on datan."
+  },
+  {
+   "id": "sec3",
+   "summary": "Left line supports independent police oversight. He voted against the 2026 bill creating a self-defence presumption for police and against the 2020 'sécurité globale' law.",
+   "nuance": "No personal statement on an independent oversight body was found. The cited votes are adjacent evidence only."
+  },
+  {
+   "id": "sec4",
+   "summary": "His former LFI party line supports regulated legalisation. His personal 2025-26 stance is not verified.",
+   "nuance": "An aggregator says he co-signed the 2021 LFI legalisation bill. Neither nosdeputes nor the Assemblée page could be retrieved to confirm."
+  },
+  {
+   "id": "sec5",
+   "summary": "Voted against the 2023 Olympics law, whose most contested measure was the trial of algorithmic (AI) video surveillance.",
+   "nuance": "Vote on the whole bill in 2023. No standalone 2025-26 statement on AI video surveillance was found."
+  },
+  {
+   "id": "eu1",
+   "summary": "Debout!'s manifesto commits to disobeying EU treaties when they conflict with its commitments. This is close to, but narrower than, a general primacy of French law.",
+   "nuance": "A selective disobedience strategy, not a constitutional rule of French-law primacy, hence +1."
+  },
+  {
+   "id": "eu2",
+   "summary": "Supports a 'grand plan d'investissement européen' and welcomed the EU loosening its purse strings after Covid. He opposes handing defence-industry policy to the Commission.",
+   "nuance": "Supports EU investment for climate and industry. Rejects Commission-led defence ('sûrement pas par le biais de la Commission'), which cuts against the defence part of the statement. Joint borrowing is never named explicitly."
+  },
+  {
+   "id": "eu3",
+   "summary": "No evidence found.",
+   "nuance": "Searched his EU op-ed, manifesto and programme pages; nothing on France's EU budget contribution."
+  },
+  {
+   "id": "eu4",
+   "summary": "Explicitly opposes moving EU foreign policy to qualified-majority voting and says diplomacy and defence must stay with the states.",
+   "nuance": "He is answering von der Leyen's proposal to escape 'le carcan de l'unanimité'."
+  },
+  {
+   "id": "eu5",
+   "summary": "The Debout! manifesto commits to disobeying EU treaties that block its programme. The farm plan accepts a 'rapport de force avec la Commission'.",
+   "nuance": ""
+  },
+  {
+   "id": "eu6",
+   "summary": "Wants France to be 'la locomotive d'une indépendance européenne' and to seek allies inside the EU. No exit proposal.",
+   "nuance": "He is strongly critical of the EU's free-trade core and favours treaty disobedience, but he works within the EU, not for Frexit."
+  },
+  {
+   "id": "int1",
+   "summary": "Mixed record. On 12 March 2025 he abstained on the European resolution to step up support for Ukraine, breaking with his ECOS group, which voted for it. On 12 March 2024, while still in LFI, he voted against the government's Ukraine aid strategy. In 2022 he said arms deliveries had stopped the Russian army, but he pushed for negotiations.",
+   "nuance": "He did not oppose aid outright, but his 2025 abstention against his own group's line and his 2024 vote against make 'strongly for' wrong. I found no 2026 statement about the level of aid."
+  },
+  {
+   "id": "int2",
+   "summary": "No evidence found.",
+   "nuance": "WebSearch budget exhausted. His own site (searched for Ukraine, troupes, défense) has no statement on sending troops."
+  },
+  {
+   "id": "int3",
+   "summary": "No evidence found.",
+   "nuance": "His site shows no post on leaving NATO's integrated command. In 2025 he denounced European 'vassalité' towards the US, which is too generic to code."
+  },
+  {
+   "id": "int4",
+   "summary": "He has repeatedly called for suspending or challenging the EU-Israel association agreement over Gaza: in November 2023, in January 2024 and again in December 2024.",
+   "nuance": "The most recent explicit call is from December 2024. In 2025 he kept criticising Israel's conduct of the war (letter of 23 June 2025). I could not search for corroboration from an outlet of a different lean, so confidence is medium."
+  },
+  {
+   "id": "int5",
+   "summary": "No evidence found.",
+   "nuance": "He voted against the 2024-2030 military programming law in 2023, while in LFI. That vote does not speak to a 3% of GDP target, so it is not coded."
+  },
+  {
+   "id": "int6",
+   "summary": "No evidence found.",
+   "nuance": "A search of his site returned nothing on compulsory military or national service."
+  },
+  {
+   "id": "int7",
+   "summary": "No evidence found on lifting sanctions in exchange for a peace deal.",
+   "nuance": "In 2022 he wrote that 'nos peuples souffrent' from the sanctions and urged negotiations. He never proposed lifting the sanctions as part of a deal, so this is not coded."
+  },
+  {
+   "id": "ecol1",
+   "summary": "No evidence found.",
+   "nuance": "A search of his site for ZFE and 'zones à faibles émissions' returned no relevant post."
+  },
+  {
+   "id": "ecol2",
+   "summary": "He voted against the Duplomb law on 8 July 2025 and against the 2026 emergency farm law that reauthorised acetamiprid. Both pesticides at stake are banned in France but still used elsewhere in the EU. In 2018 he voted for banning glyphosate.",
+   "nuance": "He pairs national bans with protectionism against imports that do not meet French standards (Mercosur), so he does not accept unilateral exposure to foreign competition. Both votes followed his group's line."
+  },
+  {
+   "id": "ecol3",
+   "summary": "No evidence found.",
+   "nuance": "No statement found on the 2035 end of combustion-engine car sales."
+  },
+  {
+   "id": "ecol4",
+   "summary": "He wants air traffic reduced. He tabled a bill banning flights where a train is available and proposed individual carbon quotas, with private jets 'de ce fait prohibés'. He explicitly prefers quotas and bans to taxes.",
+   "nuance": "Both sources are old (2019-2020) and I found nothing newer. He supports curbing air travel more than taxing it, so this is coded +1, not +2."
+  },
+  {
+   "id": "ecol5",
+   "summary": "No evidence found.",
+   "nuance": "He opposes productivism and calls for a social-ecological junction, but I found no explicit trade-off statement."
+  },
+  {
+   "id": "ene1",
+   "summary": "On 21 March 2023, while in LFI, he voted against the law accelerating the construction of new nuclear reactors. In 2024 he also voted against the nuclear-safety governance bill.",
+   "nuance": "These are group-line votes from 2023, before he left LFI. I found no 2025-2026 statement from him on new reactors, hence the low confidence."
+  },
+  {
+   "id": "ene2",
+   "summary": "No evidence found.",
+   "nuance": "I found no explicit position on phasing out nuclear power. The 2023 vote against speeding up construction does not establish support for a phase-out."
+  },
+  {
+   "id": "ene3",
+   "summary": "No evidence found.",
+   "nuance": "On 24 June 2025 he voted against the Gremillet energy programming bill (PPE), which had been amended in the Assembly. Its provisions are not visible on the vote page, so it is not used."
+  },
+  {
+   "id": "ene4",
+   "summary": "No evidence found.",
+   "nuance": "No statement found on leaving the European electricity market."
+  },
+  {
+   "id": "ins1",
+   "summary": "No evidence found.",
+   "nuance": "A search of his site for 'VIe République' and Constitution returned no position on a new constitution. LFI's line should not be attributed to him since he left the party."
+  },
+  {
+   "id": "ins2",
+   "summary": "In June 2025 he wrote that he agreed with Édouard Philippe that proportional representation is useless.",
+   "nuance": "This is a reversal. On 6 May 2021, with LFI, he voted for a bill introducing full proportional representation (Datan, legislature 15). The current position is a one-line remark, so it is coded -1, not -2."
+  },
+  {
+   "id": "ins3",
+   "summary": "He supports a citizens' initiative referendum (RIC). In May 2023 he called on people to sign a petition for it.",
+   "nuance": "The source is secondary and dates from 2023. I found no 2025-2026 restatement."
+  },
+  {
+   "id": "ins4",
+   "summary": "He has repeatedly attacked governments' use of Article 49.3 and voted for the motions of censure that followed it. I found no explicit proposal to abolish the article.",
+   "nuance": "He criticises how the article is used but has not proposed reforming it, so this is coded +1 with low confidence. The source is from 2022."
+  },
+  {
+   "id": "ins5",
+   "summary": "No evidence found.",
+   "nuance": "I found no position on widening referendums to immigration or justice."
+  },
+  {
+   "id": "soc1",
+   "summary": "Voted for the assisted-dying law at the final reading on 15 July 2026, and also at first reading (May 2025) and in February 2026.",
+   "nuance": "He voted for the law at every stage. No statement on keeping it after promulgation was found, but having voted for the final text strongly implies he would keep it."
+  },
+  {
+   "id": "soc2",
+   "summary": "He opposes new headscarf bans. He criticised Bardella's call to ban the veil in public buildings and defends veiled mothers on school trips.",
+   "nuance": "He opposes even narrower bans, so opposition to a ban across all public space follows. I found no quote on a full public-space ban specifically."
+  },
+  {
+   "id": "soc3",
+   "summary": "In 2025 he explicitly argued against banning the veil for mothers who accompany school trips, saying the 2004 law covers the school only.",
+   "nuance": "He framed the push for such bans as a betrayal of the 1905 law ('Ils la bafouent'). The position comes from a 2025 article, not from the 2027 programme."
+  },
+  {
+   "id": "soc4",
+   "summary": "He describes secularism as freedom of religion, with neutrality required of public agents only, and argues that the existing 1905 law is enough.",
+   "nuance": "He calls for enforcing article 31 of the 1905 law against religious pressure rather than passing new restrictions."
+  },
+  {
+   "id": "soc5",
+   "summary": "No evidence found.",
+   "nuance": "A search of his site for GPA returned nothing."
+  },
+  {
+   "id": "edu1",
+   "summary": "No evidence found.",
+   "nuance": "No statement found on school uniforms."
+  },
+  {
+   "id": "edu2",
+   "summary": "No evidence found.",
+   "nuance": "He complains about unreplaced teachers, but I found no explicit plan to hire on a large scale or cut class sizes."
+  },
+  {
+   "id": "edu3",
+   "summary": "No evidence found.",
+   "nuance": "No statement found on grouping pupils by level."
+  },
+  {
+   "id": "edu4",
+   "summary": "No evidence found.",
+   "nuance": "In January 2024 he attacked the Stanislas school as a site of 'reproduction sociale', but he did not mention funding conditions."
+  },
+  {
+   "id": "edu5",
+   "summary": "No evidence found on ending selection at university entry.",
+   "nuance": "Not coded. A search of his site for 'Parcoursup' returned only a 2019 call to protest, with no position on selection."
+  },
+  {
+   "id": "san1",
+   "summary": "On 14 June 2023 he voted for Garot's amendment regulating doctors setting up practice in well-served areas. That is a partial form of compulsion.",
+   "nuance": "The amendment restricts setting up in over-served areas. It does not require new doctors to work in under-served ones, hence +1. The vote is from 2023, with the group."
+  },
+  {
+   "id": "san2",
+   "summary": "No direct evidence found on co-payments.",
+   "nuance": "He voted against the 2026 social security budget (PLFSS) at every reading. That budget contained many measures, so the vote cannot be attributed to co-payments alone."
+  },
+  {
+   "id": "san3",
+   "summary": "No evidence found.",
+   "nuance": "In April 2025 he said leaders 'laissent faire le marché' on housing, but he did not mention rent caps."
+  },
+  {
+   "id": "san4",
+   "summary": "He consistently attacks the 'concurrence libre et non faussée' and the 'Etat organisateur de la concurrence'. I found no specific statement on transport or energy.",
+   "nuance": "This is inferred from his general anti-liberal stance, so confidence is low."
+  },
+  {
+   "id": "eco7",
+   "summary": "No evidence found on a 'TVA sociale'. His 2027 campaign notebooks (nouspresident.fr) and his own site do not address it.",
+   "nuance": "Not coded. Web search budget was exhausted during verification, so only his own sites and datan.fr were checked."
+  },
+  {
+   "id": "imm8",
+   "summary": "No evidence found on naturalisation. A search of his site for naturalisation and regularisation returned nothing relevant.",
+   "nuance": "Not coded. He has criticised labour immigration (Wikipedia), but that does not address naturalisation."
+  },
+  {
+   "id": "sec6",
+   "summary": "After Nahel's death he listed a receipt for identity checks among his proposals for police reform, citing checks on minorities.",
+   "nuance": "The source is from 2023. No 2025-2026 restatement was found, and the 2027 campaign notebooks do not cover policing."
+  },
+  {
+   "id": "eu7",
+   "summary": "No evidence found on a common European defence or European army.",
+   "nuance": "Not coded. He voted against the 2024-2030 military programming law (datan vote_1778, 2023), which is a national budget law. He abstained on the March 2025 Ukraine resolution, which also called for an independent European defence. Neither vote is specific enough to code this statement."
+  },
+  {
+   "id": "eu8",
+   "summary": "No evidence found on Ukraine's EU accession.",
+   "nuance": "Not coded. He abstained on the 12 March 2025 resolution supporting Ukraine, going against his group, which voted for it (datan vote_988, legislature 17). According to datan's description, that text does not mention accession. His site has only a 2022 call for peace talks."
+  },
+  {
+   "id": "ecol6",
+   "summary": "His 2027 campaign notebook proposes guaranteed minimum prices for each sector, based on production costs. He was already calling for 'prix planchers' in 2024.",
+   "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ? ... On désobéit !')."
+  },
+  {
+   "id": "ene5",
+   "summary": "No evidence found of a proposal to cut VAT on energy to 5.5%.",
+   "nuance": "Not coded. His 2026 written question on fuel and gas prices proposes no VAT measure. His campaign notebook calls for a public electricity service priced at production cost and does not mention VAT."
+  },
+  {
+   "id": "ins6",
+   "summary": "No explicit position found on privatising public broadcasting.",
+   "nuance": "Not coded. In 2019 he criticised the government's 'réforme de l'audiovisuel public' (threat to Soir 3), which points to opposition, but nothing on privatisation was verified."
+  },
+  {
+   "id": "soc6",
+   "summary": "In the same 2025 article he argued against banning religious symbols for university students, who are adults.",
+   "nuance": "This responds directly to the 2025 proposals by Darmanin and Retailleau to ban the veil at university."
+  },
+  {
+   "id": "san5",
+   "summary": "His 2027 housing notebook keeps the ZAN 2050 target, criticises the 'multiple derogations' that weakened it, and favours densification and reuse of existing buildings. It simplifies only specific rules, such as labels and some heritage constraints.",
+   "nuance": "He opposes loosening ZAN to build more, but would simplify a few specific rules, hence -1. In 2023 he abstained on the bill that eased ZAN (datan vote_2046, legislature 16). A first datan summary wrongly reported that vote as POUR, and the vote page itself says ABSTENTION."
+  }
+ ],
+ "record": {
+  "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a formal party member; after breaking with Jean-Luc Mélenchon he left LFI on 4 July 2024 and joined the ecologist group (EcoS). He became president of Debout ! on 28 June 2025 and announced on 26 January 2026 that he was standing in the left primary. According to Wikipedia's Debout ! article, the primary was later cancelled and the party then planned to put him forward directly for the presidency.",
+  "offices": [
+   "Deputy for Somme, 1st constituency (elected 2017, re-elected 2022 and 2024; LFI group 2017-2024, ecologist group from July 2024)",
+   "Secretary of the Economic Affairs Commission, Assemblée nationale",
+   "Spokesperson, Picardie debout !",
+   "President, Debout ! (renamed from Picardie debout !)"
+  ],
+  "legal": [
+   "Civil defamation suit at the Amiens tribunal over the portrayal of a resident in his 2006 book Quartier Nord. Wikipedia reports that he was found liable (condamné). No primary court source was available.",
+   "Ruffin was a victim, not a defendant. LVMH paid Bernard Squarcini's firm Kyrnos to surveil Ruffin and Fakir (March 2015 to February 2016). LVMH settled through a EUR 10 million CJIP, approved on 17 December 2021. On 7 March 2025 the Paris court convicted Squarcini, among other charges, and sentenced him to 4 years (2 of them custodial), a EUR 200,000 fine and a 5-year professional ban. His lawyers said he would appeal.",
+   "The HATVP observed that his asset declaration undervalued his audiovisual production company by EUR 431,973. This was an administrative observation, and no criminal proceedings are reported."
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Directed the documentary Merci patron! (2016) about LVMH and Bernard Arnault, which won the 2017 César. As a deputy he tabled a high volume of amendments (4,098 in his first term, nearly all rejected). He keeps the net SMIC from his pay and gives about EUR 3,000 a month to associations. He also directed his public party-funding allocation to the PCF.",
+    "assessment": "Wikipedia reports a high volume of amendments and commission interventions (162). It also reports low attendance in his first year: he was the least present LFI deputy at votes (22%), and he was among the least present in commission. Few texts of his own were adopted. No roll-call review and no assessment from outlets of different leanings could be obtained."
+   },
+   {
+    "what": "Called for a united left front in June 2024, which became the Nouveau Front populaire. He then left LFI on 4 July 2024 and joined the ecologist group.",
+    "assessment": "Wikipedia describes it as a split with Mélenchon over a deep moral and electoral disagreement. No outlet of a different leaning was consulted."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified, because search was unavailable.",
+   "right_media": "Not verified, because search was unavailable.",
+   "neutral_media": "Per Wikipedia, outlets describe him as increasingly independent of LFI and as seeking to reconnect the left with working-class voters. Reported criticisms include low attendance in his first year, Fakir staff doubling as parliamentary collaborators (2017), and a 2018 Le Monde piece by Abel Mestre about ambiguous rhetorical references, which he disputed."
+  }
+ }
+}

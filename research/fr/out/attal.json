@@ -1,0 +1,446 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Pas d'impôt sur la fortune de type ISF dans le programme d'Attal. Il promet de réduire le déficit sans augmenter les impôts et s'oppose à toute hausse de la fiscalité sur l'épargne, l'assurance-vie et les successions.",
+   "nuance": "Aucune déclaration explicite sur un rétablissement de l'ISF n'a été retrouvée. Le codage est déduit de son programme sans hausse d'impôts et de son opposition à la taxe Zucman (voir eco2)."
+  },
+  {
+   "id": "eco2",
+   "summary": "L'Assemblée a rejeté la taxe Zucman (2 % sur les patrimoines supérieurs à 100 millions d'euros) le 31 octobre 2025 par 228 voix contre 172. Le bloc central, dont fait partie le groupe Renaissance présidé par Attal, s'y est opposé et l'a qualifiée de « mirage ».",
+   "nuance": "Vote au niveau du groupe. Le vote nominatif personnel d'Attal n'a pas été vérifié sur datan/assemblee-nationale. Il a commenté le rejet (BFM, 31 octobre 2025) en disant qu'un compromis « ne plaît pas à tout le monde ». Un article du Figaro de 2026 sur les projets fiscaux des candidats (payant) n'a pas été lu."
+  },
+  {
+   "id": "eco3",
+   "summary": "Le « droit au brut » d'Attal réduit les cotisations sociales (le programme vise les charges salariales) pour augmenter le salaire net. Il affirme aussi que le coût du travail n'aurait pas dû augmenter depuis 2024. Aucun engagement précis de baisse des impôts de production ou des cotisations patronales n'a été trouvé.",
+   "nuance": "Soutien partiel. L'énoncé évoque les impôts de production et les cotisations patronales. Sa baisse phare porte sur les cotisations salariales ; il s'oppose à une hausse du coût pour les employeurs mais ne s'engage pas clairement à le réduire."
+  },
+  {
+   "id": "eco4",
+   "summary": "Aucun élément trouvé sur des droits de douane ou des quotas nationaux pour protéger des secteurs français.",
+   "nuance": "Une brève recherche n'a rien donné. Son fédéralisme économique (« disparition totale des frontières économiques » au sein d'un noyau de l'UE) s'éloigne des droits de douane nationaux, mais cela n'est pas codé."
+  },
+  {
+   "id": "eco5",
+   "summary": "Aucun élément trouvé sur un retour de l'énergie ou des autoroutes sous contrôle public.",
+   "nuance": "Une brève recherche n'a rien donné. La page du programme sur la dette écologique traite de l'indépendance énergétique mais ne mentionne ni EDF ni nationalisation."
+  },
+  {
+   "id": "eco6",
+   "summary": "S'oppose à toute hausse de la fiscalité des successions et veut faciliter et fluidifier les donations de son vivant (aux petits-enfants, petits-neveux et petites-nièces).",
+   "nuance": "Soutien partiel. Pas de baisse explicite des taux de droits de succession ; il s'oppose aux hausses et assouplit les transmissions par donation."
+  },
+  {
+   "id": "ret1",
+   "summary": "Veut supprimer l'âge légal de la retraite et passer à un système universel fondé sur la durée de cotisation, avec une vraie pénalité en cas de départ anticipé et un vrai bonus en cas de départ tardif. Il rejette les ajustements paramétriques, il ne soutient donc pas un retour à 62 ans.",
+   "nuance": "Sa position actuelle (supprimer l'âge légal) remplace sa défense antérieure de la réforme de 2023 à 64 ans. La réforme de 2023 a depuis été suspendue à 62 ans et 9 mois. Sans âge légal, un départ anticipé resterait possible, mais avec une forte pénalité."
+  },
+  {
+   "id": "ret2",
+   "summary": "Rejette un relèvement de l'âge légal (il a qualifié le plan à 65 ans de Philippe de « soins palliatifs » et dit « On n'en est plus à bouger les paramètres »). Il préfère supprimer l'âge légal, avec un système de pénalités et de bonus fondé sur la durée de cotisation.",
+   "nuance": "Codé -1 et non -2 : il s'oppose à un âge légal plus élevé, mais son système vise à faire travailler les gens plus longtemps grâce à de fortes pénalités et de forts bonus."
+  },
+  {
+   "id": "ret3",
+   "summary": "Propose un système universel « avec une part de capitalisation » (« un vrai pilier de capitalisation »), un plan d'épargne retraite de 1 000 euros par enfant financé par l'État, et l'orientation de 50 % de la participation vers des plans d'épargne retraite.",
+   "nuance": "Les sources ne précisent pas si la part de capitalisation serait obligatoire. Si elle est intégrée au système universel, elle pourrait être obligatoire, ce qui la ferait passer à +2. Maintenu à +1 tant que le mécanisme n'est pas confirmé."
+  },
+  {
+   "id": "fin1",
+   "summary": "Déficit zéro en dix ans au plus (budget à l'équilibre d'ici 2037), jusqu'à 150 milliards d'euros d'économies, pas de hausse d'impôts et un plan de départs volontaires pour 100 000 fonctionnaires. Comme Premier ministre en 2024, il a réduit les budgets des ministères de 10 milliards d'euros.",
+   "nuance": "Son objectif (déficit zéro) est plus strict que le seuil de 3 %. Il le présente comme « rigoureux et sérieux » plutôt que comme de l'austérité."
+  },
+  {
+   "id": "fin2",
+   "summary": "S'engage à supprimer 100 000 postes dans la fonction publique par un plan de départs volontaires assorti d'une prime de départ, et à supprimer un échelon de collectivités locales.",
+   "nuance": "Obtenu par attrition et départs volontaires. L'éducation, les armées, la justice et l'intérieur seraient épargnés, selon les informations disponibles."
+  },
+  {
+   "id": "fin3",
+   "summary": "Considère la dette nationale comme une perte de souveraineté et vise le déficit zéro. Il soutient une dette commune au niveau de l'UE pour l'adaptation au changement climatique.",
+   "nuance": "S'oppose à davantage de dette nationale mais est ouvert à un emprunt commun européen pour le climat, d'où une opposition partielle (-1)."
+  },
+  {
+   "id": "fin4",
+   "summary": "Aucune règle d'or constitutionnelle trouvée. Son plan budgétaire comprend « l'impunité budgétaire zéro » assortie de sanctions, ce qui n'est pas un plafond constitutionnel du déficit.",
+   "nuance": "Une brève recherche (titres du Monde et du Parisien du 2 juillet 2026) n'a pas révélé d'engagement sur une règle d'or."
+  },
+  {
+   "id": "trav1",
+   "summary": "Veut augmenter les salaires par la productivité et la baisse des cotisations (« droit au brut » : +250 euros nets pour un salaire net de 2 200 euros), et non par des hausses plus rapides du SMIC.",
+   "nuance": "Aucun engagement à relever le SMIC au-delà de l'inflation. Il n'y est pas non plus explicitement opposé, d'où -1."
+  },
+  {
+   "id": "trav2",
+   "summary": "Comme Premier ministre (mars 2024), il a proposé de réduire la durée maximale d'indemnisation (à 12 mois au minimum, contre 18) et de durcir les conditions d'éligibilité. Son programme 2027 promet une réforme de l'assurance chômage qui « incite au travail » et dégage plus de 4 milliards d'euros d'économies.",
+   "nuance": "Le programme 2027 ne précise ni les réductions de durée ni de montant, le niveau de confiance est donc moyen. Le durcissement de 2024 a été interrompu après la dissolution."
+  },
+  {
+   "id": "trav3",
+   "summary": "Comme Premier ministre, il a soutenu la généralisation de la réforme du RSA qui exige au moins 15 heures d'activité par semaine. Cette obligation est désormais en vigueur et rien n'indique qu'il veuille la supprimer.",
+   "nuance": "La seule source est secondaire (Wikipédia), le niveau de confiance est donc faible. Les pages du programme de campagne ne mentionnent pas le RSA. Son programme insiste aussi sur des dépenses sociales qui « incitent à l'activité », ce qui est cohérent avec le maintien de l'obligation. Une source primaire de 2025-2026 reste nécessaire."
+  },
+  {
+   "id": "trav4",
+   "summary": "Veut que les gens travaillent davantage : supprimer le plafond annuel de 220 heures supplémentaires. Ne promeut la semaine de quatre jours que comme une réorganisation des heures existantes, « là où c'est possible ».",
+   "nuance": "La semaine de quatre jours désigne un aménagement flexible des horaires, et non une réduction du temps de travail."
+  },
+  {
+   "id": "imm1",
+   "summary": "« Accueillir moins pour accueillir mieux » : un système à points à la canadienne, un recul du regroupement familial, le travail comme premier motif d'immigration devant l'immigration familiale et étudiante, et des quotas limitatifs votés par le Parlement tous les deux ans.",
+   "nuance": "Il veut une réduction globale, mais l'immigration de travail est priorisée plutôt que fortement réduite, d'où un soutien partiel (+1)."
+  },
+  {
+   "id": "imm2",
+   "summary": "Propose une journée annuelle de référendums à plusieurs questions et des quotas d'immigration limitatifs fixés par le Parlement. Aucun référendum portant spécifiquement sur la politique d'immigration n'a été trouvé.",
+   "nuance": "BFMTV/AFP (1er août 2026) rapporte des référendums annuels et des « quotas limitatifs », mais pas comme thème de référendum. La Croix (3 août 2026, inaccessible) associe « référendums » et « quotas migratoires » dans son titre. À vérifier si l'article devient accessible."
+  },
+  {
+   "id": "imm3",
+   "summary": "Aucune position sur l'AME trouvée.",
+   "nuance": "Une brève recherche n'a rien donné. Comme Premier ministre en 2024, son gouvernement a maintenu l'AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "Aucun élément actuel sur la régularisation de travailleurs sans papiers dans les métiers en tension.",
+   "nuance": "Une brève recherche n'a rien donné. Les quotas par profession concernent les nouveaux arrivants, et non la régularisation."
+  },
+  {
+   "id": "imm5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une brève recherche n'a rien donné."
+  },
+  {
+   "id": "imm6",
+   "summary": "Aucun élément sur une suppression du droit du sol à l'échelle nationale.",
+   "nuance": "Son gouvernement (février 2024, ministre de l'Intérieur Darmanin) a annoncé la fin du droit du sol à Mayotte uniquement. Aucune position sur la France hexagonale n'a été trouvée."
+  },
+  {
+   "id": "imm7",
+   "summary": "Aucun élément trouvé sur le droit de vote local des étrangers non européens.",
+   "nuance": "Le brouillon codait -2 selon la ligne du parti, sans source. Une recherche n'a rien donné, le codage est donc nul."
+  },
+  {
+   "id": "sec1",
+   "summary": "Aucun élément trouvé sur les peines planchers.",
+   "nuance": "Une brève recherche n'a rien donné. Il promet une réforme « en profondeur » de la justice sans en donner le détail."
+  },
+  {
+   "id": "sec2",
+   "summary": "Auteur de la loi de 2025 (adoptée définitivement le 19 mai 2025) qui, pour les récidivistes de 16 ans et plus, fait de l'atténuation de peine pour les mineurs (« excuse de minorité ») l'exception et permet la comparution immédiate.",
+   "nuance": "Partiel : le texte vise les récidivistes et ne va pas jusqu'à juger les mineurs comme des adultes. Certaines dispositions pourraient avoir été censurées par le Conseil constitutionnel (non vérifié)."
+  },
+  {
+   "id": "sec3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une brève recherche n'a rien donné."
+  },
+  {
+   "id": "sec4",
+   "summary": "Comme Premier ministre, il a adopté une ligne dure sur la consommation de drogue (« tolérer en même temps la consommation dans les “beaux quartiers” »). Aucune déclaration explicite en 2025-2026 sur la légalisation du cannabis.",
+   "nuance": "En 2020, il aurait été « favorable » à un débat sur la légalisation (titre de L'Express). La citation date de son passage à Matignon et concerne la consommation de drogue en général, le codage est donc faible et déduit."
+  },
+  {
+   "id": "sec5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une brève recherche n'a rien donné."
+  },
+  {
+   "id": "eu1",
+   "summary": "Fédéraliste favorable à l'intégration (« États-Unis d'Europe »). Rien n'indique qu'il placerait le droit français au-dessus du droit de l'UE.",
+   "nuance": "Déduit de sa position fédéraliste. Aucune déclaration explicite sur la primauté."
+  },
+  {
+   "id": "eu2",
+   "summary": "Propose une dette commune pour financer l'adaptation au changement climatique dans le cadre de son union écologique des « États-Unis d'Europe ».",
+   "nuance": "S'appliquerait à un noyau d'États volontaires."
+  },
+  {
+   "id": "eu3",
+   "summary": "Son agenda d'intégration fédéraliste et son soutien à une dette commune européenne laissent penser qu'il ne réduirait pas la contribution. Aucune déclaration explicite.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "eu4",
+   "summary": "Dénonce la « vétocratie européenne » et dit que l'UE à 27 a atteint ses limites. Mais il affirme que les compétences régaliennes resteraient aux États membres.",
+   "nuance": "Sa critique du veto vise l'intégration économique, technologique et écologique. Le maintien des compétences régaliennes au niveau national va à l'encontre du vote à la majorité en politique étrangère, d'où un soutien partiel (+1), déduit."
+  },
+  {
+   "id": "eu5",
+   "summary": "Fédéraliste fortement pro-européen. Rien n'indique qu'il refuserait d'appliquer les règles européennes.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "eu6",
+   "summary": "Appelle à des « États-Unis d'Europe » approuvés par un premier référendum paneuropéen.",
+   "nuance": "Fortement opposé à une sortie."
+  },
+  {
+   "id": "int1",
+   "summary": "Attal appelle à plusieurs reprises à poursuivre et amplifier le soutien à l'Ukraine (programme « Frontières », BFM TV le 21 septembre 2026, POLITICO le 24 septembre 2026), soutient la coordination européenne de l'aide en défense aérienne et la saisie des avoirs russes gelés ; comme Premier ministre, il a présenté à l'Assemblée l'accord bilatéral de soutien à l'Ukraine.",
+   "nuance": "Seules des sources issues du site de campagne ont pu être ouvertes (budget de recherche web épuisé) ; aucune corroboration par un média indépendant, mais la position est constante et énoncée dans son propre programme."
+  },
+  {
+   "id": "int2",
+   "summary": "La ligne Renaissance/Macron soutient une force de réassurance après un cessez-le-feu ; aucune déclaration personnelle d'Attal sur des troupes françaises n'a été retrouvée.",
+   "nuance": "Non vérifié auprès d'une source en direct ; « garantir un cessez-le-feu » est conditionnel à l'existence d'un cessez-le-feu. Ses déclarations de 2026 insistent sur l'amplification du soutien mais ne mentionnent pas de troupes."
+  },
+  {
+   "id": "int3",
+   "summary": "Renaissance est résolument atlantiste ; le programme d'Attal cite « nos alliances » comme vecteur de puissance et étend la dissuasion nucléaire aux alliés. La sortie du commandement intégré de l'OTAN ne fait pas partie de son projet.",
+   "nuance": "Aucune citation explicite sur le commandement de l'OTAN trouvée ; le codage repose sur la ligne du parti et l'accent mis sur les alliances dans le programme."
+  },
+  {
+   "id": "int4",
+   "summary": "Renaissance et la ligne gouvernementale étaient favorables à une pression sur Israël, mais pas à la suspension de l'accord d'association.",
+   "nuance": "Non vérifié en direct ; les termes propres d'Attal sur Gaza n'ont pas été retrouvés."
+  },
+  {
+   "id": "int5",
+   "summary": "Le programme appelle à « poursuivre et amplifier » le réarmement et à continuer d'augmenter les moyens de défense, mais ne fixe pas d'objectif de 3 % du PIB.",
+   "nuance": "Soutient une hausse des dépenses de défense ; aucun objectif précis supérieur à 3 % trouvé, d'où +1."
+  },
+  {
+   "id": "int6",
+   "summary": "Comme secrétaire d'État (2018-2020), Attal était chargé de la mise en oeuvre du SNU ; son programme 2026 évoque le renforcement des « réserves humaines et opérationnelles » mais ne propose pas de service militaire obligatoire.",
+   "nuance": "Version partielle/plus faible (SNU, réserves) ; aucune déclaration de 2025-2026 en faveur d'un service obligatoire n'a été retrouvée."
+  },
+  {
+   "id": "int7",
+   "summary": "Attal attaque Marine Le Pen pour son refus de sanctions contre la Russie et veut que la Russie paie via la saisie des avoirs gelés ; aucune ouverture à une levée des sanctions dans le cadre d'un accord de paix.",
+   "nuance": "Aucune déclaration explicite sur un allègement des sanctions dans un accord de paix ; codé à partir de sa ligne dure sur les sanctions et la saisie des avoirs."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Aucun élément retrouvé sur la position personnelle d'Attal quant à la suppression des ZFE.",
+   "nuance": "Les députés Renaissance étaient partagés sur la suppression des ZFE en 2025 ; non codé pour éviter toute supposition. Le budget de recherche web a été épuisé pendant la vérification, aucune autre recherche n'a donc été possible."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Renaissance a soutenu une approche axée sur la compétitivité (débat sur la loi Duplomb) mais rien de personnel n'a été vérifié."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Renaissance maintient formellement l'objectif européen de 2035 tout en appelant à de la flexibilité ; Attal pousse l'adoption des véhicules électriques (leasing social pour véhicules électriques d'occasion, prolongation du bonus) mais aucune déclaration explicite sur 2035 n'a été trouvée.",
+   "nuance": "Position mixte ; l'appui aux véhicules électriques suggère un soutien à l'électrification mais aucun engagement sur 2035 n'a été vérifié."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Le gouvernement a alourdi la taxation des billets d'avion dans le budget 2025 (TSBA), mais la position personnelle d'Attal n'a pas été trouvée."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Le programme rejette l'arbitrage : il affirme que croissance et décarbonation ne s'opposent pas tout en exhortant la France à accélérer la baisse de ses émissions (de 1,8 % à 5 % par an).",
+   "nuance": "Il nie la prémisse plutôt que de hiérarchiser l'un ou l'autre ; le langage d'ambition climatique est fort, il n'est donc pas codé comme favorable à la croissance."
+  },
+  {
+   "id": "ene1",
+   "summary": "Le plan « Messmer II » (23 septembre 2026) s'engage à sécuriser la construction de 14 EPR (6 + 8) et à construire un réacteur par an.",
+   "nuance": "Engagement explicite du programme au-delà des six EPR2."
+  },
+  {
+   "id": "ene2",
+   "summary": "Attal veut 14 EPR, un réacteur par an, et des recherches sur la fusion et la fermeture du cycle nucléaire : le contraire d'une sortie du nucléaire.",
+   "nuance": "Codé à partir de son propre programme d'expansion du nucléaire."
+  },
+  {
+   "id": "ene3",
+   "summary": "Le plan Messmer II défend l'accélération des énergies renouvelables dans le cadre de la neutralité technologique, aux côtés du nucléaire.",
+   "nuance": "L'éolien n'est pas nommé spécifiquement ; le niveau de confiance est moyen pour cette raison."
+  },
+  {
+   "id": "ene4",
+   "summary": "Renaissance est favorable à une réforme, et non à une sortie, du marché européen de l'électricité ; Attal vise un prix d'environ 75 euros/MWh et des contrats à moins de 50 pour l'industrie exposée, tout en promouvant une intégration économique européenne plus poussée (« États-Unis d'Europe »).",
+   "nuance": "Aucune déclaration explicite sur le marché européen ; l'objectif de prix n'implique pas une sortie."
+  },
+  {
+   "id": "ins1",
+   "summary": "Renaissance défend la Ve République ; Attal appelle à une transformation profonde des institutions (rapidité, autorité, redonner le pouvoir aux citoyens) mais pas à une nouvelle constitution parlementaire.",
+   "nuance": "Aucun rejet explicite d'une VIe République trouvé ; son discours de réforme institutionnelle porte sur la rapidité et l'autorité, d'où une opposition partielle."
+  },
+  {
+   "id": "ins2",
+   "summary": "Le camp Macron s'est montré ouvert à une certaine proportionnelle ; la position actuelle d'Attal n'a pas été retrouvée.",
+   "nuance": "Position mixte/incertaine."
+  },
+  {
+   "id": "ins3",
+   "summary": "Renaissance s'est opposé au RIC tel qu'il est formulé.",
+   "nuance": "Non vérifié en direct."
+  },
+  {
+   "id": "ins4",
+   "summary": "Aucun élément retrouvé sur la position d'Attal quant à une restriction du 49.3.",
+   "nuance": "L'affirmation du brouillon selon laquelle il aurait utilisé le 49.3 « dans les débats budgétaires de type 2025 » comme Premier ministre est erronée : il a été Premier ministre de janvier à septembre 2024 et n'a pas fait adopter de budget par le Parlement. Aucune déclaration personnelle trouvée."
+  },
+  {
+   "id": "ins5",
+   "summary": "Attal propose un référendum sur l'interdiction des réseaux sociaux aux moins de 15 ans et veut des institutions qui donnent « plus de pouvoir aux Français » ; aucune proposition explicite d'élargir le champ du référendum à l'immigration ou à la justice.",
+   "nuance": "Déduit de son ouverture aux référendums ; le champ immigration/justice n'est pas confirmé."
+  },
+  {
+   "id": "soc1",
+   "summary": "Attal a voté pour le projet de loi sur l'aide à mourir en première lecture (27 mai 2025) et en lecture définitive (15 juillet 2026). Il maintiendrait la loi.",
+   "nuance": "Ses votes sont cohérents d'une lecture à l'autre, et rien n'indique qu'il veuille restreindre ou abroger la loi."
+  },
+  {
+   "id": "soc2",
+   "summary": "Sur BFM TV (6 septembre 2026), Attal a rejeté une interdiction générale du voile pour les femmes adultes, tout en défendant une protection renforcée des mineurs et la loi de 2004 sur l'école.",
+   "nuance": "Il est favorable à des restrictions pour les mineurs et à l'école, il n'est donc pas opposé à toute restriction, mais clairement contre une interdiction dans tout l'espace public."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucune déclaration trouvée sur les parents accompagnateurs de sorties scolaires. Ses déclarations sur la laïcité concernent les élèves (interdiction de l'abaya) et les mineurs (interdiction du voile pour les moins de 15 ans dans l'espace public).",
+   "nuance": "Dans l'entretien franceinfo du 9 septembre 2026, le passage sur la protection des enfants des influences religieuses à l'école concerne les élèves, et non les parents accompagnateurs adultes. Il a aussi dit ne pas être favorable à une interdiction générale du voile, ce qui laisse sa position sur les adultes peu claire. Non codé. La recherche web était indisponible."
+  },
+  {
+   "id": "soc4",
+   "summary": "Attal défend la liberté de croyance et refuse une interdiction générale du voile pour les adultes, mais soutient des restrictions supplémentaires (interdiction de l'abaya à l'école, protection renforcée des mineurs).",
+   "nuance": "Opposition partielle : il soutient des restrictions supplémentaires pour les mineurs et à l'école."
+  },
+  {
+   "id": "soc5",
+   "summary": "Le camp Macron s'est opposé à la légalisation de la GPA ; aucune déclaration personnelle d'Attal retrouvée.",
+   "nuance": "Non vérifié en direct ; la force du codage repose uniquement sur la ligne du parti."
+  },
+  {
+   "id": "edu1",
+   "summary": "Comme ministre de l'Éducation, Attal a lancé une expérimentation de l'uniforme scolaire dans une dizaine d'écoles (2023-2024) ; on ne l'a pas vu proposer un uniforme obligatoire à l'échelle nationale.",
+   "nuance": "Expérimentation uniquement, et non obligation générale ; elle est absente de son programme éducatif 2026."
+  },
+  {
+   "id": "edu2",
+   "summary": "Le programme vise moins de 20 élèves par classe en primaire, financé par la baisse démographique plutôt que par des recrutements massifs.",
+   "nuance": "Soutient des classes moins nombreuses, mais en conservant les postes à mesure que les effectifs d'élèves diminuent, et non par des recrutements massifs."
+  },
+  {
+   "id": "edu3",
+   "summary": "Attal a instauré les groupes de niveau comme ministre (Choc des savoirs) et, en 2026, s'engage à les rétablir en français et en mathématiques au collège après leur abandon par ses successeurs.",
+   "nuance": "La réforme a été abandonnée par ses successeurs ; il veut la rétablir."
+  },
+  {
+   "id": "edu4",
+   "summary": "Aucun élément indiquant qu'Attal soutienne une réduction du financement des établissements privés qui n'atteignent pas les objectifs de mixité sociale.",
+   "nuance": "Le brouillon attribuait à Attal un pacte liant le financement des établissements privés à la mixité sociale ; le protocole de mixité sociale de 2023 avec l'enseignement catholique a été signé sous son prédécesseur et n'a pas réduit les financements. Non codé."
+  },
+  {
+   "id": "edu5",
+   "summary": "Comme député, il a voté pour la loi ORE de 2017, qui a créé Parcoursup et des mécanismes d'admission sélective. Cela s'oppose à la fin de toute sélection à l'entrée de l'université.",
+   "nuance": "Son vote POUR est vérifié sur le scrutin public de l'Assemblée, mais le vote date de 2017. Aucune déclaration de 2025-2026 n'a été trouvée, et la page du programme sur l'éducation ne mentionne pas l'entrée à l'université. Le niveau de confiance est abaissé de moyen à faible, car les éléments sont anciens."
+  },
+  {
+   "id": "san1",
+   "summary": "La ligne du gouvernement était favorable à des missions courtes obligatoires dans les zones sous-dotées, et non à une installation forcée.",
+   "nuance": "Position mixte ; non vérifié en direct."
+  },
+  {
+   "id": "san2",
+   "summary": "Comme Premier ministre, Attal a doublé les franchises médicales, et sa campagne le cite comme une réussite en matière de réduction des dépenses tout en prévoyant 100 milliards d'euros de coupes dans les dépenses sociales.",
+   "nuance": "Aucune nouvelle proposition de les relever davantage n'a été trouvée, mais il a mis en oeuvre ce doublement et le revendique toujours."
+  },
+  {
+   "id": "san3",
+   "summary": "Attal fait campagne sur un choc d'offre et une simplification pour libérer du logement ; l'encadrement des loyers est absent de son plan logement, et il est resté facultatif et limité sous le camp Macron.",
+   "nuance": "Aucune déclaration explicite sur l'encadrement des loyers ; déduit de l'accent mis sur l'offre."
+  },
+  {
+   "id": "san4",
+   "summary": "Renaissance est généralement favorable à la concurrence dans le ferroviaire et d'autres services ; le programme d'Attal privilégie la commande de services à des entreprises privées (IA) et une politique de l'offre.",
+   "nuance": "Déduit ; aucune déclaration sur une ouverture accrue des transports ou de l'énergie à la concurrence."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucun élément trouvé. Les pages du programme de campagne (travail-salaires, dette-de-letat) ne mentionnent ni la TVA ni une TVA sociale. Il finance la baisse des charges par des coupes dans les dépenses sociales.",
+   "nuance": "Son discours du 28 septembre 2026 à Batimat dit que les salaires nets doivent augmenter grâce à la baisse des charges, financée par des réformes des retraites et de l'assurance chômage. Cela s'éloigne d'un basculement financé par la TVA, mais ce n'est pas une déclaration sur la TVA sociale. La recherche web était indisponible (budget de la session épuisé), la couverture de presse n'a donc pas pu être vérifiée. À relancer avec la recherche."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucun élément trouvé sur la naturalisation. La page du programme sur les frontières n'en parle pas.",
+   "nuance": "Les éléments voisins penchent vers une position restrictive. Son programme dit « accueillir moins pour accueillir mieux », et le 6 février 2025 il a voté pour le projet de loi durcissant l'accès à la nationalité française à Mayotte (Datan). Ce texte concerne l'acquisition par le droit du sol, et non la naturalisation, il n'a donc pas servi à coder cet item. La recherche web était indisponible."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucun élément trouvé sur les récépissés de contrôle d'identité.",
+   "nuance": "Il a voté pour le projet de loi de juillet 2026 créant une présomption de légitime défense pour les policiers (Datan). Cela ne constitue pas un élément sur les récépissés. La recherche web était indisponible."
+  },
+  {
+   "id": "eu7",
+   "summary": "Son programme appelle à des investissements européens massifs et conduits conjointement en matière de défense et à un renforcement du rôle de la France dans la défense de l'Europe. Il ne propose pas d'armée européenne ni n'accepte de perte d'autonomie militaire française.",
+   "nuance": "Il s'agit d'une version partielle de l'énoncé : il soutient les achats et investissements conjoints, mais pas une armée ni un abandon d'autonomie. Son discours sur les « États-Unis d'Europe » à Reims (17 septembre 2026) porte sur la fédération économique, technologique et écologique, et non sur la défense."
+  },
+  {
+   "id": "eu8",
+   "summary": "Aucune déclaration trouvée sur l'adhésion de l'Ukraine à l'UE. Le programme, l'entretien à Politico (24 septembre 2026) et le discours sur l'Europe à Reims (17 septembre 2026) ont été vérifiés.",
+   "nuance": "Il soutient fermement l'Ukraine : le programme dit « continuer sans relâche à soutenir l'Ukraine », et il a voté pour la résolution du 12 mars 2025 renforçant le soutien. Il dit aussi que l'UE à 27 « a atteint ses limites » et privilégie un noyau fédéral. On ne sait pas si cela favorise ou contrarie l'élargissement, l'item n'est donc pas codé. La recherche web était indisponible."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucun élément trouvé sur des prix planchers garantis pour les agriculteurs.",
+   "nuance": "Comme Premier ministre, il a fait des concessions aux agriculteurs en janvier-février 2024 (maintien de l'aide au gazole). L'annonce de « prix planchers » de février 2024 venait de Macron et n'a pas pu être rattachée personnellement à Attal. Il a voté pour la loi d'orientation pour la souveraineté agricole de 2025, la loi Duplomb de 2025 et la loi d'urgence agricole de juillet 2026, mais ces votes ne constituent pas des éléments sur les prix planchers. La recherche web était indisponible."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucun élément trouvé sur une baisse de la TVA sur l'énergie à 5,5 %. La page du programme sur la dette écologique traite de l'énergie mais pas de la TVA.",
+   "nuance": "Sa priorité du déficit zéro en dix ans rend un soutien peu probable, mais ce n'est pas une preuve. La recherche web était indisponible."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucun élément trouvé sur la privatisation de l'audiovisuel public.",
+   "nuance": "La liste des votes de Datan, telle que récupérée, ne montrait aucun vote sur l'audiovisuel public. La recherche web était indisponible."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucun élément trouvé sur les signes religieux à l'université.",
+   "nuance": "Il rejette une interdiction générale du voile (« Je ne suis pas pour l'interdiction générale du voile », Europe 1, novembre 2025) mais en soutient une pour les mineurs. Les étudiants sont majoritairement adultes, ce qui laisse supposer une opposition, mais ce n'est pas un élément direct. La recherche web était indisponible."
+  },
+  {
+   "id": "san5",
+   "summary": "Dans son discours sur le logement du 28 septembre 2026 à Batimat, il s'est engagé à relancer le marché du logement en levant les obstacles à la construction. Il a aussi cité son travail de simplification comme Premier ministre avec le ministre du Logement Kasbarian.",
+   "nuance": "Il s'agit d'une version partielle de l'énoncé : assouplir les règles pour construire davantage en général. L'article ne mentionne pas le ZAN. La citation n'a pas été réextraite mot pour mot lors de cette passe (l'outil de récupération l'a paraphrasée), elle doit donc être considérée comme une paraphrase proche."
+  }
+ ],
+ "record": {
+  "bio": "Gabriel Attal (né le 16 mars 1989) est un homme politique de Renaissance qui a débuté du côté socialiste avant de rejoindre le mouvement d'Emmanuel Macron. Il a occupé plusieurs fonctions gouvernementales à partir de 2018 et est devenu le plus jeune Premier ministre de France le 9 janvier 2024. Le président Macron a accepté sa démission le 16 juillet 2024, après les élections législatives anticipées de juin-juillet 2024. Il a ensuite dirigé un gouvernement chargé des affaires courantes jusqu'à la nomination de Michel Barnier le 5 septembre 2024. Il préside le groupe Ensemble pour la République à l'Assemblée nationale depuis juillet 2024 et est secrétaire général de Renaissance depuis décembre 2024. Il a annoncé sa candidature à l'élection présidentielle de 2027 le 22 mai 2026 à Mur-de-Barrez (Aveyron).",
+  "offices": [
+   "Conseiller municipal, Vanves (réélu en 2020 et en mars 2026)",
+   "Député, 10e circonscription des Hauts-de-Seine (premier mandat)",
+   "Porte-parole de LREM",
+   "Secrétaire d'État auprès du ministre de l'Éducation nationale et de la Jeunesse",
+   "Porte-parole du gouvernement",
+   "Ministre délégué chargé des Comptes publics",
+   "Député, 10e circonscription des Hauts-de-Seine (deuxième mandat, siège abandonné pour rester au gouvernement)",
+   "Ministre de l'Éducation nationale et de la Jeunesse",
+   "Premier ministre (démission acceptée le 16 juillet 2024, gouvernement chargé des affaires courantes jusqu'au 5 septembre 2024)",
+   "Député, 10e circonscription des Hauts-de-Seine (troisième mandat)",
+   "Président du groupe Ensemble pour la République, Assemblée nationale",
+   "Secrétaire général de Renaissance"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Interdiction de l'abaya et du qamis dans les établissements scolaires publics (ministre de l'Éducation, annoncée fin août 2023, appliquée dès la rentrée de septembre 2023)",
+    "assessment": "Le gouvernement l'a présentée comme une mesure de laïcité. Selon Wikipédia, 67 élèves ont été refusés à l'entrée à la rentrée. Des partis de gauche et des organisations musulmanes s'y sont opposés. Elle est souvent citée comme un acte marquant de son passage à l'Éducation. Seules des sources encyclopédiques ont été consultées, il manque donc une évaluation croisée de plusieurs médias de sensibilités différentes."
+   },
+   {
+    "what": "Réforme éducative du « Choc des savoirs », annoncée en décembre 2023 (dont les groupes de niveau en 6e et 5e) et expérimentation de l'uniforme scolaire dans une dizaine d'écoles, annoncée à l'automne 2023",
+    "assessment": "Les deux ont été lancées sous son autorité comme ministre de l'Éducation puis comme Premier ministre. Selon Wikipédia, les groupes de niveau ont été abandonnés environ deux ans plus tard comme inefficaces et l'expérimentation de l'uniforme a été abandonnée à l'été 2026. Ces décisions ont été prises par des gouvernements ultérieurs. Aucune source primaire ou seconde n'a été trouvée sur le résultat, qui est donc simplement rapporté, sans verdict."
+   },
+   {
+    "what": "Passage à Matignon (9 janvier - 16 juillet 2024, puis affaires courantes jusqu'au 5 septembre 2024)",
+    "assessment": "Il a commencé avec un gouvernement de 15 membres le 11 janvier 2024, passé à 35 membres le 8 février 2024. Plusieurs ministres avaient servi sous Nicolas Sarkozy ou venaient de l'UMP/LR. Selon Wikipédia en anglais, de nombreux médias l'ont qualifié de gouvernement le plus à droite du mandat de Macron. Ensemble est arrivé troisième avec 20,0 % au premier tour des élections législatives du 30 juin 2024. Attal a dit plus tard que huit mois, c'était trop peu pour mener ses projets à terme."
+   },
+   {
+    "what": "Décisions agricoles et environnementales comme Premier ministre (début 2024)",
+    "assessment": "Selon Wikipédia en anglais, son gouvernement a suspendu puis modifié le plan Ecophyto de réduction des pesticides sous la pression des agriculteurs, et réduit des lignes budgétaires environnementales dont le Fonds vert. Des associations environnementales et la gauche ont critiqué ces mesures. Aucune déclaration du gouvernement sur ses motivations ni aucune source d'une autre sensibilité n'ont été retrouvées, le tableau est donc unilatéral."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non étudié : aucun média de gauche n'a pu être consulté. Wikipédia rapporte que la gauche a critiqué l'interdiction de l'abaya et les reculs environnementaux de 2024.",
+   "right_media": "Non étudié : aucun média de droite n'a pu être consulté.",
+   "neutral_media": "Non étudié au-delà des synthèses encyclopédiques. Wikipédia en anglais rapporte qu'au début de son passage à Matignon, il était décrit comme l'une des personnalités politiques les plus populaires de France."
+  }
+ }
+}

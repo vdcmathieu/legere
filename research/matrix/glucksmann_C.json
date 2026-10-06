@@ -1,0 +1,333 @@
+{
+ "collect": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "eu7",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Advocates a common European defence with a 100 bn euro defence fund financed by common EU borrowing (2024 European campaign).",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: advocates a common European defence and a 100 billion euro defence fund via new European borrowing"
+     }
+    ],
+    "nuance": "Source is a secondary summary of the 2024 campaign, not a 2025-2026 primary source. The statement's clause about France losing military autonomy was not checked. Needs corroboration."
+   },
+   {
+    "id": "eu8",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports integrating Ukraine into the EU.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: supports the integration of Ukraine into the European Union"
+     }
+    ],
+    "nuance": "Secondary summary only; no dated 2025-2026 primary source was retrieved. Needs corroboration."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; web search budget was exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a 'TVA sociale' (raising VAT to cut wage contributions).",
+    "sources": [],
+    "nuance": "Verifier ran a brief Google News RSS check and found no item tying Glucksmann to a TVA sociale. His 2026 statements reject VAT cuts on fuel (see ene5) and favour taxing superprofits and the ultra-rich, which says nothing direct about a VAT-for-contributions swap. Left null."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on keeping the 15-20 h activity requirement for RSA recipients.",
+    "sources": [],
+    "nuance": "A Google News RSS check ('Glucksmann RSA', 'Glucksmann RSA heures') returned nothing on his own position. Left null."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on making naturalisation easier.",
+    "sources": [],
+    "nuance": "A Google News RSS check ('Glucksmann naturalisation') returned only unrelated items. Left null."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on receipts for identity checks.",
+    "sources": [],
+    "nuance": "A Google News RSS check ('Glucksmann récépissé contrôle') returned no items. Left null."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He has long called for a common European defence financed jointly: a 100 bn euro defence fund through new EU borrowing (2024) and a 500 bn euro common European loan (March 2025). No source we could check says he accepts a European army or a loss of French military autonomy.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "Il est en faveur d'une défense commune européenne ... la création d'un fonds de défense de 100 milliards d'euros, financé par un nouvel emprunt européen"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Glucksmann+d%C3%A9fense+europ%C3%A9enne&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "l'Opinion (headline via Google News)",
+      "outlet_lean": "centre-right",
+      "date": "2025-03-20",
+      "quote": "Défense européenne: Raphaël Glucksmann défend l'idée d'un «un emprunt commun de 500 milliards d'euros»"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Glucksmann+%22arm%C3%A9e+europ%C3%A9enne%22&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Le JDD (headline via Google News)",
+      "outlet_lean": "right",
+      "date": "2025-03-10",
+      "quote": "Soutien à l'Ukraine : Glucksmann suggère «un grand emprunt collectif européen de 500 milliards d'euros»"
+     }
+    ],
+    "nuance": "Support for the core of the statement (common defence, pooled funding and procurement) is clear and has been consistent from 2024 to 2025. The statement also asks for acceptance of a European army and a loss of French military autonomy. That part is not confirmed: the 'armée européenne' search returned no Glucksmann statement on it. Coded +1 instead of +2. Article bodies could not be opened because the Google News links are behind a consent and decoding wall, so the quotes are the headlines. Place publique describes itself as European federalist, which suggests +2 is possible, but that is the party line."
+   },
+   {
+    "id": "eu8",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports bringing Ukraine into the EU, according to a secondary summary. He is one of the most consistently pro-Ukraine figures on the French left.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "il soutient l'intégration de l'Ukraine à l'Union européenne"
+     }
+    ],
+    "nuance": "The Wikipedia wording was re-opened and confirmed. Searches turned up no dated 2025-2026 primary quote on EU accession specifically. The 2024 coverage (l'Opinion, Mar 2024: 'adhésions floues et lignes claires') suggests nuances inside the PS-PP camp that could not be read. The strong pro-Ukraine record makes +2 plausible, but the evidence is secondary, so confidence stays low. A primary 2025-2026 quote is needed."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct evidence found on guaranteed minimum (floor) prices for farmers.",
+    "sources": [],
+    "nuance": "Search found Sept 2026 coverage ('À la foire de Châlons-en-Champagne, Raphaël Glucksmann place les agriculteurs au cœur de son programme', ici.fr) and a 2024 Public Sénat comparison of farm programmes. None of the visible text mentions prix planchers, and the articles could not be opened. Left null, but this item is a good candidate for a rerun with full article access."
+   },
+   {
+    "id": "ene5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes cutting taxes on fuel. In April 2026 he called the RN's proposal to cut VAT a road to 'la faillite du pays'. In October 2026 he refused a cut in petrol taxes and argued for taxing oil companies' 'war profits' instead.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcjV3cV96b05aSnlBMXRPSElMWmxXZlZua1ZRVHJVVmhMdVo5Mldfd0E5V3ZUWVJlWnlVbFdJMmFsamtxbHVaZ3hIWGRXYWF1cUYxSW5fcVNKRUZVcld4MHE0THg5ZmZSY1lncUlVeHZ4Z0dfNy1nS3pLZ2l6aU1uNG1GSWt3X183WmhMNWJramdyVk5qTEhTdVZhcllHMUhjZk82X3RCRFR0T21jUG1wMGJZb3RCNk5QMU1FZXNhMmg3OHhTRm02NDR6aEFDOVdnN0lxcTZjMUQxcmViaDgxMVNyQW5TT1NqWWVmQzRkLV90cmlNUWRXOEpTbmRDRDZ5S0k0N0dBTGRxS25KSUFQZ191TmNPSkV6WDVwb3hkajFmREZNVGZPenVELWJWYjJQc2RpczNORV9YRm1ESWlzTjFSdDhTd0pyVlRHSG04dHM0Y2dsWkthY2ZLejJFTGpNdmhFbw?oc=5",
+      "outlet": "BFM (headline via Google News)",
+      "outlet_lean": "centre",
+      "date": "2026-04-23",
+      "quote": "fustige la proposition du RN de baisser la TVA qui conduirait à \"la faillite du pays\""
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUWk1dFVDUGlHSzB6Mnd0R0t1aElsd0xYVFhwRkdTeHJLWDQtNFQ4Rmhhd3FsYjBmUjlwMy0yblM0eTNKei1JbE9WTUJzWTFOa18xNXBDbTh4YUNrbzF3NkVFQU5EVVFvYklOdGl1VUV1NFllN0hKbWoycEFBZ25HaGs4NWlxUHEtTW0zQkhzYXhseE5RN2t2YW8yQjlXaFdwWXJQbVF4dzE1NzdCMzJ6blRCNmNBRjBoX0t6VkRicGVFRXdpNm9zMXNCX20wZU9ybHc5RjVhbWFiZ09LdkVlUTZnV1RndVhsWVhLcUZOS3pIdw?oc=5",
+      "outlet": "Capital (headline via Google News)",
+      "outlet_lean": "centre-right",
+      "date": "2026-10-02",
+      "quote": "«Le contribuable n'a pas à financer leurs week-ends», Raphaël Glucksmann refuse la baisse des taxes sur l'essence"
+     }
+    ],
+    "nuance": "The statement is close to the RN's 5.5% energy VAT proposal, which he explicitly attacked. The rejection is clear for fuel and for the RN VAT cut in general. Nothing specific was found on electricity or gas VAT. Boursorama (Sept 2026) reports he asked for 'much more substantial' targeted fuel aid, so he opposes the tax-cut route rather than relief altogether. The quotes are headlines because the article bodies could not be opened (Google News consent and decoding wall)."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement by Glucksmann found on privatising public broadcasting.",
+    "sources": [],
+    "nuance": "The Google News RSS check returned the 2026 Alloncle commission controversy and the left's general defence of public broadcasting, but no Glucksmann quote. His camp almost certainly opposes privatisation, but coding it would be inference from the party line. Left null."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit statement found on keeping or repealing the 2026 assisted-dying law.",
+    "sources": [],
+    "nuance": "The only items found are a March 2024 TV segment (Quotidien) where he spoke movingly about his parents' end of life (Toutelatele, Gala). The headlines do not state a policy position, and nothing dated after the law's July 2026 adoption was found. As an MEP he did not vote on the national law. Left null. The PS group pushed the law through (Libération, Feb 2026), so a rerun should look for a direct quote."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on banning religious symbols for parents on school trips.",
+    "sources": [],
+    "nuance": "Search returned only a 2020 Le Monde interview on Islamist fundamentalism and general 2019-2020 coverage of the debate, with no Glucksmann position on accompanying parents. A Sept 2026 item covers Olivier Faure's line on the veil at school, but that is not Glucksmann's view. Left null."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on banning religious symbols at university.",
+    "sources": [],
+    "nuance": "Brief search found nothing. Left null."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on ending selection at university entry.",
+    "sources": [],
+    "nuance": "The 'Glucksmann Parcoursup' search returned coverage of the October 2026 PS primary debates (e.g. 'colère lycéenne', a pledge of a single education minister), but nothing on abolishing selection. The October 2026 debates might hold relevant material, so a rerun is worth it. Left null."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on loosening building rules or the ZAN target.",
+    "sources": [],
+    "nuance": "Brief search found nothing specific. Left null."
+   }
+  ],
+  "verification_notes": [
+   "Tooling limits: the WebSearch budget was already exhausted (200/200) when verification started. Verification used WebFetch on Wikipedia, the place-publique.eu site and Google News RSS search feeds. Article bodies behind Google News links could not be opened (consent wall, and the decoder returned HTTP 429), so new sources quote headlines only. All cited URLs were actually fetched or appeared verbatim in the fetched feeds.",
+   "eu7: +2/low/programme -> +1/medium/statement: the cited Wikipedia text was re-opened and confirmed (common defence, 100 bn fund through EU borrowing). A March 2025 l'Opinion/JDD headline (500 bn common European loan) adds a newer source. Nothing confirms support for a European army or accepting a loss of French military autonomy, which the statement explicitly requires, so this is an off-by-one correction. The source is a Wikipedia summary, not his programme, so evidence_type changes from programme to statement.",
+   "eu8: +2/low kept. The Wikipedia quote was re-opened and confirmed verbatim. No 2025-2026 primary source was found, so confidence stays low. Nuance updated.",
+   "ene5: null -> -2/medium/statement: evidence exists. A BFM headline (23 Apr 2026) says he attacked the RN's VAT-cut proposal as leading to 'la faillite du pays'. A Capital headline (2 Oct 2026) says he refuses to cut taxes on petrol.",
+   "eco7, trav3, imm8, sec6, ecol6, ins6, soc1, soc3, soc6, edu5, san5: null kept after a brief Google News RSS search for each. No direct candidate position was found. Nuance updated with what was searched. ecol6, soc1 and edu5 are flagged for a rerun with full article access (Sept 2026 farm-fair coverage, July 2026 assisted-dying law, Oct 2026 primary debates).",
+   "General: the draft's 'web search budget exhausted' summaries were replaced with the verifier's actual search outcome."
+  ]
+ }
+}

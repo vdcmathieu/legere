@@ -1,0 +1,454 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "L'Avenir en commun s'engage à rétablir et à renforcer l'ISF, en y ajoutant une composante climatique. La Facture 2027 (mai 2026) confirme que cette ligne est maintenue.",
+   "nuance": "Le texte de référence est l'édition 2022 de l'AEC ; La Facture 2027 (mai 2026) montre que la mesure est reprise dans le programme 2027. Les pages des chapitres de l'édition 2025 de l'AEC sur melenchon2027.fr renvoyaient une erreur 404."
+  },
+  {
+   "id": "eco2",
+   "summary": "LFI soutient la taxe Zucman (un impôt plancher de 2 % sur les patrimoines supérieurs à 100 millions d'euros). La proposition de loi portée par l'ensemble de la gauche a été adoptée à l'Assemblée le 20 février 2025, et la taxe a été rejetée sous forme d'amendement budgétaire le 31 octobre 2025.",
+   "nuance": "Le brouillon citait La Facture 2027 pour cette affirmation, mais cette page ne mentionne pas Zucman ; la source a donc été remplacée. Le soutien repose sur la position du groupe LFI ; le scrutin public du groupe et une citation personnelle de Mélenchon n'ont pas été consultés. La proposition d'ISF de LFI va plus loin que la taxe Zucman."
+  },
+  {
+   "id": "eco3",
+   "summary": "LFI conditionne les aides publiques aux entreprises à des objectifs sociaux et écologiques et taxe les surprofits ; elle ne propose pas de baisser les impôts de production ni les cotisations patronales.",
+   "nuance": "Aucune déclaration directe sur les impôts de production ou les cotisations patronales n'a été trouvée ; le codage est déduit de l'orientation du programme."
+  },
+  {
+   "id": "eco4",
+   "summary": "Le programme préconise un « protectionnisme écologique et solidaire » : des droits de douane fondés sur des critères écologiques, des mesures antidumping d'urgence pour les industries stratégiques et une taxe kilométrique aux frontières.",
+   "nuance": "Les droits de douane sont conçus autour de critères écologiques et d'industries stratégiques plutôt que de quotas sectoriels classiques. L'arbitrage avec la hausse des prix n'est pas abordé. Édition 2022."
+  },
+  {
+   "id": "eco5",
+   "summary": "Le programme reviendrait sur les privatisations, y compris explicitement les autoroutes et les aéroports, et des synthèses de 2026 mentionnent la nationalisation d'EDF, d'ADP et des banques mutualistes.",
+   "nuance": "Les autoroutes sont désormais confirmées dans le texte de référence du programme."
+  },
+  {
+   "id": "eco6",
+   "summary": "LFI augmenterait les droits de succession sur les plus gros patrimoines et plafonnerait l'héritage à environ 12 millions d'euros. C'est le contraire d'une baisse générale.",
+   "nuance": "La Facture (2026) évoque une réforme des successions favorable aux transmissions modestes, un allègement en bas de l'échelle est donc possible. L'orientation d'ensemble reste une hausse de la fiscalité."
+  },
+  {
+   "id": "ret1",
+   "summary": "La retraite à 60 ans après 40 annuités de cotisation est une mesure phare, toujours mise en avant en 2026.",
+   "nuance": "Cela va au-delà de 62 ans. La page melenchon2027.fr/programme/decouvrir citée dans le brouillon n'est qu'une page d'accueil et ne contient pas la mesure citée ; elle a donc été remplacée."
+  },
+  {
+   "id": "ret2",
+   "summary": "S'oppose à tout relèvement de l'âge de départ à la retraite et veut revenir à 60 ans.",
+   "nuance": "Le programme finance les retraites par une hausse des cotisations, et non par un relèvement de l'âge."
+  },
+  {
+   "id": "ret3",
+   "summary": "LFI défend la retraite par répartition, financée par une hausse des cotisations ; elle ne propose pas de capitalisation.",
+   "nuance": "Aucune déclaration explicite rejetant une part de capitalisation n'a été trouvée ; le codage repose sur la ligne ancienne de LFI."
+  },
+  {
+   "id": "fin1",
+   "summary": "Rejette l'austérité fondée sur la dette (« refuser le chantage ») et affirme qu'elle désobéirait aux règles européennes qui bloquent le programme.",
+   "nuance": "L'URL melenchon2027.fr/plans-2022/europe/ du brouillon renvoie une erreur 404 et a été remplacée. L'affirmation du brouillon selon laquelle La Grande Conversation aurait rapporté un plan d'annulation de la dette en septembre 2026 a été supprimée, car cet article (19 août 2026) ne porte que sur la politique étrangère."
+  },
+  {
+   "id": "fin2",
+   "summary": "Le programme propose d'embaucher davantage de fonctionnaires (par exemple dans la justice) et de revaloriser leur rémunération ; il ne prévoit aucune réduction de leurs effectifs.",
+   "nuance": "Édition 2022."
+  },
+  {
+   "id": "fin3",
+   "summary": "Qualifie la dette publique de prétexte à l'austérité, veut que la BCE convertisse la dette de l'État qu'elle détient en dette perpétuelle à taux zéro, et soutient un investissement public massif et des services publics forts.",
+   "nuance": "La seule source du brouillon (La Grande Conversation) ne contient rien sur la dette et a été supprimée, de même que l'affirmation non vérifiée sur la Banque de France. Le programme traite la dette comme un obstacle inexistant plutôt que de dire explicitement « plus de dette »."
+  },
+  {
+   "id": "fin4",
+   "summary": "LFI s'oppose aux règles de déficit et à l'austérité, elle s'opposerait donc à une règle d'or constitutionnelle.",
+   "nuance": "Aucune source consultée ne traite directement d'une règle d'or constitutionnelle ; le codage repose sur la ligne du parti et sur le programme anti-austérité (voir fin1)."
+  },
+  {
+   "id": "trav1",
+   "summary": "SMIC à 1 600 euros nets dès le premier jour dans la version 2027, contre 1 400 euros nets en 2022.",
+   "nuance": "Le chiffre est passé de 1 400 euros (2022) à 1 600 euros (synthèses 2027)."
+  },
+  {
+   "id": "trav2",
+   "summary": "Le programme rétablirait une assurance chômage « protectrice », reviendrait sur les réformes Macron et verserait les allocations dès le premier jour.",
+   "nuance": "Édition 2022 ; il supprime aussi l'obligation d'accepter une « offre raisonnable d'emploi »."
+  },
+  {
+   "id": "trav3",
+   "summary": "LFI s'est opposée à la loi « plein emploi » de 2023, qui a créé les 15 à 20 heures d'activité pour les bénéficiaires du RSA. Son programme propose une garantie de revenu au niveau du seuil de pauvreté. Aucune promesse explicite de supprimer l'obligation d'heures n'a été vérifiée.",
+   "nuance": "Selon la consigne, -2 exige une promesse de supprimer l'obligation, et aucune n'a été trouvée. Le programme est antérieur à la loi de 2023 et ne dit rien des conditions d'activité. Le vote de LFI contre la loi n'a pas été vérifié sur un scrutin public lors de cette session. D'où -1 (opposition, sans engagement de suppression confirmé)."
+  },
+  {
+   "id": "trav4",
+   "summary": "Le programme rétablit la semaine de 35 heures, ramène à 32 heures le travail pénible et de nuit, et vise à généraliser les 32 heures par la négociation collective.",
+   "nuance": "Il s'agit de l'édition 2022 ; elle n'a pas été confirmée dans les synthèses de 2026. La généralisation passe par la négociation plutôt que par une semaine légale de 32 heures."
+  },
+  {
+   "id": "imm1",
+   "summary": "Le programme faciliterait l'obtention des visas, régulariserait de nombreuses personnes sans papiers et ferait de la carte de séjour de 10 ans le titre de séjour de droit commun. Il refuse les plafonds chiffrés d'immigration légale.",
+   "nuance": "Édition 2022 ; MonVote2027 (2026) est cohérent avec cette position."
+  },
+  {
+   "id": "imm2",
+   "summary": "Soutient un référendum d'initiative citoyenne (RIC) sur tout sujet mais ne propose pas de référendum sur l'immigration et rejette les agendas migratoires restrictifs.",
+   "nuance": "Aucune déclaration directe sur un référendum sur l'immigration n'a été trouvée. Un RIC pourrait en principe en permettre un."
+  },
+  {
+   "id": "imm3",
+   "summary": "LFI s'oppose à toute suppression ou restriction de l'AME.",
+   "nuance": "MonVote2027 cite un article daté du 6 novembre 2025 ; le vote primaire n'a pas été consulté."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le programme régulariserait les travailleurs sans papiers, les étudiants et les parents d'enfants scolarisés.",
+   "nuance": "Plus large que les métiers en tension."
+  },
+  {
+   "id": "imm5",
+   "summary": "LFI rejette la préférence nationale et défend l'égalité universelle des droits.",
+   "nuance": "Aucune mention explicite d'une priorité d'accès au logement social ; le codage repose sur le principe universaliste et sur la ligne du parti."
+  },
+  {
+   "id": "imm6",
+   "summary": "Le programme garantit le droit du sol intégral pour tout enfant né en France.",
+   "nuance": "Édition 2022."
+  },
+  {
+   "id": "imm7",
+   "summary": "Le programme donne aux résidents étrangers le droit de vote aux élections locales.",
+   "nuance": "Le brouillon indiquait que cela se limitait aux résidents en situation régulière, mais aucune des deux sources n'énonce cette limite."
+  },
+  {
+   "id": "sec1",
+   "summary": "LFI s'oppose aux peines planchers et met l'accent sur la surpopulation carcérale et la réinsertion.",
+   "nuance": "L'agrégateur attribue cette position à un vote de l'Assemblée du 17 septembre 2024, mais ce scrutin public n'a pu être vérifié. Le type de preuve a été rétrogradé de « vote » à « ligne du parti »."
+  },
+  {
+   "id": "sec2",
+   "summary": "LFI s'oppose au jugement des mineurs comme des adultes et veut davantage de personnels de protection judiciaire de la jeunesse (PJJ).",
+   "nuance": "Aucune source consultée sur ce point précis ; ligne du parti. Le programme ne mentionne que le recrutement de personnels de la PJJ."
+  },
+  {
+   "id": "sec3",
+   "summary": "Le programme supprimerait l'IGPN et l'IGGN et les remplacerait par une autorité indépendante rattachée au Défenseur des droits.",
+   "nuance": "MonVote2027 indique que la mesure demeure dans le programme 2025."
+  },
+  {
+   "id": "sec4",
+   "summary": "Légaliser le cannabis récréatif et le réguler au moyen d'un monopole d'État.",
+   "nuance": "Les sources datent de 2021-2022. Une synthèse de 2026 (TestPolitique) parle de « dépénalisation », mais aucun revirement plus récent n'a été trouvé."
+  },
+  {
+   "id": "sec5",
+   "summary": "Le programme interdirait toute reconnaissance faciale dans l'espace public, y compris à titre expérimental.",
+   "nuance": "La reconnaissance faciale est un sous-ensemble de la vidéosurveillance par IA ; l'opposition plus large relève de la ligne du parti."
+  },
+  {
+   "id": "eu1",
+   "summary": "Le programme réaffirmerait que les principes fondamentaux de la Constitution l'emportent sur le droit de l'UE, et appliquerait une règle de non-régression face aux normes européennes moins ambitieuses.",
+   "nuance": "Cela vise les principes constitutionnels et la non-régression sociale ou écologique, et non une primauté générale de tout le droit français, d'où +1. L'URL en 404 du brouillon a été remplacée."
+  },
+  {
+   "id": "eu2",
+   "summary": "Aucun élément trouvé sur l'emprunt commun européen.",
+   "nuance": "Le brouillon avait codé 0 sans source. Selon les règles de codage, 0 signifie explicitement mitigé ; l'absence de preuve doit donc être codée null."
+  },
+  {
+   "id": "eu3",
+   "summary": "Le programme rend la contribution de la France au budget de l'UE conditionnelle et en fait un levier de négociation.",
+   "nuance": "Il s'agit d'un levier conditionnel, et non d'un engagement ferme à la réduire, d'où +1. Édition 2022."
+  },
+  {
+   "id": "eu4",
+   "summary": "Le programme s'appuie sur le veto de la France comme levier, ce qui implique de conserver l'unanimité.",
+   "nuance": "Le passage sur le veto concerne le commerce et l'élargissement, et non la politique étrangère en particulier ; le codage est donc déduit."
+  },
+  {
+   "id": "eu5",
+   "summary": "Le programme énonce une stratégie explicite de désobéissance aux règles européennes qui le bloquent.",
+   "nuance": "L'URL melenchon2027.fr/plans-2022/europe/ du brouillon renvoie une erreur 404 et a été remplacée."
+  },
+  {
+   "id": "eu6",
+   "summary": "La stratégie consiste à rester dans l'UE : négocier une modification des traités tout en désobéissant aux règles bloquantes, puis soumettre tout accord à référendum. La sortie n'est pas proposée.",
+   "nuance": "Aucune citation explicite « nous ne sortirons pas » n'a été consultée ; -1 est donc conservé. L'option de sortie du « plan B » de 2017 n'apparaît pas dans le texte de 2022. L'URL en 404 du brouillon a été remplacée."
+  },
+  {
+   "id": "int1",
+   "summary": "En mars 2024, LFI a voté contre l'accord de sécurité France-Ukraine, qui prévoyait jusqu'à 3 milliards d'euros d'aide militaire. En 2022, Mélenchon a regretté les livraisons d'armes de l'UE, les qualifiant de cobelligérance. Le programme 2027 met l'accent sur un cadre diplomatique pour un cessez-le-feu et ne dit rien de l'aide militaire.",
+   "nuance": "Aucune déclaration explicite de 2025-2026 contre les livraisons d'armes n'a été trouvée. Le vote de 2024 était une consultation non contraignante au titre de l'article 50-1. Le programme 2027 est muet sur l'aide ; -2 repose donc sur des éléments de 2022-2024 et la confiance est abaissée à moyenne."
+  },
+  {
+   "id": "int2",
+   "summary": "Il accepterait des troupes d'interposition uniquement sous autorité de l'ONU et sous commandement militaire de l'ONU, et s'oppose à un déploiement de l'OTAN ou d'une coalition des volontaires.",
+   "nuance": "Son ouverture à une force de l'ONU est conditionnelle, et il rejette le format français ou européen que la proposition sous-entend. Codé -1 plutôt que 0."
+  },
+  {
+   "id": "int3",
+   "summary": "Le programme appelle à quitter immédiatement le commandement intégré de l'OTAN, puis l'organisation elle-même par étapes.",
+   "nuance": "Conforme à L'Avenir en commun 2022."
+  },
+  {
+   "id": "int4",
+   "summary": "Le programme préconise des sanctions contre le gouvernement Netanyahou, la fin des accords de coopération économique avec Israël et un embargo sur les armes. LFI a aussi soutenu une initiative citoyenne européenne visant à suspendre l'accord d'association UE-Israël.",
+   "nuance": "La position est bien établie, à la fois dans le programme et dans les déclarations récentes."
+  },
+  {
+   "id": "int5",
+   "summary": "Aucune position explicite sur un objectif de 3 % n'a été trouvée. Le programme donne la priorité à un secteur public de l'armement et au non-alignement. Il s'est demandé si la dette de guerre est une subvention au capitalisme.",
+   "nuance": "Le programme ne fixe aucun chiffre de dépenses. -1 est une inférence ; la confiance est donc faible."
+  },
+  {
+   "id": "int6",
+   "summary": "Le programme crée un service citoyen obligatoire de neuf mois (« conscription citoyenne ») pour les moins de 25 ans, rémunéré au SMIC. Le service militaire est une composante facultative de ce service obligatoire.",
+   "nuance": "La proposition dit « service militaire OU national ». Il soutient un service national obligatoire dont la part militaire est facultative, ce qui correspond pleinement à la proposition."
+  },
+  {
+   "id": "int7",
+   "summary": "En 2022, il a mis en question des sanctions comme l'exclusion de SWIFT et appelé à la négociation. Le programme 2027 vise un cessez-le-feu et le retrait des troupes russes. Aucune déclaration explicite sur une levée progressive des sanctions en échange de la paix n'a été trouvée.",
+   "nuance": "Les éléments sont mitigés et anciens ; le codage est donc 0 avec une confiance faible."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Le programme 2027 appelle à un moratoire sur les ZFE dans leur forme actuelle, socialement inégalitaire. Le 28 mai 2025, le groupe LFI a voté avec LR, le RN et l'UDR l'article supprimant les ZFE.",
+   "nuance": "Le vote du groupe en faveur de la suppression pointe vers +2, mais le programme plus récent parle de moratoire et de refonte. Codé +1 d'après le programme actuel."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le programme interdit immédiatement les pesticides les plus dangereux (glyphosate, néonicotinoïdes). La synthèse indique qu'il interdit aussi les importations de produits en contenant.",
+   "nuance": "L'interdiction est unilatérale et ne dépend pas des concurrents étrangers, ce qui correspond à la proposition."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Le programme 2027 n'a pas de position sur la fin des ventes en 2035. Il met l'accent sur la limitation des SUV et la construction de véhicules électriques légers en France.",
+   "nuance": "La consultation du chapitre climat n'a révélé aucune mesure sur « 2035 » ou les véhicules « thermiques ». Le budget de recherche étant épuisé, les votes du groupe au Parlement européen n'ont pas été vérifiés."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le programme met fin aux exonérations de taxe sur le kérosène et supprime les vols pour lesquels une alternative ferroviaire prend moins de quatre heures.",
+   "nuance": "La mesure sur le kérosène est présentée à propos du dumping du e-commerce. Aucune taxe sur les jets privés n'a été trouvée dans la synthèse. La mesure sur les vols courts est une interdiction et non une taxe."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Le programme repose sur la planification écologique et sur une « règle verte » constitutionnelle : ne pas prendre à la nature plus qu'elle ne peut reconstituer.",
+   "nuance": "Le programme ne place pas explicitement le climat au-dessus de la croissance. Cette hiérarchie est déduite de la règle verte, qui, en tant que règle constitutionnelle, l'emporte sur la croissance."
+  },
+  {
+   "id": "ene1",
+   "summary": "Le programme prévoit la sortie du nucléaire et l'abandon des projets d'EPR.",
+   "nuance": "Certaines figures de LFI sont en interne favorables au nucléaire."
+  },
+  {
+   "id": "ene2",
+   "summary": "Le programme prévoit la sortie du nucléaire et planifie le démantèlement et la reconversion des sites nucléaires.",
+   "nuance": "La sortie est planifiée, ce qui correspond à « progressivement »."
+  },
+  {
+   "id": "ene3",
+   "summary": "Le programme comprend un plan d'urgence pour l'éolien en mer et sécurise le développement de la filière.",
+   "nuance": "Aucune mesure sur l'éolien terrestre n'a été trouvée, mais rien n'indique un arrêt de l'éolien."
+  },
+  {
+   "id": "ene4",
+   "summary": "Le programme annule la libéralisation du marché de l'électricité et du gaz, renationalise EDF et Engie, et rétablit des tarifs réglementés fondés sur les coûts de production.",
+   "nuance": "La synthèse ne dit jamais explicitement « quitter le marché européen de l'électricité ». La formule « désobéir aux règles européennes » du brouillon n'a pas été retrouvée dans le programme. La tarification nationale fondée sur les coûts constitue le fond de la proposition ; le codage reste donc +2 avec une confiance moyenne."
+  },
+  {
+   "id": "ins1",
+   "summary": "Le programme convoque une Constituante pour une VIe République dotée d'« un régime parlementaire stable ».",
+   "nuance": "Le caractère parlementaire est explicite dans le programme."
+  },
+  {
+   "id": "ins2",
+   "summary": "Le programme élit l'Assemblée nationale à la proportionnelle.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "ins3",
+   "summary": "Le programme crée un RIC permettant de révoquer des élus, de proposer ou d'abroger des lois et de modifier la Constitution.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "ins5",
+   "summary": "Le RIC du programme peut proposer ou abroger toute loi, et les référendums deviennent obligatoires pour les modifications constitutionnelles et les nouveaux traités européens. Aucun soutien explicite à des référendums sur l'immigration ou la justice n'a été trouvé.",
+   "nuance": "Un RIC à portée générale couvre implicitement ces sujets, mais la proposition reprend une idée de la droite sur l'immigration que LFI ne soutient pas en tant que telle."
+  },
+  {
+   "id": "ins4",
+   "summary": "Le programme supprime les procédures de vote forcé comme l'article 49.3.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "soc1",
+   "summary": "Le programme inscrirait dans la Constitution le droit de mourir dans la dignité, y compris avec assistance. Cela va plus loin que le maintien de la loi de 2026.",
+   "nuance": "Les votes de 2026 étaient des votes libres dans tous les groupes (Wikipédia en français, article sur la XVIIe législature) ; aucun vote de ligne de groupe n'est donc affirmé. Le slug d'URL de la section 56 est déduit du modèle du site ; le texte lui-même a été lu dans la section 56 de laec.fr."
+  },
+  {
+   "id": "soc2",
+   "summary": "LFI s'oppose aux restrictions du port du voile dans l'espace public. Le programme insiste sur la liberté de conscience et ne contient aucune interdiction du voile.",
+   "nuance": "Aucune déclaration directe sur une interdiction générale du voile n'a été consultée lors de cette session. Le codage repose sur la ligne bien connue du parti ; la confiance est donc faible."
+  },
+  {
+   "id": "soc3",
+   "summary": "LFI définit la laïcité comme s'imposant à l'État et non aux usagers, et met en garde contre son usage pour cibler les musulmans. Elle s'oppose à l'interdiction des signes religieux pour les parents lors des sorties scolaires.",
+   "nuance": "Le programme ne contient aucune mesure spécifique sur les parents accompagnateurs de sorties scolaires. Le codage repose sur la ligne générale de LFI en matière de laïcité et sur son opposition connue à de tels amendements, qui n'a pas été revérifiée en direct. Confiance faible."
+  },
+  {
+   "id": "soc4",
+   "summary": "La laïcité de LFI est centrée sur la neutralité de l'État et la liberté de conscience. Le programme associe la liberté de conscience à une laïcité « stricte » visant le financement public des cultes.",
+   "nuance": "La laïcité « stricte » du programme vise l'État, par exemple l'absence d'argent public pour les édifices religieux, et non l'expression des citoyens. Aucune déclaration directe n'a été consultée."
+  },
+  {
+   "id": "soc5",
+   "summary": "Le programme rejette explicitement la GPA et place l'intérêt supérieur de l'enfant en premier.",
+   "nuance": "Le refus est sans réserve, il couvre donc aussi la GPA non commerciale."
+  },
+  {
+   "id": "edu1",
+   "summary": "Le programme suspend l'expérimentation de l'uniforme scolaire.",
+   "nuance": "Mettre fin même à l'expérimentation constitue une opposition claire à l'uniforme obligatoire."
+  },
+  {
+   "id": "edu2",
+   "summary": "Le programme réduit partout les effectifs des classes pour passer sous la moyenne européenne de 19 élèves, avec un recrutement systématique d'enseignants.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "edu3",
+   "summary": "Le programme supprime les groupes de niveau au collège et maintient des classes hétérogènes.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "edu4",
+   "summary": "Le programme applique un malus sur le financement public des établissements privés sous contrat qui contribuent à la ségrégation sociale, et abroge la loi Carle.",
+   "nuance": "Correspondance quasi mot pour mot avec la proposition."
+  },
+  {
+   "id": "edu5",
+   "summary": "Une mesure clé du programme garantit à tout titulaire du baccalauréat l'accès à la formation de son choix sans sélection, en démantelant Parcoursup. L'édition 2025 maintient la suppression de Parcoursup.",
+   "nuance": "L'expression « sans sélection » est explicite ; la note de la consigne sur la distinction entre -2 et +2 est donc satisfaite : il ne s'agit pas seulement de remplacer la plateforme."
+  },
+  {
+   "id": "san1",
+   "summary": "Le programme régule les lieux d'installation des médecins, rend la permanence des soins obligatoire et recrute des médecins publics salariés pour les zones sous-dotées.",
+   "nuance": "Réguler le lieu d'installation est une contrainte pesant sur les nouveaux médecins, mais pas explicitement l'obligation d'exercer quelques années dans les zones sous-dotées. Codé +1 pour ce soutien partiel."
+  },
+  {
+   "id": "san2",
+   "summary": "Le programme abroge la hausse de 2024 des franchises médicales et vise une couverture « 100 % Sécu ».",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "san3",
+   "summary": "Le programme plafonne les loyers partout en France et les baisse dans les grandes villes.",
+   "nuance": "Cela va plus loin que la proposition, qui ne couvre que les zones tendues."
+  },
+  {
+   "id": "san4",
+   "summary": "Le programme renationalise la SNCF et refuse la mise en concurrence des lignes ferroviaires. Il annule la libéralisation du marché de l'énergie et renationalise EDF et Engie.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "eco7",
+   "summary": "Le programme va à l'opposé de la « TVA sociale ». Il baisse la TVA sur les biens essentiels et finance cette mesure par une « TVA grand luxe ». Aucune hausse générale de la TVA n'est proposée.",
+   "nuance": "Aucune déclaration explicite sur la « TVA sociale » n'a été trouvée. Le codage est déduit d'une mesure du programme allant en sens inverse (TVA réduite sur les biens essentiels, financée par la taxation des produits de luxe). La source est l'édition 2022 : les chapitres de l'édition 2025 n'ont pu être récupérés, car les URL des chapitres de melenchon2027.fr renvoient une erreur 404. Confiance faible."
+  },
+  {
+   "id": "imm8",
+   "summary": "Le programme promet explicitement de faciliter l'accès à la nationalité française, en plus du droit du sol intégral et de la régularisation des travailleurs.",
+   "nuance": "La mesure couvre l'accès à la nationalité en général, ce qui inclut la naturalisation des résidents légaux de longue durée. La source est l'édition 2022 ; le texte de 2025 n'a pu être récupéré."
+  },
+  {
+   "id": "sec6",
+   "summary": "Le programme comprend explicitement un récépissé de contrôle d'identité pour lutter contre le contrôle au faciès, avec formation, suivi et sanctions.",
+   "nuance": "Mesure reprise textuellement de l'édition 2022. L'affirmation du brouillon sur des propositions de loi de LFI n'a pas été vérifiée et a été supprimée. Aucun signe de revirement, mais le texte de l'édition 2025 n'a pu être récupéré ; la confiance est donc moyenne."
+  },
+  {
+   "id": "eu7",
+   "summary": "Le programme appelle à quitter l'OTAN et à construire une défense nationale « indépendante, républicaine et populaire ». Il donne la priorité à l'achat de matériel militaire français et à la propriété publique de l'industrie d'armement, ce qui est l'opposé d'une défense européenne mutualisée.",
+   "nuance": "Le programme ne mentionne pas explicitement d'« armée européenne ». Le codage repose sur sa ligne de défense souveraine et de commande publique nationale, qui entre directement en conflit avec l'abandon de l'autonomie militaire. La source est l'édition 2022 ; aucune déclaration de 2025-2026 n'a été récupérée."
+  },
+  {
+   "id": "eu8",
+   "summary": "Le programme utiliserait le veto de la France pour bloquer tout nouvel élargissement de l'UE sans harmonisation sociale, fiscale et environnementale préalable. Il s'agit d'une opposition conditionnelle, qui s'appliquerait à l'adhésion de l'Ukraine.",
+   "nuance": "Il s'agit d'une condition générale à l'élargissement, et non d'une déclaration sur l'Ukraine en particulier. Aucune déclaration de Mélenchon de 2025-2026 sur l'adhésion de l'Ukraine n'a été récupérée. S'il s'y est depuis opposé catégoriquement, le codage serait -2."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Le programme garantit explicitement aux agriculteurs des prix rémunérateurs grâce à des prix planchers et interdit la vente à perte.",
+   "nuance": "Repris textuellement de l'édition 2022. Il s'agit d'une revendication ancienne de LFI et rien n'indique un revirement."
+  },
+  {
+   "id": "ene5",
+   "summary": "Le programme baisse la TVA sur les biens essentiels et bloque les prix des produits de première nécessité. Aucun taux spécifique de TVA à 5,5 % sur l'électricité, le gaz et les carburants n'a été trouvé.",
+   "nuance": "Soutien partiel, déduit : le programme ne dit pas si l'énergie compte comme un « produit essentiel ». L'affirmation du brouillon selon laquelle LFI se méfie des subventions aux carburants n'avait pas de source et a été supprimée. Non vérifié pour 2025-2026."
+  },
+  {
+   "id": "ins6",
+   "summary": "LFI défend l'audiovisuel public. Son programme maintient France Télévisions et Radio France dans le secteur public, avec des présidents élus par le Parlement, et rien n'y laisse envisager une privatisation.",
+   "nuance": "Le programme présuppose la propriété publique mais ne contient aucun engagement explicite contre la privatisation. Les votes de LFI contre la réforme de la holding de 2025 n'ont pas été vérifiés lors de cette session."
+  },
+  {
+   "id": "soc6",
+   "summary": "LFI s'oppose à l'extension des interdictions de signes religieux aux étudiants à l'université, conformément à sa conception selon laquelle la laïcité s'impose à l'État et non aux usagers.",
+   "nuance": "Aucune déclaration propre à l'université n'a été récupérée. Déduit de la doctrine du programme en matière de laïcité et de la ligne du parti. Confiance faible."
+  },
+  {
+   "id": "san5",
+   "summary": "Le programme s'engage à lutter contre l'artificialisation des sols et à construire des logements publics aux normes écologiques les plus ambitieuses. Les deux vont directement à l'encontre d'un assouplissement des règles de construction et de l'objectif ZAN.",
+   "nuance": "La source est l'édition 2022. Les votes de LFI sur les textes de 2025-2026 assouplissant le ZAN n'ont pas été vérifiés lors de cette session."
+  }
+ ],
+ "record": {
+  "bio": "Jean-Luc Mélenchon est un homme politique français né en 1951. Il a passé une trentaine d'années au Parti socialiste, où il a été sénateur de l'Essonne et ministre délégué à l'Enseignement professionnel (2000-2002), a quitté le PS en 2008 pour cofonder le Parti de Gauche, puis a fondé La France insoumise (LFI) en 2016. Il a été député européen de 2009 à 2017 et député des Bouches-du-Rhône de 2017 à 2022, et s'est présenté à l'élection présidentielle en 2012 (quatrième), 2017 (quatrième) et 2022 (troisième). Le 3 mai 2026, il a annoncé une quatrième candidature pour 2027, fondée sur une version actualisée de L'Avenir en commun et sur une VIe République issue d'une assemblée constituante.",
+  "offices": [
+   "Conseiller général de l'Essonne (canton de Massy-Ouest)",
+   "Sénateur de l'Essonne",
+   "Adjoint au maire de Massy",
+   "Conseiller général de l'Essonne et président délégué du conseil général (sans en être le président)",
+   "Ministre délégué à l'Enseignement professionnel (gouvernement Jospin), du 27 mars 2000 au 6 mai 2002",
+   "Sénateur de l'Essonne",
+   "Député européen",
+   "Député des Bouches-du-Rhône (4e circonscription)",
+   "Président du groupe LFI à l'Assemblée nationale",
+   "Cofondateur du Parti de Gauche (2008) ; fondateur et dirigeant de La France insoumise"
+  ],
+  "legal": [
+   "Rébellion, provocation et intimidation envers l'autorité judiciaire lors des perquisitions du 16 octobre 2018 au siège de LFI : jugé à Bobigny les 19 et 20 septembre 2019 et condamné le 9 décembre 2019 à 3 mois d'emprisonnement avec sursis et 8 000 euros d'amende. Il n'a pas fait appel ; la condamnation est donc définitive.",
+   "Affaire des assistants parlementaires européens (soupçon d'utilisation d'assistants payés par le Parlement européen pour le Parti de Gauche, 2009-2017 ; enquête préliminaire en juillet 2017, information judiciaire à partir de novembre 2018). Les juges d'instruction ont clos l'instruction le 26 mai 2026 sans mettre Mélenchon en examen. Deux anciens assistants ont été placés sous le statut de témoin assisté. Telos rapporte qu'aucun élément n'a établi son implication directe ni un système organisé. Aucune ordonnance formelle de non-lieu n'a été trouvée lors de cette vérification, mais, aucune personne n'étant mise en examen, aucun procès ne peut suivre."
+  ],
+  "reversals": [
+   {
+    "topic": "Union européenne / Maastricht",
+    "before": "1992 : a appelé à voter oui au traité de Maastricht, le qualifiant de « compromis de gauche » et présentant la monnaie unique comme un instrument de civilisation européenne.",
+    "after": "A fait campagne contre le traité constitutionnel de 2005 et a dit plus tard : « ce sont les opposants à ce traité qui avaient raison ». Propose aujourd'hui un « Plan A / Plan B » (renégocier les traités ou leur désobéir), décrit comme « ni Frexit, ni Europe libérale »."
+   },
+   {
+    "topic": "Russie / Ukraine",
+    "before": "2014 : a qualifié l'annexion de la Crimée d'« absolument prévisible » et s'est opposé aux sanctions contre la Russie.",
+    "after": "Février 2022 : a condamné l'invasion russe tout en attribuant à l'OTAN une part de responsabilité ; en juin 2022, il approuvait les livraisons d'armes, affirmant le droit de l'Ukraine à se défendre, tout en s'opposant à une implication militaire française plus poussée."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Ministre délégué à l'Enseignement professionnel (2000-2002) : a réformé les certificats d'aptitude professionnelle (CAP) et la validation des acquis de l'expérience, et créé le label « lycée des métiers ».",
+    "assessment": "Des sources encyclopédiques lui attribuent des réformes concrètes dans un portefeuille de ministre délégué. Le bilan est court (environ deux ans) et ancien, et aucune source d'autre sensibilité n'a été consultée sur son impact."
+   },
+   {
+    "what": "A présidé le groupe LFI à l'Assemblée nationale (juin 2017 - octobre 2021) et construit l'alliance de gauche de la NUPES pour les élections législatives de 2022 (131 sièges selon Wikipédia en français ; les totaux varient selon la façon de compter les députés apparentés). LFI a ensuite participé au Nouveau Front populaire de 2024, qui a obtenu une majorité relative ; LFI a proposé son nom pour Matignon, mais les autres partenaires de la coalition l'ont rejeté.",
+    "assessment": "Un bilan significatif en matière de construction de coalition et d'opposition, même s'il n'a exercé aucun pouvoir exécutif. Les scrutins publics n'ont pas été vérifiés."
+   },
+   {
+    "what": "Programme 2027 (L'Avenir en commun actualisé) : SMIC net à 1 600 euros, retraite à 60 ans après 40 annuités de cotisation, blocage des prix des biens essentiels et de l'énergie, impôt de solidarité sur la fortune (ISF) renforcé, VIe République par une assemblée constituante, et sortie du nucléaire d'ici 2050.",
+    "assessment": "Il ne s'agit que de promesses, tirées d'une synthèse d'un agrégateur secondaire et non du texte de référence du programme. Les chiffrages sont contestés, et cette contestation n'a pas été vérifiée ici."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non échantillonnés directement lors de cette vérification. LFI et les médias qui lui sont favorables le présentent comme la principale voix de la rupture sociale et de la planification écologique, et présentent les affaires judiciaires comme du harcèlement politique. Après la clôture de mai 2026, LFI a affirmé qu'aucun juge d'instruction n'avait trouvé de motif de mise en examen.",
+   "right_media": "Les médias classés à droite (JDD, CNews) le couvrent surtout à travers ses affaires judiciaires et les perquisitions de 2018. Ils ont rapporté la clôture en mai 2026 de l'instruction sur les assistants sans mise en examen.",
+   "neutral_media": "Les sources neutres et encyclopédiques (Wikipédia, Telos, L'Essentiel) décrivent un dirigeant de gauche à la longue carrière au PS. Elles mentionnent à la fois son talent oratoire et les polémiques suscitées par ses déclarations provocatrices, et rapportent qu'il n'a jamais été mis en cause dans l'affaire des assistants du Parlement européen."
+  }
+ }
+}

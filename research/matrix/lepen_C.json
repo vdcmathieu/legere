@@ -1,0 +1,488 @@
+{
+ "collect": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has historically rejected raising VAT (TVA sociale) and campaigns on VAT cuts; no 2025-2026 source retrieved.",
+    "sources": [],
+    "nuance": "Search budget was exhausted before this item could be researched. Coded from background knowledge of RN's anti-VAT-increase stance; needs verification."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has favoured conditioning welfare on activity or contribution, but no verified statement from Le Pen on keeping the 2025 RSA obligation.",
+    "sources": [],
+    "nuance": "Not verified with live search (budget exhausted). No known promise to abolish the obligation, so +1 rather than -2."
+   },
+   {
+    "id": "imm8",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "RN programme pushes to tighten naturalisation and end birthright citizenship; the opposite of easing it.",
+    "sources": [],
+    "nuance": "Based on the 2022 programme and RN line, not re-verified for 2026 because search was unavailable."
+   },
+   {
+    "id": "sec6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has opposed identity-check receipts, favouring more police powers.",
+    "sources": [],
+    "nuance": "Unverified in this session (search budget exhausted)."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Le Pen rejects a European army and supranational defence, favouring cooperation between sovereign nations.",
+    "sources": [],
+    "nuance": "From known RN stance; not re-verified with 2026 sources."
+   },
+   {
+    "id": "eu8",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Le Pen and RN oppose Ukraine's EU accession.",
+    "sources": [],
+    "nuance": "From known RN stance; no 2026 source retrieved."
+   },
+   {
+    "id": "ecol6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has expressed support for guaranteed minimum farm prices and protecting farmer incomes.",
+    "sources": [],
+    "nuance": "Unverified; could be +2 if a firm programme commitment exists."
+   },
+   {
+    "id": "ene5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "party_line",
+    "summary": "RN's official site advertises cutting VAT on energy from 20% to 5.5%.",
+    "sources": [
+     {
+      "url": "https://rassemblementnational.fr/",
+      "outlet": "Rassemblement national (official site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "réduction de la TVA de 20% à 5,5% sur l'énergie"
+     }
+    ],
+    "nuance": "Quote extracted by the fetch tool's summariser, not read directly. Covers energy; fuels are not confirmed separately but RN has long also called for fuel VAT cuts."
+   },
+   {
+    "id": "ins6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "RN programme proposes privatising public broadcasting.",
+    "sources": [],
+    "nuance": "From the 2022 programme and subsequent RN statements; not re-verified for 2026."
+   },
+   {
+    "id": "soc1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Le Pen has expressed reservations on assisted dying and a majority of the RN group opposed the 2025 first-reading text, though RN gave freedom of conscience.",
+    "sources": [],
+    "nuance": "No repeal promise found, hence -1 rather than -2. Unverified, needs a check of the 2026 final votes."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "RN supports banning conspicuous religious symbols for accompanying parents, and has backed related bills.",
+    "sources": [],
+    "nuance": "Based on known RN line; not re-verified."
+   },
+   {
+    "id": "soc6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN favours a broad ban on the Islamic veil in public space, which would cover universities, but a specific university ban was not confirmed.",
+    "sources": [],
+    "nuance": "Inferred from the broader ban proposal; low confidence."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on ending all selection at university entry.",
+    "sources": [],
+    "nuance": "Not researched due to exhausted search budget; RN criticises Parcoursup but a position on ending selection is unknown."
+   },
+   {
+    "id": "san5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "RN has supported loosening the ZAN target, backing bills that soften it.",
+    "sources": [],
+    "nuance": "Unverified; no evidence on loosening building norms in general."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No 2025-2026 statement by Le Pen or the RN on a 'TVA sociale' was found. The RN's October 2025 counter-budget cuts VAT on energy and abolishes it on 100 basic products, which is the opposite direction to a VAT increase.",
+    "sources": [
+     {
+      "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "outlet": "Groupe RN (contre-budget 2026)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-23",
+      "quote": "Baisse de la TVA sur les énergies (gaz, électricité, carburants, bois, fioul). ... Suppression de la TVA sur 100 produits de première nécessité"
+     }
+    ],
+    "nuance": "Inferred from the RN's VAT-cutting fiscal line. No explicit rejection of a VAT-for-contributions swap was found, so this is -1 rather than -2. The web-search budget was exhausted during verification."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Bardella said in February 2024 that he was 'parfaitement d'accord' with making the RSA conditional on 15 hours of activity. No RN or Le Pen promise to abolish the obligation was found. However, Le Pen and the whole RN group (88-0) voted against the 2023 plein-emploi law that created it.",
+    "sources": [
+     {
+      "url": "https://linsoumission.fr/2024/02/08/bardella-reforme-rsa-rn-bardella/",
+      "outlet": "L'Insoumission (LFI-aligned media)",
+      "outlet_lean": "far-left",
+      "date": "2024-02-08",
+      "quote": "« Je pense qu'il faut des contreparties aux prestations sociales de ce type qui sont versées », a expliqué le président du parti"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_2717",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-10-10",
+      "quote": "Vote final - Pour le plein emploi - Marine Le Pen, Rassemblement National: CONTRE (RN group: 0 pour, 88 contre)"
+     }
+    ],
+    "nuance": "The evidence is mixed. Le Pen's vote was on the whole bill (France Travail reform and more), not specifically on the activity hours. The Bardella quote is relayed by an opponent outlet, although it is quoted verbatim from France 3. Code 0 if a better source shows Le Pen herself opposing the obligation."
+   },
+   {
+    "id": "imm8",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The RN programme abolishes droit du sol and limits access to nationality to naturalisation 'on criteria of merit and assimilation'. In 2025 Le Pen voted to tighten access to nationality in Mayotte. This is the opposite of easing naturalisation.",
+    "sources": [
+     {
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "outlet": "Rassemblement national (programme législatives 2024)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-06",
+      "quote": "Suppression du droit du sol"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator, quoting RN site)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supprimer le droit du sol et limiter l'accès à la nationalité à la seule naturalisation sur des critères de mérite et d'assimilation"
+     },
+     {
+      "url": "https://datan.fr/deputes/pas-de-calais-62/depute_marine-lepen/votes",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-04-08",
+      "quote": "Proposition de loi visant à renforcer les conditions d'accès à la nationalité française à Mayotte (CMP) - Marine Le Pen: POUR"
+     }
+    ],
+    "nuance": "Consistent from 2022 to 2026. A merit-and-assimilation test is a restriction, not a facilitation."
+   },
+   {
+    "id": "sec6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No 2025-2026 RN or Le Pen statement on identity-check receipts was found. Le Pen's 2022 programme sought to give police a free hand without every arrest being challenged. In July 2026 she voted for a presumption of self-defence for police.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen",
+      "outlet": "Wikipedia (citing Le Monde on 2022 programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022",
+      "quote": "laisser les mains libres aux forces de l'ordre « sans que chaque intervention, chaque interpellation, fasse l'objet d'une mise en cause »"
+     },
+     {
+      "url": "https://datan.fr/deputes/pas-de-calais-62/depute_marine-lepen/votes",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-07",
+      "quote": "Proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre - Marine Le Pen: POUR"
+     }
+    ],
+    "nuance": "Inferred from adjacent pro-police positions, with no direct evidence on récépissés. Downgraded from the draft's unsourced -2."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "RN president Bardella rejected a European army and European defence in March 2025, arguing it would have dragged France into war with Russia. The RN advocates a Europe of sovereign nations.",
+    "sources": [
+     {
+      "url": "https://www.cnews.fr/france/2025-03-06/si-nous-avions-une-armee-europeenne-serait-en-guerre-depuis-trois-ans-contre-la",
+      "outlet": "CNews",
+      "outlet_lean": "far-right",
+      "date": "2025-03-06",
+      "quote": "«si nous avions une armée européenne et une défense européenne, on serait en guerre depuis trois ans»"
+     }
+    ],
+    "nuance": "The statement is Bardella's (Le Pen's designated Prime Minister), not Le Pen's own, so evidence is party_line. No direct Le Pen quote was retrieved, and no evidence was found on joint arms procurement specifically."
+   },
+   {
+    "id": "eu8",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Le Pen opposes Ukraine's accession to the EU, while supporting an association status.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "opposes the accession of Ukraine to the European Union, while supporting association status"
+     }
+    ],
+    "nuance": "Secondary source, undated. No 2025-2026 primary source was retrieved because the search budget was exhausted. Her September 2026 line of reducing financial aid to Ukraine is consistent with this position."
+   },
+   {
+    "id": "ecol6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In February 2024 Le Pen appeared to accept the principle of floor prices, but conditionally: they would fail without removing over-transposed norms and free-trade deals. The RN programme pledges 'prix rémunérateurs' for farmers.",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/prix-planchers-dans-lagriculture-un-prix-garanti-ne-peut-fonctionner-que-si-on-nimpose-pas-la-multiplication-des-normes-estime-marine-le-pen",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-02-28",
+      "quote": "La présidente du groupe Rassemblement national à l'Assemblée semble adhérer au principe de prix planchers"
+     },
+     {
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "outlet": "Rassemblement national (programme législatives 2024)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-06",
+      "quote": "Garantir des prix rémunérateurs pour les agriculteurs"
+     }
+    ],
+    "nuance": "Conditional support, so +1. She warned that floor prices without those conditions could lead to 'la ruine de l'agriculture'. The RN group appears to have abstained on LFI's April 2024 floor-price bill (datan vote 3652, individual RN abstentions). No 2025-2026 update was found."
+   },
+   {
+    "id": "ene5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The RN pledges to cut VAT on energy from 20% to 5.5%. Its October 2025 counter-budget explicitly covers gas, electricity, motor fuels, wood and heating oil. In 2022 Le Pen voted for an amendment to that effect.",
+    "sources": [
+     {
+      "url": "https://rassemblementnational.fr/",
+      "outlet": "Rassemblement national (official site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "Pour la réduction de la TVA de 20% à 5,5% sur l'énergie"
+     },
+     {
+      "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "outlet": "Groupe RN (contre-budget 2026)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-23",
+      "quote": "Baisse de la TVA sur les énergies (gaz, électricité, carburants, bois, fioul)."
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_510",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-11-07",
+      "quote": "Amendement n°343 de M. Tanguy - TVA sur l'énergie : gaz, électricité, fioul, carburants - Marine Le Pen: POUR"
+     }
+    ],
+    "nuance": "All three energy types and the 5.5% rate are confirmed by primary party documents."
+   },
+   {
+    "id": "ins6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The RN's 2024 legislative programme pledged to privatise public broadcasting. Le Pen proposed this in 2021, and Bardella reiterated it in June 2024 as an objective 'à terme'.",
+    "sources": [
+     {
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "outlet": "Rassemblement national (programme législatives 2024)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-06",
+      "quote": "Privatiser l'audiovisuel public"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen",
+      "outlet": "Wikipedia (citing Le Monde, 9 Sept 2021)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2021-09-09",
+      "quote": "Elle propose également de « nationaliser les autoroutes » et de « privatiser l'audiovisuel public »"
+     }
+    ],
+    "nuance": "The October 2025 counter-budget only lists 'Baisse de la dotation à l'audiovisuel public', so the timing of privatisation is unclear. No 2026 renunciation was found, but no 2026 reaffirmation by Le Pen was retrieved either."
+   },
+   {
+    "id": "soc1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Le Pen voted against the assisted-dying bill at every reading, including the definitive adoption on 15 July 2026, as did most of the RN group (106 against, 12 for). No promise to repeal the law was found.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8280",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Vote final - Fin de vie - Marine Le Pen, Rassemblement National: CONTRE"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_5729",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-02-25",
+      "quote": "Vote final - Fin de vie - Marine Le Pen: CONTRE; RN group 17 pour, 102 contre, 3 abstentions"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2107",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-27",
+      "quote": "Vote final - Fin de vie - Marine Le Pen, Rassemblement National: CONTRE"
+     }
+    ],
+    "nuance": "Personal opposition is consistent, but per the brief -2 requires a promise of repeal, which was not found (live search for one was not possible). The RN gave freedom of vote. Bardella also opposes the law ('Le véritable progrès, c'est le soin, pas la mort', JDD)."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "On 16 September 2026 Le Pen said she would ban the Islamic veil progressively, starting with a decree covering school trips, universities, sports federations and public buildings.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-souhaite-interdire-le-voile-islamique-de-maniere-progressive_8196287.html",
+      "outlet": "franceinfo (with AFP)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-16",
+      "quote": "en commençant par un décret ciblant \"les universités, les sorties scolaires, les fédérations sportives (et) les bâtiments publics\""
+     }
+    ],
+    "nuance": "She targets the Islamic veil specifically rather than all conspicuous religious symbols, but she explicitly names school trips. The draft's sourceless party_line coding is now backed by her own recent statement."
+   },
+   {
+    "id": "soc6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "On 16 September 2026 Le Pen said her first step towards banning the Islamic veil would be a decree covering universities, among other places.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-souhaite-interdire-le-voile-islamique-de-maniere-progressive_8196287.html",
+      "outlet": "franceinfo (with AFP)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-16",
+      "quote": "en commençant par un décret ciblant \"les universités, les sorties scolaires, les fédérations sportives (et) les bâtiments publics\""
+     }
+    ],
+    "nuance": "Explicit commitment naming universities, so the draft's inferred +1 is upgraded. It concerns the Islamic veil rather than all religious symbols."
+   },
+   {
+    "id": "edu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The RN wants to revise Parcoursup's calendar and procedure without abolishing it, and its education programme stresses early selection. No sign of support for ending selection at university entry was found.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator, citing AEF info 2024)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "Le RN veut «revoir le calendrier et la procédure Parcoursup» sans en demander la suppression."
+     }
+    ],
+    "nuance": "Per the brief, reforming Parcoursup while keeping selection is not agreement. Inferred from the RN's pro-selection education line. No explicit statement on university entry selection was found."
+   },
+   {
+    "id": "san5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Bardella's 2024 programme proposed lifting the bans linked to DPE and ZAN to tackle the housing crisis, and the RN programme pledges to abrogate all DPE bans and obligations. In 2023 Le Pen voted for the bill easing ZAN implementation.",
+    "sources": [
+     {
+      "url": "https://www.aefinfo.fr/depeche/714055-pour-pallier-la-crise-du-logement-jordan-bardella-propose-de-lever-les-interdictions-liees-au-dpe-et-au-zan",
+      "outlet": "AEF info",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06-19",
+      "quote": "Pour pallier la crise du logement, Jordan Bardella propose de lever les interdictions liées au DPE et au ZAN"
+     },
+     {
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "outlet": "Rassemblement national (programme législatives 2024)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-06",
+      "quote": "Abroger toutes les interdictions et obligations liées aux DPE (travaux, mise en location...)"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_2046",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-06-27",
+      "quote": "Vote final - PPL visant à faciliter la mise en oeuvre des objectifs de « zéro artificialisation nette » - Marine Le Pen: POUR"
+     }
+    ],
+    "nuance": "Sources date from 2023-2024. No 2025-2026 update was retrieved, although nothing suggests a reversal. The 2023 ZAN bill was a broadly supported easing, so the vote alone is weaker evidence than the programme."
+   }
+  ],
+  "verification_notes": [
+   "Process: WebSearch budget was exhausted (200/200), so verification used WebFetch/curl on primary pages: the RN 2024 programme PDF, the RN October 2025 counter-budget PDF, Le Pen's datan.fr vote list and individual vote pages, MonVote2027 (to locate primary URLs, which were then opened), franceinfo, CNews, Public Sénat, AEF and Wikipedia.",
+   "Datan vote IDs in the deputy listing are offset by one. Each vote URL cited was opened and its title checked: vote_8280 = final assisted-dying vote (Le Pen CONTRE), vote_8279 is an unrelated public-order bill.",
+   "eco7: -2 low party_line (no source) -> -1 low inferred: no direct evidence on TVA sociale. Only the RN's VAT-cutting counter-budget supports opposition, so the strength is reduced and the counter-budget source added.",
+   "trav3: +1 low party_line (no source) -> +1 low party_line: code kept. Added the Bardella Feb 2024 quote agreeing with the 15h condition, and Le Pen's and the RN's vote against the 2023 plein-emploi law (datan vote_2717) as a counter-indicator in nuance.",
+   "imm8: -2 medium programme (no source) -> -2 high programme: confirmed by the RN 2024 programme (suppression du droit du sol), the RN-site naturalisation-on-merit pledge, and Le Pen's 2025 vote to tighten nationality access in Mayotte.",
+   "sec6: -2 low party_line (no source) -> -1 low inferred: no evidence on récépissés was found. Inferred only from adjacent pro-police positions (2022 'mains libres' pledge, 2026 vote for the légitime défense presumption), so -2 was not justified.",
+   "eu7: -2 medium statement (no source) -> -2 medium party_line: the only retrieved evidence is Bardella's March 2025 CNews rejection of a European army/defence, not a Le Pen statement, so evidence_type is corrected and the source added.",
+   "eu8: -2 medium statement (no source) -> -2 medium statement: code kept. Added the Wikipedia source (opposes accession, supports association status); undated, flagged in nuance.",
+   "ecol6: +1 low party_line (no source) -> +1 medium statement: Le Pen's own Feb 2024 conditional support (Public Sénat) and the RN programme 'prix rémunérateurs' confirm partial or conditional support.",
+   "ene5: +2 high party_line -> +2 high programme: the October 2025 counter-budget explicitly covers gaz, électricité, carburants (resolving the draft's fuel caveat), and Le Pen voted for Tanguy amendment 343 in Nov 2022 (datan vote_510). Evidence_type changed to programme.",
+   "ins6: +2 medium programme (no source) -> +2 medium programme: confirmed by the RN 2024 programme line 'Privatiser l'audiovisuel public' and Le Pen's 2021 proposal. Nuance notes the 2025 counter-budget only cuts the dotation.",
+   "soc1: -1 low vote (no source) -> -1 medium vote: Le Pen's personal CONTRE votes verified at first reading (vote_2107, 27 May 2025), second reading (vote_5729, 25 Feb 2026) and definitive reading (vote_8280, 15 July 2026). Kept at -1 because no repeal promise was found; confidence raised.",
+   "soc3: +2 medium party_line (no source) -> +2 high statement: franceinfo 16 Sept 2026 reports Le Pen's plan for a decree banning the veil on 'sorties scolaires'.",
+   "soc6: +1 low inferred -> +2 high statement: the same 16 Sept 2026 statement explicitly names 'les universités'; the draft's inference was an off-by-one underestimate.",
+   "edu5: null none -> -1 low inferred: brief check found the RN wants to revise Parcoursup without abolishing it and stresses selection, which per the brief note is not agreement with ending selection.",
+   "san5: +1 low vote (no source) -> +2 medium programme: Bardella's 2024 programme proposed lifting ZAN and DPE bans (AEF), the RN programme abrogates DPE obligations (building rules), and Le Pen voted for the 2023 ZAN-easing bill (datan vote_2046). This covers both the ZAN and the norms parts of the statement.",
+   "Residual caveats: no 2025-2026 primary source was retrievable for eu8 or ins6. eco7, sec6 and edu5 rest on inference and should be re-checked when search budget is available, especially for any 2027 campaign programme publication."
+  ]
+ }
+}

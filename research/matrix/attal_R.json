@@ -1,0 +1,285 @@
+{
+ "collect": {
+  "candidate": "Gabriel Attal",
+  "bio": "Gabriel Attal (born 1989) is a Renaissance politician, a former Socialist Party member who joined Emmanuel Macron's movement in 2016. He became France's youngest Prime Minister in January 2024 and led a caretaker government after the June 2024 dissolution until September 2024. He has been Renaissance general secretary since December 2024 and chairs the Ensemble pour la République group in the Assemblée nationale. He announced his 2027 presidential candidacy on 22 May 2026.",
+  "offices": [
+   {
+    "office": "Conseiller municipal, Vanves",
+    "from": "2014-03-30",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (first term)",
+    "from": "2017-06-21",
+    "to": "2018-11-16",
+    "kind": "legislative"
+   },
+   {
+    "office": "LREM spokesperson",
+    "from": "2018-01-04",
+    "to": "2018-10-16",
+    "kind": "party"
+   },
+   {
+    "office": "Secretary of State to the Education Minister",
+    "from": "2018-10-16",
+    "to": "2020-07-06",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Government spokesperson",
+    "from": "2020-07-06",
+    "to": "2022-05-20",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (second term)",
+    "from": "2022-06-19",
+    "to": "2023-07-22",
+    "kind": "legislative"
+   },
+   {
+    "office": "Minister Delegate for Public Accounts",
+    "from": "2022-05-20",
+    "to": "2023-07-20",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Minister of National Education and Youth",
+    "from": "2023-07-20",
+    "to": "2024-01-09",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Prime Minister (caretaker from 16 July 2024)",
+    "from": "2024-01-09",
+    "to": "2024-09-05",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (third term)",
+    "from": "2024-07-08",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Ensemble pour la République group, Assemblée nationale",
+    "from": "2024-07-13",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Renaissance general secretary",
+    "from": "2024-12-08",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 5.9,
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Choc des savoirs (ability-level grouping in school)",
+    "before": "As Education Minister and PM (2023-2024), he launched the 'choc des savoirs' with level-based groups in collège as a flagship reform.",
+    "after": "Per Wikipedia (secondary), the grouping was later abandoned as ineffective, about two years after launch. Not verified against a primary or second source. The exact formal decision and who took it (Attal or successors) are unconfirmed.",
+    "years": "2024-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   },
+   {
+    "topic": "School uniform experiment",
+    "before": "Attal pushed a school-uniform experiment in about 10 schools, in his Education Minister and PM period.",
+    "after": "Per Wikipedia (secondary), it was abolished in summer 2026 for minimal effectiveness. The decision was taken by a later government, so it is not clearly a personal reversal by Attal.",
+    "years": "2024-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Abaya and qamis ban in public schools (Education Minister, August-September 2023)",
+    "assessment": "Presented as a secularism measure. Per Wikipedia, left-wing parties and Muslim councils protested it. It is widely seen as a defining act of his tenure. Only one source was fetched here, so the balanced multi-outlet assessment requested is missing.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "Short premiership (9 January to 16 July 2024, then caretaker until 5 September 2024)",
+    "assessment": "He led a compact 15-member government, later 35, which included many former LR/UMP figures. Wikipedia notes he left office saying there was too little time to see his plans through. The coalition scored about 20% in the first round of the June 2024 legislative election.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gabriel_Attal",
+     "https://fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "Environmental record as PM",
+    "assessment": "The left criticised the suspension and modification of the Ecophyto pesticide-reduction plan and budget cuts to environmental programmes. This is only the critics' framing. No government or right-leaning rebuttal was retrieved.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "Choc des savoirs and school uniform experiment",
+    "assessment": "Both were launched under his authority. Per Wikipedia, the grouping and the uniform experiment were later abandoned or ended. Delivery is therefore contested and unverified.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Image-conscious communicator",
+    "evidence": "Not established. The web-search budget was exhausted and only Wikipedia and the campaign site were fetched. This entry is a placeholder and should not be used without checking against at least two sources of different leanings.",
+    "source_leans": []
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not researched. No left-leaning outlet could be retrieved because the search budget was exhausted. Wikipedia reports left-wing criticism of the abaya ban and of environmental rollbacks.",
+   "right_media": "Not researched. Wikipedia describes his cabinet as the most right-leaning of Macron's tenure, but no right-leaning outlet was consulted.",
+   "neutral_media": "Not researched. Only encyclopedic summaries were fetched."
+  },
+  "sources_note": "The WebSearch budget (200 per session) was exhausted before any search ran, so the profile rests on only three pages. These are fr.wikipedia.org/wiki/Gabriel_Attal, en.wikipedia.org/wiki/Gabriel_Attal and the campaign site attalpresident.fr. The Wikipedia page on his government had an empty actions section.\n\nCampaign site, from the fetch summary. Priorities listed:\n- education (\"the mother of battles\")\n- work and wages\n- borders\n- artificial intelligence\n- state debt\n- ecological debt\n\nIt also mentions:\n- a public consultation to shape the programme\n- a Lyon meeting on 10 October 2026\n\nNo detailed measures were retrieved.\n\nLegal: the fetched Wikipedia text mentions no judicial case, so the list is empty. This is absence of evidence from limited sources, not a verified clean record. The only incident found was the 2018 outing, which was not a legal matter.\n\nOther limits:\n- The reversals list is thin and only weakly sourced.\n- Traits and media portrayal are mostly unfilled.\n- Key records were not checked: assurance chômage, the immigration law, pension votes, the 49.3 vote on the 2024 budget and the public-finances record. A rerun with more search budget is recommended.\n\nBias caveat: all content is secondary and Wikipedia-derived, plus the candidate's own site."
+ },
+ "verify": {
+  "candidate": "Gabriel Attal",
+  "bio": "Gabriel Attal (born 16 March 1989) is a Renaissance politician who started on the Socialist side and later joined Emmanuel Macron's movement. He held several government posts from 2018 and became France's youngest Prime Minister on 9 January 2024. President Macron accepted his resignation on 16 July 2024, after the June-July 2024 snap legislative elections. He then ran a caretaker government until Michel Barnier was appointed on 5 September 2024. He has chaired the Ensemble pour la République group in the Assemblée nationale since July 2024 and has been Renaissance general secretary since December 2024. He announced his 2027 presidential candidacy on 22 May 2026 in Mur-de-Barrez (Aveyron).",
+  "offices": [
+   {
+    "office": "Conseiller municipal, Vanves (re-elected 2020 and March 2026)",
+    "from": "2014-03-30",
+    "to": "present",
+    "kind": "other"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (first term)",
+    "from": "2017-06-21",
+    "to": "2018-11-16",
+    "kind": "legislative"
+   },
+   {
+    "office": "LREM spokesperson",
+    "from": "2018-01-04",
+    "to": "2018-10-16",
+    "kind": "party"
+   },
+   {
+    "office": "Secretary of State to the Minister of National Education and Youth",
+    "from": "2018-10-16",
+    "to": "2020-07-06",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Government spokesperson",
+    "from": "2020-07-06",
+    "to": "2022-05-20",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Minister Delegate for Public Accounts",
+    "from": "2022-05-20",
+    "to": "2023-07-20",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (second term, gave up the seat to stay in government)",
+    "from": "2022-06-22",
+    "to": "2022-07-22",
+    "kind": "legislative"
+   },
+   {
+    "office": "Minister of National Education and Youth",
+    "from": "2023-07-20",
+    "to": "2024-01-11",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Prime Minister (resignation accepted 16 July 2024, caretaker until 5 September 2024)",
+    "from": "2024-01-09",
+    "to": "2024-09-05",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Deputy, Hauts-de-Seine 10th constituency (third term)",
+    "from": "2024-07-08",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Ensemble pour la République group, Assemblée nationale",
+    "from": "2024-07-13",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Renaissance general secretary",
+    "from": "2024-12-08",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 5.9,
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Abaya and qamis ban in public schools (Education Minister, announced late August 2023, applied from the September 2023 school start)",
+    "assessment": "The government presented it as a secularism (laïcité) measure. According to Wikipedia, 67 pupils were refused entry at the school start. Left-wing parties and Muslim organisations objected. It is often cited as a defining act of his time at Education. Only encyclopedic sources were checked, so this lacks a multi-outlet assessment from different leanings.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "'Choc des savoirs' education reform, announced December 2023 (including level-based groups in 6e and 5e) and a school-uniform experiment in about 10 schools, announced autumn 2023",
+    "assessment": "Both were launched under his authority as Education Minister and then as PM. According to Wikipedia, the level-based groups were dropped about two years later as ineffective and the uniform experiment was abandoned in summer 2026. Later governments made both decisions. No primary or second source was found for the outcome, so the result is reported only, without a verdict.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "Premiership (9 January - 16 July 2024, then caretaker until 5 September 2024)",
+    "assessment": "He started with a 15-member government on 11 January 2024, which grew to 35 members on 8 February 2024. Several ministers had served under Nicolas Sarkozy or came from UMP/LR. English Wikipedia says many outlets called it the most right-leaning cabinet of Macron's tenure. Ensemble came third with 20.0% in the first round of the 30 June 2024 legislative elections. Attal later said eight months had been too little time to see his plans through.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gabriel_Attal",
+     "https://fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal"
+    ]
+   },
+   {
+    "what": "Agricultural and environmental decisions as PM (early 2024)",
+    "assessment": "According to English Wikipedia, his government suspended and then modified the Ecophyto pesticide-reduction plan after pressure from farmers, and cut environmental budget lines including the Green Fund. Environmental groups and the left criticised these moves. No statement of the government's rationale and no source from another leaning was retrieved, so this is one-sided.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gabriel_Attal"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not researched: no left-leaning outlet could be consulted. Wikipedia reports that the left criticised the abaya ban and the 2024 environmental rollbacks.",
+   "right_media": "Not researched: no right-leaning outlet could be consulted.",
+   "neutral_media": "Not researched beyond encyclopedic summaries. English Wikipedia reports that early in his premiership he was described as one of France's most popular politicians."
+  },
+  "sources_note": "Both the original research and this verification pass ran with the WebSearch budget exhausted, so no news outlet was reached. Five pages were checked:\n- fr.wikipedia.org/wiki/Gabriel_Attal\n- en.wikipedia.org/wiki/Gabriel_Attal\n- fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal\n- his Assemblée nationale page (assemblee-nationale.fr/dyn/deputes/PA722190), which confirms his current seat and his role as EPR group president\n- the campaign site attalpresident.fr\n\nThe campaign site uses the slogan \"La force d'agir\". It sets out four themes:\n- reducing the debt\n- education and youth\n- removing obstacles to growth\n- fairness between generations\n\nIt also announces a Lyon meeting on 10 October 2026.\n\nLegal: no judicial case appears in the sources checked. This shows only that none was found in limited sources; it does not prove a clean record.\n\nNot covered:\n- reversals, traits and media portrayal\n- assurance chômage, the immigration law, pension votes and the public-finances record\n\nBias caveat: all content comes from secondary encyclopedic sources plus the candidate's own site. A rerun with a search budget and outlets of different leanings is needed before publishing.",
+  "verification_notes": [
+   "bio: 'led a caretaker government after the June 2024 dissolution' -> 'resignation accepted 16 July 2024, caretaker until 5 September 2024': per fr.wikipedia, the resignation was offered on 8 July and accepted on 16 July. Caretaker status did not begin at the dissolution. Added birth date (16 March 1989, Assemblée nationale page) and the place of the candidacy announcement (Mur-de-Barrez). Removed the precise 'PS member, joined in 2016' wording because the fetched sources did not confirm it.",
+   "offices[Vanves]: kind local_executive -> other: a municipal councillor is not an executive post (not mayor or deputy mayor). Added re-elections in 2020 and March 2026 (fr.wikipedia).",
+   "offices[deputy second term]: 2022-06-19 to 2023-07-22 -> 2022-06-22 to 2022-07-22: per fr.wikipedia he held the seat for about one month and stayed in government.",
+   "offices[Education Minister]: to 2024-01-09 -> 2024-01-11: per fr.wikipedia, the post ended when the Attal government was formed on 11 January 2024. It overlaps the PM start, which the years arithmetic accounts for.",
+   "offices[Secretary of State]: title clarified as 'to the Minister of National Education and Youth'.",
+   "offices: reordered chronologically.",
+   "executive_experience_years: 5.9 kept. It is the continuous span from 16 October 2018 to 5 September 2024, which is 5.89 years. Overlaps are counted once and the caretaker period is included. It counts the Secretary of State role as a government post. Without that role the figure is about 4.2. The Vanves council seat is not counted.",
+   "legal: [] kept: no case appears in the sources checked. Search was unavailable, so a court, AFP or franceinfo check was not possible.",
+   "reversals[Choc des savoirs]: removed: later governments abandoned the groups. That is not a documented change of position by Attal. Moved to delivery.",
+   "reversals[School uniform]: removed: a later government ended the experiment, not Attal himself. Moved to delivery.",
+   "delivery[abaya]: added 67 pupils refused entry and the September 2023 timing (fr.wikipedia). Removed internal process notes.",
+   "delivery[choc des savoirs + uniforms]: merged the duplicate entry. Added dates (December 2023, autumn 2023, summer 2026) and said that later governments made the decisions to drop them.",
+   "delivery[premiership]: added the 11 January and 8 February 2024 government sizes and the 30 June 2024 date for the 20.0% result. Replaced the editorial 'many former LR/UMP figures' with attributed wording (fr and en Wikipedia).",
+   "delivery[environment]: renamed. Added the Green Fund and the farmers' pressure context (en.wikipedia). Kept the caveat that the assessment is one-sided.",
+   "traits[Image-conscious communicator]: removed: no source of any leaning supports it (source_leans was empty).",
+   "media_portrayal: removed the 'most right-leaning cabinet' line from right_media because it does not describe how right-leaning media portray him. Added an attributed neutral observation on his early popularity. All three remain marked 'Not researched'.",
+   "sources_note: replaced the campaign priorities list (education, wages, borders, AI, ecological debt) with what attalpresident.fr shows on 5 October 2026 (debt, education/youth, removing obstacles to growth, fairness between generations). Added the two extra pages checked.",
+   "URLs: confirmed that fr.wikipedia.org/wiki/Gabriel_Attal, en.wikipedia.org/wiki/Gabriel_Attal and fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal exist. No unconfirmed URLs were kept."
+  ]
+ }
+}

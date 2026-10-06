@@ -1,0 +1,342 @@
+{
+ "collect": {
+  "candidate": "Jean-Luc Mélenchon (La France insoumise)",
+  "bio": "Jean-Luc Mélenchon is a French politician born in 1951. He was a Socialist Party senator and minister, left the PS in 2008 and co-founded the Parti de Gauche, then founded La France insoumise (LFI) in 2016. He sat as MEP from 2009 to 2017 and as deputy for Bouches-du-Rhône from 2017 to 2022, and has run for president in 2012, 2017 (fourth) and 2022 (third). He announced on 3 May 2026 (per English Wikipedia) a fourth candidacy for 2027, built on an update of L'Avenir en commun and a Sixth Republic.",
+  "offices": [
+   {
+    "office": "Conseiller général de l'Essonne",
+    "from": "1985",
+    "to": "1992",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Sénateur de l'Essonne",
+    "from": "1986",
+    "to": "2000",
+    "kind": "legislative"
+   },
+   {
+    "office": "Adjoint au maire de Massy",
+    "from": "1989",
+    "to": "1995",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Conseiller général de l'Essonne et président délégué du conseil général (not president)",
+    "from": "1998",
+    "to": "2004",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Ministre délégué à l'Enseignement professionnel (gouvernement Jospin)",
+    "from": "2000",
+    "to": "2002",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Sénateur de l'Essonne",
+    "from": "2004",
+    "to": "2010",
+    "kind": "legislative"
+   },
+   {
+    "office": "Député européen",
+    "from": "2009",
+    "to": "2017",
+    "kind": "european"
+   },
+   {
+    "office": "Député des Bouches-du-Rhône; président du groupe LFI",
+    "from": "2017",
+    "to": "2022",
+    "kind": "legislative"
+   },
+   {
+    "office": "Fondateur et leader de LFI (Parti de Gauche co-founder 2008)",
+    "from": "2016",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 2,
+  "legal": [
+   {
+    "case": "Rebellion and provocation after the October 2018 searches of LFI premises and his home: sentenced in December 2019 to 3 months suspended plus 8,000 EUR fine. Appeal and cassation outcome not verified in this session (French Wikipedia summary mentions appeal and cassation proceedings); treat finality as unconfirmed.",
+    "status": "convicted_final",
+    "date": "2019-12 (first instance)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+    ]
+   },
+   {
+    "case": "European Parliament assistants affair (embezzlement of EP funds, 2009-2017, OLAF 2017, judicial investigation from 2018): judges closed the instruction on 26-27 May 2026 without any mise en examen of Mélenchon; two former assistants keep témoin assisté status; no evidence of his direct involvement or an organised scheme was established.",
+    "status": "dismissed",
+    "date": "2026-05-27",
+    "sources": [
+     "https://www.lejdd.fr/politique/enquete-sur-les-assistants-parlementaires-de-lfi-linstruction-terminee-sans-mise-en-examen-174903",
+     "https://www.cnews.fr/france/2026-05-27/assistants-parlementaires-de-jean-luc-melenchon-les-juges-cloturent-linstruction",
+     "https://www.telos-eu.com/fr/politique-francaise-et-internationale/le-pen-bayrou-et-melenchon-face-aux-juges-trois-destins-differents-une-meme-motivation.html",
+     "https://www.lessentiel.lu/fr/story/france-melenchon-devrait-finalement-echapper-au-proces-103571189"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "European Union",
+    "before": "Voted for Maastricht in 1992 as a left compromise; PS insider favourable to European integration.",
+    "after": "Campaigned against the 2005 constitutional treaty, later 'Plan A / Plan B': renegotiate the treaties or disobey them, 'ni Frexit, ni Europe libérale'; regrets his Maastricht stance.",
+    "years": "1992-2026",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+     "https://monvote2027.fr/candidat/melenchon",
+     "https://www.elyseescope.com/le-radar/europe-2027-les-candidats-favorables-ou-hostiles-a-l-ue"
+    ]
+   },
+   {
+    "topic": "Russia / Ukraine",
+    "before": "2014: described the annexation of Crimea as 'absolutely predictable'.",
+    "after": "2022: condemned the invasion; later accepted arms for Ukraine's defence while opposing deeper French involvement and favouring non-alignment/distance from NATO.",
+    "years": "2014-2022",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+    ]
+   },
+   {
+    "topic": "Nuclear power",
+    "before": "Earlier in his career broadly supportive of nuclear (as PS minister/senator).",
+    "after": "Programme calls for exit from nuclear by 2050 with 100% renewables; internal LFI debate persists. Nuance: dating of the earlier position is from a single secondary summary.",
+    "years": "1990s-2026",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
+     "https://candidats-presidentielle-2027.fr/candidat/jean-luc-melenchon"
+    ]
+   },
+   {
+    "topic": "Free movement of workers / immigration",
+    "before": "Rhetoric closer to 'welcoming' migration policy and regularisation, a position LFI still formally holds.",
+    "after": "Has toned down free movement of workers, citing social dumping (per a secondary aggregator; weak sourcing, a nuance more than a clear reversal).",
+    "years": "2012-2022",
+    "sources": [
+     "https://monvote2027.fr/candidat/melenchon"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Minister for vocational education 2000-2002: reformed vocational certificates and introduced validation of acquired experience (VAE).",
+    "assessment": "Neutral encyclopedic source credits a pragmatic reformist record; limited and dated, with no sources of other leanings consulted in this session.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+    ]
+   },
+   {
+    "what": "Led the LFI parliamentary group 2017-2021 and built NUPES in 2022 (the left union that won about 150 seats), then inspired the 2024 NFP alliance without holding a mandate himself.",
+    "assessment": "Strong opposition and coalition-building result, but no executive power obtained; roll-call votes were not checked in this session.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+    ]
+   },
+   {
+    "what": "Programme for 2027: SMIC at 1,600 EUR net, retirement at 60, price freezes, stronger wealth tax, Sixth Republic via constituent assembly, nuclear exit by 2050.",
+    "assessment": "Promises only, derived from aggregator summaries of L'Avenir en commun; costing disputed between left think-tanks and liberal ones, which was not verified here.",
+    "sources": [
+     "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+     "https://www.elyseescope.com/le-radar/programme-economique-melenchon-2027"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Confrontational / polarising rhetorical style",
+    "evidence": "Wikipedia-type neutral sources call him a 'firebrand leader'; the 2019 conviction arose from a confrontation with police; right-leaning outlets (CNews, JDD) and the neutral encyclopedic source portray a combative style. Only partially cross-checked, since the search budget ran out.",
+    "source_leans": [
+     "neutral",
+     "right"
+    ]
+   },
+   {
+    "trait": "Gifted orator / tribune with strong party control",
+    "evidence": "Described as a left-populist leader who dominates LFI; neutral and left-leaning self-presentations agree on his oratory. Corroboration limited.",
+    "source_leans": [
+     "neutral",
+     "left"
+    ]
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Left outlets present him as the principal voice of social rupture and ecological planning, and see judicial cases (searches, EP assistants) as political harassment; LFI itself said the May 2026 closure confirms no infraction occurred. Not directly sampled in this session.",
+   "right_media": "CNews and JDD cover him mainly through legal troubles, the 2018 raid and conviction, and the assistants affair, stressing the estimated 500,000 EUR loss, even while reporting the closure without indictment.",
+   "neutral_media": "Neutral and institutional sources (Wikipedia, Telos, L'Essentiel) describe a democratic-socialist/left-populist who was not charged in the assistants case, unlike Le Pen (convicted) and Bayrou (acquitted)."
+  },
+  "sources_note": "Search budget (200 WebSearch calls) was exhausted mid-task, so the research is thinner than required: no roll-call votes (datan/nosdeputes), no primary programme text, no opened Le Monde, Libération or Mediapart pages, and the 2019 conviction's appeal/cassation outcome is unverified. Relied on JDD and CNews (right) for the assistants case, Telos and L'Essentiel (neutral/centre), English and French Wikipedia, and election aggregators (elyseescope, testpolitique, monvote2027), which are secondary and of uncertain lean. Treat reversals, traits and delivery as provisional and re-check before use."
+ },
+ "verify": {
+  "candidate": "Jean-Luc Mélenchon (La France insoumise)",
+  "bio": "Jean-Luc Mélenchon is a French politician born in 1951. He spent about thirty years in the Socialist Party, serving as senator for Essonne and as junior minister for vocational education (2000-2002), left the PS in 2008 to co-found the Parti de Gauche, and founded La France insoumise (LFI) in 2016. He was an MEP from 2009 to 2017 and deputy for Bouches-du-Rhône from 2017 to 2022, and ran for president in 2012 (fourth), 2017 (fourth) and 2022 (third). On 3 May 2026 he announced a fourth candidacy for 2027, built on an updated L'Avenir en commun and a Sixth Republic via a constituent assembly.",
+  "offices": [
+   {
+    "office": "Conseiller général de l'Essonne (canton Massy-Ouest)",
+    "from": "1985",
+    "to": "1992",
+    "kind": "other"
+   },
+   {
+    "office": "Sénateur de l'Essonne",
+    "from": "1986",
+    "to": "2000",
+    "kind": "legislative"
+   },
+   {
+    "office": "Adjoint au maire de Massy",
+    "from": "1989",
+    "to": "1995",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Conseiller général de l'Essonne and président délégué du conseil général (not president)",
+    "from": "1998",
+    "to": "2004",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Ministre délégué à l'Enseignement professionnel (gouvernement Jospin), 27 March 2000 - 6 May 2002",
+    "from": "2000",
+    "to": "2002",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Sénateur de l'Essonne",
+    "from": "2004",
+    "to": "2010",
+    "kind": "legislative"
+   },
+   {
+    "office": "Député européen",
+    "from": "2009",
+    "to": "2017",
+    "kind": "european"
+   },
+   {
+    "office": "Député des Bouches-du-Rhône (4e circonscription)",
+    "from": "2017",
+    "to": "2022",
+    "kind": "legislative"
+   },
+   {
+    "office": "Président du groupe LFI à l'Assemblée nationale",
+    "from": "2017",
+    "to": "2021",
+    "kind": "party"
+   },
+   {
+    "office": "Co-founder of the Parti de Gauche (2008); founder and leader of La France insoumise",
+    "from": "2016",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 2,
+  "legal": [
+   {
+    "case": "Rebellion, provocation and intimidation of judicial authority during the 16 October 2018 searches of LFI headquarters: tried in Bobigny on 19-20 September 2019 and sentenced on 9 December 2019 to 3 months' suspended imprisonment and an 8,000 EUR fine. He did not appeal, so the conviction is final.",
+    "status": "convicted_final",
+    "date": "2019-12-09",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+    ]
+   },
+   {
+    "case": "European Parliament assistants affair (suspected use of EP-paid assistants for the Parti de Gauche, 2009-2017; preliminary inquiry July 2017, judicial investigation from November 2018). Investigating judges closed the instruction on 26 May 2026 without placing Mélenchon under formal investigation (no mise en examen). Two former assistants were témoins assistés. Telos reports that no evidence established his direct involvement or an organised scheme. No formal non-lieu order was located in this check, but with no one mis en examen no trial can follow.",
+    "status": "dismissed",
+    "date": "2026-05-26",
+    "sources": [
+     "https://www.lessentiel.lu/fr/story/france-melenchon-devrait-finalement-echapper-au-proces-103571189",
+     "https://www.lejdd.fr/politique/enquete-sur-les-assistants-parlementaires-de-lfi-linstruction-terminee-sans-mise-en-examen-174903",
+     "https://www.telos-eu.com/fr/politique-francaise-et-internationale/le-pen-bayrou-et-melenchon-face-aux-juges-trois-destins-differents-une-meme-motivation.html",
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "European Union / Maastricht",
+    "before": "1992: called for a yes vote on the Maastricht treaty, calling it a 'compromis de gauche' and presenting the single currency as an instrument of European civilisation.",
+    "after": "Campaigned against the 2005 constitutional treaty and later said 'ce sont les opposants à ce traité qui avaient raison'. Now proposes 'Plan A / Plan B' (renegotiate the treaties or disobey them), described as 'ni Frexit, ni Europe libérale'.",
+    "years": "1992-2005",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
+     "https://www.elyseescope.com/le-radar/europe-2027-les-candidats-favorables-ou-hostiles-a-l-ue"
+    ]
+   },
+   {
+    "topic": "Russia / Ukraine",
+    "before": "2014: called the annexation of Crimea 'absolutely predictable' and opposed sanctions on Russia.",
+    "after": "February 2022: condemned the Russian invasion while still assigning NATO a share of responsibility; by June 2022 he endorsed arms deliveries, affirming Ukraine's right to defend itself, while opposing deeper French military involvement.",
+    "years": "2014-2022",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Junior minister for vocational education (2000-2002): reformed vocational aptitude certificates (CAP) and the validation of acquired experience (validation des acquis), and created the 'lycée des métiers' label.",
+    "assessment": "Encyclopedic sources credit him with concrete reforms in a junior portfolio. The record is short (about two years) and dated, and no sources of other leanings were consulted on its impact.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
+     "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+    ]
+   },
+   {
+    "what": "Led the LFI group in the Assemblée nationale (June 2017 - October 2021) and built the NUPES left alliance for the 2022 legislative elections (131 seats per French Wikipedia; totals vary with how allied deputies are counted). LFI later took part in the 2024 Nouveau Front populaire, which won a relative majority; LFI proposed his name for Matignon, but the other coalition partners rejected it.",
+    "assessment": "A significant coalition-building and opposition record, though he gained no executive power. Roll-call votes were not checked.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+    ]
+   },
+   {
+    "what": "2027 programme (updated L'Avenir en commun): net SMIC of 1,600 EUR, retirement at 60 after 40 years of contributions, price freezes on essential goods and energy, a strengthened wealth tax (ISF), a Sixth Republic via a constituent assembly, and a nuclear exit by 2050.",
+    "assessment": "These are promises only, taken from a secondary aggregator summary and not from the primary programme text. Costings are disputed, and that dispute was not verified here.",
+    "sources": [
+     "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+     "https://www.elyseescope.com/le-radar/programme-economique-melenchon-2027"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not directly sampled in this check. LFI and sympathetic outlets present him as the main voice of social rupture and ecological planning, and present the judicial cases as political harassment. After the May 2026 closure, LFI said that no investigating judge had found grounds for a mise en examen.",
+   "right_media": "Right-leaning outlets (JDD, CNews) cover him largely through his legal cases and the 2018 searches. They reported the May 2026 closure of the assistants investigation without indictment.",
+   "neutral_media": "Neutral and encyclopedic sources (Wikipedia, Telos, L'Essentiel) describe a left-wing leader with a long PS career. They mention both his oratorical talent and controversies over provocative statements, and report that he was never charged in the EP assistants case."
+  },
+  "sources_note": "Original research and this verification both hit the 200-search WebSearch cap. The check therefore used direct fetches of French and English Wikipedia (including the French wikitext through the Wikipedia API), L'Essentiel, JDD, Telos and the aggregator pages. CNews returned 403 and could not be confirmed. No primary court releases, AFP, franceinfo or Le Monde pages could be opened, and the French Wikipedia statement that he did not appeal the 2019 judgment is cited to secondary press there. Not consulted: roll-call votes (datan/nosdeputes), the primary programme text, and left-leaning outlets (Libération, Mediapart, L'Humanité). Lean coverage is skewed to neutral and right sources. Aggregators (testpolitique, elyseescope, monvote2027) are secondary and of uncertain lean. Treat delivery and media_portrayal as provisional.",
+  "verification_notes": [
+   "bio: 'announced on 3 May 2026 (per English Wikipedia)' -> 'On 3 May 2026 he announced': French Wikipedia also gives 3 May 2026 (after the LFI deputies backed him that morning), so the hedge is no longer needed; also added that he finished fourth in 2012.",
+   "offices[0] Conseiller général 1985-1992: kind local_executive -> other: a departmental councillor is a deliberative seat, not an executive role.",
+   "offices[4] minister: added exact dates 27 March 2000 - 6 May 2002 (French and English Wikipedia).",
+   "offices[7] 'Député des Bouches-du-Rhône; président du groupe LFI' 2017-2022 -> split: deputy 2017-2022, and LFI group president 27 June 2017 - 12 October 2021 as a separate entry: he left the group presidency in 2021, not 2022 (French Wikipedia).",
+   "executive_experience_years: 2 -> 2 (confirmed): minister March 2000 - May 2002 is about 2.1 years. Adjoint au maire and président délégué (not president) do not count under the brief's definition (minister, PM, mayor, regional or departmental president).",
+   "legal[0] status: convicted_final kept, but the case text was rewritten from 'Appeal and cassation outcome not verified ... finality unconfirmed' -> 'He did not appeal, so the conviction is final': French Wikipedia states 'Il ne fait pas appel de cette décision'. The draft's claim that French Wikipedia mentioned appeal and cassation proceedings was not found.",
+   "legal[0] date: '2019-12 (first instance)' -> '2019-12-09': exact judgment date; a single instance, since there was no appeal.",
+   "legal[1] date: '2026-05-27' -> '2026-05-26': Telos and L'Essentiel give 26 May as the closure date; JDD reported it on 27 May.",
+   "legal[1] status: 'dismissed' kept, with a nuance added: no formal non-lieu order was found; the instruction was closed without mise en examen, so no trial can follow.",
+   "legal[1] sources: removed the cnews.fr URL (HTTP 403, could not confirm) and added French Wikipedia, which states 'L'instruction est clôturée sans mise en examen en mai 2026'.",
+   "reversals[0] EU: years '1992-2026' -> '1992-2005'; source monvote2027 -> French Wikipedia: monvote2027 describes his EU line as consistent and does not document the change, while French Wikipedia documents the Maastricht yes vote and his later regret.",
+   "reversals[1] Russia/Ukraine: 'favouring non-alignment/distance from NATO' -> 'still assigning NATO a share of responsibility': the NATO wording was not verified, and French Wikipedia supports the replacement; added French Wikipedia as a source.",
+   "reversals[2] Nuclear power: dropped: the 'broadly supportive as PS minister' starting position rested on one unverified summary. French Wikipedia only documents a 2011 referendum proposal moving to an exit commitment (before 2030, later pushed back to 2050), which is a hardening and timing nuance, not a documented reversal.",
+   "reversals[3] Free movement / immigration: dropped: the draft itself called it 'more nuance than reversal', and its only cited source (monvote2027) says there is 'no documented evolution toward restrictionism'.",
+   "delivery[0]: 'introduced validation of acquired experience (VAE)' -> 'reformed ... validation des acquis, and created the lycée des métiers label': French Wikipedia says 'une réforme de la validation des acquis', not its creation; the 'lycée des métiers' label is confirmed by both Wikipedias.",
+   "delivery[1]: 'NUPES ... won about 150 seats' -> '131 seats per French Wikipedia (totals vary)'; 'Led the LFI group 2017-2021' kept with the exact end in October 2021; 'inspired the 2024 NFP' -> a factual description (LFI took part; his name was proposed for Matignon and rejected by partners).",
+   "delivery[2]: programme items confirmed on testpolitique.fr (SMIC 1,600 net, 60 after 40 years of contributions, price freeze, strengthened ISF, constituent assembly, nuclear exit by 2050); kept as promises.",
+   "traits[0] Confrontational/polarising: dropped: only the neutral lean (English Wikipedia: 'provocation and dubious inflammatory statements') was verified; the claimed right-leaning attestation (CNews/JDD) could not be confirmed (CNews 403, and the JDD article opened does not characterise his style).",
+   "traits[1] Gifted orator with strong party control: dropped: only English Wikipedia ('oratorical talent') was verified; the 'left' lean rested on self-presentation, which is not an independent source of a different leaning.",
+   "media_portrayal.right_media: removed 'stressing the estimated 500,000 EUR loss': the opened JDD article does not mention that figure (it comes from Telos, a neutral source), and CNews could not be opened.",
+   "media_portrayal.neutral_media: removed the comparison 'unlike Le Pen (convicted) and Bayrou (acquitted)' and the 'democratic-socialist/left-populist' label; replaced with a description of what the neutral sources report about him.",
+   "media_portrayal.left_media: kept the 'not directly sampled' caveat and made the LFI statement verbatim in substance per JDD.",
+   "sources_note: updated to describe what this verification could and could not access."
+  ]
+ }
+}

@@ -1,0 +1,446 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "No ISF-style wealth tax in Attal's programme. He promises to cut the deficit without raising taxes and opposes higher taxes on savings, life insurance and inheritance.",
+   "nuance": "No explicit statement on reinstating the ISF was retrieved. The code is inferred from his no-tax-rise platform and his opposition to the Zucman tax (see eco2)."
+  },
+  {
+   "id": "eco2",
+   "summary": "The Assemblée rejected the Zucman tax (2% on fortunes over EUR 100m) on 31 Oct 2025 by 228 to 172. The bloc central, which includes the Renaissance group Attal chairs, opposed it and called it a 'mirage'.",
+   "nuance": "Group-level vote. Attal's personal roll-call vote was not checked on datan/assemblee-nationale. He commented after the rejection (BFM, 31 Oct 2025) that a compromise 'ne plaît pas à tout le monde'. A 2026 Le Figaro piece on candidates' tax plans (paywalled) was not read."
+  },
+  {
+   "id": "eco3",
+   "summary": "Attal's 'droit au brut' lowers social contributions (the programme names employee charges, 'charges salariales') to raise net pay. He also says labour costs should not have risen since 2024. No pledge to cut production taxes or employer contributions specifically was found.",
+   "nuance": "Partial support. The statement names production taxes and employer contributions. His flagship cut targets employee contributions; he opposes raising employer costs but does not clearly pledge to lower them."
+  },
+  {
+   "id": "eco4",
+   "summary": "No evidence found on national tariffs or quotas to protect French sectors.",
+   "nuance": "A brief search found nothing. His economic federalism ('disparition totale des frontières économiques' within an EU core) points away from national tariffs, but that is not coded."
+  },
+  {
+   "id": "eco5",
+   "summary": "No evidence found on bringing energy or motorways back under public control.",
+   "nuance": "A brief search found nothing. The dette-écologique programme page discusses energy independence but does not mention EDF or nationalisation."
+  },
+  {
+   "id": "eco6",
+   "summary": "Opposes any rise in inheritance taxation and wants to make lifetime gifts easier and smoother (to grandchildren, great-nephews and great-nieces).",
+   "nuance": "Partial support. No explicit cut to inheritance tax rates; he blocks increases and eases gift transfers."
+  },
+  {
+   "id": "ret1",
+   "summary": "Wants to abolish the legal retirement age and move to a universal system based on contribution duration, with a real penalty for leaving early and a real bonus for leaving late. He rejects parametric fixes, so he does not support returning to 62.",
+   "nuance": "His current position (abolish the legal age) replaces the earlier defence of the 2023 reform at 64. The 2023 reform has since been suspended at 62 years and 9 months. Without a legal age, early departure would still be possible, but with a strong penalty."
+  },
+  {
+   "id": "ret2",
+   "summary": "Rejects raising the legal age (he called Philippe's 65 plan 'palliative care' and said 'On n'en est plus à bouger les paramètres'). He prefers abolishing the legal age, with a penalty/bonus system based on contribution duration.",
+   "nuance": "Coded -1, not -2: he opposes a higher legal age, but his system aims to make people work longer through strong penalties and bonuses."
+  },
+  {
+   "id": "ret3",
+   "summary": "Proposes a universal system 'avec une part de capitalisation' ('a real capitalisation pillar'), a state-funded EUR 1,000 retirement savings plan per child, and 50% of profit-sharing directed to retirement savings plans.",
+   "nuance": "Sources do not say whether the capitalisation part would be mandatory. If it is built into the universal system it could be compulsory, which would make it +2. Kept at +1 until the mechanism is confirmed."
+  },
+  {
+   "id": "fin1",
+   "summary": "Zero deficit in at most 10 years (balanced budget by 2037), up to EUR 150bn in savings, no tax rises, and a voluntary-departure plan for 100,000 civil servants. As PM in 2024 he cut ministry budgets by EUR 10bn.",
+   "nuance": "His target (zero deficit) is stricter than the 3% threshold. He frames it as 'rigoureuse et sérieuse' rather than austerity."
+  },
+  {
+   "id": "fin2",
+   "summary": "Pledges to cut 100,000 civil-service posts through a voluntary-departure plan with a severance bonus, and to remove one layer of local government.",
+   "nuance": "Reached through attrition and voluntary departures. Education, the armed forces, justice and the interior are reportedly spared."
+  },
+  {
+   "id": "fin3",
+   "summary": "Treats national debt as a loss of sovereignty and targets zero deficit. He backs EU-level common debt for climate adaptation.",
+   "nuance": "Opposes more national debt but is open to joint EU borrowing for climate, so partial opposition (-1)."
+  },
+  {
+   "id": "fin4",
+   "summary": "No constitutional golden rule found. His fiscal plan includes 'impunité budgétaire zéro' with sanctions, which is not a constitutional deficit cap.",
+   "nuance": "A brief search (Le Monde/Le Parisien headlines of 2 July 2026) found no golden-rule pledge."
+  },
+  {
+   "id": "trav1",
+   "summary": "Raises wages through productivity and lower contributions ('droit au brut': +EUR 250 net for a EUR 2,200 net salary), not through faster SMIC increases.",
+   "nuance": "No pledge to raise the SMIC above inflation. Not explicitly opposed either, hence -1."
+  },
+  {
+   "id": "trav2",
+   "summary": "As PM (March 2024) he proposed cutting the maximum benefit duration (to no less than 12 months, from 18) and tightening eligibility. His 2027 programme promises an unemployment insurance reform that 'incite au travail' and saves over EUR 4bn.",
+   "nuance": "The 2027 programme does not specify duration or amount cuts, so confidence is medium. The 2024 tightening was halted after the dissolution."
+  },
+  {
+   "id": "trav3",
+   "summary": "As Prime Minister he supported extending the RSA reform that requires at least 15 hours per week of activity. This obligation is now in force, and nothing suggests he wants to abolish it.",
+   "nuance": "The only source is a secondary one (Wikipedia), so confidence is low. The campaign programme pages do not mention the RSA. His programme also stresses social spending that 'incites activity', which is consistent with keeping the obligation. A primary 2025-2026 source is still needed."
+  },
+  {
+   "id": "trav4",
+   "summary": "Wants people to work more: remove the 220-hour annual overtime cap. Promotes a four-day week only as a reorganisation of existing hours, 'where possible'.",
+   "nuance": "The four-day week means flexible scheduling, not fewer hours."
+  },
+  {
+   "id": "imm1",
+   "summary": "'Accueillir moins pour accueillir mieux': a Canada-style points system, family reunification to fall, work to become the first ground for immigration ahead of family and student immigration, and limiting quotas voted by Parliament every two years.",
+   "nuance": "He wants an overall reduction, but work immigration is prioritised rather than cut sharply, so partial support (+1)."
+  },
+  {
+   "id": "imm2",
+   "summary": "Proposes an annual multi-question referendum day and limiting immigration quotas set by Parliament. No referendum specifically on immigration policy found.",
+   "nuance": "BFMTV/AFP (1 Aug 2026) reports annual referendums and 'quotas limitatifs', but not as a referendum topic. La Croix (3 Aug 2026, not fetchable) links 'référendums' and 'quotas migratoires' in its headline. Worth a check if accessible."
+  },
+  {
+   "id": "imm3",
+   "summary": "No AME position found.",
+   "nuance": "A brief search found nothing. As PM in 2024 his government kept AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "No current evidence on regularising undocumented workers in labour-shortage jobs.",
+   "nuance": "A brief search found nothing. Profession-based quotas concern new arrivals, not regularisation."
+  },
+  {
+   "id": "imm5",
+   "summary": "No evidence found.",
+   "nuance": "A brief search found nothing."
+  },
+  {
+   "id": "imm6",
+   "summary": "No evidence on abolishing droit du sol nationally.",
+   "nuance": "His government (Feb 2024, interior minister Darmanin) announced ending droit du sol in Mayotte only. No mainland position found."
+  },
+  {
+   "id": "imm7",
+   "summary": "No evidence found on local voting rights for non-EU foreigners.",
+   "nuance": "The draft coded -2 on party line with no source. A search found nothing, so null."
+  },
+  {
+   "id": "sec1",
+   "summary": "No evidence found on peines planchers.",
+   "nuance": "A brief search found nothing. He promises an 'in-depth' justice reform without detail."
+  },
+  {
+   "id": "sec2",
+   "summary": "Authored the 2025 law (definitively adopted 19 May 2025) that, for repeat offenders aged 16 and over, makes the reduced sentence for minors ('excuse de minorité') the exception and allows immediate trial ('comparution immédiate').",
+   "nuance": "Partial: it targets repeat offenders and stops short of trying minors as adults. Some provisions may have been struck down by the Conseil constitutionnel (not verified)."
+  },
+  {
+   "id": "sec3",
+   "summary": "No evidence found.",
+   "nuance": "A brief search found nothing."
+  },
+  {
+   "id": "sec4",
+   "summary": "As PM he took a hard line on drug use ('tolérer en même temps la consommation dans les \"beaux quartiers\"'). No explicit 2025-2026 statement on cannabis legalisation.",
+   "nuance": "In 2020 he was reportedly 'favorable' to a debate on legalisation (L'Express headline). The quote is from his time as PM and concerns drug use in general, so the code is weak and inferred."
+  },
+  {
+   "id": "sec5",
+   "summary": "No evidence found.",
+   "nuance": "A brief search found nothing."
+  },
+  {
+   "id": "eu1",
+   "summary": "Pro-integration federalist ('États-Unis d'Europe'). Nothing suggests he would put French law above EU law.",
+   "nuance": "Inferred from his federalist stance. No explicit statement on primacy."
+  },
+  {
+   "id": "eu2",
+   "summary": "Proposes common debt to finance climate adaptation within his 'États-Unis d'Europe' ecological union.",
+   "nuance": "Would apply to a core group of willing states."
+  },
+  {
+   "id": "eu3",
+   "summary": "His federalist integration agenda and support for common EU debt suggest he would not cut the contribution. No explicit statement.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "eu4",
+   "summary": "Denounces 'vétocratie européenne' and says the 27-member EU has reached its limits. But he says sovereign (régalien) powers would stay with member states.",
+   "nuance": "His veto critique targets economic, technological and ecological integration. Keeping régalien powers national cuts against majority voting in foreign policy, so partial (+1) and inferred."
+  },
+  {
+   "id": "eu5",
+   "summary": "Strongly pro-EU federalist. No evidence he would refuse to apply EU rules.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "eu6",
+   "summary": "Calls for a 'États-Unis d'Europe' approved by a first pan-European referendum.",
+   "nuance": "Strongly against leaving."
+  },
+  {
+   "id": "int1",
+   "summary": "Attal repeatedly calls to continue and amplify support for Ukraine (programme 'Frontières', BFM TV 21 Sep 2026, POLITICO 24 Sep 2026), backs European coordination of air-defence aid and seizure of frozen Russian assets; as PM he presented the bilateral Ukraine support agreement to the Assemblée.",
+   "nuance": "Only campaign-site sources could be opened (web search budget exhausted); no independent outlet corroboration, but the position is consistent and stated in his own programme."
+  },
+  {
+   "id": "int2",
+   "summary": "Renaissance/Macron line supports a reassurance force after a ceasefire; no personal Attal statement on French troops was retrieved.",
+   "nuance": "Not verified with a live source; 'guarantee a ceasefire' is conditional on a ceasefire existing. His 2026 statements stress amplifying support but do not mention troops."
+  },
+  {
+   "id": "int3",
+   "summary": "Renaissance is firmly Atlanticist; Attal's programme lists 'nos alliances' as a vector of power and extends nuclear deterrence to allies. Leaving NATO's integrated command is not part of his platform.",
+   "nuance": "No explicit NATO-command quote found; coding relies on party line plus alliance emphasis in programme."
+  },
+  {
+   "id": "int4",
+   "summary": "Renaissance and the government line favoured pressure on Israel but not suspension of the association agreement.",
+   "nuance": "Not verified live; Attal's own wording on Gaza not retrieved."
+  },
+  {
+   "id": "int5",
+   "summary": "Programme calls to 'poursuivre et amplifier' rearmament and keep increasing defence means, but sets no 3%-of-GDP figure.",
+   "nuance": "Supports higher defence spending; no specific >3% target found, hence +1."
+  },
+  {
+   "id": "int6",
+   "summary": "As junior minister (2018-2020) Attal was in charge of implementing the SNU; his 2026 programme speaks of strengthening 'réserves humaines et opérationnelles' but does not propose compulsory military service.",
+   "nuance": "Partial/weaker version (SNU, reserves); no 2025-2026 statement for a compulsory service retrieved."
+  },
+  {
+   "id": "int7",
+   "summary": "Attal attacks Marine Le Pen for refusing sanctions on Russia and wants Russia to pay via seizure of frozen assets; no openness to lifting sanctions for a peace deal.",
+   "nuance": "No explicit statement on sanctions relief in a peace deal; coded from his hard line on sanctions and asset seizure."
+  },
+  {
+   "id": "ecol1",
+   "summary": "No evidence retrieved on Attal's own position on abolishing ZFE.",
+   "nuance": "Renaissance deputies were split on abolishing ZFE in 2025; not coded to avoid guessing. Web search budget was exhausted during verification so no further search was possible."
+  },
+  {
+   "id": "ecol2",
+   "summary": "No evidence retrieved.",
+   "nuance": "Renaissance backed a competitiveness-oriented approach (loi Duplomb debate) but nothing personal verified."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Renaissance formally maintains the EU 2035 target while calling for flexibility; Attal pushes EV adoption (social leasing for used EVs, bonus extension) but no explicit 2035 statement found.",
+   "nuance": "Mixed; EV push suggests support for electrification but no 2035 commitment verified."
+  },
+  {
+   "id": "ecol4",
+   "summary": "No evidence retrieved.",
+   "nuance": "Government taxed air tickets more in 2025 budget (TSBA), but Attal's own position not found."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Programme rejects the trade-off: it says growth and decarbonisation do not conflict while urging France to accelerate emission cuts (from 1.8% to 5% a year).",
+   "nuance": "He denies the premise rather than ranking one over the other; strong climate-ambition language, so not coded as pro-growth."
+  },
+  {
+   "id": "ene1",
+   "summary": "Plan 'Messmer II' (23 Sep 2026) commits to securing the construction of 14 EPR (6 + 8) and building one reactor a year.",
+   "nuance": "Explicit programme commitment beyond the six EPR2."
+  },
+  {
+   "id": "ene2",
+   "summary": "Attal wants 14 EPR, one reactor a year, and research on fusion and closing the nuclear cycle: the opposite of a phase-out.",
+   "nuance": "Coded from his own nuclear-expansion programme."
+  },
+  {
+   "id": "ene3",
+   "summary": "Plan Messmer II defends accelerating renewables under technological neutrality, alongside nuclear.",
+   "nuance": "Wind is not named specifically; confidence medium for that reason."
+  },
+  {
+   "id": "ene4",
+   "summary": "Renaissance favours reforming, not leaving, the European electricity market; Attal targets a ~75 EUR/MWh price and sub-50 contracts for exposed industry, while promoting deeper EU economic integration ('États-Unis d'Europe').",
+   "nuance": "No explicit statement on the EU market; price target does not imply exit."
+  },
+  {
+   "id": "ins1",
+   "summary": "Renaissance defends the Fifth Republic; Attal calls for a deep transformation of institutions (speed, authority, giving power back to citizens) but not a new parliamentary constitution.",
+   "nuance": "No explicit rejection of a VIe République found; his institutional reform talk is about speed and authority, so partial opposition."
+  },
+  {
+   "id": "ins2",
+   "summary": "Macron's camp has been open to some proportionality; Attal's own current stance not retrieved.",
+   "nuance": "Mixed/uncertain."
+  },
+  {
+   "id": "ins3",
+   "summary": "Renaissance has opposed the RIC as written.",
+   "nuance": "Not verified live."
+  },
+  {
+   "id": "ins4",
+   "summary": "No evidence retrieved on Attal's position on restricting 49.3.",
+   "nuance": "Draft claim that he used 49.3 'on the 2025-type budget debates' as PM is wrong: he was PM Jan-Sep 2024 and did not carry a budget through Parliament. No personal statement found."
+  },
+  {
+   "id": "ins5",
+   "summary": "Attal proposes a referendum on banning social networks for under-15s and wants institutions that give 'more power to the French'; no explicit proposal to widen referendum scope to immigration or justice.",
+   "nuance": "Inferred from his openness to referendums; the immigration/justice scope is not confirmed."
+  },
+  {
+   "id": "soc1",
+   "summary": "Attal voted for the assisted-dying bill at first reading (27 May 2025) and at the final reading (15 July 2026). He would keep the law.",
+   "nuance": "His votes are consistent across readings, and there is no sign he wants to restrict or repeal the law."
+  },
+  {
+   "id": "soc2",
+   "summary": "On BFM TV (6 Sep 2026) Attal rejected a general ban on the headscarf for adult women, while defending stronger protection of minors and the 2004 school law.",
+   "nuance": "He favours restrictions for minors and in school, so not opposed to all restrictions, but clearly against a ban in all public space."
+  },
+  {
+   "id": "soc3",
+   "summary": "No statement found on parents who accompany school trips. His laïcité statements concern pupils (abaya ban) and minors (headscarf ban for under-15s in public space).",
+   "nuance": "In the 9 Sept 2026 franceinfo interview, the line about shielding children from religious influences at school is about pupils, not adult accompanying parents. He has also said he is not for a general headscarf ban, which leaves his view on adults unclear. Not coded. Web search was unavailable."
+  },
+  {
+   "id": "soc4",
+   "summary": "Attal defends freedom of belief and no general veil ban for adults, but supports further restrictions (abaya ban in schools, reinforced protection of minors).",
+   "nuance": "Partial opposition: he backs extra restrictions for minors and in school."
+  },
+  {
+   "id": "soc5",
+   "summary": "Macron's camp has opposed legalising GPA; no personal Attal statement retrieved.",
+   "nuance": "Not verified live; strength rests on party line only."
+  },
+  {
+   "id": "edu1",
+   "summary": "As education minister Attal launched a school-uniform experiment in about ten schools (2023-24); he has not been found proposing a nationwide mandatory uniform.",
+   "nuance": "Experiment only, not a general obligation; it is absent from his 2026 education programme."
+  },
+  {
+   "id": "edu2",
+   "summary": "Programme targets fewer than 20 pupils per primary class, funded by demographic decline rather than large-scale hiring.",
+   "nuance": "Supports smaller classes but via keeping posts as pupil numbers fall, not mass recruitment."
+  },
+  {
+   "id": "edu3",
+   "summary": "Attal introduced groupes de niveau as minister (Choc des savoirs) and in 2026 pledges to restore them in French and maths at collège after successors dropped them.",
+   "nuance": "Reform was abandoned by successors; he wants it back."
+  },
+  {
+   "id": "edu4",
+   "summary": "No evidence that Attal backs cutting funding for private schools missing social-mix targets.",
+   "nuance": "Draft attributed to Attal a pact tying private-school funding to social mix; the 2023 social-mix protocol with Catholic education was signed under his predecessor and did not cut funding. Not coded."
+  },
+  {
+   "id": "edu5",
+   "summary": "As a deputy he voted for the 2017 ORE law, which created Parcoursup and selective admission mechanisms. This opposes ending all selection at university entry.",
+   "nuance": "His POUR vote is verified on the Assemblée roll call, but the vote is from 2017. No 2025-2026 statement was found, and the education programme page does not mention university entry. Confidence is lowered from medium to low because the evidence is old."
+  },
+  {
+   "id": "san1",
+   "summary": "Government line favoured mandatory short missions in under-served zones, not forced installation.",
+   "nuance": "Mixed; not verified live."
+  },
+  {
+   "id": "san2",
+   "summary": "As PM Attal doubled the franchises médicales, and his campaign cites this as a spending-cut achievement while planning 100bn of cuts to social spending.",
+   "nuance": "No new proposal to raise them further found, but he enacted and still claims the doubling."
+  },
+  {
+   "id": "san3",
+   "summary": "Attal campaigns on a supply shock and simplification to free up housing; rent control is absent from his housing plan, and it stayed optional and limited under the Macron camp.",
+   "nuance": "No explicit rent-control statement; inferred from supply-side focus."
+  },
+  {
+   "id": "san4",
+   "summary": "Renaissance generally favours competition in rail and other services; Attal's programme favours ordering services from private firms (AI) and supply-side policy.",
+   "nuance": "Inferred; no statement on opening transport or energy further to competition."
+  },
+  {
+   "id": "eco7",
+   "summary": "No evidence found. The campaign programme pages (travail-salaires, dette-de-letat) do not mention VAT or a social VAT. He funds lower charges through cuts to social spending instead.",
+   "nuance": "His 28 Sept 2026 Batimat speech says net wages should rise through lower charges, funded by pension and unemployment-insurance reforms. That points away from a VAT-funded switch, but it is not a statement on social VAT. Web search was unavailable (session budget exhausted), so press coverage could not be checked. Needs a rerun with search."
+  },
+  {
+   "id": "imm8",
+   "summary": "No evidence found on naturalisation. The borders programme page does not mention it.",
+   "nuance": "Adjacent evidence leans restrictive. His programme says 'accueillir moins pour accueillir mieux', and on 6 Feb 2025 he voted for the bill tightening access to French nationality in Mayotte (Datan). That bill concerns birthright acquisition, not naturalisation, so it was not used to code this item. Web search was unavailable."
+  },
+  {
+   "id": "sec6",
+   "summary": "No evidence found on receipts for identity checks.",
+   "nuance": "He voted for the July 2026 bill creating a presumption of self-defence for police (Datan). That is not evidence on receipts. Web search was unavailable."
+  },
+  {
+   "id": "eu7",
+   "summary": "His programme calls for massive, jointly conducted European defence investment and for strengthening France's role in defending Europe. It does not propose a European army or accept any loss of French military autonomy.",
+   "nuance": "This is a partial version of the statement: he backs joint procurement and investment, but not an army or giving up autonomy. His 'United States of Europe' speech in Reims (17 Sept 2026) covers economic, technological and ecological federation, not defence."
+  },
+  {
+   "id": "eu8",
+   "summary": "No statement found on Ukraine's EU accession. The programme, the Politico interview (24 Sept 2026) and the Reims Europe speech (17 Sept 2026) were checked.",
+   "nuance": "He strongly supports Ukraine: the programme says 'continuer sans relâche à soutenir l'Ukraine', and he voted for the 12 March 2025 resolution strengthening support. He also says the 27-member EU 'a atteint ses limites' and favours a federal core. Whether that supports or works against enlargement is unclear, so the item is not coded. Web search was unavailable."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No evidence found on guaranteed price floors for farmers.",
+   "nuance": "As PM he made concessions to farmers in Jan-Feb 2024 (diesel subsidy kept). The 'prix planchers' announcement of Feb 2024 came from Macron and could not be tied to Attal personally. He voted for the 2025 agricultural sovereignty law, the 2025 Duplomb law and the July 2026 emergency agricultural law, but these are not evidence on price floors. Web search was unavailable."
+  },
+  {
+   "id": "ene5",
+   "summary": "No evidence found on cutting VAT on energy to 5.5%. The ecological debt programme page discusses energy but not VAT.",
+   "nuance": "His zero-deficit-in-10-years priority makes support unlikely, but that is not evidence. Web search was unavailable."
+  },
+  {
+   "id": "ins6",
+   "summary": "No evidence found on privatising public broadcasting.",
+   "nuance": "Datan's vote listing as retrieved showed no public-broadcasting vote. Web search was unavailable."
+  },
+  {
+   "id": "soc6",
+   "summary": "No evidence found on religious symbols at university.",
+   "nuance": "He rejects a general headscarf ban ('Je ne suis pas pour l'interdiction générale du voile', Europe 1, Nov 2025) but backs one for minors. University students are mostly adults, so this hints at opposition, but it is not direct evidence. Web search was unavailable."
+  },
+  {
+   "id": "san5",
+   "summary": "In his 28 Sept 2026 housing speech at Batimat, he pledged to restart the housing market by removing barriers to construction. He also cited his PM-era simplification work with housing minister Kasbarian.",
+   "nuance": "This is a partial version of the statement: easing rules to build more in general. The article does not mention ZAN. The quote was not re-extracted verbatim on this pass (the fetch tool paraphrased it), so treat it as close paraphrase."
+  }
+ ],
+ "record": {
+  "bio": "Gabriel Attal (born 16 March 1989) is a Renaissance politician who started on the Socialist side and later joined Emmanuel Macron's movement. He held several government posts from 2018 and became France's youngest Prime Minister on 9 January 2024. President Macron accepted his resignation on 16 July 2024, after the June-July 2024 snap legislative elections. He then ran a caretaker government until Michel Barnier was appointed on 5 September 2024. He has chaired the Ensemble pour la République group in the Assemblée nationale since July 2024 and has been Renaissance general secretary since December 2024. He announced his 2027 presidential candidacy on 22 May 2026 in Mur-de-Barrez (Aveyron).",
+  "offices": [
+   "Conseiller municipal, Vanves (re-elected 2020 and March 2026)",
+   "Deputy, Hauts-de-Seine 10th constituency (first term)",
+   "LREM spokesperson",
+   "Secretary of State to the Minister of National Education and Youth",
+   "Government spokesperson",
+   "Minister Delegate for Public Accounts",
+   "Deputy, Hauts-de-Seine 10th constituency (second term, gave up the seat to stay in government)",
+   "Minister of National Education and Youth",
+   "Prime Minister (resignation accepted 16 July 2024, caretaker until 5 September 2024)",
+   "Deputy, Hauts-de-Seine 10th constituency (third term)",
+   "President of the Ensemble pour la République group, Assemblée nationale",
+   "Renaissance general secretary"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Abaya and qamis ban in public schools (Education Minister, announced late August 2023, applied from the September 2023 school start)",
+    "assessment": "The government presented it as a secularism (laïcité) measure. According to Wikipedia, 67 pupils were refused entry at the school start. Left-wing parties and Muslim organisations objected. It is often cited as a defining act of his time at Education. Only encyclopedic sources were checked, so this lacks a multi-outlet assessment from different leanings."
+   },
+   {
+    "what": "'Choc des savoirs' education reform, announced December 2023 (including level-based groups in 6e and 5e) and a school-uniform experiment in about 10 schools, announced autumn 2023",
+    "assessment": "Both were launched under his authority as Education Minister and then as PM. According to Wikipedia, the level-based groups were dropped about two years later as ineffective and the uniform experiment was abandoned in summer 2026. Later governments made both decisions. No primary or second source was found for the outcome, so the result is reported only, without a verdict."
+   },
+   {
+    "what": "Premiership (9 January - 16 July 2024, then caretaker until 5 September 2024)",
+    "assessment": "He started with a 15-member government on 11 January 2024, which grew to 35 members on 8 February 2024. Several ministers had served under Nicolas Sarkozy or came from UMP/LR. English Wikipedia says many outlets called it the most right-leaning cabinet of Macron's tenure. Ensemble came third with 20.0% in the first round of the 30 June 2024 legislative elections. Attal later said eight months had been too little time to see his plans through."
+   },
+   {
+    "what": "Agricultural and environmental decisions as PM (early 2024)",
+    "assessment": "According to English Wikipedia, his government suspended and then modified the Ecophyto pesticide-reduction plan after pressure from farmers, and cut environmental budget lines including the Green Fund. Environmental groups and the left criticised these moves. No statement of the government's rationale and no source from another leaning was retrieved, so this is one-sided."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not researched: no left-leaning outlet could be consulted. Wikipedia reports that the left criticised the abaya ban and the 2024 environmental rollbacks.",
+   "right_media": "Not researched: no right-leaning outlet could be consulted.",
+   "neutral_media": "Not researched beyond encyclopedic summaries. English Wikipedia reports that early in his premiership he was described as one of France's most popular politicians."
+  }
+ }
+}

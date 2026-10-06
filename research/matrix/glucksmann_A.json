@@ -1,0 +1,1007 @@
+{
+ "collect": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left-wing wealth taxation is his line; ISF reinstatement is not confirmed in sources opened.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "taxation of the highest patrimonies (paraphrase)"
+     }
+    ],
+    "nuance": "Web search quota was exhausted; coded from one Wikipedia page plus background knowledge. Needs verification."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "He publicly backed a Zucman-style minimum tax on top fortunes in 2025 (from background knowledge, not re-verified).",
+    "sources": [],
+    "nuance": "No live source retrieved; verify."
+   },
+   {
+    "id": "eco3",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-competitiveness rhetoric but favours conditionality on aid; no explicit position found.",
+    "sources": [],
+    "nuance": "Inferred; verify."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports a Buy European Act and protection of European production.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Buy European Act protecting public procurement (paraphrase)"
+     }
+    ],
+    "nuance": "European rather than French-only protection; tariffs/quotas on price-raising basis unconfirmed."
+   },
+   {
+    "id": "eco5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from centre-left positions favouring public control of energy; motorways unverified.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "eco6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to lowering inheritance taxes given redistributive stance.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "ret1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed the 2023 reform and wants to repeal or suspend it; exact return to 62 not verified.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Strongly opposes raising the retirement age.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ret3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to mandatory capitalisation.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "fin1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Accepts deficit reduction but via revenue and growth rather than large cuts.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "fin2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to cutting civil servants.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Favours investment financed in part by European debt for climate and defence.",
+    "sources": [],
+    "nuance": "National debt position unverified."
+   },
+   {
+    "id": "fin4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to a constitutional golden rule.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "trav1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Supports regular SMIC increases; 'significantly faster than inflation' unverified.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes cuts to unemployment benefits.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to mandatory hours (he has supported support-to-work approaches).",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "trav4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Not a 32-hour advocate; inferred.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Opposes sharp cuts; supports legal pathways with needs-based quotas.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "legal immigration pathways with quotas based on economic needs (paraphrase)"
+     }
+    ],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to referendum on immigration.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes replacing AME.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Likely supports case-by-case regularisation in shortage jobs.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes national-preference measures.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes abolishing droit du sol.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "imm7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS line favours it; personal position unverified.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left opposes peines planchers.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Inferred opposition.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "sec3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left supports independent oversight.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "sec4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search quota exhausted."
+   },
+   {
+    "id": "sec5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Voted for the EU AI Act restrictions on biometric surveillance (inferred).",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Strongly pro-European federalist.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposed a European loan for a 100bn defence fund.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "a new European loan (paraphrase)"
+     }
+    ],
+    "nuance": "2024 campaign."
+   },
+   {
+    "id": "eu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants stronger EU budget.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "eu4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Supports qualified majority voting in foreign policy.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "eu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred opposition to disobeying EU rules.",
+    "sources": [],
+    "nuance": "Verify."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Strongly pro-EU.",
+    "sources": [],
+    "nuance": "Well-known position."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Raphaël Glucksmann",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for a new tax effort targeted on very large fortunes, and he backs the Zucman tax. He has not committed to bringing back a broad ISF; within the primary, Ségolène Royal is the one pushing the ISF.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Effort fiscal nouveau, ciblé sur les très hauts patrimoines et les grands groupes, pour contrer leur optimisation fiscale"
+     },
+     {
+      "url": "https://lessentieldeleco.fr/8543-raphael-glucksmann-est-il-vraiment-de-gauche/",
+      "outlet": "L'Essentiel de l'Éco",
+      "outlet_lean": "centre",
+      "date": "2026-09-23",
+      "quote": "fiscalité alourdie sur les très hauts patrimoines"
+     }
+    ],
+    "nuance": "Supports a wealth tax limited to the ultra-rich (Zucman-style), not an ISF-style tax on all large fortunes, so +1. A franceinfo fact-check of the October 2026 primary debate quotes Royal, not Glucksmann, on the ISF."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In September 2025 he made the Zucman tax 'the basis of any agreement' with the Lecornu government and kept pushing for it through the 2025 budget fight.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZXBRR0dqTkcwNUhXRk5QaFVwVG1IbUdsUmN0OUs3UjU4LUVtbmNHd19MMnRIRWZmX2tZWHduU0NVcEpYLTNLSUVHZ2diSV9Jd2kxamNqdzVrb2trYzZkNEljcG1JejYzYmNuemNCWERfQzFCVmRpaWdOa1JVUk45WHdRS3RZQmpmcWdlemNaZm5CQmtfWmhDbVVscmFLWVh5Q2ZPemZPRVBHRS1lMnEweEtLX1Nwd1V3bEFSZVF4ajJsTGNh?oc=5",
+      "outlet": "France 24",
+      "outlet_lean": "centre",
+      "date": "2025-09-11",
+      "quote": "Taxe Zucman : \"la base de tout accord\" pour Glucksmann, \"une illusion\" pour Larcher"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQa2NaZzc1LVpTaEhuX3JhTkNuMVZCMnhTQXB4dXBhT2RFQjlieU9xSEZKZGNJcXVrb0VfcTdTMEZXSjM4X1lYSEwyR0xxc0EwZkZPTHlCNDJVOWEyeFNmREpzR05ZMHB4OVFrTEEyZ2w5SHBmUHg4aHNlR2V6bklUYTl6SG04aGIzZGJ3cENXSm83d0ZWeVFBRTJIY05wbHhuNHBFMUJyZGh4Z3U3bmxoZDZhcTR3VWlPZTBlaGJGUHM3a291eXRyS1ZZRHp5QVVqWjEwWmZTczhxbllWUVFwOWhqdkJTVi0zbHNvSFhEelRLZUIwa1duV3dLVDBsU0REa3JqWloycUZHOVhIcUdSVkNwNFpZY2ZGOHdlaXRVa2Q1OGZGalNB?oc=5",
+      "outlet": "parlons-politique.fr",
+      "outlet_lean": "centre",
+      "date": "2025-10-05",
+      "quote": "Glucksmann critique Lecornu et réclame la taxe Zucman"
+     }
+    ],
+    "nuance": "The evidence is from autumn 2025. I found no 2026 campaign statement that repeats the exact 2%/100M design. The PS economic programme of September 2026 includes the Zucman tax. These are Google News links seen in search results; the article bodies could not be opened."
+   },
+   {
+    "id": "eco3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on cutting production taxes or employer contributions. His wage measure is a CSG cut for employees, funded by taxing 'méga-héritiers'.",
+    "sources": [
+     {
+      "url": "https://www.france24.com/fr/france/20260827-premier-d%C3%A9bat-de-la-pr%C3%A9sidentielle-2027-les-principales-propositions-des-candidats",
+      "outlet": "France 24",
+      "outlet_lean": "centre",
+      "date": "2026-08-27",
+      "quote": "On baisse la CSG sur les salaires pour les salariés et on trouve l'argent où ? Eh bien chez les grands, les méga-héritiers"
+     }
+    ],
+    "nuance": "The programme criticises the 'absence de conditionnement des aides publiques aux entreprises' but says nothing on production taxes. Searches came back empty."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants 'targeted and intelligent protectionism': stronger trade-defence tools, safeguard clauses for threatened sectors, anti-dumping measures and a Buy European Act, mainly at EU level.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Renforcer nos outils de défense commerciale pour activer des clauses de protection quand un secteur est menacé, sanctionner le dumping"
+     },
+     {
+      "url": "https://www.touteleurope.eu/economie-et-social/presidentielle-2027-dette-retraites-et-place-de-l-europe-que-retenir-du-premier-debat-entre-les-principaux-candidats/",
+      "outlet": "Toute l'Europe",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-08-28",
+      "quote": "La protection des producteurs, la lutte contre la concurrence déloyale ... doivent, selon lui, être menées à l'échelle européenne."
+     }
+    ],
+    "nuance": "Protection is mostly at European level, through public procurement and trade defence. He does not say he accepts price rises, and national tariffs are not proposed."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on bringing energy or motorways back under public control. The programme backs nuclear and public steering of industrial development, but not nationalisation.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "nous renouerons avec la tradition française du pilotage public du développement industriel"
+     }
+    ],
+    "nuance": "The draft's +1 was inferred without a source. The programme mentions regional funds taking stakes in key firms, but nothing on EDF or motorways. A search found nothing."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to raise taxes on 'méga-héritages': top marginal rate from 45% to 50% above EUR 2M, plus a tighter Pacte Dutreil, for about EUR 15bn. He says 99% of inheritances would be unaffected.",
+    "sources": [
+     {
+      "url": "https://rmc.bfmtv.com/actualites/politique/presidentielle-2027-raphael-glucksmann-veut-taxer-les-mega-heritages_AV-202609040678.html",
+      "outlet": "RMC/BFM",
+      "outlet_lean": "centre",
+      "date": "2026-09-04",
+      "quote": "Présidentielle 2027: Raphaël Glucksmann veut taxer les \"méga-héritages\""
+     },
+     {
+      "url": "https://www.lejdd.fr/economie/presidentielle-la-bataille-de-lheritage-est-relancee-184131",
+      "outlet": "Le JDD",
+      "outlet_lean": "right",
+      "date": "2026-09-22",
+      "quote": "raising the marginal rate from 45 to 50% on amounts exceeding 2 million euros (paraphrase)"
+     },
+     {
+      "url": "https://www.moneyvox.fr/actu/110596/presidentielles-2027-patrimoine-retraites-heritage-epargne-s-invite-dans-la-campagne",
+      "outlet": "MoneyVox",
+      "outlet_lean": "centre",
+      "date": "2026-10-01",
+      "quote": "99% des héritages ne seront pas affectés"
+     }
+    ],
+    "nuance": "Supported by sources of different leans. He does not propose lowering taxes on small inheritances; he only leaves them unchanged."
+   },
+   {
+    "id": "ret1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to repeal the 2023 reform and keeps 62 as the 'reference' legal age. He rules out a general return to 60, and the system would be modulated by arduousness: some leave earlier, others later.",
+    "sources": [
+     {
+      "url": "https://entrevue.fr/presidentielle-2027/retraites-62-ans-pour-faure-et-glucksmann-negociation-par-metier-pour-guedj/",
+      "outlet": "Entrevue",
+      "outlet_lean": "centre",
+      "date": "2026-10-04",
+      "quote": "Raphaël Glucksmann retient également 62 ans comme âge légal et exclut un retour général à 60 ans."
+     },
+     {
+      "url": "https://rmc.bfmtv.com/replay-emissions/les-grandes-gueules/la-reforme-du-jour-raphael-glucksmann-sur-la-retraite-je-veux-une-reforme-juste-on-base-tout-sur-les-criteres-de-penibilite-62-ans-c-est-l-age-de-reference-vous-et-moi-on-va-partir-plus-tard-05-10_EN-202610050566.html",
+      "outlet": "RMC",
+      "outlet_lean": "centre",
+      "date": "2026-10-05",
+      "quote": "62 ans, c'est l'âge de référence... vous et moi on va partir plus tard"
+     },
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-30",
+      "quote": "cesser la focalisation sur le seul âge légal qui produit l'injustice"
+     }
+    ],
+    "nuance": "He clarified this at the 4 October 2026 debate; until late September he had avoided naming an age. Coded +1, not +2, because 62 is a reference age and he says many would leave later ('Certains doivent partir plus tard, c'est la justice')."
+   },
+   {
+    "id": "ret2",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to repeal the 64-year reform and sets 62 as the reference age, but says openly that some people will have to work longer to balance the system.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "certains doivent pouvoir partir à la retraite à 60 ans, d'autres devront travailler davantage."
+     },
+     {
+      "url": "https://www.franceinfo.fr/politique/raphael-glucksmann/soutiens-sondages-programme-sur-quoi-s-appuie-la-candidature-de-raphael-glucksmann-qui-lance-sa-campagne-pour-la-presidentielle-2027_8153303.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2026-08-23",
+      "quote": "il estime que certains devront travailler plus longtemps pour équilibrer le système."
+     }
+    ],
+    "nuance": "He opposes a general rise of the legal age above 64; 'abroger la réforme Macron de 2023' is in the programme. But he accepts later departures for some groups, partly to balance the system, so 'strongly against' overstates it."
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "His October 2026 pension proposal explicitly excludes capitalisation.",
+    "sources": [
+     {
+      "url": "https://www.msn.com/fr-fr/actualite/other/abrogation-de-la-r%C3%A9forme-de-2023-pas-de-capitalisation-62-ans-rapha%C3%ABl-glucksmann-d%C3%A9crit-sa-proposition-de-r%C3%A9forme-des-retraites/vi-AA2dyRfH",
+      "outlet": "Orange Actualités / BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-10-04",
+      "quote": "Abrogation de la réforme de 2023, pas de capitalisation, 62 ans... Raphaël Glucksmann décrit sa proposition de réforme des retraites"
+     }
+    ],
+    "nuance": "Coded from the headline; the video could not be opened. Entrevue also reports his commitment to the pay-as-you-go system ('système par répartition')."
+   },
+   {
+    "id": "fin1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants a credible debt-reduction path through targeted savings and new revenue, and rejects funding his measures by 'breaking the social model'. He does not accept large spending cuts.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Notre stratégie s'appuiera sur un mix responsable d'économies ciblées et de recettes nouvelles"
+     },
+     {
+      "url": "https://www.france24.com/fr/france/20260827-premier-d%C3%A9bat-de-la-pr%C3%A9sidentielle-2027-les-principales-propositions-des-candidats",
+      "outlet": "France 24",
+      "outlet_lean": "centre",
+      "date": "2026-08-27",
+      "quote": "par la casse du modèle social"
+     }
+    ],
+    "nuance": "He does want fiscal consolidation, so this is partial disagreement: he rejects only the 'even at the cost of large spending cuts' part. He does not commit to a 3% date."
+   },
+   {
+    "id": "fin2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme wants to support and better pay civil servants and index the index point to inflation. It says nothing on headcount.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Soutenir les fonctionnaires, revaloriser durablement les rémunérations pour renforcer l'attractivité de la fonction publique"
+     }
+    ],
+    "nuance": "Inferred: the position on headcount comes from the pay and attractiveness agenda."
+   },
+   {
+    "id": "fin3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants 'massive' investment in schools, defence, reindustrialisation and the green transition, but while reducing debt and deficits. He says he will not fund wage measures by increasing debt.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Assainir durablement les finances publiques par une trajectoire crédible de désendettement"
+     },
+     {
+      "url": "https://www.france24.com/fr/france/20260827-premier-d%C3%A9bat-de-la-pr%C3%A9sidentielle-2027-les-principales-propositions-des-candidats",
+      "outlet": "France 24",
+      "outlet_lean": "centre",
+      "date": "2026-08-27",
+      "quote": "par l'aggravation de la dette"
+     }
+    ],
+    "nuance": "Mixed. He accepts strategic public reinvestment ('Nous assumons pleinement un réinvestissement stratégique') but not more national debt. He backs joint EU borrowing (see eu2), not national borrowing."
+   },
+   {
+    "id": "fin4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No position found on a constitutional golden rule. Opposition is inferred from his stance in favour of investment.",
+    "sources": [],
+    "nuance": "No evidence either way; a search found nothing. Could reasonably be null."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants the SMIC at EUR 1,600 net within two years of taking office, roughly +12%, well above expected inflation.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Augmenter le SMIC à 1600 euros net dans les deux ans qui suivent notre accession au pouvoir."
+     },
+     {
+      "url": "https://lessentieldeleco.fr/8543-raphael-glucksmann-est-il-vraiment-de-gauche/",
+      "outlet": "L'Essentiel de l'Éco",
+      "outlet_lean": "centre",
+      "date": "2026-09-23",
+      "quote": "Raise to \"1 600 euros\" net within two years (paraphrase)"
+     }
+    ],
+    "nuance": "This is a June 2025 programme measure, repeated in September 2026 coverage. It is less ambitious than Faure's or Mélenchon's EUR 1,700, but still clearly faster than inflation."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for repealing Macron's unemployment-insurance reform as 'unfair and ineffective'.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Abroger la réforme Macron de l'assurance chômage, injuste et inefficace."
+     }
+    ],
+    "nuance": "Programme dated 2025; I found no 2026 statement that changes it."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit position on mandatory RSA hours. The programme proposes a single minimum income, open to under-25s too, and a job guarantee (Territoires zéro chômeur).",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "aller vers un minimum social unique, accessible à toutes et tous, y compris pour les moins de 25 ans"
+     }
+    ],
+    "nuance": "Inferred; a search found no statement."
+   },
+   {
+    "id": "trav4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Not a 32-hour advocate: the programme has no reduction of working time and he stresses that some must work longer.",
+    "sources": [],
+    "nuance": "Inferred; a search for 'Glucksmann 32 heures' returned nothing."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Rejects 'zero immigration' as economically ruinous. Wants to repeal the 2024 immigration law, generalise multi-year permits and open legal work-migration routes matched to economic needs.",
+    "sources": [
+     {
+      "url": "https://actu.orange.fr/videos/politique/l-immigration-zero-c-est-l-effondrement-de-l-economie-francaise-assure-raphael-glucksmann-CNT000002sjA47.html",
+      "outlet": "Orange Actualités / BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-10-04",
+      "quote": "L'immigration zéro, c'est l'effondrement de l'économie française"
+     },
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Créer des voies légales et sécurisées d'immigration de travail"
+     }
+    ],
+    "nuance": "In 2026 he talks of 'régulation réaliste et cohérente' and proposed a citizens' convention on immigration (May 2026). That signals a more cautious tone, but not support for sharp cuts."
+   },
+   {
+    "id": "imm2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "He proposes a citizens' convention on immigration, not a referendum. No explicit statement against a referendum was found.",
+    "sources": [
+     {
+      "url": "https://www.sudouest.fr/politique/presidentielle-2027-raphael-glucksmann-propose-une-convention-citoyenne-sur-l-immigration-29206101.php",
+      "outlet": "Sud Ouest",
+      "outlet_lean": "centre",
+      "date": "2026-05-24",
+      "quote": "Raphaël Glucksmann propose une convention citoyenne sur l'immigration"
+     }
+    ],
+    "nuance": "His programme generally favours citizen-initiated referendums, so opposition to an immigration referendum is not certain. Seen as a search result; the article could not be opened."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "No personal statement on the AME was found. The left, PS included, defends the AME, and his programme stresses newcomers' access to rights, health included.",
+    "sources": [],
+    "nuance": "Party line only; a search found nothing."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for making it easier to regularise undocumented workers, and for allowing asylum seekers to work.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Faciliter les démarches de régularisation des travailleurs sans papiers"
+     }
+    ],
+    "nuance": "Broader than shortage occupations, so it includes the statement. Programme dated 2025."
+   },
+   {
+    "id": "imm5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes national-preference measures in line with the left. The programme's anti-discrimination stance points the same way, but I found no specific statement.",
+    "sources": [],
+    "nuance": "Verify. Probably stronger than -1, but no personal source was found."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes abolishing droit du sol (left party line).",
+    "sources": [],
+    "nuance": "No personal statement found."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for giving non-EU foreigners the vote in local elections, and lowering the voting age to 16.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales"
+     }
+    ],
+    "nuance": "This is in his own party's programme, not only the PS line. I found no 2026 restatement."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left opposes peines planchers. His programme stresses local justice, mediation and community service, with no mandatory minimums.",
+    "sources": [],
+    "nuance": "No personal statement found; party line."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Probable opposition, in line with the left; no personal statement.",
+    "sources": [],
+    "nuance": "Not addressed in the programme."
+   },
+   {
+    "id": "sec3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The left generally supports independent oversight of the police. His programme only commits to reviewing France's public-order policing doctrine.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Revoir la doctrine française du maintien de l'ordre."
+     }
+    ],
+    "nuance": "The programme says nothing about replacing or making the IGPN independent."
+   },
+   {
+    "id": "sec4",
+    "position": 0,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Gives no position on legalisation and defers it to a citizens' convention on drug policy, 'notamment la question de la légalisation du cannabis'.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Organiser une convention citoyenne sur la politique vis-à-vis des drogues, notamment la question de la légalisation du cannabis."
+     }
+    ],
+    "nuance": "Coded 0 because he states explicitly that he defers the question."
+   },
+   {
+    "id": "sec5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on AI-assisted video surveillance in public spaces.",
+    "sources": [],
+    "nuance": "The draft's 'vote' coding had no source. On howtheyvote.eu, the AI Act final vote (13 March 2024) does not list Glucksmann's individual vote. Even if he voted yes, the AI Act limits biometric identification rather than deciding on French public-space surveillance. A search found nothing."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Federalist pro-European. His programme calls for a new EU 'reunification' treaty, a much bigger EU budget and qualified-majority voting, which cannot be squared with French law prevailing over EU law.",
+    "sources": [
+     {
+      "url": "https://www.touteleurope.eu/economie-et-social/presidentielle-2027-dette-retraites-et-place-de-l-europe-que-retenir-du-premier-debat-entre-les-principaux-candidats/",
+      "outlet": "Toute l'Europe",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-08-28",
+      "quote": "faire de l'Union européenne l'un des responsables de la dette revient à méconnaître le rôle du marché unique"
+     }
+    ],
+    "nuance": "No explicit statement on legal primacy was found, so this is inferred. The direction is very likely."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme calls for a EUR 500bn European defence fund financed by joint EU borrowing, reserved for European production. In 2024 he campaigned on a EUR 100bn fund financed by a European loan.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Oeuvrer à la mise en place rapide d'un fonds européen de défense de 500 milliards d'euros via un emprunt commun."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "création d'un fonds de défense de 100 milliards d'euros, financé par un nouvel emprunt européen"
+     }
+    ],
+    "nuance": "Consistent from 2024 to 2026."
+   },
+   {
+    "id": "eu3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme calls for 'massively' increasing the EU budget and giving the EU new own resources.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Augmenter massivement le budget de l'Union ... et attribuer à l'Union des ressources propres nouvelles."
+     }
+    ],
+    "nuance": "New own resources could change how France pays in, but the direction is clearly against reducing the EU budget."
+   },
+   {
+    "id": "eu4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for a treaty moving the European Council to qualified-majority voting.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "passant à la majorité qualifiée au Conseil européen"
+     }
+    ],
+    "nuance": "A general move to QMV, which covers foreign policy, but foreign policy is not named specifically."
+   },
+   {
+    "id": "eu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Strongly pro-EU and federalist; refusing to apply EU rules contradicts his whole European project.",
+    "sources": [],
+    "nuance": "No explicit statement found; inferred from his federalist programme."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "His whole programme is built on 'Une France puissante grâce à une Europe souveraine'. He firmly rejects leaving the EU.",
+    "sources": [
+     {
+      "url": "https://place-publique.eu/document/3Ari5O0s5O1L4iK1uyUhI0/pp-acte-un.pdf",
+      "outlet": "Place publique - Acte I",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-23",
+      "quote": "Une France puissante grâce à une Europe souveraine"
+     }
+    ],
+    "nuance": "MEP and leader of a pro-European list since 2019."
+   }
+  ],
+  "verification_notes": [
+   "General: WebSearch quota was exhausted, so verification used Bing News and Google News RSS feeds and direct fetches. The main primary source is the Place publique 'Acte I' programme PDF (42 chantiers, June 2025), downloaded and searched in full. Le Monde, La Dépêche, Le Point, RMC, Sud Ouest, Le Télégramme and La Tribune blocked fetching; for those I used only headlines or snippets seen in search results. Google News redirect URLs (eco2) could not be resolved to the publisher's page.",
+   "eco1: +1 low party_line -> +1 medium programme: Acte I confirms 'Effort fiscal nouveau, ciblé sur les très hauts patrimoines'. No ISF commitment; Royal, not Glucksmann, carries the ISF in the primary.",
+   "eco2: +2 low statement (no source) -> +2 medium statement: confirmed by France 24 (11 Sept 2025), 'la base de tout accord'. The 2026 restatement is via the PS programme, not him personally.",
+   "eco3: 0 low inferred -> null: no evidence. A 0 means 'explicitly mixed', which nothing supports. His wage lever is an employee CSG cut.",
+   "eco4: +1 low programme (Wikipedia paraphrase) -> +1 medium programme: Acte I primary text ('protectionnisme ciblé', safeguard clauses, Buy European Act), plus his August 2026 debate statement (Toute l'Europe). Strength unchanged.",
+   "eco5: +1 low inferred -> null: no source. The programme backs nuclear and public steering of industry but not public control of energy or motorways. A search found nothing.",
+   "eco6: -1 low inferred -> -2 high statement: September 2026 proposal to raise the top inheritance rate 45->50% above EUR 2M and tighten the Pacte Dutreil (RMC, JDD, MoneyVox). The draft understated it by one point.",
+   "ret1: +1 low party_line -> +1 medium statement: at the 4 Oct 2026 debate he kept 62 as 'âge de référence' (Entrevue, RMC). Kept at +1, not +2, because he says many would leave later. This is a 2026 clarification; in late September he still avoided naming an age (Public Sénat).",
+   "ret2: -2 medium party_line -> -1 medium programme: Acte I and franceinfo show that besides repealing the 64 reform he says 'd'autres devront travailler davantage' to balance the system. 'Strongly against' overstated it.",
+   "ret3: -1 low inferred -> -2 medium statement: October 2026 proposal explicitly says 'pas de capitalisation' (Orange/BFMTV headline).",
+   "fin1: 0 low inferred -> -1 medium programme: he wants a debt-reduction path but through targeted savings and new revenue, and refuses 'la casse du modèle social'. So he rejects the 'large spending cuts' part.",
+   "fin2: -1 low inferred: unchanged; added the programme's pay-and-attractiveness wording as context. Still inferred.",
+   "fin3: +1 low statement (no source) -> -1 medium programme: Acte I commits to 'trajectoire crédible de désendettement', and at the August 2026 Medef debate he refused to fund measures 'par l'aggravation de la dette'. The draft confused support for joint EU borrowing with acceptance of national debt.",
+   "fin4: -1 low inferred: unchanged; no evidence found.",
+   "trav1: +1 low party_line -> +2 medium programme: Acte I has 'SMIC à 1600 euros net dans les deux ans', about +12% in two years, clearly faster than inflation.",
+   "trav2: -2 low party_line -> -2 medium programme: Acte I has 'Abroger la réforme Macron de l'assurance chômage'.",
+   "trav3: -1 low inferred: unchanged; added the programme's single-minimum-income context.",
+   "trav4: -1 low inferred: unchanged; no evidence of a 32-hour position.",
+   "imm1: -2 low statement (Wikipedia paraphrase) -> -2 medium statement: 'L'immigration zéro, c'est l'effondrement de l'économie française' (4 Oct 2026), and Acte I repeals the 2024 law and creates legal work routes. Noted the more cautious 2026 tone (citizens' convention).",
+   "imm2: -1 low inferred: unchanged in code; added the May 2026 citizens'-convention proposal as context.",
+   "imm4: +1 low party_line -> +2 medium programme: his own programme has 'Faciliter les démarches de régularisation des travailleurs sans papiers'. The draft wrongly treated this as PS party line.",
+   "imm7: +1 low party_line ('PS line, personal unverified') -> +2 medium programme: Acte I explicitly gives non-EU foreigners the vote in local elections.",
+   "sec4: null none -> 0 medium programme: the evidence existed. Acte I defers cannabis legalisation to a citizens' convention, an explicitly undecided position.",
+   "sec5: -1 low vote -> null: the 'vote' coding had no source. His individual AI Act vote could not be confirmed on howtheyvote.eu, and the AI Act is not a vote on French public-space AI surveillance.",
+   "eu1: -2 medium statement (no source) -> -2 low inferred: no explicit statement on legal primacy found. Direction is near-certain, but the evidence_type and confidence were overstated.",
+   "eu2: +2 medium statement -> +2 high programme: Acte I has a EUR 500bn European defence fund 'via un emprunt commun'. The draft's EUR 100bn figure is the 2024 European-election version.",
+   "eu3: -2 low inferred -> -2 high programme: Acte I has 'Augmenter massivement le budget de l'Union' and new own resources.",
+   "eu4: +2 medium statement (no source) -> +2 medium programme: Acte I has 'passant à la majorité qualifiée au Conseil européen'.",
+   "eu5: -1 low inferred -> -2 low inferred: partial opposition is implausible for a federalist whose programme centres on deeper EU integration. Still no explicit statement.",
+   "eu6: -2 high statement (no source) -> -2 high programme: added Acte I as the source.",
+   "Unchanged and unverified (party line only, no personal source found): imm3 (-2), imm5 (-1), imm6 (-2), sec1 (-2), sec2 (-1), sec3 (+1; the programme only says 'revoir la doctrine du maintien de l'ordre').",
+   "Dead or fabricated URL check: the only URL in the draft (fr.wikipedia.org/wiki/Raphaël_Glucksmann) is live and supports the paraphrases cited (Buy European Act, 100bn European loan, legal immigration quotas). Several draft codes had no source at all and have been re-sourced or downgraded."
+  ]
+ }
+}

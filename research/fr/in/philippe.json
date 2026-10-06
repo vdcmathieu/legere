@@ -1,0 +1,445 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Opposes restoring the ISF. His 2017-2020 government replaced the ISF with the IFI plus flat tax, and he defends keeping that framework.",
+   "nuance": "Both sources are voter-guide aggregators. The record in office (ISF replaced by IFI in 2018) is well established."
+  },
+  {
+   "id": "eco2",
+   "summary": "The Horizons group voted against Zucman-tax amendments in committee (Oct 2025). Philippe defends the IFI plus flat-tax framework.",
+   "nuance": "This is a group vote in finance committee, not a roll-call vote. No personal Philippe quote on the Zucman tax was retrieved. The 'Philippe Juvin' quoted in the LCP article is an LR deputy, not Édouard Philippe."
+  },
+  {
+   "id": "eco3",
+   "summary": "The programme proposes a 50 bn EUR cut in production taxes, financed by 50 bn EUR less in 'unproductive' public subsidies.",
+   "nuance": "No cut to employer social contributions was confirmed. The production-tax half of the statement is explicit and large."
+  },
+  {
+   "id": "eco4",
+   "summary": "The programme calls for EU-level protection against Chinese competition (technology transfers, production quotas, joint ventures in strategic sectors). It proposes no national tariffs, and his general line is liberal.",
+   "nuance": "Mixed: he favours EU-level protective tools and opposes national protectionism. An aggregator (presi2027) estimates 'plutôt contre'."
+  },
+  {
+   "id": "eco5",
+   "summary": "Generally opposed to nationalisations, which he accepted only as an emergency last resort in 2020.",
+   "nuance": "No specific statement on motorways or energy was found."
+  },
+  {
+   "id": "eco6",
+   "summary": "No evidence of a proposal to lower inheritance or gift taxes. He opposes raising them.",
+   "nuance": "He opposed an exceptional contribution on large estates. presi2027 estimates 'plutôt pour' allègement but cites no measure, so this was not coded."
+  },
+  {
+   "id": "ret1",
+   "summary": "Rejects returning to 62 and wants to raise the legal age to 65.",
+   "nuance": ""
+  },
+  {
+   "id": "ret2",
+   "summary": "Proposes gradually raising the retirement age to 65 and the contribution period to 45 years.",
+   "nuance": "Announced in a video on 29 Sept 2026."
+  },
+  {
+   "id": "ret3",
+   "summary": "Proposes a mixed pay-as-you-go plus capitalisation system, in which the state makes an initial deposit into each young worker's savings plan. Mandatory contributions are not stated.",
+   "nuance": "Partial support: he wants a capitalisation component, but it is not clearly mandatory."
+  },
+  {
+   "id": "fin1",
+   "summary": "Cut the deficit from over 5% to 2% of GDP by the end of the term, with no new taxes, financed by spending cuts such as 50 bn EUR less in public subsidies. Golden rule in the Constitution.",
+   "nuance": "The programme target (2%) goes beyond the statement's 3%. The no-new-tax pledge implies spending cuts."
+  },
+  {
+   "id": "fin2",
+   "summary": "No explicit 2025-2026 evidence on cutting civil-servant numbers.",
+   "nuance": "The programme pages fetched say nothing on headcount. The 2017 Macron target of 120,000 fewer civil servants was softened under his government in 2019, but no current personal position was found."
+  },
+  {
+   "id": "fin3",
+   "summary": "Treats debt reduction as a condition of sovereignty and targets a 2% deficit with no new taxes. He opposes taking on more debt.",
+   "nuance": ""
+  },
+  {
+   "id": "fin4",
+   "summary": "The programme proposes a constitutional golden rule on deficits, possibly adopted by referendum.",
+   "nuance": ""
+  },
+  {
+   "id": "trav1",
+   "summary": "As PM he refused discretionary increases to the SMIC beyond automatic indexation.",
+   "nuance": "The quote dates from 2019; no newer position was found."
+  },
+  {
+   "id": "trav2",
+   "summary": "His government tightened unemployment-insurance eligibility and benefit calculation in 2019. His current position is estimated from that record.",
+   "nuance": "The aggregator marks this as an estimated position. No 2025-2026 statement was found."
+  },
+  {
+   "id": "trav3",
+   "summary": "Favours keeping the RSA conditional on activity hours. The Horizons group backed the 2023 full-employment law that introduced the 15-hour requirement.",
+   "nuance": "This is a group vote, and Philippe is not a deputy. Both aggregators rate him 'plutôt pour', not 'tout à fait pour', hence +1. No personal 2025-26 quote was found."
+  },
+  {
+   "id": "trav4",
+   "summary": "Wants people to work more hours per week and per year, the opposite of moving towards 32 hours.",
+   "nuance": ""
+  },
+  {
+   "id": "imm1",
+   "summary": "Programme: restrict family immigration, set annual migration quotas voted by Parliament to choose economic immigration, and denounce the 1968 agreement with Algeria. He accepts work migration in labour-shortage sectors.",
+   "nuance": "Partial support: he wants to restrict and select immigration, not cut it sharply across the board. The 'fermer les vannes' quote refers to Mayotte only."
+  },
+  {
+   "id": "imm2",
+   "summary": "No proposal for a referendum on immigration was found. He favours selective use of referendums, notably for the budget golden rule.",
+   "nuance": "France-Vote mentions 'un recours choisi au référendum', but not on immigration."
+  },
+  {
+   "id": "imm3",
+   "summary": "Aggregators say he favours restricting the AME, in line with the 2019 waiting period, and keeping it in a controlled, emergency-oriented form.",
+   "nuance": "Aggregator-only, and the accounts are inconsistent ('opposes suppression' versus 'emergency care only'). No primary quote was retrieved."
+  },
+  {
+   "id": "imm4",
+   "summary": "An aggregator reports that he proposes regularisation quotas in labour-shortage sectors and accepts the need for foreign workers.",
+   "nuance": "Aggregator-only, and no primary source was retrieved. Quotas imply a limited, controlled form rather than broad regularisation. The opposite reading (-1) had no supporting source."
+  },
+  {
+   "id": "imm5",
+   "summary": "No evidence on national priority for social housing or benefits.",
+   "nuance": "The programme does propose ending social benefits for foreigners who commit offences, which is not the same as national priority."
+  },
+  {
+   "id": "imm6",
+   "summary": "Proposes suspending droit du sol in Mayotte (Aug 2026) and tightening access to nationality, but does not call for national abolition.",
+   "nuance": "Partial support, specific to Mayotte. Nationally he is not positioned for abolition. According to an aggregator, the Horizons group voted against fully abolishing droit du sol in Mayotte."
+  },
+  {
+   "id": "imm7",
+   "summary": "Horizons opposes local voting rights for non-EU foreigners.",
+   "nuance": "This is the party position. No personal statement by Philippe was retrieved."
+  },
+  {
+   "id": "sec1",
+   "summary": "The programme proposes minimum sentences (peines planchers) for the most serious offences. Aggregators report he favours restoring them for repeat offenders.",
+   "nuance": "The programme frames minimum sentences around the gravity of the offence, especially attacks on public officials, rather than repeat offending. The recidivist framing comes from the aggregator."
+  },
+  {
+   "id": "sec2",
+   "summary": "Horizons supported the 2025 law removing the minority excuse for repeat offenders aged 16 and over.",
+   "nuance": "Partial: the law concerns repeat offenders, not all serious crimes. This is a group vote, not a personal statement."
+  },
+  {
+   "id": "sec3",
+   "summary": "As PM in 2019 he defended internal police oversight by the IGPN (Steve Maia Caniço case).",
+   "nuance": "Old source; no 2025-2026 position was found."
+  },
+  {
+   "id": "sec4",
+   "summary": "Opposed to legalisation and favours systematic fines for cannabis use. His government created the fixed criminal fine (amende forfaitaire délictuelle).",
+   "nuance": "Aggregator-reported."
+  },
+  {
+   "id": "sec5",
+   "summary": "The programme proposes a 'narco state of emergency' with targeted use of facial recognition. His government launched the ALICEM app in 2019. This is not a general rollout of AI video surveillance.",
+   "nuance": "Partial: targeted use, not generalisation."
+  },
+  {
+   "id": "eu1",
+   "summary": "No explicit position found on the primacy of EU law.",
+   "nuance": "His pro-European line suggests opposition, but that was not coded."
+  },
+  {
+   "id": "eu2",
+   "summary": "Supports 'Europe puissance' and a common European defence, but no explicit position on joint EU borrowing was found.",
+   "nuance": ""
+  },
+  {
+   "id": "eu3",
+   "summary": "No evidence found.",
+   "nuance": ""
+  },
+  {
+   "id": "eu4",
+   "summary": "No documented position.",
+   "nuance": ""
+  },
+  {
+   "id": "eu5",
+   "summary": "Defends budgetary discipline, including a constitutional golden rule, and holds a pro-EU line. No explicit statement on disapplying EU rules.",
+   "nuance": "Inferred from adjacent positions."
+  },
+  {
+   "id": "eu6",
+   "summary": "Firmly opposed to leaving the EU; he champions 'Europe puissance' and a common defence.",
+   "nuance": ""
+  },
+  {
+   "id": "int1",
+   "summary": "Strongly pro-Ukraine: met Zelensky in Kyiv in May 2026, pledged support 'even beyond' the war; programme keeps military and financial support as long as needed.",
+   "nuance": "Programme wording comes from an aggregator; no primary programme page found (Horizons site has no programme page). Kyiv visit corroborated by Euronews and JDD."
+  },
+  {
+   "id": "int2",
+   "summary": "In Kyiv (May 2026) backed deploying European troops in Ukraine once peace returns, to deter renewed Russian attacks.",
+   "nuance": "He speaks of European troops, and the French share is not spelled out, so coded +1. Now corroborated by a neutral outlet."
+  },
+  {
+   "id": "int3",
+   "summary": "Atlanticist: links a strong NATO to European defence and wants Ukraine to join NATO. No sign of wanting to leave the integrated command.",
+   "nuance": "The NATO quote is from 2018. His 2026 push for Ukraine's NATO membership confirms the current Atlanticist stance. No explicit statement on the integrated command."
+  },
+  {
+   "id": "int4",
+   "summary": "Defends Israel's right to defend itself and voiced reservations (July 2025) about recognising Palestine; no statement on the EU-Israel association agreement.",
+   "nuance": "Inferred from adjacent statements; the main quote dates from Nov 2023."
+  },
+  {
+   "id": "int5",
+   "summary": "Programme (per aggregator): defence budget to 3% of GDP by 2030, which meets the 3% mark without going beyond it.",
+   "nuance": "The statement asks for MORE than 3%, and his target is exactly 3% by 2030, so this is partial support (+1). Aggregator wording, not a primary programme."
+  },
+  {
+   "id": "int6",
+   "summary": "Proposes expanding voluntary military service (3,000 to 50,000 places a year) and reservists (45,000 to 250,000), with no compulsory service.",
+   "nuance": "In 2023 he wondered whether conscription might become necessary (MonVote2027). His current programme is voluntary. Aggregator only."
+  },
+  {
+   "id": "int7",
+   "summary": "Firm line on Moscow and calls abandoning Ukraine a betrayal; no explicit statement on lifting sanctions for a peace deal.",
+   "nuance": "Inferred only. 'Without conditions' leaves room for conditional dialogue, and as PM he received Medvedev (2019)."
+  },
+  {
+   "id": "ecol1",
+   "summary": "As PM his government passed the Loi d'orientation des mobilités (Dec 2019), which set up the mobility low-emission zones (ZFE-m); no current statement found.",
+   "nuance": "Based only on his record (he was PM when the LOM was enacted). No 2025-26 statement on the ZFE abolition votes was found. Web search budget was exhausted, so the check was limited."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Reported as refusing pesticide bans without alternatives, as in the glyphosate file under his government.",
+   "nuance": "MonVote2027 says he 'voted for' the Duplomb law (July 2025). That cannot be right: he has not been a deputy since 2020. At most the Horizons group voted for it. Indirect aggregator source."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Reported as reserved about the 2035 ban on new combustion cars and wanting it relaxed for industrial realism.",
+   "nuance": "Only one indirect aggregator source. MonVote2027 found no explicit position."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Aggregator reports him against heavier air taxation on competitiveness and purchasing-power grounds.",
+   "nuance": "Indirect source. As PM in 2019 his government did bring in an eco-contribution on plane tickets (EUR 1.50-18, per MonVote2027), a modest increase."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Pragmatic: supports decarbonisation but resists bans without alternatives; does not put climate ahead of growth.",
+   "nuance": "Inferred from adjacent positions only."
+  },
+  {
+   "id": "ene1",
+   "summary": "Programme: 6 EPR2 followed by a second series of 8 reactors.",
+   "nuance": "Aggregator wording. votons-2027.fr also has 'en relançant le nucléaire'."
+  },
+  {
+   "id": "ene2",
+   "summary": "Firmly pro-nuclear: 'La France aura plus de nucléaire' (April 2026).",
+   "nuance": "Consistent with his career (former Areva executive) and his EPR2 programme."
+  },
+  {
+   "id": "ene3",
+   "summary": "Wants to develop offshore wind and solar, so opposes halting new wind turbines.",
+   "nuance": "'Sans saturer les paysages' signals restraint on onshore wind, but nothing suggests a halt. Aggregator wording."
+  },
+  {
+   "id": "ene4",
+   "summary": "Pro-European; aggregator estimates he opposes leaving the EU electricity market unilaterally.",
+   "nuance": "The aggregator labels this an estimate."
+  },
+  {
+   "id": "ins1",
+   "summary": "Rejects a Sixth Republic and wants to return to the sources of the Fifth.",
+   "nuance": "The explicit refusal dates from 2018. The 'sources of the Fifth' line points the same way."
+  },
+  {
+   "id": "ins2",
+   "summary": "Warned in May 2025 that proportional representation would perpetuate the lack of a majority; the programme reportedly offers only 'une dose de proportionnelle'.",
+   "nuance": "He rejects full PR, while a partial dose may be in the programme. Coded -1 (partial opposition)."
+  },
+  {
+   "id": "ins3",
+   "summary": "Hostile to the RIC: 'ça me hérisse' (2019).",
+   "nuance": "Dated (2019, during the Gilets jaunes). No sign of a change since."
+  },
+  {
+   "id": "ins4",
+   "summary": "As PM he used 49.3 for the pension reform (Feb-Mar 2020) and opposes abolishing it.",
+   "nuance": "His 2020 use of 49.3 is well documented. No recent statement on restricting it."
+  },
+  {
+   "id": "ins5",
+   "summary": "Wants to govern by referendum (pensions, budget rule), but no evidence on widening its scope to immigration or justice.",
+   "nuance": "His proposed referendums (pensions, budget rule) do not need a wider scope. No statement on immigration or justice referendums found."
+  },
+  {
+   "id": "soc1",
+   "summary": "In January 2025 (TF1) he spoke about his father's end of life but said he did not want assisted dying written into law. No statement on keeping or repealing the July 2026 law was found.",
+   "nuance": "He opposed legislating before the law passed, and no repeal pledge was found, so -1, not -2. One aggregator reports openness to tightly regulated aid, which conflicts with the TF1 account, hence low confidence. He is not a deputy, so he cast no personal vote."
+  },
+  {
+   "id": "soc2",
+   "summary": "Says a general ban on the headscarf would be contrary to French laïcité (2025).",
+   "nuance": ""
+  },
+  {
+   "id": "soc3",
+   "summary": "As PM in October 2019 he opposed a law banning headscarves for parents on school trips, arguing that service users are not bound by neutrality. In August 2026 he said there was no need to go further than current law on the veil.",
+   "nuance": "The school-trip statement is from 2019. It is consistent with his August 2026 'pas nécessaire d'aller plus loin' line (BFM headline, seen in an earlier run), which concerned Le Pen's public-space proposal. The wording ('l'enjeu aujourd'hui n'est pas...') is firm but not absolute, so -1 is kept."
+  },
+  {
+   "id": "soc4",
+   "summary": "Frames laïcité as state neutrality, not uniformity, and opposes extending religious-symbol bans; firm on public services and against separatism.",
+   "nuance": "+1 rather than +2 because he also backs tougher anti-separatism measures. Aggregator only."
+  },
+  {
+   "id": "soc5",
+   "summary": "No position on surrogacy found.",
+   "nuance": "MonVote2027 also lists no GPA position. He supported extending PMA in 2018."
+  },
+  {
+   "id": "edu1",
+   "summary": "Programme lets school heads impose a uniform; no national obligation.",
+   "nuance": "Partial: a school-level option, not mandatory everywhere."
+  },
+  {
+   "id": "edu2",
+   "summary": "Puts teacher pay rises tied to commitments first; no mass hiring or class-size plan found.",
+   "nuance": "Inferred from the absence of hiring pledges and his focus on spending discipline."
+  },
+  {
+   "id": "edu3",
+   "summary": "Favours school autonomy and a back-to-basics focus; no direct statement on ability groups.",
+   "nuance": "Inferred. Groupes de niveau were adopted by the Attal government (2023-24), which Horizons supported; Philippe was not in it."
+  },
+  {
+   "id": "edu4",
+   "summary": "Aggregator estimate: attached to freedom of education and opposed to cutting public funding of contracted private schools.",
+   "nuance": "Estimate only. MonVote2027 found no position. The statement's social-mix conditionality is not addressed."
+  },
+  {
+   "id": "edu5",
+   "summary": "His government created Parcoursup and introduced university admission prerequisites (attendus) through the 2018 ORE law, ending the APB lottery. He opposes abolishing it.",
+   "nuance": "His record is the introduction of selection criteria at university entry, the opposite of the statement. No 2025-26 statement specifically on selection was found."
+  },
+  {
+   "id": "san1",
+   "summary": "Tackles medical deserts with strong installation incentives and more maisons de santé, without coercion.",
+   "nuance": "Choosing incentives implies no compulsion. No explicit rejection of mandatory installation found."
+  },
+  {
+   "id": "san2",
+   "summary": "No evidence on raising patient co-payments; the programme talks only about stabilising health spending via prevention and technology.",
+   "nuance": "Presi2027's 'plutôt pour' is labelled an estimate. MonVote2027 found no explicit position."
+  },
+  {
+   "id": "san3",
+   "summary": "Strongly opposes rent control, calling it a way to destroy a city (Dec 2025).",
+   "nuance": "The quote is recent (Dec 2025), not dated."
+  },
+  {
+   "id": "san4",
+   "summary": "Aggregator codes him 'plutôt pour' opening public services further to competition.",
+   "nuance": "His government's 2018 rail reform (pacte ferroviaire) set the timetable for opening rail to competition. No primary source was opened for this. Current stance not explicit."
+  },
+  {
+   "id": "eco7",
+   "summary": "No evidence found on a 'TVA sociale' (raising VAT to fund lower wage contributions).",
+   "nuance": "The programme cuts production taxes by 50 bn EUR, offset by cuts to business subsidies, not by a VAT rise (MonVote2027 Q39). That is a different mechanism, so it was not used for this item. WebSearch budget was exhausted. Only the MonVote2027, Presi2027, Votons-2027, France-Vote, IFRAP and candidats-presidentielle-2027 profiles were checked, and none mentions TVA sociale."
+  },
+  {
+   "id": "imm8",
+   "summary": "No statement on naturalising long-term legal residents. Adjacent evidence points to tightening: he wants to restrict access to nationality in Mayotte and to be 'more demanding' with newcomers.",
+   "nuance": "Inferred. The Mayotte measure is territorial. He also backs chosen labour immigration ('choisie et contrôlée'), which could cut either way for naturalisation. No nationwide naturalisation proposal was found."
+  },
+  {
+   "id": "sec6",
+   "summary": "Reserved on identity-check receipts. His 2017-2020 government did not adopt them, and an aggregator rates him 'plutôt contre'.",
+   "nuance": "Aggregator source marked 'indirect'. No personal statement was found. He also defended IGPN internal oversight as PM in 2019."
+  },
+  {
+   "id": "eu7",
+   "summary": "Backs a European defence industrial base and stronger common EU capabilities. In 2018 he favoured a European intervention capability complementary to NATO and did not back an autonomous European army replacing it.",
+   "nuance": "Partial support. He backs joint procurement and an industrial base, but nothing shows he accepts losing French military autonomy or wants a single European army. He also stresses raising France's own defence effort. The 2018 quote is old."
+  },
+  {
+   "id": "eu8",
+   "summary": "Supports Ukraine's EU accession. He discussed it with Zelensky in Kyiv in May 2026 and, per an aggregator, defends Ukraine joining both the EU and NATO.",
+   "nuance": "Euronews reports that accession was discussed but gives no verbatim Philippe quote on the EU. His explicit pledge was on NATO membership. The +2 rests on the aggregator's characterisation, hence low confidence. No conditions or timeline were found."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Cautious on farm floor prices. When Macron floated them in 2024, he withheld judgement pending details.",
+   "nuance": "2024 source (Salon de l'agriculture), aggregator paraphrase. No 2025-26 position was found. His liberal economic line makes active support unlikely, but no opposition is documented."
+  },
+  {
+   "id": "ene5",
+   "summary": "No explicit position on cutting energy and fuel VAT to 5.5%. An aggregator says he prefers fiscal stability and doubts that VAT cuts are passed on to prices.",
+   "nuance": "Inferred from his deficit-reduction priority and the aggregator note. In 2019 he called zero VAT on essentials 'intellectuellement possible', which is a counter-signal (MonVote2027). He froze fuel-tax rises in 2018 but did not cut VAT."
+  },
+  {
+   "id": "ins6",
+   "summary": "No support for privatising public broadcasting. His government pursued a governance reform (a holding company) and kept public funding.",
+   "nuance": "Based on his 2019 record as PM (audiovisual reform, licence fee kept at the time). No 2025-26 statement explicitly rejecting privatisation was found, hence -1, not -2."
+  },
+  {
+   "id": "soc6",
+   "summary": "No statement on religious symbols at university. His stated reasoning that users of public services are not bound by neutrality, and his August 2026 'no need to go further' line, point to opposing a ban.",
+   "nuance": "Inferred. Presi2027 rates its combined laïcité item, which includes university, as 'neutre / non positionné'. No university-specific statement was found."
+  },
+  {
+   "id": "san5",
+   "summary": "Prefers freeing up housing supply and simplifying building rules over massive social-housing construction. No explicit position on ZAN was found.",
+   "nuance": "Partial support. Rule simplification is documented by an aggregator ('source indirecte'). Loosening ZAN is not. His December 2025 housing platform (strengthening landlords' rights, opposing rent control) points the same way."
+  }
+ ],
+ "record": {
+  "bio": "Édouard Philippe (born 1970) is a French centre-right politician and founder of Horizons (2021). He was Prime Minister under Emmanuel Macron from May 2017 to July 2020 and has been mayor of Le Havre since 2020, re-elected in March 2026. He announced his 2027 presidential candidacy in September 2024 and launched his campaign on 5 July 2026 (slogan \"Croire en nous\"). On 9 September 2026 he announced he would leave the Horizons presidency to build a broader coalition, and Christophe Béchu took over on 1 October 2026.",
+  "offices": [
+   "Mayor of Le Havre (first term)",
+   "Deputy for Seine-Maritime",
+   "Prime Minister",
+   "Mayor of Le Havre (second term, re-elected 2026-03-28)",
+   "President of Le Havre Seine Métropole",
+   "President of Horizons"
+  ],
+  "legal": [
+   "Cour de justice de la République judicial investigation into Covid-19 pandemic management (opened 7 July 2020; his home was searched on 15 October 2020). He was placed under the status of témoin assisté (assisted witness) for 'abstention de combattre un sinistre' (failure to act against a disaster), not mis en examen, and the CJR's investigating commission issued a non-lieu (dismissal) for Philippe, Agnès Buzyn and Olivier Véran on 7 July 2025. Never charged or convicted.",
+   "In 2014 the HATVP (the transparency authority) published a critical assessment of his asset declaration because of omissions, and he later filed an updated declaration. This was an administrative finding and not a criminal case."
+  ],
+  "reversals": [
+   {
+    "topic": "PMA (medically assisted reproduction for all women)",
+    "before": "Opposed it in a 2013 tribune.",
+    "after": "As PM he carried Macron's campaign pledge and said he had 'evolved on this question'."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "2020 pension reform (universal points system): the government used Article 49.3 at first reading in the Assemblée nationale (29 February 2020), then suspended the reform in March 2020 because of Covid. It was never adopted.",
+    "assessment": "Summary-level only. The source records the 49.3 use and his later support for raising the retirement age (65-67). No balanced assessment from sources of different leanings was obtained."
+   },
+   {
+    "what": "Government of Philippe II (21 June 2017 to 3 July 2020): labour-code ordinances, laws and budgets",
+    "assessment": "The page lists ordinances and laws, but the detail could not be retrieved. No cross-leaning assessments were obtained."
+   },
+   {
+    "what": "80 km/h speed limit on secondary roads (July 2018), which he championed personally",
+    "assessment": "The source says he pushed it against Macron's preference and that it may have fed Gilets jaunes tensions. No cross-leaning assessment was obtained."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not researched (search quota exhausted).",
+   "right_media": "Not researched (search quota exhausted).",
+   "neutral_media": "Not researched (search quota exhausted)."
+  }
+ }
+}

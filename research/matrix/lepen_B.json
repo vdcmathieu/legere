@@ -1,0 +1,1025 @@
+{
+ "collect": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "int1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "On 16 Sept 2026 (LCI) Le Pen said France can no longer help Ukraine financially as much as now, while training and defensive equipment can continue.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/face-a-l-etat-des-finances-publiques-marine-le-pen-estime-que-la-france-ne-peut-plus-aider-l-ukraine-autant-qu-actuellement_8197058.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "Financièrement, nous ne pouvons plus. On peut continuer à former leurs soldats [...] à leur apporter du matériel pour pouvoir se défendre"
+     }
+    ],
+    "nuance": "Partial support only (training, defensive material); wants reduced financial effort and opposes heavy or long-range weapons per Le Grand Continent. Not full opposition, hence -1."
+   },
+   {
+    "id": "int2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has consistently rejected sending French troops to Ukraine; not re-verified live in this run.",
+    "sources": [],
+    "nuance": "Coded from background knowledge of RN statements (2024-2025) after the web search budget ran out. Needs live verification. Le Pen favours a peace conference rather than deployment."
+   },
+   {
+    "id": "int3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen defends leaving NATO's integrated command (2022 programme, reaffirmed 2026 per Bernstein/Boursorama), but Bardella said not in wartime.",
+    "sources": [
+     {
+      "url": "https://boursorama.com/bourse/actualites/presidentielle-2027-vers-un-trou-d-air-pour-la-defense-francaise-e6113c901ea917e509ad075f7c482a56",
+      "outlet": "Boursorama (Bernstein analysis)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "She defends also a withdrawal from NATO's integrated command (paraphrase of article)"
+     },
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-jordan-bardella-contre-une-sortie-du-commandement-integre-de-l-otan-en-periode-de-guerre_6453899.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024",
+      "quote": "Bardella opposed to leaving the integrated command in wartime (paraphrase of headline)"
+     }
+    ],
+    "nuance": "Reversal/qualification: Bardella (2024) conditioned exit on the end of the war; Le Pen's own line is exit. Coded +1 rather than +2 because of the conditionality."
+   },
+   {
+    "id": "int4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "On 2 July 2025 RN deputies in the European affairs committee rejected a resolution to suspend/denounce the EU-Israel agreement.",
+    "sources": [
+     {
+      "url": "https://lafranceinsoumise.fr/2025/07/02/macronistes-et-rn-refusent-de-denoncer-laccord-ue-israel/",
+      "outlet": "La France insoumise",
+      "outlet_lean": "far-left",
+      "date": "2025-07-02",
+      "quote": "RN deputies refused to denounce the EU-Israel agreement (paraphrase)"
+     }
+    ],
+    "nuance": "Source is partisan (opponent) and describes a committee vote; no personal Le Pen statement found. Needs corroboration."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "RN has aimed at 3% of GDP for defence (earlier programmes, no timeline) and supports higher military budgets, but stresses public finance constraints.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/expressions/marine-le-pen-et-la-defense-la-grande-illusion",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2017-04-27",
+      "quote": "3% of GDP by 2022 (paraphrase of 2017 programme)"
+     },
+     {
+      "url": "https://armees.com/marine-pen-2027-defense-paiera-cash/",
+      "outlet": "armees.com",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-11",
+      "quote": "Critique of funding of Le Pen's 2027 defence ambitions (paraphrase)"
+     }
+    ],
+    "nuance": "Mostly older sources (2017); no 2026 explicit figure verified. Above 3% specifically is not confirmed, hence +1."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "2017 programme had a 3-month service; no verified 2026 position found.",
+    "sources": [],
+    "nuance": "Not verified for 2027; do not guess."
+   },
+   {
+    "id": "int7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Le Pen has called sanctions on Russia useless and counterproductive (older statements); lifting tied to a peace deal not verified for 2026.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/le-pen-reclame-labandon-des-sanctions-contre-la-russie-qui-ne-servent-a-rien-4126228",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "unknown (pre-2022 per snippet)",
+      "quote": "abandon des sanctions contre la Russie, qui «ne servent à rien» (headline)"
+     }
+    ],
+    "nuance": "Old source; she advocates a peace conference. Le Grand Continent (Sept 2026) discusses whether she can break with Putin. Low confidence."
+   },
+   {
+    "id": "ecol1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "RN-UDR voted with the right to abolish ZFE on 28 May 2025.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/zfe-la-suppression-des-zones-a-faibles-emissions-approuvee-par-l-assemblee-nationale",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-28",
+      "quote": "Les ZFE sont un dispositif de séparatisme territorial (Pierre Meurin, RN)"
+     }
+    ],
+    "nuance": "Group vote and statements; Le Pen herself consistent with this."
+   },
+   {
+    "id": "ecol2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "RN group voted for the Duplomb law (119 for, 2 abstentions) easing pesticide constraints; RN generally opposes unilateral national bans.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2957",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-07-08",
+      "quote": "RN group: pour 119, contre 0, abstentions 2"
+     }
+    ],
+    "nuance": "Inference from a vote on a related text; no explicit statement on unilateral bans."
+   },
+   {
+    "id": "ecol3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposes the 2035 end of new combustion car sales.",
+    "sources": [],
+    "nuance": "Background knowledge; not verified live."
+   },
+   {
+    "id": "ecol4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN opposes new environmental taxes; no specific aviation position verified.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ecol5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN rejects 'punitive ecology' and prioritises growth/purchasing power.",
+    "sources": [],
+    "nuance": "Inferred from party line."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen supports building many new reactors (2022 programme: new EPR/SMR).",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "Supports new reactor construction including small modular reactors (paraphrase)"
+     }
+    ],
+    "nuance": "Older source; 2022 programme aimed at several new reactors beyond Flamanville."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Le Pen and RN strongly support nuclear power and oppose phase-out.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Rassemblement_national",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "The party supports nuclear power (paraphrase)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ene3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen pledges a wind moratorium and dismantling of existing wind farms.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "Pledged to dismantle existing wind farms (paraphrase)"
+     }
+    ],
+    "nuance": "Goes beyond a halt of new developments."
+   },
+   {
+    "id": "ene4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "RN programme 2022 promised to leave the European electricity market.",
+    "sources": [],
+    "nuance": "Background knowledge; not re-verified."
+   },
+   {
+    "id": "ins1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN does not favour a VIe République; Le Pen favours a strong presidency plus referendums.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "RN long demands proportional representation for legislative elections.",
+    "sources": [],
+    "nuance": "Background knowledge; not verified live."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "2022 programme included a citizens' initiative referendum.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ins4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN criticises 49.3 and wants it curtailed.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ins5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen wants referendums on immigration.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "soc1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN gave free vote on the end-of-life bill; no clear Le Pen stance verified.",
+    "sources": [],
+    "nuance": "Mixed."
+   },
+   {
+    "id": "soc2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed banning the headscarf in public space.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Follows from the public-space ban.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN backs more restrictive secularism.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "RN opposes surrogacy.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "edu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Le Pen supported school uniform in the past.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "edu2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN prioritises pay and authority over mass hiring.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Consistent with RN's selective approach.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN defends school freedom.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN criticises Parcoursup but favours selectivity.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN prefers incentives to coercion.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposes higher franchises.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "san3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN prefers supply-side housing policy.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen opposes privatisation of public services.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "opposes privatization of public services (paraphrase)"
+     }
+    ],
+    "nuance": ""
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "int1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "On 16 Sept 2026 (LCI) Le Pen said France can no longer afford to help Ukraine financially as much as now, while training Ukrainian soldiers and supplying defensive equipment can continue.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/face-a-l-etat-des-finances-publiques-marine-le-pen-estime-que-la-france-ne-peut-plus-aider-l-ukraine-autant-qu-actuellement_8197058.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-17",
+      "quote": "Mais financièrement, nous ne pouvons plus. [...] On peut continuer à former leurs soldats, leurs armées, on peut continuer à leur apporter du matériel pour pouvoir se défendre"
+     },
+     {
+      "url": "https://boursorama.com/bourse/actualites/presidentielle-2027-vers-un-trou-d-air-pour-la-defense-francaise-e6113c901ea917e509ad075f7c482a56",
+      "outlet": "Boursorama (Bernstein analysis)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "Paraphrase: she supports stopping financial aid to Ukraine while possibly continuing equipment deliveries and training."
+     }
+    ],
+    "nuance": "Partial support only (training, defensive material); wants the financial effort cut. Bardella (March 2024) opposed weapons able to reach Russian territory. This is partial opposition, not full opposition, hence -1."
+   },
+   {
+    "id": "int2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN has consistently rejected sending French troops to Ukraine. Not re-verified live in this run.",
+    "sources": [],
+    "nuance": "Coded from background knowledge of RN statements (2024-2025). The web search budget was exhausted and no URL could be confirmed. Needs live verification. Le Pen favours a peace conference over deployment."
+   },
+   {
+    "id": "int3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen's 2022 manifesto calls for France to withdraw from NATO's integrated command, and a 2026 analysis reports that she still defends this. Bardella (2024) said not during wartime.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "cela suppose que la France se retire du commandement intégré de l'OTAN"
+     },
+     {
+      "url": "https://boursorama.com/bourse/actualites/presidentielle-2027-vers-un-trou-d-air-pour-la-defense-francaise-e6113c901ea917e509ad075f7c482a56",
+      "outlet": "Boursorama (Bernstein analysis)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "Elle défend aussi une sortie du commandement intégré de l'OTAN."
+     },
+     {
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-jordan-bardella-contre-une-sortie-du-commandement-integre-de-l-otan-en-periode-de-guerre_6453899.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-28",
+      "quote": "On ne change pas les traités en période de guerre (Bardella)"
+     }
+    ],
+    "nuance": "Le Pen's own line is exit: in the 2022 manifesto, reaffirmed per an October 2026 secondary source. Bardella (March 2024) qualified the timing, saying not while the Ukraine war continues. That is a timing caveat, not a reversal."
+   },
+   {
+    "id": "int4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "On 2 July 2025, RN deputies in the European affairs committee joined macronist and LR deputies in rejecting a resolution to denounce the EU-Israel association agreement.",
+    "sources": [
+     {
+      "url": "https://lafranceinsoumise.fr/2025/07/02/macronistes-et-rn-refusent-de-denoncer-laccord-ue-israel/",
+      "outlet": "La France insoumise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-07-02",
+      "quote": "ont fait le choix de voter un amendement de suppression de l'article unique, le rejetant de ce fait"
+     }
+    ],
+    "nuance": "The only source is an opposing party's site describing a committee vote. The factual claim is plausible but uncorroborated. No personal Le Pen statement found. Corroboration with a neutral outlet was not possible because the search budget was exhausted."
+   },
+   {
+    "id": "int5",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Her targets have varied: the 2017 programme aimed at 3% of GDP by 2022, while the 2022 programme aimed at EUR 55bn by 2027 (about 2% of GDP). In 2026 the RN supports higher military budgets but stresses public-finance limits. No current commitment above 3% was found.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Porter le budget de la défense à 55 milliards d'euros à l'horizon 2027"
+     },
+     {
+      "url": "https://www.institutmontaigne.org/expressions/marine-le-pen-et-la-defense-la-grande-illusion",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2017-04-27",
+      "quote": "augmenter le budget de la défense pour le porter à 2 % du PIB dès 2018 et à 3 % du PIB en 2022"
+     },
+     {
+      "url": "https://boursorama.com/bourse/actualites/presidentielle-2027-vers-un-trou-d-air-pour-la-defense-francaise-e6113c901ea917e509ad075f7c482a56",
+      "outlet": "Boursorama (Bernstein analysis)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "Le Rassemblement national a soutenu la hausse du budget militaire"
+     }
+    ],
+    "nuance": "No programme has ever gone above 3%: the 2017 target was exactly 3%, and the 2022 target was about 2%. In 2026 she says Ukraine aid must be cut for budget reasons, which suggests limits on defence spending too. The record is mixed; await the 2027 programme."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Her 2017 programme proposed reinstating a compulsory three-month service, mainly civil and civic. The 2022 manifesto has no general compulsory service, only an extension of the overseas 'service militaire adapté'. No 2025-2026 position was found.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/expressions/marine-le-pen-et-la-defense-la-grande-illusion",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2017-04-27",
+      "quote": "rétabli à l'horizon de la fin du quinquennat un service militaire obligatoire de trois mois, principalement civil et civique"
+     }
+    ],
+    "nuance": "Old evidence (2017). The service was short and mainly civic, hence only +1. It was absent from the 2022 programme, so the current position is uncertain."
+   },
+   {
+    "id": "int7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Le Pen has called sanctions on Russia useless and counterproductive (older statements). A 2026 position on lifting them in exchange for a peace deal is not verified.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/le-pen-reclame-labandon-des-sanctions-contre-la-russie-qui-ne-servent-a-rien-4126228",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "unknown (pre-2022)",
+      "quote": "Le Pen réclame l'abandon des sanctions contre la Russie, qui «ne servent à rien» (headline)"
+     }
+    ],
+    "nuance": "The source is old and could not be reopened (HTTP 403 on recheck), so the headline comes from earlier search results. After 2022 she has called for a peace conference. Her current line on sanctions is unverified, hence low confidence."
+   },
+   {
+    "id": "ecol1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "On 28 May 2025 the RN voted with the right to abolish the ZFE (low-emission zones), calling them territorial separatism.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/zfe-la-suppression-des-zones-a-faibles-emissions-approuvee-par-l-assemblee-nationale",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-28",
+      "quote": "Les ZFE sont un dispositif de séparatisme territorial (Pierre Meurin, RN)"
+     }
+    ],
+    "nuance": "This is the group vote and statements by group members. It is consistent with Le Pen's long-standing criticism of the ZFE."
+   },
+   {
+    "id": "ecol2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "On 8 July 2025 the RN group voted 119-0 (2 abstentions) for the Duplomb law. The law reintroduced neonicotinoid pesticides (acetamiprid) that France had banned but other EU countries still allow.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2957",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-07-08",
+      "quote": "RN group: pour 119, contre 0, abstentions 2"
+     }
+    ],
+    "nuance": "The vote directly concerns lifting a France-only pesticide ban in the name of a level playing field with foreign competitors. The 2022 ecology booklet did make pesticide authorisations conditional on biodiversity indicators, which is a mild counterpoint."
+   },
+   {
+    "id": "ecol3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposes the 2035 end of new combustion-car sales.",
+    "sources": [],
+    "nuance": "Background knowledge; not verified live because the search budget was exhausted."
+   },
+   {
+    "id": "ecol4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN opposes new environmental taxes and 'punitive ecology'. No specific aviation position was verified.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ecol5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Her 2022 ecology booklet rejects 'punitive ecology' and says France would meet Paris targets at its own pace, assessing each year according to other countries' trajectories and the French quality of life.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/projet-lecologie.pdf",
+      "outlet": "M la France (Le Pen 2022 ecology booklet)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Elle appréciera chaque année sa trajectoire de réduction carbone, en fonction des trajectoires des autres pays et de la volonté des Français et de leur qualité de vie"
+     }
+    ],
+    "nuance": "The 2022 programme makes climate effort conditional on competitiveness and quality of life. The statement is a general trade-off, so the code remains an interpretation, at low confidence."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 manifesto pledges to start renewing the nuclear fleet without delay (EPRs, small modular reactors, a revival of fast-neutron research), making nuclear the pivot of energy policy.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "engager sans tarder le renouvellement de notre parc nucléaire"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2021-10 (statement)",
+      "quote": "she supports the construction of new nuclear reactors, including small modular reactors"
+     }
+    ],
+    "nuance": "2022 programme. Renewing the whole fleet implies far more than six EPR2. No exact 2026 number was verified."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Le Pen wants to preserve the entire nuclear fleet, extend its lifetime and make nuclear the pivot of energy policy.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "le parc nucléaire français sera intégralement préservé et sa durée de vie prolongée"
+     }
+    ],
+    "nuance": "A long-standing, stable position."
+   },
+   {
+    "id": "ene3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme sets a moratorium on any new wind turbine, onshore or offshore, plus gradual dismantling of existing ones.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "un moratoire sur la construction de toute nouvelle éolienne, sur terre ou mer, sera instauré dès le printemps 2022 et leur démantèlement engagé progressivement"
+     },
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Arrêter les projets éoliens et dé-manteler progressivement les parcs existants."
+     }
+    ],
+    "nuance": "The pledge goes beyond halting new developments. It is from the 2022 programme and consistent with later RN statements."
+   },
+   {
+    "id": "ene4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme promised to leave the European electricity market to bring back decent prices.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Sortir du marché européen de l'électricité pour retrouver des prix décents."
+     }
+    ],
+    "nuance": "2022 programme; a 2026 restatement was not verified."
+   },
+   {
+    "id": "ins1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN does not favour a Sixth Republic. Le Pen favours a strong presidency plus referendums.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme pledges to introduce proportional representation.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Instaurer le Référendum d'Initiative Citoyenne et mettre en place la proportionnelle"
+     }
+    ],
+    "nuance": "This is a long-standing RN demand, here from the 2022 programme. The RN has floated keeping a majority bonus in some versions, which was not verified."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme pledges to create a citizens' initiative referendum (RIC).",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Instaurer le Référendum d'Initiative Citoyenne et mettre en place la proportionnelle"
+     }
+    ],
+    "nuance": "2022 programme. The RIC proposed there carried thresholds; not re-verified for 2027."
+   },
+   {
+    "id": "ins4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN criticises Article 49.3 and wants it curtailed.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ins5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 manifesto pledges a referendum on immigration within six months of the election, including writing nationality rules and national priority into the Constitution.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "je demanderai au peuple français d'adopter par référendum un certain nombre de dispositions indispensables"
+     }
+    ],
+    "nuance": "2022 programme; the immigration referendum is a constant RN pledge. Justice was not verified."
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "Le Pen personally voted against the assisted-dying bill on 27 May 2025. RN voted 101 against, 19 for and 3 abstentions, on a free vote. She is described as strictly opposed to euthanasia.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2107",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-27",
+      "quote": "Marine Le Pen (RN, Pas-de-Calais) voted AGAINST (paraphrase of datan record)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "She is strictly opposed to euthanasia."
+     }
+    ],
+    "nuance": "A free vote within RN, but Le Pen's personal vote was against."
+   },
+   {
+    "id": "soc2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 platform referenced her bill against Islamist ideologies, which included banning the headscarf in public space.",
+    "sources": [],
+    "nuance": "2022 position. She suggested phasing it in during the 2022 campaign, and whether it stays in the 2027 programme was not verified. The URL was not re-confirmed because the search budget was exhausted."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 school booklet calls for a legal ban on the Islamic veil for mothers accompanying school trips.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/projet-l-ecole.pdf",
+      "outlet": "M la France (Le Pen 2022 school booklet)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Interdiction par la loi du port du voile islamique pour les accompagnantes de sorties scolaires"
+     }
+    ],
+    "nuance": "School trips are explicit. Universities are not mentioned there but would be covered by the proposed public-space veil ban. 2022 programme."
+   },
+   {
+    "id": "soc4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN backs a more restrictive secularism, such as veil bans and specific legislation against Islamist ideologies.",
+    "sources": [],
+    "nuance": "Inferred from soc2 and soc3."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her 2022 manifesto says the ban on surrogacy (GPA) will be enforced and may be strengthened.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "la gestion pour autrui, GPA, dont l'interdiction pourra être renforcée"
+     }
+    ],
+    "nuance": "The same passage pledges a moratorium of at least three years on societal reforms."
+   },
+   {
+    "id": "edu1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme introduces a school uniform in primary school and collège.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/programme",
+      "outlet": "M la France (Le Pen 2022 campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "l'instauration d'un uniforme au primaire et au collège"
+     }
+    ],
+    "nuance": "2022 programme; it does not cover lycée."
+   },
+   {
+    "id": "edu2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Her 2022 school booklet caps classes at 20 pupils in grande section and CP and at 30 in secondary, and prioritises teacher pay. There is no pledge of mass hiring.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/projet-l-ecole.pdf",
+      "outlet": "M la France (Le Pen 2022 school booklet)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "l'effectif maximal ne devra plus dépasser 20 élèves par classe. Dans le secondaire, un plafond de trente élèves sera également fixé."
+     }
+    ],
+    "nuance": "She supports class-size caps, mostly at existing levels, but does not commit to large-scale recruitment. The record is mixed."
+   },
+   {
+    "id": "edu3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Her 2022 programme calls the collège unique 'a machine for failure' and makes the brevet an orientation exam. Ability grouping is not explicit.",
+    "sources": [],
+    "nuance": "Inferred from the 2022 school booklet's criticism of the collège unique."
+   },
+   {
+    "id": "edu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN defends school freedom.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN criticises Parcoursup but favours selectivity and orientation.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "On 2 April 2025 the RN group voted 50-0 against restoring Article 1 of the Garot bill, which regulates where doctors may set up practice. Her 2022 health booklet instead relies on strong financial incentives.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_1214",
+      "outlet": "datan.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-04-02",
+      "quote": "RN group: pour 0, contre 50, abstention 0"
+     },
+     {
+      "url": "https://mlafrance.fr/pdfs/projet-la-sante.pdf",
+      "outlet": "M la France (Le Pen 2022 health booklet)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "Réduire le nombre de déserts médicaux grâce à des incitations fi-nancières fortes"
+     }
+    ],
+    "nuance": "The Garot article regulates installation in over-served areas rather than compelling service in under-served ones. Even so, RN's unanimous opposition plus its incentive-only programme indicates clear opposition to coercion."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposes higher medical co-payments (franchises).",
+    "sources": [],
+    "nuance": "Background knowledge; not verified live."
+   },
+   {
+    "id": "san3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "RN prefers supply-side housing policy and home ownership.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2022 programme renationalises motorways and keeps hydroelectricity public under EDF. It denounces the 'competition ideology gone mad' imposed on EDF.",
+    "sources": [
+     {
+      "url": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf",
+      "outlet": "M la France (Le Pen 2022 campaign manifesto)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "au nom d'une idéologie concurrentielle devenue folle"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "unknown",
+      "quote": "opposed to the privatization of public services and social security"
+     }
+    ],
+    "nuance": "One exception: the 2022 programme proposes privatising public broadcasting."
+   }
+  ],
+  "verification_notes": [
+   "Verification constraint: the WebSearch budget for the session was exhausted (200/200), so checks relied on WebFetch of cited URLs plus known primary sources: mlafrance.fr 2022 programme pages and PDFs extracted locally, and datan.fr roll calls. Codes without a source (int2, ecol3, ins1, ins4, san2, soc2 URL) could not be re-verified live.",
+   "int1: unchanged (-1): the franceinfo quote was confirmed verbatim; a Boursorama corroborating source was added.",
+   "int3: +1 -> +2: the 2022 manifesto says verbatim that France should leave NATO's integrated command, and Boursorama (Oct 2026) confirms she still defends it. Bardella's 2024 caveat is about timing only. The Bardella date was corrected from '2024' to 2024-03-28.",
+   "int4: outlet_lean far-left -> campaign-or-party (the source is LFI's own site); the vote description was confirmed with a verbatim quote. Code unchanged (-2, low); uncorroborated by a neutral outlet.",
+   "int5: +1 -> 0: the 2022 programme target was EUR 55bn by 2027 (about 2% of GDP) and the 2017 target was exactly 3%, so neither is above 3%. The armees.com source does not attribute any figure to Le Pen and was replaced by mlafrance.fr and Boursorama.",
+   "int6: null -> +1 (low, programme): evidence exists. The 2017 programme proposed a compulsory three-month, mainly civic service (Institut Montaigne verbatim). It was absent from 2022.",
+   "int7: unchanged (+1, low): the Europe 1 URL now returns HTTP 403 and could not be reopened. The date is unknown and the source is flagged as old.",
+   "ecol1: unchanged (+2, high): the LCP vote and quote were confirmed.",
+   "ecol2: -1 (low) -> -2 (medium): the datan vote was confirmed. The Duplomb law reintroduced a France-only-banned neonicotinoid in the name of competition with foreign producers, which directly matches the statement.",
+   "ecol5: evidence_type inferred -> programme; a source was added (2022 ecology booklet conditioning the carbon trajectory on other countries and quality of life). Code unchanged.",
+   "ene1: source upgraded from a Wikipedia paraphrase to the 2022 manifesto verbatim (renewal of the nuclear fleet). Code unchanged.",
+   "ene2: the fr.wikipedia RN source did not contain the claim and was replaced with the 2022 manifesto verbatim quote. Code unchanged.",
+   "ene3: medium -> high confidence: the 2022 manifesto states verbatim a moratorium on any new wind turbine plus dismantling; Wikipedia was replaced with primary sources.",
+   "ene4: low -> medium: source added (mlafrance.fr verbatim 'Sortir du marché européen de l'électricité').",
+   "ins2: source added (mlafrance.fr measure 11). Code unchanged.",
+   "ins3: source added (mlafrance.fr measure 11). Code unchanged.",
+   "ins5: source added (2022 manifesto immigration referendum). Code unchanged.",
+   "soc1: 0 (low, party_line) -> -2 (high, vote): datan shows Le Pen personally voted against the aide à mourir bill on 27 May 2025 (RN 101 against, 19 for), and she is described as strictly opposed to euthanasia.",
+   "soc2: unchanged (+2, medium): could not re-verify the public-space veil ban live; the nuance now flags that it may have been softened.",
+   "soc3: +2 low -> +2 medium; evidence confirmed: the 2022 school booklet verbatim bans the veil for school-trip accompanying mothers. Universities are not explicit.",
+   "soc5: medium -> high; party_line -> programme: the 2022 manifesto says verbatim the GPA ban 'pourra être renforcée'.",
+   "edu1: +1 (low) -> +2 (medium): the 2022 programme verbatim mandates a uniform in primary and collège.",
+   "edu2: -1 (inferred) -> 0 (programme, low): the 2022 school booklet caps classes at 20 (GS/CP) and 30 (secondary) without a mass-hiring pledge, which is mixed.",
+   "san1: -1 (low, party_line) -> -2 (medium, vote): the RN voted 50-0 against the Garot installation-regulation article on 2 April 2025 (datan vote 1214), and the 2022 health booklet relies on financial incentives only.",
+   "san4: source upgraded with the 2022 manifesto quote and the exception (privatisation of public broadcasting) added. Code unchanged."
+  ]
+ }
+}

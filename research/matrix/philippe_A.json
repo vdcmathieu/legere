@@ -1,0 +1,1145 @@
+{
+ "collect": {
+  "candidate": "Édouard Philippe",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "record_in_office",
+    "summary": "Opposes restoring the ISF; his 2017-2020 government replaced it with the IFI and he defends the IFI + flat tax framework.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/isf-2027-candidats",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Édouard Philippe et Gabriel Attal défendent le maintien du cadre actuel (IFI + flat tax)."
+     },
+     {
+      "url": "https://www.france-vote.fr/actualites/programme-edouard-philippe-horizons-2027",
+      "outlet": "France-Vote",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "refus du rétablissement de l'ISF"
+     }
+    ],
+    "nuance": "Sources are voter-guide aggregators; no primary interview fetched."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Horizons deputies voted against Zucman-style tax amendments; Philippe defends the IFI + flat tax framework.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/taxe-zucman-la-taxe-sur-les-tres-hauts-patrimoines-rejetee-en-commission-a-l-assemblee",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "opposition from the ex-presidential majority (EPR, MoDem, Horizons), LR, the RN and the UDR (search-result summary)"
+     }
+    ],
+    "nuance": "Party/group vote and framework position; a direct personal quote on Zucman was not retrieved (search budget exhausted)."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme includes a 50 bn EUR cut in production taxes as a fiscal pact with businesses.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Conclure un pacte fiscal inédit avec les entreprises : 50 Md€ de baisses d'impôts de production"
+     }
+    ],
+    "nuance": "Employer social contributions specifically not confirmed; production tax cut is explicit."
+   },
+   {
+    "id": "eco4",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Programme speaks of European market protection and technological sovereignty, but no explicit tariffs or quotas for French sectors; liberal-leaning record.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Positions on European market protection and technology sovereignty (summary paraphrase)"
+     }
+    ],
+    "nuance": "Mixed: European-level protection rather than national tariffs."
+   },
+   {
+    "id": "eco5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Generally opposed to nationalisation; in 2020 only as an emergency last resort.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Si il était nécessaire d'aller jusque-là, alors nous le ferions (2020, crisis context)"
+     }
+    ],
+    "nuance": "No specific statement on motorways or energy found."
+   },
+   {
+    "id": "eco6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on lowering inheritance and gift taxes; he refuses raising taxes on households.",
+    "sources": [],
+    "nuance": "Only a rejection of an exceptional contribution on large successions was reported."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Rejects returning to 62; wants 65.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "porter progressivement la durée de cotisation à 45 ans et l'âge légal de départ à 65 ans"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Proposes raising legal age to 65 and 45 years of contributions in under ten years.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "I propose progressively increasing contribution duration to 45 years and retirement age to 65 years."
+     }
+    ],
+    "nuance": "Announced 29 Sept 2026 video."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes a mixed system adding capitalisation (state initial deposit into each young worker's account, savings plan open to all); not stated as mandatory.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "système mixte, qui associe répartition et capitalisation (paraphrase)"
+     }
+    ],
+    "nuance": "Partial: capitalisation component but mandatory character unconfirmed."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Deficit below 3% by 2030 without tax rises, via spending control; golden rule.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "ramener le déficit de plus de 5 % à 2 % du PIB"
+     }
+    ],
+    "nuance": "Programme target is even 2%."
+   },
+   {
+    "id": "fin2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit evidence found on reducing civil-servant numbers.",
+    "sources": [],
+    "nuance": "Aggregators only say priorities focused on urgent needs; spending control is central."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Presents debt reduction as a condition of sovereignty; rejects more debt.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Reduce deficit below 3% of GDP by 2030 without tax increases"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme: constitutional golden rule on deficits.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Opposed to discretionary SMIC boosts; automatic indexation only.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "Notre politique, ce n'est pas de donner des coups de pouce au SMIC"
+     }
+    ],
+    "nuance": "2019 quote; no newer found."
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Tightened unemployment insurance as PM (2019); said to favour tighter eligibility again.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Tighten eligibility rules (consistent with 2019 policy) (summary)"
+     }
+    ],
+    "nuance": "Aggregator paraphrase."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strengthened RSA conditionality, 15 weekly activity hours.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "RSA conditioned on 15 weekly activity hours (summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants people to work more.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Plus longtemps dans la semaine, plus longtemps dans l'année"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Hardens family reunification, annual parliamentary quotas, 'close the floodgates'; but accepts labour-shortage work migration.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Fermer les vannes de l'immigration"
+     }
+    ],
+    "nuance": "Partial: not a sharp across-the-board cut."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence of an immigration referendum proposal; opposes the RIC (2019).",
+    "sources": [],
+    "nuance": "Golden rule 'if possible by referendum' is unrelated."
+   },
+   {
+    "id": "imm3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants AME restructured into an aide médicale d'urgence rather than keeping it as is.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-2026",
+      "quote": "restrictive restructuring to 'Aide Médicale d'Urgence' (summary)"
+     }
+    ],
+    "nuance": "Aggregator internally inconsistent (says 'against suppression')."
+   },
+   {
+    "id": "imm4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Hardline on irregular migrants; no support for mass regularisation found, though acknowledges need for foreign workers in shortage sectors.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Assumes need for foreign workers in shortage sectors (summary)"
+     }
+    ],
+    "nuance": "No explicit statement."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on national priority for social housing or benefits.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "imm6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Proposes suspending droit du sol in Mayotte (Aug 2026); proposes stricter nationality access nationally; no nationwide abolition found.",
+    "sources": [
+     {
+      "url": "https://www.france24.com/fr/info-en-continu/20260821-a-mayotte-edouard-philippe-promet-de-mettre-fin-%C3%A0-l-appel-d-air-de-l-immigration",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-08-21",
+      "quote": "Demandes d'asile, droit du sol et regroupement familial suspendus"
+     }
+    ],
+    "nuance": "Partial: Mayotte-specific."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposed to foreign voting in local elections.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Foreign voting rights: Opposed at local elections (summary)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Reinstate minimum sentences for repeat offenders.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Minimum sentences: Reinstate for repeat offenders"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Favours harsher justice for older minors, supports trying 16+ recidivists as adults.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "For trying 16+ recidivists as adults (2025 law support)"
+     }
+    ],
+    "nuance": "Partial: recidivists."
+   },
+   {
+    "id": "sec3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Defended internal police oversight (IGPN) as PM in 2019.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "Defended internal police control; opposed independent authority"
+     }
+    ],
+    "nuance": "Old source."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposed to legalisation; prefers systematic fines.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposed to legalization; prefers systematic fines"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Government launched facial recognition ALICEM in 2019; permissive stance on surveillance, no explicit AI-video statement found.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "Facial recognition: Permitted; launched ALICEM application under his government"
+     }
+    ],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position on EU law primacy found; supports ECHR derogation for migration.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Supports common European defence and Ukraine aid, but no explicit position on joint EU borrowing.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No documented position.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Defends EU fiscal discipline and opposes rule-breaking.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Budget rules: Defend EU fiscal discipline; opposed to rule-breaking"
+     }
+    ],
+    "nuance": "Pro-EU stance; CEDH derogation on migration is a counter-signal."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Firmly opposed to leaving the EU; backs Europe as a power.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "undated",
+      "quote": "fermement opposé à toute sortie"
+     }
+    ],
+    "nuance": ""
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Édouard Philippe",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "record_in_office",
+    "summary": "Opposes restoring the ISF. His 2017-2020 government replaced the ISF with the IFI plus flat tax, and he defends keeping that framework.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/isf-2027-candidats",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Édouard Philippe et Gabriel Attal défendent le maintien du cadre actuel (IFI + flat tax). (as rendered by fetch)"
+     },
+     {
+      "url": "https://www.france-vote.fr/actualites/programme-edouard-philippe-horizons-2027",
+      "outlet": "France-Vote",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "refus du rétablissement de l'ISF"
+     }
+    ],
+    "nuance": "Both sources are voter-guide aggregators. The record in office (ISF replaced by IFI in 2018) is well established."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "The Horizons group voted against Zucman-tax amendments in committee (Oct 2025). Philippe defends the IFI plus flat-tax framework.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/taxe-zucman-la-taxe-sur-les-tres-hauts-patrimoines-rejetee-en-commission-a-l-assemblee",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-10-20",
+      "quote": "Groups opposed: ex-presidential majority (EPR, MoDem, Horizons), LR, RN, UDR (paraphrase)"
+     }
+    ],
+    "nuance": "This is a group vote in finance committee, not a roll-call vote. No personal Philippe quote on the Zucman tax was retrieved. The 'Philippe Juvin' quoted in the LCP article is an LR deputy, not Édouard Philippe."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme proposes a 50 bn EUR cut in production taxes, financed by 50 bn EUR less in 'unproductive' public subsidies.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Conclure un pacte fiscal inédit avec les entreprises : 50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques improductives en moins"
+     }
+    ],
+    "nuance": "No cut to employer social contributions was confirmed. The production-tax half of the statement is explicit and large."
+   },
+   {
+    "id": "eco4",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme calls for EU-level protection against Chinese competition (technology transfers, production quotas, joint ventures in strategic sectors). It proposes no national tariffs, and his general line is liberal.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Protection against Chinese market competition via technology transfers, production quotas, joint-ventures in strategic sectors (paraphrase)"
+     }
+    ],
+    "nuance": "Mixed: he favours EU-level protective tools and opposes national protectionism. An aggregator (presi2027) estimates 'plutôt contre'."
+   },
+   {
+    "id": "eco5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Generally opposed to nationalisations, which he accepted only as an emergency last resort in 2020.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Conditional support only 'if necessary' during crises; ideologically opposed (summary)"
+     }
+    ],
+    "nuance": "No specific statement on motorways or energy was found."
+   },
+   {
+    "id": "eco6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence of a proposal to lower inheritance or gift taxes. He opposes raising them.",
+    "sources": [],
+    "nuance": "He opposed an exceptional contribution on large estates. presi2027 estimates 'plutôt pour' allègement but cites no measure, so this was not coded."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Rejects returning to 62 and wants to raise the legal age to 65.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "Je propose de porter progressivement la durée de cotisation à 45 ans et l'âge de départ à 65 ans"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Proposes gradually raising the retirement age to 65 and the contribution period to 45 years.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "Je propose de porter progressivement la durée de cotisation à 45 ans et l'âge de départ à 65 ans"
+     }
+    ],
+    "nuance": "Announced in a video on 29 Sept 2026."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Proposes a mixed pay-as-you-go plus capitalisation system, in which the state makes an initial deposit into each young worker's savings plan. Mandatory contributions are not stated.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-29",
+      "quote": "construire un système différent, mixte, qui associera répartition et capitalisation"
+     }
+    ],
+    "nuance": "Partial support: he wants a capitalisation component, but it is not clearly mandatory."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Cut the deficit from over 5% to 2% of GDP by the end of the term, with no new taxes, financed by spending cuts such as 50 bn EUR less in public subsidies. Golden rule in the Constitution.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "ramener le déficit de plus de 5 % à 2 % du PIB en fin de quinquennat"
+     }
+    ],
+    "nuance": "The programme target (2%) goes beyond the statement's 3%. The no-new-tax pledge implies spending cuts."
+   },
+   {
+    "id": "fin2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit 2025-2026 evidence on cutting civil-servant numbers.",
+    "sources": [],
+    "nuance": "The programme pages fetched say nothing on headcount. The 2017 Macron target of 120,000 fewer civil servants was softened under his government in 2019, but no current personal position was found."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Treats debt reduction as a condition of sovereignty and targets a 2% deficit with no new taxes. He opposes taking on more debt.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Le désendettement comme une condition de la souveraineté française"
+     },
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "ramener le déficit de plus de 5 % à 2 % du PIB en fin de quinquennat"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "fin4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme proposes a constitutional golden rule on deficits, possibly adopted by referendum.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As PM he refused discretionary increases to the SMIC beyond automatic indexation.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "Notre politique, ce n'est pas de donner des coups de pouce au SMIC"
+     }
+    ],
+    "nuance": "The quote dates from 2019; no newer position was found."
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "His government tightened unemployment-insurance eligibility and benefit calculation in 2019. His current position is estimated from that record.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Son gouvernement a durci les règles d'indemnisation en 2019"
+     }
+    ],
+    "nuance": "The aggregator marks this as an estimated position. No 2025-2026 statement was found."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Horizons supported the 2023 France Travail law, which makes the RSA conditional on 15 hours of weekly activity.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Horizons supported the 2023 law conditioning RSA on 15 weekly hours of mandatory activity (summary)"
+     }
+    ],
+    "nuance": "This is a group vote, not a programme item; the 2026 programme pages fetched do not mention the RSA."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants people to work more hours per week and per year, the opposite of moving towards 32 hours.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Plus longtemps dans la semaine, plus longtemps dans l'année"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme: restrict family immigration, set annual migration quotas voted by Parliament to choose economic immigration, and denounce the 1968 agreement with Algeria. He accepts work migration in labour-shortage sectors.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Mettre en place une politique de quotas migratoires permettant de choisir notre immigration économique"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "fermer les vannes de l'immigration à Mayotte"
+     }
+    ],
+    "nuance": "Partial support: he wants to restrict and select immigration, not cut it sharply across the board. The 'fermer les vannes' quote refers to Mayotte only."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No proposal for a referendum on immigration was found. He favours selective use of referendums, notably for the budget golden rule.",
+    "sources": [],
+    "nuance": "France-Vote mentions 'un recours choisi au référendum', but not on immigration."
+   },
+   {
+    "id": "imm3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Aggregators say he favours restricting the AME, in line with the 2019 waiting period, and keeping it in a controlled, emergency-oriented form.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Il se montre favorable à une restriction de l'Aide médicale d'État, dans la continuité du délai de carence instauré sous son gouvernement en 2019."
+     }
+    ],
+    "nuance": "Aggregator-only, and the accounts are inconsistent ('opposes suppression' versus 'emergency care only'). No primary quote was retrieved."
+   },
+   {
+    "id": "imm4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "An aggregator reports that he proposes regularisation quotas in labour-shortage sectors and accepts the need for foreign workers.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Il propose des quotas de régularisation dans les secteurs en manque de main-d'œuvre"
+     }
+    ],
+    "nuance": "Aggregator-only, and no primary source was retrieved. Quotas imply a limited, controlled form rather than broad regularisation. The opposite reading (-1) had no supporting source."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on national priority for social housing or benefits.",
+    "sources": [],
+    "nuance": "The programme does propose ending social benefits for foreigners who commit offences, which is not the same as national priority."
+   },
+   {
+    "id": "imm6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Proposes suspending droit du sol in Mayotte (Aug 2026) and tightening access to nationality, but does not call for national abolition.",
+    "sources": [
+     {
+      "url": "https://www.france24.com/fr/info-en-continu/20260821-a-mayotte-edouard-philippe-promet-de-mettre-fin-%C3%A0-l-appel-d-air-de-l-immigration",
+      "outlet": "France 24",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-08-21",
+      "quote": "Demandes d'asile, droit du sol et regroupement familial suspendus"
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Édouard Philippe ne porte pas de remise en cause du droit du sol au niveau national."
+     }
+    ],
+    "nuance": "Partial support, specific to Mayotte. Nationally he is not positioned for abolition. According to an aggregator, the Horizons group voted against fully abolishing droit du sol in Mayotte."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Horizons opposes local voting rights for non-EU foreigners.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Horizons opposes local voting rights for non-EU residents (summary)"
+     }
+    ],
+    "nuance": "This is the party position. No personal statement by Philippe was retrieved."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme proposes minimum sentences (peines planchers) for the most serious offences. Aggregators report he favours restoring them for repeat offenders.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Mettre en place des peines planchers pour les infractions les plus graves"
+     },
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Favorable au rétablissement de peines planchers pour les récidivistes"
+     }
+    ],
+    "nuance": "The programme frames minimum sentences around the gravity of the offence, especially attacks on public officials, rather than repeat offending. The recidivist framing comes from the aggregator."
+   },
+   {
+    "id": "sec2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Horizons supported the 2025 law removing the minority excuse for repeat offenders aged 16 and over.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Horizons unanimously supported removing minority exemption for 16+ recidivists (summary)"
+     }
+    ],
+    "nuance": "Partial: the law concerns repeat offenders, not all serious crimes. This is a group vote, not a personal statement."
+   },
+   {
+    "id": "sec3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "As PM in 2019 he defended internal police oversight by the IGPN (Steve Maia Caniço case).",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2019",
+      "quote": "Defended internal IGPN oversight in 2019 Steve Maia Canico case; opposes independent authority (summary)"
+     }
+    ],
+    "nuance": "Old source; no 2025-2026 position was found."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposed to legalisation and favours systematic fines for cannabis use. His government created the fixed criminal fine (amende forfaitaire délictuelle).",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposé à la légalisation : il prône la sanction systématique de la consommation par des amendes"
+     }
+    ],
+    "nuance": "Aggregator-reported."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme proposes a 'narco state of emergency' with targeted use of facial recognition. His government launched the ALICEM app in 2019. This is not a general rollout of AI video surveillance.",
+    "sources": [
+     {
+      "url": "https://votons-2027.fr/candidats/philippe/programme",
+      "outlet": "Votons 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "l'utilisation ciblée de la reconnaissance faciale"
+     }
+    ],
+    "nuance": "Partial: targeted use, not generalisation."
+   },
+   {
+    "id": "eu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position found on the primacy of EU law.",
+    "sources": [],
+    "nuance": "His pro-European line suggests opposition, but that was not coded."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Supports 'Europe puissance' and a common European defence, but no explicit position on joint EU borrowing was found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No documented position.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Defends budgetary discipline, including a constitutional golden rule, and holds a pro-EU line. No explicit statement on disapplying EU rules.",
+    "sources": [
+     {
+      "url": "https://presi2027.fr/candidat/philippe",
+      "outlet": "Presi2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "le respect de la discipline budgétaire est au centre"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Firmly opposed to leaving the EU; he champions 'Europe puissance' and a common defence.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/philippe",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "undated",
+      "quote": "fermement opposé à toute sortie de l'Union européenne"
+     },
+     {
+      "url": "https://www.france-vote.fr/actualites/programme-edouard-philippe-horizons-2027",
+      "outlet": "France-Vote",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "« Europe puissance » et une défense commune"
+     }
+    ],
+    "nuance": ""
+   }
+  ],
+  "verification_notes": [
+   "Verification limits: the session's WebSearch budget (200/200) was used up before this run. All checks were done by WebFetch on the cited URLs, so null positions could not be re-searched. They were re-checked only against the fetched pages (programme, aggregators). All cited URLs were reachable and contained the claimed content.",
+   "eco2: Horizons appears among the groups opposed in LCP (20 Oct 2025, committee vote). Added a note that the Juvin quote in the article is by an LR deputy, not Philippe. Code unchanged.",
+   "eco3: quote completed with the financing clause ('contre 50 Md€ d'aides publiques improductives en moins'). Code unchanged.",
+   "fin1: summary corrected to the programme's own target (2% of GDP by end of term). Code unchanged.",
+   "fin3: replaced the quote, which did not support the claim, with the actual presi2027 text on debt reduction, and added a programme source. Code unchanged.",
+   "trav2: +1 medium -> +1 low: the aggregator explicitly labels the current position as estimated from the 2019 record.",
+   "trav3: evidence_type programme -> vote: the support is the Horizons group's backing of the 2023 France Travail law, not a 2026 programme item. +2 and medium unchanged.",
+   "imm1: evidence_type statement -> programme. Added the Votons 2027 quota quote. Flagged that 'fermer les vannes' is Mayotte-specific. +1 unchanged.",
+   "imm3: +1 medium -> +1 low: aggregator-only and internally inconsistent. Replaced the quote with the verbatim presi2027 sentence.",
+   "imm4: -1 low -> +1 low: presi2027 reports 'Il propose des quotas de régularisation dans les secteurs en manque de main-d'œuvre' ('plutôt pour'). No source supported opposition. Still aggregator-only.",
+   "imm6: added the presi2027 source stating he does not challenge droit du sol nationally. Code +1 low unchanged; it is partial support specific to Mayotte.",
+   "imm7: -2 medium statement -> -2 low party_line: the source attributes the opposition to Horizons, not to a personal Philippe statement.",
+   "sec1: replaced the paraphrased source with the verbatim programme text, which covers the 'infractions les plus graves' rather than repeat offenders. Kept the aggregator's recidivist claim as a second source. Code +2 medium unchanged.",
+   "sec2: evidence_type statement -> vote: the evidence is the Horizons group's unanimous support for the 2025 law. Code unchanged.",
+   "sec5: +1 low record_in_office -> +1 medium programme: the 2026 programme proposes 'l'utilisation ciblée de la reconnaissance faciale' under a narco state of emergency.",
+   "eu1: removed the unverified claim about ECHR derogation from the summary. Null unchanged.",
+   "eu6: added the France-Vote 'Europe puissance' source to back up the undated quote. Code unchanged.",
+   "eco6: kept null. presi2027's 'plutôt pour' is explicitly an estimate with no measure; opposing tax increases is not the same as proposing cuts.",
+   "Confirmed without change: eco1, ret1, ret2, ret3 (LCP 29 Sept 2026, capitalisation not mandatory), fin4, trav1, trav4, sec3, sec4, eco4, eco5, eu5."
+  ]
+ }
+}

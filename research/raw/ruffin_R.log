@@ -1,0 +1,46 @@
+Reading additional input from stdin...
+OpenAI Codex v0.153.4
+--------
+workdir: /Users/mathieu.vandecatsije/Library/CloudStorage/Dropbox/Claude Projects/self-reflection/vote/research
+model: gpt-6-astra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a10c9e-8cce-78c0-80cd-3558bf76e70e
+--------
+user
+You are a careful, politically neutral research assistant building a voting-advice application for the French presidential election of April 2027.
+
+Task: compile a factual track-record and personality profile of François Ruffin (Debout ! (ex-LFI)) using live web search. Use his statements, books and Assemblée votes; he left LFI in 2024.
+
+Cover:
+1. bio: 3-4 neutral sentences.
+2. offices: every elected/appointed office with dates and kind; executive_experience_years = total years in national or local executive roles (minister, PM, mayor, regional/departmental president).
+3. legal: every judicial case involving them personally (not their party only, unless they were personally implicated), with precise current status and date. Presumption of innocence: be exact about status. Empty list if none.
+4. reversals: documented, significant policy reversals (max 6, most significant first), each with before/after and sources. Only genuine changes of position, not nuance.
+5. delivery: main things they actually did/passed in office and a balanced assessment citing sources of different leanings (max 6).
+6. traits: leadership/personality traits that are widely attested (e.g. "consensus-seeking", "confrontational", "technocratic") - only those reported by at least two sources of different leanings; list the leanings in source_leans.
+7. media_portrayal: one or two sentences each on how left-leaning, right-leaning and neutral outlets typically portray them (this documents bias, it is not a judgement).
+8. sources_note: which outlets you relied on and any bias caveat.
+
+Source discipline (mandatory):
+- Today is 5 October 2026. Prefer sources from 2025-2026; use older ones (e.g. 2022 programme) only if no newer position exists, and say so in `nuance`.
+- Prefer primary sources: official programme, campaign/party site, Assemblée/Sénat/European Parliament roll-call votes (datan.fr, nosdeputes.fr, howtheyvote.eu, assemblee-nationale.fr), the candidate's own interviews.
+- For contested or high-stakes codings, corroborate with at least one outlet from a DIFFERENT political lean than the obvious one. Lean labels to use: CNews, Europe 1, JDD, Valeurs actuelles, Le Journal du Dimanche, Boulevard Voltaire = right/far-right; Le Figaro, L'Opinion, Les Échos = centre-right; Le Monde, franceinfo, AFP, Reuters, Le Parisien, France 24, Public Sénat, LCP = centre/neutral-institutional (Le Monde is often seen as centre-left); Libération, L'Obs = centre-left/left; Mediapart, L'Humanité, Le Média, Blast = left/far-left; Les Décodeurs, AFP Factuel, franceinfo Vrai ou Faux = fact-check; IFRAP, Institut Montaigne = centre-right/liberal think-tank; OFCE, Terra Nova, Fondation Jean-Jaurès = centre-left think-tank.
+- Never treat an opponent's characterisation as the candidate's position. Never invent URLs: only cite pages you actually opened or saw in search results. Quotes must be short (under 30 words) and verbatim or clearly marked as paraphrase.
+2026-10-05T15:11:21.501265Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-05T15:11:22.280406Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-05T15:11:23.302851Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Reconnecting... 2/5
+2026-10-05T15:11:24.223394Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Reconnecting... 3/5
+2026-10-05T15:11:25.602852Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Reconnecting... 4/5
+2026-10-05T15:11:28.008057Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Reconnecting... 5/5
+2026-10-05T15:11:31.969507Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses
+warning: Falling back from WebSockets to HTTPS transport. unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a45d5bff6875baba-ZRH
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:05 PM.
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 10:05 PM.

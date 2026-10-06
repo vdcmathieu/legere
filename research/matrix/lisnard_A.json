@@ -1,0 +1,1255 @@
+{
+ "collect": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to abolish wealth and inheritance taxes; opposes an ISF.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supprimer les taxes sur la fortune et les successions (Programme 2026, as cited)"
+     }
+    ],
+    "nuance": "Web search budget was exhausted; coded from a secondary aggregator citing his 2026 programme. Not independently verified."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly opposed to Zucman-style taxes; line is fewer taxes for growth.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Moins d'impôts pour plus de croissance (Programme 2026, as cited)"
+     }
+    ],
+    "nuance": "Secondary source only; consistent with his liberal platform."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes abolishing C3S/CVAE and removing employer charges at SMIC level.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Suppress C3S/CVAE (-11.5 Md EUR); employer charges at SMIC level (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No clear position found; he is a free-market liberal, which would suggest opposition, but nothing was found.",
+    "sources": [],
+    "nuance": "Aggregator says no clear position. Not coded by inference."
+   },
+   {
+    "id": "eco5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly opposed to nationalisation; advocates a massive deregulation shock and a state refocused on regalian tasks.",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "choc massif de dérégulation"
+     }
+    ],
+    "nuance": "Inferred from general programme and aggregator; no specific statement on motorways or energy found."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Seeks to eliminate succession taxes, so strongly for lowering them. Position on statement is for lowering, coded accordingly below.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supprimer les taxes sur la fortune et les successions (as cited)"
+     }
+    ],
+    "nuance": "CORRECTION: statement is 'lower inheritance tax'; he supports it, so the correct code is +2 (see verification of sign: supports abolition)."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly opposed to returning to 62; proposes 65 with mixed pay-as-you-go/capitalisation.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Proposes age 65 with mixed system (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "ret2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes 65, which is above 64, within a mixed system.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Proposes age 65 with mixed system (paraphrase)"
+     }
+    ],
+    "nuance": "Aggregator gave 'opposed' to this item, but a 65 target is above 64; coded +1 as moderate raise. Verify."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports freedom to build capital for retirement and a 'dose de capitalisation'.",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)"
+     }
+    ],
+    "nuance": "Wording is liberty to choose capitalisation, not clearly mandatory; coded +1 rather than +2. Aggregator cites a 2023 programme for the mixed system."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Targets drastic spending cuts (80 Md EUR first year, up to 200 Md EUR annually).",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "réduction drastique des dépenses publiques"
+     }
+    ],
+    "nuance": "No explicit mention of the 3% threshold found."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Defends public-sector workforce cuts and a state refocused on regalian missions.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "réductions d'effectifs dans la fonction publique (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary sources."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Rejects extra borrowing, including for public investment.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Aucun emprunt supplémentaire (as cited)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "fin4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports a constitutional budget rule.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "règle d'or budgétaire (as cited)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes SMIC increases; prefers removing employer charges at SMIC level.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Employer charges removed at SMIC level instead (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "trav2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position found.",
+    "sources": [],
+    "nuance": "Likely favourable given his platform but not coded by inference."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly supports conditioning RSA on activity.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "RSA as employment trampoline (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Aggregator has no explicit position; he advocates more work duration and liberal labour reforms.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Advocates increasing work duration for civil servants (paraphrase)"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes dividing residence permits by eight.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Proposes dividing legal immigration by eight (paraphrase)"
+     }
+    ],
+    "nuance": "Corroborated by two secondary sources."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme page calls for recourse to referendum on migration policy.",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "recours au référendum"
+     }
+    ],
+    "nuance": "Aggregator said no position; the programme page is primary and prevails."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes replacing AME with emergency aid.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Replacement with emergency aid (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes regularisation; proposes systematic expulsion.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Systematic expulsion (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports national priority.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Priorité nationale (as cited)"
+     }
+    ],
+    "nuance": "Scope on housing/benefits not detailed; coded +2 on aggregator labelling, verify."
+   },
+   {
+    "id": "imm6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to end automaticity of droit du sol, a restriction rather than clear abolition.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Mettre fin à l'automaticité"
+     }
+    ],
+    "nuance": "Partial version, so +1."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly opposed to foreign voting rights.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Incompatible with assimilation policy (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports mandatory minimums; 'une infraction, une sanction'.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Une infraction, une sanction"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes lowering criminal majority to 16.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Lower criminal majority to 16 (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "sec3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Gives unfailing support to the forces; no independent oversight proposal found.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Soutien sans faille aux forces"
+     }
+    ],
+    "nuance": "Weak evidence; opposition is an aggregator reading."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strongly opposed to cannabis legalisation.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Drug trafficking a strategic threat (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "sec5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Cannes under his mayoralty has 1,000+ cameras; supports AI-assisted surveillance.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Cannes has 1,000+ cameras, record national (paraphrase)"
+     }
+    ],
+    "nuance": "AI-specific generalisation not confirmed independently."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Proposes constitutional reform to override the European Court (CEDH) on migration; broader EU law primacy not confirmed.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Constitutional reform to override European Court (paraphrase)"
+     }
+    ],
+    "nuance": "Partial: concerns CEDH and migration."
+   },
+   {
+    "id": "eu2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Opposed to EU joint borrowing; says European sovereignty does not exist.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "La souveraineté européenne n'existe pas"
+     }
+    ],
+    "nuance": "Secondary source."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position found; he opposes common defence, which suggests scepticism.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "eu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports selective derogation, notably on migration, with referendum independent of European courts.",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "recours au référendum"
+     }
+    ],
+    "nuance": "Limited to migration; +1."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposed to leaving the EU; seeks reform.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Seeks EU reform, not departure (paraphrase)"
+     }
+    ],
+    "nuance": "Secondary source."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Opposes wealth taxation: cites the IFI (the narrower successor to the ISF) as one cause of the housing slump, and rules out any tax increase to reduce the debt. No primary text found proposing to abolish wealth taxes outright.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-une-ecologie-pragmatique-et-non-punitive/",
+      "outlet": "Nouvelle Énergie (campaign FAQ citing Le Figaro, 16 Apr 2026)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-04-16",
+      "quote": "se sont accumulés la loi SRU, la loi climat et résilience et l'impôt sur la fortune immobilière (campaign paraphrase of Lisnard)"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "Baisser la dépense, jamais augmenter l'impôt"
+     }
+    ],
+    "nuance": "The aggregator's quote 'Supprimer les taxes sur la fortune et les successions' could not be found on the programme pages, so it was dropped. The -2 code rests on his hostility to the IFI and his refusal of any tax rise. Confidence is low because there is no explicit statement on reinstating the ISF."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Rules out reducing the debt through tax increases (\"jamais augmenter l'impôt\"). This is incompatible with a new 2% minimum tax on large fortunes.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "Baisser la dépense, jamais augmenter l'impôt"
+     }
+    ],
+    "nuance": "No verified quote naming the Zucman tax specifically. The web search budget was exhausted. The code follows from his explicit refusal of any tax increase."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme cuts production taxes from 2% to 1% of GDP (abolishing the C3S and CVAE) and removes employer charges at SMIC level for home employers. FAQ commits 120 bn EUR to cutting contributions and 40 bn EUR to cutting production taxes.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "La baisse de la fiscalité de production doit être intensifiée."
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-baisser-les-impots/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "les cotisations d'abord, pour 120 milliards d'euros rendus en salaire net, puis les impôts de production pour 40 milliards"
+     }
+    ],
+    "nuance": "Confirmed on the primary programme page."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on tariffs or quotas found. The programme seeks to bring production back to France by cutting charges and deregulating, without mentioning tariffs.",
+    "sources": [],
+    "nuance": "The programme pages and campaign FAQ were searched for douane, protection and libre-échange, with no hits."
+   },
+   {
+    "id": "eco5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wants a state 'refocused on its regalian missions' and a 'massive deregulation shock'. No statement on energy or motorways specifically.",
+    "sources": [
+     {
+      "url": "https://unenouvelleenergie.fr/notre-programme/",
+      "outlet": "Nouvelle Énergie programme page",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la création d'un choc massif de dérégulation"
+     },
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "L'État sera rendu à ses missions régaliennes : la sécurité, la justice, la défense, la diplomatie."
+     }
+    ],
+    "nuance": "Inferred from his general doctrine. He backs new nuclear reactors but says nothing on the ownership of EDF or the motorways."
+   },
+   {
+    "id": "eco6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for reforming inheritance duties on businesses, a partial and sector-specific lowering.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "ainsi que la réforme des droits de succession sur les entreprises"
+     }
+    ],
+    "nuance": "Partial: limited to business transmission, so +1. The claim that he wants to abolish all inheritance taxes could not be verified in primary sources."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Refuses to reverse the 2023 reform (age 64), and has said so repeatedly, including when suspension was debated.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "outlet": "Nouvelle Énergie (campaign FAQ citing franceinfo)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-10-09",
+      "quote": "il faut pas revenir sur les réformes qui avaient été décidées sur la réforme des retraites"
+     }
+    ],
+    "nuance": "A position held consistently from 2024 to 2026."
+   },
+   {
+    "id": "ret2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme page still calls a legal age of 65 an urgent national imperative. The campaign FAQ (updated October 2026) says he no longer makes age his answer and puts mandatory capitalisation first.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la priorité de l'augmentation de l'âge de la retraite avant la réforme d'ensemble"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "Sa proposition porte sur la capitalisation obligatoire et collective, pas sur une nouvelle borne d'âge."
+     }
+    ],
+    "nuance": "His own campaign sources conflict. The older programme text sets 65, but the most recent framing (franceinfo, 31 March 2026) downplays any new age threshold. Coded +1 with low confidence."
+   },
+   {
+    "id": "ret3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes moving all pensions above a pay-as-you-go floor to capitalisation funded by mandatory contributions, about 40% of total pensions. He calls it 'obligatoire et collective'.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "faire évoluer tous les autres régimes vers la capitalisation, à partir des cotisations obligatoires des salariés et des employeurs"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "il porte la capitalisation obligatoire et collective"
+     }
+    ],
+    "nuance": "Explicitly mandatory, so +2. The draft's 'liberty to choose' wording came from a generic summary line on the programme landing page."
+   },
+   {
+    "id": "fin1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Calls deficit control an 'absolute imperative'. Plans 80 bn EUR of spending cuts in year one and at least 200 bn EUR over the term.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "L'impératif absolu de la maîtrise des déficits publics et de la dette."
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "80 milliards d'euros dès la première année, au moins 200 milliards en trajectoire"
+     }
+    ],
+    "nuance": "The 3% threshold is not named, but the priority on deficits and the large cuts are explicit."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Would no longer replace all of the 500,000 annual departures from the civil service, starting with administrative jobs. As mayor he cut the Cannes municipal workforce by nearly 20%.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reduire-le-nombre-de-fonctionnaires/",
+      "outlet": "Nouvelle Énergie (campaign FAQ citing Saint-Raphaël meeting)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-04",
+      "quote": "ne remplaçant plus l'ensemble des cinq cent mille départs annuels"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-est-le-bilan-de-david-lisnard-comme-maire-de-cannes/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "On a réduit les effectifs de presque 20 %"
+     }
+    ],
+    "nuance": "The Wikipedia source was replaced: the cited paraphrase was not found on the page. The workforce reduction comes through attrition, not dismissals."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants the debt ratio lowered, with 40 bn EUR of savings earmarked for debt reduction. Refuses tax cuts financed by debt.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-a-la-dette-publique/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "au moins 200 milliards en trajectoire, dont 40 affectés au désendettement"
+     }
+    ],
+    "nuance": "His proposed deficit rule covers operating expenses, not investment, so it leaves some room for borrowing to invest. The thrust is still firmly against more debt. The aggregator's quote 'Aucun emprunt supplémentaire' could not be verified and was dropped."
+   },
+   {
+    "id": "fin4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for an institutional rule limiting public deficits (a golden rule on operating expenses).",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la France doit désormais s'astreindre à une règle institutionnelle de limitation des déficits publics"
+     }
+    ],
+    "nuance": "The text says 'institutional' rather than explicitly 'constitutional'. It sits in a broader constitutional-reform agenda. If the strict constitutional wording matters, +1 is defensible."
+   },
+   {
+    "id": "trav1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to raise net wages by cutting social contributions, not by imposing wage increases.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-veut-il-augmenter-les-salaires-sans-augmenter-le-cout-du-travail/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "En baissant les cotisations, pas en imposant une hausse de salaire."
+     }
+    ],
+    "nuance": "No explicit statement on SMIC uprating. He rejects mandated wage rises in favour of contribution cuts, which amounts to clear but implicit opposition, so -1."
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Refuses to reverse the unemployment-insurance reform. Proposes a single allowance capped at a percentage of the SMIC so that work always pays more than inactivity.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "outlet": "Nouvelle Énergie (campaign FAQ citing franceinfo)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-10-09",
+      "quote": "il faut pas revenir sur les réformes […] sur la réforme du chômage"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-regrouper-les-aides-sociales-en-une-allocation-unique/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "regrouper l'ensemble des aides sociales en une allocation unique, plafonnée à un pourcentage du SMIC"
+     }
+    ],
+    "nuance": "He defends the existing cuts and caps welfare to encourage work, but makes no explicit new proposal to shorten or reduce unemployment benefits, so +1."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme encourages hiring of RSA recipients through negative employer charges and caps welfare. No proposal for mandatory activity hours was found.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Un système de charges patronales négatives pour les embauches de personnes au RSA depuis plus de 2 ans sera créé."
+     }
+    ],
+    "nuance": "The aggregator paraphrase 'RSA as employment trampoline' does not show support for mandatory hours. Downgraded from +2 to +1, inferred from his conditioning-and-capping welfare logic."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for incentives to work more. This is the opposite of a move towards 32 hours.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "incitations à travailler davantage doivent stimuler la capacité de croissance française (as summarised from page)"
+     }
+    ],
+    "nuance": "No explicit 32-hour statement, but the programme's direction is clearly towards more work. Upgraded from inferred/low to programme/medium."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes dividing the number of residence permits issued by eight, with quotas for qualified labour and stricter conditions on family reunification.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Diviser par huit la délivrance de titres de séjour"
+     }
+    ],
+    "nuance": "Confirmed on the primary programme page. This replaces the Wikipedia paraphrase."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Says a referendum will be needed to free immigration policy from treaty constraints. Would widen Article 11 so that immigration can be put to a referendum.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Cela peut passer par une révision constitutionnelle […] Un référendum sera nécessaire."
+     },
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "L'article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l'immigration"
+     }
+    ],
+    "nuance": "The code is unchanged. The sources are now explicit primary quotes instead of the bare 'recours au référendum'."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes abolishing the AME and replacing it with emergency-only aid.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Supprimer l'Aide Médicale d'État (AME) et la remplacer par une aide d'urgence"
+     }
+    ],
+    "nuance": "Confirmed on the primary page. He repeated it at the Saint-Raphaël meeting on 4 July 2026."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme would remove any possibility of regularisation after illegal entry, and would restore the offence of irregular stay.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "supprimer toute possibilité d'être régularisé après être entré clandestinement sur le territoire"
+     }
+    ],
+    "nuance": "The previous source (systematic expulsion of convicted foreigners) did not address regularisation. It was replaced with a direct primary quote."
+   },
+   {
+    "id": "imm5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Would make non-contributory benefits for foreigners conditional on at least five years of legal residence. This is a residence condition, not a priority reserved for French citizens.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans"
+     }
+    ],
+    "nuance": "Partial version: a residence requirement, not a preference by nationality. No social-housing priority by nationality was found. The aggregator's label 'Priorité nationale' could not be verified."
+   },
+   {
+    "id": "imm6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to end the automatic character of droit du sol, not to abolish it.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Mettre fin à l'automaticité du droit du sol"
+     }
+    ],
+    "nuance": "Partial version, so +1. Confirmed on the primary page."
+   },
+   {
+    "id": "imm7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit statement found. His programme stresses assimilation and tighter conditions for foreigners.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Une nouvelle politique d'assimilation"
+     }
+    ],
+    "nuance": "The aggregator 'quote' was the aggregator's own inference ('La logique globale du programme exclut...'), not words from Lisnard or his programme. Downgraded to inferred."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme calls for mandatory minimum sentences for repeat offenders and an end to automatic sentence reductions.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Une infraction, une sanction."
+     }
+    ],
+    "nuance": "Confirmed on the primary security page, which includes peines planchers for repeat offenders."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes lowering the age of criminal majority to 16 and reversing the minority excuse from age 13 for serious offences.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "abaisser la majorité pénale à 16 ans (paraphrase of programme)"
+     }
+    ],
+    "nuance": "This goes beyond the statement as worded: all offenders aged 16 and over would be treated as adults."
+   },
+   {
+    "id": "sec3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on independent police oversight found.",
+    "sources": [],
+    "nuance": "'Unfailing support for the forces' is not a position on oversight. The Bayeux speech criticises 'autorités dites indépendantes' in general, but not police oversight. Not coded."
+   },
+   {
+    "id": "sec4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Treats drug trafficking as a major threat and calls for a crackdown. No explicit statement on legalising recreational cannabis was found.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-face-au-narcotrafic/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Il parle d'une mexicanisation de la délinquance liée à la drogue et aux armes"
+     }
+    ],
+    "nuance": "Inferred from his anti-trafficking stance. Downgraded from -2 medium."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Cannes has a dense CCTV network under his mayoralty, and he wants AI at the heart of public performance. No explicit call to generalise AI-assisted video surveillance was verified.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/lisnard",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025",
+      "quote": "Cannes dispose de plus de 1 000 caméras de vidéoprotection (as cited)"
+     },
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "l'intelligence artificielle […] doit être au cœur de la performance publique"
+     }
+    ],
+    "nuance": "The camera record supports surveillance in general. The AI-specific part is not confirmed, so +1 rather than +2."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Would revise Article 55 so that French law prevails over the ECHR, and calls for national law to have primacy over expansive European case law. On EU law itself he says a constitutional revision is not enough and seeks a Danish-style opt-out.",
+    "sources": [
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "Le second verrou, c'est le droit de l'Union européenne. Une simple révision de la Constitution ne suffira pas à le lever."
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-propose-un-referendum-sur-l-immigration/",
+      "outlet": "Nouvelle Énergie (campaign FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "rétablissement de la législation française dans sa primauté face aux interprétations expansives des jurisprudences européennes"
+     }
+    ],
+    "nuance": "Partial: full primacy over the ECHR, but a negotiated opt-out for EU law rather than unilateral override. The aggregator paraphrase was replaced with primary sources."
+   },
+   {
+    "id": "eu2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Calls European sovereignty an 'oxymoron' and defends national fiscal sovereignty. No explicit statement on EU joint borrowing was found.",
+    "sources": [
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "Si l'indépendance européenne est un impératif, la souveraineté européenne est un oxymore."
+     }
+    ],
+    "nuance": "The cited quote concerns sovereignty, not joint debt. His programme also wants Europe to be a 'tool of power' through joint projects such as space, data and energy, which cuts the other way. Downgraded from -2 and recoded as inferred."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position on France's EU budget contribution found.",
+    "sources": [],
+    "nuance": "The programme only conditions EU cohesion transfers on rule of law and anti-corruption. Not coded."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on EU foreign-policy unanimity found.",
+    "sources": [],
+    "nuance": "His emphasis on national sovereignty suggests scepticism, but there is no direct evidence."
+   },
+   {
+    "id": "eu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Where supranational rules block national sovereignty, he wants citizens to decide by referendum, and seeks exemption from EU asylum and immigration rules.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "il devra être possible, en cas de blocage, de demander aux citoyens d'arbitrer par référendum"
+     }
+    ],
+    "nuance": "Partial: the route is a referendum and a negotiated opt-out, not outright non-application. Kept at +1. Evidence type changed from statement to programme."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Explicitly rules out leaving the EU and wants to reform it.",
+    "sources": [
+     {
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "outlet": "Discours de Bayeux (Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-06-17",
+      "quote": "Nous n'avons pas vocation à sortir de l'Europe."
+     }
+    ],
+    "nuance": "Primary quote from June 2026 replaces the aggregator paraphrase."
+   }
+  ],
+  "verification_notes": [
+   "Context: the WebSearch budget was exhausted (200/200). Verification relied on fetching primary sources directly: the unenouvelleenergie.fr programme pages, its 62 campaign FAQ pages (updated 3 Oct 2026), and the Bayeux speech PDF of 17 Jun 2026.",
+   "Source caveat: the campaign FAQ pages are campaign paraphrases with dated quotes attributed to Lisnard. They are not independent outlets, and cross-lean corroboration could not be done.",
+   "monvote2027.fr is an aggregator whose 'quotes' are partly its own inferences, e.g. imm7 and sec3. simulateur-lisnard2027.fr describes itself as 'Site non officiel' and was not cited.",
+   "eco1: -2 medium programme -> -2 low statement: the quote 'Supprimer les taxes sur la fortune et les successions' was not found on any programme page; recoded on his IFI criticism and his refusal of tax increases.",
+   "eco2: -2 medium programme -> -2 medium statement: the generic aggregator slogan was replaced with 'jamais augmenter l'impôt' from the campaign FAQ.",
+   "eco3: +2 medium -> +2 high: confirmed on the primary programme page.",
+   "eco5: -2 medium programme -> -1 low inferred: no statement on energy or motorways; the code rests on general deregulation and regalian-state doctrine, so it is inferred and downgraded.",
+   "eco6: -2 -> +1 medium: the draft had the sign wrong. The programme proposes 'réforme des droits de succession sur les entreprises', a partial lowering; abolishing all inheritance taxes was not verified.",
+   "ret1: -2 medium -> -2 high statement: his refusal to reverse the 2023 reform is confirmed (franceinfo, 9 Oct 2024, restated 2026).",
+   "ret2: +1 medium -> +1 low: the programme page says 65, but the campaign FAQ (Oct 2026) says he no longer makes age his answer; the sources conflict.",
+   "ret3: +1 -> +2 high: the programme explicitly bases capitalisation on mandatory contributions (about 40% of pensions), and he calls it 'obligatoire et collective'.",
+   "fin1: kept +2 medium; sources changed to the primary programme page and FAQ (80 bn EUR in year one, 200 bn EUR over the term).",
+   "fin2: +2 medium statement -> +2 high statement: the Wikipedia paraphrase was not found on the page; replaced with the Saint-Raphaël pledge (4 Jul 2026) not to replace all 500,000 annual departures, plus the Cannes record of nearly -20% staff.",
+   "fin3: kept -2 medium; the unverifiable quote 'Aucun emprunt supplémentaire' was replaced, and a note added on the investment carve-out in his golden rule.",
+   "fin4: kept +2 medium; source is now the primary programme ('règle institutionnelle'); note added that it is not explicitly constitutional.",
+   "trav1: -2 medium -> -1 medium statement: no explicit SMIC position; the FAQ says he raises wages 'en baissant les cotisations, pas en imposant une hausse de salaire'.",
+   "trav2: null -> +1 low statement: evidence was found that he refuses to undo the unemployment-insurance reform and wants a single allowance capped at a share of the SMIC.",
+   "trav3: +2 medium programme -> +1 low inferred: no proposal for mandatory activity hours exists; the programme only offers negative employer charges for hiring RSA recipients.",
+   "trav4: -2 low inferred -> -2 medium programme: the programme calls for incentives to work more.",
+   "imm1: +2 medium -> +2 high programme: confirmed verbatim on the primary immigration page.",
+   "imm2: kept +2 medium; sources replaced with the explicit primary quote ('Un référendum sera nécessaire') and the Bayeux speech on Article 11.",
+   "imm3: +2 medium -> +2 high: confirmed verbatim on the primary page.",
+   "imm4: -2 medium -> -2 high: the old source was about expulsion of convicted foreigners, which is off-topic; replaced with the programme quote removing any regularisation after illegal entry.",
+   "imm5: +2 medium -> +1 medium: the programme imposes a 5-year residence condition on non-contributory benefits, not a priority by nationality; the aggregator's 'Priorité nationale' label was unverified.",
+   "imm6: kept +1; confirmed verbatim on the primary page.",
+   "imm7: -2 medium programme -> -1 low inferred: the aggregator 'quote' was the aggregator's own inference, not the candidate's words.",
+   "sec1: +2 medium -> +2 high: confirmed on the primary security page.",
+   "sec2: +2 medium -> +2 high: confirmed on the primary security page.",
+   "sec3: -2 low -> null: there is no evidence on independent oversight; the aggregator read general support for the police as opposition.",
+   "sec4: -2 medium -> -1 low inferred: no explicit statement on legalising cannabis found; the evidence covers trafficking only.",
+   "sec5: +2 medium -> +1 low: the camera record comes via the aggregator; no AI-surveillance pledge was verified.",
+   "eu1: +1 low -> +1 medium statement: the Bayeux speech gives primacy over the ECHR, but for EU law a negotiated Danish-style opt-out; still partial.",
+   "eu2: -2 low programme -> -1 low inferred: the 'souveraineté européenne' quote is about sovereignty, not joint borrowing; the programme also backs joint European projects.",
+   "eu3: kept null after checking the programme pages.",
+   "eu4: kept null after checking the programme pages.",
+   "eu5: kept +1 low; evidence type statement -> programme, with the exact primary quote on a referendum in case of supranational blockage.",
+   "eu6: -2 medium -> -2 high: primary Bayeux quote 'Nous n'avons pas vocation à sortir de l'Europe'."
+  ]
+ }
+}

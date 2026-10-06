@@ -1,0 +1,397 @@
+{
+ "collect": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified. Coding left null."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from Zemmour's long-standing work-first, anti-welfare-dependency stance; no source retrieved.",
+    "sources": [],
+    "nuance": "Unverified; based on adjacent positions only. Web search quota was exhausted before research could be done."
+   },
+   {
+    "id": "imm8",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Zemmour campaigns for ending immigration and tightening nationality; easier naturalisation is contrary.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "l'arrêt de l'immigration, la suppression du droit du sol, la fin du regroupement familial ou encore la préférence nationale"
+     }
+    ],
+    "nuance": "Inferred from general immigration platform (2022 themes cited on Wikipedia); no statement specifically on naturalisation retrieved."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Zemmour is a sovereigntist favouring French military autonomy; a European army ceding autonomy is contrary.",
+    "sources": [],
+    "nuance": "Inferred; no source retrieved."
+   },
+   {
+    "id": "eu8",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Zemmour has opposed Ukrainian EU membership in past statements (from memory); not re-verified for 2025-2026.",
+    "sources": [],
+    "nuance": "Unverified recollection; no source retrieved."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ins6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Zemmour's 2022 programme proposed privatising public broadcasting (from memory); not re-verified.",
+    "sources": [],
+    "nuance": "Unverified recollection of 2022 programme; no 2025-2026 source retrieved."
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Zemmour has opposed euthanasia/assisted dying (from memory); whether he promises repeal not verified.",
+    "sources": [],
+    "nuance": "Unverified; repeal promise not confirmed, so -2 is provisional."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from his hard line against ostentatious religious symbols.",
+    "sources": [],
+    "nuance": "Unverified; no source retrieved."
+   },
+   {
+    "id": "soc6",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from his hard line against ostentatious religious symbols.",
+    "sources": [],
+    "nuance": "Unverified; no source retrieved."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "san5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Right-wing hostility to ZAN is common and Zemmour favours building; not verified.",
+    "sources": [],
+    "nuance": "Inferred; no source retrieved."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement by Zemmour or Reconquête on a 'TVA sociale' found.",
+    "sources": [],
+    "nuance": "Searched Google News, French Wikipedia and the archived 2022 programme (purchasing-power sheet: cuts to social charges funded by fighting fraud and cutting benefits for non-Europeans, with no VAT increase mentioned). No evidence either way, so the position stays null."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "In October 2023 Reconquête attacked the RN for opposing the requirement of about 15 hours of activity for RSA recipients, presenting itself as the only party against 'assistanat'. That implies support for keeping the obligation.",
+    "sources": [
+     {
+      "url": "https://www.lopinion.fr/politique/rsa-reconquete-accuse-le-rn-detre-incoherent-sur-la-question-de-lassistanat",
+      "outlet": "L'Opinion",
+      "outlet_lean": "centre-right",
+      "date": "2023-10-06",
+      "quote": "Reconquête revendique être « les seuls » à refuser l'assistanat."
+     }
+    ],
+    "nuance": "This is a party position, voiced by Marion Maréchal's team, who has since left Reconquête. No personal statement by Zemmour was found. In 2026 Sarah Knafo said 'il n'y a pas d'assistés en France' and blamed the system, which may soften the anti-assistanat framing. No sign Reconquête wants to abolish the obligation."
+   },
+   {
+    "id": "imm8",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme planned to make naturalisation harder, end birthright citizenship (droit du sol) and strip binational offenders of nationality. That is the opposite of easier naturalisation.",
+    "sources": [
+     {
+      "url": "https://www.cnews.fr/france/2022-03-24/presidentielle-2022-quelle-serait-la-premiere-mesure-deric-zemmour-lelysee-1195647",
+      "outlet": "CNews",
+      "outlet_lean": "right",
+      "date": "2022-03-24",
+      "quote": "Éric Zemmour envisage de durcir les conditions de naturalisation et d'interdire la régularisation d'une personne entrée illégalement"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "l'arrêt de l'immigration, la suppression du droit du sol, la fin du regroupement familial ou encore la préférence nationale"
+     }
+    ],
+    "nuance": "Based on the 2022 programme, since no 2025-2026 statement specifically on naturalisation was found. The 'zero immigration' line has not changed since."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on receipts for identity checks.",
+    "sources": [],
+    "nuance": "A search on 'Zemmour récépissé / contrôles au faciès' returned only his 2011 conviction stories, nothing on the policy. Very likely opposed, but there is no evidence, so it stays null."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Zemmour wants French defence autonomy and opposes an integrated European defence, which he says would put France under the European Commission. His 2022 defence programme rejects 'fédéralisme européen' and planned to leave NATO integrated command to regain 'pleine indépendance'.",
+    "sources": [
+     {
+      "url": "https://lessurligneurs.eu/la-france-pourrait-elle-se-soumettre-a-une-defense-europeenne-comme-laffirme-eric-zemmour/",
+      "outlet": "Les Surligneurs",
+      "outlet_lean": "fact-check",
+      "date": "2024-12-03",
+      "quote": "Paraphrase: il a souligné la nécessité d'une autonomie de défense pour la France et exprimé son opposition à une défense européenne intégrée"
+     },
+     {
+      "url": "https://www.ericzemmour.fr/presentation-du-programme-defense",
+      "outlet": "ericzemmour.fr (campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-05-05",
+      "quote": "ni le multilatéralisme donneur de leçons ni le fédéralisme européen n'ont apporté les bonnes réponses aux désordres du monde"
+     }
+    ],
+    "nuance": "The 2024 CNews statement is known only through a fact-checker's paraphrase. The programme is from 2022. No 2025-2026 statement on joint arms procurement specifically was found."
+   },
+   {
+    "id": "eu8",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 Europe programme pledged to refuse any new EU enlargement. That covers Ukraine's accession.",
+    "sources": [
+     {
+      "url": "https://web.archive.org/web/20220119182433/https://programme.zemmour2022.fr/europe",
+      "outlet": "Programme Éric Zemmour 2022 (archived)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-01-19",
+      "quote": "Refuser tout nouvel élargissement et mettre fin au processus d'adhésion de la Turquie"
+     }
+    ],
+    "nuance": "The programme was published in January 2022, before Ukraine applied (February 2022) and became a candidate. It is a general refusal of enlargement and does not name Ukraine. No 2025-2026 statement by Zemmour on Ukrainian accession was found. He opposed arms deliveries and sanctions in 2022."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found supporting or opposing guaranteed minimum (floor) prices for farmers.",
+    "sources": [],
+    "nuance": "The 2022 agriculture programme relied on ending joint purchasing groups, short supply chains, import bans and opting out of free-trade talks, with no floor prices. In January 2026 he said he supported protesting farmers, but nothing on prix planchers. Stays null."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No Zemmour proposal found to cut VAT on energy and fuel to 5.5%.",
+    "sources": [],
+    "nuance": "The 5.5% energy-VAT proposal found in search belongs to Marine Le Pen and the RN. Zemmour's 2022 energy, automobilistes and purchasing-power sheets offer other measures (replacing ARENH, employers covering 50% of fuel costs) and no VAT cut. Stays null."
+   },
+   {
+    "id": "ins6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme pledged to abolish the licence fee by privatising the main public broadcasting channels. Zemmour named France Inter and France Télévisions in December 2021, and Reconquête kept calling for privatisation in 2025.",
+    "sources": [
+     {
+      "url": "https://web.archive.org/web/20220209162646/https://programme.zemmour2022.fr/pouvoir-achat",
+      "outlet": "Programme Éric Zemmour 2022 (archived)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-02-09",
+      "quote": "Supprimer la redevance audiovisuelle (138€/foyer) grâce à la privatisation des principales chaînes de l'audiovisuel public"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "il ajoute le 15 décembre 2021 qu'il souhaite privatiser, « en particulier France Inter et France Télévisions »"
+     },
+     {
+      "url": "https://www.lejdd.fr/politique/le-plan-de-sarah-knafo-pour-privatiser-laudiovisuel-public-164850",
+      "outlet": "Le JDD",
+      "outlet_lean": "right",
+      "date": "2025-12-09",
+      "quote": "l'eurodéputée Reconquête dresse un constat implacable : face aux multiples dysfonctionnements, il est plus que jamais temps de privatiser"
+     }
+    ],
+    "nuance": "The 2021-2022 plan (L'Opinion) would hand France 3 and France Bleu to the regions and privatise France 2, franceinfo TV, France Inter, Mouv and FIP, so partial but substantial privatisation. That matches 'tout ou partie'. The 2025 evidence is Sarah Knafo (party line)."
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Zemmour told franceinfo he will promise in the campaign to repeal the 2026 assisted-dying law.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/societe/euthanasie/presidentielle-2027-les-candidats-hostiles-a-la-loi-sur-la-fin-de-vie-vont-ils-promettre-de-l-abroger_8108582.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2026-07-16",
+      "quote": "J'abrogerai cette loi qui met fin à tous les garde-fous pour investir dans le soin et le progrès médical"
+     }
+    ],
+    "nuance": "An explicit repeal promise made after the law was adopted on 15 July 2026. In May 2025 he called it 'une espèce de rétablissement de la peine de mort qui ne dit pas son nom' (CNews headline)."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme banned the Islamic veil in all public space, and in 2025 Zemmour said it must be banned 'partout'. That covers parents accompanying school trips.",
+    "sources": [
+     {
+      "url": "https://web.archive.org/web/20220124121407/https://programme.zemmour2022.fr/islam",
+      "outlet": "Programme Éric Zemmour 2022 (archived)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-01-24",
+      "quote": "Interdire le port du voile islamique dans l'espace public"
+     },
+     {
+      "url": "https://www.jeanmarcmorandini.com/article-608326-les-propos-chocs-d-eric-zemmour-les-femmes-voilees-sortent-avec-la-charia-sur-la-tete-porter-le-voile-c-est-dire-que-l-on-ne-veut-pas-etre-francaise-il-faut-l-interdire-partout-video.html",
+      "outlet": "Jean-Marc Morandini (quoting CNews interview)",
+      "outlet_lean": "centre",
+      "date": "2025-05-23",
+      "quote": "Si ça nous déplait dans ces endroits là, cela veut dire qu'il faut l'interdire partout."
+     }
+    ],
+    "nuance": "No statement names school-trip parents specifically. A general public-space ban would include them, so the code is inferred from the broader rule. The measure targets the Islamic veil, not all conspicuous religious symbols."
+   },
+   {
+    "id": "soc6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme banned the Islamic veil in all public space. In May 2025 Zemmour cited the debate on banning it at universities and said it must be banned everywhere.",
+    "sources": [
+     {
+      "url": "https://web.archive.org/web/20220124121407/https://programme.zemmour2022.fr/islam",
+      "outlet": "Programme Éric Zemmour 2022 (archived)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-01-24",
+      "quote": "Interdire le port du voile islamique dans l'espace public"
+     },
+     {
+      "url": "https://www.jeanmarcmorandini.com/article-608326-les-propos-chocs-d-eric-zemmour-les-femmes-voilees-sortent-avec-la-charia-sur-la-tete-porter-le-voile-c-est-dire-que-l-on-ne-veut-pas-etre-francaise-il-faut-l-interdire-partout-video.html",
+      "outlet": "Jean-Marc Morandini (quoting CNews interview)",
+      "outlet_lean": "centre",
+      "date": "2025-05-23",
+      "quote": "il y a des débats qui disent il faut interdire dans le sport ou dans les universités. Si ça nous déplait dans ces endroits là, cela veut dire qu'il faut l'interdire partout."
+     }
+    ],
+    "nuance": "Targets the Islamic veil specifically, not all conspicuous symbols. Les Surligneurs (2025-03-27) also reports him calling for 'discrétion dans l'espace public'."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on ending selection for university entry.",
+    "sources": [],
+    "nuance": "Searches on Parcoursup or selection plus Zemmour turned up nothing usable. His general stance favours merit and authority, which makes support for ending selection unlikely, but there is no direct evidence, so it stays null."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No Zemmour statement found on loosening building rules or the ZAN target for housing.",
+    "sources": [],
+    "nuance": "The draft's +1 had no source and rested only on 'right-wing hostility is common'. His 2022 programme proposed abolishing the SRU law (per Gilles Ivaldi, cited on Wikipedia), which is adjacent but not the same issue. Set to null instead of guessing."
+   }
+  ],
+  "verification_notes": [
+   "Search-budget note: WebSearch was exhausted (200/200). I verified through WebFetch, curl on Wikipedia raw and search APIs, the Wayback Machine (archived 2022 programme sheets, read as images), and Google News RSS with links decoded to the publisher URLs. Every URL cited was opened, or seen as a decoded news result and then fetched.",
+   "soc1: -2 low/inferred, no source -> -2 high/statement: franceinfo 16-17 Jul 2026 quotes Zemmour: 'J'abrogerai cette loi...'. The repeal promise is now confirmed.",
+   "eu8: -2 low/inferred, no source -> -2 medium/programme: archived 2022 Europe programme says 'Refuser tout nouvel élargissement'. Predates Ukraine's candidacy and has no 2025-26 statement, hence medium.",
+   "eu7: -2 low/inferred, no source -> -2 medium/statement: Les Surligneurs (fact-check) reports his 6 Nov 2024 CNews opposition to an integrated European defence, plus the 2022 defence programme rejecting 'fédéralisme européen'.",
+   "ins6: +1 low/inferred (from memory) -> +2 high/programme: archived 2022 programme 'privatisation des principales chaînes de l'audiovisuel public', Zemmour on 15 Dec 2021 'en particulier France Inter et France Télévisions', Knafo/JDD Dec 2025 continuity. Off-by-one strength error corrected: privatising all or part matches the statement fully.",
+   "imm8: -2 low/inferred -> -2 medium/programme: CNews 24 Mar 2022 summarises the programme as 'durcir les conditions de naturalisation'. The Wikipedia quote is kept as context.",
+   "soc3: +2 low/inferred, no source -> +2 medium/programme: 2022 programme 'Interdire le port du voile islamique dans l'espace public' plus a May 2025 CNews remark 'il faut l'interdire partout'. Nuance added: limited to the veil, and school trips are covered only by the general ban.",
+   "soc6: +2 low/inferred, no source -> +2 medium/programme: same sources. The May 2025 quote explicitly cites universities, then says 'l'interdire partout'.",
+   "trav3: +1 low/inferred, no source -> +1 low/party_line: L'Opinion (6 Oct 2023) reports Reconquête criticising the RN for opposing RSA conditionality. No personal Zemmour statement found.",
+   "san5: +1 low/inferred, no source -> null/none: the draft's inference had no evidence ('right-wing hostility is common'). A brief search found no Zemmour statement on ZAN or building norms, so per the coding rules it is null, not a guess.",
+   "eco7: null -> null: searched, nothing found; the 2022 programme funded social-charge cuts by other means. Nuance updated.",
+   "sec6: null -> null: searched, nothing found.",
+   "ecol6: null -> null: searched; the 2022 agriculture programme has no floor prices, and the Jan 2026 farmer-support statement has no prix planchers. Nuance updated.",
+   "ene5: null -> null: the 5.5% energy-VAT proposal belongs to Le Pen/RN; Zemmour's 2022 energy, automobilistes and purchasing-power sheets have no VAT cut. Nuance updated.",
+   "edu5: null -> null: searched, nothing usable found.",
+   "False-attribution check: a WebFetch summary of the Wikipedia France Télévisions page put the quote 'Je suis évidemment vent debout contre la privatisation' in Zemmour's mouth. The raw wikitext shows it is Roselyne Bachelot's (Le Figaro, 20 Dec 2021), so it was not used.",
+   "Dead URL in draft: none. The draft's only URL (fr.wikipedia.org/wiki/Éric_Zemmour) resolves and contains the quoted phrase verbatim."
+  ]
+ }
+}

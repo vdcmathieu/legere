@@ -1,0 +1,450 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Marine Le Pen propose de supprimer l'IFI (impôt sur la fortune immobilière) et de le remplacer par un impôt sur la fortune financière (IFF) au même seuil de 1,3 million d'euros. Elle ne soutient pas un ISF classique.",
+   "nuance": "Soutien partiel (+1) : elle défend un impôt sur le patrimoine financier mais exclut l'immobilier, et le RN a voté contre le rétablissement de l'ISF en 2024. Seuls des agrégateurs secondaires ont été consultés ; le texte du RN lui-même n'a pas été ouvert."
+  },
+  {
+   "id": "eco2",
+   "summary": "Le groupe RN a voté contre la taxe Zucman lors du débat budgétaire de 2026 (amendements rejetés par 172 voix contre 228) tout en promouvant son propre impôt sur la fortune financière.",
+   "nuance": "Codé -1 plutôt que -2 parce que le RN défend un autre impôt sur les fortunes financières. Il s'oppose à la conception même de la taxe Zucman. Un codage à -2 serait aussi défendable."
+  },
+  {
+   "id": "eco3",
+   "summary": "Propose d'exonérer les employeurs de cotisations sur les hausses de salaire allant jusqu'à 10 % pendant 5 ans (pour les salaires inférieurs à 3 SMIC), et de supprimer la CVAE, impôt de production.",
+   "nuance": "Les baisses de cotisations sont ciblées, liées aux hausses de salaire, et ne constituent pas une baisse générale du coût du travail pour la compétitivité, d'où le codage +1. L'agrégateur semble s'appuyer en partie sur le programme de 2022."
+  },
+  {
+   "id": "eco4",
+   "summary": "S'oppose aux accords de libre-échange et promeut un « patriotisme économique » protectionniste ainsi que la préférence nationale dans la commande publique.",
+   "nuance": "Les droits de douane et les quotas ne sont pas toujours explicites. Le RN insiste sur un « protectionnisme intelligent » et des ajustements aux frontières, d'où le codage +1 plutôt que +2."
+  },
+  {
+   "id": "eco5",
+   "summary": "Soutient la renationalisation des concessions autoroutières (avec une baisse des péages d'environ 15 %) et la nationalisation d'EDF afin de maintenir la production d'électricité sous contrôle de l'État.",
+   "nuance": "Les deux secteurs nommés dans l'énoncé font l'objet de propositions explicites de contrôle public. Source d'agrégateur uniquement."
+  },
+  {
+   "id": "eco6",
+   "summary": "Propose de supprimer les droits de succession en ligne directe pour les familles modestes et des classes moyennes, et d'exonérer les donations des parents jusqu'à 100 000 euros par enfant tous les dix ans.",
+   "nuance": "La baisse vise les successions modestes et moyennes, mais il s'agit d'un allègement important des droits de succession comme de donation. Elle s'oppose à toute nouvelle taxation des grosses successions."
+  },
+  {
+   "id": "ret1",
+   "summary": "Marine Le Pen s'engage à ramener l'âge légal de départ à la retraite de 64 à 62 ans, et à 60 ans pour les carrières longues. Le coût estimé est d'environ 9 milliards d'euros par an.",
+   "nuance": "Le message sur X n'a pas pu être ouvert (HTTP 402) et n'est donc pas vérifié. Deux agrégateurs neutres corroborent la position. Les réserves sur le financement et une éventuelle souplesse de calendrier n'ont pas été vérifiées."
+  },
+  {
+   "id": "ret2",
+   "summary": "Opposée fermement à un relèvement de l'âge ; veut l'abaisser.",
+   "nuance": "Cohérent avec ret1."
+  },
+  {
+   "id": "ret3",
+   "summary": "Marine Le Pen soutient des retraites supplémentaires volontaires par capitalisation en complément de la répartition, et affirme qu'elles doivent rester volontaires. Elle ne soutient donc pas une composante obligatoire.",
+   "nuance": "MonVote la code « plutôt pour » la capitalisation en général. Sur la composante OBLIGATOIRE visée par l'énoncé, elle est contre, mais elle est ouverte à une capitalisation volontaire, d'où -1."
+  },
+  {
+   "id": "fin1",
+   "summary": "Promet un déficit inférieur à 3 % d'ici 2030, avec des économies provenant principalement de l'immigration, de la contribution à l'UE et de la fraude. Jordan Bardella a évoqué 100 milliards d'euros d'économies en échange d'un accord avec la BCE sur la dette, mais le RN rejette l'« austérité ».",
+   "nuance": "Position mixte : l'objectif de 3 % est une priorité, mais le programme promet aussi des baisses d'impôts et des hausses de dépenses et ne prône pas de « fortes réductions des dépenses » en tant que telles."
+  },
+  {
+   "id": "fin2",
+   "summary": "Pas de baisse générale du nombre de fonctionnaires. Elle propose de supprimer les ARS (agences régionales de santé) et de ramener les postes administratifs hospitaliers à 10 % afin de dégager des ressources pour les personnels soignants, ce qui constitue un redéploiement.",
+   "nuance": "La proposition porte sur les postes administratifs hospitaliers, réorientés vers le personnel de terrain, et ne réduit pas le nombre total de fonctionnaires. Le RN promet aussi davantage de policiers, de magistrats et de soignants. Source unique d'agrégateur."
+  },
+  {
+   "id": "fin3",
+   "summary": "N'a pas pour objectif de lancer de grands programmes d'investissement public financés par la dette et critique les dépenses de transition écologique. Elle défend les services publics par des économies réalisées ailleurs.",
+   "nuance": "La formulation exacte de la question de MonVote est inconnue ; le codage est donc maintenu à -1 avec un faible niveau de confiance."
+  },
+  {
+   "id": "fin4",
+   "summary": "Aucun élément trouvé sur une règle d'or constitutionnelle.",
+   "nuance": "Non trouvé. Absent des pages de MonVote2027 et de Candidats-presidentielle-2027, et aucune recherche web supplémentaire n'était disponible pendant la vérification."
+  },
+  {
+   "id": "trav1",
+   "summary": "Contre de fortes hausses du SMIC : le RN a voté contre un amendement de 2022 portant le SMIC à 1 500 euros nets. Elle préfère des exonérations de cotisations patronales pour financer des hausses de salaire allant jusqu'à 10 %.",
+   "nuance": "Codé -1 parce qu'elle soutient des hausses de salaire par d'autres voies. Agrégateur uniquement."
+  },
+  {
+   "id": "trav2",
+   "summary": "Le RN s'est opposé aux durcissements de l'assurance chômage de 2019 et de 2023. Il soutient des conditions d'activité pour le RSA mais pas de baisse nette de l'assurance chômage.",
+   "nuance": "Rappelé à partir de votes passés et non vérifié. MonVote2027 ne couvre pas l'assurance chômage et la recherche n'était pas disponible."
+  },
+  {
+   "id": "trav3",
+   "summary": "Jordan Bardella a déclaré en février 2024 être « parfaitement d'accord » avec la conditionnalité du RSA à 15 heures d'activité. Aucune promesse du RN ou de Marine Le Pen de supprimer cette obligation n'a été trouvée. Cependant, Marine Le Pen et l'ensemble du groupe RN (88 voix contre 0) ont voté contre la loi plein-emploi de 2023 qui l'a créée.",
+   "nuance": "Les éléments sont contrastés. Le vote de Marine Le Pen portait sur l'ensemble du texte (réforme de France Travail et autres dispositions), et non spécifiquement sur les heures d'activité. La citation de Jordan Bardella est relayée par un média adverse, bien qu'elle soit citée textuellement depuis France 3. Coder 0 si une meilleure source montre que Marine Le Pen elle-même s'oppose à l'obligation."
+  },
+  {
+   "id": "trav4",
+   "summary": "S'oppose à une réduction du temps de travail. Elle veut que les entreprises puissent s'écarter des 35 heures par accord de branche, ce qui signifie plus de flexibilité à la hausse et non un passage à 32 heures.",
+   "nuance": "Agrégateur uniquement."
+  },
+  {
+   "id": "imm1",
+   "summary": "Veut une forte réduction de l'immigration légale avec des quotas annuels contraignants, la fin du regroupement familial et des demandes d'asile déposées depuis l'étranger.",
+   "nuance": "Les spécificités de la migration étudiante et de travail ne sont pas détaillées."
+  },
+  {
+   "id": "imm2",
+   "summary": "Appelle à un référendum sur l'immigration et la citoyenneté : elle en a réclamé un sur le droit du sol en 2025 et prévoit un référendum constitutionnel « Citoyenneté-Identité-Immigration » comme premier acte en 2027.",
+   "nuance": "La voie de l'article 11 est juridiquement contestée ; sa position est ferme."
+  },
+  {
+   "id": "imm3",
+   "summary": "Veut supprimer l'AME dans sa forme actuelle. La proposition de longue date du RN la remplace par une aide limitée aux soins urgents.",
+   "nuance": "Le remplacement par les soins urgents provient du programme de 2022 et de la ligne du RN ; la source de 2026 confirme uniquement la suppression « dans sa forme actuelle »."
+  },
+  {
+   "id": "imm4",
+   "summary": "S'oppose clairement à la régularisation des travailleurs sans papiers dans les métiers en tension.",
+   "nuance": "Cohérent avec l'opposition du RN à l'article de régularisation de la loi immigration de 2023 (rappelé, non revérifié)."
+  },
+  {
+   "id": "imm5",
+   "summary": "La priorité nationale pour le logement, l'emploi et les prestations est centrale et doit être inscrite dans la Constitution.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "imm6",
+   "summary": "Veut supprimer l'acquisition automatique de la nationalité par la naissance en France, par référendum.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "imm7",
+   "summary": "Le RN s'oppose constamment au droit de vote local des étrangers non européens ; aucun élément contraire n'a été trouvé.",
+   "nuance": "Ligne du parti rappelée mais non retrouvée dans les sources ; la page immigration de France-Vote ne la couvre pas. Niveau de confiance abaissé faute de source."
+  },
+  {
+   "id": "sec1",
+   "summary": "Soutient des peines planchers pour les récidivistes et les crimes violents, ainsi que la fin des réductions de peine automatiques.",
+   "nuance": "Agrégateur uniquement."
+  },
+  {
+   "id": "sec2",
+   "summary": "Veut mettre fin à l'« excuse de minorité » et abaisser l'âge de la majorité pénale à 16 ans.",
+   "nuance": "Agrégateur uniquement. Le cadrage du RN vise les multirécidivistes, ce qui est plus large que les « crimes graves » de l'énoncé."
+  },
+  {
+   "id": "sec3",
+   "summary": "Contre une autorité indépendante de contrôle ou d'enquête sur la police. Les caméras-piétons sont proposées pour protéger les policiers et non comme contrôle civil.",
+   "nuance": "Les caméras-piétons ne constituent pas un contrôle indépendant ; -1 sous-estimait donc l'opposition. Source unique d'agrégateur, d'où un faible niveau de confiance."
+  },
+  {
+   "id": "sec4",
+   "summary": "S'oppose à la légalisation du cannabis et soutient la tolérance zéro.",
+   "nuance": "Agrégateur uniquement."
+  },
+  {
+   "id": "sec5",
+   "summary": "Le RN a voté pour la vidéosurveillance algorithmique lors des Jeux olympiques de 2024, et Jordan Bardella (2026) soutient le développement de la reconnaissance faciale dans l'espace public. Cela va au-delà de l'énoncé.",
+   "nuance": "La citation émane de Jordan Bardella en tant que président du parti. Soutenir la reconnaissance faciale va plus loin que le déploiement de la vidéosurveillance par intelligence artificielle de l'énoncé."
+  },
+  {
+   "id": "eu1",
+   "summary": "Veut la primauté constitutionnelle du droit national sur le droit européen.",
+   "nuance": "Aucune."
+  },
+  {
+   "id": "eu2",
+   "summary": "Le RN s'oppose à la mutualisation fédérale de la dette de l'UE ; aucune source directe de 2026 n'a été retrouvée.",
+   "nuance": "Ligne du parti rappelée. Non trouvée sur les agrégateurs consultés, et la recherche n'était pas disponible."
+  },
+  {
+   "id": "eu3",
+   "summary": "Le programme prévoit de renégocier la contribution de la France au budget de l'UE, dans le but de la réduire.",
+   "nuance": "Une réduction est sous-entendue mais n'est pas chiffrée ici ; les économies sur la contribution à l'UE figurent aussi dans fin1."
+  },
+  {
+   "id": "eu4",
+   "summary": "Défend une Europe des nations souveraines et s'oppose à tout nouveau transfert de souveraineté. Cela suppose de conserver le droit de veto national en matière de politique étrangère.",
+   "nuance": "Aucune déclaration explicite sur l'unanimité en politique étrangère ; déduit de son opposition affichée à tout nouveau transfert de souveraineté."
+  },
+  {
+   "id": "eu5",
+   "summary": "Veut placer la Constitution au-dessus des règles de l'UE et limiter l'effet du droit international et européen, ce qui permettrait leur non-application lorsqu'ils font obstacle à son programme.",
+   "nuance": "Paraphrase ; cohérent avec eu1."
+  },
+  {
+   "id": "eu6",
+   "summary": "Rejette le Frexit et la sortie de l'euro ; préconise une renégociation des traités.",
+   "nuance": "Elle a renoncé à sa position de 2017 sur la sortie de l'euro. MonVote la code « plutôt contre » et non « tout à fait contre », mais le RN rejette explicitement la sortie de l'UE."
+  },
+  {
+   "id": "int1",
+   "summary": "Le 16 septembre 2026 (LCI), Marine Le Pen a déclaré que la France ne pouvait plus se permettre d'aider financièrement l'Ukraine autant qu'actuellement, tout en indiquant que la formation de soldats ukrainiens et la fourniture de matériel défensif peuvent se poursuivre.",
+   "nuance": "Soutien partiel seulement (formation, matériel défensif) ; elle veut réduire l'effort financier. Jordan Bardella (mars 2024) s'était opposé aux armes capables d'atteindre le territoire russe. Il s'agit d'une opposition partielle et non totale, d'où -1."
+  },
+  {
+   "id": "int2",
+   "summary": "Le RN a toujours rejeté l'envoi de troupes françaises en Ukraine. Non revérifié en direct lors de cette passe.",
+   "nuance": "Codé à partir de la connaissance préalable des déclarations du RN (2024-2025). Le budget de recherche web était épuisé et aucune URL n'a pu être confirmée. Nécessite une vérification en direct. Marine Le Pen privilégie une conférence de paix plutôt qu'un déploiement."
+  },
+  {
+   "id": "int3",
+   "summary": "Le programme de 2022 de Marine Le Pen prévoit le retrait de la France du commandement intégré de l'OTAN, et une analyse de 2026 rapporte qu'elle le défend toujours. Jordan Bardella (2024) a dit pas en temps de guerre.",
+   "nuance": "La ligne de Marine Le Pen elle-même est la sortie : dans le programme de 2022, réaffirmée selon une source secondaire d'octobre 2026. Jordan Bardella (mars 2024) a nuancé le calendrier, disant pas tant que dure la guerre en Ukraine. Il s'agit d'une réserve de calendrier et non d'un revirement."
+  },
+  {
+   "id": "int4",
+   "summary": "Le 2 juillet 2025, des députés RN de la commission des affaires européennes ont rejoint des députés macronistes et LR pour rejeter une résolution visant à dénoncer l'accord d'association entre l'UE et Israël.",
+   "nuance": "La seule source est le site d'un parti adverse décrivant un vote en commission. L'affirmation factuelle est plausible mais non corroborée. Aucune déclaration personnelle de Marine Le Pen n'a été trouvée. La corroboration par un média neutre n'a pas été possible, le budget de recherche étant épuisé."
+  },
+  {
+   "id": "int5",
+   "summary": "Ses objectifs ont varié : le programme de 2017 visait 3 % du PIB d'ici 2022, tandis que celui de 2022 visait 55 milliards d'euros d'ici 2027 (environ 2 % du PIB). En 2026, le RN soutient des budgets militaires plus élevés mais insiste sur les limites des finances publiques. Aucun engagement actuel supérieur à 3 % n'a été trouvé.",
+   "nuance": "Aucun programme n'a jamais dépassé 3 % : l'objectif de 2017 était exactement de 3 % et celui de 2022 d'environ 2 %. En 2026, elle affirme que l'aide à l'Ukraine doit être réduite pour des raisons budgétaires, ce qui suggère des limites aussi pour les dépenses de défense. Le bilan est contrasté ; il faut attendre le programme de 2027."
+  },
+  {
+   "id": "int6",
+   "summary": "Son programme de 2017 proposait de rétablir un service obligatoire de trois mois, principalement civil et civique. Le programme de 2022 ne prévoit pas de service obligatoire général, seulement une extension du service militaire adapté outre-mer. Aucune position pour 2025-2026 n'a été trouvée.",
+   "nuance": "Éléments anciens (2017). Le service était court et principalement civique, d'où seulement +1. Il était absent du programme de 2022 ; la position actuelle est donc incertaine."
+  },
+  {
+   "id": "int7",
+   "summary": "Marine Le Pen a qualifié les sanctions contre la Russie d'inutiles et contre-productives (déclarations anciennes). Une position de 2026 sur leur levée en échange d'un accord de paix n'est pas vérifiée.",
+   "nuance": "La source est ancienne et n'a pas pu être rouverte (HTTP 403 lors du contrôle), si bien que le titre provient de résultats de recherche antérieurs. Après 2022, elle a appelé à une conférence de paix. Sa ligne actuelle sur les sanctions n'est pas vérifiée, d'où un faible niveau de confiance."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Le 28 mai 2025, le RN a voté avec la droite la suppression des ZFE (zones à faibles émissions), qu'il qualifie de séparatisme territorial.",
+   "nuance": "Il s'agit du vote du groupe et de déclarations de membres du groupe. Cela est cohérent avec la critique de longue date des ZFE par Marine Le Pen."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le 8 juillet 2025, le groupe RN a voté par 119 voix contre 0 (2 abstentions) la loi Duplomb. La loi a réintroduit des pesticides néonicotinoïdes (acétamipride) que la France avait interdits mais que d'autres pays de l'UE autorisent encore.",
+   "nuance": "Le vote porte directement sur la levée d'une interdiction de pesticide propre à la France au nom de l'égalité de concurrence avec les concurrents étrangers. Le livret écologie de 2022 conditionnait toutefois les autorisations de pesticides à des indicateurs de biodiversité, ce qui constitue un léger contrepoint."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Le RN s'oppose à la fin, en 2035, de la vente de voitures neuves à moteur thermique.",
+   "nuance": "Connaissance préalable ; non vérifié en direct, le budget de recherche étant épuisé."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le RN s'oppose aux nouvelles taxes environnementales et à l'« écologie punitive ». Aucune position spécifique sur l'aviation n'a été vérifiée.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Son livret écologie de 2022 rejette l'« écologie punitive » et affirme que la France atteindrait les objectifs de l'accord de Paris à son propre rythme, en évaluant chaque année selon la trajectoire des autres pays et la qualité de vie des Français.",
+   "nuance": "Le programme de 2022 subordonne l'effort climatique à la compétitivité et à la qualité de vie. L'énoncé porte sur un arbitrage général ; le codage reste donc une interprétation, avec un faible niveau de confiance."
+  },
+  {
+   "id": "ene1",
+   "summary": "Son programme de 2022 promet d'engager sans délai le renouvellement du parc nucléaire (EPR, petits réacteurs modulaires, relance de la recherche sur les neutrons rapides), faisant du nucléaire le pivot de la politique énergétique.",
+   "nuance": "Programme de 2022. Renouveler l'ensemble du parc suppose bien plus que six EPR2. Aucun chiffre précis pour 2026 n'a été vérifié."
+  },
+  {
+   "id": "ene2",
+   "summary": "Marine Le Pen veut préserver l'ensemble du parc nucléaire, prolonger sa durée de vie et faire du nucléaire le pivot de la politique énergétique.",
+   "nuance": "Position ancienne et stable."
+  },
+  {
+   "id": "ene3",
+   "summary": "Son programme de 2022 prévoit un moratoire sur toute nouvelle éolienne, terrestre ou en mer, ainsi que le démantèlement progressif de celles qui existent.",
+   "nuance": "L'engagement va au-delà de l'arrêt des nouveaux projets. Il provient du programme de 2022 et est cohérent avec des déclarations ultérieures du RN."
+  },
+  {
+   "id": "ene4",
+   "summary": "Son programme de 2022 promettait de sortir du marché européen de l'électricité pour retrouver des prix décents.",
+   "nuance": "Programme de 2022 ; une reprise de cet engagement en 2026 n'a pas été vérifiée."
+  },
+  {
+   "id": "ins1",
+   "summary": "Le RN n'est pas favorable à une VIe République. Marine Le Pen est favorable à une présidence forte assortie de référendums.",
+   "nuance": "Connaissance préalable."
+  },
+  {
+   "id": "ins2",
+   "summary": "Son programme de 2022 promet d'instaurer la proportionnelle.",
+   "nuance": "Il s'agit d'une revendication de longue date du RN, ici issue du programme de 2022. Le RN a évoqué le maintien d'une prime majoritaire dans certaines versions, ce qui n'a pas été vérifié."
+  },
+  {
+   "id": "ins3",
+   "summary": "Son programme de 2022 promet de créer un référendum d'initiative citoyenne (RIC).",
+   "nuance": "Programme de 2022. Le RIC qui y est proposé comportait des seuils ; non revérifié pour 2027."
+  },
+  {
+   "id": "ins4",
+   "summary": "Le RN critique l'article 49.3 et veut en restreindre l'usage.",
+   "nuance": "Connaissance préalable."
+  },
+  {
+   "id": "ins5",
+   "summary": "Son programme de 2022 promet un référendum sur l'immigration dans les six mois suivant l'élection, comprenant l'inscription dans la Constitution des règles de nationalité et de la priorité nationale.",
+   "nuance": "Programme de 2022 ; le référendum sur l'immigration est une promesse constante du RN. La justice n'a pas été vérifiée."
+  },
+  {
+   "id": "soc1",
+   "summary": "Marine Le Pen a voté contre le projet de loi sur l'aide à mourir à chaque lecture, y compris lors de l'adoption définitive le 15 juillet 2026, comme la plupart des membres du groupe RN (106 contre, 12 pour). Aucune promesse d'abroger la loi n'a été trouvée.",
+   "nuance": "L'opposition personnelle est constante, mais selon la consigne le -2 exige une promesse d'abrogation, qui n'a pas été trouvée (une recherche en direct n'était pas possible). Le RN a donné la liberté de vote. Jordan Bardella s'oppose lui aussi à la loi (« Le véritable progrès, c'est le soin, pas la mort », JDD)."
+  },
+  {
+   "id": "soc2",
+   "summary": "Son programme de 2022 mentionnait sa proposition de loi contre les idéologies islamistes, qui prévoyait l'interdiction du voile dans l'espace public.",
+   "nuance": "Position de 2022. Elle a suggéré une mise en place progressive durant la campagne de 2022, et le maintien de cette mesure dans le programme de 2027 n'a pas été vérifié. L'URL n'a pas été reconfirmée, le budget de recherche étant épuisé."
+  },
+  {
+   "id": "soc3",
+   "summary": "Le 16 septembre 2026, Marine Le Pen a déclaré qu'elle interdirait progressivement le voile islamique, en commençant par un décret couvrant les sorties scolaires, les universités, les fédérations sportives et les bâtiments publics.",
+   "nuance": "Elle vise spécifiquement le voile islamique plutôt que l'ensemble des signes religieux ostensibles, mais elle nomme explicitement les sorties scolaires. Le codage « party_line » sans source du brouillon est désormais étayé par sa propre déclaration récente."
+  },
+  {
+   "id": "soc4",
+   "summary": "Le RN soutient une laïcité plus restrictive, par exemple des interdictions du voile et une législation spécifique contre les idéologies islamistes.",
+   "nuance": "Déduit de soc2 et soc3."
+  },
+  {
+   "id": "soc5",
+   "summary": "Son programme de 2022 indique que l'interdiction de la GPA (gestation pour autrui) sera appliquée et pourra être renforcée.",
+   "nuance": "Le même passage promet un moratoire d'au moins trois ans sur les réformes de société."
+  },
+  {
+   "id": "edu1",
+   "summary": "Son programme de 2022 instaure l'uniforme scolaire à l'école primaire et au collège.",
+   "nuance": "Programme de 2022 ; il ne couvre pas le lycée."
+  },
+  {
+   "id": "edu2",
+   "summary": "Son livret école de 2022 plafonne les classes à 20 élèves en grande section et au CP et à 30 dans le secondaire, et donne la priorité à la rémunération des enseignants. Il n'y a pas de promesse de recrutement massif.",
+   "nuance": "Elle soutient un plafonnement des effectifs par classe, le plus souvent aux niveaux existants, mais ne s'engage pas sur des recrutements à grande échelle. Le bilan est contrasté."
+  },
+  {
+   "id": "edu3",
+   "summary": "Son programme de 2022 qualifie le collège unique de « machine à échec » et fait du brevet un examen d'orientation. Le regroupement par niveau n'est pas explicite.",
+   "nuance": "Déduit de la critique du collège unique dans le livret école de 2022."
+  },
+  {
+   "id": "edu4",
+   "summary": "Le RN défend la liberté scolaire.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "edu5",
+   "summary": "Le RN veut revoir le calendrier et la procédure de Parcoursup sans le supprimer, et son programme d'éducation insiste sur une sélection précoce. Aucun signe de soutien à la fin de la sélection à l'entrée de l'université n'a été trouvé.",
+   "nuance": "Selon la consigne, réformer Parcoursup tout en conservant la sélection ne vaut pas accord. Déduit de la ligne du RN en faveur de la sélection en matière d'éducation. Aucune déclaration explicite sur la sélection à l'entrée de l'université n'a été trouvée."
+  },
+  {
+   "id": "san1",
+   "summary": "Le 2 avril 2025, le groupe RN a voté par 50 voix contre 0 contre le rétablissement de l'article 1 de la proposition de loi Garot, qui régule les lieux d'installation des médecins. Son livret santé de 2022 s'appuie à la place sur de fortes incitations financières.",
+   "nuance": "L'article Garot régule l'installation dans les zones surdotées plutôt que d'obliger à exercer dans les zones sous-dotées. Néanmoins, l'opposition unanime du RN et son programme fondé uniquement sur les incitations indiquent une opposition claire à la coercition."
+  },
+  {
+   "id": "san2",
+   "summary": "Le RN s'oppose à la hausse des franchises médicales.",
+   "nuance": "Connaissance préalable ; non vérifié en direct."
+  },
+  {
+   "id": "san3",
+   "summary": "Le RN privilégie une politique du logement fondée sur l'offre et l'accession à la propriété.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "san4",
+   "summary": "Son programme de 2022 renationalise les autoroutes et maintient l'hydroélectricité dans le giron public sous l'égide d'EDF. Il dénonce l'« idéologie de la concurrence folle » imposée à EDF.",
+   "nuance": "Une exception : le programme de 2022 propose de privatiser l'audiovisuel public."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucune déclaration de Marine Le Pen ou du RN en 2025-2026 sur une « TVA sociale » n'a été trouvée. Le contre-budget du RN d'octobre 2025 baisse la TVA sur l'énergie et la supprime sur 100 produits de base, ce qui va dans le sens inverse d'une hausse de la TVA.",
+   "nuance": "Déduit de la ligne fiscale du RN de baisse de la TVA. Aucun rejet explicite d'un échange TVA contre cotisations n'a été trouvé, d'où -1 plutôt que -2. Le budget de recherche web était épuisé pendant la vérification."
+  },
+  {
+   "id": "imm8",
+   "summary": "Le programme du RN supprime le droit du sol et limite l'accès à la nationalité à la naturalisation « sur des critères de mérite et d'assimilation ». En 2025, Marine Le Pen a voté pour durcir l'accès à la nationalité à Mayotte. C'est l'inverse d'un assouplissement de la naturalisation.",
+   "nuance": "Cohérent de 2022 à 2026. Un critère de mérite et d'assimilation est une restriction et non une facilitation."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucune déclaration du RN ou de Marine Le Pen en 2025-2026 sur les récépissés de contrôle d'identité n'a été trouvée. Le programme de 2022 de Marine Le Pen visait à laisser les coudées franches à la police sans que chaque interpellation soit contestée. En juillet 2026, elle a voté pour une présomption de légitime défense pour les policiers.",
+   "nuance": "Déduit de positions voisines favorables à la police, sans élément direct sur les récépissés. Rétrogradé par rapport au -2 non sourcé du brouillon."
+  },
+  {
+   "id": "eu7",
+   "summary": "Le président du RN, Jordan Bardella, a rejeté une armée européenne et une défense européenne en mars 2025, arguant qu'elles entraîneraient la France dans une guerre avec la Russie. Le RN défend une Europe des nations souveraines.",
+   "nuance": "La déclaration est celle de Jordan Bardella (Premier ministre désigné de Marine Le Pen) et non de Marine Le Pen elle-même ; la preuve relève donc de la ligne du parti (party_line). Aucune citation directe de Marine Le Pen n'a été retrouvée, et aucun élément n'a été trouvé sur les achats d'armement conjoints en particulier."
+  },
+  {
+   "id": "eu8",
+   "summary": "Marine Le Pen s'oppose à l'adhésion de l'Ukraine à l'UE, tout en soutenant un statut d'association.",
+   "nuance": "Source secondaire, non datée. Aucune source primaire de 2025-2026 n'a été retrouvée, le budget de recherche étant épuisé. Sa ligne de septembre 2026 de réduction de l'aide financière à l'Ukraine est cohérente avec cette position."
+  },
+  {
+   "id": "ecol6",
+   "summary": "En février 2024, Marine Le Pen a semblé accepter le principe de prix planchers, mais sous conditions : ils échoueraient sans suppression des surtranspositions de normes et des accords de libre-échange. Le programme du RN promet des « prix rémunérateurs » pour les agriculteurs.",
+   "nuance": "Soutien conditionnel, d'où +1. Elle a averti que des prix planchers sans ces conditions pourraient conduire à « la ruine de l'agriculture ». Le groupe RN semble s'être abstenu sur la proposition de loi de LFI sur les prix planchers d'avril 2024 (scrutin datan 3652, abstentions individuelles de députés RN). Aucune mise à jour pour 2025-2026 n'a été trouvée."
+  },
+  {
+   "id": "ene5",
+   "summary": "Le RN promet de baisser la TVA sur l'énergie de 20 % à 5,5 %. Son contre-budget d'octobre 2025 couvre explicitement le gaz, l'électricité, les carburants, le bois et le fioul. En 2022, Marine Le Pen a voté un amendement en ce sens.",
+   "nuance": "Les trois types d'énergie et le taux de 5,5 % sont confirmés par des documents primaires du parti."
+  },
+  {
+   "id": "ins6",
+   "summary": "Le programme législatif du RN de 2024 promettait de privatiser l'audiovisuel public. Marine Le Pen l'avait proposé en 2021, et Jordan Bardella l'a réitéré en juin 2024 comme un objectif « à terme ».",
+   "nuance": "Le contre-budget d'octobre 2025 mentionne seulement « Baisse de la dotation à l'audiovisuel public », si bien que le calendrier de la privatisation n'est pas clair. Aucun renoncement en 2026 n'a été trouvé, mais aucune réaffirmation en 2026 par Marine Le Pen n'a non plus été retrouvée."
+  },
+  {
+   "id": "soc6",
+   "summary": "Le 16 septembre 2026, Marine Le Pen a déclaré que sa première étape vers l'interdiction du voile islamique serait un décret couvrant notamment les universités.",
+   "nuance": "Engagement explicite nommant les universités ; le +1 déduit du brouillon est donc relevé. Il porte sur le voile islamique plutôt que sur l'ensemble des signes religieux."
+  },
+  {
+   "id": "san5",
+   "summary": "Le programme de 2024 de Jordan Bardella proposait de lever les interdictions liées au DPE et au ZAN pour répondre à la crise du logement, et le programme du RN promet d'abroger toutes les interdictions et obligations liées au DPE. En 2023, Marine Le Pen a voté pour le projet de loi assouplissant la mise en œuvre du ZAN.",
+   "nuance": "Les sources datent de 2023-2024. Aucune mise à jour pour 2025-2026 n'a été retrouvée, bien que rien ne suggère un revirement. Le projet de loi ZAN de 2023 était un assouplissement largement soutenu ; le vote seul constitue donc un indice plus faible que le programme."
+  }
+ ],
+ "record": {
+  "bio": "Marine Le Pen (née en 1968) est une avocate devenue femme politique française, qui a dirigé le Front national, rebaptisé Rassemblement national (RN) en 2018, de 2011 à 2021. Elle a atteint le second tour de l'élection présidentielle en 2017 et en 2022, est députée du Pas-de-Calais depuis 2017 et présidente du groupe RN à l'Assemblée nationale depuis 2022. Elle a été condamnée en première instance en mars 2025 et en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires européens ; un pourvoi en cassation est en cours, la condamnation n'est donc pas définitive. En juillet 2026, elle a confirmé qu'elle sera candidate à la présidentielle pour la quatrième fois, et Jordan Bardella, qui avait été préparé comme candidat alternatif du RN, s'est effacé.",
+  "offices": [
+   "Conseillère régionale, Nord-Pas-de-Calais",
+   "Conseillère régionale, Île-de-France",
+   "Députée européenne",
+   "Conseillère municipale, Hénin-Beaumont",
+   "Conseillère régionale, Nord-Pas-de-Calais / Hauts-de-France",
+   "Présidente du Front national / Rassemblement national",
+   "Coprésidente du groupe Europe des nations et des libertés (Parlement européen)",
+   "Députée, 11e circonscription du Pas-de-Calais",
+   "Conseillère départementale, Pas-de-Calais (mandat achevé à la suite de la peine d'inéligibilité)",
+   "Présidente du groupe RN, Assemblée nationale"
+  ],
+  "legal": [
+   "Affaire des assistants parlementaires du Parlement européen (détournement de fonds publics de l'UE, 2004-2016). Première instance, 31 mars 2025 : 4 ans d'emprisonnement (dont 2 ferme), 100 000 euros d'amende et 5 ans d'inéligibilité avec exécution provisoire (immédiate). Appel, 7 juillet 2026 : 3 ans d'emprisonnement dont 2 avec sursis (1 an ferme à purger sous bracelet électronique), selon Public Sénat et Toute l'Europe ; Wikipédia indique « 1 an ferme + 3 ans avec sursis », le total exact est donc rapporté de manière incohérente. 100 000 euros d'amende. 45 mois d'inéligibilité, dont 30 avec sursis ; les 15 mois fermes ont été considérés comme déjà purgés (jusqu'au 30 juin 2026), si bien qu'elle est éligible en 2027. Parmi les coprévenus en appel figurent Louis Aliot (1 an avec sursis), Bruno Gollnisch (3 ans avec sursis) et Julien Odoul (8 mois avec sursis) ; Public Sénat rapporte que le RN a été condamné à une amende de 2 millions d'euros (dont 1 million avec sursis). Elle a formé un pourvoi en cassation. Le 8 juillet 2026, la Cour de cassation a indiqué qu'elle « pourrait » statuer « au plus tard début avril 2027 », un calendrier qui, selon elle, peut évoluer ; le premier tour a lieu le 18 avril 2027. La condamnation n'est donc pas définitive.",
+   "Poursuite pour provocation à la haine à raison d'un discours prononcé à Lyon en décembre 2010, comparant les prières de rue à une « occupation ». Le tribunal de Lyon l'a relaxée, jugeant que ces propos ne visaient pas l'ensemble de la communauté musulmane."
+  ],
+  "reversals": [
+   {
+    "topic": "Sortie de l'euro / de la zone euro",
+    "before": "Campagne de 2017 : proposait de quitter l'euro et de rétablir une monnaie nationale (Euronews : « L'euro est la monnaie des banquiers, pas celle du peuple »).",
+    "after": "En fin de campagne 2017, elle a assoupli cette position en proposant une « monnaie commune » pour les grandes entreprises seulement. En 2022, elle avait retiré la sortie de l'euro de son programme."
+   },
+   {
+    "topic": "Russie / Ukraine",
+    "before": "2017 : s'est rendue à Moscou et a rencontré Vladimir Poutine, a qualifié les sanctions de « profondément injustes et contre-productives » et proposé de les lever ; a défendu le référendum de 2014 en Crimée.",
+    "after": "Depuis février 2022, elle condamne l'invasion « sans ambiguïté », et en 2026 le RN a dénoncé des « actes hostiles » de la Russie en Europe. Elle s'oppose toujours à de nouvelles aides financières à l'Ukraine pour des raisons budgétaires et a de nouveau défendu le référendum de Crimée en 2023 ; l'évolution est donc partielle."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Elle n'a exercé aucune fonction exécutive nationale ou locale. Son bilan est législatif et partisan : elle dirige le groupe RN depuis 2022, devenu le plus grand groupe mono-partisan de l'Assemblée (environ 120 députés et plus) après les élections de 2024. À la tête du parti, elle a conduit la stratégie de « dédiabolisation », notamment en excluant son père et en rebaptisant le FN en RN en 2018.",
+    "assessment": "Les sources citées par Wikipédia (Le Monde, Politico Europe, New Statesman, The Conversation) décrivent la dédiabolisation comme une stratégie délibérée de normalisation. Les critiques la jugent cosmétique, tandis que ses partisans lui attribuent la banalisation du parti. Une analyse des votes par scrutin public (datan.fr, nosdeputes.fr) n'a pas été retrouvée."
+   },
+   {
+    "what": "Programme 2027 (positions annoncées à ce jour) : retour de la retraite à 62 ans, ou 60 ans pour les personnes ayant commencé à travailler avant 20 ans (réaffirmé en août 2026). Parmi les thèmes récurrents des programmes précédents figurent la préférence nationale pour les prestations et les logements sociaux, les baisses d'impôts et l'expulsion des délinquants étrangers. Le programme complet de 2027 n'a pas été examiné.",
+    "assessment": "Marine Le Pen chiffre la mesure sur les retraites à environ 9 milliards d'euros par an. L'Institut Montaigne (centre droit / libéral) l'estime à 26,5 milliards d'euros, voire jusqu'à 38 milliards. France 24 publie une tribune critique qui juge le financement du programme inexpliqué. Jordan Bardella a évoqué une approche différente des retraites (pas d'âge plancher, un pilier de capitalisation) ; la ligne du parti n'est donc pas entièrement arrêtée."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Les médias de gauche la présentent généralement comme la dirigeante d'un parti d'extrême droite dont la normalisation relève surtout de l'image. Ils mettent en avant la condamnation pour détournement de fonds, ses liens passés avec la Russie et la proposition de préférence nationale. Ceci est déduit de tendances générales, Libération, Mediapart et L'Humanité n'ayant pas été consultés.",
+   "right_media": "Les médias de droite la présentent généralement comme une dirigeante souverainiste légitime. Ils tendent à présenter les poursuites comme politisées et à mettre l'accent sur ses propositions en matière d'immigration, de sécurité et de pouvoir d'achat. Ceci est déduit, les pages de CNews et d'Europe 1 n'ayant pas pu être ouvertes (HTTP 403).",
+   "neutral_media": "France 24, franceinfo, LCP et Public Sénat rapportent le verdict, la peine et son éligibilité de manière détaillée sur le plan procédural et soulignent l'incertitude avant la décision de la Cour de cassation. Ils traitent l'arrangement entre Marine Le Pen et Jordan Bardella comme une question stratégique pour le RN."
+  }
+ }
+}

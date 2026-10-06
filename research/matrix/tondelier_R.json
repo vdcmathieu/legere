@@ -1,0 +1,171 @@
+{
+ "collect": {
+  "candidate": "Marine Tondelier",
+  "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) is National Secretary of Les Écologistes since December 2022, re-elected in April 2025. She trained at Sciences Po Lille, led the air-quality federation Atmo France (2017-2022), and has sat as an opposition councillor in Hénin-Beaumont since 2014 and as a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025.",
+  "offices": [
+   {
+    "office": "Municipal councillor (opposition), Hénin-Beaumont",
+    "from": "2014",
+    "to": "2026",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Community councillor, Hénin-Carvin agglomeration",
+    "from": "2014",
+    "to": "2026",
+    "kind": "legislative"
+   },
+   {
+    "office": "Regional councillor, Hauts-de-France (Pas-de-Calais)",
+    "from": "2021-07-02",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "National Secretary, EELV / Les Écologistes",
+    "from": "2022-12-10",
+    "to": "present (re-elected 2025-04-19)",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Defamation suit by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book Nouvelles du Front; she was the defendant",
+    "status": "acquitted",
+    "date": "November 2020 (Paris correctional court, good faith)",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Leaving the social network X",
+    "before": "Called for France to leave or shut down X, citing election disinformation and gender-based violence",
+    "after": "Reversed within about a week and stayed on X, saying she would defend ecology on 'hostile terrain'",
+    "years": "Nov 2024 - Jan 2025",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Led the party as National Secretary and was re-elected with 72.64% in April 2025 after internal criticism over congress rules. She has never held national or local executive office, so there is no legislative or ministerial record.",
+    "assessment": "Party-management record only. Critics inside the party include Sandrine Rousseau (Feb 2025, 'apparatchik reflexes') and a tribune of more than 500 members (Jan-Feb 2026) against her municipal alliance strategy. Single-source (Wikipedia summary); not corroborated across outlets.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   },
+   {
+    "what": "Represented the Nouveau Front Populaire in media during the 2024 legislative campaign (BFM TV, 3 July) and was named in Time's '100 Next' 2024.",
+    "assessment": "Raised her national profile. Assessment based on one source.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified: search budget was exhausted, so no left-leaning outlet could be read.",
+   "right_media": "Not verified. She has herself criticised CNews and Valeurs actuelles (May 2023) for spreading far-right ideology.",
+   "neutral_media": "Not verified directly. Wikipedia-based summary reports the Guardian and Time covered her as a left-coalition builder in 2024."
+  },
+  "sources_note": "The WebSearch budget (200 calls) was exhausted before any search ran, and Le Monde blocked fetching. Everything above comes from two Wikipedia (French) pages fetched via WebFetch. The programme, roll-call votes, multi-lean trait sourcing and media portrayal were NOT researched, so traits is empty and the delivery and reversals lists are thin. Wikipedia is a secondary source; claims should be re-verified against primary sources (Les Écologistes programme, her interviews) once search budget is raised (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION). The Wikipedia summary states the left primary had collapsed by July 2026 and that an internal referendum on an autonomous candidacy was scheduled for 10-13 December; this is unverified. Also unverified: she is reported to have had a second child in September 2026. Unconfirmed: whether she was a municipal list leader in the March 2026 elections.",
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Marine Tondelier",
+  "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025.",
+  "offices": [
+   {
+    "office": "Municipal councillor (opposition), Hénin-Beaumont",
+    "from": "2014-03-30",
+    "to": "2026-03-22",
+    "kind": "legislative"
+   },
+   {
+    "office": "Community councillor, Communauté d'agglomération Hénin-Carvin",
+    "from": "2014-04-17",
+    "to": "2026-03-22",
+    "kind": "legislative"
+   },
+   {
+    "office": "Regional councillor, Hauts-de-France (Pas-de-Calais)",
+    "from": "2021-07-02",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "National Secretary, EELV / Les Écologistes",
+    "from": "2022-12-10",
+    "to": "present (re-elected 2025-04-19)",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'; she was the defendant. The Paris tribunal correctionnel found some statements defamatory but acquitted (relaxe) her on grounds of good faith. No appeal was found in the sources consulted.",
+    "status": "acquitted",
+    "date": "Judgment reported by France Bleu on 6 November 2020 (Paris tribunal correctionnel); exact judgment day not confirmed",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Leaving the social network X",
+    "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025 she urged the left to leave the platform.",
+    "after": "On 19 January 2025 she said no collective departure had happened and that she would stay on X to defend ecology on 'hostile terrain'.",
+    "years": "Nov 2024 - Jan 2025",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Led the party as National Secretary and was re-elected in the first round with 72.64% on 19 April 2025. She has never held national or local executive office, so she has no ministerial or executive record.",
+    "assessment": "Her record is party management only. Critics inside the party include Sandrine Rousseau, who in September 2025 accused her circle of 'apparatchik reflexes' (l'Opinion, 17 Sep 2025; Challenges, 20 Sep 2025), and a tribune of more than 500 members (January 2026) against her municipal alliance strategy, after which the party suspended signatories who did not withdraw. This comes from one secondary source (Wikipedia) and was not corroborated directly.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   },
+   {
+    "what": "Was a prominent media voice of the Nouveau Front Populaire during the 2024 legislative campaign and was named in Time's '100 Next' list in 2024.",
+    "assessment": "This raised her national profile. The assessment rests on one source.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified: no left-leaning outlet could be read.",
+   "right_media": "Not verified: no right-leaning outlet could be read.",
+   "neutral_media": "Not verified directly. A summary based on Wikipedia reports that Time (100 Next, 2024) covered her as a builder of the left-wing coalition."
+  },
+  "sources_note": "The WebSearch budget (200 calls) was exhausted for both the research and the verification pass, so nothing could be cross-checked against AFP, franceinfo, Le Monde or Public Sénat. Every claim rests on the French Wikipedia article, fetched on 5 Oct 2026, and on the press references it cites (France Bleu 6 Nov 2020; l'Opinion 17 Sep 2025; Challenges 20 Sep 2025). Wikipedia is a secondary source. Claims should be re-verified against primary sources (the Les Écologistes programme, her interviews and court reporting) once the search budget is raised (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION). According to Wikipedia, the left-wing primary project failed in July 2026 and her candidacy is maintained pending an internal referendum on 10-13 December 2026. The programme, multi-lean trait sourcing and media portrayal were not researched.",
+  "verification_notes": [
+   "offices[0].kind: local_executive -> legislative: an opposition municipal councillor holds no executive role.",
+   "offices[0].from/to: 2014/2026 -> 2014-03-30/2026-03-22: exact dates from Wikipedia; her mandate ended at the March 2026 municipal elections.",
+   "offices[1].from/to: 2014/2026 -> 2014-04-17/2026-03-22: exact dates from Wikipedia.",
+   "executive_experience_years: 0 -> 0: confirmed, as she has held no ministerial, mayoral or regional/departmental presidency role.",
+   "bio: 'has sat as an opposition councillor in Hénin-Beaumont since 2014' -> 'sat ... from 2014 to March 2026, list came second (18.22%)': the mandate ended in March 2026, which settles the draft's open question about the 2026 municipal elections.",
+   "legal[0].case: 'Defamation suit' -> added that statements were found defamatory but she was acquitted on good faith, with no appeal found: wording is more precise and keeps the presumption-of-innocence framing.",
+   "legal[0].date: 'November 2020 (Paris correctional court, good faith)' -> 'reported by France Bleu 6 Nov 2020; exact day not confirmed': the exact judgment date could not be confirmed, and search was unavailable to check AFP or the court.",
+   "legal[0].status: acquitted -> acquitted (kept): relaxe au bénéfice de la bonne foi, per the France Bleu reference cited on Wikipedia; whether an appeal was lodged is unverified.",
+   "reversals[0].before/after: generic -> dated (18 Nov 2024, 12 Jan 2025, 19 Jan 2025): made precise from Wikipedia. The entry is kept as a genuine change of stated position, but it is single-sourced.",
+   "delivery[0].assessment: Rousseau criticism 'Feb 2025' -> 'September 2025': Wikipedia dates it to l'Opinion 17 Sep 2025 and Challenges 20 Sep 2025.",
+   "delivery[0].assessment: tribune 'Jan-Feb 2026' -> 'January 2026', adding that the party suspended signatories: per Wikipedia.",
+   "delivery[1].what: 'BFM TV, 3 July' -> removed: the specific broadcast could not be verified.",
+   "media_portrayal.right_media: her own criticism of CNews/Valeurs actuelles -> 'Not verified': her criticism of outlets is not how those outlets portray her, so it was off-topic.",
+   "media_portrayal.neutral_media: removed the Guardian mention: it could not be confirmed.",
+   "sources_note: removed the unverified second-child remark, which is not relevant to the profile; the July 2026 primary collapse and the December referendum are now attributed to Wikipedia.",
+   "General: no new URLs were added. The only URL (fr.wikipedia.org/wiki/Marine_Tondelier) was confirmed to exist via WebFetch. WebSearch returned 'budget exhausted' on every call, so no AFP, franceinfo or Le Monde cross-check was possible."
+  ]
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "collect": {
+  "candidate": "Fabien Roussel",
+  "bio": "Fabien Roussel (born 16 April 1969 in Béthune) is a former L'Humanité and France Télévisions journalist who became national secretary of the PCF in November 2018. He was deputy for Nord's 20th constituency from 2017 to 2024 and the PCF's 2022 presidential candidate (2.28%, 8th place). He lost his seat to the RN in 2024 and became mayor of Saint-Amand-les-Eaux in January 2025. According to Wikipedia he announced his 2027 candidacy on 6 September 2026 under the slogan \"Vivre\", after an internal party consultation.",
+  "offices": [
+   {
+    "office": "Municipal councillor, Saint-Amand-les-Eaux",
+    "from": "2014",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Deputy (Nord, 20th constituency)",
+    "from": "2017-06",
+    "to": "2024-06",
+    "kind": "legislative"
+   },
+   {
+    "office": "National secretary (secrétaire national) of the PCF",
+    "from": "2018-11-25",
+    "to": "present",
+    "kind": "party"
+   },
+   {
+    "office": "Mayor of Saint-Amand-les-Eaux",
+    "from": "2025-01-30",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "PCF candidate, presidential election",
+    "from": "2022",
+    "to": "2022 (2.28%)",
+    "kind": "other"
+   }
+  ],
+  "executive_experience_years": 1.7,
+  "legal": [
+   {
+    "case": "Mediapart (2022) alleged a fictitious parliamentary-assistant job with deputy Jean-Jacques Candelier (2009-2014). The Parquet National Financier opened a preliminary investigation. Roussel denies the allegation. Candelier said in L'Humanité that Roussel was indeed his assistant.",
+    "status": "investigation",
+    "date": "2022-03-11",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "NATO",
+    "before": "Favoured leaving NATO or its integrated command, in line with the traditional PCF line.",
+    "after": "After the Russian invasion of Ukraine in 2022 he no longer proposes withdrawal from NATO. Unlike Mélenchon, Arthaud and Poutou, he does not call for leaving it.",
+    "years": "pre-2022 to 2022",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Deputy 2017-2024 (opposition, PCF group). Pushed the SMIC at 1,500 euros net, retirement at 60 and a higher wealth tax. No major law passed under his name is documented in the sources I could access.",
+    "assessment": "His platform is consistently left-economic, with distinctive stances on nuclear power, security and 'work-focused' left themes. I could not verify a legislative record from roll-call sites (datan.fr, nosdeputes.fr) because search was unavailable.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   },
+   {
+    "what": "Mayor of Saint-Amand-les-Eaux since January 2025. His reported 2026 municipal result is a first-round win with 51.06%.",
+    "assessment": "Recent executive record is short, and no assessment of his term was found in the sources I could access.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Contrarian on the left (pro-nuclear, security-focused, 'porous borders' phrase)",
+    "evidence": "Greens and LFI-adjacent figures criticised his nuclear stance and his 'passoire frontières' language. His security proposals (30,000 extra police) set him apart from other left leaders. Evidence comes only from a Wikipedia summary of sources, not from outlets I read directly.",
+    "source_leans": [
+     "Wikipedia summary (secondary)",
+     "left critics (EELV, LFI) as reported"
+    ]
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified directly (Humanité and Mediapart could not be fetched). Mediapart published the 2022 fictitious-job allegation, and Roussel accused its director of acting to favour Mélenchon.",
+   "right_media": "Not verified directly. His CNews appearances were reported as controversial on the left, and his security and pro-nuclear stances reportedly distinguish him from other left leaders.",
+   "neutral_media": "Not verified directly. Le Monde and franceinfo could not be fetched."
+  },
+  "sources_note": "Research was severely limited. The WebSearch budget (200 calls) was exhausted before this task started, and Le Monde, L'Humanité and franceinfo blocked fetching. Almost everything comes from the French and English Wikipedia articles on Fabien Roussel, a secondary source. Several points are unverified or could not be checked against primary sources: the 6 September 2026 candidacy announcement, the outcome of the PNF investigation, the 2027 programme, roll-call votes, and any 2025-2026 policy reversals. No cross-lean corroboration was possible. Treat the fields as provisional and rerun with search access."
+ },
+ "verify": {
+  "candidate": "Fabien Roussel",
+  "bio": "Fabien Roussel (born 16 April 1969 in Béthune) is a former journalist who became national secretary of the Parti communiste français (PCF) on 25 November 2018. He was deputy for Nord's 20th constituency from June 2017 to June 2024 and the PCF's 2022 presidential candidate (2.28%, 8th place). He has been mayor of Saint-Amand-les-Eaux since 30 January 2025 and was re-elected in March 2026. According to French Wikipedia (citing Le Figaro), he announced his 2027 presidential candidacy on TF1 on 6 September 2026 under the slogan \"Vivre\".",
+  "offices": [
+   {
+    "office": "Municipal councillor, Saint-Amand-les-Eaux",
+    "from": "2014-03-24",
+    "to": "present",
+    "kind": "other"
+   },
+   {
+    "office": "Deputy (Nord, 20th constituency)",
+    "from": "2017-06-21",
+    "to": "2024-06-09",
+    "kind": "legislative"
+   },
+   {
+    "office": "National secretary (secrétaire national) of the PCF",
+    "from": "2018-11-25",
+    "to": "present",
+    "kind": "party"
+   },
+   {
+    "office": "Mayor of Saint-Amand-les-Eaux",
+    "from": "2025-01-30",
+    "to": "present",
+    "kind": "local_executive"
+   },
+   {
+    "office": "PCF candidate, presidential election (2.28%, 8th)",
+    "from": "2022",
+    "to": "2022-04",
+    "kind": "other"
+   }
+  ],
+  "executive_experience_years": 1.7,
+  "legal": [
+   {
+    "case": "Mediapart (2022) alleged that Roussel held a fictitious job as parliamentary assistant to PCF deputy Jean-Jacques Candelier (2009-2014). The Parquet national financier opened a preliminary investigation on 11 March 2022. Roussel denies the allegation and says he worked on following conflicts in the Douaisis; Candelier told L'Humanité that Roussel did work as his assistant. No charge (mise en examen) or closure is reported; status taken from French Wikipedia, not confirmed against a court or AFP source.",
+    "status": "investigation",
+    "date": "2022-03-11",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "NATO",
+    "before": "Advocated France leaving NATO's integrated command, presented as necessary for national independence.",
+    "after": "After Russia's invasion of Ukraine in 2022, he no longer proposes French withdrawal from NATO (he still opposes Ukraine joining NATO and the EU).",
+    "years": "pre-2022 to 2022",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+     "https://en.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Deputy 2017-2024 in opposition (PCF / GDR group). He was rapporteur of a bill to create a French list of tax havens (2017-2018). No law adopted under his name is documented in the sources consulted.",
+    "assessment": "Legislative record could not be checked against roll-call sites (datan.fr, nosdeputes.fr) or cross-lean outlets; only a secondary source (Wikipedia) was available.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   },
+   {
+    "what": "2022 presidential programme proposals (not enacted): SMIC raised to 1,500 euros net, legal retirement age back to 60, wealth tax restored and tripled, recruitment of 30,000 police, and an energy mix of nuclear and renewables.",
+    "assessment": "These are campaign proposals, not delivered measures; the 2027 programme was not verified.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   },
+   {
+    "what": "Mayor of Saint-Amand-les-Eaux since 30 January 2025, succeeding Alain Bocquet; his list won the March 2026 municipal election in the first round with 51.06% and he was re-elected mayor on 22 March 2026.",
+    "assessment": "Executive record is short (about 1.7 years); no assessment of his municipal record was found in the sources consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Fabien_Roussel"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified directly. Mediapart published the 2022 fictitious-job allegation; Roussel responded by accusing its founder Edwy Plenel of publishing it to favour Mélenchon's candidacy.",
+   "right_media": "Not verified directly. Wikipedia records a March 2025 CNews appearance in which he said anti-white racism exists; how right-leaning outlets frame him could not be checked.",
+   "neutral_media": "Not verified directly; Le Monde, franceinfo, AFP and Public Sénat coverage could not be fetched."
+  },
+  "sources_note": "Verification was severely limited: the session's WebSearch budget was exhausted, search-engine fallbacks returned CAPTCHAs or irrelevant results, and Le Monde, L'Humanité and franceinfo could not be fetched. All fields rest on the French and English Wikipedia articles on Fabien Roussel (secondary sources), whose underlying references (Mediapart, Le Figaro, L'Humanité, Le Point) could not be opened. The 2027 candidacy date, PNF investigation status, NATO reversal and municipal results are therefore single-source and provisional. No cross-lean corroboration was possible, so no personality traits are listed. Rerun with search access.",
+  "verification_notes": [
+   "bio: 'former L'Humanité and France Télévisions journalist' -> 'former journalist': employers not confirmed in the fetched sources",
+   "bio: 'He lost his seat to the RN in 2024' -> removed: not confirmed in fetched sources; mayoral re-election in March 2026 added (fr.wikipedia)",
+   "bio: announcement detail -> 'on TF1 ... citing Le Figaro': fr.wikipedia attributes it to Le Figaro, 6 Sept 2026; 'after an internal party consultation' removed as unconfirmed",
+   "offices[0]: kind local_executive -> other; from 2014 -> 2014-03-24: a municipal councillor is not an executive office; exact date from fr.wikipedia",
+   "offices[1]: 2017-06/2024-06 -> 2017-06-21/2024-06-09: exact dates from fr and en Wikipedia",
+   "offices[4]: to '2022 (2.28%)' -> '2022-04', result moved into office name: 'to' field should be a date",
+   "executive_experience_years: 1.7 -> 1.7: checked, 30 Jan 2025 to 5 Oct 2026 = 1.68 years (only mayoralty counts)",
+   "legal[0]: status investigation kept, date 2022-03-11 kept; text refined with Roussel's defence and a caveat that status comes only from Wikipedia (no court/AFP confirmation possible)",
+   "reversals[0]: before 'leaving NATO or its integrated command' -> 'leaving NATO's integrated command': fr.wikipedia specifies integrated command; comparison with Mélenchon/Arthaud/Poutou removed as unverified; added en.wikipedia as second (still secondary) source",
+   "delivery[0]: SMIC/retirement/wealth-tax items moved out of deputy record -> new delivery[1] labelled as 2022 campaign proposals: they were programme pledges, not legislative delivery; added rapporteur role on tax-haven list bill (fr.wikipedia)",
+   "delivery[0]: assessment 'consistently left-economic... work-focused left themes' -> removed: evaluative characterisation not sourced",
+   "delivery[2]: added succession of Alain Bocquet and 22 March 2026 re-election (fr.wikipedia)",
+   "traits[0]: 'Contrarian on the left' -> removed: only one secondary source (Wikipedia); 'left critics as reported' is not an independently consulted outlet of a different lean, and Wikipedia states Mélenchon and Jadot favour nuclear exit rather than documenting criticism of him",
+   "media_portrayal.right_media: 'CNews appearances reported as controversial on the left...' -> factual note of March 2025 CNews statement: original described left reaction, not right-leaning media portrayal",
+   "sources_note: updated to reflect this verification pass and the fact that underlying references could not be opened"
+  ]
+ }
+}

@@ -1,0 +1,438 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "The June 2024 NFP joint programme, which Tondelier co-founded and led for Les Écologistes, includes bringing back the ISF with a climate component.",
+   "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found, and web search was exhausted during verification."
+  },
+  {
+   "id": "eco2",
+   "summary": "The 2% minimum tax on ultra-rich fortunes started as a bill tabled by Écologiste group MPs (Eva Sas, Clémentine Autain). The Assembly adopted it on 20 Feb 2025. Les Écologistes back putting it into practice.",
+   "nuance": "This is Tondelier's own party group's bill. She is not an MP, so there is no personal vote, and no personal quote was retrieved. The Assembly rejected the Zucman amendment to the 2026 budget on 31 Oct 2025."
+  },
+  {
+   "id": "eco3",
+   "summary": "The Greens generally oppose untargeted cuts to employer contributions and prefer conditional aid. No Tondelier-specific evidence found.",
+   "nuance": "Political scientist B. Villalba (2012, cited on the party's Wikipedia page) notes that party members diverge on cutting employer contributions. Coded from that inference, so low confidence."
+  },
+  {
+   "id": "eco4",
+   "summary": "The NFP programme calls for 'social and ecological protectionism' at EU borders, a ban on imports that do not meet social and environmental standards, and rejection of Mercosur/CETA.",
+   "nuance": "Partial support: the protection is EU-level and tied to standards. It is not France-specific sectoral tariffs or quotas. 2024 programme."
+  },
+  {
+   "id": "eco5",
+   "summary": "The NFP programme refuses privatisation of hydroelectric dams. Full renationalisation of energy or motorways is not explicit in the programme summary.",
+   "nuance": "Partial: this is public control of some strategic assets. The motorway item is a moratorium on new motorway projects and does not cover taking concessions back. Not verified for 2026."
+  },
+  {
+   "id": "eco6",
+   "summary": "The NFP programme calls for reforming inheritance tax and creating a 'maximum inheritance', which is the opposite of lowering it.",
+   "nuance": "2024 coalition programme. The direction of the 'reform' is set by the maximum-inheritance cap."
+  },
+  {
+   "id": "ret1",
+   "summary": "The NFP programme calls for repealing the 2023 reform and returning to retirement at 60. Les Écologistes fought the Borne reform, and Tondelier called the Assembly a 'ZAD démocratique' against it.",
+   "nuance": "The target age is 60, below 62, so it fits the statement. 2024 programme. Her 2026 campaign wording was not verified."
+  },
+  {
+   "id": "ret2",
+   "summary": "She opposed the 2023 increase to 64, and the NFP programme wants to go back to 60, so she opposes raising the age above 64.",
+   "nuance": "Follows directly from ret1."
+  },
+  {
+   "id": "ret3",
+   "summary": "The Greens defend the pay-as-you-go system, so mandatory capitalisation is unlikely.",
+   "nuance": "Inferred. No explicit statement found, and search was exhausted."
+  },
+  {
+   "id": "fin1",
+   "summary": "The NFP programme refuses EU budget-austerity rules and favours new revenue over cuts. That rejects making the 3% target a priority at the cost of large cuts.",
+   "nuance": "No Tondelier-specific statement on the 3% target was retrieved. Coded -2 because the statement is about large spending cuts, which the programme explicitly rejects."
+  },
+  {
+   "id": "fin2",
+   "summary": "The NFP programme restores cut public-service posts (ONF, OFB, Météo-France, Cerema) and increases police headcount, the opposite of cutting civil servants.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "fin3",
+   "summary": "The Greens favour investment for the ecological transition, partly debt-financed (a European 'green rule' and EU common borrowing), and also stress new taxes.",
+   "nuance": "Coded +1 rather than +2 because the financing emphasis is on taxing the wealthy. No explicit acceptance of more national debt was retrieved."
+  },
+  {
+   "id": "fin4",
+   "summary": "The Greens likely oppose a constitutional deficit rule, since they reject austerity rules.",
+   "nuance": "Inferred from the NFP's 'refus des règles d'austérité budgétaire'. No direct statement retrieved."
+  },
+  {
+   "id": "trav1",
+   "summary": "The NFP programme raises the SMIC (EUR 1,600 net, well above inflation) and indexes wages on inflation.",
+   "nuance": "The EUR 1,600 figure comes from the Le Monde headline cited on the page ('ISF climatique et smic à 1 600 euros net'). 2024 programme, not confirmed for 2026."
+  },
+  {
+   "id": "trav2",
+   "summary": "The party opposed unemployment-insurance reforms that cut benefits.",
+   "nuance": "Party line, not verified this session."
+  },
+  {
+   "id": "trav3",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "trav4",
+   "summary": "The party historically favours moving toward 32 hours. The NFP programme only commits to studying 32 hours.",
+   "nuance": "+1 because the 2024 commitment is only a study. Tondelier's personal 2026 stance was not confirmed."
+  },
+  {
+   "id": "imm1",
+   "summary": "The NFP programme repeals the 2024 immigration law, creates a legal and safe immigration route, and makes the 10-year card the standard permit, the opposite of sharply cutting legal immigration.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "imm2",
+   "summary": "Opposes a referendum on immigration.",
+   "nuance": "Inferred from opposition to the right's referendum proposals. No direct quote retrieved."
+  },
+  {
+   "id": "imm3",
+   "summary": "The NFP programme guarantees access to AME, which is the opposite of cutting it to urgent care only.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "imm4",
+   "summary": "The NFP programme regularises undocumented workers, students and parents of schoolchildren, which goes beyond shortage occupations.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "imm5",
+   "summary": "Opposes national preference.",
+   "nuance": "Party line. Tondelier built her profile opposing the RN in Hénin-Beaumont. No direct quote retrieved."
+  },
+  {
+   "id": "imm6",
+   "summary": "Opposes abolishing droit du sol.",
+   "nuance": "Party line. No direct quote retrieved."
+  },
+  {
+   "id": "imm7",
+   "summary": "Local voting rights for foreign residents is a long-standing Les Écologistes position.",
+   "nuance": "Party position. Not found in Tondelier's 2026 campaign material."
+  },
+  {
+   "id": "sec1",
+   "summary": "Opposes mandatory minimum sentences (peines planchers).",
+   "nuance": "Party line. Not verified this session."
+  },
+  {
+   "id": "sec2",
+   "summary": "The Greens opposed the 2025 Attal law, which tightened juvenile justice and limited the 'excuse de minorité' for serious crimes.",
+   "nuance": "The group's roll-call vote was not retrieved. Likely -2 if a source is found; kept at -1 for lack of evidence."
+  },
+  {
+   "id": "sec3",
+   "summary": "The NFP programme replaces IGPN/IGGN with a new independent body attached to the Défenseur des droits. The party also wants police-violence cases handled by an independent institution.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "sec4",
+   "summary": "Les Écologistes' platform includes legalising soft drugs with regulation and taxation. The European Greens' 2024 manifesto backs legalising cannabis for adults within a regulatory framework.",
+   "nuance": "Party line. No 2025-26 Tondelier personal quote retrieved. Wikipedia elsewhere uses the softer 'plutôt favorable', but the platform items are explicit."
+  },
+  {
+   "id": "sec5",
+   "summary": "The NFP programme bans facial recognition and puts video-surveillance under evaluation by the Défenseur des droits. The European Greens call for banning biometric mass surveillance and AI predictive policing.",
+   "nuance": "2024 programme."
+  },
+  {
+   "id": "eu1",
+   "summary": "Les Écologistes are a eurofederalist party, which is incompatible with French law prevailing over EU law.",
+   "nuance": "Party identity. No direct Tondelier quote on legal primacy."
+  },
+  {
+   "id": "eu2",
+   "summary": "The European Greens' 2024 manifesto, on which Les Écologistes campaigned, wants an EU ecological-transition fund financed mainly by joint EU borrowing.",
+   "nuance": "The source covers climate and industry. Defence borrowing was not explicitly checked. No personal Tondelier quote retrieved."
+  },
+  {
+   "id": "eu3",
+   "summary": "Les Écologistes, through the European Greens 2024 manifesto and the NFP programme, want a significantly larger EU budget funded by own resources. That is the opposite of cutting France's contribution.",
+   "nuance": "Party line, 2024. Own-resources financing could in theory lower national contributions, but the main aim is a bigger budget."
+  },
+  {
+   "id": "eu4",
+   "summary": "The European Greens' 2024 manifesto (Les Écologistes' list) says unanimity blocks EU foreign policy and backs ending national vetoes. The party is eurofederalist.",
+   "nuance": "Explicit at European Greens level in 2024. No personal Tondelier quote retrieved."
+  },
+  {
+   "id": "eu5",
+   "summary": "Les Écologistes are a eurofederalist party that wants EU fiscal rules reformed at EU level. The NFP line 'refus des règles d'austérité budgétaire' rejects austerity rules but does not commit to unilateral non-application.",
+   "nuance": "The NFP wording leaves some ambiguity, which is why this is -1 rather than -2. No 2025-26 Tondelier statement on 'désobéissance' was retrieved."
+  },
+  {
+   "id": "eu6",
+   "summary": "Les Écologistes are eurofederalist and firmly against leaving the EU.",
+   "nuance": "Uncontroversial."
+  },
+  {
+   "id": "int1",
+   "summary": "Her campaign's international doctrine (Feb 2026) says Ukraine must be supported 'sans relâche' militarily, with seized Russian assets funding military aid; her party's group voted for the March 2025 Assemblée resolution reinforcing support to Ukraine.",
+   "nuance": "Strong, consistent position; she contrasts it with LFI/Mélenchon's stance."
+  },
+  {
+   "id": "int2",
+   "summary": "The doctrine calls for durable security guarantees for Ukraine including deploying European troops at its borders or on its territory in a deterrent posture.",
+   "nuance": "Framed as European (not specifically French) troops, possibly at Ukraine's borders rather than inside it, so coded +1 rather than +2. The 2024 NFP programme she signed did not specify French ground troops."
+  },
+  {
+   "id": "int3",
+   "summary": "The doctrine does not propose leaving NATO's integrated command; it wants NATO's European pillar placed under European command and reaffirms mutual support, while building an autonomous European integrated command.",
+   "nuance": "Reform-from-within plus European autonomy ('Nous refusons toute vassalisation militaire'); no call for a French exit, so mild opposition to the statement."
+  },
+  {
+   "id": "int4",
+   "summary": "She has called for suspending the EU-Israel association agreement and banning imports from settlements; her doctrine calls Gaza a genocide and demands sanctions on Israel's leaders.",
+   "nuance": "The direct suspension call comes via a secondary source (Wikipedia citing The Times / Brussels Signal); the primary doctrine text calls for sanctions but does not name the association agreement."
+  },
+  {
+   "id": "int5",
+   "summary": "No figure for defence spending as % of GDP found.",
+   "nuance": "The doctrine favours pooled European defence spending and calls massification of French forces neither possible nor relevant in the short term, but gives no % of GDP target."
+  },
+  {
+   "id": "int6",
+   "summary": "The 2024 NFP programme (co-signed by Les Écologistes) called for ending the Service national universel; no call for compulsory service in her 2026 doctrine.",
+   "nuance": "The doctrine favours civilian resilience training without making it compulsory. No personal statement from her was found."
+  },
+  {
+   "id": "int7",
+   "summary": "The doctrine sees Russia's defeat as the only way to end its imperial reflex, wants Ukraine to set the negotiating terms, and wants Russian assets seized. Nothing on trading sanctions relief for a deal.",
+   "nuance": "Inferred: no explicit position on lifting sanctions in exchange for peace was found, so this is coded -1 rather than -2."
+  },
+  {
+   "id": "ecol1",
+   "summary": "The Écologiste group voted unanimously against abolishing ZFEs (May 2025) and against making them optional (April 2026).",
+   "nuance": "These are group votes, since Tondelier is not an MP, and they are consistent with her campaign's air-quality booklet."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Campaign booklet plans the progressive exit from synthetic pesticides by 2050; the Écologiste group voted unanimously against re-authorising acetamiprid (July 2026), which remains authorised elsewhere in the EU.",
+   "nuance": "The acetamiprid vote shows support for a French ban even though competitors elsewhere in the EU keep using the product."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Les Écologistes back the 2035 end of sales of new combustion cars; her campaign promotes electric vehicles. Not verified live in a 2025-2026 source.",
+   "nuance": "Not verified: web search budget exhausted and no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution."
+  },
+  {
+   "id": "ecol4",
+   "summary": "The Écologistes' Sept 2025 crisis plan calls for progressively strengthening air-travel taxation, a kerosene tax on domestic flights from 2026 and a frequent-flyer tax.",
+   "nuance": "Private jets are not mentioned in the document checked; the measure excludes overseas territories and Corsica."
+  },
+  {
+   "id": "ecol5",
+   "summary": "She judges capitalism incompatible with planetary limits and pushes a social and solidarity economy, which suggests climate takes precedence over growth.",
+   "nuance": "Inferred: no explicit growth-versus-climate trade-off statement was found."
+  },
+  {
+   "id": "ene1",
+   "summary": "Her party's plan assumes nuclear plants will close progressively and puts massive means into renewables; she defends the movement's historic anti-nuclear stance.",
+   "nuance": "No explicit text on EPR2 found, but a phase-out stance is incompatible with building beyond the six planned."
+  },
+  {
+   "id": "ene2",
+   "summary": "Her party's Sept 2025 plan plans for nuclear plants closing progressively; she defends the historic anti-nuclear stance and proposed a citizens' convention on nuclear (2023).",
+   "nuance": "No exact phase-out date was found in the 2025-2026 texts checked. The 2024 NFP programme left nuclear out as a point of disagreement."
+  },
+  {
+   "id": "ene3",
+   "summary": "The party plan calls for massive investment in renewables, and NFP 2024 backed offshore wind; halting wind development is contrary to this.",
+   "nuance": "Wind is not named specifically in the 2025 plan; the 2024 NFP programme explicitly backed offshore wind."
+  },
+  {
+   "id": "ene4",
+   "summary": "Her campaign wants to cut bills by decoupling electricity from gas prices, a market reform rather than an exit, within a European-federalist doctrine.",
+   "nuance": "Inferred: no explicit statement on leaving the EU electricity market was found."
+  },
+  {
+   "id": "ins1",
+   "summary": "Her party's 2025 plan wants a citizens' convention on a Sixth Republic and a true parliamentary regime; she called in Feb 2025 for a referendum on a constituent assembly; NFP 2024 promised a constituent assembly for a VIe République.",
+   "nuance": "She proposes a process (convention or constituent assembly) without a finalised constitutional text."
+  },
+  {
+   "id": "ins2",
+   "summary": "Her party's 2025 plan demands proportional representation for the next legislative elections; NFP 2024 promised full proportional representation.",
+   "nuance": ""
+  },
+  {
+   "id": "ins3",
+   "summary": "The party favours more direct and participatory democracy (NFP 2024: promotion of direct democracy); no explicit RIC commitment from her was verified.",
+   "nuance": "Not verified for a RIC specifically. Her 2025 referendum proposal is a government-initiated referendum on three questions, not a RIC."
+  },
+  {
+   "id": "ins4",
+   "summary": "NFP 2024 (co-signed) promised to abolish article 49.3; her party's 2025 plan demands a PM committed to governing without 49.3 and blames it for the majoritarian deadlock.",
+   "nuance": "Abolition is from the 2024 coalition programme; the 2025 party text asks for non-use rather than repeal."
+  },
+  {
+   "id": "ins5",
+   "summary": "No position on widening referendums to immigration/justice found; her referendum proposals cover pensions, tax justice and territories.",
+   "nuance": "Inferred from the left's opposition to RN-style immigration referendums; not verified."
+  },
+  {
+   "id": "soc1",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "soc2",
+   "summary": "Les Écologistes oppose banning the headscarf in public space; not verified live.",
+   "nuance": "Not verified (search budget exhausted); strong code rests on well-known party line only."
+  },
+  {
+   "id": "soc3",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "soc4",
+   "summary": "Consistent with the party's stance on laïcité as state neutrality; not verified.",
+   "nuance": "Not verified."
+  },
+  {
+   "id": "soc5",
+   "summary": "No evidence found.",
+   "nuance": "Brief check of campaign pages and Wikipedia found nothing on GPA; her reproductive-health booklet was not checked in full."
+  },
+  {
+   "id": "edu1",
+   "summary": "Her 2026 education dossier presents the RN's school uniform as a choice the Écologistes reject in favour of an emancipatory school.",
+   "nuance": "The rejection is implicit, a contrast with the RN, with no explicit pledge to block uniforms."
+  },
+  {
+   "id": "edu2",
+   "summary": "Her 2026 education dossier pledges to recruit teachers and cut primary classes to 19 pupils by 2032 (12 in REP/REP+).",
+   "nuance": ""
+  },
+  {
+   "id": "edu3",
+   "summary": "Her 2026 education dossier pledges to repeal the 'choc des savoirs' ability groups in 6e/5e, calling them social sorting.",
+   "nuance": ""
+  },
+  {
+   "id": "edu4",
+   "summary": "Her 2026 education dossier proposes cutting public funding of private schools to 50% and conditioning it on social-mix and inclusion obligations.",
+   "nuance": ""
+  },
+  {
+   "id": "edu5",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "san1",
+   "summary": "Her party's 2025 plan backs the Assemblée's installation-authorisation scheme for doctors; NFP 2024 promised installation obligations in medical deserts.",
+   "nuance": "She backs regulating where doctors can set up practice, not an explicit compulsory multi-year posting for new doctors, so this is coded +1."
+  },
+  {
+   "id": "san2",
+   "summary": "Her party's 2025 plan backs removing the higher ticket modérateur for patients without a GP; NFP 2024 aimed for zero out-of-pocket costs.",
+   "nuance": "No text specifically on franchises médicales was found; the direction against higher patient co-payments is clear."
+  },
+  {
+   "id": "san3",
+   "summary": "Her Sept 2026 campaign 'bouclier social' pledges to generalise, improve and make permanent rent control.",
+   "nuance": ""
+  },
+  {
+   "id": "san4",
+   "summary": "NFP 2024 (co-signed) refused privatising hydroelectric dams; her campaign frames public services as needing repair, not more competition.",
+   "nuance": "No 2025-2026 statement on rail or energy competition was found. Coded -1 because the only evidence is the hydro-dam point; the European Greens have not opposed rail opening outright."
+  },
+  {
+   "id": "eco7",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget (200/200) was exhausted before any query ran, in both the coding pass and this verification pass. Not coded."
+  },
+  {
+   "id": "imm8",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "sec6",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Very likely codable (the 2024 NFP programme Les Écologistes signed reportedly included ID-check receipts), but this was not verified, so it stays null."
+  },
+  {
+   "id": "eu7",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "eu8",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Likely codable (prix planchers was an NFP 2024 plank), but not verified, so it stays null."
+  },
+  {
+   "id": "ene5",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "ins6",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "soc6",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  },
+  {
+   "id": "san5",
+   "summary": "No evidence gathered.",
+   "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+  }
+ ],
+ "record": {
+  "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025.",
+  "offices": [
+   "Municipal councillor (opposition), Hénin-Beaumont",
+   "Community councillor, Communauté d'agglomération Hénin-Carvin",
+   "Regional councillor, Hauts-de-France (Pas-de-Calais)",
+   "National Secretary, EELV / Les Écologistes"
+  ],
+  "legal": [
+   "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'; she was the defendant. The Paris tribunal correctionnel found some statements defamatory but acquitted (relaxe) her on grounds of good faith. No appeal was found in the sources consulted."
+  ],
+  "reversals": [
+   {
+    "topic": "Leaving the social network X",
+    "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025 she urged the left to leave the platform.",
+    "after": "On 19 January 2025 she said no collective departure had happened and that she would stay on X to defend ecology on 'hostile terrain'."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Led the party as National Secretary and was re-elected in the first round with 72.64% on 19 April 2025. She has never held national or local executive office, so she has no ministerial or executive record.",
+    "assessment": "Her record is party management only. Critics inside the party include Sandrine Rousseau, who in September 2025 accused her circle of 'apparatchik reflexes' (l'Opinion, 17 Sep 2025; Challenges, 20 Sep 2025), and a tribune of more than 500 members (January 2026) against her municipal alliance strategy, after which the party suspended signatories who did not withdraw. This comes from one secondary source (Wikipedia) and was not corroborated directly."
+   },
+   {
+    "what": "Was a prominent media voice of the Nouveau Front Populaire during the 2024 legislative campaign and was named in Time's '100 Next' list in 2024.",
+    "assessment": "This raised her national profile. The assessment rests on one source."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified: no left-leaning outlet could be read.",
+   "right_media": "Not verified: no right-leaning outlet could be read.",
+   "neutral_media": "Not verified directly. A summary based on Wikipedia reports that Time (100 Next, 2024) covered her as a builder of the left-wing coalition."
+  }
+ }
+}

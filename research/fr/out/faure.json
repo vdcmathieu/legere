@@ -1,0 +1,440 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Le PS a signé le programme du Nouveau Front populaire de juin 2024, qui prévoit de rétablir l'ISF supprimé en 2017. Rien de personnel ni de récent de la part de Faure n'a été trouvé.",
+   "nuance": "Il s'agit d'un engagement de ligne partisane datant de 2024, qui peut être dépassé. Depuis 2025, le PS met en avant en priorité la taxe Zucman. Rien n'indique qu'il ait renoncé au rétablissement de l'ISF."
+  },
+  {
+   "id": "eco2",
+   "summary": "Les contre-propositions budgétaires du PS pour 2026 comprenaient la mise en œuvre de la taxe Zucman, que l'ensemble de la gauche a soutenue en 2025.",
+   "nuance": "Il s'agit de la position du parti. Aucune citation personnelle de Faure n'a pu être retrouvée, le budget de recherches web ayant été épuisé. Les variantes ultérieures « Zucman light » du PS n'ont pas été vérifiées."
+  },
+  {
+   "id": "eco3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé : la vérification n'a pu porter que sur les pages consultées. Non vérifié."
+  },
+  {
+   "id": "eco4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eco5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. La page du NFP consultée ne mentionne pas de nationalisation."
+  },
+  {
+   "id": "eco6",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "ret1",
+   "summary": "Faure a négocié avec Lecornu le report de la réforme de 2023, avec un gel de l'âge légal à 62 ans et 9 mois jusqu'en janvier 2028. Cette mesure a été votée le 12 novembre 2025. Le programme du NFP de 2024 que le PS a signé défend un âge de départ à 60 ans.",
+   "nuance": "Son action personnelle a été une étape partielle : un gel au-dessus de 62 ans, et non un retour à 62 ans. La ligne du parti (2024) va plus loin, jusqu'à 60 ans. Aucune déclaration personnelle de 2026 sur un retour complet à 62 ans n'a été trouvée."
+  },
+  {
+   "id": "ret2",
+   "summary": "Il a négocié la suspension de la réforme des 64 ans, et la ligne du parti défend 60 ans. Les deux positions s'opposent clairement à un relèvement de l'âge au-delà de 64 ans.",
+   "nuance": "Aucune citation directe sur « au-delà de 64 ans » n'a été trouvée. Le codage repose sur le gel qu'il a négocié et sur la ligne du parti."
+  },
+  {
+   "id": "ret3",
+   "summary": "Aucune position directe trouvée sur la capitalisation obligatoire. Son livre de campagne propose de faire contribuer les entreprises d'IA au financement des retraites, ce qui va dans le sens d'un financement des retraites par répartition.",
+   "nuance": "Laissé à null car cela ne ferait que s'inférer. Le PS s'est historiquement opposé à la capitalisation obligatoire, mais cela n'a pas été vérifié."
+  },
+  {
+   "id": "fin1",
+   "summary": "Le programme du NFP de 2024 que le PS a signé rejette les règles budgétaires. Cela va à l'encontre de l'idée de faire de l'objectif de 3 % une priorité au prix de coupes importantes.",
+   "nuance": "Il s'agit d'une ligne partisane de 2024. Lors des négociations budgétaires de 2025, le PS a accepté une trajectoire de réduction du déficit (non vérifié ici), d'où -1 plutôt que -2."
+  },
+  {
+   "id": "fin2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "fin3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Le rejet des règles budgétaires par le NFP se rapproche de cette affirmation sans lui correspondre explicitement ; laissé à null."
+  },
+  {
+   "id": "fin4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "trav1",
+   "summary": "Son livre de campagne « La loi du plus juste » (17 septembre 2026) propose de porter le SMIC à 1 700 euros et de conditionner les aides aux entreprises à des hausses de salaires. Le programme du NFP de 2024 que le PS a signé promettait une hausse de 14 % du salaire minimum.",
+   "nuance": "La seule source est secondaire. Le +2 suppose que les 1 700 euros s'entendent nets, ce qui représenterait une forte hausse au-delà de l'inflation. S'il s'agissait de brut, ce serait inférieur au SMIC brut actuel. Net ou brut n'a pas été confirmé."
+  },
+  {
+   "id": "trav2",
+   "summary": "Le programme du NFP de 2024 que le PS a signé s'engage à revenir sur la réforme de l'assurance chômage.",
+   "nuance": "Il s'agit d'une ligne partisane de 2024 ; rien de personnel ni de récent de la part de Faure n'a été trouvé."
+  },
+  {
+   "id": "trav3",
+   "summary": "Le projet du PS s'engage à refonder le RSA afin d'en garantir le caractère inconditionnel et automatique. Cela revient à supprimer la conditionnalité d'activité de 15 à 20 heures actuellement en vigueur.",
+   "nuance": "Il s'agit du projet du parti, adopté sous la direction de Faure comme premier secrétaire, et non d'un programme personnel de Faure pour 2027. Le texte ne nomme pas explicitement la règle des 15 à 20 heures, mais promettre l'inconditionnalité est incompatible avec son maintien. Le niveau de confiance est moyen, faute de déclaration personnelle de Faure."
+  },
+  {
+   "id": "trav4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Les pages du NFP et de Faure consultées ne mentionnent pas les 32 heures."
+  },
+  {
+   "id": "imm1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "imm2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "imm3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "imm4",
+   "summary": "Son livre de campagne (septembre 2026) propose de régulariser 400 000 travailleurs sans papiers.",
+   "nuance": "La proposition est plus large que les métiers en tension, si bien qu'elle couvre pleinement l'affirmation. La seule source est secondaire."
+  },
+  {
+   "id": "imm5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "imm6",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "imm7",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "sec1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "sec2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "sec3",
+   "summary": "Aucune position sur un contrôle indépendant de la police n'a été trouvée. En septembre 2026, il a critiqué les « contrôles au faciès » au sein de la police. En 2021, il avait demandé que les policiers aient un « droit de regard » sur les décisions de justice, avant de qualifier cette formule de « malheureuse ».",
+   "nuance": "Sa critique des contrôles d'identité discriminatoires se rapproche de cette affirmation, mais n'exprime pas de position sur un organe de contrôle indépendant. Laissé à null."
+  },
+  {
+   "id": "sec4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "sec5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu1",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu4",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "eu6",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Budget de recherches web épuisé. Non vérifié."
+  },
+  {
+   "id": "int1",
+   "summary": "Faure a personnellement voté la résolution européenne du 12 mars 2025 appelant à un soutien renforcé à l'Ukraine (y compris l'utilisation des avoirs russes pour financer l'aide militaire), ainsi que la déclaration du gouvernement de mars 2024 sur la stratégie d'aide à l'Ukraine.",
+   "nuance": "Votes personnels ; aucune déclaration de 2026 retrouvée (budget de recherches web épuisé)."
+  },
+  {
+   "id": "int2",
+   "summary": "Le PS est ouvert, sous conditions, à un contingent français de réassurance après un cessez-le-feu.",
+   "nuance": "Conditionné à un cessez-le-feu et à un débat parlementaire ; non vérifié en direct."
+  },
+  {
+   "id": "int3",
+   "summary": "Aucune déclaration de Faure sur une sortie du commandement intégré de l'OTAN n'a été trouvée ; le groupe PS a voté pour l'adhésion de la Suède et de la Finlande à l'OTAN (2022), et la sortie de l'OTAN était une exigence de LFI à laquelle des cadres du PS se sont opposés lors de l'accord NUPES de 2022.",
+   "nuance": "Faure a lui-même négocié l'accord NUPES de 2022 ; l'opposition à une sortie de l'OTAN est venue de cadres du PS, et non de Faure. Le commandement intégré n'est pas abordé en tant que tel. Déduit des votes favorables à l'OTAN du groupe."
+  },
+  {
+   "id": "int4",
+   "summary": "Le PS a demandé la suspension de l'accord d'association entre l'UE et Israël.",
+   "nuance": "Non vérifié en direct ; aucune source retrouvée."
+  },
+  {
+   "id": "int5",
+   "summary": "Le PS soutient une hausse des dépenses de défense ; un seuil supérieur à 3 % du PIB n'est pas confirmé.",
+   "nuance": "Soutient probablement une hausse, seuil exact inconnu."
+  },
+  {
+   "id": "int6",
+   "summary": "Le PS privilégie un service volontaire plutôt qu'obligatoire.",
+   "nuance": "Non vérifié en direct."
+  },
+  {
+   "id": "int7",
+   "summary": "Le PS s'oppose à un assouplissement des sanctions contre la Russie à titre de concession ; la résolution de 2025 que Faure a votée appelait à saisir les avoirs russes.",
+   "nuance": "Non vérifié en direct au-delà du vote voisin de 2025 (voir int1)."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Le groupe PS a voté contre la suppression des ZFE (28 mai 2025) et, en avril 2026, a soutenu l'amendement du gouvernement visant à maintenir les ZFE en existence (à titre facultatif) plutôt qu'à les supprimer.",
+   "nuance": "Votes de groupe ; Faure n'est pas listé individuellement sur l'un ou l'autre scrutin. Sa disposition à rendre les ZFE facultatives témoigne d'une défense atténuée, mais d'une opposition constante à leur suppression."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Faure a voté contre la loi Duplomb (juillet 2025) et contre la réautorisation de l'acétamipride dans la loi d'urgence agricole de juillet 2026.",
+   "nuance": "Votes personnels ; l'interdiction de l'acétamipride subsiste alors que d'autres États de l'UE l'autorisent, ce qui correspond à la formulation de l'affirmation."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Le PS soutient globalement l'objectif de 2035, en demandant un accompagnement social.",
+   "nuance": "Une éventuelle souplesse sur les hybrides n'a pas été vérifiée."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le PS est favorable à une taxation des jets privés et du kérosène.",
+   "nuance": "Non vérifié en direct."
+  },
+  {
+   "id": "ecol5",
+   "summary": "La priorité écologique fait partie du cadrage du PS, tempérée par l'accent mis sur la justice sociale.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "ene1",
+   "summary": "Faure a voté contre la loi d'accélération du nucléaire de mars 2023 (procédures de construction de nouveaux réacteurs, objectif de six EPR) ; aucune déclaration de 2025-2026 en faveur de réacteurs au-delà de six EPR2 n'a été trouvée.",
+   "nuance": "Vote ancien (2023) ; l'opposition du PS a pu être en partie procédurale. Position actuelle non vérifiée."
+  },
+  {
+   "id": "ene2",
+   "summary": "Aucune position actuelle claire de Faure sur une sortie du nucléaire n'a été trouvée ; les éléments sont contradictoires.",
+   "nuance": "La citation de Wikipédia dans le brouillon est mal attribuée : l'objection de 2022 à l'abandon des projets d'EPR est venue de cadres du PS critiquant l'accord NUPES de Faure, et non de Faure lui-même. Faure a par ailleurs voté contre la loi d'accélération du nucléaire de 2023."
+  },
+  {
+   "id": "ene3",
+   "summary": "Le PS soutient le développement des énergies renouvelables, y compris l'éolien.",
+   "nuance": "Non vérifié en direct."
+  },
+  {
+   "id": "ene4",
+   "summary": "Le PS veut réformer le marché européen de l'électricité, et non en sortir.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "ins1",
+   "summary": "Faure est favorable à un renouveau institutionnel et à un meilleur équilibre parlementaire.",
+   "nuance": "Formulation exacte de l'engagement en faveur d'une VIe République non vérifiée."
+  },
+  {
+   "id": "ins2",
+   "summary": "Le PS soutient la représentation proportionnelle.",
+   "nuance": "Proportionnelle intégrale ou dose de proportionnelle : non vérifié."
+  },
+  {
+   "id": "ins3",
+   "summary": "Le PS soutient l'extension des mécanismes de référendum citoyen.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "ins4",
+   "summary": "Le PS a historiquement critiqué le 49.3, mais Faure a accepté en janvier 2026 que le gouvernement recoure au 49.3 pour faire adopter le budget.",
+   "nuance": "L'acceptation pragmatique de 2026 affaiblit un +2 net ; tout engagement de programme à supprimer le 49.3 n'est pas vérifié."
+  },
+  {
+   "id": "ins5",
+   "summary": "Le PS se méfie des référendums sur l'immigration ou la justice.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "soc1",
+   "summary": "Faure a personnellement voté pour le projet de loi créant un droit à l'aide à mourir, en première lecture le 27 mai 2025 et lors de l'adoption définitive le 15 juillet 2026.",
+   "nuance": "Deux votes personnels favorables et cohérents ; il maintiendrait donc la loi. Aucune déclaration sur son extension ou sa restriction n'a été trouvée."
+  },
+  {
+   "id": "soc2",
+   "summary": "Le PS s'oppose à une interdiction générale du voile dans l'espace public.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucune position trouvée sur l'interdiction des signes religieux pour les parents accompagnant des sorties scolaires. Le volet laïcité du projet du PS n'aborde pas ce point.",
+   "nuance": "Le projet du PS défend la laïcité de 1905 tout en s'opposant à son usage pour stigmatiser les musulmans, ce qui ne vise pas spécifiquement cette affirmation. Le PS est divisé en interne sur cette question. Budget de recherches web épuisé."
+  },
+  {
+   "id": "soc4",
+   "summary": "Position laïque traditionnelle du PS, fondée sur la neutralité de l'État.",
+   "nuance": "Accent mis par Faure en 2026 non vérifié."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "PS divisé."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucun soutien connu du PS à l'uniforme obligatoire.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "edu2",
+   "summary": "Le PS privilégie le recrutement d'enseignants et la réduction de la taille des classes.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "edu3",
+   "summary": "Le PS s'oppose à la répartition des élèves par niveau (groupes de niveau).",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "edu4",
+   "summary": "Le PS soutient le conditionnement du financement des établissements privés à la mixité sociale.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "edu5",
+   "summary": "Le projet du PS supprimerait Parcoursup au profit d'une procédure nationale publique unique et intégrerait les filières sélectives aux universités. Il ne s'engage pas à mettre fin à toute sélection à l'entrée.",
+   "nuance": "Selon la note de codage, remplacer Parcoursup n'équivaut pas à approuver la fin de la sélection. Le programme étant muet sur la sélection elle-même, cela reste à null. Cela pourrait passer à 0 ou +1 si une déclaration sur la sélection était trouvée."
+  },
+  {
+   "id": "san1",
+   "summary": "Le PS soutient la régulation de l'installation des médecins (limiter les nouvelles installations dans les zones bien dotées), version plus faible qu'une affectation obligatoire dans les zones sous-dotées.",
+   "nuance": "Amendement transpartisan porté par le député PS Garot ; le vote personnel de Faure n'est pas listé. Source ancienne."
+  },
+  {
+   "id": "san2",
+   "summary": "Le PS s'oppose à une hausse des franchises.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "san3",
+   "summary": "Le PS soutient l'encadrement des loyers en zone tendue.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "san4",
+   "summary": "Le PS s'oppose à une nouvelle ouverture à la concurrence des services publics.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucune position sur la « TVA sociale » n'a été trouvée. Le projet du PS (Refaire société, Vivre libres) ne mentionne pas la TVA sociale ; ses propositions sur la TVA vont dans l'autre sens (taux réduit de 5,5 % sur un panier anti-pauvreté de produits essentiels).",
+   "nuance": "Éléments voisins uniquement : le PS veut baisser la TVA sur les produits essentiels et relever certaines cotisations sociales, ce qui laisse penser à une hostilité à un échange TVA contre cotisations, mais aucune position explicite n'a été trouvée ; cela reste donc à null. Budget de recherches web épuisé pendant la vérification."
+  },
+  {
+   "id": "imm8",
+   "summary": "Déduit de positions voisines. Le projet du PS veut un titre de séjour pour tout étranger disposant d'un contrat de travail d'au moins 6 mois, et Faure a voté contre la loi immigration de 2023 et contre les restrictions de nationalité à Mayotte en 2025. Rien de spécifique sur la naturalisation n'a été trouvé.",
+   "nuance": "La proposition citée porte sur les titres de séjour et la régularisation, qui ne sont pas la naturalisation. Le +1 est une déduction à partir de positions voisines et devrait être remplacé si une déclaration directe est trouvée."
+  },
+  {
+   "id": "sec6",
+   "summary": "Le projet du PS propose explicitement d'instaurer un récépissé pour les contrôles d'identité, dans le cadre de la lutte contre les discriminations et les pratiques policières abusives.",
+   "nuance": "Il s'agit d'un engagement de programme du parti et non d'une déclaration personnelle de Faure. Hollande avait fait la même promesse en 2012 sans la mettre en œuvre."
+  },
+  {
+   "id": "eu7",
+   "summary": "Le projet du PS défend une défense européenne autonome, des capacités opérationnelles communes entre partenaires européens et une industrie européenne de défense. Il ne s'engage pas en faveur d'une armée européenne ni n'accepte une perte d'autonomie militaire nationale.",
+   "nuance": "Codé +1 car la clause de l'affirmation « même si la France perd une part d'autonomie militaire » n'est pas approuvée : le texte présente la défense européenne comme au service de l'autonomie stratégique. Il s'agit du programme du parti ; aucune déclaration personnelle de Faure n'a été trouvée."
+  },
+  {
+   "id": "eu8",
+   "summary": "Le projet du PS s'engage explicitement à soutenir l'adhésion de l'Ukraine à l'UE, en complément d'un soutien militaire financé par la saisie des avoirs russes gelés.",
+   "nuance": "Il s'agit d'un programme du parti et non d'une déclaration personnelle de Faure. Faure a aussi voté pour le vote de l'Assemblée nationale de mars 2024 sur le soutien à l'Ukraine (datan). Aucun calendrier d'adhésion n'est donné."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Le projet du PS propose des prix minimaux garantis fondés sur les coûts de production réels et des prix planchers européens plus élevés.",
+   "nuance": "Il s'agit d'un programme du parti ; aucune déclaration personnelle de Faure n'a été trouvée."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucune position trouvée sur une baisse à 5,5 % de la TVA sur l'électricité, le gaz et les carburants. Le projet du PS ne mentionne la TVA à 5,5 % que pour les travaux de rénovation et un panier de produits essentiels.",
+   "nuance": "Le projet du PS aborde les factures d'énergie par l'investissement et la rénovation, et non par une baisse de la TVA sur l'énergie. Le budget de recherches web étant épuisé, les déclarations de presse de Faure n'ont pas pu être vérifiées."
+  },
+  {
+   "id": "ins6",
+   "summary": "Le projet du PS s'engage à défendre et à renforcer l'audiovisuel public, avec un financement sécurisé par une contribution universelle et progressive. C'est l'opposé d'une privatisation.",
+   "nuance": "Il s'agit d'un engagement de programme du parti ; aucune déclaration personnelle de Faure n'a été retrouvée."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucune position trouvée sur l'interdiction des signes religieux à l'université.",
+   "nuance": "Point non abordé dans les pages du projet du PS consultées. Budget de recherches web épuisé."
+  },
+  {
+   "id": "san5",
+   "summary": "Le projet du PS défend l'objectif de zéro artificialisation nette (ZAN) et veut construire des logements par la densification, tout en ménageant les zones rurales et les petites villes. Il ne dit rien d'un assouplissement des règles de construction.",
+   "nuance": "Codé -1 plutôt que -2, car le projet protège le développement rural dans le cadre du ZAN et reste muet sur les règles de construction. Faure a voté pour la loi de 2023 assouplissant la mise en œuvre du ZAN (datan, 27 juin 2023) ; sa ligne accepte donc des ajustements tout en maintenant l'objectif."
+  }
+ ],
+ "record": {
+  "bio": "Olivier Faure (né le 18 août 1968 à La Tronche, Isère) est un homme politique socialiste français qui a adhéré au PS en 1984. Il a été directeur adjoint de cabinet de François Hollande au PS (2000-2007) et est député de la 11e circonscription de Seine-et-Marne depuis juin 2012. Il est premier secrétaire du Parti socialiste depuis avril 2018 et a été réélu en 2021, 2023 et juin 2025. Il a soutenu l'alliance NUPES en 2022 et le Nouveau Front populaire en 2024. En juillet 2025, il a contribué à faire adopter le principe d'une candidature commune de la gauche pour 2027, même si les adhérents du PS ont ensuite voté en faveur d'une primaire limitée au pôle socialiste. Il a annoncé sa candidature à la présidentielle le 30 août 2026, a publié le livre « La loi du plus juste » le 17 septembre 2026 et participe à la primaire PS/Place publique d'octobre 2026.",
+  "offices": [
+   "Député de la 11e circonscription de Seine-et-Marne",
+   "Porte-parole national du PS",
+   "Président du groupe socialiste à l'Assemblée nationale (SER, rebaptisé Nouvelle Gauche en 2017)",
+   "Premier secrétaire du Parti socialiste"
+  ],
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Recours à l'article 49.3 pour le budget 2026",
+    "before": "Automne 2025 : le PS a fait du non-recours à l'article 49.3 pour le budget 2026 l'une de ses conditions pour ne pas censurer le gouvernement Lecornu, et a obtenu cet engagement",
+    "after": "Fin janvier 2026 : a accepté que le gouvernement recoure au 49.3 pour adopter le budget 2026 faute de majorité, contre l'avis des autres partis de gauche"
+   }
+  ],
+  "delivery": [
+   {
+    "what": "A fait adopter en décembre 2014 un amendement qui a permis la création du Pass Navigo à tarif unique en Île-de-France",
+    "assessment": "Cité comme une réalisation parlementaire concrète dans son profil Wikipédia. Elle n'a pas été évaluée de manière indépendante, et aucune source de sensibilités différentes n'a été consultée."
+   },
+   {
+    "what": "A maintenu le PS dans les alliances de gauche : NUPES en 2022, NFP en 2024, et un principe de candidature commune pour 2027 acté à Bagneux en juillet 2025",
+    "assessment": "Crédité d'avoir maintenu le PS dans une stratégie d'union. Ses opposants au sein du PS, qui préféreraient soutenir Raphaël Glucksmann dans une fédération, l'accusent d'être subordonné à Mélenchon/LFI. Les adhérents du PS ont ensuite rejeté la primaire ouverte qu'il privilégiait (55,5 % se sont prononcés pour une primaire limitée au pôle socialiste). Seul Wikipédia a été consulté."
+   },
+   {
+    "what": "A négocié avec le Premier ministre Lecornu, fin 2025, une suspension de la réforme des retraites de 2023 (âge légal gelé à 62 ans et 9 mois jusqu'en janvier 2028), votée le 12 novembre 2025 dans le PLFSS 2026 ; il a voté le PLFSS en lecture définitive le 16 décembre 2025",
+    "assessment": "Une concession concrète obtenue alors que le PS était dans l'opposition. D'autres partis de gauche ont critiqué le compromis. Aucune source de sensibilités différentes n'a été obtenue."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non étudié : aucun média de gauche n'a pu être consulté. Ne pas se fier à ce champ.",
+   "right_media": "Non étudié : aucun média de droite n'a pu être consulté. Ne pas se fier à ce champ.",
+   "neutral_media": "Non étudié : aucun média neutre n'a pu être consulté. Ne pas se fier à ce champ."
+  }
+ }
+}

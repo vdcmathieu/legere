@@ -1,0 +1,112 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "candidate",
+  "positions"
+ ],
+ "properties": {
+  "candidate": {
+   "type": "string"
+  },
+  "positions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "position",
+     "confidence",
+     "evidence_type",
+     "summary",
+     "sources",
+     "nuance"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "position": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "-2..2 on the statement as worded; null if no evidence"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "high",
+       "medium",
+       "low",
+       "none"
+      ]
+     },
+     "evidence_type": {
+      "type": "string",
+      "enum": [
+       "programme",
+       "statement",
+       "vote",
+       "record_in_office",
+       "party_line",
+       "inferred",
+       "none"
+      ]
+     },
+     "summary": {
+      "type": "string"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "outlet",
+        "outlet_lean",
+        "date",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "outlet": {
+         "type": "string"
+        },
+        "outlet_lean": {
+         "type": "string",
+         "enum": [
+          "far-left",
+          "left",
+          "centre-left",
+          "centre",
+          "centre-right",
+          "right",
+          "far-right",
+          "neutral-institutional",
+          "campaign-or-party",
+          "think-tank",
+          "fact-check"
+         ]
+        },
+        "date": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "nuance": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "collect": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: WebSearch quota was exhausted (200/200) and fetched pages did not cover this.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "imm8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Lisnard's movement advocates reducing legal immigration, which suggests opposition to easing naturalisation, but no direct statement on naturalisation was found.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "réduction de l'immigration légale"
+     }
+    ],
+    "nuance": "Inferred from an adjacent position only, via a Wikipedia summary. Needs a direct source on naturalisation."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found: search quota exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found directly. His movement stresses reducing norms and bureaucracy, but nothing specific on ZAN or construction rules was retrieved.",
+    "sources": [],
+    "nuance": "Not coded. Research incomplete due to tool limits, needs rerun."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The Nouvelle Énergie programme says a 'TVA Compétitivité / Relocalisation' could be phased in over 12 years, up to a single rate of for example 25%, at the same time as cuts to charges on wages. That is a social-VAT design.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie (programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "une TVA « Compétitivité / Relocalisation » pourrait être progressivement créée sur 12 ans pour arriver au taux unique par exemple de 25%. En même temps, un processus de baisse des charges sur les salaires serait conduit."
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-veut-il-augmenter-les-salaires-sans-augmenter-le-cout-du-travail/",
+      "outlet": "Nouvelle Énergie (FAQ)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "La cotisation supprimée finance des dépenses. Les rendre suppose donc de réduire ces dépenses d'un montant équivalent"
+     }
+    ],
+    "nuance": "Coded +1 rather than +2 for two reasons. The programme hedges ('pourrait', 'par exemple'). His most recent FAQ pages (updated 3 Oct 2026) say the large cut in contributions is paid for by spending cuts and do not mention VAT. Corroboration from an independent outlet is still needed."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The programme pages and FAQ pages checked (aides sociales, économies, ambition française) do not mention the RSA activity hours. The only RSA measure found is negative employer charges for hiring people who have been on the RSA for over two years.",
+    "sources": [],
+    "nuance": "His pro-work-incentive line ('Quelqu'un qui travaille à temps plein doit gagner au moins 500€ de plus que quelqu'un qui ne travaille pas') suggests support, but the statement is not coded from inference. Needs a rerun with web search."
+   },
+   {
+    "id": "imm8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No direct statement on naturalisation. His programme wants far less legal immigration (residence permits divided by eight), an end to automatic birthright nationality, and a five-year residence requirement for non-contributory benefits. All of these point to opposing easier naturalisation.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "outlet": "Nouvelle Énergie (programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Mettre fin à l'automaticité du droit du sol"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "défend notamment la réduction de l'immigration légale"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions in his own programme (droit du sol, residence permits). No text addresses naturalisation of long-term legal residents directly."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The programme's security page and FAQ do not mention identity checks or receipts.",
+    "sources": [],
+    "nuance": "Not coded. Web search was unavailable during verification. Needs a rerun."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The sovereignty section of the programme ('Être maître de notre destin') does not mention a European army or joint procurement.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with web search."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on Ukraine's EU accession in the programme pages, the FAQ or Wikipedia (FR and EN).",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with web search."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct evidence. The agriculture programme criticises EGalim ('a ajouté des contraintes sans améliorer les marges') and calls for paying farmers for environmental services. It does not mention price floors.",
+    "sources": [],
+    "nuance": "His EGalim critique and liberal orientation point toward opposition, but nothing explicit was found, so it is left null. Needs a rerun."
+   },
+   {
+    "id": "ene5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "To lower fuel prices he proposes temporarily suspending the CEE energy-saving certificates 'sans creuser le déficit'. He chose this over a tax cut, and his platform puts spending cuts before tax cuts. No statement on a 5.5% VAT rate was found.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-pour-le-pouvoir-d-achat/",
+      "outlet": "Nouvelle Énergie (FAQ, citing Lisnard on Facebook)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-22",
+      "quote": "Suspendre provisoirement les CEE ferait baisser le prix à la pompe immédiatement et pour tous, sans creuser le déficit"
+     }
+    ],
+    "nuance": "Inferred. He offers a non-VAT, deficit-neutral alternative and his programme also plans a higher overall VAT rate, so an energy VAT cut looks unlikely. There is no explicit rejection."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The savings pages (agencies, 200bn plan) do not mention public broadcasting.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with web search."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on the 2026 assisted-dying law in the programme, the FAQ or Wikipedia.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with web search."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on parents accompanying school trips. The education pages do not mention laïcité or religious symbols.",
+    "sources": [],
+    "nuance": "As mayor of Cannes he banned the burkini on beaches in 2016 (record_in_office, adjacent topic). That is not used to code this statement. Needs a rerun."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on religious symbols at university.",
+    "sources": [],
+    "nuance": "Not coded. The 2016 burkini ban is only adjacent. Needs a rerun."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. The education programme covers school choice, teacher pay, vocational training and curricula, but not university selection.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun."
+   },
+   {
+    "id": "san5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Lisnard calls the ZAN 'une véritable usine à gaz', unworkable for municipalities in its current form. He blames stacked regulations (the SRU law, the climate-resilience law) for the fall in housebuilding. His programme scraps article 55 of the SRU law and makes regulatory relief a core plank.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-une-ecologie-pragmatique-et-non-punitive/",
+      "outlet": "Nouvelle Énergie (FAQ, citing Lisnard at the Congrès des maires)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-11-20",
+      "quote": "une disposition à vocation écologique et environnementale telle que le ZAN s'avère être, une fois de plus, une véritable usine à gaz."
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "outlet": "Nouvelle Énergie (programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la suppression de l'article 55 de la loi SRU"
+     }
+    ],
+    "nuance": "He accepts the biodiversity goal but rejects the ZAN 'in its current form'. A Le Figaro piece of 16 Apr 2026 (cited by the FAQ, not opened directly) ties the drop in housebuilding to regulation. Strength could be +1 if he only wants the ZAN adjusted. Confidence is medium until an independent outlet is checked."
+   }
+  ],
+  "verification_notes": [
+   "Verification limits: WebSearch was not usable (the 200-call session budget was already spent). Evidence came only from WebFetch of pages I opened directly: unenouvelleenergie.fr programme and FAQ pages, and fr/en Wikipedia. Fetching search engines would have got round the user's budget, so I did not. I did not corroborate with an outlet of a different lean, so no coding gets high confidence.",
+   "Most programme pages are dated only by the footer (© 2026). FAQ pages are marked as updated 3 Oct 2026.",
+   "eco7: null -> +1 (medium, programme): the official programme proposes a phased 'TVA Compétitivité/Relocalisation' at the same time as cuts to charges on wages. Not +2, because the wording is hedged and recent FAQ pages fund contribution cuts through spending cuts.",
+   "san5: null -> +2 (medium, statement): Lisnard calls the ZAN 'une véritable usine à gaz' (Congrès des maires, 20 Nov 2025), the programme scraps SRU art. 55, and he blames regulation for falling housing output. +1 is possible if he only wants the ZAN amended.",
+   "ene5: null -> -1 (low, inferred): his fuel-price answer is a deficit-neutral CEE suspension (22 Sep 2026), not a VAT cut, and the programme raises VAT overall. No explicit rejection was found.",
+   "imm8: kept -1 low inferred; added the primary programme source ('Mettre fin à l'automaticité du droit du sol', titres de séjour divided by eight). The Wikipedia quote was confirmed as 'défend notamment la réduction de l'immigration légale'.",
+   "trav3, sec6, eu7, eu8, ecol6, ins6, soc1, soc3, soc6, edu5: kept null. The relevant programme and FAQ pages were checked and contain nothing on these statements. Summaries were rewritten to say what was checked. These items still need a rerun with web search (press interviews, Le Figaro, franceinfo, etc.)."
+  ]
+ }
+}

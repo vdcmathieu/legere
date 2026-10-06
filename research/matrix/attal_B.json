@@ -1,0 +1,878 @@
+{
+ "collect": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As PM (2024) Attal backed the France-Ukraine security agreement and sustained military aid; Renaissance line is strongly pro-Ukraine.",
+    "sources": [],
+    "nuance": "Coded from record in office and party line; live search budget was exhausted so no 2025-2026 source was opened."
+   },
+   {
+    "id": "int2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance/Macron line supports a reassurance force after a ceasefire; Attal has not been found contradicting it.",
+    "sources": [],
+    "nuance": "Not verified with a live source; 'guarantee a ceasefire' is conditional on a ceasefire existing."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance is firmly Atlanticist and pro-NATO; leaving the integrated command is not a position of the party.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "int4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and the government line favoured pressure on Israel but not suspension of the association agreement.",
+    "sources": [],
+    "nuance": "Not verified live; Attal's own wording on Gaza not retrieved."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Government and Renaissance push a major rise in defence spending (LPM, 2% reached); a 3%+ target is plausible but not confirmed for Attal.",
+    "sources": [],
+    "nuance": "Inferred from the pro-rearmament line; no 3% quote verified."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Attal as PM championed generalising the SNU and has favoured a service national; a fully compulsory military service is not confirmed.",
+    "sources": [],
+    "nuance": "Partial/weaker version supported (SNU/service national); not verified live."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance opposes easing sanctions on Russia without a durable, just peace.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; Renaissance deputies were split on abolishing ZFE in 2025.",
+    "sources": [],
+    "nuance": "Not coded to avoid guessing."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Renaissance backed a more flexible, competitiveness-oriented approach (loi Duplomb debate) but nothing personal verified."
+   },
+   {
+    "id": "ecol3",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance formally maintains the EU 2035 target while calling for flexibility.",
+    "sources": [],
+    "nuance": "Mixed; not verified live."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Government taxed air tickets more in 2025 budget (TSBA), but Attal's own position not found."
+   },
+   {
+    "id": "ecol5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Renaissance frames ecology and growth as compatible, with a pro-growth lean.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ene1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and Macron support a nuclear relaunch including further reactors beyond six EPR2 (option for 8 more).",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "party_line",
+    "summary": "Renaissance strongly rejects a nuclear phase-out.",
+    "sources": [],
+    "nuance": "Not verified live but very stable party line."
+   },
+   {
+    "id": "ene3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance supports renewables alongside nuclear; moratorium not its position.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance favours reforming, not leaving, the European electricity market.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ins1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance defends the Fifth Republic.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ins2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Macron's camp has been open to some proportionality; Attal's own current stance not retrieved.",
+    "sources": [],
+    "nuance": "Mixed/uncertain."
+   },
+   {
+    "id": "ins3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance has opposed the RIC as written.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ins4",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Attal as PM used 49.3 on the 2025-type budget debates sparingly; he has talked of limiting it but nothing confirmed.",
+    "sources": [],
+    "nuance": "Mixed/uncertain."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Macron and allies backed widening referendum scope; Attal's support likely but unverified.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and Attal supported the end-of-life bill with strict conditions.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Attal banned the abaya in schools but has not backed a ban in all public space.",
+    "sources": [],
+    "nuance": "Partial restriction supported (school, sport), full ban rejected."
+   },
+   {
+    "id": "soc3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Attal pushes firm laïcité in schools; extension to accompanying parents and universities is plausible but not verified.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "Attal's record (abaya ban) is of restricting religious expression further.",
+    "sources": [],
+    "nuance": "Opposes the statement in part."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Macron's camp and Attal have opposed legalising GPA.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "edu1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As education minister Attal launched the school uniform experiment (2024).",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "restoration of authority at school (paraphrase of article on the 2023 uniform experiment)"
+     }
+    ],
+    "nuance": "Experiment abandoned by 2026 per Wikipedia, but his support is on record."
+   },
+   {
+    "id": "edu2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Attal prioritises education but with a focus on authority and levels rather than class size.",
+    "sources": [],
+    "nuance": "Inferred; budget constraints stressed."
+   },
+   {
+    "id": "edu3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "record_in_office",
+    "summary": "Attal introduced groupes de niveau in collège (2023-24).",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "paraphrase: groupes de niveau reform, later abandoned"
+     }
+    ],
+    "nuance": "Reform later abandoned by successors."
+   },
+   {
+    "id": "edu4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Attal as minister announced a pact tying private school funding to social-mix efforts.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance defends Parcoursup.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "san1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Government line favoured mandatory short missions in under-served zones, not forced installation.",
+    "sources": [],
+    "nuance": "Mixed."
+   },
+   {
+    "id": "san2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Government raised franchises in 2024-2025 budgets under budget pressure; Attal's own stance unclear.",
+    "sources": [],
+    "nuance": "Mixed."
+   },
+   {
+    "id": "san3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Attal campaigns on freeing housing supply; rent control was optional and limited under the Macron camp.",
+    "sources": [],
+    "nuance": "Site says 'freeing access to housing' (attalpresident.fr, opened)."
+   },
+   {
+    "id": "san4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Renaissance generally favours competition in rail and other services.",
+    "sources": [],
+    "nuance": "Inferred."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Gabriel Attal",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Attal repeatedly calls to continue and amplify support for Ukraine (programme 'Frontières', BFM TV 21 Sep 2026, POLITICO 24 Sep 2026), backs European coordination of air-defence aid and seizure of frozen Russian assets; as PM he presented the bilateral Ukraine support agreement to the Assemblée.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Nous allons continuer sans relâche à soutenir l'Ukraine."
+     },
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-bfm-tv-le-plus-juste-c-est-d-accompagner-ceux-qui-travaillent",
+      "outlet": "attalpresident.fr (summary of BFM TV interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-21",
+      "quote": "l'intérêt de la France, c'est d'amplifier son soutien à l'Ukraine"
+     },
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-dans-politico-europe-ukraine-ia-et-finances-publiques-quatre-priorites-pour-preparer-la-france-de-demain",
+      "outlet": "attalpresident.fr (summary of POLITICO interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-24",
+      "quote": "Alors que les Ukrainiens demandent notamment davantage de capacités sol-air, Gabriel Attal appelle les Européens à se coordonner"
+     }
+    ],
+    "nuance": "Only campaign-site sources could be opened (web search budget exhausted); no independent outlet corroboration, but the position is consistent and stated in his own programme."
+   },
+   {
+    "id": "int2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance/Macron line supports a reassurance force after a ceasefire; no personal Attal statement on French troops was retrieved.",
+    "sources": [],
+    "nuance": "Not verified with a live source; 'guarantee a ceasefire' is conditional on a ceasefire existing. His 2026 statements stress amplifying support but do not mention troops."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Renaissance is firmly Atlanticist; Attal's programme lists 'nos alliances' as a vector of power and extends nuclear deterrence to allies. Leaving NATO's integrated command is not part of his platform.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "nos capacités militaires ; nos réserves humaines et opérationnelles ; notre outil industriel ; nos alliances."
+     }
+    ],
+    "nuance": "No explicit NATO-command quote found; coding relies on party line plus alliance emphasis in programme."
+   },
+   {
+    "id": "int4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance and the government line favoured pressure on Israel but not suspension of the association agreement.",
+    "sources": [],
+    "nuance": "Not verified live; Attal's own wording on Gaza not retrieved."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Programme calls to 'poursuivre et amplifier' rearmament and keep increasing defence means, but sets no 3%-of-GDP figure.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/frontieres",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Il faut poursuivre et amplifier ce réarmement."
+     }
+    ],
+    "nuance": "Supports higher defence spending; no specific >3% target found, hence +1."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "record_in_office",
+    "summary": "As junior minister (2018-2020) Attal was in charge of implementing the SNU; his 2026 programme speaks of strengthening 'réserves humaines et opérationnelles' but does not propose compulsory military service.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "paraphrase: as secrétaire d'État he was responsible for youth and the implementation of the service national universel"
+     }
+    ],
+    "nuance": "Partial/weaker version (SNU, reserves); no 2025-2026 statement for a compulsory service retrieved."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Attal attacks Marine Le Pen for refusing sanctions on Russia and wants Russia to pay via seizure of frozen assets; no openness to lifting sanctions for a peace deal.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "outlet": "attalpresident.fr (summary of RTL interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-25",
+      "quote": "Nous devons faire payer à la Russie le coût de sa guerre contre l'Ukraine en saisissant les avoirs russes gelés."
+     }
+    ],
+    "nuance": "No explicit statement on sanctions relief in a peace deal; coded from his hard line on sanctions and asset seizure."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved on Attal's own position on abolishing ZFE.",
+    "sources": [],
+    "nuance": "Renaissance deputies were split on abolishing ZFE in 2025; not coded to avoid guessing. Web search budget was exhausted during verification so no further search was possible."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Renaissance backed a competitiveness-oriented approach (loi Duplomb debate) but nothing personal verified."
+   },
+   {
+    "id": "ecol3",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance formally maintains the EU 2035 target while calling for flexibility; Attal pushes EV adoption (social leasing for used EVs, bonus extension) but no explicit 2035 statement found.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "outlet": "attalpresident.fr (summary of RTL interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-25",
+      "quote": "l'amplification du leasing social et son ouverture aux véhicules électriques d'occasion"
+     }
+    ],
+    "nuance": "Mixed; EV push suggests support for electrification but no 2035 commitment verified."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Government taxed air tickets more in 2025 budget (TSBA), but Attal's own position not found."
+   },
+   {
+    "id": "ecol5",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Programme rejects the trade-off: it says growth and decarbonisation do not conflict while urging France to accelerate emission cuts (from 1.8% to 5% a year).",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/dette-ecologique",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Nous avons démontré que croissance et décarbonation ne s'opposent pas."
+     }
+    ],
+    "nuance": "He denies the premise rather than ranking one over the other; strong climate-ambition language, so not coded as pro-growth."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Plan 'Messmer II' (23 Sep 2026) commits to securing the construction of 14 EPR (6 + 8) and building one reactor a year.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises",
+      "outlet": "attalpresident.fr (campaign press conference)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-23",
+      "quote": "sécuriser la construction des 14 EPR et retrouver une capacité de construction en série"
+     }
+    ],
+    "nuance": "Explicit programme commitment beyond the six EPR2."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Attal wants 14 EPR, one reactor a year, and research on fusion and closing the nuclear cycle: the opposite of a phase-out.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises",
+      "outlet": "attalpresident.fr (campaign press conference)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-23",
+      "quote": "avec l'objectif d'atteindre un réacteurs par an"
+     }
+    ],
+    "nuance": "Coded from his own nuclear-expansion programme."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Plan Messmer II defends accelerating renewables under technological neutrality, alongside nuclear.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises",
+      "outlet": "attalpresident.fr (campaign press conference)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-23",
+      "quote": "Il défend aussi l'accélération des énergies renouvelables dans une logique de neutralité technologique."
+     }
+    ],
+    "nuance": "Wind is not named specifically; confidence medium for that reason."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance favours reforming, not leaving, the European electricity market; Attal targets a ~75 EUR/MWh price and sub-50 contracts for exposed industry, while promoting deeper EU economic integration ('États-Unis d'Europe').",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises",
+      "outlet": "attalpresident.fr (campaign press conference)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-23",
+      "quote": "un prix de l'électricité autour de 75 €/MWh"
+     }
+    ],
+    "nuance": "No explicit statement on the EU market; price target does not imply exit."
+   },
+   {
+    "id": "ins1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance defends the Fifth Republic; Attal calls for a deep transformation of institutions (speed, authority, giving power back to citizens) but not a new parliamentary constitution.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france",
+      "outlet": "attalpresident.fr (summary of BFM TV interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-06",
+      "quote": "faire évoluer les institutions pour rendre davantage de pouvoir aux Français"
+     }
+    ],
+    "nuance": "No explicit rejection of a VIe République found; his institutional reform talk is about speed and authority, so partial opposition."
+   },
+   {
+    "id": "ins2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Macron's camp has been open to some proportionality; Attal's own current stance not retrieved.",
+    "sources": [],
+    "nuance": "Mixed/uncertain."
+   },
+   {
+    "id": "ins3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance has opposed the RIC as written.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved on Attal's position on restricting 49.3.",
+    "sources": [],
+    "nuance": "Draft claim that he used 49.3 'on the 2025-type budget debates' as PM is wrong: he was PM Jan-Sep 2024 and did not carry a budget through Parliament. No personal statement found."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Attal proposes a referendum on banning social networks for under-15s and wants institutions that give 'more power to the French'; no explicit proposal to widen referendum scope to immigration or justice.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-remettre-l-exigence-au-coeur-de-l-ecole-et-transformer-le-modele-francais-sur-france-info",
+      "outlet": "attalpresident.fr (summary of France Info interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "Je propose qu'il puisse y avoir un référendum sur le sujet, que les Français se prononcent"
+     }
+    ],
+    "nuance": "Inferred from his openness to referendums; the immigration/justice scope is not confirmed."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Renaissance broadly supported the end-of-life bill with strict conditions; Attal's personal vote was not verified in this pass.",
+    "sources": [],
+    "nuance": "Renaissance gave its deputies a free vote, so party line is weak evidence; his recorded vote on the May 2025 first reading should be checked on assemblee-nationale.fr or datan.fr."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "On BFM TV (6 Sep 2026) Attal rejected a general ban on the headscarf for adult women, while defending stronger protection of minors and the 2004 school law.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france",
+      "outlet": "attalpresident.fr (summary of BFM TV interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-06",
+      "quote": "sans instaurer d'interdiction générale du voile pour les femmes adultes"
+     }
+    ],
+    "nuance": "He favours restrictions for minors and in school, so not opposed to all restrictions, but clearly against a ban in all public space."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved on accompanying parents or universities.",
+    "sources": [],
+    "nuance": "Draft +1 was inferred with no source. His 2026 line opposes a general ban for adult women, which cuts against the inference, while his school laïcité line cuts for it; not coded."
+   },
+   {
+    "id": "soc4",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Attal defends freedom of belief and no general veil ban for adults, but supports further restrictions (abaya ban in schools, reinforced protection of minors).",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france",
+      "outlet": "attalpresident.fr (summary of BFM TV interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-06",
+      "quote": "Il défend en revanche une protection renforcée des mineurs"
+     }
+    ],
+    "nuance": "Partial opposition: he backs extra restrictions for minors and in school."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Macron's camp has opposed legalising GPA; no personal Attal statement retrieved.",
+    "sources": [],
+    "nuance": "Not verified live; strength rests on party line only."
+   },
+   {
+    "id": "edu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As education minister Attal launched a school-uniform experiment in about ten schools (2023-24); he has not been found proposing a nationwide mandatory uniform.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "paraphrase: announced an experimentation of school uniforms in ten establishments, largely abandoned by summer 2026"
+     }
+    ],
+    "nuance": "Experiment only, not a general obligation; it is absent from his 2026 education programme."
+   },
+   {
+    "id": "edu2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme targets fewer than 20 pupils per primary class, funded by demographic decline rather than large-scale hiring.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/education",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "nous devons viser moins de 20 élèves par classe comme dans les meilleurs systèmes éducatifs européens"
+     }
+    ],
+    "nuance": "Supports smaller classes but via keeping posts as pupil numbers fall, not mass recruitment."
+   },
+   {
+    "id": "edu3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Attal introduced groupes de niveau as minister (Choc des savoirs) and in 2026 pledges to restore them in French and maths at collège after successors dropped them.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-remettre-l-exigence-au-coeur-de-l-ecole-et-transformer-le-modele-francais-sur-france-info",
+      "outlet": "attalpresident.fr (summary of France Info interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "notamment les groupes de niveau en français et en mathématiques au collège"
+     },
+     {
+      "url": "https://attalpresident.fr/programme/education",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "l'une de mes premières décisions sera d'en rétablir les mesures"
+     }
+    ],
+    "nuance": "Reform was abandoned by successors; he wants it back."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence that Attal backs cutting funding for private schools missing social-mix targets.",
+    "sources": [],
+    "nuance": "Draft attributed to Attal a pact tying private-school funding to social mix; the 2023 social-mix protocol with Catholic education was signed under his predecessor and did not cut funding. Not coded."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme proposes to 'démassifier l'enseignement supérieur' and shorten studies, the opposite of abolishing selection; Renaissance created and defends Parcoursup.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/programme/travail-salaires",
+      "outlet": "attalpresident.fr (campaign programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "je propose de démassifier l'enseignement supérieur"
+     }
+    ],
+    "nuance": "No explicit Parcoursup quote; coded from programme direction plus party record."
+   },
+   {
+    "id": "san1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Government line favoured mandatory short missions in under-served zones, not forced installation.",
+    "sources": [],
+    "nuance": "Mixed; not verified live."
+   },
+   {
+    "id": "san2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "As PM Attal doubled the franchises médicales, and his campaign cites this as a spending-cut achievement while planning 100bn of cuts to social spending.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-dans-politico-europe-ukraine-ia-et-finances-publiques-quatre-priorites-pour-preparer-la-france-de-demain",
+      "outlet": "attalpresident.fr (summary of POLITICO interview)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-24",
+      "quote": "fin du bouclier tarifaire sur l'électricité, annulation de 10 Md€ de crédit, doublement des franchises médicales"
+     }
+    ],
+    "nuance": "No new proposal to raise them further found, but he enacted and still claims the doubling."
+   },
+   {
+    "id": "san3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Attal campaigns on a supply shock and simplification to free up housing; rent control is absent from his housing plan, and it stayed optional and limited under the Macron camp.",
+    "sources": [
+     {
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment",
+      "outlet": "attalpresident.fr (campaign news)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-29",
+      "quote": "relancer le marché du logement en levant les freins à la construction et à l'investissement"
+     }
+    ],
+    "nuance": "No explicit rent-control statement; inferred from supply-side focus."
+   },
+   {
+    "id": "san4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Renaissance generally favours competition in rail and other services; Attal's programme favours ordering services from private firms (AI) and supply-side policy.",
+    "sources": [],
+    "nuance": "Inferred; no statement on opening transport or energy further to competition."
+   }
+  ],
+  "verification_notes": [
+   "Verification constraint: WebSearch budget was already exhausted (200/200) for this session, so verification used direct fetches of attalpresident.fr programme and news pages and fr.wikipedia. Most new sources are the campaign's own site; independent cross-lean corroboration could not be done.",
+   "int1: +2 medium record_in_office, no sources -> +2 high statement: confirmed by programme 'Frontières' and BFM TV 21 Sep 2026 ('amplifier son soutien à l'Ukraine'); sources added.",
+   "int3: sources [] -> programme 'nos alliances' cited; code unchanged.",
+   "int5: evidence inferred -> programme: programme says 'poursuivre et amplifier ce réarmement' but gives no 3% figure; code +1 unchanged.",
+   "int6: evidence statement -> record_in_office: no statement retrieved; the SNU record (Wikipedia) is the actual basis; code +1 low unchanged.",
+   "int7: party_line -> statement (code -2 unchanged): RTL 25 Sep 2026 attacks Le Pen over sanctions and backs seizing frozen Russian assets.",
+   "ecol3: added RTL EV-leasing source; code 0 unchanged.",
+   "ecol5: -1 low inferred -> 0 low programme: programme says growth and decarbonisation 'ne s'opposent pas' and calls to triple the pace of emission cuts; the pro-growth lean was not supported.",
+   "ene1: +1 medium party_line -> +2 high programme: Plan Messmer II (23 Sep 2026) commits to 14 EPR and one reactor a year.",
+   "ene2: party_line -> programme (code -2 high unchanged): 14 EPR plus one reactor a year.",
+   "ene3: -1 low party_line -> -2 medium programme: he 'défend aussi l'accélération des énergies renouvelables'; wind not named, hence medium.",
+   "ene4: added Messmer II price-target source; code unchanged.",
+   "ins1: -2 medium -> -1 low: no personal evidence of strong opposition; he calls for deep institutional transformation (BFM 6 Sep 2026), so off-by-one strength corrected.",
+   "ins4: 0 low record_in_office -> null none: the draft's factual claim (used 49.3 on '2025-type budget' as PM) is wrong, since he was PM Jan-Sep 2024 and passed no budget; no statement found.",
+   "ins5: added France Info source on proposed referendum on social networks; code +1 low unchanged.",
+   "soc1: confidence medium -> low: free vote in Renaissance makes party line weak; his personal vote was not verified.",
+   "soc2: -2 medium record_in_office -> -2 high statement: BFM TV 6 Sep 2026 'sans instaurer d'interdiction générale du voile pour les femmes adultes'.",
+   "soc3: +1 low inferred -> null none: no source, and his rejection of a general veil ban for adults cuts against the inference.",
+   "soc4: low record_in_office -> medium statement (code -1 unchanged): BFM TV 6 Sep 2026 'protection renforcée des mineurs'.",
+   "soc5: confidence medium -> low: party line only, no personal statement retrieved.",
+   "edu1: +2 medium -> +1 medium: record is a 10-school experiment, not a mandatory uniform, and it is absent from his 2026 programme; the source quote was relabelled as a paraphrase.",
+   "edu2: +1 low inferred -> +1 medium programme: programme targets fewer than 20 pupils per primary class via demographic decline, not mass hiring.",
+   "edu3: +2 high record_in_office -> +2 high statement: France Info 9 Sep 2026 and programme pledge to restore groupes de niveau; current campaign sources replace the Wikipedia-only source.",
+   "edu4: +1 medium record_in_office -> null none: the claimed Attal pact tying private-school funding to social mix could not be confirmed; the 2023 protocol was signed under his predecessor and cut no funding.",
+   "edu5: party_line -> programme (code -2 unchanged, medium): programme proposes 'démassifier l'enseignement supérieur'.",
+   "san2: 0 low party_line -> +2 medium record_in_office: campaign cites 'doublement des franchises médicales' under his premiership as an achievement.",
+   "san3: added Batimat housing source (29 Sep 2026); code -1 low unchanged.",
+   "ecol1/ecol2/ecol4/int2/int4/ins2/ins3/san1/san4: no extra evidence could be retrieved because the search budget was exhausted; codes kept as drafted."
+  ]
+ }
+}

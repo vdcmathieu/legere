@@ -1,0 +1,343 @@
+{
+ "collect": {
+  "candidate": "Éric Zemmour",
+  "bio": "Éric Zemmour, born 31 August 1958 in Montreuil, is a French journalist, essayist and politician. He worked at Le Figaro, RTL, Paris Première and CNews before founding Reconquête in December 2021. He finished fourth in the 2022 presidential election with 7.07% and confirmed his 2027 candidacy on BFM TV on 17 September 2026. Reconquête is classed as far-right and national-conservative, and campaigns on \"zero immigration\", assimilation and Euroscepticism.",
+  "offices": [
+   {
+    "office": "Presidential candidate (4th, 7.07%)",
+    "from": "2021",
+    "to": "2022",
+    "kind": "other"
+   },
+   {
+    "office": "Founder and president of Reconquête",
+    "from": "2021-12",
+    "to": "present",
+    "kind": "party"
+   },
+   {
+    "office": "Candidate in Var 4th constituency (eliminated first round, 23.19%)",
+    "from": "2022",
+    "to": "2022",
+    "kind": "other"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Provocation à la discrimination raciale (Canal+ remarks on traffickers), 2011 conviction",
+    "status": "convicted_final",
+    "date": "2011",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Provocation à la haine religieuse envers les musulmans, 2018 conviction",
+    "status": "convicted_final",
+    "date": "2018",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Diffamation publique envers une administration publique",
+    "status": "convicted_final",
+    "date": "2021-06",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Contrefaçon de droit d'auteur (images in campaign announcement video), tribunal judiciaire de Paris, damages over 10,000 EUR",
+    "status": "convicted_final",
+    "date": "2022-03",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure à caractère raciste",
+    "status": "convicted_final",
+    "date": "2023-01",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Complicité de diffamation; provocation à la haine contre migrants et mineurs isolés (CNews 2020 remarks)",
+    "status": "convicted_final",
+    "date": "2024-02",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure raciale conviction",
+    "status": "convicted_final",
+    "date": "2025-03",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Contestation de crime contre l'humanité (Pétain and Jews remarks), 10,000 EUR fine",
+    "status": "convicted_appeal_pending",
+    "date": "2025-04",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Contrefaçon de droits d'auteur (second case)",
+    "status": "civil_or_other",
+    "date": "2026-01",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   }
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "No national or local executive or legislative office held. Track record is electoral: 7.07% in the 2022 presidential first round, 4.24% for Reconquête in the 2022 legislative elections with no seats, and 5.47% (5 MEPs) in the 2024 European elections.",
+    "assessment": "Founded a durable party and brought immigration and identity to the centre of debate, but won no seats in 2022. Four of the five 2024 MEPs, including Marion Maréchal, were expelled in June 2024 after backing a right-wing coalition with the RN. Only Wikipedia was consulted, so no balanced multi-lean assessment is available.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+     "https://fr.wikipedia.org/wiki/Reconquête_(parti_politique)"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified this session (search quota exhausted). Left outlets are generally expected to describe him as far-right and to stress his multiple convictions for racial hatred and insult.",
+   "right_media": "Not verified this session. CNews, Europe 1 and JDD are generally expected to cast him as a candidate who speaks plainly on immigration and identity and as a victim of judicial pursuit.",
+   "neutral_media": "Not verified this session. Institutional outlets are generally expected to call him far-right and to report the convictions and Reconquête's internal split factually."
+  },
+  "sources_note": "The WebSearch budget (200 calls) was exhausted, so only three Wikipedia pages could be fetched: the Zemmour, 2027 presidential election and Reconquête articles. The 2027 programme, primary sources, per-case appeal and cassation status, policy reversals, traits and media portrayal are unverified. The legal list comes from a secondary summary that did not give appeal or CEDH outcomes, so the status labels are best-effort and should be checked. A rerun with a fresh search quota is recommended."
+ },
+ "verify": {
+  "candidate": "Éric Zemmour",
+  "bio": "Éric Zemmour, born 31 August 1958 in Montreuil, is a French journalist, essayist and politician. He worked at Le Figaro, RTL, Paris Première and CNews before founding Reconquête in December 2021. He finished fourth in the 2022 presidential election with 7.07% and confirmed his 2027 candidacy on BFM TV on 17 September 2026. Reconquête is classed as far-right and national-conservative, and campaigns on \"zero immigration\", assimilation and Euroscepticism.",
+  "offices": [
+   {
+    "office": "Presidential candidate (4th, 7.07%)",
+    "from": "2021",
+    "to": "2022",
+    "kind": "other"
+   },
+   {
+    "office": "Founder and president of Reconquête",
+    "from": "2021-12",
+    "to": "present",
+    "kind": "party"
+   },
+   {
+    "office": "Candidate in Var 4th constituency (3rd, eliminated first round, 23.19%)",
+    "from": "2022",
+    "to": "2022",
+    "kind": "other"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Provocation à la discrimination raciale (March 2010 remarks on Canal+ 'Salut les Terriens' and France Ô): 17e chambre, tribunal de Paris, 18 Feb 2011, 1,000 EUR suspended fine in each of two judgments plus damages; Zemmour announced on 1 March 2011 he would not appeal",
+    "status": "convicted_final",
+    "date": "2011-02-18",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Provocation à la haine religieuse envers les musulmans (France 5 'C à vous', Sept 2016): cour d'appel de Paris 3 May 2018, 5,000 EUR fine; pourvoi rejected by the Cour de cassation 17 Sept 2019; ECHR (Zemmour v. France) found no violation of Article 10 on 20 Dec 2022",
+    "status": "convicted_final",
+    "date": "2019-09-17",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+     "https://www.lefigaro.fr/politique/cedh-eric-zemmour-deboute-pour-propos-des-discriminatoires-en-2016-20221220"
+    ]
+   },
+   {
+    "case": "Complicité d'injure publique et provocation à la haine (CNews 'Face à l'info', Sept 2020 remarks on unaccompanied migrant minors): tribunal de Paris 17 Jan 2022, 10,000 EUR (100 day-fines of 100 EUR); confirmed on appeal; pourvoi rejected by the Cour de cassation 2 Dec 2025",
+    "status": "convicted_final",
+    "date": "2025-12-02",
+    "sources": [
+     "https://www.leclubdesjuristes.com/en-bref/la-cour-de-cassation-confirme-deux-condamnations-deric-zemmour-pour-complicite-dinjure-publique-provocation-a-la-haine-et-pour-diffamation-13229/",
+     "https://www.franceinter.fr/justice/propos-sur-les-mineurs-isoles-eric-zemmour-condamne-condamne-a-10-000-euros-d-amende",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure publique et provocation à la haine raciale (speech at the 'Convention de la droite', 28 Sept 2019): convicted at first instance 25 Sept 2020, acquitted on appeal 8 Sept 2021, acquittal quashed by the Cour de cassation 21 Feb 2023, convicted on retrial by the cour d'appel de Paris 22 Feb 2024 (15,000 EUR fine); pourvoi rejected 16 Sept 2025",
+    "status": "convicted_final",
+    "date": "2025-09-16",
+    "sources": [
+     "https://www.franceinfo.fr/politique/eric-zemmour/eric-zemmour-definitivement-condamne-pour-des-propos-racistes-en-2019_7497130.html",
+     "https://www.nouvelobs.com/politique/20240222.AFP7206/eric-zemmour-condamne-a-15-000-euros-d-amende-pour-une-diatribe-anti-immigration-en-2019.html",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure à caractère raciste against Hapsatou Sy: tribunal de Paris 12 Jan 2023, 4,000 EUR fine; confirmed by the cour d'appel de Paris 28 March 2024; pourvoi rejected by the Cour de cassation 2 Sept 2025",
+    "status": "convicted_final",
+    "date": "2025-09-02",
+    "sources": [
+     "https://www.francetvinfo.fr/politique/eric-zemmour/confirmation-en-appel-de-la-condamnation-d-eric-zemmour-pour-injure-raciste-envers-hapsatou-sy_6453914.html",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Diffamation against lawyer Patrick Klugman (April 2022 France 2 remarks on the death of Jérémie Cohen): convicted Jan 2024, 1,000 EUR fine; confirmed on appeal Dec 2024; pourvoi rejected by the Cour de cassation 2 Dec 2025",
+    "status": "convicted_final",
+    "date": "2025-12-02",
+    "sources": [
+     "https://www.ledauphine.com/faits-divers-justice/2024/01/18/affaire-jeremie-cohen-eric-zemmour-condamne-pour-diffamation",
+     "https://www.leclubdesjuristes.com/en-bref/la-cour-de-cassation-confirme-deux-condamnations-deric-zemmour-pour-complicite-dinjure-publique-provocation-a-la-haine-et-pour-diffamation-13229/"
+    ]
+   },
+   {
+    "case": "Complicité de diffamation publique envers une administration publique (INED; April 2021 CNews claim that INED 'trafique les chiffres'): tribunal de Paris 29 Jan 2024, 1,500 EUR suspended fine; confirmed on appeal 11 Dec 2024; pourvoi rejected by the Cour de cassation 27 Jan 2026",
+    "status": "convicted_final",
+    "date": "2026-01-27",
+    "sources": [
+     "https://actualitte.com/article/129048/droit-justice/cour-de-cassation-zemmour-et-cnews-definitivement-condamnes-dans-l-affaire-ined",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Complicité de diffamation publique against MP Danièle Obono (2020 CNews remarks): tribunal correctionnel de Paris 7 Feb 2024, 1,000 EUR suspended fine; confirmed on appeal Jan 2025; Cour de cassation confirmed the case in June 2026",
+    "status": "convicted_final",
+    "date": "2026-06",
+    "sources": [
+     "https://www.mediapart.fr/journal/politique/260626/cnews-definitivement-condamnee-pour-les-propos-diffamatoires-d-eric-zemmour-contre-daniele-obono",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure raciale (remarks after the Crépol killing): tribunal correctionnel de Paris 26 March 2025, 9,000 EUR (60 day-fines of 150 EUR); acquitted on other counts; Zemmour announced an appeal. Appeal outcome not verified",
+    "status": "convicted_appeal_pending",
+    "date": "2025-03-26",
+    "sources": [
+     "https://www.france24.com/fr/info-en-continu/20250326-cr%C3%A9pol-eric-zemmour-condamn%C3%A9-pour-injure-raciale",
+     "https://www.bfmtv.com/police-justice/eric-zemmour-condamne-pour-injure-raciale-apres-des-propos-sur-le-drame-de-crepol_AD-202503260432.html"
+    ]
+   },
+   {
+    "case": "Contestation de crime contre l'humanité (Oct 2019 CNews claim that Pétain 'saved French Jews'): acquitted at first instance (4 Feb 2021) and on appeal (May 2022); acquittal quashed by the Cour de cassation 5 Sept 2023; convicted on retrial by the cour d'appel de Paris 2 April 2025, 10,000 EUR fine; Zemmour announced a pourvoi en cassation. Cassation outcome not verified",
+    "status": "convicted_appeal_pending",
+    "date": "2025-04-02",
+    "sources": [
+     "https://www.courdecassation.fr/toutes-les-actualites/2023/09/05/contestation-de-lexistence-de-crime-contre-lhumanite-par-un-homme",
+     "https://www.lefigaro.fr/petain-sauveur-de-juifs-francais-eric-zemmour-condamne-a-10-000-euros-d-amende-20250402",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Civil judgment for contrefaçon de droits d'auteur and atteinte au droit moral (film extracts in his campaign announcement video): tribunal judiciaire de Paris 4 March 2022, Zemmour and Reconquête ordered to pay about 70,000 EUR to Gaumont, EuropaCorp, Luc Besson, SACD and others; no appeal filed",
+    "status": "civil_or_other",
+    "date": "2022-03-04",
+    "sources": [
+     "https://www.francetvinfo.fr/elections/presidentielle/eric-zemmour-condamne-pour-contrefacon-de-droits-d-auteur-dans-son-clip-d-annonce-de-candidature_4991810.html",
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Contrefaçon de droits d'auteur (unauthorised extracts of the documentary 'Le Collège d'à côté'): judgment of 16 Jan 2026; court, amount and appeal status not verified",
+    "status": "civil_or_other",
+    "date": "2026-01-16",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Injure homophobe (Oct 2019 CNews remarks): convicted at first instance 28 Sept 2023 (4,000 EUR), acquitted by the cour d'appel de Paris 12 Sept 2024; a civil party (Stop Homophobie) said it would file a pourvoi",
+    "status": "acquitted",
+    "date": "2024-09-12",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Provocation à la discrimination (Jan 2022 Public Sénat remarks on immigration and crime), prosecuted by LDH and SOS Racisme: acquitted by the tribunal correctionnel de Paris",
+    "status": "acquitted",
+    "date": "2025-07",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Diffamation (Feb 2022 France Inter remarks comparing French towns to Afghanistan): acquitted 12 Nov 2024, acquittal confirmed on appeal Oct 2025; Vitry-sur-Seine filed a pourvoi",
+    "status": "acquitted",
+    "date": "2025-10",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Contestation de crime contre l'humanité (book passage calling the deportation of homosexuals from France a 'légende'): acquitted 18 Sept 2025; plaintiffs' appeal dismissed June 2026",
+    "status": "acquitted",
+    "date": "2026-06",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Diffamation against teacher Sophie Djigo (2022), tried with nine RN officials 30-31 March 2026: acquitted June 2026; the teacher announced an appeal",
+    "status": "acquitted",
+    "date": "2026-06",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   },
+   {
+    "case": "Prosecution before the 17e chambre for 2021 and 2022 CNews remarks about Senegalese crack dealers (renvoi ordered May 2024). Trial outcome not verified",
+    "status": "indicted",
+    "date": "2024-05",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour"
+    ]
+   }
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "He has held no national or local executive or legislative office, so his record is electoral. He won 7.07% in the 2022 presidential first round. In the 2022 legislative elections Reconquête won no seats; its national share is given as 4.24% in the draft and 3.61% on Reconquête's Wikipedia page. In the 2024 European elections it won 5.47% and 5 MEPs.",
+    "assessment": "He founded a party that has lasted since December 2021 but has won no seats in the National Assembly. Four of its five MEPs elected in 2024 (Marion Maréchal, Nicolas Bay, Guillaume Peltier and Laurence Trochu) were expelled in June 2024 after calling for support of the RN-led right-wing coalition; Sarah Knafo stayed. Only Wikipedia was checked for this item, so no balanced assessment from sources of different leanings is available.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+     "https://fr.wikipedia.org/wiki/Reconquête_(parti_politique)"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Only partly verified. Mediapart (left) reported the final Obono defamation ruling as the latest in a long list of sanctions. Its standfirst reads: 'Dernière sanction d'une longue liste'. Libération (centre-left) also covers each conviction in detail (headlines seen in Wikipedia citations). No wider sample was checked.",
+   "right_media": "Not verified. No CNews, Europe 1, JDD or Valeurs actuelles coverage was opened this session, so their portrayal is not documented here. Le Figaro (centre-right) covered the 2022 ECHR ruling and the 2025 Pétain conviction in factual headlines (URL slugs only; the pages could not be fetched).",
+   "neutral_media": "Partly verified. franceinfo calls him the 'candidat d'extrême droite' and reports his convictions and their final status factually. AFP dispatches (via L'Obs) and France 24 report court decisions without adding commentary."
+  },
+  "sources_note": "WebSearch was unavailable (the session's 200-call quota was used up), so verification relied on direct fetches. These were the raw text of the French Wikipedia pages on Zemmour, Reconquête and the 2027 election, plus the cited articles that could be opened or checked by HTTP status: franceinfo, AFP via L'Obs, France 24, BFM TV, Radio France, Le Dauphiné, Le Club des juristes, ActuaLitté, Mediapart (metadata only), courdecassation.fr, and Le Figaro (HTTP 200, but the content could not be fetched). Le Monde and Libération pages block automated access, so they are not cited. Legal statuses come from court decisions reported up to mid-2026. Two convictions are still under appeal: the Crépol case on appeal and the Pétain case at cassation. Their later outcomes, if any, could not be checked and should be rechecked before publication. No right-leaning outlet was opened, so media_portrayal is unbalanced by omission, and traits and reversals stay empty for lack of sources of more than one leaning.",
+  "verification_notes": [
+   "legal[0] 2011 case: date '2011' -> '2011-02-18'; outlet names added: exact date from the tribunal judgment. Zemmour waived his appeal on 1 March 2011, so convicted_final stands.",
+   "legal[1] 2018 religious hatred: date '2018' -> '2019-09-17'; ECHR 20 Dec 2022 added: the conviction became final when the Cour de cassation rejected the pourvoi, and the ECHR found no violation. Le Figaro URL added (HTTP 200).",
+   "legal[2] 'Diffamation publique envers une administration publique', 2021-06 -> INED case, 2026-01-27: June 2021 was only the date INED filed its complaint. The decisions were first instance 29 Jan 2024, appeal 11 Dec 2024 and cassation 27 Jan 2026 (ActuaLitté). convicted_final is now correct; before Jan 2026 it would not have been.",
+   "legal[3] contrefaçon 2022: status convicted_final -> civil_or_other; amount 'over 10,000 EUR' -> 'about 70,000 EUR': this was a civil judgment for damages, not a criminal conviction. franceinfo gives a total of 70,000 EUR, while Wikipedia gives 165,000 EUR, so the franceinfo figure is used. No appeal was filed.",
+   "legal[4] 'Injure à caractère raciste' 2023-01 -> Hapsatou Sy case, date 2025-09-02: the first-instance ruling of 12 Jan 2023 was upheld on appeal (28 March 2024) and the pourvoi was rejected on 2 Sept 2025, so the case is final. franceinfo URL added.",
+   "legal[5] 'Complicité de diffamation; provocation à la haine contre migrants et mineurs isolés (CNews 2020)', 2024-02 -> split into three separate cases: the draft merged unrelated proceedings. (a) CNews mineurs isolés remarks: first instance 17 Jan 2022, final on 2 Dec 2025 (Club des juristes). (b) Convention de la droite 2019 speech: appeal retrial 22 Feb 2024 (15,000 EUR), final on 16 Sept 2025 (franceinfo). (c) Danièle Obono defamation: first instance 7 Feb 2024, appeal Jan 2025, cassation June 2026 (Mediapart).",
+   "legal[6] 'Injure raciale conviction' 2025-03 status convicted_final -> convicted_appeal_pending, date -> 2025-03-26: this is the Crépol case (9,000 EUR). France 24 reports that Zemmour announced an appeal, and no final ruling was found, so labelling it final would breach the presumption of innocence.",
+   "legal[7] Pétain case: status convicted_appeal_pending kept; date '2025-04' -> '2025-04-02'; full procedural history added. Wikipedia's summary label 'Final' was wrong: the cour d'appel convicted him on 2 April 2025 and he announced a pourvoi. The cassation outcome was not found. The Cour de cassation release (2023) and the Le Figaro URL were added.",
+   "legal[8] contrefaçon second case: date '2026-01' -> '2026-01-16'; case text clarified (documentary 'Le Collège d'à côté'); civil_or_other kept: the court and appeal status could not be verified because Libération and the archive are blocked.",
+   "legal: added Klugman defamation (convicted_final, 2025-12-02): this personal conviction was missing from the draft and its cassation rejection is confirmed by Le Club des juristes.",
+   "legal: added five acquittals (homophobic insult on appeal 2024-09; Public Sénat remarks 2025-07; France Inter 'Afghanistan' remarks 2025-10; deportation of homosexuals 2026-06; Sophie Djigo 2026-06) and one pending prosecution (Senegalese crack-dealer remarks, renvoi May 2024): the brief asks for every case involving him with its current status, and acquittals are part of the record. Their source is Wikipedia only.",
+   "legal sources: Wikipedia-only sourcing was replaced or supplemented with neutral or primary URLs wherever one could be opened or returned HTTP 200. Le Monde and Libération URLs were not added because their existence could not be confirmed (HTTP 402/403 bot blocks), and the 20minutes 2011 URL returned 404 and was not used.",
+   "offices[2]: 'eliminated first round, 23.19%' -> '3rd, eliminated first round, 23.19%': Wikipedia confirms he finished third. executive_experience_years 0 confirmed: he has held no executive office.",
+   "bio: checked. The candidacy confirmation on BFM TV on 17 Sept 2026 is confirmed by the Wikipedia page on the 2027 election, and the 7.07% figure by the Zemmour page. No change.",
+   "delivery[0] what: 'Reconquête 4.24% in 2022 legislatives' -> range of 4.24% / 3.61% flagged: Reconquête's Wikipedia page gives 3.61%, which conflicts with the draft's 4.24%, and the primary Interior Ministry figure could not be checked.",
+   "delivery[0] assessment: removed 'brought immigration and identity to the centre of debate': this is an evaluative claim sourced only to Wikipedia, with no corroboration from sources of different leanings. The names of the four expelled MEPs, and the fact that Sarah Knafo stayed, were added from the Reconquête page.",
+   "media_portrayal: speculative 'generally expected to...' text -> only what was observed. franceinfo uses 'candidat d'extrême droite'. Mediapart's standfirst reads 'Dernière sanction d'une longue liste'. Right-leaning portrayal is marked not verified: the draft described what outlets were expected to say, which is not documented evidence.",
+   "traits: kept empty: no trait could be attested by sources of two different leanings this session.",
+   "reversals: kept empty: no documented reversal was verified.",
+   "sources_note: rewritten to describe the sources actually used in this verification pass and the items that remain unverified (the Crépol appeal outcome and the Pétain cassation outcome)."
+  ]
+ }
+}

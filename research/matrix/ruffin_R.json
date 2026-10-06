@@ -1,0 +1,190 @@
+{
+ "collect": {
+  "candidate": "François Ruffin",
+  "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the local newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for Somme's 1st constituency since 2017 and sat with the LFI group until 2024, though he never formally joined the party. He broke with Jean-Luc Mélenchon in July 2024, became president of Debout ! on 28 June 2025 and, per Wikipedia, announced a bid for the left primary and then a presidential run after that primary was cancelled.",
+  "offices": [
+   {
+    "office": "Deputy for Somme, 1st constituency (elected 2017, re-elected 2022 and 2024)",
+    "from": "2017-06-21",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Secretary of the Economic Affairs Commission, Assemblée nationale",
+    "from": "2017-06-29",
+    "to": "unknown",
+    "kind": "legislative"
+   },
+   {
+    "office": "Spokesperson, Picardie debout !",
+    "from": "2017-02-17",
+    "to": "2025-06-28",
+    "kind": "party"
+   },
+   {
+    "office": "President, Debout !",
+    "from": "2025-06-28",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Civil defamation ruling by the Amiens tribunal over statements in his book Quartier Nord about neighbourhood residents (Wikipedia describes him as found liable)",
+    "status": "civil_or_other",
+    "date": "2008",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "case": "Victim, not accused: Mediapart reported LVMH hired Kyrnos (Bernard Squarcini) to surveil Ruffin and Fakir in 2015-2016. Arnault denied involvement. Judicial outcome unclear in the source.",
+    "status": "investigation",
+    "date": "2019",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "case": "HATVP reported a EUR 431,973 undervaluation of his audiovisual production company in his asset declaration. No criminal proceedings are reported in the source.",
+    "status": "civil_or_other",
+    "date": "2023",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   }
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Merci patron! documentary (2016) on the LVMH/Arnault case, which won a César. Parliamentary work includes a high volume of amendments (4,098 rejected in the first year) and the SMIC-salary pledge, with most of his parliamentary pay passed to associations and the PCF.",
+    "assessment": "Wikipedia reports high amendment volume but low early attendance (22% in his first year). Few of his own texts have been passed. I could not do a roll-call vote review or find any balanced outlet assessment because the web search budget ran out.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "what": "Initiated the Nouveau Front populaire coalition in June 2024 and then left LFI on 4 July 2024.",
+    "assessment": "Described as a strategic split with Mélenchon. No outlet of differing lean was consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Independent, populist-left, protectionist positioning bridging working-class and intellectual left",
+    "evidence": "Wikipedia summary of his stances and media portrayal. Only one source, so this does not meet the two-source threshold.",
+    "source_leans": [
+     "centre/neutral-institutional (Wikipedia)"
+    ]
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified. Search was unavailable.",
+   "right_media": "Not verified. Search was unavailable.",
+   "neutral_media": "Per Wikipedia: increasingly independent, bridging popular classes and the intellectual left. Criticised over low attendance, ethics episodes at Fakir (2017) and accusations of dog-whistles (2018) that he disputed."
+  },
+  "sources_note": "Severely limited. WebSearch was refused (200-call session budget exhausted), so only two Wikipedia pages (François Ruffin, Debout !) were fetched. No primary sources (programme, votes on datan or nosdeputes) and no multi-lean outlet corroboration were obtained. All content is secondary and unverified for 2025-2026, including candidacy dates, and the legal and reversals sections are incomplete. The empty reversals list means not researched, not that none exist. Rerun with search budget to complete."
+ },
+ "verify": {
+  "candidate": "François Ruffin",
+  "bio": "François Ruffin, born 18 October 1975 in Calais, is a journalist, documentary maker, essayist and politician. He founded the newspaper Fakir in 1999 and directed the documentary Merci patron! (2016, César for best documentary 2017). He has been deputy for the Somme's 1st constituency since 2017, elected under the LFI label and sitting in the LFI group without being a formal party member; after breaking with Jean-Luc Mélenchon he left LFI on 4 July 2024 and joined the ecologist group (EcoS). He became president of Debout ! on 28 June 2025 and announced on 26 January 2026 that he was standing in the left primary. According to Wikipedia's Debout ! article, the primary was later cancelled and the party then planned to put him forward directly for the presidency.",
+  "offices": [
+   {
+    "office": "Deputy for Somme, 1st constituency (elected 2017, re-elected 2022 and 2024; LFI group 2017-2024, ecologist group from July 2024)",
+    "from": "2017-06-21",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Secretary of the Economic Affairs Commission, Assemblée nationale",
+    "from": "2017-06-29",
+    "to": "unknown",
+    "kind": "legislative"
+   },
+   {
+    "office": "Spokesperson, Picardie debout !",
+    "from": "2017-02-17",
+    "to": "2025-06-28",
+    "kind": "party"
+   },
+   {
+    "office": "President, Debout ! (renamed from Picardie debout !)",
+    "from": "2025-06-28",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "Civil defamation suit at the Amiens tribunal over the portrayal of a resident in his 2006 book Quartier Nord. Wikipedia reports that he was found liable (condamné). No primary court source was available.",
+    "status": "civil_or_other",
+    "date": "2008",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "case": "Ruffin was a victim, not a defendant. LVMH paid Bernard Squarcini's firm Kyrnos to surveil Ruffin and Fakir (March 2015 to February 2016). LVMH settled through a EUR 10 million CJIP, approved on 17 December 2021. On 7 March 2025 the Paris court convicted Squarcini, among other charges, and sentenced him to 4 years (2 of them custodial), a EUR 200,000 fine and a 5-year professional ban. His lawyers said he would appeal.",
+    "status": "civil_or_other",
+    "date": "2025-03-07",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Bernard_Squarcini",
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "case": "The HATVP observed that his asset declaration undervalued his audiovisual production company by EUR 431,973. This was an administrative observation, and no criminal proceedings are reported.",
+    "status": "civil_or_other",
+    "date": "2023",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   }
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Directed the documentary Merci patron! (2016) about LVMH and Bernard Arnault, which won the 2017 César. As a deputy he tabled a high volume of amendments (4,098 in his first term, nearly all rejected). He keeps the net SMIC from his pay and gives about EUR 3,000 a month to associations. He also directed his public party-funding allocation to the PCF.",
+    "assessment": "Wikipedia reports a high volume of amendments and commission interventions (162). It also reports low attendance in his first year: he was the least present LFI deputy at votes (22%), and he was among the least present in commission. Few texts of his own were adopted. No roll-call review and no assessment from outlets of different leanings could be obtained.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   },
+   {
+    "what": "Called for a united left front in June 2024, which became the Nouveau Front populaire. He then left LFI on 4 July 2024 and joined the ecologist group.",
+    "assessment": "Wikipedia describes it as a split with Mélenchon over a deep moral and electoral disagreement. No outlet of a different leaning was consulted.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/François_Ruffin"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not verified, because search was unavailable.",
+   "right_media": "Not verified, because search was unavailable.",
+   "neutral_media": "Per Wikipedia, outlets describe him as increasingly independent of LFI and as seeking to reconnect the left with working-class voters. Reported criticisms include low attendance in his first year, Fakir staff doubling as parliamentary collaborators (2017), and a 2018 Le Monde piece by Abel Mestre about ambiguous rhetorical references, which he disputed."
+  },
+  "sources_note": "This profile is severely limited. The WebSearch budget was exhausted, so verification relied only on the fetched Wikipedia pages for François Ruffin, Debout ! and Bernard Squarcini. The Squarcini page cites franceinfo (17 Dec 2021) and AFP/Le Monde (7 Mar 2025). No primary sources (court releases, datan or nosdeputes votes, programme) and no corroboration from outlets of different leanings were obtained. The 2026 candidacy facts, including the primary cancellation and any direct presidential bid, are secondary and unconfirmed. An empty reversals or traits list means not established, not that none exist. Rerun with a search budget.",
+  "verification_notes": [
+   "bio: 'sat with the LFI group until 2024, though he never formally joined the party' -> added that he joined the ecologist group (EcoS) after leaving LFI on 4 July 2024: Wikipedia confirms group change and non-member status (elected under LFI label)",
+   "bio: 'announced a bid for the left primary and then a presidential run after that primary was cancelled' -> dated the primary bid (26 Jan 2026) and reworded the presidential bid as the party's stated plan per Wikipedia Debout ! page: no dated presidential announcement found",
+   "offices[0]: added group affiliation detail (LFI 2017-2024, ecologist from July 2024): verified on Wikipedia",
+   "offices[3]: noted rename from Picardie debout !: verified on Wikipedia Debout ! page",
+   "legal[0]: added that the suit concerned the portrayal of a resident in his 2006 book: per Wikipedia; status civil_or_other kept",
+   "legal[1]: status investigation -> civil_or_other, date 2019 -> 2025-03-07: the case is no longer under investigation. An LVMH CJIP for EUR 10m was approved on 17 Dec 2021, and Squarcini was convicted on 7 Mar 2025 with an appeal announced (Wikipedia Squarcini page citing franceinfo and AFP/Le Monde). Ruffin is a victim/civil party, not accused. Added the Squarcini Wikipedia source",
+   "legal[2]: clarified that this was an administrative HATVP observation: no proceedings reported",
+   "executive_experience_years: 0 confirmed - no ministerial, mayoral or regional/departmental executive role",
+   "delivery[0]: 'passed to associations and the PCF' -> clarified that about EUR 3,000 a month goes to associations and that his public party-funding allocation (not his pay) goes to the PCF. Attendance figure 22% confirmed: per Wikipedia wording",
+   "delivery[1]: 'Initiated the Nouveau Front populaire' -> 'called for a united left front which became the NFP': softened an overclaim that is unverifiable with one source",
+   "traits[0]: removed 'Independent, populist-left, protectionist positioning': attested only by one source (Wikipedia), fails the two-leaning threshold",
+   "reversals: kept empty. The only change found (supporter to critic of Mélenchon) is a personal and political break, not a documented policy reversal",
+   "media_portrayal.neutral_media: 'accusations of dog-whistles' -> attributed descriptively to a 2018 Le Monde article by Abel Mestre about ambiguous rhetorical references, which he disputed. Also replaced 'ethics episodes at Fakir' with the specific fact (collaborators also working at Fakir): makes the wording less judgemental",
+   "sources_note: updated to reflect sources fetched in verification; WebSearch budget again exhausted (200/200), so no primary or multi-lean corroboration possible",
+   "URLs: all three cited Wikipedia URLs were fetched and confirmed to exist"
+  ]
+ }
+}

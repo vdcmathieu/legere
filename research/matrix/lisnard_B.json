@@ -1,0 +1,939 @@
+{
+ "collect": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "int1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted (200/200) before any query ran.",
+    "sources": [],
+    "nuance": "Research not performed; null means unresearched, not that no evidence exists. Re-run with a larger search budget."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "int3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "int4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ene1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   },
+   {
+    "id": "san4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered: the web search budget was exhausted before any query ran.",
+    "sources": [],
+    "nuance": "Unresearched; re-run needed."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "David Lisnard",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Lisnard backs strong military support for Ukraine. He has called for a war economy and for helping Ukraine regain a position of strength before any negotiation.",
+    "sources": [
+     {
+      "url": "https://lediplomate.media/david-lisnard-souverainete-europeenne/",
+      "outlet": "Le Diplomate",
+      "outlet_lean": "right",
+      "date": "2025-03-22",
+      "quote": "aider l'Ukraine à restaurer une position de force pour négocier"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-le-terrain-en-ukraine-dont-dans-le-donbass-deux-ans-apres-lagression-russe/",
+      "outlet": "Nouvelle Énergie",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-02-27",
+      "quote": "Ce n'est pas par posture morale qu'il nous faut contribuer à un rapport de force favorable à l'Ukraine."
+     }
+    ],
+    "nuance": "The most recent explicit statement found is from March 2025. Nothing from 2026 was retrievable because web search was unavailable. He frames aid as a way to strengthen Ukraine's hand before negotiations, while avoiding direct confrontation with Russia. The Feb 2024 quote is as reproduced on his party site and by the MonVote2027 aggregator; the party page fetch did not show the article body."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on sending French troops to guarantee a ceasefire.",
+    "sources": [],
+    "nuance": "In the March 2025 Diplomate interview he says France should act 'sans glisser vers une logique d'affrontement direct avec la Russie'. That is not a position on a post-ceasefire reassurance force, so it is not coded."
+   },
+   {
+    "id": "int3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on NATO's integrated command.",
+    "sources": [],
+    "nuance": "The programme speaks of 'une France forte dans ses alliances' but does not mention NATO's integrated command. In the Diplomate interview NATO comes up only in the interviewer's question."
+   },
+   {
+    "id": "int4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No statement on the EU-Israel association agreement was found. He strongly defends Israel's right to self-defence and called France's recognition of Palestine premature appeasement, which suggests he would oppose suspending the agreement.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/entre-israel-et-le-hamas-emmanuel-macron-choisit-munich/",
+      "outlet": "Nouvelle Énergie (Lisnard op-ed, first published by Rupture-mag)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-07",
+      "quote": "cette reconnaissance prématurée désarme la France diplomatiquement"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/le-grand-entretien-avec-david-lisnard-quelle-strategie-pour-la-france-dans-le-nouveau-desordre-mondial/",
+      "outlet": "Le Diplomate (republished by Nouvelle Énergie)",
+      "outlet_lean": "right",
+      "date": "2026-06-29",
+      "quote": "Son droit à se défendre est légitime"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions only. He still calls a two-state peace 'l'horizon nécessaire'."
+   },
+   {
+    "id": "int5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "He calls for raising defence spending to 3.5% of GDP.",
+    "sources": [
+     {
+      "url": "https://lediplomate.media/david-lisnard-souverainete-europeenne/",
+      "outlet": "Le Diplomate",
+      "outlet_lean": "right",
+      "date": "2025-03-22",
+      "quote": "porter son budget de la défense à 3,5 % du PIB"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-republique-dit-et-ce-quil-ne-dit-pas/",
+      "outlet": "Nouvelle Énergie",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-03-06",
+      "quote": "Pour atteindre 3 % du PIB, il faudrait porter ce budget autour de 100 milliards d'euros par an"
+     }
+    ],
+    "nuance": "The March 2026 piece criticises the current 2% of GDP as insufficient and works out what 3% would cost. Corroboration from an outlet of a different lean was not possible because search was unavailable."
+   },
+   {
+    "id": "int6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He wants a universal, short (about three months) military service in barracks and in uniform.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/une-experience-formatrice-quil-ne-faut-pas-idealiser-david-lisnard-raconte-son-service-militaire/",
+      "outlet": "Paris Match (republished by Nouvelle Énergie)",
+      "outlet_lean": "centre",
+      "date": "2025-12-12",
+      "quote": "Il doit être universel, court pour des raisons financières – d'une durée de trois mois? -, en caserne et en uniforme."
+     }
+    ],
+    "nuance": "'Universal' implies compulsory. The duration is only floated, with a question mark."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on lifting sanctions on Russia in exchange for peace.",
+    "sources": [],
+    "nuance": "In the March 2025 Diplomate interview, sanctions appear only in the interviewer's question."
+   },
+   {
+    "id": "ecol1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He signed a mayors' op-ed calling for an end to the national obligation to create low-emission zones (ZFE).",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/lappel-des-maires-contre-les-zfe-nous-refusons-que-lecologie-simpose-au-mepris-de-certains-citoyens/",
+      "outlet": "Le Figaro (collective op-ed, republished by Nouvelle Énergie)",
+      "outlet_lean": "centre-right",
+      "date": "2025-03-27",
+      "quote": "la suppression de l'obligation nationale d'instaurer les zones à faibles émissions"
+     }
+    ],
+    "nuance": "Coded +1 rather than +2 because the op-ed asks to end the national obligation, which would leave cities free to keep ZFE. It does not ask to ban them outright. It is a collective text that he co-signed."
+   },
+   {
+    "id": "ecol2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme rejects French over-transposition of EU rules on crop-protection products, calls for regulatory alignment with the single market, and favours 'reasoned' science-based use of pesticides.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+      "outlet": "Nouvelle Énergie programme (agriculture)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "en finir avec les surtranspositions françaises, l'alignement réglementaire avec le marché commun"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+      "outlet": "Nouvelle Énergie programme (agriculture)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "l'usage raisonné des phytosanitaires sur base scientifique"
+     }
+    ],
+    "nuance": "The programme also demands that products banned in France be banned in imports too ('Ce que nous interdisons ici ne doit plus être autorisé là-bas'). That is a mirror-clause demand. It does not endorse unilateral French bans."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No primary source found on the 2035 end of sales of new combustion cars.",
+    "sources": [],
+    "nuance": "The MonVote2027 aggregator codes him 'tout à fait contre', citing simulateur-lisnard2027.fr. I could not confirm that the simulator is official, because its About page is template text. Its ecology page did not mention 2035 when fetched. He also denounces 'nouveaux fascistes verts' in the March 2025 manifesto, but that is too general to code."
+   },
+   {
+    "id": "ecol4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme requires green taxation to be offset by equal tax cuts elsewhere. A 2023 column of his attacks short-haul flight restrictions. Both point to opposition to higher taxes on air travel.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la fiscalité environnementale doit respecter trois règles : d'abord se faire à taxation totale constante"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/lignes-aeriennes-le-train-train-demago-technocratique/",
+      "outlet": "L'Opinion column (republished by Nouvelle Énergie)",
+      "outlet_lean": "centre-right",
+      "date": "2023-05-25",
+      "quote": "Lignes aériennes : le train-train démago-technocratique (title only)"
+     }
+    ],
+    "nuance": "No explicit statement on kerosene or private jets was found. The 2023 column's body could not be retrieved; only its critical title was seen. The tax-neutrality rule does not strictly rule out a revenue-neutral air tax, hence -1 with low confidence."
+   },
+   {
+    "id": "ecol5",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "He rejects degrowth and wants climate solutions that respect development, within an 'ecological market economy'.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "s'appuyant sur les sciences, l'éducation, le bon sens, le respect du développement, bien plus que sur la décroissance"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/le-manifeste-liberal-de-david-lisnard-pour-2027/",
+      "outlet": "Nouvelle Énergie",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-07",
+      "quote": "une « économie écologique de marché » qui ne cède pas « aux nouveaux fascistes verts »"
+     }
+    ],
+    "nuance": "He does not explicitly rank growth above climate, but he consistently refuses trade-offs that would sacrifice growth. Hence -1 rather than -2."
+   },
+   {
+    "id": "ene1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "He calls for 'a first series of six EPRs' plus SMR deployment, and for stopping the dismantling of reactors. This implies more new reactors beyond the first six.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/",
+      "outlet": "Nouvelle Énergie FAQ",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "une première série de six EPR"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "réinvestir les sommes ainsi économisées dans des projets d'avenir, en particulier les nouvelles technologies nucléaires"
+     }
+    ],
+    "nuance": "No explicit number beyond six large reactors was found, hence +1. The 'first series' wording and the SMR plan point beyond the six EPR2."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "He wants nuclear power as the backbone of decarbonised electricity and to stop the planned dismantling of reactors.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/",
+      "outlet": "Nouvelle Énergie FAQ",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-03",
+      "quote": "arrêter le plan de démantèlement"
+     }
+    ],
+    "nuance": "His position is consistent. In the March 2025 manifesto he also criticises the closure of Fessenheim."
+   },
+   {
+    "id": "ene3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme would end out-of-market support for renewables and redirect the money to nuclear. That is a partial move against new wind farms, though not a halt.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "la France a développé ces dernières années une stratégie d'« énergies renouvelables » dérogatoires aux prix du marché"
+     }
+    ],
+    "nuance": "Coded as partial support because ending subsidies is weaker than suspending wind development. No statement specific to wind turbines was found."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on leaving the European electricity market.",
+    "sources": [],
+    "nuance": "Not found in the programme pages or FAQ pages checked."
+   },
+   {
+    "id": "ins1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme reforms the Fifth Republic's practice: it refocuses the president against 'hyperprésidentialisme' and strengthens Parliament's oversight role. It does not call for a new constitution or a Sixth Republic.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+      "outlet": "Nouvelle Énergie programme",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "le rôle du Président de la République doit être recentré sur son statut constitutionnel"
+     }
+    ],
+    "nuance": "Reform within the current constitution is taken as mild opposition to a new parliamentary constitution. He also proposes a constitutional referendum to reorganise the territory into provinces, which is a territorial change, not a regime change."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on proportional representation.",
+    "sources": [],
+    "nuance": "The MonVote2027 aggregator lists 'plutôt contre' but cites no source. Not coded."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on a citizens' initiative referendum (RIC).",
+    "sources": [],
+    "nuance": "The aggregator notes only that the programme does not mention the RIC. Silence is not coded."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on Article 49.3.",
+    "sources": [],
+    "nuance": "Not found in the programme or FAQ pages."
+   },
+   {
+    "id": "ins5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He proposes widening the scope of Article 11 of the Constitution so that voters can decide on immigration by referendum.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-propose-un-referendum-sur-l-immigration/",
+      "outlet": "Nouvelle Énergie FAQ (Saint-Raphaël rally, 4 July 2026)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-04",
+      "quote": "élargissement [...] du champ de l'article onze de la Constitution"
+     }
+    ],
+    "nuance": "This covers immigration only. No mention of justice was found. He announced '4 référendums' in May 2025, but their content sits in images that could not be read. The quote is fragmentary as rendered."
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He opposes a right to active assistance in dying, calling it a 'major anthropological shift', and proposes 4,000 more palliative-care beds instead.",
+    "sources": [
+     {
+      "url": "https://video-streaming.orange.fr/actu-politique/david-lisnard-contre-un-droit-a-l-aide-active-a-mourir-CNT000002gYwMd.html",
+      "outlet": "Orange Actu (video)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-01-12",
+      "quote": "David Lisnard dénonce un « basculement anthropologique majeur » qu'impliquerait une loi sur l'euthanasie active."
+     }
+    ],
+    "nuance": "No 2026 restatement was found because search was unavailable. The source text is the outlet's description of his video statement."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on banning the headscarf in all public spaces.",
+    "sources": [],
+    "nuance": "His Dec 2025 op-ed limits the absence of religious signs to places 'où la République instruit, juge ou administre', and his programme targets universities. As mayor he banned the burkini on Cannes beaches in 2016, but the Conseil d'État invalidated similar bans. None of this amounts to a general public-space ban, and nothing coded here."
+   },
+   {
+    "id": "soc3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme calls for banning the veil at university. Nothing was found on mothers accompanying school trips.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+      "outlet": "Nouvelle Énergie programme (sécurité)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "interdiction du voile à l'université"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/ne-faisons-pas-de-la-laicite-un-renoncement/",
+      "outlet": "Rupture-mag op-ed by Lisnard (republished by Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12-09",
+      "quote": "L'absence de tout signe religieux ostensible doit prévaloir partout où la République instruit, juge ou administre."
+     }
+    ],
+    "nuance": "He supports the university half of the statement only, hence +1. School-trip parents are not mentioned."
+   },
+   {
+    "id": "soc4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He wants new restrictions, notably a veil ban at universities. He attacks a 'multiculturalist' reading of laïcité and treats the university veil, burkinis and pool time slots as political Islamist advances.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/ne-faisons-pas-de-la-laicite-un-renoncement/",
+      "outlet": "Rupture-mag op-ed by Lisnard (republished by Nouvelle Énergie)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12-09",
+      "quote": "Chaque voile à l'université – qui n'a pas vocation à être un lieu de manifestation identitaire mais un sanctuaire de la raison"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+      "outlet": "Nouvelle Énergie programme (sécurité)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "interdiction du voile à l'université"
+     }
+    ],
+    "nuance": "The statement rejects any further restriction of citizens' religious expression. He explicitly proposes one, so he is coded -2."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on surrogacy (GPA).",
+    "sources": [],
+    "nuance": "The MonVote2027 aggregator lists 'tout à fait contre' with no source. Not coded."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on school uniforms.",
+    "sources": [],
+    "nuance": "Not in the education programme or the school FAQ."
+   },
+   {
+    "id": "edu2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "His model is a single body of contract teachers recruited by school heads, within deep public-spending cuts. Mass hiring to cut class sizes is not part of it.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+      "outlet": "Nouvelle Énergie programme (éducation)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Un corps unique d'enseignants contractuels, recrutés sur concours national, sera progressivement mis en place"
+     }
+    ],
+    "nuance": "Inferred. He does not explicitly reject mass hiring."
+   },
+   {
+    "id": "edu3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme creates excellence classes in maths and science in every académie, a form of grouping pupils by level.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+      "outlet": "Nouvelle Énergie programme (éducation)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Des classes d'excellence en mathématiques et en sciences seront créées dans chaque académie"
+     }
+    ],
+    "nuance": "These are selective excellence classes at académie level, not ability groups within every collège. Partial support, hence +1."
+   },
+   {
+    "id": "edu4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "He proposes a universal education voucher with equal public funding for public and private schools, and abolishing school catchment areas. This is the opposite of cutting private-school funding.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+      "outlet": "Nouvelle Énergie programme (éducation)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "un financement public équivalent, que la famille choisisse l'enseignement public ou privé"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-supprimer-la-carte-scolaire/",
+      "outlet": "Nouvelle Énergie FAQ",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Donnons à tous les parents les bonnes informations sur les établissements"
+     }
+    ],
+    "nuance": "The position is consistent across the programme and the FAQ."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No retrievable statement on abolishing Parcoursup or university selection.",
+    "sources": [],
+    "nuance": "He wrote an L'Opinion column titled 'Parcoursup du combattant', but its body was not retrievable from the republished page, so it is not coded."
+   },
+   {
+    "id": "san1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "He opposes regulating where doctors can set up practice. He prefers differentiated reimbursement and training more doctors.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux/",
+      "outlet": "Nouvelle Énergie FAQ (quoting BFMTV, 7 May 2025)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-05-07",
+      "quote": "Je suis contre la régulation [...] plus on mettra des contraintes sur les médecins, plus ils se barrent à l'étranger"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+      "outlet": "Nouvelle Énergie programme (santé)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Nous proposons un conventionnement différencié"
+     }
+    ],
+    "nuance": "The programme uses incentives: better reimbursement in under-served areas."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement found on medical franchises or patient co-payments.",
+    "sources": [],
+    "nuance": "Not in the health programme, the FAQ or the simulator page."
+   },
+   {
+    "id": "san3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He wants to free the housing market and would challenge the ALUR law, the legal basis for rent control.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-face-a-la-crise-du-logement-il-est-temps-de-briser-cette-spirale-infernale/",
+      "outlet": "Nouvelle Énergie",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12-05",
+      "quote": "Je remettrais en cause les lois 'SRU', 'Alur', 'Climat' et 'Résilience'"
+     },
+     {
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-face-a-la-crise-du-logement-il-est-temps-de-briser-cette-spirale-infernale/",
+      "outlet": "Nouvelle Énergie",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12-05",
+      "quote": "Il faut absolument libérer le marché, lui permettre de redevenir la base de la production de logements"
+     }
+    ],
+    "nuance": "He does not name rent control explicitly. Opposition is clear from his call to free the market and to challenge the law that created rent control."
+   },
+   {
+    "id": "san4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "His liberal programme favours mixed public-private solutions and deregulation, which suggests support for more competition. No statement on transport or energy was found.",
+    "sources": [
+     {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+      "outlet": "Nouvelle Énergie programme (santé)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "des recrutements contractuels souples, y compris passerelles public-privé"
+     }
+    ],
+    "nuance": "Inferred from his general doctrine. Nothing was found on rail or energy competition specifically."
+   }
+  ],
+  "verification_notes": [
+   "CONTEXT: The draft was all null because the original run's search budget was exhausted. WebSearch was still capped (200/200) in this session, so I did not use it and did not route searches through other engines. Evidence comes from WebFetch of pages I opened directly: the Nouvelle Énergie programme, its FAQ and posts sitemap, Le Diplomate, Orange Actu and the MonVote2027 aggregator (used only to find leads). Every cited URL was opened. Cross-lean corroboration was mostly impossible, so most sources are campaign pages.",
+   "int1: null -> +2 (medium): Le Diplomate, March 2025, 'aider l'Ukraine à restaurer une position de force', plus his Feb 2024 Donbass statement.",
+   "int2: null -> null: searched the Diplomate interview; it has only a 'no direct confrontation with Russia' line and nothing on ceasefire troops.",
+   "int3: null -> null: no NATO integrated-command statement; NATO appears only in an interviewer's question.",
+   "int4: null -> -1 (low, inferred): Oct 2025 op-ed calls recognition of Palestine premature appeasement; June 2026 interview says Israel's right to self-defence is legitimate; nothing on the association agreement.",
+   "int5: null -> +2 (high): Diplomate, March 2025, 'porter son budget de la défense à 3,5 % du PIB'; March 2026 party piece criticises 2% and costs out 3%.",
+   "int6: null -> +2 (medium): Paris Match, Dec 2025, universal 3-month military service in barracks.",
+   "int7: null -> null: sanctions appear only in an interviewer's question.",
+   "ecol1: null -> +1 (medium): co-signed Le Figaro mayors' op-ed (27 Mar 2025) for ending the national ZFE obligation; that is partial, not abolition.",
+   "ecol2: null -> -2 (medium): agriculture programme rejects French over-transposition and wants alignment with the single market.",
+   "ecol3: null -> null: the aggregator's 'contre' rests on simulateur-lisnard2027.fr, whose official status I could not confirm, and its fetched page had nothing on 2035.",
+   "ecol4: null -> -1 (low): programme says green tax only at constant total tax; 2023 column titled 'Lignes aériennes: le train-train démago-technocratique' (body unreadable).",
+   "ecol5: null -> -1 (medium): programme prefers 'respect du développement' over degrowth; 'économie écologique de marché'.",
+   "ene1: null -> +1 (medium): FAQ (Oct 2026) says 'une première série de six EPR' plus SMR and new nuclear technologies; no explicit figure beyond six.",
+   "ene2: null -> -2 (high): stop the dismantling plan; nuclear as the backbone.",
+   "ene3: null -> +1 (low): programme ends out-of-market support for renewables; partial support only, since there is no halt on wind.",
+   "ene4: null -> null: nothing found.",
+   "ins1: null -> -1 (low): programme reforms within the Fifth Republic (refocus the president, strengthen parliamentary oversight); no new constitution.",
+   "ins2/ins3/ins4: null -> null: aggregator codes are unsourced; nothing in the programme pages.",
+   "ins5: null -> +2 (medium): July 2026 Saint-Raphaël rally per the FAQ: widen Article 11 to allow a referendum on immigration (immigration only, not justice).",
+   "soc1: null -> -2 (medium): Jan 2025 statement against active assistance in dying ('basculement anthropologique majeur'); proposes 4,000 palliative-care beds.",
+   "soc2: null -> null: his stated scope is the places where the Republic teaches, judges or administers, plus universities; 2016 Cannes burkini order noted but not a general public-space ban.",
+   "soc3: null -> +1 (medium): programme bans the veil at university; nothing on accompanying parents, so partial.",
+   "soc4: null -> -2 (medium): Dec 2025 op-ed and programme seek new restrictions (university veil ban).",
+   "soc5: null -> null: aggregator 'contre' is unsourced.",
+   "edu1: null -> null: nothing found.",
+   "edu2: null -> -1 (low, inferred): contract-teacher model under spending cuts.",
+   "edu3: null -> +1 (medium): excellence classes in maths and science in every académie.",
+   "edu4: null -> -2 (high): universal voucher with equal public funding for private schools; abolish catchment areas.",
+   "edu5: null -> null: the 'Parcoursup du combattant' column body was unreadable.",
+   "san1: null -> -2 (high): BFMTV, 7 May 2025, 'Je suis contre la régulation'; programme uses differentiated reimbursement.",
+   "san2: null -> null: nothing found.",
+   "san3: null -> -2 (medium): Dec 2025, would challenge the ALUR law and free the housing market.",
+   "san4: null -> +1 (low, inferred): general deregulation and public-private doctrine; nothing specific on transport or energy.",
+   "RE-RUN ADVISED: a run with web search should corroborate the +2/-2 codes with outlets of other leans, check for 2026 updates on soc1, int1 and ecol3, and fill the remaining nulls (int2, int3, int7, ene4, ins2-4, soc2, soc5, edu1, edu5, san2)."
+  ]
+ }
+}

@@ -1,0 +1,442 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Opposes any tax increase, including on the highest earners and wealth; no sign of support for an ISF return.",
+   "nuance": "There is no explicit 2026 quote on the ISF itself. The coding rests on his general refusal to raise taxes on the wealthy (2020 and 2025)."
+  },
+  {
+   "id": "eco2",
+   "summary": "Explicitly rejected the Zucman tax, saying investors would leave France.",
+   "nuance": ""
+  },
+  {
+   "id": "eco3",
+   "summary": "Programme: cut social contributions by 30 bn euros and abolish most production taxes (CVAE, C3S, CFE) for 40 bn euros.",
+   "nuance": ""
+  },
+  {
+   "id": "eco4",
+   "summary": "Fiercely opposed the EU-Mercosur free-trade deal to protect French agriculture, and threatened censure if Macron voted for it.",
+   "nuance": "This is a partial match. Opposing a trade deal is not an explicit call for new tariffs or quotas, and his wider programme is pro-business and liberal."
+  },
+  {
+   "id": "eco5",
+   "summary": "No current evidence that he supports renationalising energy or motorways.",
+   "nuance": "In 2005 he opposed motorway privatisation (Wikipedia fr). Opposing a sale does not mean backing renationalisation, and nothing recent was found. In 2026 his energy focus is nuclear investment."
+  },
+  {
+   "id": "eco6",
+   "summary": "Pledged to be the president who lowers inheritance taxes.",
+   "nuance": "He made the pledge in L'Opinion on 26-27 August 2026."
+  },
+  {
+   "id": "ret1",
+   "summary": "Pension plan: minimum age 63 with a 7%/year penalty, and the full rate at 65. He does not return to 62.",
+   "nuance": "His minimum age of 63 is below today's 64, but only with a heavy penalty, and the full rate moves to 65. He remains clearly against 62 or lower."
+  },
+  {
+   "id": "ret2",
+   "summary": "Sets an automatic full-rate age of 65, indexed to life expectancy, while allowing departure from 63 with a penalty.",
+   "nuance": "This is a partial match: the effective 'âge d'équilibre' rises to 65, while the minimum legal age falls to 63."
+  },
+  {
+   "id": "ret3",
+   "summary": "Proposes a capitalisation component for young workers: 1% of gross salary, split employee/employer, aiming for 25-30% of their future pensions.",
+   "nuance": "No source we could open says whether it is mandatory. The employer-plus-employee contribution design suggests a generalised scheme, but that is unverified, so +1 rather than +2."
+  },
+  {
+   "id": "fin1",
+   "summary": "Warns of a 'Greek scenario' and backs an emergency spending-cut plan: capping welfare at 70% of SMIC, fewer civil servants and a pension reform.",
+   "nuance": "His priority on spending cuts is clear. No explicit 3%-deficit date was verified."
+  },
+  {
+   "id": "fin2",
+   "summary": "Wants to cut public-sector headcount, citing a figure of 600,000 fewer public agents over ten years, and to stop replacing retirees systematically.",
+   "nuance": ""
+  },
+  {
+   "id": "fin3",
+   "summary": "Treats debt as an imminent danger and wants to reduce borrowing, not increase it.",
+   "nuance": "His backing for a golden-rule referendum (see fin4) supports this coding."
+  },
+  {
+   "id": "fin4",
+   "summary": "Calls for a referendum before end-2026 to write a budget golden rule into the Constitution.",
+   "nuance": ""
+  },
+  {
+   "id": "trav1",
+   "summary": "Called a sharp SMIC increase 'désolante' (2018). He now raises take-home pay through contribution cuts, not the SMIC.",
+   "nuance": "The explicit SMIC quote dates from 2018. In 2026 his purchasing-power route is cutting contributions and paying for extra hours, not raising the SMIC."
+  },
+  {
+   "id": "trav2",
+   "summary": "Wants to be 'less generous' on unemployment insurance and to revive the Attal unemployment-benefit reform.",
+   "nuance": ""
+  },
+  {
+   "id": "trav3",
+   "summary": "Retailleau's January 2026 economic proposals include making the 15 hours of activity mandatory for RSA recipients, within a tougher reform (RSA replaced by an 'RIA', benefits capped at 70% of the Smic).",
+   "nuance": "He wants to keep the obligation and make it stricter, so +2. The RSA would be renamed or replaced by a 'RIA' (revenu d'incitation à l'activité), so the obligation would apply to that successor benefit."
+  },
+  {
+   "id": "trav4",
+   "summary": "Wants to remove the 35 hours from the Labour Code and raise working time, the opposite of 32 hours.",
+   "nuance": "His 2019 position was a return to 39 hours. In 2026 he favours abolishing the statutory 35 hours, with extra hours exempt from contributions."
+  },
+  {
+   "id": "imm1",
+   "summary": "Wants to reduce legal immigration: curbs on student visas (fees, resources, quotas by field), changes to family reunification via the EU directive, and tighter asylum.",
+   "nuance": ""
+  },
+  {
+   "id": "imm2",
+   "summary": "Pledges a constitutional revision to widen the referendum, then a referendum on an immigration law early in his term.",
+   "nuance": ""
+  },
+  {
+   "id": "imm3",
+   "summary": "Proposes abolishing the AME and replacing it with a narrower scheme. He has long advocated switching to an urgent-care aid (AMU).",
+   "nuance": "The 2026 article paraphrases the replacement scheme oddly ('contre-aide'). The urgent-care (AMU) form is attested from 2024."
+  },
+  {
+   "id": "imm4",
+   "summary": "As minister he repealed the Valls circular (seven years' presence required, regularisation 'exceptional'). As candidate he rejects regularising workers for labour-shortage sectors.",
+   "nuance": "His 2025 circular told prefects to favour the statutory labour-shortage route among the few exceptional regularisations. His overall stance is clearly against, and in 2026 he explicitly rejects the labour-shortage argument."
+  },
+  {
+   "id": "imm5",
+   "summary": "Wants to make foreigners' access to welfare conditional on five years of legal residence and work. This is a residence condition, not an explicit national-priority rule.",
+   "nuance": "This is a partial version. No quote was found backing priority for French citizens in social housing."
+  },
+  {
+   "id": "imm6",
+   "summary": "Wants to abolish droit du sol nationwide, by referendum.",
+   "nuance": ""
+  },
+  {
+   "id": "imm7",
+   "summary": "LR opposes local voting rights for non-EU foreigners. No personal 2025-2026 quote from Retailleau was verified.",
+   "nuance": "This is the party line plus consistency with his citizenship-restriction agenda. It was not verified live."
+  },
+  {
+   "id": "sec1",
+   "summary": "Wants mandatory minimum sentences ('peines minimales') so the judge 'has no choice', citing attacks on police, gendarmes and firefighters.",
+   "nuance": "His example targets attacks on emergency workers. A recidivist-specific scope was not verified."
+  },
+  {
+   "id": "sec2",
+   "summary": "Wants to lower the age of criminal majority to 15, going beyond the statement.",
+   "nuance": "His position hardened from 16 (2025 'révolution pénale') to 15 in September 2026."
+  },
+  {
+   "id": "sec3",
+   "summary": "As Interior Minister he consistently defended the police. No statement on an independent oversight body was found.",
+   "nuance": "This is inferred from his record."
+  },
+  {
+   "id": "sec4",
+   "summary": "Declared himself 'totally against' legalising cannabis and said legalisation 'doesn't work'.",
+   "nuance": ""
+  },
+  {
+   "id": "sec5",
+   "summary": "As minister he pushed for systematic CCTV ('vidéoprotection'), and the government he sat in sought to extend algorithmic video surveillance.",
+   "nuance": "His backing for generalising AI-assisted surveillance specifically is not confirmed by a quote of his own, and the source is a critical left-wing outlet."
+  },
+  {
+   "id": "eu1",
+   "summary": "Proposes a 'constitutional shield' letting French law prevail over EU law in certain situations (immigration, security).",
+   "nuance": "This is partial: it applies in certain cases (fundamental interests) and not as a general rule of French-law primacy. He voted against Maastricht and Lisbon."
+  },
+  {
+   "id": "eu2",
+   "summary": "No evidence found on EU joint borrowing.",
+   "nuance": "A brief search found nothing personal."
+  },
+  {
+   "id": "eu3",
+   "summary": "No evidence found on France's EU budget contribution.",
+   "nuance": "A brief search found nothing personal."
+  },
+  {
+   "id": "eu4",
+   "summary": "No evidence found on unanimity in EU foreign policy.",
+   "nuance": "A brief search found nothing."
+  },
+  {
+   "id": "eu5",
+   "summary": "Wants an organic law able to set aside the effect of European rules and case law contrary to France's 'fundamental interests', so that his immigration and security programme can be implemented.",
+   "nuance": "The statement's 'some EU rules' wording matches his 'in certain cases' mechanism. He also says he will change EU rules from within (e.g. the family reunification directive)."
+  },
+  {
+   "id": "eu6",
+   "summary": "Does not call for leaving the EU. He wants to change EU rules from inside and sees a right-leaning Europe as a source of French influence.",
+   "nuance": "The 'no exit' reading comes from his reform-from-within stance; no explicit anti-Frexit quote was found."
+  },
+  {
+   "id": "int1",
+   "summary": "Retailleau visited Kyiv and Bucha in May 2026 as LR candidate and has publicly distanced himself from the pro-Russian-leaning right; consistent with support for continued aid.",
+   "nuance": "Only headlines/snippets could be read (article bodies blocked); no verbatim Retailleau quote on arms deliveries found. Direction is clear, strength inferred."
+  },
+  {
+   "id": "int2",
+   "summary": "No verifiable statement found on sending French troops to guarantee a ceasefire.",
+   "nuance": "Draft's -1 rested on unverified recollection. Searches on troops/reassurance force returned only Macron/coalition coverage. In March 2026 he accused Macron of electoral 'instrumentalisation' of the Ukraine war (Orange Actualités headline), which is not a position on troops."
+  },
+  {
+   "id": "int3",
+   "summary": "No sign Retailleau or LR wants to leave NATO's integrated command; EPP-backed Atlanticist right.",
+   "nuance": "Inferred; no direct statement found. Received EPP's full support in Sept 2026."
+  },
+  {
+   "id": "int4",
+   "summary": "No statement found on suspending the EU-Israel association agreement; his record (dissolution of Urgence Palestine, warning mayors over Palestinian flags) suggests opposition to sanctions on Israel, though he said in Dec 2024 'on attend d'Israël autre chose'.",
+   "nuance": "Draft coded -2 'statement' with no source; no such statement could be found, so downgraded to inferred -1."
+  },
+  {
+   "id": "int5",
+   "summary": "LR senators pushed for a larger military-programming top-up than the government (14bn extra, June 2026), i.e. a substantial defence increase; no explicit >3% of GDP target found.",
+   "nuance": "Group (Senate right) behaviour, not a personal Retailleau pledge; the 3% threshold is unverified, hence +1."
+  },
+  {
+   "id": "int6",
+   "summary": "No verifiable policy position found on reinstating compulsory military/national service.",
+   "nuance": "The only hit (Paris Match, 13 Dec 2025, 'Un brassage sociologique qui forge la fraternité') appears to be a series on politicians recounting their own service, not a policy pledge. Draft +1 was unsourced recollection."
+  },
+  {
+   "id": "int7",
+   "summary": "Retailleau positions himself against the Russia-friendly right; no explicit statement on lifting sanctions for a peace deal found.",
+   "nuance": "Inferred only; strength reduced from -2 because no direct statement on sanctions was found."
+  },
+  {
+   "id": "ecol1",
+   "summary": "The right-majority Senate gave final adoption (April 2026) to the simplification law abolishing ZFE; the right denounced the Constitutional Council's May 2026 censure of that abolition.",
+   "nuance": "Group vote and party reaction; no personal Retailleau ZFE quote retrieved. Draft's 2025 dating corrected to the 2026 final adoption."
+  },
+  {
+   "id": "ecol2",
+   "summary": "LR backed the Duplomb law reintroducing a banned pesticide to align with EU competitors; Retailleau was associated with it and 'désavoué' when the Council censured it (Aug 2025).",
+   "nuance": "Headline-level only; no personal verbatim quote retrieved."
+  },
+  {
+   "id": "ecol3",
+   "summary": "LR/EPP has pushed to revise the 2035 combustion-car phase-out; no Retailleau-specific statement found.",
+   "nuance": "Downgraded from -2: search returned no personal statement. Code reflects party line only."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Anti-new-tax, pro-purchasing-power line; no known support for higher air-travel taxes.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Prioritises purchasing power and competitiveness: wants to scrap energy-savings certificates (CEE), end renewables subsidies and remove binding DPE rules.",
+   "nuance": "Inferred from concrete proposals; no explicit statement ranking growth over climate."
+  },
+  {
+   "id": "ene1",
+   "summary": "Calls to 'rebuild a nuclear fleet' and centres his 2026 electricity plan on nuclear.",
+   "nuance": "'Rebuild a fleet' implies more than six EPR2, but an exact reactor count was not retrieved."
+  },
+  {
+   "id": "ene2",
+   "summary": "Strongly pro-nuclear; opposes any phase-out.",
+   "nuance": ""
+  },
+  {
+   "id": "ene3",
+   "summary": "Wants to stop public financing/subsidies for wind and solar, which would choke new development, but no explicit moratorium on new turbines verified.",
+   "nuance": "Ending subsidies is narrower than halting development; moratorium claim from draft was memory-based. Le Monde notes his anti-renewables line is not unanimous inside LR."
+  },
+  {
+   "id": "ene4",
+   "summary": "An April 2026 L'Opinion piece reports Retailleau coming to the defence of the European electricity market, i.e. against leaving it.",
+   "nuance": "Headline only (article body blocked); direction clear, strength uncertain. Draft null was wrong: evidence exists."
+  },
+  {
+   "id": "ins1",
+   "summary": "Wants to reform within the Fifth Republic (wider referendum, power to override Constitutional Council censures), invoking a 'very Gaullian moment'; no support for a parliamentary Sixth Republic.",
+   "nuance": "His reforms strengthen presidential/referendum power, opposite of a more parliamentary regime."
+  },
+  {
+   "id": "ins2",
+   "summary": "Repeatedly stated 'very firm' opposition to proportional representation and threatened to quit the government over it (June 2025).",
+   "nuance": "Draft's 'possible openness to a dose of proportionality' is contradicted by these sources."
+  },
+  {
+   "id": "ins3",
+   "summary": "Favours president-initiated referendums with a wider article 11; no support for a citizens' initiative referendum found.",
+   "nuance": "Inferred; no explicit RIC statement found."
+  },
+  {
+   "id": "ins4",
+   "summary": "Repeatedly urged PM Lecornu to use Article 49.3 to pass the 2026 budget; clearly against abolishing or restricting it.",
+   "nuance": "Also said in 2023 'Il vaut mieux le 49.3 que pas de réforme du tout'. Draft null was wrong."
+  },
+  {
+   "id": "ins5",
+   "summary": "Proposes widening Article 11 to hold referendums on immigration (abolishing droit du sol) and criminal policy (Sept 2026).",
+   "nuance": ""
+  },
+  {
+   "id": "soc1",
+   "summary": "Retailleau strongly opposed the assisted-dying law, calling it 'une loi d'abandon'. He then lobbied the Conseil constitutionnel over its review. No promise to repeal the law was found.",
+   "nuance": "The brief allows -2 only with a repeal pledge, and none was found, so -1 despite his clear hostility. A franceinfo piece (17 Jul 2026) asked whether hostile candidates would promise repeal; it was not opened. Recode to -2 if he pledges repeal."
+  },
+  {
+   "id": "soc2",
+   "summary": "Explicitly rejects the RN proposal to ban the veil in all public space as 'inapplicable', 'populisme' and 'démagogie', while backing targeted bans (e.g. universities).",
+   "nuance": "Opposes the statement as worded but supports partial extensions, hence -1 not -2."
+  },
+  {
+   "id": "soc3",
+   "summary": "Retailleau wants to ban the veil for parents accompanying school trips. He proposed this as interior minister in January 2025 and repeated it as a candidate in September 2026.",
+   "nuance": "His wording is about the veil specifically, which falls under the statement's 'signes religieux ostensibles'. In January 2025 the Bayrou government declined to take up his proposal (Le Monde, Libération, franceinfo, 8 Jan 2025, seen in search results). His position has not changed since."
+  },
+  {
+   "id": "soc4",
+   "summary": "Pushes further restrictions (anti-'entrisme' bill adopted by the Senate in May 2026, veil ban at university), against the view that secularism should not restrict citizens' religious expression further.",
+   "nuance": "Upgraded from inferred to statement/record based on 2026 bill and university-veil proposal."
+  },
+  {
+   "id": "soc5",
+   "summary": "Opposes surrogacy; called same-sex marriage the 'Trojan horse' of PMA and GPA.",
+   "nuance": "Older statement; no newer position found."
+  },
+  {
+   "id": "edu1",
+   "summary": "LR has promoted school uniforms (e.g. 2023 LR initiatives); not confirmed in Retailleau's Sept 2026 education plan.",
+   "nuance": "Party line, older source."
+  },
+  {
+   "id": "edu2",
+   "summary": "Promises to raise teacher pay markedly and cut public spending; no mass-hiring pledge found.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "edu3",
+   "summary": "His Aug/Sept 2026 education plan calls for ending the 'collège unique' and the right/centre plans include a return of ability groups.",
+   "nuance": "Upgraded from party_line: ending the collège unique goes beyond ability grouping."
+  },
+  {
+   "id": "edu4",
+   "summary": "Backs 'liberté des cartes scolaires' across public and private schools; no support for cutting private-school funding.",
+   "nuance": "Indirect evidence."
+  },
+  {
+   "id": "edu5",
+   "summary": "No personal statement found. A September 2026 Senate inquiry report, set up by the LR group and led by a Retailleau ally, proposes ending automatic university access for baccalauréat holders. That means more selection, the opposite of the statement.",
+   "nuance": "This is the LR line, not Retailleau's own statement, so confidence is low. The Sylvie Retailleau results in searches refer to a different person (a former higher-education minister)."
+  },
+  {
+   "id": "san1",
+   "summary": "Senate right favours incentive-based measures over the Garot regulation of doctor installation (texts stalled June 2026).",
+   "nuance": "No personal Retailleau statement found."
+  },
+  {
+   "id": "san2",
+   "summary": "Spending-control right; no explicit co-payment pledge found.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "san3",
+   "summary": "Proposes abolishing rent control (and binding DPE rules) as 2027 candidate.",
+   "nuance": "BFM headline (15 Sept 2026) corroborates: 'veut abroger le DPE et supprimer l'encadrement des loyers'."
+  },
+  {
+   "id": "san4",
+   "summary": "Market-liberal right; no specific statement found on opening transport/energy further.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "eco7",
+   "summary": "No direct statement by Retailleau for or against a 'TVA sociale' was found. He proposes cutting wage contributions, but funds it with spending cuts rather than a VAT rise.",
+   "nuance": "Signals point both ways, so this is left uncoded. L'Essentiel de l'Éco (8 Sep 2026, https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/) says Retailleau proposes a full exemption from contributions beyond the 36th hour worked, 'financée par 30 milliards d'euros d'économies budgétaires'. Its list of TVA sociale backers is Hollande, Le Maire and Attal. L'Humanité (3 Sep 2026) places him in an 'arc of candidates' from Retailleau to Hollande who say social protection relies too heavily on labour. That is an opponent outlet's framing and does not show he backs a VAT rise. A 2018 Les Échos quote cited on Wikipedia (VAT increase as 'une mesure de compétitivité') is too old and too indirect. Re-check if he takes an explicit position."
+  },
+  {
+   "id": "imm8",
+   "summary": "As interior minister, Retailleau issued the May 2025 naturalisation circular, which tightened the criteria (language level, history test, work requirements). As a candidate he goes further and proposes abolishing the droit du sol.",
+   "nuance": "Le Figaro (30 Dec 2025) reported that naturalisations fell in 2025 after the circular. Orange/AFP (10 Apr 2026) headlined that he 'durcit encore le ton sur les conditions de naturalisation'; that headline was seen only in Google News results. The source of his position is consistent across outlets of different leans."
+  },
+  {
+   "id": "sec6",
+   "summary": "In May 2025, while Retailleau was interior minister, the government and the LR-led Senate majority rejected a PS bill that would have created a receipt for every identity check.",
+   "nuance": "No personal quote from Retailleau on the receipt was found. The code rests on the government's position while he ran the Interior Ministry; the minister who spoke for the government in the Senate debate is not confirmed. Le Parisien's article could not be opened (403); its headline was seen in search results. Opponents (PS senator Narassiguin) say his June 2025 operations against undocumented migrants amounted to ethnic profiling. That is an opponent's characterisation and was not used for the code."
+  },
+  {
+   "id": "eu7",
+   "summary": "Retailleau wants a European security architecture that does not depend on Washington. He favours bilateral defence alliances between European partners and producing arms in France and in Europe. He does not back a European army or giving up national military autonomy.",
+   "nuance": "He partly agrees: more European production and less dependence on the US. He rejects the core of the statement, a common defence even at the cost of French autonomy. A JDD interview headline (1 Mar 2026), seen only in Google News results, reads 'La dissuasion nucléaire française ne se partage pas'. A Le Monde interview on Europe (30 Sep 2026) presents him as 'issu de la droite souverainiste'; it could not be opened (paywall/403). It is -1 rather than -2 because no explicit rejection of joint procurement was found."
+  },
+  {
+   "id": "eu8",
+   "summary": "No explicit position found. After his May 2026 visit to Kyiv, 20 Minutes described him as more cautious than Édouard Philippe about Ukraine's future EU membership.",
+   "nuance": "This is a journalist's characterisation and not his own words, so confidence is low. He supports Ukraine against Russia, calling Ukraine's resistance 'une leçon et un symbole' in his 14 Jul 2026 op-ed. That is support for Ukraine in the war, not for EU membership. A Le Monde interview on Europe (30 Sep 2026) may cover enlargement, but it could not be opened. Recode once a direct quote is available."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No position on guaranteed floor prices for farmers was found.",
+   "nuance": "Searched reports of the Jeunes Agriculteurs congress (June 2026) and the Space visit (Sep 2026). Coverage reports his calls to scrap the precautionary principle and the OFB, his line that 'la meilleure écologie, c'est de produire en France', and his attacks on 'écologie dogmatique'. None of it mentions prix planchers. Le Télégramme's interview (16 Sep 2026) could not be fetched."
+  },
+  {
+   "id": "ene5",
+   "summary": "Retailleau explicitly rejects cutting VAT on energy and fuel to 5.5% (Marine Le Pen's proposal). He says it would cost 15 billion euros with no funding. He proposes scrapping energy-saving certificates (CEE) instead.",
+   "nuance": "He supports lowering energy prices, but through scrapping the CEE, not through VAT. He rejects the measure the statement describes."
+  },
+  {
+   "id": "ins6",
+   "summary": "No position by Retailleau on privatising France Télévisions or Radio France was found.",
+   "nuance": "Searches return the Alloncle (UDR) commission report and Bardella's privatisation proposal, which are other actors' positions. Retailleau's own stance has not been located. Do not borrow the RN or UDR positions."
+  },
+  {
+   "id": "soc6",
+   "summary": "Retailleau wants to ban the veil at university. He first proposed this in January and May 2025 and made it a campaign proposal in September 2026.",
+   "nuance": "His wording covers the veil, not every religious sign. He calls the RN's ban on the veil in all public spaces 'inapplicable', but supports bans at university, in sport and on school trips."
+  },
+  {
+   "id": "san5",
+   "summary": "Retailleau's May 2026 housing plan would abolish the 'zéro artificialisation nette' target and lighten building rules to deliver a construction 'shock'.",
+   "nuance": "He goes further than 'loosening': Valeurs actuelles reports 'l'abrogation du dispositif ZAN'. Les Échos (centre-right) corroborates the broad deregulatory housing plan. Le Figaro (28 May 2026) headline: 'promet un «choc de l'offre»'."
+  }
+ ],
+ "record": {
+  "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again from November 2025. He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2015-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate after the party vote of 19 April 2026. He is known for a restrictive line on immigration and security and for socially conservative positions.",
+  "offices": [
+   "Departmental (general) councillor, Vendée (canton of Mortagne-sur-Sèvre)",
+   "Member of the National Assembly (Vendée, 4th constituency)",
+   "Vice-president of the Pays de la Loire regional council",
+   "Senator for Vendée",
+   "President of the Vendée departmental council",
+   "Chair of the UMP/LR group in the Senate",
+   "President of the Pays de la Loire regional council",
+   "Minister of the Interior (Barnier, Bayrou, Lecornu I governments; Minister of State from 23 Dec 2024)",
+   "Senator for Vendée (resumed; re-elected 2026)",
+   "President of Les Républicains"
+  ],
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Governing alongside Macron's camp",
+    "before": "In 2022 he refused any governing agreement with Macron's Renaissance party, saying the right is 'not soluble in Macronism'.",
+    "after": "In September 2024 he became Interior Minister in Michel Barnier's government, a coalition of LR and the presidential camp, and stayed under Bayrou; he left in October 2025 over the composition of the Lecornu government."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Anti-narcotics plan (announced November 2024 with Justice Minister Migaud) and backing for the Senate bill 'sortir la France du piège du narcotrafic' (Blanc/Durain): creation of a national anti-organised-crime prosecutor's office (PNACO) and reform of informant status. Adopted on 29 April 2025 and promulgated on 13 June 2025.",
+    "assessment": "The law came from a cross-party Senate bill. Retailleau defended it, at first with Justice Minister Darmanin. It passed the Senate unanimously and the Assembly 396-68. The Conseil constitutionnel struck down the algorithmic-intelligence provisions. Socialist senator Carlotti backed the core measures but criticised his remarks on cutting social benefits and the lack of funding (Public Sénat). Evidence on outcomes is not covered in the sources read."
+   },
+   {
+    "what": "Immigration enforcement: negotiations with Iraq, Kazakhstan and Egypt on removals were announced (8 Oct 2024), along with an arrangement with Morocco to speed up returns (29 Oct 2024). A circular of 29 Oct 2024 asked prefects for 'complète mobilisation' on removals, and he announced the end of the Valls regularisation circular (Oct 2024). He also took a firm line with Algeria on readmissions.",
+    "assessment": "Supporters see this as tougher enforcement. Critics inside the presidential camp objected to his remark that the rule of law is neither 'intangible' nor 'sacré'. The sources are Wikipedia summaries, so the agreements' contents and actual removal figures are not verified."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not directly verified: Libération, Mediapart and L'Humanité were not read. The secondary sources read report that his 2023 'Français de papier' remark and his rule-of-law comment drew wide criticism from opponents.",
+   "right_media": "Not verified: no right-leaning outlet was read, so no characterisation is given.",
+   "neutral_media": "Public Sénat (Nov 2024) reports his narcotics plan procedurally and gives room to a Socialist senator's partial support and criticism."
+  }
+ }
+}

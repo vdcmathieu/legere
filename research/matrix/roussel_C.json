@@ -1,0 +1,413 @@
+{
+ "collect": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "No live source retrieved. PCF historically opposes a social VAT as regressive and favours financing social protection via capital contributions.",
+    "sources": [],
+    "nuance": "Unverified: WebSearch budget exhausted (200/200) before any search ran. Based on background knowledge of PCF line only."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded rather than guessed."
+   },
+   {
+    "id": "imm8",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF supports regularisation of long-resident workers; Roussel's personal tone on immigration is more restrictive, so only mild support is coded.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible. Inferred from PCF line and background knowledge."
+   },
+   {
+    "id": "sec6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left parties including PCF have backed identity-check receipts; no personal Roussel statement retrieved.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible."
+   },
+   {
+    "id": "eu7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel favours national sovereignty and opposes an integrated European army, though he supports cooperation; not verified.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible. Inferred from sovereignist PCF stance."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Roussel's 2022 programme and PCF line advocate minimum floor prices for farm produce.",
+    "sources": [],
+    "nuance": "Unverified from live sources; based on recollection of 2022 programme. Needs 2025-2026 confirmation."
+   },
+   {
+    "id": "ene5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "PCF/Roussel have called for lower VAT on energy and fuels; exact 5.5% scope across electricity, gas and fuels not confirmed.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible; may be partial version."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF strongly defends public broadcasting and opposes privatisation.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved on Roussel's current position on the 2026 law.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; he has historically stressed palliative care, so not guessed."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes Parcoursup selection and favours free access to university; not verified for Roussel personally.",
+    "sources": [],
+    "nuance": "Unverified: no live search possible."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme on pcf.fr (proposition 125) says indirect taxes such as VAT will be cut, not raised. The PCF social-security booklet (Dec 2025) says moving social-security funding from employer contributions onto taxes shifts the burden onto households, and it defends financing through cotisations. Social VAT is the opposite of both.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/moyen_1",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; programme text partly dates from 2022)",
+      "quote": "125 - Les impôts indirects, tels que la TVA et la taxe intérieure de consommation sur les produits énergétiques, seront réduits"
+     },
+     {
+      "url": "https://assets.nationbuilder.com/pcf/pages/36196/attachments/original/1766073347/document_-_cahier_se%CC%81cu_v2.pdf",
+      "outlet": "PCF, Les cahiers thématiques des Jours heureux - Sécurité sociale",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12",
+      "quote": "visant à faire basculer la contribution des entreprises vers le budget de l'État, c'est-à-dire sur les impôts des ménages."
+     }
+    ],
+    "nuance": "Neither source names 'TVA sociale', but both reject its two parts: they want VAT cut, and they defend employer contributions as the way to fund social security. Both are PCF party documents promoted as the 2027 candidate's programme, not a personal Roussel interview."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "As a deputy, Roussel voted against the whole projet de loi pour le plein emploi at first reading (10 Oct 2023). That law created the 15-20 hours of activity required of RSA recipients. No 2025-2026 promise to abolish the obligation was found.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/nord-59/depute_fabien-roussel/votes",
+      "outlet": "Datan (Assemblée nationale roll calls)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-10-10",
+      "quote": "L'ensemble du projet de loi pour le plein emploi (première lecture). CONTRE"
+     }
+    ],
+    "nuance": "He opposed creating the obligation, but no abolition pledge was found, so this is -1 rather than -2. The PCF programme on pcf.fr (proposition 42) wants to open the RSA to under-25s and eventually replace it with a guaranteed job or training scheme."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No statement by Roussel or the PCF on making naturalisation easier was found. The PCF programme (proposition 89) promises to regularise undocumented workers, which is a separate measure.",
+    "sources": [],
+    "nuance": "The draft's +1 was unsourced, and the adjacent evidence points both ways: the party supports regularising workers, while Roussel has personally called for France to be 'plus ferme' on migrant workers (2023). Left uncoded rather than guessed."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme (proposition 88) commits to fighting ethnic profiling by bringing in a receipt for each identity check.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_6",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from the 'Jours heureux' programme, originally 2022)",
+      "quote": "Les contrôles au faciès seront combattus, grâce à la mise en place du récépissé justifiant qu'une personne a déjà été contrôlée."
+     }
+    ],
+    "nuance": "This is the programme currently on the PCF site, whose wording comes from 2022. No 2025-2026 personal statement by Roussel was found. He takes a more security-focused line than the rest of the left, so the confidence stays at medium."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF peace-and-defence booklet for the 2027 campaign (May 2026) attacks the EU's militarisation and the €800bn 'Rearm EU' plan. It criticises the Lisbon treaty for strengthening the EU's military side and calls for French defence independence and leaving NATO. Only limited European cooperation, for example on satellite positioning (geolocation), is accepted.",
+    "sources": [
+     {
+      "url": "https://assets.nationbuilder.com/pcf/pages/41211/attachments/original/1779954906/document_cahier_paix_ppp_stc.pdf",
+      "outlet": "PCF, Les cahiers thématiques des Jours heureux - Paix & défense nationale",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05",
+      "quote": "Les 800 milliards de dépenses militaires supplémentaires décidés par l'UE sont destinés à enrichir les marchands de canons et constituent une nouvelle étape dans l'escalade guerrière."
+     },
+     {
+      "url": "https://assets.nationbuilder.com/pcf/pages/41211/attachments/original/1779954906/document_cahier_paix_ppp_stc.pdf",
+      "outlet": "PCF, Les cahiers thématiques des Jours heureux - Paix & défense nationale",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05",
+      "quote": "l'acceptation des traités européens qui renforcent le volet diplomatique et militaire de l'Union européenne, notamment depuis le traité de Lisbonne"
+     }
+    ],
+    "nuance": "The booklet accepts targeted European cooperation and wants a European defence industrial and technological base, but it rejects any loss of French military autonomy. It is a party document, not a Roussel interview."
+   },
+   {
+    "id": "eu8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The PCF's 2026 peace booklet blames Ukrainian leaders who worked to integrate Ukraine into the 'euro-atlantic' bloc for part of the war's origins, and it calls a Ukrainian military victory 'utopian'. In March 2024 Roussel voted against the government declaration on the Franco-Ukrainian security agreement. No explicit 2025-2026 statement on Ukraine's EU accession was found.",
+    "sources": [
+     {
+      "url": "https://assets.nationbuilder.com/pcf/pages/41211/attachments/original/1779954906/document_cahier_paix_ppp_stc.pdf",
+      "outlet": "PCF, Les cahiers thématiques des Jours heureux - Paix & défense nationale",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05",
+      "quote": "ont remis en cause le multilatéralisme des relations internationales de l'Ukraine et agi pour intégrer le pays à l'ensemble euro-atlantique."
+     },
+     {
+      "url": "https://datan.fr/deputes/nord-59/depute_fabien-roussel/votes",
+      "outlet": "Datan (Assemblée nationale roll calls)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-12",
+      "quote": "DÉCLARATION DU GOUVERNEMENT SUR LA STRATÉGIE D'AIDE À L'UKRAINE ... CONTRE"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions. 'Euro-atlantic' refers mainly to NATO, and the March 2024 vote was on a security agreement rather than on EU accession. In November 2022 he voted for the resolution supporting Ukraine. Needs a direct statement."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme (proposition 62) promises a farm law to guarantee base prices that pay for farmers' work. Prices would be set for each product at a yearly conference of producer organisations, the government and supermarket buying groups, and selling at a loss would be banned.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_4",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "Elle aura pour objectifs de garantir des prix de base rémunérateurs du travail paysan"
+     },
+     {
+      "url": "https://www.pcf.fr/objectif_4",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "Celle-ci devra déterminer les prix par production, interdire les reventes à perte"
+     }
+    ],
+    "nuance": "The wording dates from the 2022 programme still on pcf.fr (it refers to 'En 2022'). No newer statement by Roussel personally was retrieved."
+   },
+   {
+    "id": "ene5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme (proposition 58) sets VAT on electricity and gas consumption at 5.5%. For motor fuels, the September 2026 campaign proposals are to cap the price at €1.60 a litre and lower state taxes. Proposition 125 cuts VAT and the fuel excise (TICPE) without naming a rate.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_4",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "la TVA sur les consommations sera fixée à 5,5 %, les taxes assises sur des taxes seront supprimées."
+     },
+     {
+      "url": "https://www.pcf.fr/carburants_une_section_une_initiative_du_5_au_11_octobre",
+      "outlet": "PCF (pcf.fr)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-30",
+      "quote": "bloquer les carburants à 1,60 euro le litre, baisser les taxes prélevées par l'État et nationaliser TotalEnergies et Engie, aux côtés d'EDF."
+     }
+    ],
+    "nuance": "Partial match: 5.5% is explicit for electricity and gas, but for fuels only a tax cut and a price cap are promised, with no 5.5% VAT rate. Hence +1."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No specific statement on France Télévisions or Radio France was retrieved. The PCF programme calls for ending the privatisation of public services and for creating a large Ministry of Culture, Popular Education and Media.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_2",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "il convient de mettre fin aux dynamiques de concurrence, de privatisation, de réduction des effectifs et de coupes budgétaires"
+     }
+    ],
+    "nuance": "Inferred from the party's general opposition to privatising public services, with nothing specific to public broadcasting found. The direction is very likely, but the confidence stays low."
+   },
+   {
+    "id": "soc1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "On 4 June 2024 Roussel, then a deputy, voted against the amendments deleting Article 5 of the end-of-life bill, the article that created assisted dying. That suggests he supports the principle. No 2025-2026 statement on keeping or repealing the 2026 law was found.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/nord-59/depute_fabien-roussel/votes",
+      "outlet": "Datan (Assemblée nationale roll calls)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06-04",
+      "quote": "L'amendement de suppression n° 50 de M. Bazin ... à l'article 5 du projet de loi relatif à l'accompagnement des malades et de la fin de vie ... CONTRE"
+     }
+    ],
+    "nuance": "The vote was on the 2024 bill, which lapsed at the dissolution, not on the 2026 law. He was no longer a deputy when the 2026 law passed. +1 rather than +2 because there is no explicit commitment to keep the law."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence was found in the PCF programme pages, the 2025-2026 thematic booklets or Roussel's voting record.",
+    "sources": [],
+    "nuance": "Searched the PCF programme and booklets for laïcité and religious symbols with no result. WebSearch budget exhausted, so not searched further."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence was found in the PCF programme pages, the 2025-2026 thematic booklets or Roussel's voting record.",
+    "sources": [],
+    "nuance": "Searched the PCF programme and booklets with no result. Not coded."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme (proposition 33) explicitly abolishes selection at university entry and scraps Parcoursup. The baccalauréat would guarantee a place in the chosen higher-education course.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/objectif_3",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "33 - La sélection à l'entrée de l'université sera supprimée"
+     },
+     {
+      "url": "https://www.pcf.fr/objectif_3",
+      "outlet": "PCF (pcf.fr, programme page)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026 (page live 5 Oct 2026; text from 2022 programme)",
+      "quote": "il garantira une place dans une formation choisie dans l'enseignement supérieur."
+     }
+    ],
+    "nuance": "The proposal ends selection itself, not only the Parcoursup platform, so it matches the statement in full. The wording dates from the 2022 programme still on pcf.fr."
+   },
+   {
+    "id": "san5",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF housing booklet (Dec 2025) acknowledges the tension between ZAN and the housing shortage. It keeps the ZAN target: its answer is public control of land, plus densification so that construction stays compatible with the rules against building on new land.",
+    "sources": [
+     {
+      "url": "https://assets.nationbuilder.com/pcf/pages/36197/attachments/original/1766073372/document_-_cahier_logement_ppp.pdf",
+      "outlet": "PCF, Les cahiers thématiques des Jours heureux - Logement",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-12",
+      "quote": "Ces PLUI permettront la densification des opérations de logements publics pour rendre compatible la production avec les règles de non-artificialisation des sols"
+     }
+    ],
+    "nuance": "The booklet blames speculation on land, not ZAN or building standards, for the shortage. It does not explicitly campaign against loosening the rules, so this is -1."
+   }
+  ],
+  "verification_notes": [
+   "Context: WebSearch was also exhausted for this verification pass (200/200). Everything below comes from pages opened directly: pcf.fr programme pages (objectif_2/3/4/6, moyen_1), PCF thematic booklets (PDFs on assets.nationbuilder.com), the pcf.fr fuel article of 30 Sep 2026, Datan roll calls and French Wikipedia.",
+   "Caveat: the numbered pcf.fr propositions are presented on the PCF homepage as the 2027 candidate's proposals. Their text partly dates from the 2022 'Jours heureux' programme (for example 'Dès 2022', 'En 2022'), so they may not be fully current.",
+   "eco7: -2/low/party_line (no sources) -> -2/medium/programme: confirmed by pcf.fr proposition 125 (cut VAT) and the PCF social-security booklet (Dec 2025) rejecting the shift of social-security funding onto taxes.",
+   "trav3: null -> -1/low/vote: Datan shows Roussel voted CONTRE the whole projet de loi pour le plein emploi (10 Oct 2023), which created the 15-20 h RSA obligation; no abolition pledge found, so not -2.",
+   "imm8: +1/low/party_line -> null/none: no source on naturalisation found; regularising undocumented workers (proposition 89) is a different measure, and Roussel's personal line is more restrictive; the unsourced +1 was a guess.",
+   "sec6: +1/low/party_line -> +2/medium/programme: pcf.fr proposition 88 explicitly promises the identity-check receipt against ethnic profiling.",
+   "eu7: -1/low/inferred -> -2/medium/programme: the PCF 'Paix & défense nationale' booklet (May 2026) denounces the EU's €800bn rearmament and the Lisbon treaty's military side, and calls for French defence independence and leaving NATO; it rejects any loss of autonomy.",
+   "eu8: null -> -1/low/inferred: the same booklet blames attempts to integrate Ukraine into the 'euro-atlantic' bloc, and Roussel voted against the March 2024 declaration on the Franco-Ukrainian security agreement; indirect evidence only.",
+   "ecol6: +2/low/programme (no sources, 'recollection') -> +2/medium/programme: confirmed by pcf.fr proposition 62 (guaranteed remunerative base prices, prices set for each product).",
+   "ene5: +1/low/programme -> +1/medium/programme: pcf.fr proposition 58 sets VAT at 5.5% on electricity and gas; for fuels only a tax cut and a €1.60/L cap (PCF, 30 Sep 2026), so the partial-version +1 stands.",
+   "ins6: -2/low/party_line -> -2/low/inferred: no specific public-broadcasting source found; the only support is the programme's general opposition to privatising public services, so the evidence type was relabelled.",
+   "soc1: null -> +1/low/vote: on 4 Jun 2024 Roussel voted CONTRE the amendments deleting Article 5 (assisted dying) of the 2024 end-of-life bill; no statement found on the 2026 law itself.",
+   "edu5: +1/low/party_line -> +2/medium/programme: pcf.fr proposition 33 reads 'La sélection à l'entrée de l'université sera supprimée', which goes beyond replacing Parcoursup.",
+   "san5: null -> -1/medium/programme: the PCF housing booklet (Dec 2025) keeps ZAN and answers the housing shortage through public control of land and densification compatible with the rules against building on new land.",
+   "soc3, soc6: null kept: no evidence found in the PCF programme pages, the booklets or Roussel's voting record.",
+   "Rejected: a WebFetch summary of Wikipedia claimed Roussel wanted to 'supprimer le RSA' in Feb 2025; the raw Wikipedia source contains no such passage, so it was not used."
+  ]
+ }
+}

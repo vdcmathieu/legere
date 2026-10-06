@@ -1,0 +1,432 @@
+{
+ "collect": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget (200/200) was exhausted and a fallback fetch hit a CAPTCHA, so no evidence could be gathered. This is a tooling failure, not evidence of absence. Re-run."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Not coded: web search unavailable.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; no sources opened. Re-run."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct statement by Retailleau for or against a 'TVA sociale' was found. He proposes cutting wage contributions, but funds it with spending cuts rather than a VAT rise.",
+    "sources": [],
+    "nuance": "Signals point both ways, so this is left uncoded. L'Essentiel de l'Éco (8 Sep 2026, https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/) says Retailleau proposes a full exemption from contributions beyond the 36th hour worked, 'financée par 30 milliards d'euros d'économies budgétaires'. Its list of TVA sociale backers is Hollande, Le Maire and Attal. L'Humanité (3 Sep 2026) places him in an 'arc of candidates' from Retailleau to Hollande who say social protection relies too heavily on labour. That is an opponent outlet's framing and does not show he backs a VAT rise. A 2018 Les Échos quote cited on Wikipedia (VAT increase as 'une mesure de compétitivité') is too old and too indirect. Re-check if he takes an explicit position."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retailleau's January 2026 economic proposals include making the 15 hours of activity mandatory for RSA recipients, within a tougher reform (RSA replaced by an 'RIA', benefits capped at 70% of the Smic).",
+    "sources": [
+     {
+      "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-07",
+      "quote": "Rendre obligatoire les 15 heures d'activité complémentaire au RSA"
+     },
+     {
+      "url": "https://www.lefigaro.fr/politique/sortir-des-35-heures-remplacer-le-rsa-par-un-ria-durcir-l-assurance-chomage-bruno-retailleau-devoile-ses-propositions-economiques-20260107",
+      "outlet": "Le Figaro",
+      "outlet_lean": "centre-right",
+      "date": "2026-01-07",
+      "quote": "Sortir des 35 heures, remplacer le RSA par un RIA, durcir l'assurance-chômage (headline)"
+     }
+    ],
+    "nuance": "He wants to keep the obligation and make it stricter, so +2. The RSA would be renamed or replaced by a 'RIA' (revenu d'incitation à l'activité), so the obligation would apply to that successor benefit."
+   },
+   {
+    "id": "imm8",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "record_in_office",
+    "summary": "As interior minister, Retailleau issued the May 2025 naturalisation circular, which tightened the criteria (language level, history test, work requirements). As a candidate he goes further and proposes abolishing the droit du sol.",
+    "sources": [
+     {
+      "url": "https://www.lemonde.fr/societe/article/2026/10/04/immigration-les-naturalisations-se-grippent-pour-les-etrangers-a-potentiel-eleve-pour-notre-pays_6787997_3224.html",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2026-10-04",
+      "quote": "la circulaire Retailleau de 2025, qui durcit les critères d'acquisition de la nationalité française"
+     },
+     {
+      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-linterdiction-du-voile-dans-lespace-public-est-inapplicable-estime-bruno-retailleau-1064318",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-09-08",
+      "quote": "Objectif Élysée 2027 : en cas d'élection, Bruno Retailleau annonce qu'il abrogera le droit du sol (related headline on page)"
+     }
+    ],
+    "nuance": "Le Figaro (30 Dec 2025) reported that naturalisations fell in 2025 after the circular. Orange/AFP (10 Apr 2026) headlined that he 'durcit encore le ton sur les conditions de naturalisation'; that headline was seen only in Google News results. The source of his position is consistent across outlets of different leans."
+   },
+   {
+    "id": "sec6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "In May 2025, while Retailleau was interior minister, the government and the LR-led Senate majority rejected a PS bill that would have created a receipt for every identity check.",
+    "sources": [
+     {
+      "url": "https://www.leparisien.fr/politique/controles-au-facies-senat-et-gouvernement-disent-non-a-la-delivrance-dun-recepisse-apres-chaque-controle-de-police-15-05-2025-OAUG2CC65FHSZC3T65656VDXWI.php",
+      "outlet": "Le Parisien",
+      "outlet_lean": "centre",
+      "date": "2025-05-15",
+      "quote": "Contrôles au faciès : Sénat et gouvernement disent non à la délivrance d'un récépissé après chaque contrôle de police (headline)"
+     },
+     {
+      "url": "https://www.publicsenat.fr/actualites/societe/la-france-condamnee-pour-controle-au-facies-par-la-cedh-la-prochaine-etape-cest-lonu-que-faut-il-pour-que-la-france-prenne-en-main-le-sujet",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-06-26",
+      "quote": "proposition de loi visant à lutter contre les contrôles au faciès, rejetée par le Sénat en mai dernier"
+     }
+    ],
+    "nuance": "No personal quote from Retailleau on the receipt was found. The code rests on the government's position while he ran the Interior Ministry; the minister who spoke for the government in the Senate debate is not confirmed. Le Parisien's article could not be opened (403); its headline was seen in search results. Opponents (PS senator Narassiguin) say his June 2025 operations against undocumented migrants amounted to ethnic profiling. That is an opponent's characterisation and was not used for the code."
+   },
+   {
+    "id": "eu7",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Retailleau wants a European security architecture that does not depend on Washington. He favours bilateral defence alliances between European partners and producing arms in France and in Europe. He does not back a European army or giving up national military autonomy.",
+    "sources": [
+     {
+      "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+      "outlet": "Les Républicains (op-ed by Retailleau)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-14",
+      "quote": "constituant un solide réseau d'alliances bilatérales de défense entre partenaires européens"
+     },
+     {
+      "url": "https://www.lefigaro.fr/vox/monde/bruno-retailleau-l-unite-nationale-premiere-de-nos-armes-20260713",
+      "outlet": "Le Figaro",
+      "outlet_lean": "centre-right",
+      "date": "2026-07-13",
+      "quote": "Bruno Retailleau : « L'unité nationale du 14 juillet, première de nos armes » (headline of same op-ed)"
+     }
+    ],
+    "nuance": "He partly agrees: more European production and less dependence on the US. He rejects the core of the statement, a common defence even at the cost of French autonomy. A JDD interview headline (1 Mar 2026), seen only in Google News results, reads 'La dissuasion nucléaire française ne se partage pas'. A Le Monde interview on Europe (30 Sep 2026) presents him as 'issu de la droite souverainiste'; it could not be opened (paywall/403). It is -1 rather than -2 because no explicit rejection of joint procurement was found."
+   },
+   {
+    "id": "eu8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No explicit position found. After his May 2026 visit to Kyiv, 20 Minutes described him as more cautious than Édouard Philippe about Ukraine's future EU membership.",
+    "sources": [
+     {
+      "url": "https://www.20minutes.fr/monde/ukraine/4225827-20260602-guerre-ukraine-retailleau-philippe-attal-visites-candidats-kiev-tout-benef-zelensky",
+      "outlet": "20 Minutes",
+      "outlet_lean": "centre",
+      "date": "2026-06-02",
+      "quote": "le second s'est montré plus prudent sur une future adhésion de l'Ukraine à l'Union européenne"
+     }
+    ],
+    "nuance": "This is a journalist's characterisation and not his own words, so confidence is low. He supports Ukraine against Russia, calling Ukraine's resistance 'une leçon et un symbole' in his 14 Jul 2026 op-ed. That is support for Ukraine in the war, not for EU membership. A Le Monde interview on Europe (30 Sep 2026) may cover enlargement, but it could not be opened. Recode once a direct quote is available."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on guaranteed floor prices for farmers was found.",
+    "sources": [],
+    "nuance": "Searched reports of the Jeunes Agriculteurs congress (June 2026) and the Space visit (Sep 2026). Coverage reports his calls to scrap the precautionary principle and the OFB, his line that 'la meilleure écologie, c'est de produire en France', and his attacks on 'écologie dogmatique'. None of it mentions prix planchers. Le Télégramme's interview (16 Sep 2026) could not be fetched."
+   },
+   {
+    "id": "ene5",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Retailleau explicitly rejects cutting VAT on energy and fuel to 5.5% (Marine Le Pen's proposal). He says it would cost 15 billion euros with no funding. He proposes scrapping energy-saving certificates (CEE) instead.",
+    "sources": [
+     {
+      "url": "https://www.sudouest.fr/politique/bruno-retailleau/prix-des-carburants-bruno-retailleau-propose-de-supprimer-les-cee-pour-reduire-le-cout-a-la-pompe-de-15-a-17-centimes-30640484.php",
+      "outlet": "Sud Ouest (AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-15",
+      "quote": "Il a estimé que cette mesure coûterait « 15 milliards sans un euro de financement en face ». « On n'a pas les moyens de le faire »."
+     },
+     {
+      "url": "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-carburants-salaires-logement-comment-retailleau-veut-redonner-du-pouvoir-dachat-aux-francais-2251725",
+      "outlet": "Les Échos",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-15",
+      "quote": "promet notamment de faire baisser le prix du carburant en supprimant les certificats d'économie d'énergie (snippet)"
+     }
+    ],
+    "nuance": "He supports lowering energy prices, but through scrapping the CEE, not through VAT. He rejects the measure the statement describes."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position by Retailleau on privatising France Télévisions or Radio France was found.",
+    "sources": [],
+    "nuance": "Searches return the Alloncle (UDR) commission report and Bardella's privatisation proposal, which are other actors' positions. Retailleau's own stance has not been located. Do not borrow the RN or UDR positions."
+   },
+   {
+    "id": "soc1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Retailleau strongly opposed the assisted-dying law, calling it 'une loi d'abandon'. He then lobbied the Conseil constitutionnel over its review. No promise to repeal the law was found.",
+    "sources": [
+     {
+      "url": "https://www.bfmtv.com/politique/les-republicains/c-est-plutot-une-loi-d-abandon-bruno-retailleau-deplore-l-adoption-definitive-du-texte-sur-le-droit-a-l-aide-a-mourir_AV-202607150750.html",
+      "outlet": "BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-07-15",
+      "quote": "Ce n'est pas une loi de fraternité, c'est plutôt une loi d'abandon"
+     },
+     {
+      "url": "https://www.lefigaro.fr/politique/loi-sur-l-aide-a-mourir-bruno-retailleau-exhorte-les-membres-du-conseil-constitutionnel-a-ne-pas-etre-juge-et-partie-20260716",
+      "outlet": "Le Figaro",
+      "outlet_lean": "centre-right",
+      "date": "2026-07-16",
+      "quote": "Bruno Retailleau exhorte les membres du Conseil constitutionnel à «ne pas être juge et partie» (headline)"
+     }
+    ],
+    "nuance": "The brief allows -2 only with a repeal pledge, and none was found, so -1 despite his clear hostility. A franceinfo piece (17 Jul 2026) asked whether hostile candidates would promise repeal; it was not opened. Recode to -2 if he pledges repeal."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Retailleau wants to ban the veil for parents accompanying school trips. He proposed this as interior minister in January 2025 and repeated it as a candidate in September 2026.",
+    "sources": [
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-bruno-retailleau-fait-sa-rentree-le-rn-sous-le-feu-des-critiques_LN-202609060097.html",
+      "outlet": "BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-09-06",
+      "quote": "interdire le voile \"là où on peut le faire, c'est-à-dire sortie scolaire, c'est-à-dire le sport, c'est-à-dire l'université\""
+     }
+    ],
+    "nuance": "His wording is about the veil specifically, which falls under the statement's 'signes religieux ostensibles'. In January 2025 the Bayrou government declined to take up his proposal (Le Monde, Libération, franceinfo, 8 Jan 2025, seen in search results). His position has not changed since."
+   },
+   {
+    "id": "soc6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Retailleau wants to ban the veil at university. He first proposed this in January and May 2025 and made it a campaign proposal in September 2026.",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-linterdiction-du-voile-dans-lespace-public-est-inapplicable-estime-bruno-retailleau-1064318",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-09-08",
+      "quote": "il est possible de l'interdire \"là où on peut le faire\" comme dans le \"sport\", dans \"l'école\" mais aussi à \"l'université\""
+     },
+     {
+      "url": "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-bruno-retailleau-fait-sa-rentree-le-rn-sous-le-feu-des-critiques_LN-202609060097.html",
+      "outlet": "BFMTV",
+      "outlet_lean": "centre",
+      "date": "2026-09-06",
+      "quote": "c'est-à-dire sortie scolaire, c'est-à-dire le sport, c'est-à-dire l'université"
+     }
+    ],
+    "nuance": "His wording covers the veil, not every religious sign. He calls the RN's ban on the veil in all public spaces 'inapplicable', but supports bans at university, in sport and on school trips."
+   },
+   {
+    "id": "edu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "No personal statement found. A September 2026 Senate inquiry report, set up by the LR group and led by a Retailleau ally, proposes ending automatic university access for baccalauréat holders. That means more selection, the opposite of the statement.",
+    "sources": [
+     {
+      "url": "https://www.lanouvellerepublique.fr/a-la-une/un-rapport-senatorial-veut-supprimer-le-droit-de-tous-les-bacheliers-de-poursuivre-des-etudes-1788969092",
+      "outlet": "La Nouvelle République",
+      "outlet_lean": "centre",
+      "date": "2026-09-09",
+      "quote": "Dans un rapport, porté par une proche de Bruno Retailleau, des sénateurs appellent à restreindre l'accès à l'université"
+     },
+     {
+      "url": "https://www.lesechos.fr/politique-societe/education/selection-droits-dinscription-etudiants-etrangers-le-senat-relance-le-debat-sur-les-universites-2250747",
+      "outlet": "Les Échos",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-09",
+      "quote": "le rapport de la commission d'enquête lancée en mars dernier par le groupe LR (snippet)"
+     }
+    ],
+    "nuance": "This is the LR line, not Retailleau's own statement, so confidence is low. The Sylvie Retailleau results in searches refer to a different person (a former higher-education minister)."
+   },
+   {
+    "id": "san5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retailleau's May 2026 housing plan would abolish the 'zéro artificialisation nette' target and lighten building rules to deliver a construction 'shock'.",
+    "sources": [
+     {
+      "url": "https://www.valeursactuelles.com/politique/presidentielle-2027-bruno-retailleau-revele-son-plan-pour-creer-un-million-de-logements-supplementaires",
+      "outlet": "Valeurs actuelles",
+      "outlet_lean": "right",
+      "date": "2026-06-01",
+      "quote": "« Présenté comme un objectif environnemental, le ZAN bloque la construction et renchérit le coût du foncier »"
+     },
+     {
+      "url": "https://www.lesechos.fr/politique-societe/politique/presidentielle-2027-bruno-retailleau-pret-a-un-grand-virage-a-droite-sur-la-politique-du-logement-2233887",
+      "outlet": "Les Échos",
+      "outlet_lean": "centre-right",
+      "date": "2026-05-28",
+      "quote": "Encadrement des loyers, interdiction à la location des passoires thermiques, quotas de logements sociaux… (snippet)"
+     }
+    ],
+    "nuance": "He goes further than 'loosening': Valeurs actuelles reports 'l'abrogation du dispositif ZAN'. Les Échos (centre-right) corroborates the broad deregulatory housing plan. Le Figaro (28 May 2026) headline: 'promet un «choc de l'offre»'."
+   }
+  ],
+  "verification_notes": [
+   "Tooling: WebSearch was still exhausted (200/200). Evidence came from Google News RSS, Bing News RSS (which gives direct URLs) and direct page fetches. Le Monde, Le Parisien, Capital, Le Télégramme, Libération and France 24 often blocked fetching (403); for those, only headlines or snippets were used, and they are marked as such.",
+   "eco7: null -> null: searched; mixed signals and no explicit statement (his contribution cuts are funded by spending cuts; L'Humanité groups him with TVA sociale backers, which is an opponent's framing). Nuance updated.",
+   "trav3: null -> +2 (high, programme): Public Sénat, 7 Jan 2026: 'Rendre obligatoire les 15 heures d'activité complémentaire au RSA'.",
+   "imm8: null -> -2 (high, record_in_office): May 2025 restrictive naturalisation circular (Le Monde, Oct 2026), plus his pledge to abolish the droit du sol (Europe 1, Sep 2026).",
+   "sec6: null -> -2 (medium, record_in_office): in May 2025 the government (with Retailleau at the Interior Ministry) and the Senate rejected the receipt; no personal quote found.",
+   "eu7: null -> -1 (medium, statement): 14 Jul 2026 op-ed favours bilateral European alliances and European arms production, with no European army or pooling of autonomy.",
+   "eu8: null -> -1 (low, inferred): only a journalist's description (20 Minutes) of him as 'plus prudent' on Ukraine's EU membership; no direct quote.",
+   "ecol6: null -> null: searched the JA congress and Space coverage; no floor-price position found.",
+   "ene5: null -> -2 (high, statement): Sud Ouest/AFP, 15 Sep 2026, explicitly rejects cutting VAT on fuel and energy to 5.5% ('On n'a pas les moyens').",
+   "ins6: null -> null: searched; only Alloncle (UDR) and Bardella (RN) positions found, not Retailleau's.",
+   "soc1: null -> -1 (medium, statement): calls the law 'une loi d'abandon' (BFMTV, 15 Jul 2026); no repeal pledge found, so not -2.",
+   "soc3: null -> +2 (high, statement): wants the veil banned on school trips (BFMTV, 6 Sep 2026; first proposed Jan 2025).",
+   "soc6: null -> +2 (high, statement): wants the veil banned at university (Europe 1, 8 Sep 2026; BFMTV).",
+   "edu5: null -> -1 (low, party_line): LR-initiated Senate report (Sep 2026) proposes ending automatic university access; no personal statement found.",
+   "san5: null -> +2 (high, programme): May 2026 housing plan abolishes ZAN (Valeurs actuelles, corroborated by Les Échos and Le Figaro headlines)."
+  ]
+ }
+}

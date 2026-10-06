@@ -1,0 +1,826 @@
+{
+ "collect": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "int1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted (200/200); only Wikipedia pages fetched, with no policy detail."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "int3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "int4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Wikipedia only notes he favours social-ecological junction, protectionism and degrowth; too generic to code."
+   },
+   {
+    "id": "ene1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   },
+   {
+    "id": "san4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; not coded."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Mixed record. On 12 March 2025 he abstained on the European resolution to step up support for Ukraine, breaking with his ECOS group, which voted for it. On 12 March 2024, while still in LFI, he voted against the government's Ukraine aid strategy. In 2022 he said arms deliveries had stopped the Russian army, but he pushed for negotiations.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_988",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-03-12",
+      "quote": "Ruffin (ECOS) voted abstention, marked as 'REBELLE'; resolution called for seizing Russian assets to fund military aid (Datan summary, paraphrase)"
+     },
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-12",
+      "quote": "CONTRE - Déclaration du gouvernement sur la stratégie d'aide à l'Ukraine"
+     },
+     {
+      "url": "https://francoisruffin.fr/ukraine-paix/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-11-14",
+      "quote": "cette aide militaire, en appui à la volonté d'un peuple, a permis d'arrêter l'armée russe"
+     }
+    ],
+    "nuance": "He did not oppose aid outright, but his 2025 abstention against his own group's line and his 2024 vote against make 'strongly for' wrong. I found no 2026 statement about the level of aid."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted. His own site (searched for Ukraine, troupes, défense) has no statement on sending troops."
+   },
+   {
+    "id": "int3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "His site shows no post on leaving NATO's integrated command. In 2025 he denounced European 'vassalité' towards the US, which is too generic to code."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He has repeatedly called for suspending or challenging the EU-Israel association agreement over Gaza: in November 2023, in January 2024 and again in December 2024.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/gaza-que-pourrait-faire-la-france/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2023-11-14",
+      "quote": "La France pourrait demander à l'Union européenne de suspendre son accord d'association avec Israël"
+     },
+     {
+      "url": "https://francoisruffin.fr/gaza-est-ce-un-genocide/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-12-05",
+      "quote": "Nous aurions pu demander la suspension de l'accord commercial entre l'Union européenne et Israël."
+     }
+    ],
+    "nuance": "The most recent explicit call is from December 2024. In 2025 he kept criticising Israel's conduct of the war (letter of 23 June 2025). I could not search for corroboration from an outlet of a different lean, so confidence is medium."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "He voted against the 2024-2030 military programming law in 2023, while in LFI. That vote does not speak to a 3% of GDP target, so it is not coded."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A search of his site returned nothing on compulsory military or national service."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on lifting sanctions in exchange for a peace deal.",
+    "sources": [],
+    "nuance": "In 2022 he wrote that 'nos peuples souffrent' from the sanctions and urged negotiations. He never proposed lifting the sanctions as part of a deal, so this is not coded."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A search of his site for ZFE and 'zones à faibles émissions' returned no relevant post."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "He voted against the Duplomb law on 8 July 2025 and against the 2026 emergency farm law that reauthorised acetamiprid. Both pesticides at stake are banned in France but still used elsewhere in the EU. In 2018 he voted for banning glyphosate.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-20",
+      "quote": "CONTRE - Loi urgence agricole : réautorisation de l'acétamipride"
+     },
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-07-08",
+      "quote": "CONTRE - Loi Duplomb sur l'agriculture (texte de la commission mixte paritaire)"
+     }
+    ],
+    "nuance": "He pairs national bans with protectionism against imports that do not meet French standards (Mercosur), so he does not accept unilateral exposure to foreign competition. Both votes followed his group's line."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "No statement found on the 2035 end of combustion-engine car sales."
+   },
+   {
+    "id": "ecol4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "He wants air traffic reduced. He tabled a bill banning flights where a train is available and proposed individual carbon quotas, with private jets 'de ce fait prohibés'. He explicitly prefers quotas and bans to taxes.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/aerien-quota-carbone-individuel/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2020-07-02",
+      "quote": "Des quotas plutôt que des taxes"
+     },
+     {
+      "url": "https://francoisruffin.fr/loi-aerien-train/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2019-05-22",
+      "quote": "Le gouvernement peut taxer le kérosène sur les vols intérieurs, il repousse"
+     }
+    ],
+    "nuance": "Both sources are old (2019-2020) and I found nothing newer. He supports curbing air travel more than taxing it, so this is coded +1, not +2."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "He opposes productivism and calls for a social-ecological junction, but I found no explicit trade-off statement."
+   },
+   {
+    "id": "ene1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "On 21 March 2023, while in LFI, he voted against the law accelerating the construction of new nuclear reactors. In 2024 he also voted against the nuclear-safety governance bill.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-03-21",
+      "quote": "CONTRE - Projet de loi d'accélération de l'énergie nucléaire (première lecture)"
+     }
+    ],
+    "nuance": "These are group-line votes from 2023, before he left LFI. I found no 2025-2026 statement from him on new reactors, hence the low confidence."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "I found no explicit position on phasing out nuclear power. The 2023 vote against speeding up construction does not establish support for a phase-out."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "On 24 June 2025 he voted against the Gremillet energy programming bill (PPE), which had been amended in the Assembly. Its provisions are not visible on the vote page, so it is not used."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "No statement found on leaving the European electricity market."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A search of his site for 'VIe République' and Constitution returned no position on a new constitution. LFI's line should not be attributed to him since he left the party."
+   },
+   {
+    "id": "ins2",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In June 2025 he wrote that he agreed with Édouard Philippe that proportional representation is useless.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/edouard-philippe-le-prix-de-vos-mensonges/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-11",
+      "quote": "Je suis d'accord avec vous sur la proportionnelle inutile."
+     }
+    ],
+    "nuance": "This is a reversal. On 6 May 2021, with LFI, he voted for a bill introducing full proportional representation (Datan, legislature 15). The current position is a one-line remark, so it is coded -1, not -2."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He supports a citizens' initiative referendum (RIC). In May 2023 he called on people to sign a petition for it.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/François_Ruffin",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "supports 'référendum d'initiative citoyenne (RIC)', called for petition signature in May 2023 (paraphrase of article)"
+     }
+    ],
+    "nuance": "The source is secondary and dates from 2023. I found no 2025-2026 restatement."
+   },
+   {
+    "id": "ins4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "He has repeatedly attacked governments' use of Article 49.3 and voted for the motions of censure that followed it. I found no explicit proposal to abolish the article.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/49-3-le-nom/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-10-20",
+      "quote": "L'injustice sera pleinement rétablie par 49.3."
+     }
+    ],
+    "nuance": "He criticises how the article is used but has not proposed reforming it, so this is coded +1 with low confidence. The source is from 2022."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "I found no position on widening referendums to immigration or justice."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "He voted for the bill creating a right to assisted dying at first reading on 27 May 2025 and at the final reading on 15 July 2026.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "POUR - Proposition de loi créant un droit à l'aide à mourir - Lecture définitive"
+     },
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-27",
+      "quote": "POUR - Proposition de loi créant un droit à l'aide à mourir - Première lecture"
+     }
+    ],
+    "nuance": "This is a free vote, and he voted for at every stage."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He opposes new headscarf bans. He criticised Bardella's call to ban the veil in public buildings and defends veiled mothers on school trips.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/ils-veulent-le-faire-disparaitre-de-notre-societe/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-26",
+      "quote": "Voilà l'urgence de Darmanin, Retailleau and co. : le voile, à nouveau."
+     }
+    ],
+    "nuance": "He opposes even narrower bans, so opposition to a ban across all public space follows. I found no quote on a full public-space ban specifically."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "He explicitly opposes banning the veil for mothers on school trips and at university.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/ce-sera-un-debut-et-pas-une-fin-le-debut-dun-long-chemin-avec-vous-avec-notre-france/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-04-13",
+      "quote": "la maman de Aida porte un voile. Mais la République, ce n'est pas de lui interdire"
+     },
+     {
+      "url": "https://francoisruffin.fr/ils-veulent-le-faire-disparaitre-de-notre-societe/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-26",
+      "quote": "le voile des mamans accompagnatrices scolaires à interdire, le voile à l'université à interdire"
+     }
+    ],
+    "nuance": "The second quote lists the proposals he is denouncing as attacks on the 1905 law."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "He describes secularism as freedom of religion, with neutrality required of public agents only, and argues that the existing 1905 law is enough.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/ils-veulent-le-faire-disparaitre-de-notre-societe/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-26",
+      "quote": "la laïcité en France, ce n'est pas l'interdiction de la religion. C'est au contraire la liberté de la religion"
+     }
+    ],
+    "nuance": "He calls for enforcing article 31 of the 1905 law against religious pressure rather than passing new restrictions."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "A search of his site for GPA returned nothing."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "No statement found on school uniforms."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "He complains about unreplaced teachers, but I found no explicit plan to hire on a large scale or cut class sizes."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "No statement found on grouping pupils by level."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "In January 2024 he attacked the Stanislas school as a site of 'reproduction sociale', but he did not mention funding conditions."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "His only mention of Parcoursup is a 2019 aside about students struggling with it, with no policy position."
+   },
+   {
+    "id": "san1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "On 14 June 2023 he voted for Garot's amendment regulating doctors setting up practice in well-served areas. That is a partial form of compulsion.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/somme-80/depute_francois-ruffin/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-06-14",
+      "quote": "POUR - Déserts médicaux : réguler l'installation des médecins dans les zones bien pourvues en soignants"
+     }
+    ],
+    "nuance": "The amendment restricts setting up in over-served areas. It does not require new doctors to work in under-served ones, hence +1. The vote is from 2023, with the group."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct evidence found on co-payments.",
+    "sources": [],
+    "nuance": "He voted against the 2026 social security budget (PLFSS) at every reading. That budget contained many measures, so the vote cannot be attributed to co-payments alone."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "In April 2025 he said leaders 'laissent faire le marché' on housing, but he did not mention rent caps."
+   },
+   {
+    "id": "san4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "He consistently attacks the 'concurrence libre et non faussée' and the 'Etat organisateur de la concurrence'. I found no specific statement on transport or energy.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/chers-camarades-socialistes/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-01-23",
+      "quote": "l'Etat au service du marché, l'Etat organisateur de la concurrence"
+     }
+    ],
+    "nuance": "This is inferred from his general anti-liberal stance, so confidence is low."
+   }
+  ],
+  "verification_notes": [
+   "Method: the WebSearch budget was exhausted (200/200), and I did not get around it by scraping search engines. Instead I used primary sources directly: Datan's vote list for Ruffin (fetched page), Datan vote pages 17/988 and 17/2653, the WordPress REST API of francoisruffin.fr (the site's own search and post content), and French Wikipedia.",
+   "The draft contained no +2/-2 or programme/vote/record_in_office codes, so the mandatory checks applied only to the new codes I added below. Each new code was checked against the full text of its source.",
+   "The WebFetch summariser misreported two Datan votes: it said Ruffin voted for the 2023 nuclear acceleration law and against the 2023 medical-deserts amendment. Reading the raw Datan HTML shows the opposite (nuclear CONTRE, deserts POUR). The codes use the raw HTML.",
+   "The shared scratchpad file votes.txt was overwritten by another agent partway through. The figures quoted were all read before that happened.",
+   "int1: null -> 0 (low, vote): abstained as a rebel on the 12/03/2025 Ukraine resolution, voted against the 12/03/2024 Ukraine declaration; mixed record.",
+   "int4: null -> +2 (medium, statement): explicit calls in 2023 and 2024 on his own site to suspend the EU-Israel association agreement.",
+   "ecol2: null -> +2 (medium, vote): voted against the Duplomb law (2025) and against reauthorising acetamiprid (2026).",
+   "ecol4: null -> +1 (low, statement): wants air traffic curbed and private jets banned, but explicitly prefers quotas to taxes; sources are from 2019-2020.",
+   "ene1: null -> -1 (low, vote): voted against the 2023 nuclear acceleration law while in LFI.",
+   "ins2: null -> -1 (medium, statement): wrote in June 2025 'Je suis d'accord avec vous sur la proportionnelle inutile', a reversal of his 2021 vote for proportional representation.",
+   "ins3: null -> +2 (medium, statement): backed a RIC petition in 2023 (Wikipedia); secondary source.",
+   "ins4: null -> +1 (low, statement): criticises the use of 49.3 but has not proposed abolishing it.",
+   "soc1: null -> +2 (high, vote): voted for assisted dying at first reading (2025) and final reading (2026).",
+   "soc2: null -> -2 (medium, statement): opposes veil bans, including Bardella's proposed ban in public buildings.",
+   "soc3: null -> -2 (high, statement): explicitly against banning the veil for mothers on school trips and at university (2025).",
+   "soc4: null -> +2 (high, statement): 'la laïcité ... c'est au contraire la liberté de la religion' (2025).",
+   "san1: null -> +1 (medium, vote): voted for Garot's 2023 amendment regulating doctors' installation; a partial version of the statement.",
+   "san4: null -> -1 (low, inferred): general opposition to the state organising competition.",
+   "All other nulls stay null after a check of his site and Datan. For many I added a nuance explaining why weak adjacent evidence was not coded.",
+   "Remaining gap: no corroboration from outlets of a different political lean, because the search budget was exhausted. Rerunning with a higher CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION would allow checking the 2026 campaign interviews (RTL, Sonia Mabrouk, TF1) for positions on Ukraine troops, defence spending, nuclear power, the 2035 car ban, ZFE and education."
+  ]
+ }
+}

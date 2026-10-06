@@ -1,0 +1,775 @@
+{
+ "collect": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS and Faure publicly back sustained military support to Ukraine (coded from background knowledge; no live source retrievable).",
+    "sources": [],
+    "nuance": "Web search budget exhausted; not corroborated live."
+   },
+   {
+    "id": "int2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS open to a French reassurance contingent after a ceasefire under conditions.",
+    "sources": [],
+    "nuance": "Conditional on ceasefire and parliamentary debate; not verified live."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Faure opposes leaving NATO, in contrast to LFI.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: article notes his opposition to NATO exit, contrasting with LFI"
+     }
+    ],
+    "nuance": "Integrated command specifically not checked; no 2025-26 statement found."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS called for suspending the EU-Israel association agreement.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS supports higher defence spending; a >3% GDP threshold is unconfirmed.",
+    "sources": [],
+    "nuance": "Likely supports increase, exact threshold unknown."
+   },
+   {
+    "id": "int6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS favours voluntary service rather than compulsory.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes easing sanctions on Russia as a concession.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ecol1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "PS group voted against abolishing ZFE in 2025.",
+    "sources": [],
+    "nuance": "Supports adapting/making them socially fairer."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "PS opposed the Duplomb law and supports pesticide bans.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ecol3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS broadly supports the 2035 target, with calls for social support.",
+    "sources": [],
+    "nuance": "Possible flexibility on hybrids not checked."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS favours taxing private jets and kerosene.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ecol5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Ecological priority is part of PS framing, softened by social justice emphasis.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ene1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS is pro-nuclear and supports additional reactors beyond 6 EPR2.",
+    "sources": [],
+    "nuance": "Faure criticised EPR dismantling in 2022; 2026 position not verified."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS no longer favours a nuclear phase-out.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: criticised dismantling of EPR projects in 2022"
+     }
+    ],
+    "nuance": "Older source."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports renewables development.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS wants reform of the EU market, not exit.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ins1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Faure sympathetic to institutional renewal and more parliamentary balance.",
+    "sources": [],
+    "nuance": "Exact wording of VIe République commitment unverified."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports proportional representation.",
+    "sources": [],
+    "nuance": "Full vs dose of PR unverified."
+   },
+   {
+    "id": "ins3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS supports expanded citizen referendum mechanisms.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS demands ending or restricting 49.3.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "ins5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS wary of referendums on immigration or justice.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "PS group largely voted for the assisted dying bill.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes a general headscarf ban in public space.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "soc3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS reluctant to extend bans to parents and universities.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Traditional PS laicite stance of neutrality of the state.",
+    "sources": [],
+    "nuance": "Faure's 2026 emphasis unverified."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "PS divided."
+   },
+   {
+    "id": "edu1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No known PS support for mandatory uniforms.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS prioritises teacher hiring and smaller classes.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes streaming by level (groupes de niveau).",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports conditioning private school funding on social mix.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS critical of Parcoursup; full abolition uncertain.",
+    "sources": [],
+    "nuance": "Likely reform rather than abolition."
+   },
+   {
+    "id": "san1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports regulating doctors' installation.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes raising franchises.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports rent control in tense zones.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes further competition opening of public services.",
+    "sources": [],
+    "nuance": "Unverified."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Faure personally voted for the 12 March 2025 European resolution calling for stronger support to Ukraine (incl. using Russian assets to fund military aid), and for the March 2024 government declaration on Ukraine aid strategy.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_988",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-03-12",
+      "quote": "Proposition de résolution européenne appelant au renforcement du soutien à l'Ukraine ... Olivier Faure Socialistes et apparentés POUR"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_3461",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-03-12",
+      "quote": "Déclaration du gouvernement sur la stratégie d'aide à l'Ukraine ... Olivier Faure Socialistes et apparentés POUR"
+     }
+    ],
+    "nuance": "Own votes; no 2026 statement retrieved (web search budget exhausted)."
+   },
+   {
+    "id": "int2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS open to a French reassurance contingent after a ceasefire under conditions.",
+    "sources": [],
+    "nuance": "Conditional on ceasefire and parliamentary debate; not verified live."
+   },
+   {
+    "id": "int3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No Faure statement on leaving NATO's integrated command found; the PS group voted for Sweden/Finland NATO accession (2022), and leaving NATO was an LFI demand PS cadres objected to in the 2022 NUPES deal.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_184",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-08-02",
+      "quote": "Ratifier l'accord sur l'adhésion à l'OTAN de la Suède et de la Finlande ... Socialistes et apparentés - NUPES (SOC) POUR"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "De multiples cadres locaux et nationaux socialistes interpellent Olivier Faure sur cet accord avec LFI ... de sortir de l'OTAN"
+     }
+    ],
+    "nuance": "Faure himself negotiated the 2022 NUPES accord; the objection to NATO exit came from PS cadres, not Faure. Integrated command specifically not addressed. Inferred from pro-NATO group votes."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS called for suspending the EU-Israel association agreement.",
+    "sources": [],
+    "nuance": "Not verified live; no source retrieved."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS supports higher defence spending; a >3% GDP threshold is unconfirmed.",
+    "sources": [],
+    "nuance": "Likely supports increase, exact threshold unknown."
+   },
+   {
+    "id": "int6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS favours voluntary service rather than compulsory.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes easing sanctions on Russia as a concession; the 2025 resolution Faure voted for called for seizing Russian assets.",
+    "sources": [],
+    "nuance": "Not verified live beyond the adjacent 2025 vote (see int1)."
+   },
+   {
+    "id": "ecol1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "PS group voted against abolishing ZFE (28 May 2025) and in April 2026 backed the government amendment to keep ZFE in existence (as optional) rather than abolish them.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2190",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-28",
+      "quote": "Supprimer les zones à faibles émissions (ZFE) ... Socialistes et apparentés (SOC) CONTRE"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_6183",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-04-14",
+      "quote": "Maintenir l'existence des ZFE mais les rendre facultatives ... Socialistes et apparentés (SOC) POUR 48"
+     }
+    ],
+    "nuance": "Group votes; Faure not listed individually on either vote. Willingness to make ZFE optional shows a softened defence, but consistent opposition to abolition."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Faure voted against the Duplomb law (July 2025) and against reauthorising acetamiprid in the July 2026 agricultural emergency law.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2957",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-07-08",
+      "quote": "Loi Duplomb sur l'agriculture ... Olivier Faure Socialistes et apparentés CONTRE"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8427",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-20",
+      "quote": "Loi urgence agricole : réautorisation de l'acétamipride"
+     }
+    ],
+    "nuance": "Own votes; the acetamiprid ban persists although other EU states allow it, matching the statement's wording."
+   },
+   {
+    "id": "ecol3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS broadly supports the 2035 target, with calls for social support.",
+    "sources": [],
+    "nuance": "Possible flexibility on hybrids not checked."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS favours taxing private jets and kerosene.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ecol5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Ecological priority is part of PS framing, softened by social justice emphasis.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ene1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Faure voted against the March 2023 nuclear acceleration law (procedures for building new reactors, target of six EPR); no 2025-26 statement backing reactors beyond six EPR2 found.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_1243",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-03-21",
+      "quote": "Les groupes d'opposition LFI, Ecolo et Socialistes ont voté contre ... Olivier Faure Socialistes et apparentés - NUPES CONTRE"
+     }
+    ],
+    "nuance": "Older (2023) vote; PS opposition may have been partly procedural. Current position unverified."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No clear current Faure position on phasing out nuclear found; evidence is conflicting.",
+    "sources": [],
+    "nuance": "Draft's Wikipedia citation misattributed: the 2022 objection to dismantling EPR projects came from PS cadres criticising Faure's NUPES deal, not from Faure. Faure also voted against the 2023 nuclear acceleration law."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports renewables development, including wind.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS wants reform of the EU market, not exit.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ins1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Faure sympathetic to institutional renewal and more parliamentary balance.",
+    "sources": [],
+    "nuance": "Exact wording of VIe République commitment unverified."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports proportional representation.",
+    "sources": [],
+    "nuance": "Full vs dose of PR unverified."
+   },
+   {
+    "id": "ins3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS supports expanded citizen referendum mechanisms.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "ins4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS has historically criticised 49.3, but Faure accepted in January 2026 that the government use 49.3 to pass the budget.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "Il finit par accepter fin janvier 2026 de laisser le gouvernement utiliser l'article 49.3 pour adopter le budget"
+     }
+    ],
+    "nuance": "Pragmatic acceptance in 2026 undercuts a strong +2; any programme commitment to abolish 49.3 unverified."
+   },
+   {
+    "id": "ins5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS wary of referendums on immigration or justice.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "Faure voted for the bill creating a right to assisted dying at its final reading (15 July 2026), and the PS group backed it at every stage.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8280",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir ... Olivier Faure Socialistes et apparentés POUR"
+     }
+    ],
+    "nuance": "Own vote; a minority of PS deputies voted against or abstained."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes a general headscarf ban in public space.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Faure voted against an amendment banning religious symbols and the veil in universities (Feb 2021).",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-15/vote_3352",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2021-02-03",
+      "quote": "Interdire le port de signes religieux et du voile au sein des universités ... Olivier Faure Socialistes et apparentés CONTRE"
+     }
+    ],
+    "nuance": "Older (2021) vote; position on parents accompanying school trips not verified."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Traditional PS laicite stance of neutrality of the state.",
+    "sources": [],
+    "nuance": "Faure's 2026 emphasis unverified."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "PS divided."
+   },
+   {
+    "id": "edu1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No known PS support for mandatory uniforms.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS prioritises teacher hiring and smaller classes.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes streaming by level (groupes de niveau).",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports conditioning private school funding on social mix.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS critical of Parcoursup; full abolition uncertain.",
+    "sources": [],
+    "nuance": "Likely reform rather than abolition."
+   },
+   {
+    "id": "san1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports regulating doctors' installation (limiting new installations in well-served zones), a weaker version than a mandatory posting in under-served areas.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_1812",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-06-14",
+      "quote": "Déserts médicaux : réguler l'installation des médecins dans les zones bien pourvues en soignants"
+     }
+    ],
+    "nuance": "Cross-party amendment led by PS deputy Garot; Faure's own vote not listed. Older source."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes raising franchises.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS supports rent control in tense zones.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS opposes further competition opening of public services.",
+    "sources": [],
+    "nuance": "Unverified."
+   }
+  ],
+  "verification_notes": [
+   "Context: WebSearch budget for the session was exhausted (200/200), so the verification relied on WebFetch and curl of datan.fr roll-call pages and the French Wikipedia article. Unsourced party_line codes I could not open evidence for are kept as-is and still unverified.",
+   "int1: +2 low party_line no source -> +2 medium vote: Faure personally voted POUR on the 12 Mar 2025 Ukraine support resolution (datan vote_988) and the 12 Mar 2024 Ukraine aid declaration (vote_3461).",
+   "int3: -2 -> -1 (inferred): the cited Wikipedia passage says PS cadres challenged Faure over the NUPES deal's NATO-exit clause. It is not Faure's own opposition. The only evidence is a pro-NATO group vote (Sweden/Finland accession 2022, vote_184), and nothing covers the integrated command specifically.",
+   "ecol1: -2 low vote no source -> -2 medium vote with sources: the group voted CONTRE abolition on 28 May 2025 (vote_2190) and POUR keeping ZFE as optional on 14 Apr 2026 (vote_6183). Faure is not individually listed on either vote. Added a nuance on the softening.",
+   "ecol2: +2 low -> +2 medium: Faure's own CONTRE votes on the Duplomb law (vote_2957, 8 Jul 2025) and on the acetamiprid reauthorisation (vote_8427, 20 Jul 2026) are confirmed.",
+   "ene1: +1 party_line -> -1 low vote: the datan raw page shows Faure voted CONTRE the 21 Mar 2023 nuclear acceleration law (vote_1243, six EPR target). The claim that PS supports reactors beyond 6 EPR2 had no evidence.",
+   "ene2: -2 -> null: the Wikipedia citation was misattributed (the anti-EPR-dismantling objection came from cadres criticising Faure). Faure signed NUPES and voted against the 2023 nuclear law, so his current position is unclear. Note that a WebFetch summary of datan wrongly reported a POUR vote, and a raw curl check corrected it.",
+   "ins4: +2 -> +1: Wikipedia records that Faure accepted in late January 2026 that the government use 49.3 to pass the budget, which contradicts a strong abolition stance. Added the source.",
+   "soc1: +2 low vote no source -> +2 high vote: Faure voted POUR at the final reading on 15 Jul 2026 (vote_8280; group 57-4-6).",
+   "soc3: -1 inferred -> -2 low vote: Faure voted CONTRE banning religious signs and the veil in universities (vote_3352, Feb 2021). This is an old vote and the school-trip parents part is unverified.",
+   "san1: +1 kept and source added (vote_1812, the 2023 Garot amendment to regulate doctors' installation). It is a weaker version than mandatory posting, and Faure's own vote is not listed.",
+   "int7: summary amended to mention the adjacent 2025 vote calling for seizing Russian assets; code unchanged.",
+   "Unverified and unchanged because no live evidence was retrievable: int2, int4, int5, int6, ecol3, ecol4, ecol5, ene3, ene4, ins1, ins2, ins3, ins5, soc2, soc4, soc5 (null kept), edu1-edu5, san2, san3, san4. The +/-2 party_line codes among them (int4, ecol4, ene3, ins2, soc2, soc4, edu2, edu3, edu4, san2, san3, san4) rest on background knowledge only and should be re-checked once the search budget is raised.",
+   "Party pages: parti-socialiste.fr searches for 'accord d'association' and 'nucléaire' returned no relevant results."
+  ]
+ }
+}

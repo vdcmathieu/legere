@@ -1,0 +1,50 @@
+<span class="label">Méthode</span>
+<h1>Comment Legere calcule votre proximité</h1>
+<p>Legere compare vos réponses à des propositions concrètes avec les positions documentées de chaque candidat. Il s'inspire des outils d'aide au vote universitaires (Boussole présidentielle, Wahl-O-Mat, euandi, smartvote) et de la littérature sur leurs biais. Cette page décrit chaque choix pour que vous puissiez juger le résultat, pas seulement le lire.</p>
+
+<div class="panel"><h3>1. Les propositions</h3>
+<p>{{N_STATEMENTS}} propositions réparties en 14 thèmes. Chacune est une mesure précise (« Relever l'âge légal de départ au-delà de 64 ans ») plutôt qu'une valeur abstraite, parce que les candidats se distinguent sur les mesures et que les valeurs générales attirent l'accord de presque tout le monde.</p>
+<p>Elles ont été relues par un relecteur indépendant chargé de traquer les termes connotés, les questions doubles, les justifications glissées dans l'énoncé (« pour renforcer la compétitivité ») et les prémisses dépassées. 33 énoncés ont été reformulés, deux ont été scindés et neuf propositions ajoutées pour couvrir des sujets manquants (TVA sur l'énergie, audiovisuel public, logement, prix planchers agricoles…) et pour équilibrer le sens des formulations.</p>
+<p>La plupart des propositions sont rattachées à un axe : économique (redistribution ↔ marché), culturel (libéralisme culturel ↔ autorité et tradition) ou souveraineté (intégration européenne ↔ souveraineté nationale). Sur chaque axe, une partie des propositions est formulée dans un sens et une partie dans l'autre, pour que la tendance à répondre « d'accord » ne vous déplace pas systématiquement d'un côté.</p></div>
+
+<div class="panel"><h3>2. Les positions des candidats</h3>
+<p>Chaque candidat a été codé sur chaque proposition, de −2 (contre) à +2 (pour), à partir de ses programmes, de ses déclarations, de ses votes ou de ceux de son groupe et de son action en fonction. Chaque position indique son type de preuve, sa fiabilité et ses sources. Quand aucune position n'a été trouvée, la case reste vide plutôt que devinée.</p>
+<p>Le codage s'est fait en deux temps : un premier agent de recherche a codé et sourcé ; un second, chargé de le contredire, a rouvert les sources de toutes les positions fortes (±2) et de toutes celles fondées sur un programme ou un vote, plus un échantillon des autres, et a corrigé {{N_CORRECTIONS}} codages.</p>
+<p>Les sources sont étiquetées selon leur orientation (par exemple CNews, JDD : droite ou extrême droite ; Le Figaro : centre droit ; Le Monde : centre ou centre gauche ; Libération : gauche ; Mediapart, L'Humanité : gauche ou extrême gauche ; AFP, franceinfo, Public Sénat : neutres ou institutionnels). Pour les positions disputées, la consigne était de confirmer par une source d'un autre bord. La caractérisation d'un candidat par ses adversaires n'est jamais prise comme sa position.</p>
+<p>Toutes les positions et leurs sources sont consultables dans les fiches candidats.</p></div>
+
+<div class="panel"><h3>3. Biais cognitifs et parades</h3>
+<div class="tablewrap"><table><thead><tr><th>Biais</th><th>Parade dans Legere</th></tr></thead><tbody>
+<tr><td>Effet d'étiquette partisane : on juge une idée selon qui la porte</td><td>Aucun nom ni parti avant les résultats. Couleurs partisanes bannies, y compris dans les graphiques.</td></tr>
+<tr><td>Acquiescement : tendance à répondre « d'accord »</td><td>Formulations équilibrées sur chaque axe ; cinq propositions reposées plus tard en sens inverse pour mesurer cette tendance et l'afficher.</td></tr>
+<tr><td>Effets d'ordre</td><td>Ordre des propositions tiré au hasard pour chaque personne ; côté gauche ou droit des arbitrages tiré au hasard.</td></tr>
+<tr><td>Cadrage et termes connotés</td><td>Relecture indépendante ; mesures concrètes sans justification dans l'énoncé ; arguments pour et contre de même longueur, sur demande.</td></tr>
+<tr><td>Réponse au milieu par défaut</td><td>« Sans avis » est distinct de « Partagé » et ne compte pas.</td></tr>
+<tr><td>Amorçage des priorités</td><td>Le problème principal est demandé en question ouverte avant toute proposition ; la pondération des thèmes vient après.</td></tr>
+<tr><td>Inflation de l'importance (tout est « très important »)</td><td>100 points à répartir : donner plus à un thème oblige à en donner moins à un autre.</td></tr>
+<tr><td>Écart entre principes et choix concrets</td><td>Huit arbitrages généraux, comparés à la position déduite des propositions ; l'écart est signalé.</td></tr>
+<tr><td>Biais de confirmation au moment du résultat</td><td>Votre intention de départ est demandée juste avant les résultats, puis comparée ; les désaccords avec le premier du classement sont mis en avant, sources à l'appui.</td></tr>
+<tr><td>Fausse précision</td><td>Intervalles d'incertitude, égalités signalées, vérification du premier rang sous d'autres méthodes de calcul.</td></tr>
+<tr><td>Effet de halo (personnalité, notoriété)</td><td>Le profil (expérience, condamnations, constance, style) est un score séparé, jamais mélangé à la proximité d'idées.</td></tr>
+</tbody></table></div></div>
+
+<div class="panel"><h3>4. Le calcul</h3>
+<p>Pour chaque proposition, l'accord entre vous et un candidat vaut 1 − |votre réponse − sa position| / 4 : 100 % si vous êtes au même point, 0 % si vous êtes aux deux extrêmes. Le score est la moyenne pondérée de ces accords sur les propositions où vous avez un avis et où sa position est connue.</p>
+<p>Poids d'une proposition = poids de son thème (vos 100 points) × 2 si vous l'avez marquée « compte beaucoup » × fiabilité de la position du candidat (1 ; 0,8 ; 0,5).</p>
+<p>Quand une question de suivi est sautée parce que votre réponse précédente l'implique logiquement (vouloir revenir à 62 ans implique de refuser un âge supérieur à 64 ans), la réponse est déduite avec un poids réduit de moitié et une intensité proportionnelle à votre réponse initiale.</p>
+<p>Un candidat dont peu de positions sont connues est ramené vers 50 % (équivalent de deux propositions neutres), pour qu'une poignée de positions ne lui donne pas un score extrême.</p></div>
+
+<div class="panel"><h3>5. Incertitude et robustesse</h3>
+<p>Vos réponses sont rééchantillonnées 1 000 fois (tirage avec remise parmi les propositions répondues, avec une petite probabilité de décaler chaque réponse d'un cran pour représenter l'imprécision de toute réponse à un questionnaire). La bande affichée couvre 90 % des scores obtenus. Cette imprécision est calibrée sur votre propre cohérence aux propositions reformulées.</p>
+<p>Deux candidats sont déclarés impossibles à départager quand l'intervalle à 90 % de leur écart contient zéro. Le premier rang est recalculé avec une distance euclidienne, avec des thèmes à poids égal et sans vos « compte beaucoup » : s'il change, le résultat est présenté comme une égalité.</p></div>
+
+<div class="panel"><h3>6. Combien de questions faut-il ?</h3>
+{{POWER_SECTION}}</div>
+
+<div class="panel"><h3>7. Le profil, score séparé</h3>
+<p>Expérience : années passées dans des fonctions exécutives nationales ou locales (ministre, Premier ministre, maire, président de département ou de région), plafonnées à dix ans.</p>
+<p>Condamnations : seules les condamnations pénales comptent, et seulement dans les catégories que vous avez choisies (probité, délits de parole, autres). Les enquêtes, mises en examen, relaxes et non-lieux sont affichés dans les fiches mais jamais comptés, au nom de la présomption d'innocence. Une condamnation encore susceptible de recours compte selon votre réponse.</p>
+<p>Constance, style et continuité : codés indépendamment et à l'aveugle par deux modèles différents, à partir de comportements documentés plutôt que de l'idéologie ; le score utilise la moyenne et les fiches montrent les justifications et les écarts entre codeurs. Ce sont les éléments les plus discutables de l'outil. Les deux codeurs s'accordent bien sur le style (corrélation 0,92, jamais plus d'un point d'écart) et sur la continuité (0,97), moins sur le nombre de revirements (0,87, mêmes candidats en tête mais décomptes différents) : ce dernier critère classe les candidats plus qu'il ne les mesure.</p></div>
+
+<div class="panel"><h3>8. Limites</h3>
+<p>Les positions reflètent l'état des programmes au {{ASOF}} ; plusieurs candidats n'ont pas encore publié de programme complet et seront mis à jour. La primaire PS–Place publique (octobre 2026) et la décision de la Cour de cassation sur Marine Le Pen peuvent changer la liste. Les candidats sont codés par recherche documentaire et non par leurs propres réponses. Au {{ASOF}}, 76&nbsp;% des 960 positions (12 candidats × 80 propositions) sont documentées ; les moins couvertes concernent Zemmour, Faure, Ruffin, Glucksmann, Attal et Lisnard, dont plusieurs n'ont pas encore de programme 2027. Environ une position sur six n'a pas de source vérifiée et compte à demi-poids. Les sources sont surtout primaires (programmes, sites de campagne, votes à l'Assemblée) et institutionnelles ; la confrontation avec la presse des deux bords reste à compléter. Quelques chiffres des encadrés « En savoir plus » n'ont pas pu être confirmés et sont formulés avec prudence. Un outil de proximité d'idées ne dit rien de la capacité à gouverner, des alliances possibles ni du vote utile : c'est un point de départ pour réfléchir, pas une consigne de vote.</p></div>

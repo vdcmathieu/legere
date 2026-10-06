@@ -1,0 +1,157 @@
+{
+  "lepen": {
+    "style": 1,
+    "style_why": "Tight top-down control of RN; parliamentary method mixes selective support for government texts (2023 immigration law) and budget bargaining with Barnier and Bayrou, then censure when demands are not met (Barnier toppled Dec 2024, censure motions against later governments, repeated calls for dissolution). Promises to govern through referendums (art. 11) to bypass resistance. Negotiates transactionally, does not build coalitions.",
+    "continuity": -2,
+    "continuity_why": "Presents herself as Macron's main opponent since 2017. Rejects the core of the record: 2023 pension reform (promises repeal), immigration policy, EU and energy-market choices, public debt.",
+    "reversals": 3,
+    "reversal_list": [
+      "Euro/EU: leave the euro (2011-2017 programme) -> stay in the euro, reform the EU from within (2019 onward)",
+      "Same-sex marriage: repeal / replace by an improved PACS (2012-2017) -> no repeal (2022 programme)",
+      "Retirement age: 60 for everyone (2017) -> 60 only for early starters, gradual 62 for others (2022)"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Political_positions_of_Marine_Le_Pen",
+      "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
+    ]
+  },
+  "melenchon": {
+    "style": 2,
+    "style_why": "Openly theorises 'conflictualisation' and the 'programme, nothing but the programme'. LFI files and backs censure motions against every government since 2022, used mass amendments to obstruct the 2023 pension bill, tried to impeach Macron (2024), and refused deals with the central bloc. Leads the left alliances on LFI's terms and opposed PS non-censure deals with Lecornu.",
+    "continuity": -2,
+    "continuity_why": "Calls for a complete break with Macronism (6th Republic, repeal of the pension and labour reforms, reversal of tax cuts).",
+    "reversals": 2,
+    "reversal_list": [
+      "European integration: voted Yes to Maastricht (1992) -> calls it a mistake, campaigns No in 2005 and becomes an EU-treaty opponent (from the late 1990s)",
+      "Nuclear power: did not oppose it as a PS figure (1990s-2000s) -> calls for a nuclear phase-out (2012 referendum proposal, phase-out planned from 2017)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
+      "Le Monde / Le Figaro coverage of LFI censure motions and the 2023 pension-bill obstruction (2023-2025)"
+    ]
+  },
+  "philippe": {
+    "style": 1,
+    "style_why": "As PM (2017-2020) he pushed through reforms quickly: labour ordinances, imposing the 80 km/h limit against much of his own camp, and forcing the 2020 pension bill through with 49.3. He did build a broad coalition (centre-right ministers in 2017, Horizons inside Ensemble) and calls for cross-party agreements. His 2027 pitch is 'massive' reforms carried out early in the term, which leans towards deciding fast.",
+    "continuity": 1,
+    "continuity_why": "He led the 2017-2020 reforms and opposed suspending the 2023 pension reform. He broke with Macron personally (calls the 2024 dissolution 'funeste', called for an early presidential election in 2025) and promises deeper reforms, so he would agree with the general direction but criticise how it was carried out.",
+    "reversals": 1,
+    "reversal_list": [
+      "Medically assisted reproduction (PMA) for female couples and single women: opposed (2013, as a mariage-pour-tous opponent) -> supported; his government introduced the PMA-pour-toutes bill (2019)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Édouard_Philippe",
+      "Le Figaro / Libération coverage of 49.3 on pensions (Feb-Mar 2020) and the 80 km/h decision (2018)"
+    ]
+  },
+  "attal": {
+    "style": 0,
+    "style_why": "Mixed record. As a minister he acted quickly and unilaterally (abaya ban in schools decided before the 2023 school year began). As Renaissance group leader after 2024 he offered 'pacts' to LR and the moderate left, and his group voted for the negotiated Bayrou and Lecornu budgets, accepting the pension-reform suspension in practice.",
+    "continuity": 1,
+    "continuity_why": "Leads Macron's party, was Macron's PM, and defends the economic record (employment, attractiveness, pensions). Since the 2024 dissolution he has distanced himself from Macron personally ('En homme libre', 2026), so he leans toward continuity while presenting himself as a new chapter.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+      "Le Monde / Le Figaro coverage of the abaya ban (Aug 2023) and Attal's 2026 campaign launch"
+    ]
+  },
+  "retailleau": {
+    "style": 1,
+    "style_why": "Confrontational style ('rapport de force', 'la droite n'est pas soluble dans le macronisme'). Left the Lecornu government in Oct 2025 over a dispute about cabinet composition, and governs by public clashes on immigration (including with Algeria). Still has a real record of negotiation: Senate LR leader who struck the 2023 immigration-law CMP deal, and a minister in coalition governments from 2024 to 2025. Proposes immigration referendums.",
+    "continuity": -1,
+    "continuity_why": "He served in Macron-era governments and supports the pension reform and business tax policy. He denounces 'en même temps', the public debt, and what he calls laxity on immigration and security, and he campaigns on a right-wing break.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "Libération / Le Figaro coverage of his exit from the Lecornu government (Oct 2025)"
+    ]
+  },
+  "zemmour": {
+    "style": 2,
+    "style_why": "Rejects compromise as a principle. His only coalition offer is a 'union des droites' on his own identitarian terms, and he promises a rupture through referendums (immigration, remigration). He has no record of legislative negotiation.",
+    "continuity": -2,
+    "continuity_why": "Rejects the record wholesale (immigration, Europe, 'déclin', 'grand remplacement' framing).",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "Le Monde / Valeurs actuelles coverage of the 2022 and 2026 campaign launches"
+    ]
+  },
+  "glucksmann": {
+    "style": -1,
+    "style_why": "Builds alliances (Place publique-PS lists in 2019 and 2024, joined the NFP in 2024 after obtaining guarantees on Ukraine and antisemitism) and argues for a culture of parliamentary compromise and broad coalitions. Firm red lines: refuses any alliance led by LFI, even at the cost of losing seats.",
+    "continuity": -1,
+    "continuity_why": "Close to Macron on Europe, Ukraine and defence, but opposes the social and fiscal record (pensions, tax cuts for the wealthy, ISF repeal) and the 'verticality' of power.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Raphaël_Glucksmann",
+      "Le Monde / L'Opinion coverage of the 2024 NFP negotiations"
+    ]
+  },
+  "faure": {
+    "style": -2,
+    "style_why": "Negotiator by record: architect of NUPES (2022) and the NFP (2024). In 2025-2026 he negotiated non-censure with Lecornu in exchange for suspending the pension reform and dropping 49.3, then accepted 49.3 on the 2026 budget despite attacks from LFI.",
+    "continuity": -2,
+    "continuity_why": "Treats the record as one to undo: wants the pension reform repealed, wealth taxes restored (Zucman tax) and the immigration and unemployment-insurance reforms reversed. Recent compromises were tactical, not an endorsement of the record.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "Le Figaro / Libération coverage of the PS-Lecornu deal (Oct 2025) and the 2026 budget"
+    ]
+  },
+  "tondelier": {
+    "style": -1,
+    "style_why": "A central builder of the NFP in 2024, she negotiated the joint programme and a common PM candidate (Lucie Castets), and has pushed for a single left candidate in 2027. Her line is uncompromising on LFI (no common European list) and on the central bloc (backs censure), and she is strict on internal party discipline.",
+    "continuity": -2,
+    "continuity_why": "Rejects the record on climate ('inaction climatique'), pensions, tax policy and immigration.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "Libération / Le Figaro coverage of the NFP's formation (June 2024)"
+    ]
+  },
+  "roussel": {
+    "style": -1,
+    "style_why": "Pragmatic: joined NUPES and co-founded the NFP after running his own campaign in 2022, calls for a union 'well beyond' the left, and engages with police unions and companies. The PCF group still censures governments.",
+    "continuity": -2,
+    "continuity_why": "Opposes the record on pensions, tax, public services and wages, and calls for a break.",
+    "reversals": 1,
+    "reversal_list": [
+      "NATO: France should leave (until early 2022) -> no longer proposes leaving after Russia invaded Ukraine (2022)"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "L'Humanité / Le Figaro coverage of the 2022 PCF programme"
+    ]
+  },
+  "ruffin": {
+    "style": 0,
+    "style_why": "Calls for uniting the left from the grassroots and broke with Mélenchon's conflict strategy in 2024, explicitly criticising performative radicalism in the Assembly. As a deputy he staged confrontational stunts and was a hard opponent of every Macron-era government, with little record of legislative deal-making.",
+    "continuity": -2,
+    "continuity_why": "One of the most vocal critics of Macron, the 'président des riches'. Rejects the record on pensions, labour law and tax.",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/François_Ruffin",
+      "Le Monde / Le Point coverage of his break with LFI (2024)"
+    ]
+  },
+  "lisnard": {
+    "style": 1,
+    "style_why": "Promises a liberal shock and a rupture with the state's role. Left LR in March 2026 over the method for choosing its candidate. As AMF president he keeps the association's negotiating role but takes a combative line against the government on local finances.",
+    "continuity": -1,
+    "continuity_why": "Attacks Macron-era debt, statism, bureaucracy and centralisation, while sharing some of the pro-business direction (labour and capital tax reforms).",
+    "reversals": 0,
+    "reversal_list": [],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/David_Lisnard",
+      "Le Figaro / Les Echos coverage of his AMF role and 2026 candidacy"
+    ]
+  }
+}

@@ -1,0 +1,982 @@
+{
+ "collect": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR and Retailleau support continued military aid to Ukraine (from background knowledge; not re-verified live).",
+    "sources": [],
+    "nuance": "WebSearch budget was exhausted (200/200) before any live search ran; only the Wikipedia page was fetched and it does not cover this topic. Coding is from prior knowledge, unverified."
+   },
+   {
+    "id": "int2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Retailleau has been reticent about French troops in Ukraine, accepting at most a conditional reassurance role (recollection, unverified).",
+    "sources": [],
+    "nuance": "No live verification. Possible nuance: openness to a post-ceasefire non-combat force."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No known LR or Retailleau push to leave the NATO integrated command; Atlanticist-leaning right.",
+    "sources": [],
+    "nuance": "Inferred from adjacent positions; no live source."
+   },
+   {
+    "id": "int4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Retailleau opposed sanctions-type measures against Israel and a suspension of the association agreement (recollection).",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR favours a substantial defence increase; whether the target exceeds 3% of GDP is not verified.",
+    "sources": [],
+    "nuance": "Coded +1 because of uncertainty on the exact threshold."
+   },
+   {
+    "id": "int6",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR and Retailleau have backed a compulsory or strengthened national service in some form (recollection).",
+    "sources": [],
+    "nuance": "Unverified; scope (military vs civic, compulsory vs not) uncertain."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Hawkish on Russia; unlikely to support lifting sanctions in exchange for a deal.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ecol1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "LR and Retailleau backed abolishing ZFE (LR group voted for abolition in 2025).",
+    "sources": [],
+    "nuance": "From memory of 2025 Assembly and Senate debates; not re-verified live."
+   },
+   {
+    "id": "ecol2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR line (Duplomb law) opposes France-only bans that disadvantage farmers.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "ecol3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR wants to revisit or soften the 2035 combustion-car end of sales.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "ecol4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Right-wing anti-new-tax stance; no known support for more air taxes.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ecol5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Opposes 'punitive ecology'; prioritises growth and competitiveness.",
+    "sources": [],
+    "nuance": "Inferred from his stated line."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Advocates relaunching nuclear power, in line with LR's call for more reactors.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "advocates for relaunching nuclear power and opposes renewable energy subsidies (July 2025)"
+     }
+    ],
+    "nuance": "Paraphrase of a fetch summary; exact number of reactors beyond the six EPR2 not verified."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Pro-nuclear, so opposes phasing out.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "advocates for relaunching nuclear power (paraphrase)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ene3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes renewable subsidies and has backed a wind moratorium, per LR line.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "opposes renewable energy subsidies (July 2025, paraphrase)"
+     }
+    ],
+    "nuance": "Moratorium specifically is from memory."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "ins1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR defends the Fifth Republic.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "ins2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR is traditionally hostile to full proportional representation.",
+    "sources": [],
+    "nuance": "Retailleau may have shown limited openness (e.g. a dose of proportionality); unverified."
+   },
+   {
+    "id": "ins3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Prefers widening the existing referendum rather than a citizens' initiative referendum.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "ins5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Has repeatedly called for referendums on immigration.",
+    "sources": [],
+    "nuance": "From memory of 2025 statements; not re-verified."
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Retailleau opposed the end-of-life bill (aid in dying).",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "soc2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Favours extending veil bans (sport, universities, minors), not clearly all public space.",
+    "sources": [],
+    "nuance": "Partial version coded +1."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Supports banning religious symbols for accompanying parents and in universities.",
+    "sources": [],
+    "nuance": "Unverified live."
+   },
+   {
+    "id": "soc4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Advocates a firmer secularism, including against Islamism.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes GPA, calling it linked to PMA and same-sex marriage.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "the Trojan horse for PMA and GPA (paraphrase of his same-sex marriage remark)"
+     }
+    ],
+    "nuance": "Older statement, no newer found."
+   },
+   {
+    "id": "edu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR-leaning right supports school uniform.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Right favours spending cuts, not mass teacher hiring.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Supports groupes de niveau.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Defends private-school freedom.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Right favours selection.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR senators opposed coercive installation (Garot bill), preferring incentives.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Spending-control right.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR opposes rent control.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Liberal-leaning right.",
+    "sources": [],
+    "nuance": "Inferred."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Bruno Retailleau",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Retailleau visited Kyiv and Bucha in May 2026 as LR candidate and has publicly distanced himself from the pro-Russian-leaning right; consistent with support for continued aid.",
+    "sources": [
+     {
+      "url": "https://www.20minutes.fr/monde/ukraine/4225827-20260602-guerre-ukraine-retailleau-philippe-attal-visites-candidats-kiev-tout-benef-zelensky",
+      "outlet": "20 Minutes",
+      "outlet_lean": "centre",
+      "date": "2026-06-02",
+      "quote": "Les visites diplomatiques de candidats français à l'élection présidentielle de 2027 en Ukraine se multiplient (search snippet)"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWVTVEk4WTZLNURhS1FCcU44Q25NY3dOSVNxd3p4Q2dBRXB0cFYtcWVQVnB0LVdEbjkyaTBwWXZWdl9FY2Y2cVRrRHBVMkJFYkRQV1cxMDNyajQ0V21fbzJYY2ZfSHdWWmxOd2lHdEFTSFBkTjVOa2ZsczhNOHIzQ1JrcmxGendZVGgxeEd2Xy1NVHZ1VlVRa1NEMWJ5T0JjbnZrM2p3?oc=5",
+      "outlet": "Google News headline (outlet not resolved)",
+      "outlet_lean": "centre",
+      "date": "2026-07-04",
+      "quote": "Russie : quand Bruno Retailleau se détache de la droite Bolloré (headline)"
+     }
+    ],
+    "nuance": "Only headlines/snippets could be read (article bodies blocked); no verbatim Retailleau quote on arms deliveries found. Direction is clear, strength inferred."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verifiable statement found on sending French troops to guarantee a ceasefire.",
+    "sources": [],
+    "nuance": "Draft's -1 rested on unverified recollection. Searches on troops/reassurance force returned only Macron/coalition coverage. In March 2026 he accused Macron of electoral 'instrumentalisation' of the Ukraine war (Orange Actualités headline), which is not a position on troops."
+   },
+   {
+    "id": "int3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No sign Retailleau or LR wants to leave NATO's integrated command; EPP-backed Atlanticist right.",
+    "sources": [],
+    "nuance": "Inferred; no direct statement found. Received EPP's full support in Sept 2026."
+   },
+   {
+    "id": "int4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No statement found on suspending the EU-Israel association agreement; his record (dissolution of Urgence Palestine, warning mayors over Palestinian flags) suggests opposition to sanctions on Israel, though he said in Dec 2024 'on attend d'Israël autre chose'.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Retailleau+Isra%C3%ABl+Gaza&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Google News search (Challenges / Le Monde headlines)",
+      "outlet_lean": "centre",
+      "date": "2025-09-21",
+      "quote": "Drapeau palestinien sur les mairies : Bruno Retailleau met en garde les maires (Le Monde headline)"
+     }
+    ],
+    "nuance": "Draft coded -2 'statement' with no source; no such statement could be found, so downgraded to inferred -1."
+   },
+   {
+    "id": "int5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "LR senators pushed for a larger military-programming top-up than the government (14bn extra, June 2026), i.e. a substantial defence increase; no explicit >3% of GDP target found.",
+    "sources": [
+     {
+      "url": "https://www.letelegramme.fr/france/programmation-militaire-14-milliards-supplementaires-proposes-par-le-senat-7051790.php",
+      "outlet": "Le Télégramme",
+      "outlet_lean": "centre",
+      "date": "2026-05-27",
+      "quote": "Le Sénat a proposé, ce mercredi, d'accentuer l'effort budgétaire en faveur des armées en votant une enveloppe de 14 milliards d'euros supplémentaires (snippet)"
+     },
+     {
+      "url": "https://www.boursorama.com/actualite-economique/actualites/programmation-militaire-le-montant-de-la-rallonge-budgetaire-aux-armees-encore-dans-le-grand-flou-ab1ca9c621ab0305db74e5937951b30b",
+      "outlet": "Boursorama (AFP)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-06-09",
+      "quote": "L'aile droite du Sénat a réclamé une enveloppe supplémentaire qui sème la discorde au point de paralyser le vote (snippet)"
+     }
+    ],
+    "nuance": "Group (Senate right) behaviour, not a personal Retailleau pledge; the 3% threshold is unverified, hence +1."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verifiable policy position found on reinstating compulsory military/national service.",
+    "sources": [],
+    "nuance": "The only hit (Paris Match, 13 Dec 2025, 'Un brassage sociologique qui forge la fraternité') appears to be a series on politicians recounting their own service, not a policy pledge. Draft +1 was unsourced recollection."
+   },
+   {
+    "id": "int7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Retailleau positions himself against the Russia-friendly right; no explicit statement on lifting sanctions for a peace deal found.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWVTVEk4WTZLNURhS1FCcU44Q25NY3dOSVNxd3p4Q2dBRXB0cFYtcWVQVnB0LVdEbjkyaTBwWXZWdl9FY2Y2cVRrRHBVMkJFYkRQV1cxMDNyajQ0V21fbzJYY2ZfSHdWWmxOd2lHdEFTSFBkTjVOa2ZsczhNOHIzQ1JrcmxGendZVGgxeEd2Xy1NVHZ1VlVRa1NEMWJ5T0JjbnZrM2p3?oc=5",
+      "outlet": "Google News headline (outlet not resolved)",
+      "outlet_lean": "centre",
+      "date": "2026-07-04",
+      "quote": "Russie : quand Bruno Retailleau se détache de la droite Bolloré (headline)"
+     }
+    ],
+    "nuance": "Inferred only; strength reduced from -2 because no direct statement on sanctions was found."
+   },
+   {
+    "id": "ecol1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "The right-majority Senate gave final adoption (April 2026) to the simplification law abolishing ZFE; the right denounced the Constitutional Council's May 2026 censure of that abolition.",
+    "sources": [
+     {
+      "url": "https://www.lejdd.fr/politique/zfe-le-parlement-enterine-leur-suppression-la-gauche-denonce-un-recul-ecologique-171591",
+      "outlet": "Le JDD",
+      "outlet_lean": "right",
+      "date": "2026-04-15",
+      "quote": "Le Parlement a définitivement adopté ce mercredi le projet de loi de « simplification de la vie économique » à l'issue d'un ultime vote du Sénat (snippet)"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnJXSUxCZXFQTXlJQU9jQ091NnI1bkpISS11YVV3NXh2NmIwVVUxUUdVTFozMWVoSUJzLTBfZHdnRWg3Q1RTV010eUVMRjR0RjVBYkU2QkZKRWpzS3RiNF80QWVReVJCY0ZHUUZYbVlZdHJHYVhYM0VNaWI4dnJaNk1peFhtMG9RYjRYell0YWlJUTM3U3N3",
+      "outlet": "L'Opinion",
+      "outlet_lean": "centre-right",
+      "date": "2026-05-22",
+      "quote": "« Le Conseil constitutionnel fait de la politique » : la droite s'emporte après la censure des ZFE (headline)"
+     }
+    ],
+    "nuance": "Group vote and party reaction; no personal Retailleau ZFE quote retrieved. Draft's 2025 dating corrected to the 2026 final adoption."
+   },
+   {
+    "id": "ecol2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR backed the Duplomb law reintroducing a banned pesticide to align with EU competitors; Retailleau was associated with it and 'désavoué' when the Council censured it (Aug 2025).",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Retailleau+loi+Duplomb+pesticides&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "TF1 Info (headline via Google News)",
+      "outlet_lean": "centre",
+      "date": "2025-08-07",
+      "quote": "Retailleau désavoué par le Conseil Constitutionnel (headline)"
+     }
+    ],
+    "nuance": "Headline-level only; no personal verbatim quote retrieved."
+   },
+   {
+    "id": "ecol3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR/EPP has pushed to revise the 2035 combustion-car phase-out; no Retailleau-specific statement found.",
+    "sources": [],
+    "nuance": "Downgraded from -2: search returned no personal statement. Code reflects party line only."
+   },
+   {
+    "id": "ecol4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Anti-new-tax, pro-purchasing-power line; no known support for higher air-travel taxes.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "ecol5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Prioritises purchasing power and competitiveness: wants to scrap energy-savings certificates (CEE), end renewables subsidies and remove binding DPE rules.",
+    "sources": [
+     {
+      "url": "https://www.batiactu.com/edito/cee-dpe-bretailleau-veut-faire-menage-dans-dispositifs-75369.php",
+      "outlet": "Batiactu",
+      "outlet_lean": "centre",
+      "date": "2026-09-16",
+      "quote": "CEE, DPE : B. Retailleau veut faire le ménage dans les dispositifs de transition énergétique (headline)"
+     }
+    ],
+    "nuance": "Inferred from concrete proposals; no explicit statement ranking growth over climate."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Calls to 'rebuild a nuclear fleet' and centres his 2026 electricity plan on nuclear.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2dtaFowRkVQc3VNQkZWNFZSaUhhemF6d2NHVUJmNjVWU3UwSlVIclJlQVFLYm9rQ2tiZ0FHdG50aUUtT3ZuOE5maWI2OU9NelA4Ulo0MWc3b21GODdicldsb0Vsa2FiWVR6ZEZXWDhMNmJrYVM2WVFDaWd6Wlo4NjdpVzdxc2JzYWlIR0lCcHlKVTlNSUVKMFBER1lIOEpKSXpzUVloeEtfUXdGQ09idlhfaU9sNmczYVlvMXE2eGZjNzJtSFRkMklqZFlILUNoQXI4cXp5OXA?oc=5",
+      "outlet": "Le Figaro (tribune)",
+      "outlet_lean": "centre-right",
+      "date": "2025-07-02",
+      "quote": "Rebâtir un parc nucléaire et stopper le financement des renouvelables, notre plan pour l'énergie (headline)"
+     },
+     {
+      "url": "https://www.letelegramme.fr/france/presidentielle-sil-est-elu-retailleau-lr-veut-reduire-la-facture-delectricite-de-lequivalent-de-deux-mois-7039773.php",
+      "outlet": "Le Télégramme",
+      "outlet_lean": "centre",
+      "date": "2026-05-07",
+      "quote": "Sa stratégie : miser sur le nucléaire et supprimer les subventions aux énergies renouvelables (snippet)"
+     }
+    ],
+    "nuance": "'Rebuild a fleet' implies more than six EPR2, but an exact reactor count was not retrieved."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Strongly pro-nuclear; opposes any phase-out.",
+    "sources": [
+     {
+      "url": "https://www.letelegramme.fr/france/presidentielle-sil-est-elu-retailleau-lr-veut-reduire-la-facture-delectricite-de-lequivalent-de-deux-mois-7039773.php",
+      "outlet": "Le Télégramme",
+      "outlet_lean": "centre",
+      "date": "2026-05-07",
+      "quote": "miser sur le nucléaire (snippet)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ene3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to stop public financing/subsidies for wind and solar, which would choke new development, but no explicit moratorium on new turbines verified.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRnJHaUdTTzlWQ1BGcS1XZEdGVzB0N1JfakxXdjZ4WjUweWZpeTZYaTlUajBVdXZVSFdvNG0yQ0p1Tm1qZjhGZmN3a2N6dXlJRXBydDRaY2tMcTJ4cWpBX1pRWm10MUh4RFMxNFpqZGhtZUxJZURfTVk1WEN3MU5kU1lCamJrXy15TExXRmIwWUpPbkliNDRUa3d1TDdURDNRS1VKR0FTQXNENXV4MnZrOU44b3dTRjBqRERYVUU4dFRTY084RDdTeVVrd25HX3FVck9oeDhfRWJRUmM0VW9hcEhlVm1JM19jT1Z0QURncUItckJDcHVoREpfcw?oc=5",
+      "outlet": "Public Sénat",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-07-03",
+      "quote": "« Fin des subventions » aux éoliennes et au photovoltaïque : la tribune de Bruno Retailleau met le socle commun en surchauffe (headline)"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3E5VTkzUTZvdTRLTy0xX1FxTnlOZ3FfSm5KMU5tY3E4OUF2dExNV1NiaGQ1a1dSM2VJWmVDNVNiT0Z5ZHE2czJjenlUd0ZTLXBqVkZZNWpHTF9JbDJGTWlXRnJWUncxMktsQUJqOVllVEVQYUV2bWFranN4NGtrM0dodmJud3VqUmJobEoxdkNsdWhRQWI4X3RVRHA5Vk9RX2xrZTV4NDQ4V2pmLTBVSFo5R1FwS1phMGRUMjZ6Q2JHSTIwVF9sRg?oc=5",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2025-07-28",
+      "quote": "L'ambivalente position des Républicains sur les éoliennes (headline)"
+     }
+    ],
+    "nuance": "Ending subsidies is narrower than halting development; moratorium claim from draft was memory-based. Le Monde notes his anti-renewables line is not unanimous inside LR."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "An April 2026 L'Opinion piece reports Retailleau coming to the defence of the European electricity market, i.e. against leaving it.",
+    "sources": [
+     {
+      "url": "https://www.lopinion.fr/economie/quand-patrick-pouyanne-et-bruno-retailleau-volent-au-secours-du-marche-electrique-europeen",
+      "outlet": "L'Opinion",
+      "outlet_lean": "centre-right",
+      "date": "2026-04-22",
+      "quote": "Quand Patrick Pouyanné et Bruno Retailleau volent au secours du marché électrique européen (headline)"
+     }
+    ],
+    "nuance": "Headline only (article body blocked); direction clear, strength uncertain. Draft null was wrong: evidence exists."
+   },
+   {
+    "id": "ins1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants to reform within the Fifth Republic (wider referendum, power to override Constitutional Council censures), invoking a 'very Gaullian moment'; no support for a parliamentary Sixth Republic.",
+    "sources": [
+     {
+      "url": "https://fr.news.yahoo.com/passer-outre-conseil-constitutionnel-vote-175115454.html",
+      "outlet": "Yahoo Actualités (BFM/AFP)",
+      "outlet_lean": "centre",
+      "date": "2026-09-03",
+      "quote": "le président de la République pourra donner la parole au peuple français pour censurer la censure"
+     }
+    ],
+    "nuance": "His reforms strengthen presidential/referendum power, opposite of a more parliamentary regime."
+   },
+   {
+    "id": "ins2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Repeatedly stated 'very firm' opposition to proportional representation and threatened to quit the government over it (June 2025).",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOLS1zenBGUGJaQXExQXA3bm9aSEQxTFZYODNDVWpkd3p4Uk15X01fMHNXckhjZjdnZUNIY0V0cjBZbVlPNEYxNGs2VTRteGZFMFpxZm1rakt0R0ZuRVNCYW1EOTBVcDk2QzNlWGZJTE9IaGpHX05lWFJ6aFh4dnc2SUJHRDBiTDVVN3FFNHNYNlJMVDFqdGVRclZfM1BMbWNCRnBEQzBZa0FlOGVZRGRWYUNQanF3bk9XNmdTNFEwTC0yb3Q4NkszcC1VWUxkNEdjdzVUVWZrVlJHMjZiN3A1UnpjRjNGNlQzYVVRR01iMFdYbi01ZjRhQktzNUJGYTdLZ291Qg?oc=5",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2025-06-02",
+      "quote": "Bruno Retailleau redit son opposition « très ferme » au scrutin proportionnel souhaité par François Bayrou (headline)"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLVVoX2dvWVdyM3dPMmxlMGtMbmdHaDY2c1RVN1Z5X001QTlDS2NQdXAtTXhoOENCVEdpVm8xeHFHWGNSeFgxRDdhRkpTaHpSUEh5NE1Yc0NOWFNnMW9YY1Fka3F5YmdkcmpTOTFLNFo5S1preE9CSTJxYkphVmNOeXczWml4eUM0Slh4ZjNjVmY5akNVRmxyRkpvbmtzd1dQMG9YVm1aa19XZk1RVmE4a0xqSHA5SlV0RXV6ZFVkQ2VRbnB4TjNWX1d3enpyandJa1ZyM2ZURmdEZw?oc=5",
+      "outlet": "L'Humanité",
+      "outlet_lean": "left",
+      "date": "2025-05-30",
+      "quote": "Bruno Retailleau défie François Bayrou en s'opposant fermement à la proportionnelle (headline)"
+     }
+    ],
+    "nuance": "Draft's 'possible openness to a dose of proportionality' is contradicted by these sources."
+   },
+   {
+    "id": "ins3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Favours president-initiated referendums with a wider article 11; no support for a citizens' initiative referendum found.",
+    "sources": [],
+    "nuance": "Inferred; no explicit RIC statement found."
+   },
+   {
+    "id": "ins4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Repeatedly urged PM Lecornu to use Article 49.3 to pass the 2026 budget; clearly against abolishing or restricting it.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Retailleau+49.3&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Le Monde (headline via Google News)",
+      "outlet_lean": "centre",
+      "date": "2025-12-20",
+      "quote": "Budget : Bruno Retailleau appelle une nouvelle fois Sébastien Lecornu à utiliser le 49.3 (headline)"
+     }
+    ],
+    "nuance": "Also said in 2023 'Il vaut mieux le 49.3 que pas de réforme du tout'. Draft null was wrong."
+   },
+   {
+    "id": "ins5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Proposes widening Article 11 to hold referendums on immigration (abolishing droit du sol) and criminal policy (Sept 2026).",
+    "sources": [
+     {
+      "url": "https://fr.news.yahoo.com/retailleau-veut-supprimer-droit-sol-065412634.html",
+      "outlet": "Yahoo Actualités (AFP)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-08",
+      "quote": "Je prends cet engagement que ce seront les Français qui enfin définiront la politique migratoire"
+     },
+     {
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-referendum-etat-de-droit-edouard-philippe-marque-sa-difference-avec-bruno-retailleau-20260908",
+      "outlet": "Le Figaro",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-08",
+      "quote": "moins sensible que lui à l'idée de changer le champ d'application de l'article 11 (Philippe on Retailleau)"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "soc1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Led Senate opposition to the aid-in-dying law, called for a referendum, called the adopted law 'une loi d'abandon' (July 2026).",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRWNXclpZeFVQb2M0X2xYM3RHLTY4MjZwX2NJa0tISVdHUW5CWTZxZEtGUWc3dnBmNFdpamRJUE12VzVMN3hzb0JsMjB0cDM0bXVacUVGeUk0WE5OaVk4OHpWRTZUb3ZFOUQ1MFA0dFZ6R0dsNUUzTUt2dENFSGotM1N6QV9tcnpLeXpFSTBfV0ZSNGNWWFNkNDlpSU5UT1RhdFdfY01Kb1JFTHFMRGVPYldTbWVOdVBqY0dudnFZQ3h6TExxVGM0OXZqTkJPbVQwQjhCWHhRU21fRWRXSC1tWXZaM2hqVlh5N3ZndXBzeDhxT1g3dWxvUlM5a2d5Zlp2WDNxMGU4Sm9LX2hOdFZNMVc4ZS1ZQQ?oc=5",
+      "outlet": "BFM",
+      "outlet_lean": "centre",
+      "date": "2026-07-15",
+      "quote": "C'est plutôt une loi d'abandon (headline)"
+     },
+     {
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNUUNmQWpfMmFYNlA5LUtpWXRQTU5hYkttU0Y5SHFrRDBjMHRzcVI2cnBOSlJQMG1KOGZlYU41SU9JRlVsUmxIbThHMndGbjdyWXhrTHdfTm5OWTFHVGxieVJkX2JuVC15b0dvaHZ6V3FQZXJzM0xRV3BmTXMteldBQ1BvaklkNTJsUW82dVBmMk1fNHA1cEhhVUxUeUlfSXBINjROQzlQel9UVE1hLVVVbXpBeXhPcmdSa3h4NE5mczZBTGk0RW5RajNmeDB2MTBsdkd1S0hlWTc5cjlWZ0JWaVdFbWd2eFRadEU5X0dtR19KZFE?oc=5",
+      "outlet": "Le Monde",
+      "outlet_lean": "centre",
+      "date": "2026-05-12",
+      "quote": "le Sénat rejette de nouveau l'aide à mourir, Bruno Retailleau demande un référendum (headline)"
+     }
+    ],
+    "nuance": "Also asked Constitutional Council members to recuse themselves (July 2026)."
+   },
+   {
+    "id": "soc2",
+    "position": -1,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Explicitly rejects the RN proposal to ban the veil in all public space as 'inapplicable', 'populisme' and 'démagogie', while backing targeted bans (e.g. universities).",
+    "sources": [
+     {
+      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-linterdiction-du-voile-dans-lespace-public-est-inapplicable-estime-bruno-retailleau-1064318",
+      "outlet": "Europe 1",
+      "outlet_lean": "right",
+      "date": "2026-09-08",
+      "quote": "l'interdiction du voile dans l'espace public est « inapplicable », estime Bruno Retailleau (headline)"
+     },
+     {
+      "url": "https://www.lefigaro.fr/politique/du-populisme-et-de-la-demagogie-bruno-retailleau-denonce-la-proposition-du-rn-d-interdire-le-voile-dans-l-espace-public-20260901",
+      "outlet": "Le Figaro",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-01",
+      "quote": "« Du populisme » et « de la démagogie » : Bruno Retailleau dénonce la proposition du RN (headline)"
+     }
+    ],
+    "nuance": "Opposes the statement as worded but supports partial extensions, hence -1 not -2."
+   },
+   {
+    "id": "soc3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "As 2027 candidate proposes banning the veil at university (Sept 2026); LR Senate has repeatedly voted to bar religious symbols for school-trip parents.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRTEwQ0x5cUJ5Zno2eEM3N2xBZ25Pd0dJeWVfblcxLV9EQXF1TlhjeE9hZDhUb0F1TUdqc3VhTHNjeklrb0h6Mms3Vzlqak1kZEpzVmltZ0tEdE9oTEVUMTVlSkZZVGxkWHR4bnM0d0NlWnRSQUVRaUlYSkJiOHdvZGs0ZC1YZlRRN1R5LWZ4TEYtYnNyYjBFQlltQWZ0eTVhaXFsRkNXX2JaM3BsUUlYTkt6aWpYMjlkajFtZVJqdWwwOWwyd2lEUDNOR2dGR0xrRFdrU1Z0S0MtVnRFa1Rodk1ORzdJMTFrQ1ZFamlEdzRWbnJWVXdSLXhpYVFwbk8zaktLWTE4OVptV3J6MzFVQVotLXo",
+      "outlet": "Anadolu Ajansı",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-09-06",
+      "quote": "Retailleau veut interdire le voile à l'université (headline)"
+     }
+    ],
+    "nuance": "University part verified for 2026; school-trip parents part rests on longstanding LR Senate votes, not re-verified for 2026."
+   },
+   {
+    "id": "soc4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Pushes further restrictions (anti-'entrisme' bill adopted by the Senate in May 2026, veil ban at university), against the view that secularism should not restrict citizens' religious expression further.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Retailleau+Isra%C3%ABl+accord+d%27association&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Mizane Info (headline via Google News)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-07",
+      "quote": "le Sénat adopte la loi Retailleau contre l'entrisme (headline)"
+     }
+    ],
+    "nuance": "Upgraded from inferred to statement/record based on 2026 bill and university-veil proposal."
+   },
+   {
+    "id": "soc5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes surrogacy; called same-sex marriage the 'Trojan horse' of PMA and GPA.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "le cheval de Troie de la PMA et de la GPA"
+     }
+    ],
+    "nuance": "Older statement; no newer position found."
+   },
+   {
+    "id": "edu1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LR has promoted school uniforms (e.g. 2023 LR initiatives); not confirmed in Retailleau's Sept 2026 education plan.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Retailleau+uniforme+%C3%A9cole&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Ouest-France (headline via Google News)",
+      "outlet_lean": "centre",
+      "date": "2023-11-24",
+      "quote": "Uniforme, drapeau : Les Républicains adeptes de la méthode vendéenne de Maxence de Rugy pour l'école (headline)"
+     }
+    ],
+    "nuance": "Party line, older source."
+   },
+   {
+    "id": "edu2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Promises to raise teacher pay markedly and cut public spending; no mass-hiring pledge found.",
+    "sources": [
+     {
+      "url": "https://fr.news.yahoo.com/présidentielle-2027-bruno-retailleau-veut-083222173.html",
+      "outlet": "Yahoo Actualités",
+      "outlet_lean": "centre",
+      "date": "2026-09-01",
+      "quote": "revaloriser nettement (teacher salaries)"
+     }
+    ],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "His Aug/Sept 2026 education plan calls for ending the 'collège unique' and the right/centre plans include a return of ability groups.",
+    "sources": [
+     {
+      "url": "https://www.lopinion.fr/politique/bruno-retailleau-veut-dynamiter-le-college-unique",
+      "outlet": "L'Opinion",
+      "outlet_lean": "centre-right",
+      "date": "2026-08-31",
+      "quote": "Bruno Retailleau veut dynamiter le collège unique (headline)"
+     },
+     {
+      "url": "https://www.leparisien.fr/elections/presidentielle/salaires-des-profs-autonomie-des-etablissements-a-droite-et-au-centre-le-match-de-lecole-est-lance-RVLOPZSATBHZ7HPCRUTH2L3PSY.php",
+      "outlet": "Le Parisien",
+      "outlet_lean": "centre",
+      "date": "2026-08-31",
+      "quote": "retour des groupes de niveaux (snippet, about right/centre candidates)"
+     }
+    ],
+    "nuance": "Upgraded from party_line: ending the collège unique goes beyond ability grouping."
+   },
+   {
+    "id": "edu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Backs 'liberté des cartes scolaires' across public and private schools; no support for cutting private-school funding.",
+    "sources": [
+     {
+      "url": "https://fr.news.yahoo.com/présidentielle-2027-bruno-retailleau-veut-083222173.html",
+      "outlet": "Yahoo Actualités",
+      "outlet_lean": "centre",
+      "date": "2026-09-01",
+      "quote": "la liberté des cartes scolaires"
+     }
+    ],
+    "nuance": "Indirect evidence."
+   },
+   {
+    "id": "edu5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Merit/excellence line; no support for abolishing selection found.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Senate right favours incentive-based measures over the Garot regulation of doctor installation (texts stalled June 2026).",
+    "sources": [
+     {
+      "url": "https://www.lagazettedescommunes.com/1040787/deserts-medicaux-deux-textes-sensablent-entre-assemblee-et-senat/",
+      "outlet": "La Gazette des communes",
+      "outlet_lean": "centre",
+      "date": "2026-06-15",
+      "quote": "faut-il donc réguler leurs installations ou simplement les y inciter ? (snippet)"
+     }
+    ],
+    "nuance": "No personal Retailleau statement found."
+   },
+   {
+    "id": "san2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Spending-control right; no explicit co-payment pledge found.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "san3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Proposes abolishing rent control (and binding DPE rules) as 2027 candidate.",
+    "sources": [
+     {
+      "url": "https://www.capital.fr/immobilier/le-dpe-je-l-abroge-bruno-retailleau-veut-liberer-les-passoires-thermiques-et-les-loyers-1530173",
+      "outlet": "Capital",
+      "outlet_lean": "centre-right",
+      "date": "2026-09-15",
+      "quote": "propose notamment de supprimer le caractère contraignant du DPE et l'encadrement des loyers (snippet)"
+     }
+    ],
+    "nuance": "BFM headline (15 Sept 2026) corroborates: 'veut abroger le DPE et supprimer l'encadrement des loyers'."
+   },
+   {
+    "id": "san4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Market-liberal right; no specific statement found on opening transport/energy further.",
+    "sources": [],
+    "nuance": "Inferred."
+   }
+  ],
+  "verification_notes": [
+   "Method: WebSearch budget was exhausted and most outlet pages were blocked, so I verified through Google News and Bing News RSS headlines/snippets plus fetchable pages (Yahoo/AFP, france24, Wikipedia). Several sources are headlines only, and the nuance fields say so.",
+   "int1: +2/low/party_line -> +2/low/inferred: added Kyiv-visit and 'détache de la droite Bolloré' sources; no verbatim quote on arms aid found.",
+   "int2: -1/low -> null/none: no verifiable statement on troops; the draft relied on recollection.",
+   "int4: -2/low/statement -> -1/low/inferred: there was no source, and no statement on the association agreement was found.",
+   "int5: +1/low/party_line -> +1/medium/vote: the Senate right pushed a bigger LPM top-up (14bn extra, June 2026); no >3% figure found.",
+   "int6: +1/low -> null/none: the only hit (Paris Match Dec 2025) is about his own past service, not a policy.",
+   "int7: -2/low -> -1/low: off-by-one; inferred only, no statement on sanctions.",
+   "ecol1: +2/medium/vote kept; corrected the dating to the April 2026 final adoption and May 2026 censure, and added sources (still no personal quote).",
+   "ecol2: -2 kept; added a TF1 headline source.",
+   "ecol3: -2/low -> -1/low: no Retailleau statement found; party line only.",
+   "ecol5: -2 kept; added CEE/DPE source.",
+   "ene1: +2/medium kept; replaced the Wikipedia paraphrase with the Figaro tribune (July 2025) and Télégramme (May 2026).",
+   "ene2: -2/medium -> -2/high.",
+   "ene3: +2/low/party_line -> +1/medium/statement: he wants to end wind and solar subsidies, but no moratorium on new turbines was verified (the moratorium claim came from memory).",
+   "ene4: null -> -1/low/statement: an L'Opinion headline (Apr 2026) shows he defends the European electricity market.",
+   "ins1: -2/low/party_line -> -2/medium/statement: his 2026 constitutional proposals strengthen referendum and presidential power.",
+   "ins2: -1/low/party_line -> -2/high/statement: 'opposition très ferme' to proportional representation and a threat to resign (June 2025). The draft's suggestion of openness is contradicted.",
+   "ins4: null -> -2/high/statement: he repeatedly urged Lecornu to use 49.3 (Dec 2025).",
+   "ins5: +2/medium/no source -> +2/high: added AFP/Yahoo quote and Figaro on widening article 11 (Sept 2026).",
+   "soc1: -2/low/vote -> -2/high/statement: he opposed the bill, called for a referendum and called it a 'loi d'abandon' (May-July 2026).",
+   "soc2: +1/low -> -1/high: he explicitly rejected a full public-space veil ban as 'inapplicable' and 'démagogie' (Sept 2026) while supporting targeted bans. The draft had the direction wrong.",
+   "soc3: +2/low -> +2/medium: university veil ban verified (Sept 2026); the parents part rests on the party record.",
+   "soc4: -2/low/inferred -> -2/medium/statement: anti-entrisme bill (May 2026) and university ban.",
+   "edu1: kept +1 party_line; added a 2023 LR source; not confirmed for 2026.",
+   "edu3: +2/low/party_line -> +2/medium/statement: end of the collège unique (Aug 2026).",
+   "edu4: -1/inferred -> -1/low/statement: 'liberté des cartes scolaires' in public and private.",
+   "san1: kept -1; added Gazette des communes source.",
+   "san3: -2/low/party_line -> -2/high/statement: he wants to abolish rent control (Sept 2026)."
+  ]
+ }
+}

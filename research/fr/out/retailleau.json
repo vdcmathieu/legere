@@ -1,0 +1,442 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "S'oppose à toute hausse d'impôt, y compris sur les plus hauts revenus et sur le patrimoine ; aucun signe de soutien à un retour de l'ISF.",
+   "nuance": "Il n'existe pas de citation explicite de 2026 sur l'ISF lui-même. Le codage repose sur son refus général d'augmenter les impôts des plus aisés (2020 et 2025)."
+  },
+  {
+   "id": "eco2",
+   "summary": "A explicitement rejeté la taxe Zucman, affirmant que les investisseurs quitteraient la France.",
+   "nuance": ""
+  },
+  {
+   "id": "eco3",
+   "summary": "Programme : baisser les cotisations sociales de 30 milliards d'euros et supprimer la plupart des impôts de production (CVAE, C3S, CFE) pour 40 milliards d'euros.",
+   "nuance": ""
+  },
+  {
+   "id": "eco4",
+   "summary": "S'est vivement opposé à l'accord de libre-échange UE-Mercosur pour protéger l'agriculture française, et a menacé de censure si Macron votait en sa faveur.",
+   "nuance": "La correspondance est partielle. S'opposer à un accord commercial n'équivaut pas à un appel explicite à de nouveaux droits de douane ou quotas, et son programme plus large est favorable aux entreprises et libéral."
+  },
+  {
+   "id": "eco5",
+   "summary": "Aucun élément actuel n'indique qu'il soutienne la renationalisation de l'énergie ou des autoroutes.",
+   "nuance": "En 2005, il s'est opposé à la privatisation des autoroutes (Wikipédia fr). S'opposer à une vente ne signifie pas soutenir une renationalisation, et rien de récent n'a été trouvé. En 2026, sa priorité énergétique est l'investissement dans le nucléaire."
+  },
+  {
+   "id": "eco6",
+   "summary": "S'est engagé à être le président qui baisse les droits de succession.",
+   "nuance": "Il a pris cet engagement dans L'Opinion les 26 et 27 août 2026."
+  },
+  {
+   "id": "ret1",
+   "summary": "Plan retraites : âge minimum de 63 ans avec une décote de 7 % par an, et taux plein à 65 ans. Il ne revient pas à 62 ans.",
+   "nuance": "Son âge minimum de 63 ans est inférieur aux 64 ans actuels, mais seulement avec une lourde décote, et le taux plein passe à 65 ans. Il reste clairement opposé à 62 ans ou moins."
+  },
+  {
+   "id": "ret2",
+   "summary": "Fixe un âge du taux plein automatique à 65 ans, indexé sur l'espérance de vie, tout en permettant un départ dès 63 ans avec une décote.",
+   "nuance": "La correspondance est partielle : l'« âge d'équilibre » effectif passe à 65 ans, tandis que l'âge légal minimum descend à 63 ans."
+  },
+  {
+   "id": "ret3",
+   "summary": "Propose un volet de capitalisation pour les jeunes actifs : 1 % du salaire brut, partagé entre salarié et employeur, visant 25 à 30 % de leurs futures pensions.",
+   "nuance": "Aucune source que nous avons pu ouvrir ne précise si ce dispositif est obligatoire. La conception avec une cotisation de l'employeur et du salarié laisse penser à un régime généralisé, mais cela n'est pas vérifié, d'où +1 plutôt que +2."
+  },
+  {
+   "id": "fin1",
+   "summary": "Met en garde contre un « scénario grec » et soutient un plan d'urgence de réduction des dépenses : plafonnement des aides sociales à 70 % du Smic, moins de fonctionnaires et une réforme des retraites.",
+   "nuance": "Sa priorité donnée à la baisse des dépenses est claire. Aucune date explicite pour atteindre un déficit de 3 % n'a été vérifiée."
+  },
+  {
+   "id": "fin2",
+   "summary": "Veut réduire les effectifs du secteur public, en citant le chiffre de 600 000 agents publics en moins sur dix ans, et cesser de remplacer systématiquement les départs à la retraite.",
+   "nuance": ""
+  },
+  {
+   "id": "fin3",
+   "summary": "Considère la dette comme un danger imminent et veut réduire l'emprunt, non l'augmenter.",
+   "nuance": "Son soutien à un référendum sur la règle d'or (voir fin4) étaye ce codage."
+  },
+  {
+   "id": "fin4",
+   "summary": "Appelle à un référendum avant fin 2026 pour inscrire une règle d'or budgétaire dans la Constitution.",
+   "nuance": ""
+  },
+  {
+   "id": "trav1",
+   "summary": "A qualifié une forte hausse du Smic de « désolante » (2018). Il veut désormais augmenter le salaire net par des baisses de cotisations, et non par le Smic.",
+   "nuance": "La citation explicite sur le Smic date de 2018. En 2026, sa voie pour le pouvoir d'achat passe par la baisse des cotisations et la rémunération des heures supplémentaires, non par une hausse du Smic."
+  },
+  {
+   "id": "trav2",
+   "summary": "Veut être « moins généreux » sur l'assurance chômage et relancer la réforme de l'assurance chômage d'Attal.",
+   "nuance": ""
+  },
+  {
+   "id": "trav3",
+   "summary": "Les propositions économiques de janvier 2026 de Retailleau prévoient de rendre obligatoires les 15 heures d'activité pour les bénéficiaires du RSA, dans le cadre d'une réforme plus dure (RSA remplacé par un « RIA », prestations plafonnées à 70 % du Smic).",
+   "nuance": "Il veut conserver l'obligation et la rendre plus stricte, d'où +2. Le RSA serait rebaptisé ou remplacé par un « RIA » (revenu d'incitation à l'activité), de sorte que l'obligation s'appliquerait à cette prestation de remplacement."
+  },
+  {
+   "id": "trav4",
+   "summary": "Veut sortir les 35 heures du Code du travail et augmenter le temps de travail, soit l'inverse des 32 heures.",
+   "nuance": "Sa position de 2019 était un retour aux 39 heures. En 2026, il privilégie la suppression des 35 heures légales, avec des heures supplémentaires exonérées de cotisations."
+  },
+  {
+   "id": "imm1",
+   "summary": "Veut réduire l'immigration légale : restrictions sur les visas étudiants (frais, ressources, quotas par filière), modification du regroupement familial via la directive européenne, et durcissement de l'asile.",
+   "nuance": ""
+  },
+  {
+   "id": "imm2",
+   "summary": "S'engage à une révision constitutionnelle pour élargir le champ du référendum, puis à un référendum sur une loi sur l'immigration en début de mandat.",
+   "nuance": ""
+  },
+  {
+   "id": "imm3",
+   "summary": "Propose de supprimer l'AME et de la remplacer par un dispositif plus restreint. Il plaide de longue date pour un passage à une aide médicale d'urgence (AMU).",
+   "nuance": "L'article de 2026 paraphrase de façon curieuse le dispositif de remplacement (« contre-aide »). La formule de l'aide médicale d'urgence (AMU) est attestée depuis 2024."
+  },
+  {
+   "id": "imm4",
+   "summary": "Comme ministre, il a abrogé la circulaire Valls (sept ans de présence requis, régularisation « exceptionnelle »). Comme candidat, il rejette la régularisation de travailleurs pour les métiers en tension.",
+   "nuance": "Sa circulaire de 2025 demandait aux préfets de privilégier la voie légale des métiers en tension parmi les rares régularisations exceptionnelles. Sa position d'ensemble est clairement défavorable, et en 2026 il rejette explicitement l'argument des métiers en tension."
+  },
+  {
+   "id": "imm5",
+   "summary": "Veut conditionner l'accès des étrangers aux prestations sociales à cinq ans de résidence légale et de travail. Il s'agit d'une condition de résidence, non d'une règle explicite de priorité nationale.",
+   "nuance": "Il s'agit d'une version partielle. Aucune citation étayant une priorité pour les Français dans l'accès au logement social n'a été trouvée."
+  },
+  {
+   "id": "imm6",
+   "summary": "Veut supprimer le droit du sol sur tout le territoire, par référendum.",
+   "nuance": ""
+  },
+  {
+   "id": "imm7",
+   "summary": "LR s'oppose au droit de vote local des étrangers non européens. Aucune citation personnelle de Retailleau en 2025-2026 n'a été vérifiée.",
+   "nuance": "Il s'agit de la ligne du parti, cohérente avec son programme de restriction de la citoyenneté. Cela n'a pas été vérifié en direct."
+  },
+  {
+   "id": "sec1",
+   "summary": "Veut des peines minimales obligatoires (« peines minimales ») pour que le juge « n'ait pas le choix », en citant les agressions contre les policiers, les gendarmes et les pompiers.",
+   "nuance": "Son exemple vise les agressions contre les personnels de secours. Un champ spécifique aux récidivistes n'a pas été vérifié."
+  },
+  {
+   "id": "sec2",
+   "summary": "Veut abaisser l'âge de la majorité pénale à 15 ans, allant au-delà de l'énoncé.",
+   "nuance": "Sa position s'est durcie, de 16 ans (« révolution pénale » de 2025) à 15 ans en septembre 2026."
+  },
+  {
+   "id": "sec3",
+   "summary": "Comme ministre de l'Intérieur, il a constamment défendu la police. Aucune déclaration sur un organe de contrôle indépendant n'a été trouvée.",
+   "nuance": "Cela est déduit de son bilan."
+  },
+  {
+   "id": "sec4",
+   "summary": "S'est déclaré « totalement opposé » à la légalisation du cannabis et a dit que la légalisation « ne marche pas ».",
+   "nuance": ""
+  },
+  {
+   "id": "sec5",
+   "summary": "Comme ministre, il a poussé à la vidéoprotection systématique, et le gouvernement dont il faisait partie a cherché à étendre la vidéosurveillance algorithmique.",
+   "nuance": "Son soutien à la généralisation de la surveillance assistée par IA en particulier n'est pas confirmé par une citation de sa part, et la source est un média critique de gauche."
+  },
+  {
+   "id": "eu1",
+   "summary": "Propose un « bouclier constitutionnel » permettant au droit français de primer sur le droit de l'UE dans certaines situations (immigration, sécurité).",
+   "nuance": "La correspondance est partielle : il s'applique dans certains cas (intérêts fondamentaux) et non comme règle générale de primauté du droit français. Il a voté contre Maastricht et Lisbonne."
+  },
+  {
+   "id": "eu2",
+   "summary": "Aucun élément trouvé sur l'emprunt commun européen.",
+   "nuance": "Une brève recherche n'a rien donné de personnel."
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucun élément trouvé sur la contribution de la France au budget de l'UE.",
+   "nuance": "Une brève recherche n'a rien donné de personnel."
+  },
+  {
+   "id": "eu4",
+   "summary": "Aucun élément trouvé sur l'unanimité en matière de politique étrangère de l'UE.",
+   "nuance": "Une brève recherche n'a rien donné."
+  },
+  {
+   "id": "eu5",
+   "summary": "Veut une loi organique capable d'écarter l'effet des règles et de la jurisprudence européennes contraires aux « intérêts fondamentaux » de la France, afin de pouvoir mettre en oeuvre son programme sur l'immigration et la sécurité.",
+   "nuance": "La formulation « certaines règles de l'UE » de l'énoncé correspond à son mécanisme « dans certains cas ». Il dit aussi qu'il changera les règles européennes de l'intérieur (par exemple la directive sur le regroupement familial)."
+  },
+  {
+   "id": "eu6",
+   "summary": "N'appelle pas à quitter l'UE. Il veut changer les règles européennes de l'intérieur et voit dans une Europe orientée à droite une source d'influence pour la France.",
+   "nuance": "La lecture « pas de sortie » découle de sa position de réforme de l'intérieur ; aucune citation explicite contre le Frexit n'a été trouvée."
+  },
+  {
+   "id": "int1",
+   "summary": "Retailleau s'est rendu à Kiev et à Boutcha en mai 2026 en tant que candidat LR et s'est publiquement démarqué de la droite jugée prorusse ; cohérent avec un soutien à la poursuite de l'aide.",
+   "nuance": "Seuls des titres et extraits ont pu être lus (corps des articles bloqués) ; aucune citation textuelle de Retailleau sur les livraisons d'armes n'a été trouvée. La direction est claire, l'intensité est déduite."
+  },
+  {
+   "id": "int2",
+   "summary": "Aucune déclaration vérifiable trouvée sur l'envoi de troupes françaises pour garantir un cessez-le-feu.",
+   "nuance": "Le -1 du brouillon reposait sur un souvenir non vérifié. Les recherches sur les troupes ou la force de réassurance n'ont donné que des articles sur Macron et la coalition. En mars 2026, il a accusé Macron d'« instrumentalisation » électorale de la guerre en Ukraine (titre d'Orange Actualités), ce qui n'est pas une position sur les troupes."
+  },
+  {
+   "id": "int3",
+   "summary": "Rien n'indique que Retailleau ou LR veuille quitter le commandement intégré de l'OTAN ; droite atlantiste soutenue par le PPE.",
+   "nuance": "Déduit ; aucune déclaration directe trouvée. A reçu le soutien complet du PPE en septembre 2026."
+  },
+  {
+   "id": "int4",
+   "summary": "Aucune déclaration trouvée sur la suspension de l'accord d'association UE-Israël ; son bilan (dissolution d'Urgence Palestine, mise en garde des maires sur les drapeaux palestiniens) suggère une opposition aux sanctions contre Israël, bien qu'il ait dit en décembre 2024 « on attend d'Israël autre chose ».",
+   "nuance": "Le brouillon codait -2 « déclaration » sans source ; aucune telle déclaration n'a pu être trouvée, d'où une rétrogradation à -1 déduit."
+  },
+  {
+   "id": "int5",
+   "summary": "Les sénateurs LR ont poussé pour un abondement de la loi de programmation militaire plus important que celui du gouvernement (14 milliards supplémentaires, juin 2026), soit une hausse substantielle de la défense ; aucun objectif explicite supérieur à 3 % du PIB trouvé.",
+   "nuance": "Comportement du groupe (droite sénatoriale), non un engagement personnel de Retailleau ; le seuil de 3 % n'est pas vérifié, d'où +1."
+  },
+  {
+   "id": "int6",
+   "summary": "Aucune position politique vérifiable trouvée sur le rétablissement d'un service militaire ou national obligatoire.",
+   "nuance": "Le seul résultat (Paris Match, 13 décembre 2025, « Un brassage sociologique qui forge la fraternité ») semble être une série où des responsables politiques racontent leur propre service, non un engagement politique. Le +1 du brouillon était un souvenir sans source."
+  },
+  {
+   "id": "int7",
+   "summary": "Retailleau se positionne contre la droite proche de la Russie ; aucune déclaration explicite sur la levée des sanctions en échange d'un accord de paix trouvée.",
+   "nuance": "Déduit uniquement ; intensité réduite par rapport à -2 faute de déclaration directe sur les sanctions."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Le Sénat, à majorité de droite, a définitivement adopté (avril 2026) la loi de simplification supprimant les ZFE ; la droite a dénoncé la censure de cette suppression par le Conseil constitutionnel en mai 2026.",
+   "nuance": "Vote de groupe et réaction du parti ; aucune citation personnelle de Retailleau sur les ZFE retrouvée. La datation de 2025 du brouillon est corrigée en adoption définitive de 2026."
+  },
+  {
+   "id": "ecol2",
+   "summary": "LR a soutenu la loi Duplomb, qui réintroduisait un pesticide interdit pour s'aligner sur les concurrents de l'UE ; Retailleau y a été associé et « désavoué » lorsque le Conseil constitutionnel l'a censurée (août 2025).",
+   "nuance": "Niveau des titres uniquement ; aucune citation personnelle textuelle retrouvée."
+  },
+  {
+   "id": "ecol3",
+   "summary": "LR/PPE a poussé à réviser la fin des moteurs thermiques en 2035 ; aucune déclaration propre à Retailleau trouvée.",
+   "nuance": "Rétrogradé depuis -2 : la recherche n'a donné aucune déclaration personnelle. Le code reflète uniquement la ligne du parti."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Ligne contre les nouveaux impôts et pour le pouvoir d'achat ; aucun soutien connu à des taxes plus élevées sur le transport aérien.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Donne la priorité au pouvoir d'achat et à la compétitivité : veut supprimer les certificats d'économies d'énergie (CEE), mettre fin aux subventions aux énergies renouvelables et supprimer les règles contraignantes du DPE.",
+   "nuance": "Déduit de propositions concrètes ; aucune déclaration explicite plaçant la croissance avant le climat."
+  },
+  {
+   "id": "ene1",
+   "summary": "Appelle à « reconstruire un parc nucléaire » et centre son plan électrique de 2026 sur le nucléaire.",
+   "nuance": "« Reconstruire un parc » implique plus de six EPR2, mais le nombre exact de réacteurs n'a pas été retrouvé."
+  },
+  {
+   "id": "ene2",
+   "summary": "Fortement favorable au nucléaire ; s'oppose à toute sortie.",
+   "nuance": ""
+  },
+  {
+   "id": "ene3",
+   "summary": "Veut mettre fin au financement public et aux subventions pour l'éolien et le solaire, ce qui étoufferait les nouveaux développements, mais aucun moratoire explicite sur les nouvelles éoliennes n'a été vérifié.",
+   "nuance": "Mettre fin aux subventions est plus étroit que stopper le développement ; l'affirmation d'un moratoire du brouillon reposait sur la mémoire. Le Monde note que sa ligne anti-renouvelables ne fait pas l'unanimité au sein de LR."
+  },
+  {
+   "id": "ene4",
+   "summary": "Un article de L'Opinion d'avril 2026 rapporte que Retailleau vole à la défense du marché européen de l'électricité, donc contre une sortie de celui-ci.",
+   "nuance": "Titre uniquement (corps de l'article bloqué) ; direction claire, intensité incertaine. Le null du brouillon était erroné : des éléments existent."
+  },
+  {
+   "id": "ins1",
+   "summary": "Veut réformer dans le cadre de la Ve République (référendum élargi, pouvoir de passer outre les censures du Conseil constitutionnel), en invoquant un « moment très gaullien » ; aucun soutien à une VIe République parlementaire.",
+   "nuance": "Ses réformes renforcent le pouvoir présidentiel et référendaire, à l'opposé d'un régime plus parlementaire."
+  },
+  {
+   "id": "ins2",
+   "summary": "A déclaré à plusieurs reprises une opposition « très ferme » à la proportionnelle et a menacé de quitter le gouvernement à ce sujet (juin 2025).",
+   "nuance": "L'« éventuelle ouverture à une dose de proportionnelle » du brouillon est contredite par ces sources."
+  },
+  {
+   "id": "ins3",
+   "summary": "Favorable aux référendums à l'initiative du président avec un article 11 élargi ; aucun soutien à un référendum d'initiative citoyenne trouvé.",
+   "nuance": "Déduit ; aucune déclaration explicite sur le RIC trouvée."
+  },
+  {
+   "id": "ins4",
+   "summary": "A exhorté à plusieurs reprises le Premier ministre Lecornu à recourir à l'article 49.3 pour faire adopter le budget 2026 ; clairement opposé à sa suppression ou à sa restriction.",
+   "nuance": "A aussi dit en 2023 « Il vaut mieux le 49.3 que pas de réforme du tout ». Le null du brouillon était erroné."
+  },
+  {
+   "id": "ins5",
+   "summary": "Propose d'élargir l'article 11 pour organiser des référendums sur l'immigration (suppression du droit du sol) et sur la politique pénale (septembre 2026).",
+   "nuance": ""
+  },
+  {
+   "id": "soc1",
+   "summary": "Retailleau s'est fortement opposé à la loi sur l'aide à mourir, la qualifiant de « loi d'abandon ». Il a ensuite fait pression sur le Conseil constitutionnel au sujet de son examen. Aucune promesse d'abroger la loi n'a été trouvée.",
+   "nuance": "Le cahier des charges n'autorise -2 qu'avec une promesse d'abrogation, et aucune n'a été trouvée, d'où -1 malgré son hostilité claire. Un article de franceinfo (17 juillet 2026) demandait si les candidats hostiles promettraient l'abrogation ; il n'a pas été ouvert. Recoder à -2 s'il promet l'abrogation."
+  },
+  {
+   "id": "soc2",
+   "summary": "Rejette explicitement la proposition du RN d'interdire le voile dans tout l'espace public, la jugeant « inapplicable », relevant du « populisme » et de la « démagogie », tout en soutenant des interdictions ciblées (par exemple à l'université).",
+   "nuance": "S'oppose à l'énoncé tel que formulé mais soutient des extensions partielles, d'où -1 et non -2."
+  },
+  {
+   "id": "soc3",
+   "summary": "Retailleau veut interdire le voile aux parents accompagnateurs de sorties scolaires. Il l'a proposé comme ministre de l'Intérieur en janvier 2025 et l'a répété comme candidat en septembre 2026.",
+   "nuance": "Sa formulation porte spécifiquement sur le voile, qui relève des « signes religieux ostensibles » de l'énoncé. En janvier 2025, le gouvernement Bayrou a refusé de reprendre sa proposition (Le Monde, Libération, franceinfo, 8 janvier 2025, vus dans les résultats de recherche). Sa position n'a pas changé depuis."
+  },
+  {
+   "id": "soc4",
+   "summary": "Pousse à de nouvelles restrictions (projet de loi contre l'« entrisme » adopté par le Sénat en mai 2026, interdiction du voile à l'université), à l'opposé de l'idée que la laïcité ne devrait pas restreindre davantage l'expression religieuse des citoyens.",
+   "nuance": "Reclassé de déduit à déclaration/bilan sur la base du projet de loi de 2026 et de la proposition d'interdiction du voile à l'université."
+  },
+  {
+   "id": "soc5",
+   "summary": "S'oppose à la gestation pour autrui ; a qualifié le mariage entre personnes de même sexe de « cheval de Troie » de la PMA et de la GPA.",
+   "nuance": "Déclaration ancienne ; aucune position plus récente trouvée."
+  },
+  {
+   "id": "edu1",
+   "summary": "LR a promu l'uniforme scolaire (par exemple initiatives LR de 2023) ; non confirmé dans le plan éducation de Retailleau de septembre 2026.",
+   "nuance": "Ligne du parti, source plus ancienne."
+  },
+  {
+   "id": "edu2",
+   "summary": "Promet de revaloriser nettement le salaire des enseignants et de réduire la dépense publique ; aucun engagement d'embauche massive trouvé.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "edu3",
+   "summary": "Son plan éducation d'août-septembre 2026 prévoit la fin du « collège unique », et les plans de la droite et du centre incluent le retour des groupes de niveau.",
+   "nuance": "Reclassé depuis ligne du parti : mettre fin au collège unique va au-delà des groupes de niveau."
+  },
+  {
+   "id": "edu4",
+   "summary": "Soutient la « liberté des cartes scolaires » entre écoles publiques et privées ; aucun soutien à une baisse du financement des écoles privées.",
+   "nuance": "Éléments indirects."
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucune déclaration personnelle trouvée. Un rapport de commission d'enquête du Sénat de septembre 2026, créée par le groupe LR et conduite par un proche de Retailleau, propose de mettre fin à l'accès automatique à l'université pour les titulaires du baccalauréat. Cela signifie plus de sélection, à l'opposé de l'énoncé.",
+   "nuance": "Il s'agit de la ligne LR et non d'une déclaration de Retailleau lui-même, d'où une faible confiance. Les résultats concernant Sylvie Retailleau dans les recherches renvoient à une autre personne (ancienne ministre de l'Enseignement supérieur)."
+  },
+  {
+   "id": "san1",
+   "summary": "La droite sénatoriale privilégie des mesures incitatives plutôt que la régulation Garot de l'installation des médecins (textes bloqués en juin 2026).",
+   "nuance": "Aucune déclaration personnelle de Retailleau trouvée."
+  },
+  {
+   "id": "san2",
+   "summary": "Droite de maîtrise des dépenses ; aucun engagement explicite sur une participation financière des patients trouvé.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "san3",
+   "summary": "Propose de supprimer l'encadrement des loyers (et les règles contraignantes du DPE) en tant que candidat 2027.",
+   "nuance": "Un titre de BFM (15 septembre 2026) le corrobore : « veut abroger le DPE et supprimer l'encadrement des loyers »."
+  },
+  {
+   "id": "san4",
+   "summary": "Droite libérale de marché ; aucune déclaration précise trouvée sur une ouverture plus large des transports ou de l'énergie à la concurrence.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucune déclaration directe de Retailleau pour ou contre une « TVA sociale » n'a été trouvée. Il propose de baisser les cotisations salariales, mais la finance par des économies de dépenses plutôt que par une hausse de la TVA.",
+   "nuance": "Les signaux vont dans les deux sens, donc cet élément reste non codé. L'Essentiel de l'Éco (8 septembre 2026, https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/) indique que Retailleau propose une exonération totale de cotisations au-delà de la 36e heure travaillée, « financée par 30 milliards d'euros d'économies budgétaires ». Sa liste de partisans de la TVA sociale comprend Hollande, Le Maire et Attal. L'Humanité (3 septembre 2026) le place dans un « arc de candidats » allant de Retailleau à Hollande qui disent que la protection sociale repose trop sur le travail. C'est le cadrage d'un média adverse et il ne montre pas qu'il soutienne une hausse de la TVA. Une citation de 2018 des Échos reprise sur Wikipédia (hausse de la TVA comme « une mesure de compétitivité ») est trop ancienne et trop indirecte. À revérifier s'il prend une position explicite."
+  },
+  {
+   "id": "imm8",
+   "summary": "Comme ministre de l'Intérieur, Retailleau a signé la circulaire de mai 2025 sur la naturalisation, qui a durci les critères (niveau de langue, test d'histoire, conditions d'activité). Comme candidat, il va plus loin et propose de supprimer le droit du sol.",
+   "nuance": "Le Figaro (30 décembre 2025) a rapporté que les naturalisations avaient baissé en 2025 après la circulaire. Orange/AFP (10 avril 2026) titrait qu'il « durcit encore le ton sur les conditions de naturalisation » ; ce titre n'a été vu que dans les résultats de Google Actualités. La source de sa position est cohérente entre des médias de sensibilités différentes."
+  },
+  {
+   "id": "sec6",
+   "summary": "En mai 2025, alors que Retailleau était ministre de l'Intérieur, le gouvernement et la majorité sénatoriale dirigée par LR ont rejeté une proposition de loi du PS qui aurait créé un récépissé pour chaque contrôle d'identité.",
+   "nuance": "Aucune citation personnelle de Retailleau sur le récépissé n'a été trouvée. Le code repose sur la position du gouvernement pendant qu'il dirigeait le ministère de l'Intérieur ; le ministre qui a parlé au nom du gouvernement lors du débat au Sénat n'est pas confirmé. L'article du Parisien n'a pas pu être ouvert (403) ; son titre a été vu dans les résultats de recherche. Des opposants (la sénatrice PS Narassiguin) disent que ses opérations de juin 2025 contre les migrants sans papiers relevaient du contrôle au faciès. C'est la caractérisation d'un opposant et elle n'a pas été utilisée pour le code."
+  },
+  {
+   "id": "eu7",
+   "summary": "Retailleau veut une architecture de sécurité européenne qui ne dépende pas de Washington. Il privilégie des alliances de défense bilatérales entre partenaires européens et la production d'armes en France et en Europe. Il ne soutient pas une armée européenne ni l'abandon de l'autonomie militaire nationale.",
+   "nuance": "Il est en partie d'accord : plus de production européenne et moins de dépendance aux États-Unis. Il rejette le coeur de l'énoncé, une défense commune même au prix de l'autonomie française. Un titre d'interview du JDD (1er mars 2026), vu uniquement dans Google Actualités, dit « La dissuasion nucléaire française ne se partage pas ». Une interview du Monde sur l'Europe (30 septembre 2026) le présente comme « issu de la droite souverainiste » ; elle n'a pas pu être ouverte (paywall/403). C'est -1 plutôt que -2 car aucun rejet explicite des achats communs n'a été trouvé."
+  },
+  {
+   "id": "eu8",
+   "summary": "Aucune position explicite trouvée. Après sa visite à Kiev en mai 2026, 20 Minutes l'a décrit comme plus prudent qu'Édouard Philippe sur l'adhésion future de l'Ukraine à l'UE.",
+   "nuance": "Il s'agit de la caractérisation d'un journaliste et non de ses propres mots, d'où une faible confiance. Il soutient l'Ukraine face à la Russie, qualifiant la résistance ukrainienne de « une leçon et un symbole » dans sa tribune du 14 juillet 2026. C'est un soutien à l'Ukraine dans la guerre, non à son adhésion à l'UE. Une interview du Monde sur l'Europe (30 septembre 2026) pourrait aborder l'élargissement, mais elle n'a pas pu être ouverte. À recoder dès qu'une citation directe sera disponible."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucune position sur des prix planchers garantis pour les agriculteurs n'a été trouvée.",
+   "nuance": "Recherche dans les comptes rendus du congrès des Jeunes Agriculteurs (juin 2026) et de la visite au Space (septembre 2026). La couverture rapporte ses appels à supprimer le principe de précaution et l'OFB, sa formule « la meilleure écologie, c'est de produire en France » et ses attaques contre l'« écologie dogmatique ». Aucun de ces éléments ne mentionne les prix planchers. L'interview du Télégramme (16 septembre 2026) n'a pas pu être récupérée."
+  },
+  {
+   "id": "ene5",
+   "summary": "Retailleau rejette explicitement une baisse de la TVA sur l'énergie et les carburants à 5,5 % (proposition de Marine Le Pen). Il dit qu'elle coûterait 15 milliards d'euros sans financement. Il propose plutôt de supprimer les certificats d'économies d'énergie (CEE).",
+   "nuance": "Il soutient la baisse des prix de l'énergie, mais par la suppression des CEE, non par la TVA. Il rejette la mesure que décrit l'énoncé."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucune position de Retailleau sur la privatisation de France Télévisions ou de Radio France n'a été trouvée.",
+   "nuance": "Les recherches renvoient au rapport de la commission Alloncle (UDR) et à la proposition de privatisation de Bardella, qui sont des positions d'autres acteurs. La position propre de Retailleau n'a pas été localisée. Ne pas emprunter les positions du RN ou de l'UDR."
+  },
+  {
+   "id": "soc6",
+   "summary": "Retailleau veut interdire le voile à l'université. Il l'a proposé pour la première fois en janvier et en mai 2025 et en a fait une proposition de campagne en septembre 2026.",
+   "nuance": "Sa formulation couvre le voile, non tous les signes religieux. Il qualifie d'« inapplicable » l'interdiction du voile dans tous les espaces publics par le RN, mais soutient des interdictions à l'université, dans le sport et lors des sorties scolaires."
+  },
+  {
+   "id": "san5",
+   "summary": "Le plan logement de Retailleau de mai 2026 supprimerait l'objectif de « zéro artificialisation nette » et allégerait les règles de construction pour provoquer un « choc » de construction.",
+   "nuance": "Il va plus loin qu'un « assouplissement » : Valeurs actuelles rapporte « l'abrogation du dispositif ZAN ». Les Échos (centre droit) corroborent le vaste plan de déréglementation du logement. Titre du Figaro (28 mai 2026) : « promet un «choc de l'offre» »."
+  }
+ ],
+ "record": {
+  "bio": "Bruno Retailleau (né le 20 novembre 1960 à Cholet) est un homme politique conservateur vendéen et président des Républicains depuis mai 2025. Il a été sénateur de la Vendée de 2004 à 2024, puis de nouveau depuis novembre 2025. Il a présidé le conseil départemental de la Vendée (2010-2015) et la région Pays de la Loire (2015-2017), dirigé le groupe LR au Sénat (2014-2024) et été ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, éphémère (septembre 2024 - octobre 2025). Il a déclaré sa candidature à l'élection présidentielle de 2027 le 12 février 2026 et a été désigné candidat LR après le vote des adhérents du 19 avril 2026. Il est connu pour une ligne restrictive sur l'immigration et la sécurité et pour des positions socialement conservatrices.",
+  "offices": [
+   "Conseiller départemental (général) de la Vendée (canton de Mortagne-sur-Sèvre)",
+   "Député (Vendée, 4e circonscription)",
+   "Vice-président du conseil régional des Pays de la Loire",
+   "Sénateur de la Vendée",
+   "Président du conseil départemental de la Vendée",
+   "Président du groupe UMP/LR au Sénat",
+   "Président du conseil régional des Pays de la Loire",
+   "Ministre de l'Intérieur (gouvernements Barnier, Bayrou, Lecornu I ; ministre d'État depuis le 23 décembre 2024)",
+   "Sénateur de la Vendée (retour ; réélu en 2026)",
+   "Président des Républicains"
+  ],
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Gouverner aux côtés du camp de Macron",
+    "before": "En 2022, il a refusé tout accord de gouvernement avec le parti Renaissance de Macron, affirmant que la droite n'est « pas solubile dans le macronisme ».",
+    "after": "En septembre 2024, il est devenu ministre de l'Intérieur dans le gouvernement de Michel Barnier, une coalition de LR et du camp présidentiel, et l'est resté sous Bayrou ; il est parti en octobre 2025 en raison de la composition du gouvernement Lecornu."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Plan antidrogue (annoncé en novembre 2024 avec le garde des Sceaux Migaud) et soutien à la proposition de loi sénatoriale « sortir la France du piège du narcotrafic » (Blanc/Durain) : création d'un parquet national anti-criminalité organisée (PNACO) et réforme du statut des repentis. Adoptée le 29 avril 2025 et promulguée le 13 juin 2025.",
+    "assessment": "La loi est issue d'une proposition de loi sénatoriale transpartisane. Retailleau l'a défendue, d'abord avec le garde des Sceaux Darmanin. Elle a été adoptée à l'unanimité au Sénat et par 396 voix contre 68 à l'Assemblée. Le Conseil constitutionnel a censuré les dispositions sur le renseignement algorithmique. Le sénateur socialiste Carlotti a soutenu les mesures centrales mais critiqué ses propos sur la réduction des prestations sociales et le manque de financement (Public Sénat). Les éléments sur les résultats ne sont pas couverts par les sources lues."
+   },
+   {
+    "what": "Exécution de l'immigration : des négociations avec l'Irak, le Kazakhstan et l'Égypte sur les expulsions ont été annoncées (8 octobre 2024), ainsi qu'un arrangement avec le Maroc pour accélérer les retours (29 octobre 2024). Une circulaire du 29 octobre 2024 demandait aux préfets une « complète mobilisation » sur les expulsions, et il a annoncé la fin de la circulaire Valls de régularisation (octobre 2024). Il a aussi adopté une ligne ferme avec l'Algérie sur les réadmissions.",
+    "assessment": "Les partisans y voient une exécution plus ferme. Des critiques au sein du camp présidentiel ont objecté à sa remarque selon laquelle l'État de droit n'est ni « intangible » ni « sacré ». Les sources sont des résumés de Wikipédia, de sorte que le contenu des accords et les chiffres réels d'expulsions ne sont pas vérifiés."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non vérifié directement : Libération, Mediapart et L'Humanité n'ont pas été lus. Les sources secondaires lues rapportent que sa remarque de 2023 sur les « Français de papier » et son commentaire sur l'État de droit ont suscité de larges critiques de la part de ses opposants.",
+   "right_media": "Non vérifié : aucun média orienté à droite n'a été lu, donc aucune caractérisation n'est donnée.",
+   "neutral_media": "Public Sénat (novembre 2024) rend compte de son plan antidrogue de façon procédurale et laisse place au soutien partiel et aux critiques d'un sénateur socialiste."
+  }
+ }
+}

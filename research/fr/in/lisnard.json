@@ -1,0 +1,433 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Opposes wealth taxation: cites the IFI (the narrower successor to the ISF) as one cause of the housing slump, and rules out any tax increase to reduce the debt. No primary text found proposing to abolish wealth taxes outright.",
+   "nuance": "The aggregator's quote 'Supprimer les taxes sur la fortune et les successions' could not be found on the programme pages, so it was dropped. The -2 code rests on his hostility to the IFI and his refusal of any tax rise. Confidence is low because there is no explicit statement on reinstating the ISF."
+  },
+  {
+   "id": "eco2",
+   "summary": "Rules out reducing the debt through tax increases (\"jamais augmenter l'impôt\"). This is incompatible with a new 2% minimum tax on large fortunes.",
+   "nuance": "No verified quote naming the Zucman tax specifically. The web search budget was exhausted. The code follows from his explicit refusal of any tax increase."
+  },
+  {
+   "id": "eco3",
+   "summary": "Programme cuts production taxes from 2% to 1% of GDP (abolishing the C3S and CVAE) and removes employer charges at SMIC level for home employers. FAQ commits 120 bn EUR to cutting contributions and 40 bn EUR to cutting production taxes.",
+   "nuance": "Confirmed on the primary programme page."
+  },
+  {
+   "id": "eco4",
+   "summary": "No position on tariffs or quotas found. The programme seeks to bring production back to France by cutting charges and deregulating, without mentioning tariffs.",
+   "nuance": "The programme pages and campaign FAQ were searched for douane, protection and libre-échange, with no hits."
+  },
+  {
+   "id": "eco5",
+   "summary": "Wants a state 'refocused on its regalian missions' and a 'massive deregulation shock'. No statement on energy or motorways specifically.",
+   "nuance": "Inferred from his general doctrine. He backs new nuclear reactors but says nothing on the ownership of EDF or the motorways."
+  },
+  {
+   "id": "eco6",
+   "summary": "Programme calls for reforming inheritance duties on businesses, a partial and sector-specific lowering.",
+   "nuance": "Partial: limited to business transmission, so +1. The claim that he wants to abolish all inheritance taxes could not be verified in primary sources."
+  },
+  {
+   "id": "ret1",
+   "summary": "Refuses to reverse the 2023 reform (age 64), and has said so repeatedly, including when suspension was debated.",
+   "nuance": "A position held consistently from 2024 to 2026."
+  },
+  {
+   "id": "ret2",
+   "summary": "The programme page still calls a legal age of 65 an urgent national imperative. The campaign FAQ (updated October 2026) says he no longer makes age his answer and puts mandatory capitalisation first.",
+   "nuance": "His own campaign sources conflict. The older programme text sets 65, but the most recent framing (franceinfo, 31 March 2026) downplays any new age threshold. Coded +1 with low confidence."
+  },
+  {
+   "id": "ret3",
+   "summary": "Proposes moving all pensions above a pay-as-you-go floor to capitalisation funded by mandatory contributions, about 40% of total pensions. He calls it 'obligatoire et collective'.",
+   "nuance": "Explicitly mandatory, so +2. The draft's 'liberty to choose' wording came from a generic summary line on the programme landing page."
+  },
+  {
+   "id": "fin1",
+   "summary": "Calls deficit control an 'absolute imperative'. Plans 80 bn EUR of spending cuts in year one and at least 200 bn EUR over the term.",
+   "nuance": "The 3% threshold is not named, but the priority on deficits and the large cuts are explicit."
+  },
+  {
+   "id": "fin2",
+   "summary": "Would no longer replace all of the 500,000 annual departures from the civil service, starting with administrative jobs. As mayor he cut the Cannes municipal workforce by nearly 20%.",
+   "nuance": "The Wikipedia source was replaced: the cited paraphrase was not found on the page. The workforce reduction comes through attrition, not dismissals."
+  },
+  {
+   "id": "fin3",
+   "summary": "Wants the debt ratio lowered, with 40 bn EUR of savings earmarked for debt reduction. Refuses tax cuts financed by debt.",
+   "nuance": "His proposed deficit rule covers operating expenses, not investment, so it leaves some room for borrowing to invest. The thrust is still firmly against more debt. The aggregator's quote 'Aucun emprunt supplémentaire' could not be verified and was dropped."
+  },
+  {
+   "id": "fin4",
+   "summary": "Programme calls for an institutional rule limiting public deficits (a golden rule on operating expenses).",
+   "nuance": "The text says 'institutional' rather than explicitly 'constitutional'. It sits in a broader constitutional-reform agenda. If the strict constitutional wording matters, +1 is defensible."
+  },
+  {
+   "id": "trav1",
+   "summary": "Wants to raise net wages by cutting social contributions, not by imposing wage increases.",
+   "nuance": "No explicit statement on SMIC uprating. He rejects mandated wage rises in favour of contribution cuts, which amounts to clear but implicit opposition, so -1."
+  },
+  {
+   "id": "trav2",
+   "summary": "Refuses to reverse the unemployment-insurance reform. Proposes a single allowance capped at a percentage of the SMIC so that work always pays more than inactivity.",
+   "nuance": "He defends the existing cuts and caps welfare to encourage work, but makes no explicit new proposal to shorten or reduce unemployment benefits, so +1."
+  },
+  {
+   "id": "trav3",
+   "summary": "No evidence found. The programme pages and FAQ pages checked (aides sociales, économies, ambition française) do not mention the RSA activity hours. The only RSA measure found is negative employer charges for hiring people who have been on the RSA for over two years.",
+   "nuance": "His pro-work-incentive line ('Quelqu'un qui travaille à temps plein doit gagner au moins 500€ de plus que quelqu'un qui ne travaille pas') suggests support, but the statement is not coded from inference. Needs a rerun with web search."
+  },
+  {
+   "id": "trav4",
+   "summary": "Programme calls for incentives to work more. This is the opposite of a move towards 32 hours.",
+   "nuance": "No explicit 32-hour statement, but the programme's direction is clearly towards more work. Upgraded from inferred/low to programme/medium."
+  },
+  {
+   "id": "imm1",
+   "summary": "Proposes dividing the number of residence permits issued by eight, with quotas for qualified labour and stricter conditions on family reunification.",
+   "nuance": "Confirmed on the primary programme page. This replaces the Wikipedia paraphrase."
+  },
+  {
+   "id": "imm2",
+   "summary": "Says a referendum will be needed to free immigration policy from treaty constraints. Would widen Article 11 so that immigration can be put to a referendum.",
+   "nuance": "The code is unchanged. The sources are now explicit primary quotes instead of the bare 'recours au référendum'."
+  },
+  {
+   "id": "imm3",
+   "summary": "Proposes abolishing the AME and replacing it with emergency-only aid.",
+   "nuance": "Confirmed on the primary page. He repeated it at the Saint-Raphaël meeting on 4 July 2026."
+  },
+  {
+   "id": "imm4",
+   "summary": "Programme would remove any possibility of regularisation after illegal entry, and would restore the offence of irregular stay.",
+   "nuance": "The previous source (systematic expulsion of convicted foreigners) did not address regularisation. It was replaced with a direct primary quote."
+  },
+  {
+   "id": "imm5",
+   "summary": "Would make non-contributory benefits for foreigners conditional on at least five years of legal residence. This is a residence condition, not a priority reserved for French citizens.",
+   "nuance": "Partial version: a residence requirement, not a preference by nationality. No social-housing priority by nationality was found. The aggregator's label 'Priorité nationale' could not be verified."
+  },
+  {
+   "id": "imm6",
+   "summary": "Wants to end the automatic character of droit du sol, not to abolish it.",
+   "nuance": "Partial version, so +1. Confirmed on the primary page."
+  },
+  {
+   "id": "imm7",
+   "summary": "No explicit statement found. His programme stresses assimilation and tighter conditions for foreigners.",
+   "nuance": "The aggregator 'quote' was the aggregator's own inference ('La logique globale du programme exclut...'), not words from Lisnard or his programme. Downgraded to inferred."
+  },
+  {
+   "id": "sec1",
+   "summary": "Programme calls for mandatory minimum sentences for repeat offenders and an end to automatic sentence reductions.",
+   "nuance": "Confirmed on the primary security page, which includes peines planchers for repeat offenders."
+  },
+  {
+   "id": "sec2",
+   "summary": "Proposes lowering the age of criminal majority to 16 and reversing the minority excuse from age 13 for serious offences.",
+   "nuance": "This goes beyond the statement as worded: all offenders aged 16 and over would be treated as adults."
+  },
+  {
+   "id": "sec3",
+   "summary": "No position on independent police oversight found.",
+   "nuance": "'Unfailing support for the forces' is not a position on oversight. The Bayeux speech criticises 'autorités dites indépendantes' in general, but not police oversight. Not coded."
+  },
+  {
+   "id": "sec4",
+   "summary": "Treats drug trafficking as a major threat and calls for a crackdown. No explicit statement on legalising recreational cannabis was found.",
+   "nuance": "Inferred from his anti-trafficking stance. Downgraded from -2 medium."
+  },
+  {
+   "id": "sec5",
+   "summary": "Cannes has a dense CCTV network under his mayoralty, and he wants AI at the heart of public performance. No explicit call to generalise AI-assisted video surveillance was verified.",
+   "nuance": "The camera record supports surveillance in general. The AI-specific part is not confirmed, so +1 rather than +2."
+  },
+  {
+   "id": "eu1",
+   "summary": "Would revise Article 55 so that French law prevails over the ECHR, and calls for national law to have primacy over expansive European case law. On EU law itself he says a constitutional revision is not enough and seeks a Danish-style opt-out.",
+   "nuance": "Partial: full primacy over the ECHR, but a negotiated opt-out for EU law rather than unilateral override. The aggregator paraphrase was replaced with primary sources."
+  },
+  {
+   "id": "eu2",
+   "summary": "Calls European sovereignty an 'oxymoron' and defends national fiscal sovereignty. No explicit statement on EU joint borrowing was found.",
+   "nuance": "The cited quote concerns sovereignty, not joint debt. His programme also wants Europe to be a 'tool of power' through joint projects such as space, data and energy, which cuts the other way. Downgraded from -2 and recoded as inferred."
+  },
+  {
+   "id": "eu3",
+   "summary": "No explicit position on France's EU budget contribution found.",
+   "nuance": "The programme only conditions EU cohesion transfers on rule of law and anti-corruption. Not coded."
+  },
+  {
+   "id": "eu4",
+   "summary": "No position on EU foreign-policy unanimity found.",
+   "nuance": "His emphasis on national sovereignty suggests scepticism, but there is no direct evidence."
+  },
+  {
+   "id": "eu5",
+   "summary": "Where supranational rules block national sovereignty, he wants citizens to decide by referendum, and seeks exemption from EU asylum and immigration rules.",
+   "nuance": "Partial: the route is a referendum and a negotiated opt-out, not outright non-application. Kept at +1. Evidence type changed from statement to programme."
+  },
+  {
+   "id": "eu6",
+   "summary": "Explicitly rules out leaving the EU and wants to reform it.",
+   "nuance": "Primary quote from June 2026 replaces the aggregator paraphrase."
+  },
+  {
+   "id": "int1",
+   "summary": "Lisnard backs strong military support for Ukraine. He has called for a war economy and for helping Ukraine regain a position of strength before any negotiation.",
+   "nuance": "The most recent explicit statement found is from March 2025. Nothing from 2026 was retrievable because web search was unavailable. He frames aid as a way to strengthen Ukraine's hand before negotiations, while avoiding direct confrontation with Russia. The Feb 2024 quote is as reproduced on his party site and by the MonVote2027 aggregator; the party page fetch did not show the article body."
+  },
+  {
+   "id": "int2",
+   "summary": "No statement found on sending French troops to guarantee a ceasefire.",
+   "nuance": "In the March 2025 Diplomate interview he says France should act 'sans glisser vers une logique d'affrontement direct avec la Russie'. That is not a position on a post-ceasefire reassurance force, so it is not coded."
+  },
+  {
+   "id": "int3",
+   "summary": "No statement found on NATO's integrated command.",
+   "nuance": "The programme speaks of 'une France forte dans ses alliances' but does not mention NATO's integrated command. In the Diplomate interview NATO comes up only in the interviewer's question."
+  },
+  {
+   "id": "int4",
+   "summary": "No statement on the EU-Israel association agreement was found. He strongly defends Israel's right to self-defence and called France's recognition of Palestine premature appeasement, which suggests he would oppose suspending the agreement.",
+   "nuance": "Inferred from adjacent positions only. He still calls a two-state peace 'l'horizon nécessaire'."
+  },
+  {
+   "id": "int5",
+   "summary": "He calls for raising defence spending to 3.5% of GDP.",
+   "nuance": "The March 2026 piece criticises the current 2% of GDP as insufficient and works out what 3% would cost. Corroboration from an outlet of a different lean was not possible because search was unavailable."
+  },
+  {
+   "id": "int6",
+   "summary": "He wants a universal, short (about three months) military service in barracks and in uniform.",
+   "nuance": "'Universal' implies compulsory. The duration is only floated, with a question mark."
+  },
+  {
+   "id": "int7",
+   "summary": "No statement found on lifting sanctions on Russia in exchange for peace.",
+   "nuance": "In the March 2025 Diplomate interview, sanctions appear only in the interviewer's question."
+  },
+  {
+   "id": "ecol1",
+   "summary": "He signed a mayors' op-ed calling for an end to the national obligation to create low-emission zones (ZFE).",
+   "nuance": "Coded +1 rather than +2 because the op-ed asks to end the national obligation, which would leave cities free to keep ZFE. It does not ask to ban them outright. It is a collective text that he co-signed."
+  },
+  {
+   "id": "ecol2",
+   "summary": "The programme rejects French over-transposition of EU rules on crop-protection products, calls for regulatory alignment with the single market, and favours 'reasoned' science-based use of pesticides.",
+   "nuance": "The programme also demands that products banned in France be banned in imports too ('Ce que nous interdisons ici ne doit plus être autorisé là-bas'). That is a mirror-clause demand. It does not endorse unilateral French bans."
+  },
+  {
+   "id": "ecol3",
+   "summary": "No primary source found on the 2035 end of sales of new combustion cars.",
+   "nuance": "The MonVote2027 aggregator codes him 'tout à fait contre', citing simulateur-lisnard2027.fr. I could not confirm that the simulator is official, because its About page is template text. Its ecology page did not mention 2035 when fetched. He also denounces 'nouveaux fascistes verts' in the March 2025 manifesto, but that is too general to code."
+  },
+  {
+   "id": "ecol4",
+   "summary": "The programme requires green taxation to be offset by equal tax cuts elsewhere. A 2023 column of his attacks short-haul flight restrictions. Both point to opposition to higher taxes on air travel.",
+   "nuance": "No explicit statement on kerosene or private jets was found. The 2023 column's body could not be retrieved; only its critical title was seen. The tax-neutrality rule does not strictly rule out a revenue-neutral air tax, hence -1 with low confidence."
+  },
+  {
+   "id": "ecol5",
+   "summary": "He rejects degrowth and wants climate solutions that respect development, within an 'ecological market economy'.",
+   "nuance": "He does not explicitly rank growth above climate, but he consistently refuses trade-offs that would sacrifice growth. Hence -1 rather than -2."
+  },
+  {
+   "id": "ene1",
+   "summary": "He calls for 'a first series of six EPRs' plus SMR deployment, and for stopping the dismantling of reactors. This implies more new reactors beyond the first six.",
+   "nuance": "No explicit number beyond six large reactors was found, hence +1. The 'first series' wording and the SMR plan point beyond the six EPR2."
+  },
+  {
+   "id": "ene2",
+   "summary": "He wants nuclear power as the backbone of decarbonised electricity and to stop the planned dismantling of reactors.",
+   "nuance": "His position is consistent. In the March 2025 manifesto he also criticises the closure of Fessenheim."
+  },
+  {
+   "id": "ene3",
+   "summary": "The programme would end out-of-market support for renewables and redirect the money to nuclear. That is a partial move against new wind farms, though not a halt.",
+   "nuance": "Coded as partial support because ending subsidies is weaker than suspending wind development. No statement specific to wind turbines was found."
+  },
+  {
+   "id": "ene4",
+   "summary": "No statement found on leaving the European electricity market.",
+   "nuance": "Not found in the programme pages or FAQ pages checked."
+  },
+  {
+   "id": "ins1",
+   "summary": "The programme reforms the Fifth Republic's practice: it refocuses the president against 'hyperprésidentialisme' and strengthens Parliament's oversight role. It does not call for a new constitution or a Sixth Republic.",
+   "nuance": "Reform within the current constitution is taken as mild opposition to a new parliamentary constitution. He also proposes a constitutional referendum to reorganise the territory into provinces, which is a territorial change, not a regime change."
+  },
+  {
+   "id": "ins2",
+   "summary": "No statement found on proportional representation.",
+   "nuance": "The MonVote2027 aggregator lists 'plutôt contre' but cites no source. Not coded."
+  },
+  {
+   "id": "ins3",
+   "summary": "No statement found on a citizens' initiative referendum (RIC).",
+   "nuance": "The aggregator notes only that the programme does not mention the RIC. Silence is not coded."
+  },
+  {
+   "id": "ins4",
+   "summary": "No statement found on Article 49.3.",
+   "nuance": "Not found in the programme or FAQ pages."
+  },
+  {
+   "id": "ins5",
+   "summary": "He proposes widening the scope of Article 11 of the Constitution so that voters can decide on immigration by referendum.",
+   "nuance": "This covers immigration only. No mention of justice was found. He announced '4 référendums' in May 2025, but their content sits in images that could not be read. The quote is fragmentary as rendered."
+  },
+  {
+   "id": "soc1",
+   "summary": "No evidence found on the 2026 assisted-dying law in the programme, the FAQ or Wikipedia.",
+   "nuance": "Not coded. Needs a rerun with web search."
+  },
+  {
+   "id": "soc2",
+   "summary": "No statement found on banning the headscarf in all public spaces.",
+   "nuance": "His Dec 2025 op-ed limits the absence of religious signs to places 'où la République instruit, juge ou administre', and his programme targets universities. As mayor he banned the burkini on Cannes beaches in 2016, but the Conseil d'État invalidated similar bans. None of this amounts to a general public-space ban, and nothing coded here."
+  },
+  {
+   "id": "soc3",
+   "summary": "No evidence found on parents accompanying school trips. The education pages do not mention laïcité or religious symbols.",
+   "nuance": "As mayor of Cannes he banned the burkini on beaches in 2016 (record_in_office, adjacent topic). That is not used to code this statement. Needs a rerun."
+  },
+  {
+   "id": "soc4",
+   "summary": "He wants new restrictions, notably a veil ban at universities. He attacks a 'multiculturalist' reading of laïcité and treats the university veil, burkinis and pool time slots as political Islamist advances.",
+   "nuance": "The statement rejects any further restriction of citizens' religious expression. He explicitly proposes one, so he is coded -2."
+  },
+  {
+   "id": "soc5",
+   "summary": "No statement found on surrogacy (GPA).",
+   "nuance": "The MonVote2027 aggregator lists 'tout à fait contre' with no source. Not coded."
+  },
+  {
+   "id": "edu1",
+   "summary": "No statement found on school uniforms.",
+   "nuance": "Not in the education programme or the school FAQ."
+  },
+  {
+   "id": "edu2",
+   "summary": "His model is a single body of contract teachers recruited by school heads, within deep public-spending cuts. Mass hiring to cut class sizes is not part of it.",
+   "nuance": "Inferred. He does not explicitly reject mass hiring."
+  },
+  {
+   "id": "edu3",
+   "summary": "The programme creates excellence classes in maths and science in every académie, a form of grouping pupils by level.",
+   "nuance": "These are selective excellence classes at académie level, not ability groups within every collège. Partial support, hence +1."
+  },
+  {
+   "id": "edu4",
+   "summary": "He proposes a universal education voucher with equal public funding for public and private schools, and abolishing school catchment areas. This is the opposite of cutting private-school funding.",
+   "nuance": "The position is consistent across the programme and the FAQ."
+  },
+  {
+   "id": "edu5",
+   "summary": "No evidence found. The education programme covers school choice, teacher pay, vocational training and curricula, but not university selection.",
+   "nuance": "Not coded. Needs a rerun."
+  },
+  {
+   "id": "san1",
+   "summary": "He opposes regulating where doctors can set up practice. He prefers differentiated reimbursement and training more doctors.",
+   "nuance": "The programme uses incentives: better reimbursement in under-served areas."
+  },
+  {
+   "id": "san2",
+   "summary": "No statement found on medical franchises or patient co-payments.",
+   "nuance": "Not in the health programme, the FAQ or the simulator page."
+  },
+  {
+   "id": "san3",
+   "summary": "He wants to free the housing market and would challenge the ALUR law, the legal basis for rent control.",
+   "nuance": "He does not name rent control explicitly. Opposition is clear from his call to free the market and to challenge the law that created rent control."
+  },
+  {
+   "id": "san4",
+   "summary": "His liberal programme favours mixed public-private solutions and deregulation, which suggests support for more competition. No statement on transport or energy was found.",
+   "nuance": "Inferred from his general doctrine. Nothing was found on rail or energy competition specifically."
+  },
+  {
+   "id": "eco7",
+   "summary": "The Nouvelle Énergie programme says a 'TVA Compétitivité / Relocalisation' could be phased in over 12 years, up to a single rate of for example 25%, at the same time as cuts to charges on wages. That is a social-VAT design.",
+   "nuance": "Coded +1 rather than +2 for two reasons. The programme hedges ('pourrait', 'par exemple'). His most recent FAQ pages (updated 3 Oct 2026) say the large cut in contributions is paid for by spending cuts and do not mention VAT. Corroboration from an independent outlet is still needed."
+  },
+  {
+   "id": "imm8",
+   "summary": "No direct statement on naturalisation. His programme wants far less legal immigration (residence permits divided by eight), an end to automatic birthright nationality, and a five-year residence requirement for non-contributory benefits. All of these point to opposing easier naturalisation.",
+   "nuance": "Inferred from adjacent positions in his own programme (droit du sol, residence permits). No text addresses naturalisation of long-term legal residents directly."
+  },
+  {
+   "id": "sec6",
+   "summary": "No evidence found. The programme's security page and FAQ do not mention identity checks or receipts.",
+   "nuance": "Not coded. Web search was unavailable during verification. Needs a rerun."
+  },
+  {
+   "id": "eu7",
+   "summary": "No evidence found. The sovereignty section of the programme ('Être maître de notre destin') does not mention a European army or joint procurement.",
+   "nuance": "Not coded. Needs a rerun with web search."
+  },
+  {
+   "id": "eu8",
+   "summary": "No evidence found on Ukraine's EU accession in the programme pages, the FAQ or Wikipedia (FR and EN).",
+   "nuance": "Not coded. Needs a rerun with web search."
+  },
+  {
+   "id": "ecol6",
+   "summary": "No direct evidence. The agriculture programme criticises EGalim ('a ajouté des contraintes sans améliorer les marges') and calls for paying farmers for environmental services. It does not mention price floors.",
+   "nuance": "His EGalim critique and liberal orientation point toward opposition, but nothing explicit was found, so it is left null. Needs a rerun."
+  },
+  {
+   "id": "ene5",
+   "summary": "To lower fuel prices he proposes temporarily suspending the CEE energy-saving certificates 'sans creuser le déficit'. He chose this over a tax cut, and his platform puts spending cuts before tax cuts. No statement on a 5.5% VAT rate was found.",
+   "nuance": "Inferred. He offers a non-VAT, deficit-neutral alternative and his programme also plans a higher overall VAT rate, so an energy VAT cut looks unlikely. There is no explicit rejection."
+  },
+  {
+   "id": "ins6",
+   "summary": "No evidence found. The savings pages (agencies, 200bn plan) do not mention public broadcasting.",
+   "nuance": "Not coded. Needs a rerun with web search."
+  },
+  {
+   "id": "soc6",
+   "summary": "No evidence found on religious symbols at university.",
+   "nuance": "Not coded. The 2016 burkini ban is only adjacent. Needs a rerun."
+  },
+  {
+   "id": "san5",
+   "summary": "Lisnard calls the ZAN 'une véritable usine à gaz', unworkable for municipalities in its current form. He blames stacked regulations (the SRU law, the climate-resilience law) for the fall in housebuilding. His programme scraps article 55 of the SRU law and makes regulatory relief a core plank.",
+   "nuance": "He accepts the biodiversity goal but rejects the ZAN 'in its current form'. A Le Figaro piece of 16 Apr 2026 (cited by the FAQ, not opened directly) ties the drop in housebuilding to regulation. Strength could be +1 if he only wants the ZAN adjusted. Confidence is medium until an independent outlet is checked."
+  }
+ ],
+ "record": {
+  "bio": "David Lisnard, born 2 February 1969 in Limoges, is a graduate of Sciences Po Bordeaux (class of 1992) and has been mayor of Cannes since 5 April 2014 (re-elected 2020 and March 2026). He was elected president of the Association des maires de France on 17 November 2021 and re-elected on 22 November 2023. He belonged to the RPR, UMP and Les Républicains, became an LR vice-president on 28 June 2025, and left LR on 31 March 2026. He announced on RTL on 21 January 2026 that he would run for president in 2027 under the banner of his movement Nouvelle Énergie (founded 2014, launched nationally in June 2021); an Ifop/Le Figaro poll in June 2026 gave him about 2% in the first round.",
+  "offices": [
+   "General/departmental councillor, Alpes-Maritimes (canton Cannes-Est, then Cannes-2 from 2015)",
+   "Vice-president of the Alpes-Maritimes general/departmental council (tourism delegation)",
+   "Mayor of Cannes",
+   "President of the Cannes Pays de Lérins agglomeration",
+   "President of the Association des maires de France (AMF)",
+   "Vice-president of Les Républicains",
+   "Founder and president of Nouvelle Énergie"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Cannes municipal management: debt reduced by about 55.5 million euros between 2014 and 2019 (Nice-Matin, 30 Dec 2019, as cited by Wikipedia), and an expanded video-surveillance network described as one of France's densest, alongside a reorganised municipal police (Le Point, 2 June 2015, as cited by Wikipedia).",
+    "assessment": "These figures are reported by regional and centre-right press as achievements. No critical or left-leaning assessment was found in the sources consulted, so the balance is limited."
+   },
+   {
+    "what": "July/August 2016 municipal order banning beachwear 'ostentatiously showing a religious affiliation' (the so-called burkini ban), and 2020 Covid-era disinfection of Cannes beaches with hydrogen peroxide (three days, 8,400 euros) plus some streets with bleach at the end of March 2020.",
+    "assessment": "On 26 August 2016 the Conseil d'Etat ruled a similar order (Villeneuve-Loubet) illegal, and in May 2018 the city of Cannes was ordered to reimburse a fine issued under its order; this was an administrative/municipal matter, not a case against him personally. The disinfection went ahead despite advice from the Health Ministry and the Haut Conseil de la santé publique."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not verified: no left-leaning outlet could be consulted directly in this session.",
+   "right_media": "Not verified in 2025-2026 coverage. Older centre-right coverage cited by Wikipedia presents him as a prominent figure on the right (Le Figaro Magazine, June 2020, headline 'l'incontournable').",
+   "neutral_media": "Le Monde (9 April 2026, as cited by Wikipedia) presents his candidacy as an autonomous liberal offer on the right, a configuration not seen since Alain Madelin's 2002 candidacy, and notes that his liberalism struggles to convince within the right."
+  }
+ }
+}

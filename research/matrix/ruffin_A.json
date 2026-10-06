@@ -1,0 +1,1050 @@
+{
+ "collect": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Long-standing left wealth-tax stance (ex-LFI group voted for ISF reinstatement); not verified live this session.",
+    "sources": [],
+    "nuance": "Search budget exhausted; coded from background knowledge of his LFI-era votes, not verified with 2025-2026 sources."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Supports Zucman-style tax on very large fortunes per background knowledge; not verified live.",
+    "sources": [],
+    "nuance": "Unverified; search budget exhausted."
+   },
+   {
+    "id": "eco3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Critical of unconditional employer-contribution cuts; favours conditionality.",
+    "sources": [],
+    "nuance": "Unverified; inferred from left economic line."
+   },
+   {
+    "id": "eco4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Declared protectionist since his 2011 book Leur grande trouille.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/François_Ruffin",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Supports protectionism (Leur grande trouille, 2011) - paraphrase"
+     }
+    ],
+    "nuance": "Source is old (2011) but stance is constant; no 2025-26 quote retrieved."
+   },
+   {
+    "id": "eco5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left line favours public control of energy and motorways.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left position opposes cutting inheritance taxes; favours taxing large inheritances.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Opposed 2023 reform; backed return to 62 or lower.",
+    "sources": [],
+    "nuance": "From background knowledge of 2023 votes; not re-verified."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Fought the 64 reform.",
+    "sources": [],
+    "nuance": "Background knowledge."
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left opposition to capitalisation.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "fin1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Rejects austerity-led deficit reduction, though not indifferent to deficits.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Calls for more staff in hospitals, schools, etc.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Favours investment in ecological transition and public services; may pair with taxes.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left opposes golden rule.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Advocates wage indexation on inflation and higher SMIC.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/François_Ruffin",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "indexation des salaires sur l'inflation"
+     }
+    ],
+    "nuance": "Indexation and SMIC rise; exact SMIC figure not retrieved."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Opposed unemployment insurance cuts.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left opposition to RSA conditionality (15h activity); he has stressed dignity of work in other contexts.",
+    "sources": [],
+    "nuance": "Unverified; he is rhetorically pro-work, so risk of mixed position."
+   },
+   {
+    "id": "trav4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Favours reduced working time, but the 32h figure is not confirmed as his current proposal.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Reported as hostile to work-based (labour) immigration, but supports family reunification and students.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/François_Ruffin",
+      "outlet": "Wikipédia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "hostile to work-based immigration - paraphrase"
+     }
+    ],
+    "nuance": "Mixed: partial restriction on labour migration only."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Defends AME.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Probably supports regularisation of workers on a case-by-case basis; tension with his scepticism of labour immigration.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes national preference.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes abolishing droit du sol.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "imm7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left line supports local vote for foreign residents.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left opposes peines planchers.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Likely opposed to dropping juvenile-justice specificity.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left supports independent police oversight.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left line supports regulated legalisation; his personal stance not verified.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left opposes AI video surveillance.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "eu1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Soverainist leanings in economics but no clear position on primacy of national law.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "eu2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Plausibly supports joint EU borrowing for industry/climate.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search budget exhausted."
+   },
+   {
+    "id": "eu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left-wing 'désobéissance' to EU rules line (ex-LFI) likely retained, in softer form.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Not an advocate of leaving the EU.",
+    "sources": [],
+    "nuance": "Background knowledge; not re-verified."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Supports bringing back a wealth tax. In October 2025 he complained that a return of the ISF had been ruled out, and he voted for reinstating the ISF in 2022.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/justice-fiscale-aujourd-hui-c-est-un-combat-fiscal-entre-la-democratie-et-l-oligarchie-affirme-francois-ruffin-depute-debout-de-la-somme_7524913.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2025-10-01",
+      "quote": "la taxe Zucman est écartée, le retour de l'impôt de solidarité sur la fortune est exclu"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_325",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-10-17",
+      "quote": "Rétablir l'impôt de solidarité sur la fortune - Ruffin: POUR"
+     }
+    ],
+    "nuance": "He calls the Zucman tax an addition to 'l'imposition du patrimoine'. No exact ISF design (whether it covers financial assets) appears in the 2026 programme pages checked."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Explicitly backs the 2% Zucman tax on the largest fortunes, which he calls 'un bon outil'.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/justice-fiscale-aujourd-hui-c-est-un-combat-fiscal-entre-la-democratie-et-l-oligarchie-affirme-francois-ruffin-depute-debout-de-la-somme_7524913.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2025-10-01",
+      "quote": "La taxe Zucman est un bon outil, mais je demande au Premier ministre une obligation de résultat"
+     },
+     {
+      "url": "https://francoisruffin.fr/faire-france-ensemble-passer-du-front-populaire-au-cnr/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-11",
+      "quote": "pourquoi s'arc-boutent-ils contre les 2% de la taxe Zucman, contre les impôts sur les plus hauts patrimoines"
+     }
+    ],
+    "nuance": "He presents it as 'un moyen parmi d'autres' and wants 15-20 billion euros raised from billionaires."
+   },
+   {
+    "id": "eco3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Mocks 'baisse des charges' as the business-friendly line of Macron and Bardella. His programme rejects reindustrialisation through 'cadeaux fiscaux'.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/faire-france-ensemble-passer-du-front-populaire-au-cnr/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-11",
+      "quote": "promettant de continuer comme avant, de faire du Macron sans Macron, « baisse des charges » et tout le tralala"
+     },
+     {
+      "url": "https://nouspresident.fr/travaillisme-ecologique/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "Réindustrialiser non pas tous azimuts, en offrant des cadeaux fiscaux aux plus riches du monde entier"
+     }
+    ],
+    "nuance": "No explicit proposal on production taxes or employer contributions was found. In the past he favoured making exemptions conditional, not abolishing them, so the code stays at -1."
+   },
+   {
+    "id": "eco4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Calls himself and Debout! protectionist. The programme blocks farm imports priced below guaranteed floor prices, and he backed 50-80% tariffs to save the Eurolysine plant.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "Nous sommes protectionnistes. C'est le cœur de notre engagement."
+     },
+     {
+      "url": "https://nouspresident.fr/travaillisme-ecologique/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "nous empêcherons les importations à des prix inférieurs aux prix planchers ainsi fixés"
+     },
+     {
+      "url": "https://francoisruffin.fr/lysine-se-proteger-du-dumping-chinois/",
+      "outlet": "francoisruffin.fr (written question)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-23",
+      "quote": "la mise en œuvre de taxes douanières à hauteur de 50% sur les importations chinoises"
+     }
+    ],
+    "nuance": "His protectionism is targeted: about 100 strategic products, not tariffs on everything. That matches the statement's 'some sectors'."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme ends motorway concessions in favour of public pricing and moves gradually to 100% public electricity production through EDF. He also voted to nationalise ArcelorMittal France.",
+    "sources": [
+     {
+      "url": "https://nouspresident.fr/temps-loisirs/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-17",
+      "quote": "une baisse des tarifs des péages grâce à la reprise en main des autoroutes (fin des concessions, tarification publique)"
+     },
+     {
+      "url": "https://nouspresident.fr/travaillisme-ecologique/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "nous reviendrons progressivement à un modèle 100% public de production"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_4438",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-11-27",
+      "quote": "proposition de loi visant à la nationalisation d'ArcelorMittal France - Ruffin: POUR"
+     }
+    ],
+    "nuance": "He also endorses ending competition in retail electricity sales."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants heavier taxation of large inheritances, which is the opposite of the statement.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/justice-fiscale-aujourd-hui-c-est-un-combat-fiscal-entre-la-democratie-et-l-oligarchie-affirme-francois-ruffin-depute-debout-de-la-somme_7524913.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2025-10-01",
+      "quote": "Cela s'ajoute à l'imposition du patrimoine, à la taxation des grandes transmissions et à la suppression des sociétés écran."
+     }
+    ],
+    "nuance": "He targets large transmissions. No position was found on small or middle-sized estates."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The text by his programme director and spokesperson cites 'la retraite à 60 ans' as a flagship measure. He demands abrogation of the 64 reform and voted to suspend it.",
+    "sources": [
+     {
+      "url": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-04-13",
+      "quote": "Des mesures fortes, concrètes, comme le SMIC à 1 600€ ou la retraite à 60 ans, qui revalorisent le travail."
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_3684",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-11-12",
+      "quote": "Suspension de la réforme des retraites jusqu'au 1er janvier 2028 - Ruffin: POUR"
+     }
+    ],
+    "nuance": "The '60 ans' line comes from his programme director's introduction, presented as common NFP heritage. The programme body also stresses earlier retirement for arduous jobs."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for the 64 reform to be abrogated, so he clearly opposes going beyond 64.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/faire-france-ensemble-passer-du-front-populaire-au-cnr/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-11",
+      "quote": "Que la retraite à 64 ans, passée en force contre les trois quarts des salariés [...] soit abrogée, suspendue"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_3684",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-11-12",
+      "quote": "Suspension de la réforme des retraites - Ruffin: POUR"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "His own video is titled 'La retraite par capitalisation : c'est non !'.",
+    "sources": [
+     {
+      "url": "https://www.youtube.com/watch?v=EFn_kdozYzg",
+      "outlet": "François Ruffin YouTube channel",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-05",
+      "quote": "La retraite par capitalisation : c'est non !"
+     }
+    ],
+    "nuance": "Video title checked through YouTube metadata. The transcript was not reviewed."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Rejects deficit reduction through spending cuts and says ordinary people have already paid. He wants revenue from the very rich instead.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "quelle réponse? Des budgets à tailler, des coupes sèches, pour réduire le déficit. Sans jamais, ô grand jamais, toucher au grisbi."
+     },
+     {
+      "url": "https://francoisruffin.fr/faire-france-ensemble-passer-du-front-populaire-au-cnr/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-11",
+      "quote": "« C'est plus à nous de payer ! Nous avons déjà donné deux années. Nous avons vu nos salaires gelés. »"
+     }
+    ],
+    "nuance": "He does not dismiss deficits, and he criticises Le Maire's 'déficit géant'. He strongly rejects the 'large spending cuts' route."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants hospitals, schools, justice and police strengthened, describing them as starved public services. This contradicts cutting civil-servant numbers.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "Pour soutenir des services publics exsangues, l'hôpital pilier de l'État social, l'École pilier de la République, la Justice, la police"
+     },
+     {
+      "url": "https://francoisruffin.fr/faire-france-ensemble-passer-du-front-populaire-au-cnr/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-10-11",
+      "quote": "Que l'hôpital, pilier de l'État social, et l'école, pilier de la République, tous deux fragilisés, soient renforcés"
+     }
+    ],
+    "nuance": "No explicit headcount target was found."
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The manifesto wants future-oriented investment excluded from deficit rules and a large European investment plan. This amounts to accepting debt-financed green investment.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "exclure les investissements d'avenir des règles de déficit, un grand plan d'investissement européen"
+     }
+    ],
+    "nuance": "He mainly pairs spending with new taxes on the very rich, and he does not openly call for 'more debt'. Hence +1, not +2."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to loosen deficit rules for investment, which is incompatible with a constitutional golden rule. He also says EU budgetary criteria 'limitent l'investissement'.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "exclure les investissements d'avenir des règles de déficit"
+     },
+     {
+      "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+      "outlet": "Le Grand Continent (op-ed by Ruffin)",
+      "outlet_lean": "centre",
+      "date": "2026-02-25",
+      "quote": "les critères budgétaires qu'elle impose limitent l'investissement"
+     }
+    ],
+    "nuance": "No statement found on a constitutional golden rule as such. The code rests on his explicit opposition to binding deficit rules."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Proposes a net SMIC of 1,700 euros (about +19%) and indexing wages on inflation.",
+    "sources": [
+     {
+      "url": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-04-13",
+      "quote": "Proposition 1 : indexer les salaires sur l'inflation"
+     },
+     {
+      "url": "https://actu.orange.fr/france/presidentielle-2027-francois-ruffin-lance-sa-campagne-en-se-posant-en-defenseur-des-travailleurs-essentiels-magic-CNT000002oTqjw.html",
+      "outlet": "Orange Actu / 6medias",
+      "outlet_lean": "centre",
+      "date": "2026-04-26",
+      "quote": "Parmi les mesures mises en avant figure aussi un Smic porté à 1 700 euros nets par mois."
+     }
+    ],
+    "nuance": "The programme director's text cites 'SMIC à 1 600€', while press reports of the Lyon launch say 1,700 euros net. Either is well above inflation."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Voted against the June 2026 law transposing the unemployment-insurance amendment. He argues the problem is bad jobs, not idle workers.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_7260",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-06-02",
+      "quote": "projet de loi portant transposition de l'avenant n° 3 [...] relatif à l'assurance chômage - Ruffin: CONTRE"
+     }
+    ],
+    "nuance": "The datan page does not say whether the amendment cut benefit length or amount. The vote shows opposition, but the link to the statement is not confirmed."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Voted against the 2023 'plein emploi' law that introduced 15 hours of mandatory activity for RSA recipients.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_2965",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-11-14",
+      "quote": "Projet de loi pour le plein emploi - Ruffin: CONTRE"
+     }
+    ],
+    "nuance": "This was a 2023 vote on the whole bill while he sat with LFI; no 2025-26 statement found. He is rhetorically pro-work, but his programme centres on job quality, not conditionality."
+   },
+   {
+    "id": "trav4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "No personal 32-hour proposal found. His 2026 programme stresses 'temps libéré' and job quality but sets no general cut in weekly hours.",
+    "sources": [],
+    "nuance": "The NFP 2024 programme he backed included working-time reduction for arduous jobs; recalled from memory, not re-verified. The 2026 Nous Président pages checked do not mention 32 hours. Could be null."
+   },
+   {
+    "id": "imm1",
+    "position": 0,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Firmly opposes new labour immigration ('nous refusons une immigration de travailleurs'). He does not call for cutting family reunification or students, and he supports regularising people already here.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/pourquoi-le-medef-veut-39-millions-de-travailleurs-immigres/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-04-29",
+      "quote": "En revanche, nous refusons une immigration de travailleurs, notamment pour les services."
+     }
+    ],
+    "nuance": "Mixed: he is restrictive on one channel (work) and supports regularisation and asylum. In 2023 he voted against the immigration law that tightened family reunification."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "His programme proposes referendums on ecological measures from the Convention citoyenne pour le climat (nouspresident.fr/travaillisme-ecologique). None on immigration was found."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Denounced the 2023 immigration law's attempt to limit care for foreigners and voted against it. This means he defends AME.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/societe/immigration/loi-immigration-c-est-une-defaite-pour-la-republique-s-insurge-le-depute-lfi-francois-ruffin_6260049.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2023-12-22",
+      "quote": "l'hôpital irait mieux parce qu'on empêcherait de soigner comme il faut les étrangers"
+     }
+    ],
+    "nuance": "2023 source, as no 2025-26 statement on AME was found. The quote is a general attack on restricting care for foreigners and does not name AME."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Explicitly supports regularising undocumented people already in France, for humanitarian reasons and for 'production'. He wants all residents able to work.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/pourquoi-le-medef-veut-39-millions-de-travailleurs-immigres/",
+      "outlet": "francoisruffin.fr (candidate blog)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-04-29",
+      "quote": "Une régularisation pour des raisons à la fois humanitaires, mais aussi de production"
+     }
+    ],
+    "nuance": "He backs broader regularisation, not only in shortage occupations, while refusing new labour immigration."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Attacked the 2023 law for taking housing benefit (APL) away from foreign families, and voted against its benefit-waiting periods.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/societe/immigration/loi-immigration-c-est-une-defaite-pour-la-republique-s-insurge-le-depute-lfi-francois-ruffin_6260049.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2023-12-22",
+      "quote": "que le pouvoir d'achat des Français s'améliorerait parce qu'on priverait d'APL des familles"
+     }
+    ],
+    "nuance": "2023 source. His 2025 programme stresses equal treatment 'qu'importe leur territoire, leur couleur de peau, leur religion'."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Denounced the 2023 immigration law because 'des principes, comme le droit du sol' were 'attaqués'.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/societe/immigration/loi-immigration-c-est-une-defaite-pour-la-republique-s-insurge-le-depute-lfi-francois-ruffin_6260049.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "centre",
+      "date": "2023-12-22",
+      "quote": "des principes, comme le droit du sol attaqués"
+     }
+    ],
+    "nuance": "2023 source; no newer statement found."
+   },
+   {
+    "id": "imm7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "His group and his former party line support local voting rights for non-EU residents. No personal statement found.",
+    "sources": [],
+    "nuance": "Unverified personally. The ECOS group's support is reported only by an aggregator, not checked against a roll-call."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left/ECOS line opposes mandatory minimum sentences. He voted against the July 2026 criminal-justice bill, though its contents were not checked.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8042",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-08",
+      "quote": "projet de loi sur la justice criminelle et le respect des victimes - Ruffin: CONTRE"
+     }
+    ],
+    "nuance": "Whether that bill contained peines planchers was not confirmed. No personal statement on minimum sentences was found."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Likely opposed to dropping juvenile-justice specificity.",
+    "sources": [],
+    "nuance": "Unverified. His vote on the 2025 Attal juvenile-justice law was not found on datan."
+   },
+   {
+    "id": "sec3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Left line supports independent police oversight. He voted against the 2026 bill creating a self-defence presumption for police and against the 2020 'sécurité globale' law.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_7987",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-07",
+      "quote": "présomption de légitime défense pour les forces de l'ordre - Ruffin: CONTRE"
+     }
+    ],
+    "nuance": "No personal statement on an independent oversight body was found. The cited votes are adjacent evidence only."
+   },
+   {
+    "id": "sec4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "His former LFI party line supports regulated legalisation. His personal 2025-26 stance is not verified.",
+    "sources": [],
+    "nuance": "An aggregator says he co-signed the 2021 LFI legalisation bill. Neither nosdeputes nor the Assemblée page could be retrieved to confirm."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Voted against the 2023 Olympics law, whose most contested measure was the trial of algorithmic (AI) video surveillance.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_1305",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-03-28",
+      "quote": "Projet de loi relatif aux Jeux olympiques de Paris 2024 - Ruffin: CONTRE"
+     }
+    ],
+    "nuance": "Vote on the whole bill in 2023. No standalone 2025-26 statement on AI video surveillance was found."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Debout!'s manifesto commits to disobeying EU treaties when they conflict with its commitments. This is close to, but narrower than, a general primacy of French law.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "Nous désobéirons aux traités européens lorsqu'ils entrent en contradiction avec nos engagements."
+     }
+    ],
+    "nuance": "A selective disobedience strategy, not a constitutional rule of French-law primacy, hence +1."
+   },
+   {
+    "id": "eu2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports a 'grand plan d'investissement européen' and welcomed the EU loosening its purse strings after Covid. He opposes handing defence-industry policy to the Commission.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "l'Europe a lâché les cordons de la Bourse avec la crise Covid [...] un grand plan d'investissement européen"
+     },
+     {
+      "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+      "outlet": "Le Grand Continent (op-ed by Ruffin)",
+      "outlet_lean": "centre",
+      "date": "2026-02-25",
+      "quote": "Mais que l'on ne confie surtout pas ce chantier à la Commission."
+     }
+    ],
+    "nuance": "Supports EU investment for climate and industry. Rejects Commission-led defence ('sûrement pas par le biais de la Commission'), which cuts against the defence part of the statement. Joint borrowing is never named explicitly."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Searched his EU op-ed, manifesto and programme pages; nothing on France's EU budget contribution."
+   },
+   {
+    "id": "eu4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Explicitly opposes moving EU foreign policy to qualified-majority voting and says diplomacy and defence must stay with the states.",
+    "sources": [
+     {
+      "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+      "outlet": "Le Grand Continent (op-ed by Ruffin)",
+      "outlet_lean": "centre",
+      "date": "2026-02-25",
+      "quote": "La France doit s'y opposer avec fermeté : la diplomatie et la défense relèvent des États et doivent le rester."
+     }
+    ],
+    "nuance": "He is answering von der Leyen's proposal to escape 'le carcan de l'unanimité'."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The Debout! manifesto commits to disobeying EU treaties that block its programme. The farm plan accepts a 'rapport de force avec la Commission'.",
+    "sources": [
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "Nous désobéirons aux traités européens lorsqu'ils entrent en contradiction avec nos engagements."
+     },
+     {
+      "url": "https://nouspresident.fr/travaillisme-ecologique/",
+      "outlet": "Nous Président (official programme)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-09",
+      "quote": "Ce système devra être défendu au niveau européen, quitte à assumer un rapport de force avec la Commission européenne."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Wants France to be 'la locomotive d'une indépendance européenne' and to seek allies inside the EU. No exit proposal.",
+    "sources": [
+     {
+      "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+      "outlet": "Le Grand Continent (op-ed by Ruffin)",
+      "outlet_lean": "centre",
+      "date": "2026-02-25",
+      "quote": "la France doit être la locomotive d'une indépendance européenne"
+     },
+     {
+      "url": "https://www.debout.fr/notre-manifeste",
+      "outlet": "Debout! founding manifesto",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025",
+      "quote": "nous pensons que la France doit chercher des alliés en Europe pour s'engouffrer dans la brèche ouverte"
+     }
+    ],
+    "nuance": "He is strongly critical of the EU's free-trade core and favours treaty disobedience, but he works within the EU, not for Frexit."
+   }
+  ],
+  "verification_notes": [
+   "Method: the WebSearch budget was exhausted at the start, so verification used WebFetch and curl on primary sources: datan.fr roll-calls, francoisruffin.fr, the nouspresident.fr official programme, the debout.fr manifesto, his Le Grand Continent op-ed, franceinfo and YouTube metadata. Bing via curl returned identical cached results for every query and was not used as evidence. The monvote2027.fr aggregator was used only for leads; every cited source was opened directly.",
+   "General: the draft cited no 2025-26 sources and leaned on Wikipedia paraphrases and unverified 'background knowledge'. All Wikipedia sources were replaced with primary sources.",
+   "eco1: +2 low inferred, no source -> +2 high statement: franceinfo 01/10/2025 (he deplores the ISF return being 'exclu') plus datan vote_325 (POUR ISF, 2022).",
+   "eco2: +2 low inferred -> +2 high statement: franceinfo 01/10/2025 'La taxe Zucman est un bon outil'; blog 11/10/2025 on 'les 2% de la taxe Zucman'.",
+   "eco3: -1 low inferred -> -1 low statement: added blog 11/10/2025 mocking 'baisse des charges' and programme rejecting 'cadeaux fiscaux'. Strength unchanged because no explicit proposal exists.",
+   "eco4: +2 medium statement (Wikipedia 2011 paraphrase) -> +2 high programme: Debout! manifesto 'Nous sommes protectionnistes', programme blocks imports below floor prices, lysine tariff post 2026.",
+   "eco5: +1 low inferred -> +2 high programme: programme ends motorway concessions ('tarification publique') and moves to '100% public' electricity production; datan vote_4438 POUR ArcelorMittal nationalisation. Off-by-one corrected.",
+   "eco6: -2 low inferred -> -2 medium statement: franceinfo 01/10/2025 'taxation des grandes transmissions'.",
+   "ret1: +2 medium vote, no source -> +2 high programme: nouspresident.fr statut-travailleurs-essentiels (programme director cites 'la retraite à 60 ans'); datan vote_3684 suspension POUR.",
+   "ret2: -2 medium vote, no source -> -2 high statement: blog 11/10/2025 demanding 64 be 'abrogée, suspendue'; datan vote_3684.",
+   "ret3: -2 low inferred -> -2 high statement: his own YouTube video 'La retraite par capitalisation : c'est non !' (05/06/2025, metadata checked).",
+   "fin1: -1 low inferred -> -2 medium statement: Debout! manifesto attacks 'coupes sèches, pour réduire le déficit'; blog 11/10/2025 'C'est plus à nous de payer'. The statement's 'even at the cost of large cuts' is what he rejects most strongly.",
+   "fin2: -2 low inferred -> -2 medium statement: manifesto 'services publics exsangues' and blog asking for hospital and school to be 'renforcés'.",
+   "fin3: +1 low inferred -> +1 medium programme: manifesto 'exclure les investissements d'avenir des règles de déficit'.",
+   "fin4: -2 low inferred -> -2 medium programme: manifesto wants investment excluded from deficit rules; op-ed says EU budget criteria 'limitent l'investissement'.",
+   "trav1: +2 medium statement (Wikipedia, 2022 indexation) -> +2 high programme: 2026 programme 'indexer les salaires sur l'inflation'; SMIC 1,700 net at the April 2026 launch (6medias/Orange). Flagged the 1,600 vs 1,700 figure discrepancy.",
+   "trav2: -2 low inferred -> -2 low vote: datan vote_7260 (June 2026) CONTRE the unemployment-insurance transposition. Bill contents unconfirmed, so confidence stays low.",
+   "trav3: -2 low party_line -> -2 medium vote: datan vote_2965, CONTRE the 2023 plein-emploi law (RSA 15h).",
+   "trav4: +1 low inferred -> +1 low party_line: no personal or 2026-programme evidence of 32h found. Kept low with a note that null is defensible.",
+   "imm1: 0 low statement (Wikipedia paraphrase) -> 0 medium statement: his own April 2026 post 'nous refusons une immigration de travailleurs', alongside support for regularisation and asylum. Mixed code confirmed.",
+   "imm2: null kept: brief check found only referendums on climate measures in the programme.",
+   "imm3: -2 low party_line -> -2 medium statement: franceinfo 22/12/2023 attack on stopping care for foreigners. The source is 2023 and does not name AME, noted in nuance.",
+   "imm4: +1 low inferred -> +2 medium statement: April 2026 post backs 'Une régularisation pour des raisons à la fois humanitaires, mais aussi de production'. Off-by-one corrected; the draft's claimed 'tension' with his labour-immigration stance is resolved by his explicit distinction between people already here and new arrivals.",
+   "imm5: -2 low party_line -> -2 medium statement: franceinfo 22/12/2023 criticising depriving foreign families of APL.",
+   "imm6: -2 low party_line -> -2 medium statement: franceinfo 22/12/2023 'des principes, comme le droit du sol attaqués'.",
+   "imm7: unchanged (+1 low party_line); no personal evidence found.",
+   "sec1: -2 low party_line kept; added datan vote_8042 (CONTRE July 2026 criminal-justice bill), with a note that its contents are unconfirmed.",
+   "sec2: unchanged (-1 low inferred); no 2025 juvenile-justice vote found on datan.",
+   "sec3: +1 low party_line kept; added adjacent datan vote_7987 (CONTRE police self-defence presumption, 2026).",
+   "sec4: unchanged (+1 low party_line); the 2021 co-signature claim could not be verified because the nosdeputes and Assemblée pages were unreachable.",
+   "sec5: -2 low party_line -> -2 medium vote: datan vote_1305, CONTRE the 2023 Olympics law (algorithmic video surveillance trial).",
+   "eu1: 0 low inferred -> +1 medium programme: Debout! manifesto 'Nous désobéirons aux traités européens lorsqu'ils entrent en contradiction avec nos engagements'. The draft's 'no clear position' was wrong.",
+   "eu2: +1 low inferred -> +1 low programme: manifesto backs a 'grand plan d'investissement européen'; the 2026 op-ed rejects Commission-led defence. Mixed on defence, so confidence stays low.",
+   "eu3: null kept; nothing found in the op-ed, manifesto or programme.",
+   "eu4: null -> -2 high statement: Grand Continent op-ed 25/02/2026, 'La France doit s'y opposer avec fermeté : la diplomatie et la défense relèvent des États'. The draft wrongly left this null when evidence exists.",
+   "eu5: +1 low inferred -> +2 high programme: manifesto commits to treaty disobedience; programme accepts a 'rapport de force avec la Commission'. Off-by-one corrected.",
+   "eu6: -2 medium statement, no source -> -2 medium statement with sources: op-ed 'locomotive d'une indépendance européenne' and manifesto 'chercher des alliés en Europe'.",
+   "Outdated check: no reversal found. His 2026 labour-immigration line matches his 2023 statements; protectionism is constant since 2011; he moved from LFI to Debout!/ECOS, and datan shows 98% loyalty to ECOS with 90% agreement with LFI."
+  ]
+ }
+}

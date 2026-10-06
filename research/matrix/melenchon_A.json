@@ -1,0 +1,1251 @@
+{
+ "collect": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "LFI proposes a reinforced ISF including financial assets and a climate component.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/programme-fiscal-melenchon-2027",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: reinstate ISF in reinforced version with climate component, threshold close to old ISF (EUR 1.3m)."
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "\"ISF renforcé\""
+     }
+    ],
+    "nuance": "Programme descriptions from secondary aggregators seen in search results; primary AEC page not opened."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "LFI backs the Zucman tax and keeps pushing amendments for it and for a wealth levy on the richest; the LFI proposal goes further than Zucman.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/programme-fiscal-melenchon-2027",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: LFI continues to push amendments creating the Zucman tax or heavier wealth taxation."
+     }
+    ],
+    "nuance": "Support inferred from group amendments and programme direction; no direct Mélenchon quote opened."
+   },
+   {
+    "id": "eco3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "LFI opposes cutting employer contributions and competitiveness-driven tax cuts; favours taxing superprofits and planning.",
+    "sources": [
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: anti-liberal economic rupture, taxation of superprofits."
+     }
+    ],
+    "nuance": "No direct source on production taxes found; inferred from programme orientation. Search budget ran out."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Mélenchon advocates 'protectionnisme solidaire' and local/organic preference, though he frames it as ecological and social rather than classic tariffs.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/plans-2022/europe/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-2026",
+      "quote": "Paraphrase: EU competition law blocks privileging local and organic production in public procurement."
+     }
+    ],
+    "nuance": "Tariff/quota wording not directly confirmed; coded +1 as partial."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme proposes nationalising EDF, ADP, banks, telecoms and public poles for common goods.",
+    "sources": [
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: nationalizations proposed for EDF, ADP, mutual banks, telecoms."
+     }
+    ],
+    "nuance": "Motorway nationalisation not directly confirmed, but the principle is clear."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "LFI wants higher inheritance taxes on large estates and a maximum inheritance of about EUR 12m.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/augmenter-les-droits-de-succession-sur-les-plus-hauts-patrimoines-et-creer-un-heritage-maximal-de-12-me/",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022",
+      "quote": "Paraphrase: raise inheritance tax on top estates, create maximum inheritance of EUR 12m."
+     }
+    ],
+    "nuance": "Based on 2022 programme; LFI also favours relief for modest transmissions, so lower taxes on small estates are not excluded."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retirement at 60 (after 40 years of contributions) is a flagship measure.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Paraphrase: retirement at 60 and SMIC at EUR 1,600 net are key proposals."
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "\"Retraite à 60 ans\""
+     }
+    ],
+    "nuance": "Goes beyond 62."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Opposes any rise in retirement age; wants 60.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Paraphrase: retirement at 60 is a flagship measure since 2017."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI defends pay-as-you-go system and opposes capitalisation.",
+    "sources": [],
+    "nuance": "No source opened in this session; based on long-standing LFI line. Search budget ran out."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Rejects austerity and the 3% rule as a priority; EU rules must not block the programme.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/plans-2022/europe/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-2026",
+      "quote": "Paraphrase: apply our program 'quoi qu'il en coûte' regardless of European rules."
+     }
+    ],
+    "nuance": "Also proposes partial debt cancellation (about 18%, EUR 500bn) per La Grande Conversation, Sept 2026."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI proposes hiring in public services, not cutting civil servants.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "fin3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Favours more public spending and debt for planification écologique and public services, and even proposes erasing part of the debt held by the ECB.",
+    "sources": [
+     {
+      "url": "https://www.lagrandeconversation.com/politique/au-nouveau-desordre-mondial-jean-luc-melenchon-oppose-des-recettes-du-xxe-siecle/",
+      "outlet": "La Grande Conversation",
+      "outlet_lean": "centre-right",
+      "date": "2026",
+      "quote": "Paraphrase: on 11 Sept 2026 Banque de France governor called Mélenchon's debt-erasure plan illegal."
+     }
+    ],
+    "nuance": "Debt-erasure proposal reported via secondary source."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes the golden rule.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "SMIC at EUR 1,600 net immediately.",
+    "sources": [
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "\"SMIC à 1 600€ net\""
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes cutting unemployment benefits.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes RSA conditionality, calls for guaranteed minimum income.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "trav4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "AEC historically includes 32-hour week; a source I opened did not list it.",
+    "sources": [
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "\"No 32-hour week mentioned in this source\" (fetch summary)."
+     }
+    ],
+    "nuance": "Coded from AEC 2022 knowledge, not confirmed in 2026 sources."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to facilitate visas and abrogate recent immigration laws.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: facilitate visa access, regularise, abrogate recent asylum and immigration laws."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "imm2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Supports RIC on all subjects but opposes a referendum on immigration specifically.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: citizen-initiated referendum in all forms."
+     }
+    ],
+    "nuance": "No direct statement on immigration referendum; RIC would allow one in principle."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI defends AME and votes against its reduction.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Programme proposes regularising sans-papiers workers, students and parents of schooled children.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: regularise workers, students and parents of schooled children."
+     }
+    ],
+    "nuance": "Broader than labour-shortage occupations."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI rejects national preference.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI defends droit du sol.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Voting rights in local elections for foreign residents.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: local voting rights for foreign residents in regular situation."
+     }
+    ],
+    "nuance": "Limited to residents in regular situation."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "LFI voted against minimum sentences bills.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: LFI voted against a bill on peines planchers."
+     }
+    ],
+    "nuance": "Search snippet attribution is loose."
+   },
+   {
+    "id": "sec2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes weakening juvenile justice.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "sec3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Replace IGPN/IGGN with independent authority of magistrates, academics and citizens.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: replace IGPN and IGGN with independent authority under Défenseur des droits."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "sec4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Legalise and regulate cannabis via state monopoly.",
+    "sources": [
+     {
+      "url": "https://x.com/jlmelenchon/status/1457828456486604801?lang=fr",
+      "outlet": "X (Mélenchon)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021",
+      "quote": "\"Il faut légaliser le cannabis.\""
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/legaliser-et-encadrer-par-un-monopole-detat-la-vente-production-et-consommation-de-cannabis-a-des-fins-recreatives/",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022",
+      "quote": "Paraphrase: legalise and regulate with state monopoly."
+     }
+    ],
+    "nuance": "2021-2022 sources; no newer one found."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes algorithmic video surveillance.",
+    "sources": [],
+    "nuance": "No source opened; party line."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Strategy of disobedience: French programme must apply despite EU rules.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/plans-2022/europe/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-2026",
+      "quote": "Paraphrase: apply our programme at any cost regardless of European rules."
+     }
+    ],
+    "nuance": "Framed as a negotiation then unilateral derogations, not a blanket primacy principle."
+   },
+   {
+    "id": "eu2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No direct source found on joint EU borrowing; LFI favours ECB financing and rupture with treaties.",
+    "sources": [],
+    "nuance": "Mixed; not found."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": ""
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Explicit strategy of non-application of EU rules that block the programme.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/plans-2022/europe/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-2026",
+      "quote": "Paraphrase: 'appliquer notre programme quoi qu'il en coûte' despite European rules."
+     },
+     {
+      "url": "https://www.lagrandeconversation.com/politique/la-desobeissance-europeenne-objet-non-identifie-de-la-nouvelle-union-populaire-ecologique-et-sociale/",
+      "outlet": "La Grande Conversation",
+      "outlet_lean": "centre-right",
+      "date": "2022",
+      "quote": "Paraphrase: willingness to contravene European rules to apply a rupture programme."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "eu6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Plan A/Plan B: negotiate treaty rupture first; exit is a fallback, not an objective.",
+    "sources": [
+     {
+      "url": "https://melenchon2027.fr/plans-2022/europe/",
+      "outlet": "Mélenchon 2027 campaign site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022-2026",
+      "quote": "Paraphrase: first propose 'negotiated rupture' with current treaties to partners."
+     }
+    ],
+    "nuance": "Not advocating exit outright."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "L'Avenir en commun commits to restoring and strengthening the ISF, adding a climate component. La Facture 2027 (May 2026) confirms this is still the line.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/50/faire-la-revolution-fiscale",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF), incluant un volet climatique visant à taxer les gros pollueurs"
+     },
+     {
+      "url": "https://lafacture2027.fr/programme-fiscal-melenchon-2027",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-05-03",
+      "quote": "rétablir l'impôt de solidarité sur la fortune, supprimé en 2018, dans une version élargie intégrant un volet climatique"
+     }
+    ],
+    "nuance": "The primary text is the 2022 AEC edition; La Facture 2027 (May 2026) shows the measure carried into the 2027 programme. The chapter pages of the 2025 AEC edition on melenchon2027.fr returned 404."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI backs the Zucman tax (a 2% floor tax on fortunes above EUR 100m). The left-wide bill passed the Assemblée on 20 Feb 2025, and the tax was rejected as a budget amendment on 31 Oct 2025.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipédia (citing RTL, 11 Sept 2025)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-2026",
+      "quote": "L'ensemble de la gauche, le Parti communiste français, La France insoumise, Les Écologistes, le Parti socialiste et Place publique défendent la mise en œuvre de la taxe Zucman"
+     }
+    ],
+    "nuance": "The draft cited La Facture 2027 for this claim, but that page does not mention Zucman, so the source was replaced. The support is LFI's group position; the group's own roll-call vote and a personal Mélenchon quote were not opened. LFI's ISF proposal goes further than Zucman."
+   },
+   {
+    "id": "eco3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "LFI conditions state aid to firms on social and ecological goals and taxes superprofits; it does not propose cutting production taxes or employer contributions.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/34/instaurer-un-protectionnisme-ecologique-et-solidaire-pour-produire-en-france-et-assurer-notre-independance",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Conditionner toute aide d'État aux grandes entreprises à des objectifs sociaux, écologiques et fiscaux contraignants"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "Taxation des superprofits et des transactions financières"
+     }
+    ],
+    "nuance": "No direct statement on production taxes or employer contributions was found; the code is inferred from the programme's orientation."
+   },
+   {
+    "id": "eco4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme calls for 'protectionnisme écologique et solidaire': tariffs on ecological criteria, emergency anti-dumping measures for strategic industries, and a kilometre tax at the borders.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/34/instaurer-un-protectionnisme-ecologique-et-solidaire-pour-produire-en-france-et-assurer-notre-independance",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Instaurer des droits de douane sur des critères écologiques (les émissions carbone et les pollutions, par exemple)"
+     },
+     {
+      "url": "https://laec.fr/section/34/instaurer-un-protectionnisme-ecologique-et-solidaire-pour-produire-en-france-et-assurer-notre-independance",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Adopter des mesures antidumping d'urgence sur les industries stratégiques"
+     }
+    ],
+    "nuance": "The tariffs are framed around ecological criteria and strategic industries rather than classic sector quotas. The price-rise trade-off is not addressed. 2022 edition."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme would reverse privatisations, explicitly including motorways and airports, and 2026 summaries list nationalising EDF, ADP and mutual banks.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/45/mettre-fin-au-pillage-economique-de-la-nation",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Revenir sur les privatisations (aéroports, autoroutes, Française des Jeux, etc.)"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "EDF, ADP, banques mutualistes, parfois télécoms"
+     }
+    ],
+    "nuance": "Motorways are now confirmed in the primary programme text."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "LFI would raise inheritance tax on the largest estates and cap inheritance at about EUR 12m. That is the opposite of a general cut.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/50/faire-la-revolution-fiscale",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Augmenter les droits de succession sur les plus hauts patrimoines [...] et créer un héritage maximal de 12 millions d'euros"
+     },
+     {
+      "url": "https://lafacture2027.fr/programme-fiscal-melenchon-2027",
+      "outlet": "La Facture 2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-05-03",
+      "quote": "héritage maximal (autour de 12 M€ dans les versions précédentes du programme)"
+     }
+    ],
+    "nuance": "La Facture (2026) mentions a succession reform that favours modest transfers, so relief at the bottom is possible. The overall direction is still higher taxes."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Retirement at 60 after 40 years of contributions is a flagship measure, still listed in 2026.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/44/garantir-une-retraite-digne",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "Retraite à 60 ans après 40 années de cotisation"
+     }
+    ],
+    "nuance": "This goes beyond 62. The draft's melenchon2027.fr/programme/decouvrir page is only a landing page and does not contain the quoted measure, so it was replaced."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Opposes any rise in the retirement age and wants to return to 60.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/44/garantir-une-retraite-digne",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "Retraite à 60 ans après 40 années de cotisation"
+     }
+    ],
+    "nuance": "The programme funds pensions by raising contributions, not by raising the age."
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI defends pay-as-you-go pensions, funded by higher contributions; it does not propose capitalisation.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/44/garantir-une-retraite-digne",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse"
+     }
+    ],
+    "nuance": "No explicit statement rejecting a funded component was found; the code rests on the long-standing LFI line."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Rejects debt-driven austerity ('refuser le chantage') and says it would disobey EU rules that block the programme.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/49/refuser-le-chantage-annuler-la-dette-publique",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "La dette publique est instrumentalisée pour justifier l'austérité et les privatisations."
+     },
+     {
+      "url": "https://laec.fr/section/70/desobeir-a-chaque-fois-que-cest-necessaire-pour-mettre-en-uvre-notre-programme",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "nous désobéirons aux règles européennes incompatibles avec l'application de l'Avenir en commun"
+     }
+    ],
+    "nuance": "The draft's melenchon2027.fr/plans-2022/europe/ URL returns 404 and was replaced. The draft's claim that La Grande Conversation reported a Sept 2026 debt-cancellation plan was removed, because that article (19 Aug 2026) is about foreign policy only."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme proposes hiring more civil servants (e.g. in justice) and raising their pay; it has no plan to cut their numbers.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/7/la-justice-au-nom-du-peuple",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Planifier des moyens pour la justice et recruter davantage de fonctionnaires : magistrats, greffiers, agents de la protection judiciaire de la jeunesse"
+     },
+     {
+      "url": "https://laec.fr/section/39/augmenter-les-salaires-et-reduire-les-inegalites-salariales-dans-lentreprise",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Revaloriser le traitement des fonctionnaires"
+     }
+    ],
+    "nuance": "2022 edition."
+   },
+   {
+    "id": "fin3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Calls public debt a pretext for austerity, wants the ECB to convert the state debt it holds into perpetual zero-rate debt, and backs heavy public investment and services.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/49/refuser-le-chantage-annuler-la-dette-publique",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Exiger de l'Union européenne que la Banque centrale européenne (BCE) transforme la part de dette des États qu'elle possède en dettes perpétuelles à taux nul"
+     }
+    ],
+    "nuance": "The draft's only source (La Grande Conversation) contains nothing about debt and was removed, along with the unverified Banque de France claim. The programme treats debt as no obstacle rather than saying 'more debt' outright."
+   },
+   {
+    "id": "fin4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes deficit rules and austerity, so it would oppose a constitutional golden rule.",
+    "sources": [],
+    "nuance": "No source was opened that addresses a constitutional golden rule directly; the code rests on the party line and the anti-austerity programme (see fin1)."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "SMIC at EUR 1,600 net from day one in the 2027 version, up from EUR 1,400 net in 2022.",
+    "sources": [
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "SMIC à 1 600€ net dès le premier jour"
+     },
+     {
+      "url": "https://laec.fr/section/39/augmenter-les-salaires-et-reduire-les-inegalites-salariales-dans-lentreprise",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Porter immédiatement le SMIC mensuel à 1 400 euros nets"
+     }
+    ],
+    "nuance": "The figure rose from EUR 1,400 (2022) to EUR 1,600 (2027 summaries)."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme would restore 'protective' unemployment insurance, reverse the Macron reforms and pay benefits from the first day.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/40/retablir-une-assurance-chomage-protectrice",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Refuser la réforme Macron : indemniser les chômeurs en fonction de leurs derniers salaires grâce à une assurance calculée à partir du premier jour de travail"
+     }
+    ],
+    "nuance": "2022 edition; it also removes the obligation to accept a 'reasonable job offer'."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes making the RSA conditional on activity hours and instead proposes an unconditional 'garantie d'autonomie' at the poverty line.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/52/eradiquer-la-pauvrete",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Créer une garantie d'autonomie qui permettra que nul ne soit privé de sa dignité pour vivre"
+     }
+    ],
+    "nuance": "No direct statement on RSA activity hours was opened; the adjacent programme measure supports the code."
+   },
+   {
+    "id": "trav4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme restores the 35-hour week, moves arduous and night work to 32 hours, and pushes to generalise 32 hours through collective bargaining.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/36/reduire-le-temps-de-travail-et-faire-naitre-une-societe-du-temps-choisi",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "passer aux 32 heures dans les métiers pénibles ou de nuit, et favoriser leur généralisation par la négociation collective"
+     }
+    ],
+    "nuance": "This is the 2022 edition; it was not confirmed in the 2026 summaries. Generalisation goes through negotiation rather than a legal 32-hour week."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme would make visas easier to get, regularise many undocumented people and make the 10-year residence card the standard permit. It refuses numerical caps on legal immigration.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/76/pour-une-politique-migratoire-humaniste-et-realiste",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Faciliter l'accès aux visas, régulariser les travailleurs, étudiants, parents d'enfants scolarisés et instituer la carte de séjour de dix ans"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "refuse toute limitation chiffrée de l'immigration légale"
+     }
+    ],
+    "nuance": "2022 edition; MonVote2027 (2026) is consistent with it."
+   },
+   {
+    "id": "imm2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Backs a citizen-initiated referendum (RIC) on any subject but does not propose a referendum on immigration and rejects restrictive immigration agendas.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/4/une-republique-permettant-lintervention-populaire",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Instaurer le Référendum d'initiative citoyenne (RIC), par lequel les citoyens [...] peuvent révoquer des élus, proposer ou abroger une loi"
+     }
+    ],
+    "nuance": "No direct statement on an immigration referendum was found. A RIC could in principle allow one."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes any removal or restriction of the AME.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "opposition totale à toute suppression ou restriction"
+     }
+    ],
+    "nuance": "MonVote2027 cites an article dated 2025-11-06; the primary vote was not opened."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme would regularise undocumented workers, students and parents of schooled children.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/76/pour-une-politique-migratoire-humaniste-et-realiste",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "régulariser les travailleurs, étudiants, parents d'enfants scolarisés"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "régularisation des sans-papiers, fin des centres de rétention administrative"
+     }
+    ],
+    "nuance": "Broader than labour-shortage occupations."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI rejects national preference and defends universal equality of rights.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/57/une-republique-universaliste-contre-le-racisme-et-les-discriminations",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "L'universalité des droits n'est pas négociable en République"
+     }
+    ],
+    "nuance": "No explicit mention of social housing priority; the code rests on the universalist principle and the party line."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme guarantees full droit du sol for every child born in France.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/57/une-republique-universaliste-contre-le-racisme-et-les-discriminations",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Garantir le droit du sol intégral à tous les enfants nés en France et faciliter l'accès à la nationalité française"
+     }
+    ],
+    "nuance": "2022 edition."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme gives foreign residents the right to vote in local elections.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/57/une-republique-universaliste-contre-le-racisme-et-les-discriminations",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Instituer le droit de vote des étrangers aux élections locales"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "accorder le droit de vote aux élections locales à tous les étrangers résidant en France"
+     }
+    ],
+    "nuance": "The draft said this was limited to residents in a regular situation, but neither source states that limit."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes minimum sentences (peines planchers) and focuses on prison overcrowding and reintegration.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/melenchon",
+      "outlet": "MonVote2027",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "s'oppose structurellement aux peines planchers"
+     }
+    ],
+    "nuance": "The aggregator attributes this to an Assemblée vote of 2024-09-17, but that roll call could not be verified. Evidence type was downgraded from vote to party_line."
+   },
+   {
+    "id": "sec2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes trying minors as adults and wants more juvenile protection staff (PJJ).",
+    "sources": [],
+    "nuance": "No source opened on this exact point; party line. The programme only mentions recruiting PJJ staff."
+   },
+   {
+    "id": "sec3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme would abolish the IGPN and IGGN and replace them with an independent authority attached to the Défenseur des droits.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/10/refonder-une-police-republicaine",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Supprimer l'Inspection générale de la Police nationale (IGPN) et l'Inspection générale de la Gendarmerie nationale (IGGN) et les remplacer par une autorité indépendante"
+     }
+    ],
+    "nuance": "MonVote2027 indicates the measure remains in the 2025 programme."
+   },
+   {
+    "id": "sec4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Legalise recreational cannabis and regulate it through a state monopoly.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/11/addictions-et-drogues-il-faut-changer-de-strategie",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Légaliser et encadrer par un monopole d'État la consommation, la production et la vente de cannabis à des fins récréatives"
+     },
+     {
+      "url": "https://x.com/jlmelenchon/status/1457828456486604801?lang=fr",
+      "outlet": "X (Mélenchon)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021",
+      "quote": "\"Il faut légaliser le cannabis.\""
+     }
+    ],
+    "nuance": "Sources date from 2021-2022. A 2026 summary (TestPolitique) says 'dépénalisation', but no newer reversal was found."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme would ban all facial recognition in public spaces, including experiments.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/10/refonder-une-police-republicaine",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Interdire dans la loi tout usage des technologies de reconnaissance faciale dans les espaces et établissements publics"
+     }
+    ],
+    "nuance": "Facial recognition is a subset of AI video surveillance; the broader opposition is party line."
+   },
+   {
+    "id": "eu1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme would reaffirm that the constitution's fundamental principles override EU law, and apply a non-regression rule against EU norms that are less ambitious.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/70/desobeir-a-chaque-fois-que-cest-necessaire-pour-mettre-en-uvre-notre-programme",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Réaffirmer la supériorité des principes fondamentaux inscrits dans la Constitution de la 6e République sur le droit européen"
+     }
+    ],
+    "nuance": "This applies to constitutional principles and social or ecological non-regression, not blanket primacy of all French law, hence +1. The draft's 404 URL was replaced."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on EU joint borrowing.",
+    "sources": [],
+    "nuance": "The draft coded 0 with no source. Under the coding rules, 0 means explicitly mixed, so the absence of evidence must be coded null."
+   },
+   {
+    "id": "eu3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme makes France's EU budget contribution conditional and treats it as a lever in negotiations.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/69/utiliser-tous-les-leviers-daction-face-aux-institutions-europeennes",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Conditionner la contribution française au budget de l'Union européenne"
+     }
+    ],
+    "nuance": "This is conditional leverage, not an outright commitment to cut, hence +1. 2022 edition."
+   },
+   {
+    "id": "eu4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme relies on France's veto as a lever, which implies keeping unanimity.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/69/utiliser-tous-les-leviers-daction-face-aux-institutions-europeennes",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Utiliser le droit de veto de la France, par exemple pour refuser tout nouvel accord de libre-échange"
+     }
+    ],
+    "nuance": "The veto passage concerns trade and enlargement, not foreign policy specifically, so the code is inferred."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme sets out an explicit strategy of disobeying EU rules that block it.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/70/desobeir-a-chaque-fois-que-cest-necessaire-pour-mettre-en-uvre-notre-programme",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "nous désobéirons aux règles européennes incompatibles avec l'application de l'Avenir en commun"
+     },
+     {
+      "url": "https://testpolitique.fr/blog/actu/programme-melenchon-2027.html",
+      "outlet": "TestPolitique.fr",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-01-15",
+      "quote": "désobéissance européenne"
+     },
+     {
+      "url": "https://www.lagrandeconversation.com/politique/la-desobeissance-europeenne-objet-non-identifie-de-la-nouvelle-union-populaire-ecologique-et-sociale/",
+      "outlet": "La Grande Conversation",
+      "outlet_lean": "centre-right",
+      "date": "2022",
+      "quote": "Paraphrase: willingness to contravene European rules to apply a rupture programme."
+     }
+    ],
+    "nuance": "The draft's melenchon2027.fr/plans-2022/europe/ URL returns 404 and was replaced."
+   },
+   {
+    "id": "eu6",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The strategy is to stay in the EU: negotiate treaty change while disobeying blocking rules, then put any deal to a referendum. Leaving is not proposed.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/70/desobeir-a-chaque-fois-que-cest-necessaire-pour-mettre-en-uvre-notre-programme",
+      "outlet": "L'Avenir en commun (laec.fr, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Tant qu'un accord de changement des traités n'est pas acquis, nous discutons avec nos partenaires et désobéissons aux règles bloquantes en parallèle."
+     }
+    ],
+    "nuance": "No explicit 'we will not leave' quote was opened, so -1 is kept. The 2017 'plan B' exit option does not appear in the 2022 text. The draft's 404 URL was replaced."
+   }
+  ],
+  "verification_notes": [
+   "Primary source added: L'Avenir en commun 2022 edition sections on laec.fr (fetched; URLs from laec.fr/sommaire). The 2025-edition chapter pages on melenchon2027.fr return 404; the 2026 aggregators La Facture and TestPolitique confirm continuity on ISF, retirement at 60, SMIC, nationalisations and EU disobedience.",
+   "No web searches were possible in this session (budget exhausted), so null and party-line items were checked through fetched pages only.",
+   "DEAD URL: https://melenchon2027.fr/plans-2022/europe/ returns HTTP 404. It was cited in eco4, fin1, eu1, eu5 and eu6, and was replaced in all of them.",
+   "MISATTRIBUTED SOURCE: the La Grande Conversation article 'au-nouveau-desordre-mondial...' (Mounir Satouri, 19 Aug 2026) covers foreign policy only and says nothing about debt or the Banque de France.",
+   "eco1: +2 high -> unchanged: added the primary AEC quote and a verbatim La Facture quote.",
+   "eco2: +2 medium vote -> +2 medium party_line: La Facture does not mention Zucman, so the paraphrase was unsupported. Replaced with Wikipedia citing RTL (LFI supports the tax; bill passed 20 Feb 2025, rejected 31 Oct 2025). No group roll call was opened, so 'vote' is not justified.",
+   "eco3: -2 low inferred -> unchanged: added an adjacent AEC source.",
+   "eco4: +1 low inferred -> +2 medium programme: the AEC explicitly sets tariffs on ecological criteria, emergency anti-dumping for strategic industries and a border kilometre tax under 'protectionnisme écologique et solidaire'.",
+   "eco5: +2 high -> unchanged: AEC 'Revenir sur les privatisations (aéroports, autoroutes...)' confirms motorways; nuance updated.",
+   "eco6: -2 high -> unchanged: Institut Montaigne source replaced with the primary AEC text plus La Facture 2026.",
+   "ret1/ret2: unchanged codes: melenchon2027.fr/programme/decouvrir is a landing page without the quoted measure, so it was replaced with AEC section 44.",
+   "ret3: -2 low party_line -> unchanged: added an AEC contributions quote.",
+   "fin1: -2 medium statement -> -2 medium programme: dead URL replaced with AEC sections 49 and 70; removed the unverified Sept 2026 debt-cancellation claim.",
+   "fin2: -2 low party_line -> -2 medium programme: AEC calls for recruiting more civil servants and raising their pay.",
+   "fin3: +2 high statement -> +2 medium programme: the only cited source did not support the claim (see above). Replaced with AEC section 49 (ECB perpetual zero-rate debt) and lowered confidence because the programme does not literally say 'more debt'.",
+   "trav1: unchanged: added AEC 2022 (EUR 1,400) to show the change to EUR 1,600.",
+   "trav2: -2 low party_line -> -2 high programme: AEC section 40 'Rétablir une assurance-chômage protectrice'.",
+   "trav3: -2 low party_line -> unchanged: added the adjacent 'garantie d'autonomie' source.",
+   "trav4: +2 medium -> +2 medium: replaced a source that said the opposite ('No 32-hour week mentioned') with AEC section 36, which proposes 32 hours for arduous jobs and generalisation by negotiation.",
+   "imm1: -2 medium -> -2 high: AEC section 76 verbatim on visas and regularisation, plus MonVote 'refuse toute limitation chiffrée'.",
+   "imm3: -2 low -> -2 medium: added the MonVote2027 source (2025 article).",
+   "imm4: +2 high -> unchanged: verbatim AEC quote confirms it.",
+   "imm5: -2 low -> -2 medium: added the AEC universalist-rights source.",
+   "imm6: -2 low party_line -> -2 high programme: AEC 'Garantir le droit du sol intégral'.",
+   "imm7: +2 medium -> +2 high: AEC 'Instituer le droit de vote des étrangers aux élections locales'. Removed the nuance limiting it to residents in a regular situation, which no source supports.",
+   "sec1: -2 medium vote -> -2 medium party_line: the roll call cited by the aggregator (2024-09-17) could not be verified.",
+   "sec3: +2 medium -> +2 high: verbatim AEC section 10.",
+   "sec4: +2 high statement -> +2 high programme: verbatim AEC section 11.",
+   "sec5: -2 low party_line -> -2 medium programme: AEC bans facial recognition in public spaces.",
+   "eu1: +1 medium -> unchanged code: dead URL replaced with AEC section 70 on constitutional supremacy over EU law.",
+   "eu2: 0 low inferred -> null none: no evidence; 0 is reserved for explicitly mixed positions.",
+   "eu3: null -> +1 low programme: AEC section 69 'Conditionner la contribution française au budget de l'UE'.",
+   "eu4: null -> -1 low inferred: AEC relies on France's veto as a lever.",
+   "eu5: +2 high -> unchanged: dead URL replaced with AEC section 70 plus TestPolitique 2026.",
+   "eu6: -1 low -> -1 medium: dead URL replaced with AEC section 70, which describes staying in and negotiating while disobeying."
+  ]
+ }
+}

@@ -1,0 +1,947 @@
+{
+ "collect": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel has backed support for Ukraine since 2022 while stressing diplomacy; not verified by live search.",
+    "sources": [],
+    "nuance": "WebSearch budget exhausted; coded from background knowledge, unverified. Likely support for aid with emphasis on peace negotiations."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "Search budget exhausted. He has favoured a UN-mandated framework rather than unilateral deployments, but this is unverified."
+   },
+   {
+    "id": "int3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wikipedia says he reversed his earlier NATO-exit stance after 2022 and no longer proposes French withdrawal.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: after the 2022 invasion he reversed his earlier OTAN exit stance and no longer proposes withdrawal"
+     }
+    ],
+    "nuance": "Secondary summary only; integrated command specifically not verified."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF has called for suspending the EU-Israel agreement and sanctions over Gaza; not verified in this session.",
+    "sources": [],
+    "nuance": "Background knowledge only."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found for a 3% of GDP target.",
+    "sources": [],
+    "nuance": "Unverified; PCF generally prioritises social spending but Roussel has supported strong armed forces."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "Roussel has voiced sympathy for a civic/national service in the past; unverified."
+   },
+   {
+    "id": "int7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Unlikely to endorse lifting sanctions as a trade for a deal; unverified.",
+    "sources": [],
+    "nuance": "Inferred from his pro-Ukraine stance."
+   },
+   {
+    "id": "ecol1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF criticises ZFE as socially unfair and has favoured repeal or major adjustment; unverified.",
+    "sources": [],
+    "nuance": "Roussel has been critical of ZFE as punitive for modest households; exact wording (abolish vs. rework) not confirmed."
+   },
+   {
+    "id": "ecol2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PCF supports phasing out pesticides with support for farmers; unverified on the 'despite foreign competition' clause.",
+    "sources": [],
+    "nuance": "He also favours protectionist measures and mirror clauses."
+   },
+   {
+    "id": "ecol3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel has been sceptical of the 2035 deadline, favouring a mix and French production; unverified.",
+    "sources": [],
+    "nuance": "Background knowledge only."
+   },
+   {
+    "id": "ecol4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF supports taxing private jets and kerosene; unverified.",
+    "sources": [],
+    "nuance": "Background knowledge only."
+   },
+   {
+    "id": "ecol5",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel frames ecology via industrial production and social justice, rejecting both degrowth and growth-first.",
+    "sources": [],
+    "nuance": "Mixed; unverified."
+   },
+   {
+    "id": "ene1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "PCF programme promotes a nuclear and renewable mix; Roussel is strongly pro-nuclear and has called for more reactors.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-05",
+      "quote": "UN MIX ÉNERGÉTIQUE NUCLÉAIRE ET RENOUVELABLE"
+     }
+    ],
+    "nuance": "Exact number of reactors beyond EPR2 not verified."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes nuclear phase-out.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: opposes phase-out; advocates a nuclear plus renewables mix"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ene3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Supports renewables alongside nuclear, so opposes a halt; he has however criticised wind-farm excesses.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: sees nuclear and renewables as both necessary to eliminate fossil fuels"
+     }
+    ],
+    "nuance": "Moratorium not verified."
+   },
+   {
+    "id": "ene4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF favours leaving the EU electricity market and a public EDF with national regulated prices; unverified in this session.",
+    "sources": [],
+    "nuance": "Background knowledge only."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Favours a VIe République.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "notre démocratie ne fonctionne plus"
+     }
+    ],
+    "nuance": "Parliamentary character not verified."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF has long advocated proportional representation.",
+    "sources": [],
+    "nuance": "Not verified in this session."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Supports a RIC, consulting citizens whenever they ask.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: wants citizens consulted each time they request it"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF and its group have backed abolishing 49.3 and voted for no-confidence motions.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-referendum stance suggests openness, but immigration and justice specifically unverified.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF deputies voted for the 2025 assisted-dying bill; unverified personally.",
+    "sources": [],
+    "nuance": "Background knowledge only."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel defends a laïcité of 1905 and is unlikely to back a general ban in public space.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "soc3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Likely opposes extension to parents and universities; unverified.",
+    "sources": [],
+    "nuance": "Roussel is firm on laïcité in schools but not on this extension."
+   },
+   {
+    "id": "soc4",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel is a firm defender of laïcité, including strong statements on political Islam; mixed.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "soc5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Roussel has said he opposes GPA; PCF is divided.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No verified evidence; Roussel has expressed some sympathy for uniforms in the past.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme includes mass public-sector recruitment (500,000 civil servants).",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-05",
+      "quote": "RECRUTEMENT DE 500 000 FONCTIONNAIRES"
+     }
+    ],
+    "nuance": "Teacher-specific figures not verified."
+   },
+   {
+    "id": "edu3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes ability grouping.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF supports conditioning or cutting private-school funding.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF has long demanded abolishing Parcoursup.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No verified evidence; PCF favours public health centres and regulation of installation.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF opposes increased franchises and wants 100% coverage.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PCF supports generalised rent control.",
+    "sources": [],
+    "nuance": "Unverified."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme expands public sector; PCF opposes liberalisation of public services.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-05",
+      "quote": "RECRUTEMENT DE 500 000 FONCTIONNAIRES"
+     }
+    ],
+    "nuance": "Inferred from the programme direction."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Fabien Roussel",
+  "positions": [
+   {
+    "id": "int1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In 2025-2026 Roussel has argued that France's social model should not pay for the war in Ukraine, and he has called for a stop to the 'war economy' and to 'surarmement'. This points to reducing the military effort, not keeping it substantial.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+Ukraine+armes&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Ouest-France (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2025-03-29",
+      "quote": "Fabien Roussel : « Notre modèle social ne doit pas payer la guerre en Ukraine »"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+%22%C3%A9conomie+de+guerre%22&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "BFM (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2026-09-16",
+      "quote": "Fabien Roussel appelle à \"mettre un stop sur l'économie de guerre\" et au \"surarmement de la France et de l'UE\""
+     }
+    ],
+    "nuance": "Evidence comes from headlines only; the article bodies could not be opened. No verified explicit call to end arms deliveries, hence -1. A critical Libération piece (Sept 2026) describes an 'indulgence' toward Russia; that is an opponent's characterisation and was not used for the code."
+   },
+   {
+    "id": "int2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel called Macron's 2024 remarks about sending troops 'irresponsible and dangerous'. In September 2025 he called Macron a 'va-t-en-guerre' and said 'we do not want this war'.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+troupes+Ukraine&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Marianne (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2024-02-27",
+      "quote": "Fabien Roussel : \"Envoyer des troupes en Ukraine ? Les propos de Macron sont irresponsables et dangereux\""
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+Ukraine+%22va-t-en-guerre%22&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "BFM (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2025-09-13",
+      "quote": "\"Le président de la République est un va-t-en-guerre [...] Nous ne voulons pas de cette guerre\", déclare Fabien Roussel"
+     }
+    ],
+    "nuance": "The 2024 statement concerned troops during the war, not a ceasefire-guarantee force. The September 2025 remark came during the reassurance-force debate, but its exact target is unverified. Coded -1 because opposition specifically to a post-ceasefire guarantee force is not confirmed."
+   },
+   {
+    "id": "int3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Wikipedia says he dropped his earlier anti-NATO stance after the 2022 invasion and no longer proposes that France leave.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: changes his position following the invasion of Ukraine by Russia, and no longer proposes France's exit"
+     }
+    ],
+    "nuance": "This is a secondary summary only. One rendering says the reversal was about NATO membership, another about integrated-command integration, so his position on the integrated command specifically is ambiguous. No 2025-2026 primary statement was found."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Roussel co-signed a July 2025 tribune demanding sanctions against the Israeli government. In April 2026 he called for an end to EU trade with Israel. In September 2026 the PCF explicitly demanded suspension of the EU-Israel association agreement.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/stop_l_armement_du_genocide_palestinien",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-22",
+      "quote": "La suspension de l'accord d'association Union européenne-Israël tant que le droit international et les droits humains fondamentaux sont bafoués."
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+Isra%C3%ABl+accord+d%27association&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Le Monde (tribune, via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2025-07-28",
+      "quote": "« La France doit porter l'exigence de sanctions contre le gouvernement israélien, tant que le droit international n'est pas respecté »"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+Isra%C3%ABl+accord+d%27association&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Anadolu Ajansı (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2026-04-14",
+      "quote": "Fabien Roussel (PCF) demande à la France d'appeler à une cessation du commerce européen avec Israël"
+     }
+    ],
+    "nuance": "The explicit 'suspension' wording is in a PCF statement. Roussel's personal statements go further, calling for an end to EU trade with Israel."
+   },
+   {
+    "id": "int5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "As a declared 2027 candidate, Roussel called for a stop to the 'war economy' and to the 'surarmement' of France and the EU.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+%22%C3%A9conomie+de+guerre%22&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "BFM (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2026-09-16",
+      "quote": "Fabien Roussel, candidat PCF à l'élection présidentielle, estime qu'il faut \"mettre un stop sur l'économie de guerre, sur le surarmement\""
+     }
+    ],
+    "nuance": "No explicit percentage of GDP was verified. The code rests on his opposition to further military build-up."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "A brief search covering the November 2025 debate on a voluntary military service turned up no Roussel position on compulsory service. He criticised the army chief's remarks ('des mots qui glacent le sang', BFM, 23 Nov 2025), but those remarks were not about conscription."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "The draft inferred -1 from a 'pro-Ukraine stance' that 2025-2026 evidence does not support (see int1). No statement on sanctions relief was found."
+   },
+   {
+    "id": "ecol1",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel called ZFE a 'bombe sociale' and advocated postponing them, not explicitly abolishing them.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+ZFE&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "l'Opinion (via Google News headline)",
+      "outlet_lean": "centre-right",
+      "date": "2023-02-27",
+      "quote": "Zones à faibles émissions: face à une «bombe sociale», Fabien Roussel prône un décalage du dispositif"
+     }
+    ],
+    "nuance": "The source is from 2023, the only one found. Postponement is a conditional or partial position. No verified Roussel reaction to the 2025-2026 parliamentary vote abolishing ZFE."
+   },
+   {
+    "id": "ecol2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The PCF supports phasing out pesticides alongside support for farmers. The 'despite foreign competition' clause is unverified.",
+    "sources": [],
+    "nuance": "No Roussel statement on the loi Duplomb or acetamiprid was found in a brief search. He favours protectionist measures and mirror clauses, which may make him hesitant about unilateral bans."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "The draft's -1 came from background knowledge only. A brief search found no Roussel statement on the 2035 deadline."
+   },
+   {
+    "id": "ecol4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF supports taxing private jets and kerosene; this is unverified.",
+    "sources": [],
+    "nuance": "A brief search found no Roussel statement. Based on background knowledge only."
+   },
+   {
+    "id": "ecol5",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel frames ecology through industrial production and social justice, rejecting both degrowth and growth-first.",
+    "sources": [],
+    "nuance": "Mixed; unverified."
+   },
+   {
+    "id": "ene1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel strongly supports nuclear power: in a June 2025 speech he called it 'a sustainable sector for the 21st century', and the PCF promotes a nuclear-renewable mix. A commitment to reactors beyond the six EPR2 is not verified.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+nucl%C3%A9aire+r%C3%A9acteurs+EPR&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "PCF (via Google News headline)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-24",
+      "quote": "Energie nucléaire : une filière durable pour le XXIe siècle - Discours de Fabien Roussel"
+     },
+     {
+      "url": "https://www.pcf.fr/",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-05",
+      "quote": "UN MIX ÉNERGÉTIQUE NUCLÉAIRE ET RENOUVELABLE"
+     }
+    ],
+    "nuance": "The cited homepage line does not mention extra reactors, so the code is +1 until a number beyond six EPR2 is verified."
+   },
+   {
+    "id": "ene2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Roussel opposes a nuclear phase-out and defends a nuclear-plus-renewables mix.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: opposes nuclear phase-out; favourable to an energy mix combining nuclear maintenance and renewable development"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+nucl%C3%A9aire+r%C3%A9acteurs+EPR&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "PCF (via Google News headline)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-06-24",
+      "quote": "Energie nucléaire : une filière durable pour le XXIe siècle - Discours de Fabien Roussel"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ene3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "He supports renewables alongside nuclear, so he opposes a halt, though he has criticised excesses in wind-farm development.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: mixed nuclear-renewable energy as essential for decarbonization"
+     }
+    ],
+    "nuance": "No verified statement on a wind moratorium."
+   },
+   {
+    "id": "ene4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF favours leaving the EU electricity market and pricing electricity nationally through a public EDF. Roussel's personal 2025-2026 wording is unverified.",
+    "sources": [],
+    "nuance": "Background knowledge only. No source found in this session. Roussel has called for electricity price cuts of up to 30% (TF1, May 2026, headline only), but the mechanism is unverified."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Roussel favours a VIe République.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: believing democracy 'no longer functions', advocates a Sixth Republic"
+     }
+    ],
+    "nuance": "Whether his VIe République is more parliamentary is not verified."
+   },
+   {
+    "id": "ins2",
+    "position": 0,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In May 2025 Roussel was 'peu favorable' to the government's proportional-representation plan and said it was 'pas la priorité'.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+%22VIe+R%C3%A9publique%22+OR+proportionnelle+OR+49.3&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "l'Opinion (via Google News headline)",
+      "outlet_lean": "centre-right",
+      "date": "2025-05-22",
+      "quote": "Législatives : Fabien Roussel peu favorable au projet de proportionnelle de Matignon"
+     },
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+%22VIe+R%C3%A9publique%22+OR+proportionnelle+OR+49.3&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "Le Figaro (via Google News headline)",
+      "outlet_lean": "centre-right",
+      "date": "2025-05-23",
+      "quote": "Proportionnelle : Édouard Philippe «défavorable» à son instauration, Fabien Roussel juge que ce n'est «pas la priorité»"
+     }
+    ],
+    "nuance": "His personal 2025 stance departs from the PCF's historical support for proportional representation. He may object to Matignon's specific design, not the principle, so the code is 0."
+   },
+   {
+    "id": "ins3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Roussel supports a RIC on any subject, consulting citizens whenever they ask.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: citizen-initiated referendums (RIC) on any subject; 'consult the French whenever they request it'"
+     }
+    ],
+    "nuance": "Secondary source; the date of the original statement was not verified."
+   },
+   {
+    "id": "ins4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "In October 2025 Roussel said it would be 'raide' (harsh) to censure a government that renounces 49.3, which implies he values giving it up.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+%22VIe+R%C3%A9publique%22+OR+proportionnelle+OR+49.3&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "BFM (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2025-10-03",
+      "quote": "\"Il faut avancer\": Fabien Roussel trouverait \"raide\" de censurer un gouvernement qui renonce au 49.3"
+     }
+    ],
+    "nuance": "No verified explicit call to abolish 49.3. The PCF has historically opposed it."
+   },
+   {
+    "id": "ins5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Roussel wants citizen referendums 'on any subject', which would logically cover immigration or justice. No specific statement on those areas was found.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: citizen-initiated referendums on any subject"
+     }
+    ],
+    "nuance": "Partial support: he backs a general widening, not specifically immigration or justice."
+   },
+   {
+    "id": "soc1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "Roussel's former parliamentary group (GDR) voted for the right-to-assisted-dying law at its final reading on 15 July 2026 (10 for, 2 against, 3 abstentions).",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8280",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "paraphrase: GDR group 10 pour, 2 contre, 3 abstentions; texte adopté 291-241"
+     }
+    ],
+    "nuance": "Roussel has not been an MP since 2024, and GDR includes non-PCF members and was split. No personal Roussel statement was found, so the code is +1, not +2."
+   },
+   {
+    "id": "soc2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel defends a 1905-style laïcité. No verified support for a ban on the veil in all public spaces.",
+    "sources": [],
+    "nuance": "A March 2025 CNews interview touched on veil bans. Far-left critics (Révolution Permanente) accused him of 'courir après l'extrême droite' over an 'interdiction du voile', but that is an opponent's characterisation and the context was probably sport competitions. With no direct evidence, -2 was too strong for an inferred code."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "The draft's inferred -1 had no basis. His 2023 approval of the abaya ban and the 2025 veil controversy suggest he may lean toward restrictions, so the code is left null."
+   },
+   {
+    "id": "soc4",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Roussel is a firm defender of laïcité: he approved the 2023 abaya ban at school and has made strong statements on political Islam. Mixed against the 'no further restriction' clause.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+voile+OR+abaya+OR+la%C3%AFcit%C3%A9&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "BFM (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2023-08-28",
+      "quote": "Fabien Roussel \"approuve\" l'interdiction des abayas mais tacle l'exécutif sur l'école"
+     }
+    ],
+    "nuance": "Supporting the abaya ban leans against 'no further restriction'; overall still mixed."
+   },
+   {
+    "id": "soc5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Roussel is reported to oppose GPA; the PCF is divided.",
+    "sources": [],
+    "nuance": "A brief search found no verified statement."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "The draft coded 0 with no evidence, but 0 is reserved for an explicitly mixed position, so the code becomes null."
+   },
+   {
+    "id": "edu2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PCF programme includes mass public-sector recruitment of 500,000 civil servants.",
+    "sources": [
+     {
+      "url": "https://www.pcf.fr/",
+      "outlet": "PCF",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10-05",
+      "quote": "RECRUTEMENT DE 500 000 FONCTIONNAIRES"
+     }
+    ],
+    "nuance": "The cited line does not mention teachers or class sizes; teacher-specific figures were not verified. +2 is plausible but not demonstrated."
+   },
+   {
+    "id": "edu3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF opposes grouping pupils by ability.",
+    "sources": [],
+    "nuance": "Unverified; a brief search found nothing from Roussel."
+   },
+   {
+    "id": "edu4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF supports conditioning or cutting private-school funding.",
+    "sources": [],
+    "nuance": "Unverified; a brief search found nothing from Roussel."
+   },
+   {
+    "id": "edu5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF and its youth wing criticise Parcoursup; a personal Roussel call to abolish it and university selection is unverified.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Fabien+Roussel+Parcoursup&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "NRPyrenees.fr (via Google News headline)",
+      "outlet_lean": "centre",
+      "date": "2026-06-12",
+      "quote": "Parcoursup \"favorise les grands patrons et non les jeunes qui pourraient s'insérer dans le monde du travail\""
+     }
+    ],
+    "nuance": "The quote comes from a young communist leader, not Roussel."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence found.",
+    "sources": [],
+    "nuance": "The draft coded 0 with no evidence. A brief search found no Roussel position on compulsory installation of new doctors."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In July 2026 Roussel denounced the higher medical co-payments: 'le gouvernement choisit de faire payer les malades'.",
+    "sources": [
+     {
+      "url": "https://news.google.com/rss/search?q=Roussel+franchises+m%C3%A9dicales&hl=fr&gl=FR&ceid=FR:fr",
+      "outlet": "PCF (via Google News headline)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-07-23",
+      "quote": "Franchises médicales : le gouvernement choisit de faire payer les malades (Fabien Roussel)"
+     }
+    ],
+    "nuance": "Only the headline was seen; the article body could not be opened."
+   },
+   {
+    "id": "san3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PCF supports rent control. Roussel campaigns on rising rents ('+20% in five years'), but a call to generalise rent control is unverified.",
+    "sources": [],
+    "nuance": "SeLoger (28 Sep 2026) covered his housing plans but could not be opened."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Roussel wants to renationalise EDF, Engie, motorways and insurers, which is the opposite of further opening to competition.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Fabien_Roussel",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10-05",
+      "quote": "paraphrase: supports renationalizing autoroutes, energy companies (EDF, Engie), and insurance firms"
+     }
+    ],
+    "nuance": "The original source line (500,000 civil servants) did not address competition and was replaced. In April 2026 he also proposed nationalising TotalEnergies (franceinfo headline)."
+   }
+  ],
+  "verification_notes": [
+   "Context: the WebSearch budget for the session was exhausted (200/200). Verification used WebFetch on primary pages (pcf.fr, datan.fr, Wikipedia) and on Google News RSS search feeds. Where an article could not be opened, the RSS search URL is cited and the quote is the headline actually seen.",
+   "pcf.fr/le_programme (the '180 propositions' page) returned 404, and fabienroussel2027.fr shows no detailed proposals, so no programme text beyond homepage slogans could be verified.",
+   "int1: +1 -> -1 (inferred -> statement): 2025-2026 headlines show Roussel saying 'Notre modèle social ne doit pas payer la guerre en Ukraine' and calling for a stop to the 'économie de guerre' and 'surarmement'. The draft's pro-aid assumption was outdated.",
+   "int2: null -> -1: he called troop deployment 'irresponsables et dangereux' (2024) and Macron a 'va-t-en-guerre' (Sept 2025). Not -2 because opposition to a post-ceasefire guarantee force specifically is unverified.",
+   "int3: kept -1 low; added a note that the Wikipedia wording is ambiguous between NATO membership and the integrated command.",
+   "int4: kept +2; party_line/low -> statement/medium: PCF page of 22 Sep 2026 demands suspension of the association agreement; Roussel co-signed a sanctions tribune (Le Monde, July 2025) and called for an end to EU trade with Israel (AA, April 2026).",
+   "int5: null -> -2 (medium, statement): BFM, 16 Sep 2026: 'mettre un stop sur l'économie de guerre, sur le surarmement'.",
+   "int6: kept null after a brief search; no evidence found.",
+   "int7: -1 -> null: the inference rested on a pro-Ukraine stance contradicted by 2025-2026 evidence; no statement on sanctions found.",
+   "ecol1: -1 -> 0 (party_line -> statement): l'Opinion (2023) reports that he advocated postponing ZFE ('décalage du dispositif'). That is a conditional position, neither defence of ZFE nor abolition.",
+   "ecol3: -1 -> null: no evidence found; the draft relied on background knowledge.",
+   "ene1: +2 -> +1 (programme -> statement, medium -> low): the cited PCF line ('mix nucléaire et renouvelable') does not support reactors beyond six EPR2; added his June 2025 pro-nuclear speech headline.",
+   "ene2: kept -2; confidence medium -> high and added a second source (June 2025 PCF nuclear speech).",
+   "ene4: +2 -> +1: party line only, no source found; downgraded for lack of verification.",
+   "ins1: kept +2; the quote 'notre démocratie ne fonctionne plus' was not verbatim in the fetched text, so it is now marked as a paraphrase.",
+   "ins2: +2 -> 0 (party_line low -> statement medium): in May 2025 Roussel was 'peu favorable' to the government's proportional-representation plan and said it is 'pas la priorité' (l'Opinion, Le Figaro). The party-line code was mistaken for his own view.",
+   "ins4: +2 -> +1 (party_line -> statement): only verified evidence is BFM, Oct 2025, where he found it 'raide' to censure a government that renounces 49.3; no explicit call to abolish 49.3 was found.",
+   "ins5: kept +1; inferred -> statement: Wikipedia reports RIC 'on any subject'.",
+   "soc1: +2 -> +1 (party_line -> vote): Datan vote 8280 (15 Jul 2026), GDR group 10 for, 2 against, 3 abstentions; the group was split and Roussel has no personal statement or vote (not an MP since 2024).",
+   "soc2: -2 -> -1: an inferred code cannot carry -2; a March 2025 veil controversy (CNews interview, criticised from the far left) adds uncertainty.",
+   "soc3: -1 -> null: there was no basis for the inference, and his abaya-ban approval cuts the other way.",
+   "soc4: kept 0; added the BFM 2023 source on his approval of the abaya ban.",
+   "edu1: 0 -> null: 0 is reserved for an explicitly mixed position; there was no evidence.",
+   "edu2: +2 -> +1: the '500 000 fonctionnaires' line does not mention teachers or class sizes.",
+   "edu5: +2 -> +1: no Roussel statement on abolishing Parcoursup or selection; only a criticism from a young communist leader (NRPyrenees, June 2026).",
+   "san1: 0 -> null: there was no evidence; 0 was misused.",
+   "san2: kept -2; party_line low -> statement medium: PCF headline of 23 Jul 2026, 'Franchises médicales : le gouvernement choisit de faire payer les malades (Fabien Roussel)'.",
+   "san3: +2 -> +1: unverified party line; no Roussel call for generalised rent control was found.",
+   "san4: kept -2; programme -> statement: the cited 500,000-civil-servants line did not address competition and was replaced with the Wikipedia account of his renationalisation proposals (EDF, Engie, autoroutes).",
+   "URL check: no fabricated URLs found in the draft. www.pcf.fr resolves, but its quotes did not support ene1 at +2 or san4. Wikipedia quotes were paraphrases and are now labelled as such."
+  ]
+ }
+}

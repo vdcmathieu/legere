@@ -1,0 +1,55 @@
+You are a careful, politically neutral research assistant building a voting-advice application for the French presidential election of April 2027 (methodology like Wahl-O-Mat / euandi / La Boussole présidentielle).
+
+Task: code the position of Marine Tondelier (Les Écologistes) on each statement below, using live web search. Use Les Écologistes programme and her statements.
+
+Statements:
+- int1: Maintenir une aide militaire importante à l'Ukraine.  (Keep providing substantial military aid to Ukraine.)
+- int2: Envoyer des troupes françaises en Ukraine pour garantir un éventuel cessez-le-feu.  (Send French troops to Ukraine to guarantee a possible ceasefire.)
+- int3: Quitter le commandement intégré de l'OTAN.  (Leave NATO's integrated military command.)
+- int4: Suspendre l'accord d'association entre l'UE et Israël en raison de la conduite de la guerre à Gaza.  (Suspend the EU-Israel association agreement over the conduct of the Gaza war.)
+- int5: Porter le budget de la défense à plus de 3 % du PIB.  (Raise defence spending above 3% of GDP.)
+- int6: Rétablir un service militaire ou national obligatoire.  (Reinstate compulsory military or national service.)
+- int7: Lever progressivement les sanctions contre la Russie en échange d'un accord de paix en Ukraine.  (Gradually lift sanctions on Russia in exchange for a peace deal in Ukraine.)
+- ecol1: Supprimer les zones à faibles émissions (ZFE) dans les villes.  (Abolish low-emission zones (ZFE) in cities.)
+- ecol2: Interdire en France certains pesticides, même si des concurrents étrangers continuent de les utiliser.  (Ban some pesticides in France even if foreign competitors keep using them.)
+- ecol3: Maintenir la fin de la vente des voitures thermiques neuves en 2035.  (Keep the 2035 end of sales of new combustion-engine cars.)
+- ecol4: Taxer davantage le transport aérien (kérosène, vols courts, jets privés).  (Tax air travel more (kerosene, short flights, private jets).)
+- ecol5: En cas de conflit, la lutte contre le changement climatique doit passer avant la croissance économique.  (When they conflict, fighting climate change should come before economic growth.)
+- ene1: Construire de nouveaux réacteurs nucléaires au-delà des six EPR2 déjà prévus.  (Build new nuclear reactors beyond the six EPR2 already planned.)
+- ene2: Sortir progressivement du nucléaire.  (Gradually phase out nuclear power.)
+- ene3: Suspendre le développement de nouvelles éoliennes.  (Halt the development of new wind turbines.)
+- ene4: Sortir du marché européen de l'électricité pour fixer les prix au niveau national.  (Leave the European electricity market to set prices nationally.)
+- ins1: Changer de constitution pour passer à une VIe République plus parlementaire.  (Adopt a new constitution for a more parliamentary Sixth Republic.)
+- ins2: Élire les députés à la proportionnelle.  (Elect MPs by proportional representation.)
+- ins3: Créer un référendum d'initiative citoyenne (RIC).  (Create a citizens' initiative referendum (RIC).)
+- ins4: Supprimer ou restreindre fortement l'usage de l'article 49.3.  (Abolish or strongly restrict use of Article 49.3.)
+- ins5: Élargir le champ du référendum pour permettre de consulter directement les Français sur l'immigration ou la justice.  (Widen the scope of referendums to let voters decide directly on immigration or justice.)
+- soc1: Autoriser l'aide active à mourir, sous conditions strictes.  (Allow assisted dying under strict conditions.)
+- soc2: Interdire le port du voile islamique dans l'ensemble de l'espace public.  (Ban the Islamic headscarf in all public spaces.)
+- soc3: Étendre l'interdiction des signes religieux ostensibles aux parents accompagnant les sorties scolaires et à l'université.  (Extend the ban on conspicuous religious symbols to parents on school trips and to universities.)
+- soc4: La laïcité doit garantir la neutralité de l'État, sans restreindre davantage l'expression religieuse des citoyens.  (Secularism should guarantee state neutrality without further restricting citizens' religious expression.)
+- soc5: Ouvrir la gestation pour autrui (GPA) dans un cadre encadré et non commercial.  (Allow regulated, non-commercial surrogacy.)
+- edu1: Instaurer l'uniforme ou une tenue commune obligatoire à l'école.  (Make school uniforms mandatory.)
+- edu2: Recruter massivement des enseignants pour réduire le nombre d'élèves par classe.  (Hire teachers on a large scale to reduce class sizes.)
+- edu3: Regrouper les élèves par niveau dans certaines matières au collège.  (Group lower-secondary pupils by ability level in some subjects.)
+- edu4: Réduire le financement public des écoles privées sous contrat qui ne respectent pas des objectifs de mixité sociale.  (Cut public funding for state-contracted private schools that miss social-mix targets.)
+- edu5: Supprimer Parcoursup et la sélection à l'entrée de l'université.  (Abolish Parcoursup and selection for university entry.)
+- san1: Obliger les nouveaux médecins à s'installer pendant quelques années dans les zones qui en manquent.  (Require new doctors to practise for a few years in under-served areas.)
+- san2: Augmenter la part payée par les patients (franchises) pour maîtriser les dépenses de santé.  (Increase patient co-payments to control health spending.)
+- san3: Encadrer les loyers dans toutes les zones où le logement est rare.  (Cap rents in all areas with housing shortages.)
+- san4: Ouvrir davantage les services publics (transports, énergie) à la concurrence.  (Open public services (transport, energy) further to competition.)
+
+Coding rules:
+- Code the candidate's position on the statement EXACTLY as worded, on -2 (strongly against) .. +2 (strongly for). 0 = explicitly mixed/conditional. null = no evidence found (do not guess; confidence "none", evidence_type "none").
+- If the candidate supports a weaker or partial version, use +1 (or -1 for partial opposition) and explain in `nuance`.
+- evidence_type: programme (official written programme), statement (interview/speech/tweet by the candidate), vote (their own or their group's recorded vote), record_in_office (what they did as minister/mayor), party_line (party position but nothing personal from the candidate), inferred (deduced from adjacent positions - use sparingly, confidence low).
+- Reversals: if the position changed over time, code the CURRENT one and record the change in `nuance`.
+- Be equally rigorous for every candidate: the same evidentiary bar applies whatever their politics.
+
+Source discipline (mandatory):
+- Today is 5 October 2026. Prefer sources from 2025-2026; use older ones (e.g. 2022 programme) only if no newer position exists, and say so in `nuance`.
+- Prefer primary sources: official programme, campaign/party site, Assemblée/Sénat/European Parliament roll-call votes (datan.fr, nosdeputes.fr, howtheyvote.eu, assemblee-nationale.fr), the candidate's own interviews.
+- For contested or high-stakes codings, corroborate with at least one outlet from a DIFFERENT political lean than the obvious one. Lean labels to use: CNews, Europe 1, JDD, Valeurs actuelles, Le Journal du Dimanche, Boulevard Voltaire = right/far-right; Le Figaro, L'Opinion, Les Échos = centre-right; Le Monde, franceinfo, AFP, Reuters, Le Parisien, France 24, Public Sénat, LCP = centre/neutral-institutional (Le Monde is often seen as centre-left); Libération, L'Obs = centre-left/left; Mediapart, L'Humanité, Le Média, Blast = left/far-left; Les Décodeurs, AFP Factuel, franceinfo Vrai ou Faux = fact-check; IFRAP, Institut Montaigne = centre-right/liberal think-tank; OFCE, Terra Nova, Fondation Jean-Jaurès = centre-left think-tank.
+- Never treat an opponent's characterisation as the candidate's position. Never invent URLs: only cite pages you actually opened or saw in search results. Quotes must be short (under 30 words) and verbatim or clearly marked as paraphrase.
+
+Return one entry per statement id listed above (all 35 of them, in order), candidate = "Marine Tondelier". Work through them systematically; batch your searches by theme. Do not stop early.

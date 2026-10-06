@@ -1,0 +1,347 @@
+{
+ "collect": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; web search budget exhausted.",
+    "sources": [],
+    "nuance": "Not coded. Needs a rerun with search access."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "From memory, not verified this session: Ruffin and the LFI/NFP group opposed the 2023 'plein emploi' law that introduced RSA conditionality, so he likely opposes maintaining the obligation.",
+    "sources": [],
+    "nuance": "No source opened. No explicit promise to abolish the obligation was verified, hence -1 rather than -2. Needs verification."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. Wikipedia only notes he is hostile to labour immigration, which does not address naturalisation.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; the left generally supports receipts but nothing personal to Ruffin was verified.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. From memory he has favoured price floors or minimum prices for farmers, but this was not verified.",
+    "sources": [],
+    "nuance": "Not coded; probable positive. Needs verification."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found; he is very likely opposed to privatisation, but this was not verified.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. From memory he voted for the law in the Assemblée, unverified.",
+    "sources": [],
+    "nuance": "Not coded; needs a check of the roll-call votes."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not coded."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "François Ruffin",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a 'TVA sociale'. His 2027 campaign notebooks (nouspresident.fr) and his own site do not address it.",
+    "sources": [],
+    "nuance": "Not coded. Web search budget was exhausted during verification, so only his own sites and datan.fr were checked."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Voted against the 2023 'plein emploi' bill, which created the 15-20 hour activity requirement for RSA recipients.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-16/vote_2965",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-11-14",
+      "quote": "Projet de loi pour le plein emploi - François Ruffin: CONTRE (paraphrase of the vote record)"
+     }
+    ],
+    "nuance": "Opposition to the law that introduced the obligation. No promise to abolish it was found, so -1 and not -2. His 2027 campaign notebooks do not mention the RSA."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on naturalisation. A search of his site for naturalisation and regularisation returned nothing relevant.",
+    "sources": [],
+    "nuance": "Not coded. He has criticised labour immigration (Wikipedia), but that does not address naturalisation."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "After Nahel's death he listed a receipt for identity checks among his proposals for police reform, citing checks on minorities.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/nahel-apaisement-mais-comment/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2023-06-30",
+      "quote": "L'instauration d'un récépissé pour les contrôles d'identité."
+     }
+    ],
+    "nuance": "The source is from 2023. No 2025-2026 restatement was found, and the 2027 campaign notebooks do not cover policing."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a common European defence or European army.",
+    "sources": [],
+    "nuance": "Not coded. He voted against the 2024-2030 military programming law (datan vote_1778, 2023), which is a national budget law. He abstained on the March 2025 Ukraine resolution, which also called for an independent European defence. Neither vote is specific enough to code this statement."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on Ukraine's EU accession.",
+    "sources": [],
+    "nuance": "Not coded. He abstained on the 12 March 2025 resolution supporting Ukraine, going against his group, which voted for it (datan vote_988, legislature 17). According to datan's description, that text does not mention accession. His site has only a 2022 call for peace talks."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "His 2027 campaign notebook proposes guaranteed minimum prices for each sector, based on production costs. He was already calling for 'prix planchers' in 2024.",
+    "sources": [
+     {
+      "url": "https://nouspresident.fr/travaillisme-ecologique/",
+      "outlet": "Nous Président (campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Nous proposons des prix minimums garantis discutés par les interprofessions représentatives de chaque filière."
+     },
+     {
+      "url": "https://francoisruffin.fr/il-faut-une-exception-agriculturelle-francaise/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-01-23",
+      "quote": "Prix planchers. Quotas d'importation. Coefficients multiplicateurs."
+     }
+    ],
+    "nuance": "The prices would be negotiated by sector bodies (interprofessions) and based on production costs plus fair pay for labour. This has been consistent since at least 2021 (his article 'L'OMC l'interdit ? ... On désobéit !')."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found of a proposal to cut VAT on energy to 5.5%.",
+    "sources": [],
+    "nuance": "Not coded. His 2026 written question on fuel and gas prices proposes no VAT measure. His campaign notebook calls for a public electricity service priced at production cost and does not mention VAT."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No explicit position found on privatising public broadcasting.",
+    "sources": [],
+    "nuance": "Not coded. In 2019 he criticised the government's 'réforme de l'audiovisuel public' (threat to Soir 3), which points to opposition, but nothing on privatisation was verified."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "Voted for the assisted-dying law at the final reading on 15 July 2026, and also at first reading (May 2025) and in February 2026.",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8280",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir - lecture définitive - François Ruffin: POUR (paraphrase of the vote record)"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2107",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-27",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir - POUR (paraphrase of the vote record)"
+     }
+    ],
+    "nuance": "He voted for the law at every stage. No statement on keeping it after promulgation was found, but having voted for the final text strongly implies he would keep it."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In 2025 he explicitly argued against banning the veil for mothers who accompany school trips, saying the 2004 law covers the school only.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/ils-veulent-le-faire-disparaitre-de-notre-societe/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-26",
+      "quote": "Pas aux mamans qui accompagnent les sorties scolaires, le conseil d'Etat l'a d'ailleurs tranché."
+     }
+    ],
+    "nuance": "He framed the push for such bans as a betrayal of the 1905 law ('Ils la bafouent'). The position comes from a 2025 article, not from the 2027 programme."
+   },
+   {
+    "id": "soc6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "In the same 2025 article he argued against banning religious symbols for university students, who are adults.",
+    "sources": [
+     {
+      "url": "https://francoisruffin.fr/ils-veulent-le-faire-disparaitre-de-notre-societe/",
+      "outlet": "francoisruffin.fr",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-03-26",
+      "quote": "Car la loi de 2004 interdit les signes religieux à l'Ecole. Mais pas à toute la société. [...] Pas aux étudiants à l'université."
+     }
+    ],
+    "nuance": "This responds directly to the 2025 proposals by Darmanin and Retailleau to ban the veil at university."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on ending selection at university entry.",
+    "sources": [],
+    "nuance": "Not coded. A search of his site for 'Parcoursup' returned only a 2019 call to protest, with no position on selection."
+   },
+   {
+    "id": "san5",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "His 2027 housing notebook keeps the ZAN 2050 target, criticises the 'multiple derogations' that weakened it, and favours densification and reuse of existing buildings. It simplifies only specific rules, such as labels and some heritage constraints.",
+    "sources": [
+     {
+      "url": "https://nouspresident.fr/face-a-la-crise-du-logement-faire-sauter-le-verrou/",
+      "outlet": "Nous Président (campaign site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09",
+      "quote": "dérogations multiples qui questionnent l'efficacité écologique (paraphrase-level excerpt about the ZAN framework)"
+     }
+    ],
+    "nuance": "He opposes loosening ZAN to build more, but would simplify a few specific rules, hence -1. In 2023 he abstained on the bill that eased ZAN (datan vote_2046, legislature 16). A first datan summary wrongly reported that vote as POUR, and the vote page itself says ABSTENTION."
+   }
+  ],
+  "verification_notes": [
+   "Web search budget was exhausted (200/200). Verification relied on WebFetch of datan.fr, francoisruffin.fr and nouspresident.fr (the 2027 campaign notebooks). No outlet from another political lean could be fetched for corroboration.",
+   "trav3: -1/low/inferred, no source -> -1/medium/vote: datan confirms he voted CONTRE the projet de loi pour le plein emploi on 14 Nov 2023. Kept at -1 because no promise to abolish the obligation was found.",
+   "sec6: null -> +2/medium/statement: his 2023 Nahel article proposes 'L'instauration d'un récépissé pour les contrôles d'identité'.",
+   "ecol6: null -> +2/high/programme: the 2027 campaign notebook 'travaillisme écologique' proposes 'prix minimums garantis', and a 2024 article calls for 'Prix planchers'.",
+   "soc1: null -> +2/high/vote: datan vote_8280 shows he voted POUR at the final reading on 15 July 2026, and also POUR in May 2025 and February 2026.",
+   "soc3: null -> -2/medium/statement: a 26 March 2025 article explicitly rejects banning religious symbols for mothers who accompany school trips.",
+   "soc6: null -> -2/medium/statement: the same 2025 article rejects such a ban for university students.",
+   "san5: null -> -1/medium/programme: the 2027 housing notebook keeps ZAN 2050 and criticises derogations, with only targeted simplification.",
+   "eu7, eu8: kept null. The March 2025 Ukraine resolution he abstained on (going against his group) does not mention accession, and the 2023 military programming law vote is not about European defence. Both are recorded in nuance.",
+   "eco7, imm8, ene5, ins6, edu5: kept null after checking his site and the five campaign notebooks. Nothing relevant was found.",
+   "Reliability warning: a datan summary from the WebFetch model first reported the 2023 ZAN vote as POUR, but the vote page itself says ABSTENTION. All votes cited here were confirmed on their individual vote pages, except vote_2107 (May 2025), which comes only from the listing page."
+  ]
+ }
+}

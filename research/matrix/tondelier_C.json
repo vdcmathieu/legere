@@ -1,0 +1,272 @@
+{
+ "collect": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget (200/200) was exhausted before any query ran. Not coded."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted. Not coded."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget (200/200) was exhausted before any query ran, in both the coding pass and this verification pass. Not coded."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "imm8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "sec6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Very likely codable (the 2024 NFP programme Les Écologistes signed reportedly included ID-check receipts), but this was not verified, so it stays null."
+   },
+   {
+    "id": "eu7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Likely codable (prix planchers was an NFP 2024 plank), but not verified, so it stays null."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "ins6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence gathered.",
+    "sources": [],
+    "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded."
+   }
+  ],
+  "verification_notes": [
+   "NO CODE CHANGES: all 14 entries are still null/none. Verification was blocked because WebSearch returned 'session has used its web search budget (200 of 200)' on the first three queries (eco7, trav3, sec6). I did not scrape DuckDuckGo or Bing to get around a limit the user set. The DuckDuckGo test request also hit a CAPTCHA.",
+   "Nothing was coded at +2/-2 or with evidence_type programme/vote/record_in_office, so there was no strong claim to check and no URL to test for fabrication or dead links. The draft cites no sources.",
+   "Null checks by direct fetch: fr.wikipedia.org/wiki/Marine_Tondelier had no statement on any of the 14 items. It confirms she declared her candidacy on 22 Oct 2025, Les Écologistes designated her on 8 Dec 2025, and her candidacy depends on an internal referendum after the left primary failed in July 2026. fr.wikipedia.org/wiki/Nouveau_Front_populaire showed only section headings with no policy text. nouveaufrontpopulaire.fr failed with an SSL handshake error.",
+   "sec6, ecol6 and edu5 are the most likely to have real evidence (2024 NFP programme planks and party statements). They should be re-researched first. Even if found, a 2024 coalition programme counts only as party_line or programme evidence, and the edu5 split rule (replacing Parcoursup while keeping selection is not agreement) must be applied.",
+   "ACTION NEEDED: raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION, or run this candidate in a fresh session, then redo both the coding and the verification. The current output is not usable for the voting-advice matrix.",
+   "The relayed user request also asked to 'caffeinate'. A subagent cannot hold the machine awake for the whole chain, so the orchestrating session needs to start that itself (caffeinate -dimsu)."
+  ]
+ }
+}

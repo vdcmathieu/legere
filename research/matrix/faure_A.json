@@ -1,0 +1,798 @@
+{
+ "collect": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No source retrieved; PS line historically favours restoring an ISF-type tax. Inferred only.",
+    "sources": [],
+    "nuance": "Web search budget exhausted; not verified. PS has favoured the Zucman tax rather than a classic ISF, so +1 not +2."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS and Faure publicly backed the Zucman 2% tax on fortunes above EUR 100M in 2025; not re-verified in this session.",
+    "sources": [],
+    "nuance": "From prior knowledge, no URL opened. Unverified."
+   },
+   {
+    "id": "eco3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eco6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "ret1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "Faure negotiated freezing the 2023 reform, keeping the legal age at 62 years 9 months until Jan 2028 (voted 12 Nov 2025). Not a full return to 62.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "un vote sur le décalage de l'application de la réforme des retraites de 2023"
+     }
+    ],
+    "nuance": "Partial version (freeze, not return to 62); PS longer-term line is to repeal the reform, not verified here."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "record_in_office",
+    "summary": "He negotiated suspension of the reform and opposes raising the age.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "freeze the legal retirement age at 62 years and 9 months until January 2028 (paraphrase)"
+     }
+    ],
+    "nuance": "Inferred from freeze; no direct statement on raising above 64."
+   },
+   {
+    "id": "ret3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found. Campaign book proposes a contribution from AI companies to fund pensions, suggesting public pay-as-you-go.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la participation ou la cotisation des entreprises d'intelligence artificielle pour financer les retraites"
+     }
+    ],
+    "nuance": "Left null; PS historically opposes mandatory capitalisation."
+   },
+   {
+    "id": "fin1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "fin2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "fin3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Campaign book (La loi du plus juste, 17 Sept 2026) proposes raising the SMIC to EUR 1,700, plus conditioning corporate aid on wage increases.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la revalorisation du SMIC à 1700 euros"
+     }
+    ],
+    "nuance": "Secondary source; implies a large increase above inflation."
+   },
+   {
+    "id": "trav2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "trav4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Campaign book proposes regularising 400,000 undocumented workers.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la régularisation de 400 000 travailleurs sans-papiers"
+     }
+    ],
+    "nuance": "Not explicitly limited to labour-shortage occupations in the source."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "imm7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "sec1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "sec2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "sec3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "sec4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "sec5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   },
+   {
+    "id": "eu6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Search unavailable."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The PS signed the June 2024 Nouveau Front populaire programme, which commits to reintroducing the ISF abolished in 2017. Nothing personal and recent from Faure was found.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "re-introduce the solidarity tax on wealth that had been abolished in 2017"
+     }
+    ],
+    "nuance": "This is a 2024 party-line commitment and may be out of date. Since 2025 the PS has put the Zucman tax first. No sign was found that it has dropped ISF restoration."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "The PS 2026 budget counter-proposals included implementing the Zucman tax, and the whole left backed it in 2025.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Le Parti socialiste présente des contre-propositions budgétaires pour 2026 qui comprennent la mise en œuvre de la taxe Zucman."
+     }
+    ],
+    "nuance": "This is the party position. No personal Faure quote could be retrieved because the search budget was used up. The PS's later 'Zucman light' variants were not checked."
+   },
+   {
+    "id": "eco3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up, so this could only be checked against fetched pages. Not verified."
+   },
+   {
+    "id": "eco4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. The NFP page fetched does not mention nationalisation."
+   },
+   {
+    "id": "eco6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "ret1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Faure negotiated with Lecornu to delay the 2023 reform, freezing the legal age at 62 years 9 months until January 2028. It was voted on 12 Nov 2025. The 2024 NFP programme the PS signed backs a retirement age of 60.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "un vote sur le décalage de l'application de la réforme des retraites de 2023 de manière à geler l'âge légal à 62 ans et 9 mois jusqu'en janvier 2028"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "supports a retirement age of 60"
+     }
+    ],
+    "nuance": "His own action was a partial step: a freeze above 62, not a return to 62. The party line (2024) goes further, to 60. No personal 2026 statement on a full return to 62 was found."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "He negotiated the suspension of the 64 reform, and the party line backs 60. Both are clearly against raising the age above 64.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "geler l'âge légal à 62 ans et 9 mois jusqu'en janvier 2028"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "supports a retirement age of 60"
+     }
+    ],
+    "nuance": "No direct quote on 'above 64' was found. The code rests on the freeze he negotiated plus the party line."
+   },
+   {
+    "id": "ret3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct position found on mandatory capitalisation. His campaign book proposes making AI companies contribute to fund pensions, which points towards financing pay-as-you-go pensions.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la participation ou la cotisation des entreprises d'intelligence artificielle pour financer les retraites"
+     }
+    ],
+    "nuance": "Left null because it would only be inferred. The PS has historically opposed mandatory capitalisation, but that was not verified."
+   },
+   {
+    "id": "fin1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The 2024 NFP programme the PS signed rejects the deficit rules. That points against making the 3% target a priority at the cost of large cuts.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "rejection of deficit spending rules"
+     }
+    ],
+    "nuance": "This is a 2024 party line. In the 2025 budget negotiations the PS accepted a deficit-reduction path (not verified here), so -1 rather than -2."
+   },
+   {
+    "id": "fin2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "fin3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. The NFP rejection of deficit rules is close to this statement but not explicit, so left null."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "His campaign book 'La loi du plus juste' (17 Sept 2026) proposes raising the SMIC to EUR 1,700 and tying corporate aid to wage increases. The 2024 NFP programme the PS signed promised a 14% rise in the minimum wage.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la revalorisation du SMIC à 1700 euros"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "14 percent increase in the minimum wage"
+     }
+    ],
+    "nuance": "The only source is secondary. The +2 assumes EUR 1,700 is net, which would be a large rise above inflation. If it were gross, it would be below the current gross SMIC. Net or gross was not confirmed."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The 2024 NFP programme the PS signed commits to reversing the unemployment-benefit reform.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "reverse the unpopular reform of unemployment benefits"
+     }
+    ],
+    "nuance": "This is a 2024 party line and nothing personal and recent from Faure was found."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "trav4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. The NFP and Faure pages fetched do not mention 32 hours."
+   },
+   {
+    "id": "imm1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "imm2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "imm3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "His campaign book (Sept 2026) proposes regularising 400,000 undocumented workers.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "la régularisation de 400 000 travailleurs sans-papiers"
+     }
+    ],
+    "nuance": "The proposal is broader than labour-shortage occupations, so it fully covers the statement. The only source is secondary."
+   },
+   {
+    "id": "imm5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "imm6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "imm7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "sec1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "sec2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "sec3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on independent police oversight was found. In Sept 2026 he criticised 'contrôles au faciès' in the police. In 2021 he had asked for police to have a 'droit de regard' on court decisions, then called the phrase 'malheureuse'.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "une réalité des contrôles au faciès et des discriminations"
+     }
+    ],
+    "nuance": "His criticism of discriminatory police checks is close to this statement but does not state a position on an independent oversight body. Left null."
+   },
+   {
+    "id": "sec4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "sec5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   },
+   {
+    "id": "eu6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Web search budget used up. Not verified."
+   }
+  ],
+  "verification_notes": [
+   "SESSION LIMIT: the WebSearch budget for this session was already used up (200/200), so no searches could be run. I checked by opening known pages directly with WebFetch: fr/en Wikipedia Olivier_Faure, fr Taxe_Zucman, en New_Popular_Front, parti-socialiste.fr, projet-socialiste.fr, letempsduprojet.fr, plus several Wikipedia pages that returned nothing useful. Each null was re-checked only against those pages, not by fresh searches. This candidate should be re-run once the search budget is raised.",
+   "Confirmed: every fr.wikipedia/Olivier_Faure quote in the draft is on the live page (SMIC 1700, 400 000 sans-papiers, AI contribution, the 'décalage' vote, the 62 ans et 9 mois freeze until Jan 2028). No URLs were fabricated or dead.",
+   "eco1: +1 inferred/low, no source -> +2 party_line/low: the 2024 NFP programme the PS signed commits to reintroducing the ISF. The draft's reason for +1 (the PS prefers Zucman) is not evidence of partial opposition, so +1 was an off-by-one error.",
+   "eco2: +2 party_line/low, no source -> +2 party_line/medium: Wikipedia Taxe Zucman confirms the PS 2026 budget counter-proposals included implementing the Zucman tax. Source added.",
+   "ret1: +1 record_in_office -> +1 vote: Faure held no executive office, and the freeze came from a negotiated parliamentary vote (12 Nov 2025). Added the NFP 'retirement age of 60' party line as context. Kept +1 because his own action is partial (62y9m).",
+   "ret2: -2 record_in_office/medium -> -2 party_line/medium: 'record_in_office' was wrong. The code now rests on the freeze he negotiated plus the NFP party line (age 60). The draft's paraphrased quote was replaced with a verbatim one.",
+   "ret3: null kept; summary reworded (it said 'No evidence found' while citing a source).",
+   "fin1: null -> -1 party_line/low: the NFP programme the PS signed includes 'rejection of deficit spending rules'. Coded -1, not -2, because it is a 2024 party line and the PS took part in 2025 budget deficit negotiations.",
+   "trav1: +2 programme/medium kept; added NFP '14 percent increase' as corroboration. Flagged that it is unverified whether EUR 1,700 is net or gross. Gross would be below the current gross SMIC.",
+   "trav2: null -> -2 party_line/low: the NFP programme the PS signed commits to reversing the unemployment-benefit reform.",
+   "imm4: +2 programme/medium kept; confirmed on the source page.",
+   "sec3: null kept; added Faure's Sept 2026 criticism of 'contrôles au faciès' as context. It does not address an independent oversight body.",
+   "Sampled nulls checked against fetched pages with no evidence found: eco5, trav4, imm7, sec4, eu2, fin3, fin4, eu4 (and every other null, but only against the limited pages available)."
+  ]
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "collect": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes raising VAT, a regressive tax; it favours taxing capital and wealth, and cutting VAT on essentials. Not verified live.",
+    "sources": [],
+    "nuance": "Coded from background knowledge of the LFI line (2022 programme and its opposition to VAT increases). The web-search budget was exhausted, so no 2025-2026 source was retrieved."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "LFI voted against the 2023 'plein emploi' law that created RSA conditionality and calls it forced labour; it wants an unconditional income guarantee.",
+    "sources": [],
+    "nuance": "Recalled from LFI's parliamentary votes, not re-verified this session. A formal promise to abolish the obligation was not confirmed, hence only low confidence."
+   },
+   {
+    "id": "imm8",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI backs regularising undocumented workers and easier access to papers; no specific naturalisation text was found.",
+    "sources": [],
+    "nuance": "Inferred from the regularisation stance. Not verified live."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The 'L'Avenir en commun' programme and LFI bills include a receipt for identity checks against ethnic profiling.",
+    "sources": [],
+    "nuance": "From memory of the 2022 programme and LFI bills. Not re-verified in 2026."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Mélenchon rejects a European army and NATO integration, and favours sovereign, non-aligned French defence.",
+    "sources": [],
+    "nuance": "Recalled from past statements. He accepts cooperation but not pooling of sovereignty. Not verified live."
+   },
+   {
+    "id": "eu8",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "Mélenchon is sceptical of rapid Ukrainian EU accession and has criticised enlargement without social and fiscal harmonisation.",
+    "sources": [],
+    "nuance": "Recalled, not verified. Could be -2 if he has since opposed accession outright."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "LFI programmes provide for guaranteed minimum prices for farmers, with regulation of margins and prices.",
+    "sources": [],
+    "nuance": "From memory of the programme and LFI bills on minimum prices. Not re-verified."
+   },
+   {
+    "id": "ene5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "LFI favours a VAT cut on essential goods and an energy price freeze, but is wary of subsidising fuel.",
+    "sources": [],
+    "nuance": "Partial support. The fuel part conflicts with ecological planning, so it is coded as partial."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI strongly defends public broadcasting and opposes privatisation; its deputies voted against holding-company and privatisation plans.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "vote",
+    "summary": "LFI deputies largely voted for the assisted-dying law, and Mélenchon has supported a right to die with dignity.",
+    "sources": [],
+    "nuance": "Recalled. Not verified for 2026 and no repeal promise is known."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes banning religious symbols for accompanying parents, seeing it as stigmatising Muslim women.",
+    "sources": [],
+    "nuance": "Mélenchon defends a 'laïcité' applying to the state, not to users. Not verified live."
+   },
+   {
+    "id": "soc6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes extending bans on religious symbols to students and universities.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2025 'L'Avenir en commun' edition includes eliminating Parcoursup, consistent with ending selection.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/L'Avenir_en_commun",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Elimination of Parcoursup (summary of the 2025 edition)"
+     }
+    ],
+    "nuance": "Parcoursup abolition is confirmed. Whether replacement means zero selection is assumed from past LFI positions, hence medium."
+   },
+   {
+    "id": "san5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "LFI backs ecological planning and the ZAN objective, favouring renovation and public housing over loosening rules.",
+    "sources": [],
+    "nuance": "Inferred. Not verified live."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Jean-Luc Mélenchon",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The programme goes the other way from 'social VAT'. It cuts VAT on essential goods and funds this with a 'TVA grand luxe'. No general VAT increase is proposed.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/50/faire-la-revolution-fiscale",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Réduire la TVA sur les produits de première nécessité et réinstaurer une « TVA grand luxe » pour la financer"
+     }
+    ],
+    "nuance": "No explicit statement on 'TVA sociale' was found. The code is inferred from a programme measure that runs the opposite way (lower VAT on essentials, funded by taxing luxury goods). The source is the 2022 edition: the 2025 edition chapters could not be retrieved, because melenchon2027.fr chapter URLs return 404. Low confidence."
+   },
+   {
+    "id": "trav3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposed the 2023 'plein emploi' law that created the 15-20 hours of RSA activity. Its programme proposes an income guarantee at the poverty line. No explicit promise to abolish the hours requirement was verified.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/52/eradiquer-la-pauvrete",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Créer une garantie d'autonomie qui permettra que nul ne soit privé de sa dignité pour vivre"
+     }
+    ],
+    "nuance": "Under the brief, -2 requires a promise to abolish the obligation, and none was found. The programme predates the 2023 law and says nothing about activity conditions. LFI's vote against the law was not verified against a roll-call this session. Hence -1 (opposed, no confirmed abolition pledge)."
+   },
+   {
+    "id": "imm8",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme explicitly promises to facilitate access to French nationality, alongside full birthright citizenship and the regularisation of workers.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/57/une-republique-universaliste-contre-le-racisme-et-les-discriminations",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Garantir le droit du sol intégral à tous les enfants nés en France et faciliter l'accès à la nationalité française"
+     },
+     {
+      "url": "https://laec.fr/section/76/pour-une-politique-migratoire-humaniste-et-realiste",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "régulariser les travailleurs, étudiants, parents d'enfants scolarisés et instituer la carte de séjour de dix ans comme titre de séjour de référence"
+     }
+    ],
+    "nuance": "The measure covers access to nationality in general, which includes naturalising long-term legal residents. The source is the 2022 edition; the 2025 text could not be retrieved."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme explicitly includes an identity-check receipt to fight ethnic profiling, with training, monitoring and sanctions.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/57/une-republique-universaliste-contre-le-racisme-et-les-discriminations",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Mettre en place le récépissé de contrôle d'identité par les forces de l'ordre pour lutter contre le contrôle au faciès"
+     }
+    ],
+    "nuance": "Verbatim measure from the 2022 edition. The draft's claim about LFI bills was not verified and has been dropped. No sign of a reversal, but the 2025 edition text could not be retrieved, so confidence is medium."
+   },
+   {
+    "id": "eu7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme calls for leaving NATO and building an 'independent, republican and popular' national defence. It gives priority to buying French military equipment and to public ownership of the arms industry, which is the opposite of pooled European defence.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/72/construire-une-defense-independante-republicaine-et-populaire",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Prioriser l'acquisition de matériel militaire français dans l'armée"
+     },
+     {
+      "url": "https://laec.fr/section/71/assumer-lindependance-de-la-france-dans-le-monde",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même"
+     }
+    ],
+    "nuance": "The programme does not mention a 'European army' by name. The code rests on its sovereign-defence and national-procurement line, which conflicts directly with giving up military autonomy. The source is the 2022 edition; no 2025-2026 statement was retrieved."
+   },
+   {
+    "id": "eu8",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme would use France's veto to block any new EU enlargement without prior social, fiscal and environmental harmonisation. That is conditional opposition, which would apply to Ukraine's accession.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/69/utiliser-tous-les-leviers-daction-face-aux-institutions-europeennes",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "refuser tout nouvel accord de libre-échange et tout nouvel élargissement sans harmonisation sociale, fiscale et environnementale préalable"
+     }
+    ],
+    "nuance": "This is a general condition on enlargement, not a statement about Ukraine specifically. No 2025-2026 statement by Mélenchon on Ukraine's accession was retrieved. If he has since opposed it outright, the code would be -2."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The programme explicitly guarantees farmers remunerative prices through floor prices and bans sales at a loss.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/21/souverainete-alimentaire-et-revolution-agricole-pour-une-agriculture-ecologique-et-paysanne",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Garantir des prix rémunérateurs aux producteurs par des prix planchers pour les agriculteurs, interdire les ventes à perte"
+     }
+    ],
+    "nuance": "Verbatim from the 2022 edition. This is a long-standing LFI demand and there is no sign of a reversal."
+   },
+   {
+    "id": "ene5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The programme cuts VAT on essential goods and freezes the prices of basic necessities. No specific 5.5% VAT rate on electricity, gas and fuels was found.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/50/faire-la-revolution-fiscale",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Réduire la TVA sur les produits de première nécessité"
+     }
+    ],
+    "nuance": "Partial support, inferred: whether energy counts as an 'essential product' is not stated. The draft's claim that LFI is wary of subsidising fuel was unsourced and has been removed. Not verified for 2025-2026."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "LFI defends public broadcasting. Its programme keeps France Télévisions and Radio France public, with their presidents elected by Parliament, and nothing in it points toward privatisation.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/6/la-revolution-citoyenne-dans-les-medias",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Élire au Parlement les présidents de France Télévisions et de Radio France"
+     }
+    ],
+    "nuance": "The programme assumes public ownership but contains no explicit anti-privatisation pledge. LFI's votes against the 2025 holding-company reform were not verified this session."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme would write into the Constitution the right to die with dignity, including with assistance. That goes further than keeping the 2026 law.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/56/conquerir-de-nouveaux-droits-pour-garantir-les-libertes-et-lemancipation-individuelle",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "le droit de mourir dans la dignité (y compris avec assistance) et l'accès garanti à des soins palliatifs"
+     }
+    ],
+    "nuance": "The 2026 votes were free votes in every group (French Wikipedia, XVIIe législature article), so no group-line vote is claimed. The section URL slug for section 56 is inferred from the site's pattern; the text itself was read from laec.fr section 56."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI defines secularism as binding the state, not users, and warns against using it to single out Muslims. It opposes banning religious symbols for parents on school trips.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/5/une-republique-laique",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Elle ne doit jamais servir à montrer du doigt les croyants d'une religion, comme, dans la période récente, cela a été fait contre les musulmans."
+     }
+    ],
+    "nuance": "The programme has no specific measure on parents accompanying school trips. The code rests on LFI's general secularism line and its known opposition to such amendments, which was not re-verified live. Low confidence."
+   },
+   {
+    "id": "soc6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "LFI opposes extending bans on religious symbols to university students, consistent with its view that secularism binds the state, not users.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/5/une-republique-laique",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "nous en tenir aux principes très clairs énoncés par la loi de 1905"
+     }
+    ],
+    "nuance": "No university-specific statement was retrieved. Inferred from the programme's secularism doctrine and the party line. Low confidence."
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "A key programme measure guarantees every holder of the baccalauréat access to the course of their choice without selection, by dismantling Parcoursup. The 2025 edition keeps the abolition of Parcoursup.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/67/refonder-lenseignement-superieur",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/L'Avenir_en_commun",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "la suppression de Parcoursup (summary of the 2025 edition)"
+     }
+    ],
+    "nuance": "The phrase 'sans sélection' is explicit, so the -2 or +2 split note in the brief is satisfied: this is not merely replacing the platform."
+   },
+   {
+    "id": "san5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme pledges to fight the artificialisation of land and to build public housing to the most ambitious ecological standards. Both run directly against loosening building rules and the ZAN target.",
+    "sources": [
+     {
+      "url": "https://laec.fr/section/21/souverainete-alimentaire-et-revolution-agricole-pour-une-agriculture-ecologique-et-paysanne",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Lutter contre l'artificialisation des sols pour empêcher la disparition de surfaces agricoles utiles"
+     },
+     {
+      "url": "https://laec.fr/section/54/garantir-le-droit-au-logement",
+      "outlet": "L'Avenir en commun (LFI programme, 2022 edition)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2021-11",
+      "quote": "Construire 200 000 logements publics par an pendant cinq ans aux normes écologiques les plus ambitieuses (RE2020, bâtiments à énergie positive)"
+     }
+    ],
+    "nuance": "The source is the 2022 edition. LFI's votes on the 2025-2026 bills loosening ZAN were not verified this session."
+   }
+  ],
+  "verification_notes": [
+   "Method: WebSearch budget was exhausted (200/200). Verification relied on fetching the full 2022 L'Avenir en commun text section by section from laec.fr (all 86 sections downloaded and searched) and on French Wikipedia via its API. The 2025 edition chapter pages on melenchon2027.fr return 404 and the NUPES/livret pages return 403, so 2022-edition sources are used and flagged in each nuance.",
+   "eco7: -2/low/party_line -> -2/low/programme: added a programme source (lower VAT on essentials, funded by a luxury VAT). The code is still inferred, because there is no explicit statement on 'TVA sociale'.",
+   "trav3: -2 -> -1; evidence vote -> party_line: the brief allows -2 only with a promise to abolish, and none was found. The claimed vote was not verified against a roll-call.",
+   "imm8: +1/low/party_line -> +2/medium/programme: the programme explicitly says 'faciliter l'accès à la nationalité française', which is direct support. The draft wrongly said no naturalisation text existed (an evidence gap the draft treated as absent).",
+   "sec6: confidence low -> medium: verbatim récépissé measure confirmed in programme section 57 and source added. The unverified claim about LFI bills was removed.",
+   "eu7: confidence low -> medium; evidence statement -> programme: the defence section (independent defence, priority to French materiel) and NATO withdrawal were confirmed and cited. The draft's 'statement' was unsourced recall.",
+   "eu8: confidence low -> medium; evidence statement -> programme: confirmed the measure to veto any enlargement without prior harmonisation. Kept -1 because it is a condition, not outright opposition to Ukraine.",
+   "ecol6: confidence medium -> high: verbatim prix planchers measure confirmed and source added.",
+   "ene5: kept +1/low/inferred, added a programme source, and removed the unsourced 'wary of subsidising fuel' claim.",
+   "ins6: kept -2/medium/party_line, added a programme source, and softened the unverified claim about the holding-company vote.",
+   "soc1: confidence low -> medium; evidence vote -> programme: the programme would constitutionalise the right to die with assistance. Wikipedia shows the 2026 votes were free votes, so the 'LFI largely voted for' claim was unverifiable and has been dropped.",
+   "soc3: kept -2/low/party_line; added the programme's secularism passage as context.",
+   "soc6: kept -2/low/party_line; added the programme's secularism passage as context.",
+   "edu5: confidence medium -> high: the programme explicitly says 'accès sans sélection'. Replaced the English paraphrase quote and added the primary source.",
+   "san5: -1/low/inferred -> -2/medium/programme: explicit measures to fight land artificialisation and to apply the most ambitious building norms run directly against loosening both. The draft under-coded this by one point.",
+   "Caveat: all laec.fr sources are the 2021-11 / 2022 edition. The section 56/57/76/71/69 URL slugs were taken from the site's own sommaire listing pattern (/section/N/slug); sections 5, 6, 10, 21, 50, 52, 54, 67, 69, 70 and 72 were confirmed directly. Where a slug was not individually confirmed, the shorter form laec.fr/section/N resolves to the same page."
+  ]
+ }
+}

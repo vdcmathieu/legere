@@ -1,0 +1,982 @@
+{
+ "collect": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Coded from background knowledge of the 2022 programme (tax-cutting, no wealth-tax revival); not verified live.",
+    "sources": [],
+    "nuance": "Web search budget was exhausted before any search ran; no source opened for this item. Needs verification."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from opposition to new taxes on capital and the 2022 tax-cutting programme.",
+    "sources": [],
+    "nuance": "No live source; verify any explicit statement on the Zucman tax in 2025-2026."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed cutting production taxes and employer contributions.",
+    "sources": [],
+    "nuance": "From background knowledge, not verified live; 2027 stance not checked."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme advocated 'intelligent protectionism' (selective tariffs/EU-level preference).",
+    "sources": [],
+    "nuance": "Not verified live; strength of commitment uncertain."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found in this session.",
+    "sources": [],
+    "nuance": "Motorway concessions and energy renationalisation not researched."
+   },
+   {
+    "id": "eco6",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed abolishing inheritance tax in direct line (to my recollection).",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme set retirement at 64, not 62 or lower.",
+    "sources": [],
+    "nuance": "Not verified live; 2027 position unchecked."
+   },
+   {
+    "id": "ret2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed 64, not beyond; opposes going further than that.",
+    "sources": [],
+    "nuance": "Not verified live; could be 0 if he now backs higher ages."
+   },
+   {
+    "id": "ret3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Favoured a funded component in pensions in 2022, to my recollection; mandatory character unclear.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "fin1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports deficit reduction via spending cuts.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed cutting civil-service posts (non-regalian).",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Opposes green-transition spending and more debt.",
+    "sources": [],
+    "nuance": "Inferred from stances on climate policy and budget discipline."
+   },
+   {
+    "id": "fin4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Plausibly supportive of a constitutional rule given fiscal-hawk stance; no explicit evidence.",
+    "sources": [],
+    "nuance": "Inferred; verify."
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Prefers cutting employer/employee charges to raise net pay rather than faster SMIC increases.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Favours tighter conditions and incentives to work.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "trav3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme tied RSA to work/activity obligations.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes working-time reduction; pro-work stance.",
+    "sources": [],
+    "nuance": "Not verified live; consistent with all known positions."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Advocates 'immigration zéro' and ending family reunification.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Reconquête_(parti_politique)",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "immigration zéro"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "stopping immigration, eliminating birthright citizenship, ending family reunification, national preference"
+     }
+    ],
+    "nuance": "Sources are encyclopedic summaries, not primary; position is uncontested."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "2022 programme proposed referendums on immigration, to my recollection.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Wants to abolish AME; urgent-care-only is a weaker version of his position.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "inferred",
+    "summary": "Opposes regularisations given zero-immigration stance.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "stopping immigration"
+     }
+    ],
+    "nuance": "Inferred from adjacent positions."
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Advocates national preference for social benefits and housing.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "national preference for social benefits"
+     }
+    ],
+    "nuance": "Paraphrase of summary; housing component from background knowledge."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Advocates eliminating birthright citizenship.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "eliminating birthright citizenship"
+     }
+    ],
+    "nuance": "Secondary source summarising 2022 campaign."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "inferred",
+    "summary": "Opposes foreign voting rights given national-preference stance.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports peines planchers.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports trying serious juvenile offenders as adults.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "sec3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-police, hostile to external oversight; no explicit evidence.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Opposes cannabis legalisation.",
+    "sources": [],
+    "nuance": "Not verified live."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro video surveillance; AI-assisted version not specifically checked.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Sovereigntist; wants French law to prevail over EU law.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Reconquête_(parti_politique)",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Eurosceptic and sovereigntist"
+     }
+    ],
+    "nuance": "Specific primacy proposal from background knowledge."
+   },
+   {
+    "id": "eu2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Opposes joint EU borrowing, consistent with Eurosceptic stance.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Eurosceptic; likely supports cutting France's contribution.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Sovereigntist, opposes ceding veto on foreign policy.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports disapplying EU rules that conflict with national choices.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Reconquête_(parti_politique)",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Eurosceptic and sovereigntist"
+     }
+    ],
+    "nuance": "Specific proposal from background knowledge."
+   },
+   {
+    "id": "eu6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "In 2022 he rejected Frexit in favour of renegotiation and a Europe of nations.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Éric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "potential withdrawal or renegotiation"
+     }
+    ],
+    "nuance": "Source is ambiguous; check 2027 stance."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes bringing back the ISF; the 2022 programme also cut the IFI by taking the main residence out of its base.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Il est opposé au retour de l'ISF."
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/pouvoir-dachat",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Réformer l'impôt sur la fortune immobilière (IFI) en excluant la résidence principale de son calcul"
+     }
+    ],
+    "nuance": "Evidence dates from the 2022 campaign. No 2027 programme had been published at the time of checking."
+   },
+   {
+    "id": "eco2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from his opposition to the ISF and the tax-cutting agenda he shares with Reconquête.",
+    "sources": [],
+    "nuance": "No explicit Zemmour statement on the Zucman tax was verified. The search budget ran out before one could be found."
+   },
+   {
+    "id": "eco3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme cut production taxes by a further EUR 30bn and lowered corporate tax. It also offered a 'zéro charge' bonus exempt from social contributions.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/competitivite-economie",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Baisser les impôts de production de 30 milliards d'euros supplémentaires"
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/pouvoir-dachat",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Créer une prime \"zéro charge\" au mérite, versée par l'employeur, exonérée de cotisations et d'impôts"
+     }
+    ],
+    "nuance": "This is the 2022 programme. In 2026 Reconquête was still campaigning on 'baisse d'impôts et de charges' (combienjegagne.fr)."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "In 2022 he proposed higher taxes on imports from outside the EU, a ban on agricultural imports that fail French standards, and a national preference in public procurement.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "il propose d'augmenter la taxation des produits issus de l'importation extracommunautaire (dont la Chine)"
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/competitivite-economie",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Interdire les importations de produits agricoles non conformes aux standards français"
+     }
+    ],
+    "nuance": "Coded +1 because he never accepted the price-rise trade-off. Reconquête's more liberal turn in 2025-26 may soften this. Could be +2."
+   },
+   {
+    "id": "eco5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on renationalising motorways or energy.",
+    "sources": [],
+    "nuance": "The 2022 programme had a sovereign investment fund and new nuclear plants (EPR), but no return of motorways or energy to public control. Not researched further."
+   },
+   {
+    "id": "eco6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme exempted family-business transfers from inheritance and gift duties. It also raised the gift allowance to EUR 200,000 every 10 years.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/pouvoir-dachat",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Relever l'abattement fiscal à 200 000€ pour les donations des parents et grands-parents tous les 10 ans"
+     }
+    ],
+    "nuance": "The draft said he abolished inheritance tax in direct line. That was not verified; the verified measures are the family-business exemption and the larger allowance. These are 2022 positions."
+   },
+   {
+    "id": "ret1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme raised the legal retirement age to 64 by 2030, which is the opposite of returning to 62.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/retraites",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Augmenter l'âge légal de la retraite à 64 ans progressivement d'ici à 2030"
+     }
+    ],
+    "nuance": "This is the 2022 position. No 2027 pension stance was verified."
+   },
+   {
+    "id": "ret2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The 2022 plan set the age at 64 and added one more year of contributions. It did not go beyond 64.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "repoussant l'âge légal de départ à la retraite à 64 ans d'ici 2030 et en augmentant d'une année la durée de cotisation"
+     }
+    ],
+    "nuance": "He never explicitly rejected an age above 64. Coded -1 because his own plan stopped at 64. The 2027 stance was not checked and could differ."
+   },
+   {
+    "id": "ret3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No verified evidence of a mandatory funded (capitalisation) pension component.",
+    "sources": [],
+    "nuance": "The draft's +1 came from recollection. Neither the Institut Montaigne summary of the 2022 programme nor Wikipedia mentions capitalisation."
+   },
+   {
+    "id": "fin1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme aimed to get the deficit below 3% by 2025, partly through savings. In 2025-26 Reconquête campaigned on EUR 130bn of spending cuts.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "« repasser sous le seuil des 3% dès 2025 »"
+     },
+     {
+      "url": "https://combienjegagne.fr/",
+      "outlet": "Reconquête / Sarah Knafo site",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026",
+      "quote": "Financée par un plan massif d'économies, dont j'ai déjà dévoilé les 130 premiers milliards"
+     }
+    ],
+    "nuance": "The cuts were also meant to pay for tax cuts, so deficit reduction is not clearly his top priority. Hence +1. The 130bn plan is Sarah Knafo's."
+   },
+   {
+    "id": "fin2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "The Reconquête homepage features 'Il faut supprimer 800 000 postes de fonctionnaires !'.",
+    "sources": [
+     {
+      "url": "https://www.parti-reconquete.fr/",
+      "outlet": "Reconquête (party site)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-10",
+      "quote": "Il faut supprimer 800 000 postes de fonctionnaires !"
+     }
+    ],
+    "nuance": "The video is Sarah Knafo's (YouTube oEmbed author), not Zemmour's own. It sits on his party's homepage. No personal Zemmour statement was verified."
+   },
+   {
+    "id": "fin3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from the party's spending-cut and anti-debt line and his scepticism of green subsidies (he would redirect wind and solar support).",
+    "sources": [],
+    "nuance": "Inferred. No explicit statement found."
+   },
+   {
+    "id": "fin4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Plausibly supportive given his fiscal-hawk line. No explicit evidence.",
+    "sources": [],
+    "nuance": "Inferred. Not verified."
+   },
+   {
+    "id": "trav1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme did not raise the SMIC. It raised net pay instead by cutting CSG (9.2% to 2.5%) and exempting overtime.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/pouvoir-dachat",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Ne pas augmenter le Smic"
+     }
+    ],
+    "nuance": "This is the 2022 programme."
+   },
+   {
+    "id": "trav2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from his pro-work, anti-'assistanat' line. No explicit proposal on unemployment benefits was found.",
+    "sources": [],
+    "nuance": "In September 2026 he proposed expelling foreigners unemployed for more than about a year. That concerns immigration, not benefit levels."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Likely supportive given his stance on welfare. No verified proposal tying RSA to activity hours.",
+    "sources": [],
+    "nuance": "The draft's 2022-programme claim was not found in the Institut Montaigne summary or on Wikipedia."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-work line: the 2022 programme fully exempted overtime from tax and charges. No 32-hour proposal.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/pouvoir-dachat",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Exonérer totalement d'impôts et de charges sociales les heures supplémentaires"
+     }
+    ],
+    "nuance": "Inferred from adjacent measures. No explicit statement on 32 hours."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for 'immigration zéro' and an end to family reunification. In September 2026 he went further, calling for expulsions of legal residents who are long-term unemployed.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Reconqu%C3%AAte_(parti_politique)",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "immigration zéro"
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/immigration",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Mettre fin au regroupement familial"
+     },
+     {
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673",
+      "outlet": "RTL",
+      "outlet_lean": "centre",
+      "date": "2026-09-18",
+      "quote": "Il faut également renvoyer les chômeurs de longue durée, et tous ceux qui vivent uniquement des aides sociales"
+     }
+    ],
+    "nuance": "Confirmed in 2026 (BFMTV interview reported by RTL)."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme put immigration to a referendum and would follow the result even against the EU.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/europe-et-international",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Rendre aux souverainetés nationales la question de l'immigration par référendum et suivre le résultat, même contre l'avis de l'Union européenne"
+     }
+    ],
+    "nuance": "This is the 2022 programme. Not re-checked for 2027."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme abolished AME outright, which goes further than urgent-care-only.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/immigration",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Supprimer l'aide médicale d'État (AME)"
+     }
+    ],
+    "nuance": "He wants more than the statement: outright abolition. Coded +2 as strong support for restricting AME. Urgent care would remain only through existing emergency-care funds."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme banned regularising anyone who entered illegally. In 2026 he called for removing all undocumented migrants.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/immigration",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Interdire la régularisation de tout étranger entré illégalement sur le territoire français"
+     },
+     {
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673",
+      "outlet": "RTL",
+      "outlet_lean": "centre",
+      "date": "2026-09-18",
+      "quote": "Il faut également renvoyer, c'est une évidence, les clandestins."
+     }
+    ],
+    "nuance": "Explicit programme position, confirmed in 2026."
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme withdrew non-contributory benefits from non-EU foreigners, a 'préférence nationale' for social benefits.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/immigration",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Retirer les aides sociales non contributives aux étrangers extra-européens"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "mettant fin aux aides sociales pour les étrangers extracommunautaires"
+     }
+    ],
+    "nuance": "The social-housing priority part was not verified."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme abolished droit du sol.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/immigration",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Supprimer le droit du sol"
+     }
+    ],
+    "nuance": "2022 programme. No sign of a reversal."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from his national-preference and zero-immigration stance.",
+    "sources": [],
+    "nuance": "Inferred. No explicit statement verified."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme brought in minimum sentences for every crime and offence, wider than repeat offenders only.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/securite-et-justice",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Instaurer des peines plancher pour chaque crime et délit"
+     }
+    ],
+    "nuance": "2022 programme."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme lowered the age of criminal majority from 18 to 16.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/securite-et-justice",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Abaisser l'âge de la majorité pénale de 18 à 16 ans"
+     }
+    ],
+    "nuance": "Goes further than the statement: it covers all offences by 16-year-olds, not only serious crimes."
+   },
+   {
+    "id": "sec3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-police and hostile to external oversight. No explicit evidence.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Presumed opposed to legalising cannabis, in line with his law-and-order stance. No source verified.",
+    "sources": [],
+    "nuance": "The draft called this a 'statement' but had no source. Downgraded to inferred."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Supports video surveillance and has praised AI. The AI-assisted surveillance proposal itself was not checked.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme revised Article 55 of the Constitution so that any new national law prevails over existing EU law.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/europe-et-international",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Réviser l'article 55 de la Constitution pour faire primer toute nouvelle loi nationale sur le droit européen existant"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "faire primer toute nouvelle loi nationale sur le droit européen existant"
+     }
+    ],
+    "nuance": "Applies to new laws over existing EU law. 2022 programme."
+   },
+   {
+    "id": "eu2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Presumed opposed to EU joint borrowing, given his sovereigntist stance.",
+    "sources": [],
+    "nuance": "Inferred. The Reconquête MEPs' votes were not checked."
+   },
+   {
+    "id": "eu3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Eurosceptic and focused on cutting spending, so likely supports a smaller contribution.",
+    "sources": [],
+    "nuance": "Inferred. No explicit proposal verified."
+   },
+   {
+    "id": "eu4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Sovereigntist who opposes new transfers of competence, so he would keep the veto.",
+    "sources": [],
+    "nuance": "Inferred from 'bloquer tout nouveau transfert de compétence'."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The 2022 programme set aside EU rules to control migration and would follow an immigration referendum against EU opinion. He said France should do 'ce qu'on a envie de faire'.",
+    "sources": [
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/europe-et-international",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Déroger aux règles européennes pour mieux contrôler les flux migratoires"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "faire ce qu'on a envie de faire quand on a envie de le faire"
+     }
+    ],
+    "nuance": "2022 positions."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "He backs staying in the EU, reformed into a 'Europe des Nations'. He also said leaving the euro would be worse than having joined it.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Il prône un maintien dans l'Union européenne tout en s'affranchissant de ses règles"
+     },
+     {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/europe-et-international",
+      "outlet": "Institut Montaigne",
+      "outlet_lean": "think-tank",
+      "date": "2022-04",
+      "quote": "Réorienter la construction européenne vers une Europe des Nations"
+     }
+    ],
+    "nuance": "Some observers call this a 'soft Frexit'. That is a characterisation by others, not his stated position. 2022 positions; 2027 stance not verified."
+   }
+  ],
+  "verification_notes": [
+   "Method: the WebSearch budget for this session was exhausted (200/200), so verification used direct fetches only: Institut Montaigne 2022 programme pages (all themes), the raw French Wikipedia article on Zemmour, the Reconquête party site, combienjegagne.fr and RTL 18 Sept 2026 (via curl).",
+   "The draft cited the Wikipedia (fr) Zemmour page with English quotes ('stopping immigration...', 'potential withdrawal or renegotiation') that do not appear verbatim on that page. Replaced them with verbatim French quotes or other sources.",
+   "eco1: -2/low/programme(no source) -> -2/medium/programme: Wikipedia states 'Il est opposé au retour de l'ISF'; Montaigne confirms the IFI cut.",
+   "eco3: -> confidence low -> medium, sources added (Montaigne: impôts de production -30bn, prime 'zéro charge').",
+   "eco4: +1 kept, confidence low -> medium: Wikipedia and Montaigne confirm higher taxes on extra-EU imports and bans on non-compliant agricultural imports.",
+   "eco6: +2 kept, confidence low -> medium; summary corrected: the abolition of direct-line inheritance tax was not verified, the actual measures are the family-business exemption and a EUR 200k gift allowance.",
+   "ret1: -2 kept, confidence low -> medium, Montaigne source added (64 by 2030).",
+   "ret2: -1 kept, Wikipedia source added (64 plus one more contribution year).",
+   "ret3: +1/low/programme -> null/none/none: no evidence of a mandatory capitalisation pillar in Montaigne or Wikipedia; the draft relied on recollection.",
+   "fin1: +1 kept, confidence low -> medium, sources added (deficit below 3% by 2025 target; Knafo's 130bn savings plan).",
+   "fin2: +2/low/programme -> +2/medium/party_line: the only verified evidence is Sarah Knafo's '800 000 postes de fonctionnaires' video on the Reconquête homepage, not a personal Zemmour statement.",
+   "trav1: -2 kept, confidence low -> medium, Montaigne 'Ne pas augmenter le Smic' added.",
+   "trav2: +1/programme -> +1/inferred: no programme evidence found.",
+   "trav3: +2/low/programme -> +1/low/inferred: the RSA activity-hours proposal was not found in the 2022 programme summaries; the draft relied on recollection.",
+   "trav4: -2/medium/programme -> -2/low/inferred: no explicit 32-hour statement; inferred from the overtime exemption.",
+   "imm1: +2/high kept, evidence_type programme -> statement; added Montaigne and RTL Sept 2026 (hardened stance: expel long-term unemployed foreigners).",
+   "imm2: +2/low -> +2/medium: Montaigne confirms the immigration referendum.",
+   "imm3: +2/low -> +2/medium: Montaigne confirms AME abolition.",
+   "imm4: -2/medium/inferred -> -2/high/programme: explicit ban on regularising illegal entrants (Montaigne), plus the 2026 RTL statement.",
+   "imm5: +2 kept, sources replaced with verbatim Montaigne and Wikipedia text; housing part still unverified.",
+   "imm6: +2/high kept, source replaced with Montaigne verbatim.",
+   "imm7: -2/medium/inferred -> -2/low/inferred: inferred codes carry low confidence under the brief.",
+   "sec1: +2/low -> +2/medium: Montaigne 'peines plancher pour chaque crime et délit'.",
+   "sec2: +2/low -> +2/medium: Montaigne 'Abaisser l'âge de la majorité pénale de 18 à 16 ans'.",
+   "sec4: -2/medium/statement -> -2/low/inferred: no source was provided or found.",
+   "eu1: +2/medium -> +2/high: Montaigne and Wikipedia confirm the Article 55 revision.",
+   "eu5: +2 kept, sources replaced with Montaigne 'Déroger aux règles européennes' and a Wikipedia quote.",
+   "eu6: -1/low/programme -> -2/medium/statement: Wikipedia says 'Il prône un maintien dans l'Union européenne'; 'soft Frexit' is a characterisation by observers, not his position.",
+   "Not verified (no searches left): Zucman tax (eco2), unemployment benefits (trav2), RSA (trav3), cannabis (sec4), AI video surveillance (sec5), EU joint borrowing, budget contribution and unanimity (eu2-eu4), golden rule (fin4). These remain inferred/low and should be re-checked once search is available, especially against a 2027 programme (formal candidacy expected October 2026)."
+  ]
+ }
+}

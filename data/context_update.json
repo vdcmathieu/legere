@@ -1,0 +1,92 @@
+[
+  {
+    "id": "eco7",
+    "today_fr": "La TVA (taux normal de 20 %, taux réduits de 10 %, 5,5 % et 2,1 %) rapporte environ 200 milliards d'euros par an ; une « TVA sociale » votée en 2012 a été abrogée avant d'entrer en vigueur et l'idée est régulièrement rediscutée depuis, sans avoir été adoptée.",
+    "pour_fr": "Transférer une partie du financement de la protection sociale des salaires vers la consommation baisse le coût du travail, fait contribuer les produits importés et peut soutenir l'emploi et la compétitivité, comme l'Allemagne l'a fait en 2007.",
+    "contre_fr": "La TVA pèse proportionnellement plus sur les ménages modestes, qui consomment l'essentiel de leur revenu, et rien ne garantit que les entreprises répercutent la baisse des cotisations en hausses de salaires plutôt qu'en marges."
+  },
+  {
+    "id": "imm8",
+    "today_fr": "La naturalisation par décret exige en règle générale cinq ans de résidence (deux pour les diplômés du supérieur français), des ressources stables, un niveau de français relevé et, depuis 2026, la réussite d'un examen civique ; quelques dizaines de milliers de personnes sont naturalisées chaque année et une circulaire de 2025 a durci l'appréciation des dossiers.",
+    "pour_fr": "Des personnes qui travaillent, paient des impôts et vivent en France depuis des années en respectant les lois ont tout intérêt, comme le pays, à devenir pleinement citoyennes plutôt que de rester durablement des résidentes de seconde catégorie.",
+    "contre_fr": "La nationalité est l'aboutissement d'une intégration vérifiée, et rendre son accès plus facile ou plus rapide affaiblirait les exigences de langue, de ressources et d'adhésion aux valeurs qui donnent sa valeur à l'acte de devenir français."
+  },
+  {
+    "id": "sec6",
+    "today_fr": "Les contrôles d'identité ne laissent aucune trace écrite remise à la personne contrôlée ; l'Assemblée a rejeté une expérimentation du récépissé en 2016, et en 2023 le Conseil d'État a reconnu l'existence de contrôles discriminatoires tout en refusant d'imposer des mesures au gouvernement.",
+    "pour_fr": "Un récépissé oblige à motiver chaque contrôle, permet de mesurer et de contester les contrôles répétés visant les mêmes personnes, et a réduit les contrôles inutiles là où il a été expérimenté, en France comme à l'étranger.",
+    "contre_fr": "Remplir un document à chaque contrôle alourdit le travail des policiers et en réduit le nombre, y compris les contrôles justifiés, alors que les caméras-piétons et la traçabilité numérique offrent un contrôle sans paperasse supplémentaire."
+  },
+  {
+    "id": "eu7",
+    "today_fr": "La défense reste une compétence nationale et il n'existe pas d'armée européenne ; depuis 2025, l'Union finance des achats d'armement communs par des prêts (programme SAFE, 150 milliards d'euros) et des programmes industriels, et la France dispose seule de sa dissuasion nucléaire.",
+    "pour_fr": "Face au désengagement américain et à la menace russe, aucun pays européen ne peut se défendre seul, et mutualiser achats, industrie et commandements réduit les doublons et donne à l'Europe un poids que la France n'a plus par elle-même.",
+    "contre_fr": "Engager des soldats est la décision la plus grave d'un État et ne peut dépendre d'une majorité d'autres pays ; l'intégration risque aussi de diluer la dissuasion et l'industrie françaises dans des compromis à 27 et de freiner les décisions en crise."
+  },
+  {
+    "id": "eu8",
+    "today_fr": "L'Ukraine est candidate à l'Union depuis juin 2022 et les négociations d'adhésion, ouvertes en juin 2024, ont vu leurs premiers chapitres s'ouvrir en 2026 après un long blocage ; une adhésion exige l'accord unanime des 27 et prendra encore des années.",
+    "pour_fr": "Ancrer l'Ukraine dans l'Union est la garantie la plus durable de la sécurité du continent et récompense un pays qui défend les valeurs européennes au prix d'une guerre, tout en ouvrant un grand marché et des ressources agricoles et industrielles.",
+    "contre_fr": "Intégrer un pays en guerre, très agricole et plus pauvre que tous les membres actuels bouleverserait le budget européen et la politique agricole commune, exposerait les agriculteurs français à une concurrence directe et importerait un conflit non résolu."
+  },
+  {
+    "id": "ene5",
+    "today_fr": "L'électricité, le gaz et les carburants sont soumis au taux normal de TVA de 20 %, étendu depuis août 2025 aux abonnements d'électricité et de gaz ; le droit européen autorise un taux réduit sur l'électricité et le gaz mais pas, en l'état, sur les carburants, et la mesure coûterait de l'ordre d'une dizaine de milliards d'euros par an.",
+    "pour_fr": "L'énergie est un bien de première nécessité que personne ne peut éviter de consommer, et baisser sa TVA soulage immédiatement tous les ménages, surtout les plus modestes et les ruraux, sans créer de nouveau guichet.",
+    "contre_fr": "Une baisse de TVA profite davantage aux gros consommateurs qu'aux ménages modestes, coûte très cher au budget, encourage la consommation d'énergies fossiles et peut être partiellement captée par les fournisseurs plutôt que répercutée dans les prix."
+  },
+  {
+    "id": "ins6",
+    "today_fr": "France Télévisions, Radio France, France Médias Monde, Arte et l'INA sont des sociétés publiques financées par une fraction de la TVA d'environ 4 milliards d'euros par an depuis la suppression de la redevance en 2022 ; un projet de holding commune a été discuté au Parlement en 2024-2025, mais aucune privatisation n'est engagée.",
+    "pour_fr": "L'État n'a plus vocation à posséder des chaînes et des radios dans un paysage où l'offre privée et numérique est surabondante, et une privatisation rapporterait des recettes tout en économisant plusieurs milliards par an de dépense publique.",
+    "contre_fr": "Un audiovisuel public indépendant des annonceurs et des actionnaires garantit une information de référence, une offre culturelle et régionale non rentable et une présence internationale, que des chaînes privées concentrées entre quelques mains ne fourniraient pas."
+  },
+  {
+    "id": "san5",
+    "today_fr": "La loi Climat de 2021 impose de diviser par deux le rythme d'artificialisation des sols d'ici 2031 et d'atteindre « zéro artificialisation nette » en 2050 ; un texte assouplissant l'étape de 2031 a été voté par le Sénat en 2025 et débattu à l'Assemblée, tandis que la construction de logements neufs est à son plus bas depuis des décennies.",
+    "pour_fr": "La crise du logement vient d'abord d'une offre insuffisante, et des normes de construction et des règles foncières trop rigides bloquent des projets dans les zones où la demande est forte, renchérissant chaque mètre carré.",
+    "contre_fr": "L'artificialisation détruit chaque année des terres agricoles et naturelles, aggrave inondations et îlots de chaleur, et le logement manque surtout dans des villes déjà denses où le problème est le prix et la vacance, pas le foncier disponible."
+  },
+  {
+    "id": "soc6",
+    "today_fr": "La loi de 2004 interdit les signes religieux ostensibles aux élèves des écoles, collèges et lycées publics, mais pas aux étudiants de l'université, considérés comme des usagers majeurs ; seuls les personnels y sont tenus à la neutralité, et des propositions de loi visant à étendre l'interdiction aux étudiants ont été déposées sans être adoptées.",
+    "pour_fr": "L'université est un service public où la neutralité devrait protéger tous les étudiants des pressions religieuses et communautaires, et prolonger la règle du lycée éviterait que l'expression religieuse s'y impose dans les cours et les examens.",
+    "contre_fr": "Les étudiants sont des adultes libres de leurs convictions, la liberté d'expression est au cœur de l'université, et une interdiction viserait en pratique une seule religion et écarterait des jeunes femmes des études, à rebours de l'objectif d'émancipation."
+  },
+  {
+    "id": "ecol6",
+    "today_fr": "Il n'existe pas de prix planchers agricoles : les lois Egalim (2018, 2021, 2023) imposent de construire les contrats à partir des coûts de production sans fixer de prix minimaux ; des prix planchers ont été annoncés en 2024 mais une proposition de loi en ce sens a été rejetée par l'Assemblée en avril 2024, et le droit européen limite la fixation de prix par l'État.",
+    "pour_fr": "Les agriculteurs sont les seuls à ne pas fixer leur prix de vente et à subir des prix inférieurs à leurs coûts, et un plancher garantit un revenu minimal face à la puissance de la grande distribution et des industriels.",
+    "contre_fr": "Un prix garanti encourage la surproduction, renchérit les produits pour les consommateurs et favorise les importations moins chères, et il se heurte aux règles du marché unique européen qui interdisent à un État de fixer seul les prix agricoles."
+  },
+  {
+    "id": "soc1",
+    "today_fr": "La loi créant un droit à l'aide à mourir pour les adultes atteints d'une affection grave et incurable en phase avancée ou terminale, capables d'exprimer une volonté libre et éclairée, a été définitivement adoptée le 15 juillet 2026, validée par le Conseil constitutionnel le 14 août et promulguée le 18 août 2026.",
+    "pour_fr": "Maintenir la loi respecte le choix de personnes en fin de vie de ne pas subir des souffrances qu'aucun soin ne soulage, dans un cadre strict de conditions médicales et de clauses de conscience, comme en Belgique ou en Espagne.",
+    "contre_fr": "Revenir sur la loi protège les plus vulnérables d'une pression à abréger leur vie et préserve le rôle de la médecine, qui est de soulager et d'accompagner, alors que l'accès aux soins palliatifs reste très inégal."
+  },
+  {
+    "id": "trav3",
+    "today_fr": "Depuis janvier 2025, les bénéficiaires du RSA doivent signer un contrat d'engagement et effectuer 15 à 20 heures d'activité par semaine (formation, démarches, immersion), avec une suspension des droits possible en cas de manquement ; les premières évaluations publiées sur ses effets restent partielles.",
+    "pour_fr": "Maintenir l'obligation donne à chaque allocataire un accompagnement réel et un rythme d'activité qui rompt l'isolement et facilite le retour vers l'emploi, en échange d'une allocation financée par la collectivité.",
+    "contre_fr": "L'obligation stigmatise des personnes souvent malades ou chargées de famille, mobilise des moyens administratifs importants pour un effet sur l'emploi non démontré, et la menace de suspension prive de revenu ceux qui en ont le plus besoin."
+  },
+  {
+    "id": "soc3",
+    "today_fr": "Aucune loi n'interdit les signes religieux aux parents qui accompagnent les sorties scolaires : le Conseil d'État a estimé en 2013 qu'ils n'étaient pas soumis à la neutralité des agents publics, et le Sénat a voté une interdiction en 2019 que l'Assemblée n'a jamais adoptée.",
+    "pour_fr": "Les sorties scolaires prolongent le temps d'école et les parents qui les encadrent y exercent une fonction auprès des élèves, à qui la neutralité doit être garantie comme en classe.",
+    "contre_fr": "Les parents accompagnateurs sont des usagers bénévoles, pas des agents de l'État, et les exclure priverait les écoles de nombreux volontaires tout en désignant une religion particulière."
+  },
+  {
+    "id": "edu5",
+    "today_fr": "Depuis la loi de 2018 et Parcoursup, les universités fixent des capacités d'accueil, classent les candidats et peuvent imposer un « oui si » avec remise à niveau ; en pratique, certaines licences très demandées refusent des bacheliers et l'entrée en master est sélective depuis 2017.",
+    "pour_fr": "Le baccalauréat devrait garantir à chacun l'accès à la licence de son choix, et le classement des dossiers reproduit les inégalités du lycée d'origine tout en imposant un stress et une opacité considérables aux familles.",
+    "contre_fr": "Sans sélection, les filières saturées devraient tirer au sort ou accueillir bien au-delà de leurs capacités, avec des taux d'échec massifs en première année, alors qu'orienter selon les acquis protège les étudiants de l'échec."
+  },
+  {
+    "id": "ecol3",
+    "today_fr": "Le règlement européen de 2023 impose 100 % de voitures neuves sans émissions à partir de 2035 ; en décembre 2025 la Commission a proposé de ramener l'objectif à 90 % avec des flexibilités, révision en cours d'examen par le Parlement européen et les États membres.",
+    "pour_fr": "Un cap clair et inchangé pour 2035 donne aux constructeurs et aux investisseurs la visibilité nécessaire pour la transition et reste indispensable pour atteindre les objectifs climatiques des transports.",
+    "contre_fr": "Les voitures électriques restent chères et les constructeurs européens perdent du terrain face à la Chine ; un assouplissement laisse une place aux hybrides et protège l'emploi industriel pendant la transition."
+  }
+]

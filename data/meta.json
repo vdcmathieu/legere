@@ -1,0 +1,9 @@
+{
+ "asof": "2026-10-05",
+ "asof_fr": "5 octobre 2026",
+ "election": {"round1": "2027-04-18", "round2": "2027-05-02"},
+ "polls": {
+  "source": "Toluna Harris Interactive pour M6/RTL, vague 5, terrain du 8 au 10 septembre 2026, 2 052 inscrits, intentions de vote au premier tour selon les hypothèses testées (fourchette sur les hypothèses). Seuls les chiffres vérifiés sont affichés",
+  "values": {"lepen": [33, 36], "melenchon": [16, 17], "philippe": [14, 19], "attal": [8, 15], "glucksmann": [10, 12], "retailleau": [7, 10], "zemmour": [5, 5]}
+ }
+}

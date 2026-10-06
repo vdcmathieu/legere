@@ -1,0 +1,443 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Le programme du PCF (proposition 127) rétablit l'impôt sur la fortune, en triple le rendement, relève ses taux et sa progressivité, et supprime la flat tax (PFU).",
+   "nuance": "L'assiette n'est pas précisée, mais l'ISF qu'il s'agit de rétablir incluait les actifs financiers : un ISF rétabli et triplé répond donc pleinement à l'énoncé. Le texte détaillé est le programme « Jours heureux » de 2022, que pcf.fr présente encore en 2026 comme la plateforme du parti. Le site de campagne 2027 (fabienroussel2027.fr) ne contient pas encore de programme détaillé."
+  },
+  {
+   "id": "eco2",
+   "summary": "Le PCF figure parmi les partis de gauche qui soutiennent la taxe Zucman. Son propre programme va plus loin, avec un ISF triplé.",
+   "nuance": "Il s'agit de la position du parti. Aucune déclaration personnelle de Roussel sur la taxe Zucman n'a pu être vérifiée (budget de recherche web épuisé). Codé +2 car le parti soutient pleinement la mesure et que le programme d'un ISF triplé va au-delà."
+  },
+  {
+   "id": "eco3",
+   "summary": "Le programme (proposition 11) supprime les exonérations de cotisations patronales issues du CICE. Une pétition du PCF demande de conditionner les aides aux entreprises et de réduire des deux tiers le nombre de niches fiscales et de subventions aux entreprises.",
+   "nuance": "Les impôts de production ne sont pas abordés explicitement. Roussel est favorable aux PME et à l'industrie, mais le programme supprime des baisses de cotisations existantes au lieu d'en ajouter de nouvelles."
+  },
+  {
+   "id": "eco4",
+   "summary": "Le programme s'oppose aux traités de libre-échange et appelle à une « maîtrise des échanges » via un remplacement de l'OMC (proposition 171). Roussel fait campagne sur la réindustrialisation.",
+   "nuance": "Aucune proposition explicite de droits de douane ou de quotas, ni d'acceptation de prix plus élevés, n'a été trouvée. Codé +1 comme correspondance partielle."
+  },
+  {
+   "id": "eco5",
+   "summary": "Propose de nationaliser TotalEnergies et Engie, en plus d'EDF. Le programme énumère des nationalisations (EDF, Engie, SNCF et d'autres), et Roussel demande de renationaliser les autoroutes.",
+   "nuance": ""
+  },
+  {
+   "id": "eco6",
+   "summary": "La proposition 128 rend les droits de succession beaucoup plus progressifs (deux fois plus de tranches) et supprime les dispositifs d'optimisation, avec un abattement de 170 000 euros.",
+   "nuance": "Effet mixte : l'abattement réduirait l'impôt sur les petites successions, tandis que les grosses successions paieraient davantage. La direction d'ensemble va à l'encontre d'une baisse de l'impôt, d'où le -1."
+  },
+  {
+   "id": "ret1",
+   "summary": "Retraite à 60 ans à taux plein (proposition 8).",
+   "nuance": "Va au-delà de 62 ans."
+  },
+  {
+   "id": "ret2",
+   "summary": "S'oppose à tout relèvement. Veut la retraite à 60 ans.",
+   "nuance": ""
+  },
+  {
+   "id": "ret3",
+   "summary": "Le PCF défend le système par répartition et s'oppose aux retraites par capitalisation.",
+   "nuance": "Les pages de programme consultées ne mentionnent pas explicitement la capitalisation. C'est la ligne historique du parti, non sourcée directement lors de cette session."
+  },
+  {
+   "id": "fin1",
+   "summary": "Le programme (proposition 156) veut mettre fin définitivement à la règle des 3 % de déficit et au pacte de stabilité, qu'il qualifie de « carcan d'austérité ». Il prévoit aussi le recrutement de 500 000 agents publics.",
+   "nuance": ""
+  },
+  {
+   "id": "fin2",
+   "summary": "Propose la création de 500 000 emplois dans la fonction publique (proposition 29).",
+   "nuance": ""
+  },
+  {
+   "id": "fin3",
+   "summary": "Un vaste programme de services publics et d'investissement, financé principalement par la taxation du capital et une BCE placée sous contrôle démocratique (proposition 157). Aucune déclaration explicite sur la dette n'a pu être vérifiée.",
+   "nuance": "Codé +1 car l'accent est mis sur l'impôt et le crédit de la BCE plutôt que sur la dette en tant que telle."
+  },
+  {
+   "id": "fin4",
+   "summary": "Le programme rejette la règle des 3 % de déficit et le pacte de stabilité. Un plafond de déficit inscrit dans la Constitution va directement à son encontre.",
+   "nuance": "La règle d'or constitutionnelle n'est pas abordée nommément. La position est déduite du rejet explicite des plafonds de déficit."
+  },
+  {
+   "id": "trav1",
+   "summary": "Porter rapidement le SMIC à 1 600 euros nets (proposition 1).",
+   "nuance": ""
+  },
+  {
+   "id": "trav2",
+   "summary": "Le programme (proposition 2) rétablit les droits des demandeurs d'emploi rognés par les gouvernements précédents, tant la durée d'affiliation requise que le niveau des allocations.",
+   "nuance": ""
+  },
+  {
+   "id": "trav3",
+   "summary": "Comme député, Roussel a voté contre l'ensemble du projet de loi pour le plein emploi en première lecture (10 octobre 2023). Cette loi a créé l'obligation de 15 à 20 heures d'activité pour les bénéficiaires du RSA. Aucune promesse 2025-2026 d'abroger cette obligation n'a été trouvée.",
+   "nuance": "Il s'est opposé à la création de l'obligation, mais aucun engagement d'abrogation n'a été trouvé, d'où un -1 plutôt qu'un -2. Le programme du PCF sur pcf.fr (proposition 42) veut ouvrir le RSA aux moins de 25 ans et, à terme, le remplacer par un dispositif d'emploi ou de formation garanti."
+  },
+  {
+   "id": "trav4",
+   "summary": "Semaine de 32 heures sans perte de salaire (proposition 9).",
+   "nuance": ""
+  },
+  {
+   "id": "imm1",
+   "summary": "Le programme ouvre des voies légales et sûres aux migrants et élargit l'accueil des réfugiés (proposition 162). Roussel dit ne pas lier immigration et chômage, même si sa rhétorique sur les « frontières passoires » est moins libérale que celle du reste de la gauche.",
+   "nuance": "Aucune déclaration sur les volumes d'immigration de travail, familiale ou étudiante n'a été trouvée. Codé -1 plutôt que -2 car sa rhétorique est plus ambivalente que le programme."
+  },
+  {
+   "id": "imm2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Le programme (proposition 134) prévoit des référendums déclenchés par un million de citoyens en général, mais ne dit rien de l'immigration en particulier."
+  },
+  {
+   "id": "imm3",
+   "summary": "Le PCF défend l'AME.",
+   "nuance": "Non sourcé directement. Les pages de programme consultées ne mentionnent pas l'AME."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le PCF soutient la régularisation des travailleurs sans papiers. L'accent mis personnellement par Roussel est moins clair.",
+   "nuance": "Non vérifié. Les pages de programme consultées ne mentionnent la régularisation que pour les personnes en situation de prostitution (objectif 5)."
+  },
+  {
+   "id": "imm5",
+   "summary": "Le PCF rejette la préférence nationale.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "imm6",
+   "summary": "Le PCF s'oppose à la remise en cause du droit du sol.",
+   "nuance": "Non vérifié. Les pages de programme consultées ne mentionnent pas le droit du sol."
+  },
+  {
+   "id": "imm7",
+   "summary": "Le programme accorde aux résidents étrangers le droit de vote aux élections locales et européennes (proposition 134).",
+   "nuance": "Programme de 2022. Aucun revirement en 2025-2026 n'a été trouvé."
+  },
+  {
+   "id": "sec1",
+   "summary": "Le programme développe les alternatives à l'emprisonnement (proposition 143) et s'attaque aux causes profondes de la délinquance (proposition 144). Roussel a aussi proposé des peines plus lourdes pour certains crimes précis.",
+   "nuance": "Les peines planchers ne sont pas abordées nommément."
+  },
+  {
+   "id": "sec2",
+   "summary": "Le programme met fin à l'emprisonnement des 13-16 ans et le restreint pour les 16-18 ans (proposition 143), soit l'inverse d'un traitement des délinquants de plus de 16 ans comme des adultes.",
+   "nuance": "Le programme ne mentionne pas nommément le jugement des mineurs comme des adultes."
+  },
+  {
+   "id": "sec3",
+   "summary": "Proposition 141 : un organisme indépendant contrôlera l'activité de la police.",
+   "nuance": "Programme de 2022. Roussel est par ailleurs favorable à la police (30 000 policiers de proximité supplémentaires)."
+  },
+  {
+   "id": "sec4",
+   "summary": "Roussel s'est publiquement opposé à la légalisation du cannabis et préfère lutter contre le trafic.",
+   "nuance": "D'après le souvenir de déclarations de 2021-2022. Non vérifié lors de cette session : ni les pages de programme, ni les pages Wikipédia sur Roussel et sur le cannabis en France ne le mentionnent. À considérer comme non vérifié."
+  },
+  {
+   "id": "sec5",
+   "summary": "Privilégie la police de proximité (proposition 141) à la surveillance technologique.",
+   "nuance": "Déduit. Les pages de programme consultées ne mentionnent pas la vidéosurveillance."
+  },
+  {
+   "id": "eu1",
+   "summary": "Le programme déplore que les traités européens permettent à des instances sans légitimité démocratique de passer outre les choix démocratiques nationaux, et cherche une rupture avec les traités.",
+   "nuance": "Aucune proposition explicite d'une primauté du droit français sur le droit de l'UE n'a été trouvée."
+  },
+  {
+   "id": "eu2",
+   "summary": "Veut un pacte européen climatique et social de 900 milliards d'euros par an (proposition 155), mais se montre critique envers les structures de l'UE, pacifiste en matière de défense et silencieux sur l'emprunt commun.",
+   "nuance": "Position mixte. Aucun élément direct sur l'emprunt commun."
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "La partie du programme consacrée à l'UE (moyen_3) n'aborde pas la contribution de la France au budget de l'UE."
+  },
+  {
+   "id": "eu4",
+   "summary": "Tendance souverainiste, en faveur d'une « Europe à géométrie choisie » de nations souveraines (proposition 159), ce qui plaide contre l'abandon des vetos en matière de politique étrangère.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "eu5",
+   "summary": "Le programme cherche une « rupture » avec les traités actuels de l'UE et la fin du pacte de stabilité (proposition 156), mais présente cela comme une négociation, non comme une non-application unilatérale.",
+   "nuance": "Aucune formulation en termes de « désobéissance » n'a été trouvée dans le programme. Codé comme correspondance partielle."
+  },
+  {
+   "id": "eu6",
+   "summary": "Veut bâtir une « nouvelle Union » de nations souveraines plutôt que de la quitter. Critique les traités européens mais ne propose pas de sortie.",
+   "nuance": ""
+  },
+  {
+   "id": "int1",
+   "summary": "En 2025-2026, Roussel a soutenu que le modèle social de la France ne devait pas payer la guerre en Ukraine, et il a appelé à mettre fin à l'« économie de guerre » et au « surarmement ». Cela va dans le sens d'une réduction de l'effort militaire, non de son maintien à un niveau substantiel.",
+   "nuance": "Les éléments proviennent des seuls titres ; le corps des articles n'a pas pu être ouvert. Aucun appel explicite et vérifié à cesser les livraisons d'armes, d'où le -1. Un article critique de Libération (septembre 2026) décrit une « indulgence » envers la Russie ; il s'agit de la caractérisation d'un adversaire, qui n'a pas servi au codage."
+  },
+  {
+   "id": "int2",
+   "summary": "Roussel a qualifié d'« irresponsables et dangereux » les propos de Macron en 2024 sur l'envoi de troupes. En septembre 2025, il a traité Macron de « va-t-en-guerre » et déclaré : « nous ne voulons pas de cette guerre ».",
+   "nuance": "La déclaration de 2024 portait sur des troupes pendant la guerre, non sur une force de garantie d'un cessez-le-feu. La remarque de septembre 2025 est intervenue pendant le débat sur la force de réassurance, mais sa cible exacte n'est pas vérifiée. Codé -1 car l'opposition spécifique à une force de garantie après un cessez-le-feu n'est pas confirmée."
+  },
+  {
+   "id": "int3",
+   "summary": "Selon Wikipédia, il a abandonné sa position antérieure hostile à l'OTAN après l'invasion de 2022 et ne propose plus que la France la quitte.",
+   "nuance": "Il ne s'agit que d'un résumé secondaire. Une formulation parle d'un revirement sur l'appartenance à l'OTAN, une autre sur l'intégration au commandement intégré ; sa position précise sur le commandement intégré reste donc ambiguë. Aucune déclaration primaire de 2025-2026 n'a été trouvée."
+  },
+  {
+   "id": "int4",
+   "summary": "Roussel a cosigné en juillet 2025 une tribune réclamant des sanctions contre le gouvernement israélien. En avril 2026, il a appelé à mettre fin aux échanges commerciaux de l'UE avec Israël. En septembre 2026, le PCF a explicitement demandé la suspension de l'accord d'association UE-Israël.",
+   "nuance": "La formulation explicite de « suspension » figure dans un communiqué du PCF. Les déclarations personnelles de Roussel vont plus loin, en appelant à mettre fin aux échanges commerciaux de l'UE avec Israël."
+  },
+  {
+   "id": "int5",
+   "summary": "En tant que candidat déclaré à la présidentielle de 2027, Roussel a appelé à mettre fin à l'« économie de guerre » et au « surarmement » de la France et de l'UE.",
+   "nuance": "Aucun pourcentage explicite du PIB n'a été vérifié. Le codage repose sur son opposition à un renforcement militaire supplémentaire."
+  },
+  {
+   "id": "int6",
+   "summary": "Aucun élément vérifié trouvé.",
+   "nuance": "Une brève recherche portant sur le débat de novembre 2025 sur un service militaire volontaire n'a trouvé aucune position de Roussel sur un service obligatoire. Il a critiqué les propos du chef d'état-major des armées (« des mots qui glacent le sang », BFM, 23 novembre 2025), mais ceux-ci ne portaient pas sur la conscription."
+  },
+  {
+   "id": "int7",
+   "summary": "Aucun élément vérifié trouvé.",
+   "nuance": "Le projet de codage déduisait un -1 d'une « position pro-ukrainienne » que les éléments de 2025-2026 ne confirment pas (voir int1). Aucune déclaration sur un allègement des sanctions n'a été trouvée."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Roussel a qualifié les ZFE de « bombe sociale » et a plaidé pour leur report, sans explicitement demander leur suppression.",
+   "nuance": "La source date de 2023 et c'est la seule trouvée. Le report constitue une position conditionnelle ou partielle. Aucune réaction vérifiée de Roussel au vote parlementaire de 2025-2026 supprimant les ZFE."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le PCF soutient la sortie progressive des pesticides, accompagnée d'un soutien aux agriculteurs. La clause « malgré la concurrence étrangère » n'est pas vérifiée.",
+   "nuance": "Aucune déclaration de Roussel sur la loi Duplomb ou l'acétamipride n'a été trouvée lors d'une brève recherche. Il est favorable aux mesures protectionnistes et aux clauses miroirs, ce qui peut le rendre réticent à des interdictions unilatérales."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Aucun élément vérifié trouvé.",
+   "nuance": "Le -1 du projet de codage provenait uniquement de connaissances générales. Une brève recherche n'a trouvé aucune déclaration de Roussel sur l'échéance de 2035."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le PCF soutient la taxation des jets privés et du kérosène ; cela n'est pas vérifié.",
+   "nuance": "Une brève recherche n'a trouvé aucune déclaration de Roussel. Repose uniquement sur des connaissances générales."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Roussel envisage l'écologie à travers la production industrielle et la justice sociale, en rejetant à la fois la décroissance et la priorité à la croissance.",
+   "nuance": "Position mixte ; non vérifiée."
+  },
+  {
+   "id": "ene1",
+   "summary": "Roussel soutient fermement le nucléaire : dans un discours de juin 2025, il l'a qualifié de « filière d'avenir pour le XXIe siècle », et le PCF promeut un mix nucléaire-renouvelables. Un engagement sur des réacteurs au-delà des six EPR2 n'est pas vérifié.",
+   "nuance": "La ligne citée de la page d'accueil ne mentionne pas de réacteurs supplémentaires ; le code est donc +1 tant qu'un nombre supérieur à six EPR2 n'est pas vérifié."
+  },
+  {
+   "id": "ene2",
+   "summary": "Roussel s'oppose à une sortie du nucléaire et défend un mix nucléaire et renouvelables.",
+   "nuance": ""
+  },
+  {
+   "id": "ene3",
+   "summary": "Il soutient les énergies renouvelables en complément du nucléaire et s'oppose donc à un arrêt, même s'il a critiqué des excès dans le développement de l'éolien.",
+   "nuance": "Aucune déclaration vérifiée sur un moratoire sur l'éolien."
+  },
+  {
+   "id": "ene4",
+   "summary": "Le PCF est favorable à une sortie du marché européen de l'électricité et à une fixation nationale des prix de l'électricité par un EDF public. La formulation personnelle de Roussel en 2025-2026 n'est pas vérifiée.",
+   "nuance": "Connaissances générales uniquement. Aucune source trouvée lors de cette session. Roussel a appelé à des baisses du prix de l'électricité pouvant atteindre 30 % (TF1, mai 2026, titre seul), mais le mécanisme n'est pas vérifié."
+  },
+  {
+   "id": "ins1",
+   "summary": "Roussel est favorable à une VIe République.",
+   "nuance": "On ne sait pas vérifier si sa VIe République serait plus parlementaire."
+  },
+  {
+   "id": "ins2",
+   "summary": "En mai 2025, Roussel s'est dit « peu favorable » au projet de scrutin proportionnel du gouvernement et a jugé que ce n'était « pas la priorité ».",
+   "nuance": "Sa position personnelle de 2025 s'écarte du soutien historique du PCF à la proportionnelle. Il peut s'opposer à la formule précise de Matignon plutôt qu'au principe, d'où le code 0."
+  },
+  {
+   "id": "ins3",
+   "summary": "Roussel soutient un RIC sur tout sujet, consultant les citoyens chaque fois qu'ils le demandent.",
+   "nuance": "Source secondaire ; la date de la déclaration d'origine n'a pas été vérifiée."
+  },
+  {
+   "id": "ins4",
+   "summary": "En octobre 2025, Roussel a estimé qu'il serait « raide » de censurer un gouvernement qui renonce au 49.3, ce qui laisse penser qu'il juge utile d'y renoncer.",
+   "nuance": "Aucun appel explicite et vérifié à supprimer le 49.3. Le PCF s'y est historiquement opposé."
+  },
+  {
+   "id": "ins5",
+   "summary": "Roussel veut des référendums citoyens « sur tous les sujets », ce qui couvrirait logiquement l'immigration ou la justice. Aucune déclaration spécifique sur ces domaines n'a été trouvée.",
+   "nuance": "Soutien partiel : il défend un élargissement général, non spécifiquement sur l'immigration ou la justice."
+  },
+  {
+   "id": "soc1",
+   "summary": "Le 4 juin 2024, Roussel, alors député, a voté contre les amendements supprimant l'article 5 du projet de loi sur la fin de vie, l'article qui créait l'aide à mourir. Cela laisse penser qu'il soutient le principe. Aucune déclaration 2025-2026 sur le maintien ou l'abrogation de la loi de 2026 n'a été trouvée.",
+   "nuance": "Le vote portait sur le projet de loi de 2024, devenu caduc à la dissolution, et non sur la loi de 2026. Il n'était plus député lorsque la loi de 2026 a été adoptée. +1 plutôt que +2 faute d'engagement explicite à maintenir la loi."
+  },
+  {
+   "id": "soc2",
+   "summary": "Roussel défend une laïcité de type 1905. Aucun soutien vérifié à une interdiction du voile dans tous les espaces publics.",
+   "nuance": "Un entretien sur CNews en mars 2025 a abordé les interdictions du voile. Des critiques d'extrême gauche (Révolution Permanente) l'ont accusé de « courir après l'extrême droite » à propos d'une « interdiction du voile », mais il s'agit de la caractérisation d'un adversaire et le contexte concernait probablement les compétitions sportives. Faute de preuve directe, -2 était trop fort pour un codage déduit."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucun élément trouvé dans les pages de programme du PCF, les livrets thématiques 2025-2026 ou le bilan de votes de Roussel.",
+   "nuance": "Recherche dans le programme et les livrets du PCF sur la laïcité et les signes religieux, sans résultat. Budget WebSearch épuisé, recherche non poursuivie."
+  },
+  {
+   "id": "soc4",
+   "summary": "Roussel est un défenseur ferme de la laïcité : il a approuvé l'interdiction de l'abaya à l'école en 2023 et s'est exprimé avec force sur l'islam politique. Position mixte au regard de la clause « pas de restriction supplémentaire ».",
+   "nuance": "Le soutien à l'interdiction de l'abaya s'écarte de « pas de restriction supplémentaire » ; position globalement mixte."
+  },
+  {
+   "id": "soc5",
+   "summary": "Roussel serait opposé à la GPA ; le PCF est divisé.",
+   "nuance": "Une brève recherche n'a trouvé aucune déclaration vérifiée."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucun élément vérifié trouvé.",
+   "nuance": "Le projet de codage attribuait 0 sans élément, mais 0 est réservé à une position explicitement mixte ; le code devient donc null."
+  },
+  {
+   "id": "edu2",
+   "summary": "Le programme du PCF comprend un recrutement massif de 500 000 agents dans le secteur public.",
+   "nuance": "La ligne citée ne mentionne ni les enseignants ni la taille des classes ; les chiffres propres aux enseignants n'ont pas été vérifiés. +2 est plausible mais non démontré."
+  },
+  {
+   "id": "edu3",
+   "summary": "Le PCF s'oppose au regroupement des élèves par niveau.",
+   "nuance": "Non vérifié ; une brève recherche n'a rien trouvé de la part de Roussel."
+  },
+  {
+   "id": "edu4",
+   "summary": "Le PCF soutient le conditionnement ou la réduction du financement de l'enseignement privé.",
+   "nuance": "Non vérifié ; une brève recherche n'a rien trouvé de la part de Roussel."
+  },
+  {
+   "id": "edu5",
+   "summary": "Le programme du PCF (proposition 33) supprime explicitement la sélection à l'entrée de l'université et abroge Parcoursup. Le baccalauréat garantirait une place dans la formation supérieure choisie.",
+   "nuance": "La proposition met fin à la sélection elle-même, et pas seulement à la plateforme Parcoursup ; elle correspond donc pleinement à l'énoncé. La formulation date du programme de 2022, toujours en ligne sur pcf.fr."
+  },
+  {
+   "id": "san1",
+   "summary": "Aucun élément vérifié trouvé.",
+   "nuance": "Le projet de codage attribuait 0 sans élément. Une brève recherche n'a trouvé aucune position de Roussel sur l'installation obligatoire des nouveaux médecins."
+  },
+  {
+   "id": "san2",
+   "summary": "En juillet 2026, Roussel a dénoncé la hausse des franchises médicales : « le gouvernement choisit de faire payer les malades ».",
+   "nuance": "Seul le titre a été consulté ; le corps de l'article n'a pas pu être ouvert."
+  },
+  {
+   "id": "san3",
+   "summary": "Le PCF soutient l'encadrement des loyers. Roussel fait campagne sur la hausse des loyers (« +20 % en cinq ans »), mais un appel à généraliser l'encadrement des loyers n'est pas vérifié.",
+   "nuance": "SeLoger (28 septembre 2026) a couvert ses projets en matière de logement, mais l'article n'a pas pu être ouvert."
+  },
+  {
+   "id": "san4",
+   "summary": "Roussel veut renationaliser EDF, Engie, les autoroutes et les assureurs, soit l'inverse d'une ouverture accrue à la concurrence.",
+   "nuance": "La ligne source d'origine (500 000 fonctionnaires) n'abordait pas la concurrence et a été remplacée. En avril 2026, il a aussi proposé de nationaliser TotalEnergies (titre de franceinfo)."
+  },
+  {
+   "id": "eco7",
+   "summary": "Le programme du PCF sur pcf.fr (proposition 125) indique que les impôts indirects tels que la TVA seront baissés, non relevés. Le livret du PCF sur la sécurité sociale (décembre 2025) affirme que transférer le financement de la sécurité sociale des cotisations patronales vers l'impôt fait peser la charge sur les ménages, et il défend un financement par les cotisations. La TVA sociale est l'inverse de ces deux positions.",
+   "nuance": "Aucune des deux sources ne nomme la « TVA sociale », mais toutes deux en rejettent les deux volets : elles veulent baisser la TVA et défendent les cotisations patronales comme mode de financement de la sécurité sociale. Il s'agit de deux documents du PCF, présentés comme le programme du candidat de 2027, et non d'un entretien personnel de Roussel."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucune déclaration de Roussel ou du PCF sur un assouplissement de la naturalisation n'a été trouvée. Le programme du PCF (proposition 89) promet de régulariser les travailleurs sans papiers, ce qui est une mesure distincte.",
+   "nuance": "Le +1 du projet de codage n'était pas sourcé, et les éléments voisins vont dans les deux sens : le parti soutient la régularisation des travailleurs, tandis que Roussel a personnellement appelé la France à être « plus ferme » sur les travailleurs migrants (2023). Laissé sans code plutôt que deviné."
+  },
+  {
+   "id": "sec6",
+   "summary": "Le programme du PCF (proposition 88) s'engage à lutter contre le contrôle au faciès en instaurant un récépissé pour chaque contrôle d'identité.",
+   "nuance": "Il s'agit du programme actuellement en ligne sur le site du PCF, dont la formulation date de 2022. Aucune déclaration personnelle de Roussel en 2025-2026 n'a été trouvée. Il tient une ligne plus axée sur la sécurité que le reste de la gauche, si bien que la confiance reste moyenne."
+  },
+  {
+   "id": "eu7",
+   "summary": "Le livret du PCF sur la paix et la défense pour la campagne 2027 (mai 2026) attaque la militarisation de l'UE et le plan « Rearm EU » de 800 milliards d'euros. Il critique le traité de Lisbonne pour avoir renforcé le volet militaire de l'UE et appelle à l'indépendance de la défense française et à la sortie de l'OTAN. Seule une coopération européenne limitée, par exemple sur le positionnement par satellite (géolocalisation), est acceptée.",
+   "nuance": "Le livret accepte des coopérations européennes ciblées et veut une base industrielle et technologique de défense européenne, mais il rejette toute perte d'autonomie militaire française. Il s'agit d'un document du parti, non d'un entretien de Roussel."
+  },
+  {
+   "id": "eu8",
+   "summary": "Le livret de paix du PCF de 2026 impute à des dirigeants ukrainiens, qui ont œuvré à l'intégration de l'Ukraine au bloc « euro-atlantique », une part des origines de la guerre, et il qualifie une victoire militaire ukrainienne d'« utopique ». En mars 2024, Roussel a voté contre la déclaration du gouvernement sur l'accord de sécurité franco-ukrainien. Aucune déclaration explicite en 2025-2026 sur l'adhésion de l'Ukraine à l'UE n'a été trouvée.",
+   "nuance": "Déduit de positions voisines. « Euro-atlantique » renvoie principalement à l'OTAN, et le vote de mars 2024 portait sur un accord de sécurité et non sur l'adhésion à l'UE. En novembre 2022, il a voté pour la résolution de soutien à l'Ukraine. Une déclaration directe est nécessaire."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Le programme du PCF (proposition 62) promet une loi agricole garantissant des prix de base rémunérateurs du travail des agriculteurs. Les prix seraient fixés produit par produit lors d'une conférence annuelle réunissant organisations de producteurs, gouvernement et centrales d'achat de la grande distribution, et la vente à perte serait interdite.",
+   "nuance": "La formulation date du programme de 2022, toujours en ligne sur pcf.fr (il fait référence à « En 2022 »). Aucune déclaration plus récente de Roussel lui-même n'a été retrouvée."
+  },
+  {
+   "id": "ene5",
+   "summary": "Le programme du PCF (proposition 58) fixe la TVA sur la consommation d'électricité et de gaz à 5,5 %. Pour les carburants, les propositions de campagne de septembre 2026 consistent à plafonner le prix à 1,60 € le litre et à baisser les taxes de l'État. La proposition 125 baisse la TVA et la taxe intérieure de consommation sur les produits énergétiques (TICPE) sans citer de taux.",
+   "nuance": "Correspondance partielle : 5,5 % est explicite pour l'électricité et le gaz, mais pour les carburants seuls une baisse de taxe et un plafonnement des prix sont promis, sans taux de TVA de 5,5 %. D'où le +1."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucune déclaration spécifique sur France Télévisions ou Radio France n'a été retrouvée. Le programme du PCF appelle à mettre fin à la privatisation des services publics et à créer un grand ministère de la Culture, de l'Éducation populaire et des Médias.",
+   "nuance": "Déduit de l'opposition générale du parti à la privatisation des services publics, sans rien de spécifique sur l'audiovisuel public. La direction est très probable, mais la confiance reste faible."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucun élément trouvé dans les pages de programme du PCF, les livrets thématiques 2025-2026 ou le bilan de votes de Roussel.",
+   "nuance": "Recherche dans le programme et les livrets du PCF, sans résultat. Non codé."
+  },
+  {
+   "id": "san5",
+   "summary": "Le livret du PCF sur le logement (décembre 2025) reconnaît la tension entre le ZAN et la pénurie de logements. Il maintient l'objectif ZAN : sa réponse est la maîtrise publique du foncier, ainsi que la densification pour que la construction reste compatible avec les règles contre l'artificialisation de nouveaux terrains.",
+   "nuance": "Le livret impute la pénurie à la spéculation foncière, et non au ZAN ou aux normes de construction. Il ne fait pas explicitement campagne contre un assouplissement des règles, d'où le -1."
+  }
+ ],
+ "record": {
+  "bio": "Fabien Roussel (né le 16 avril 1969 à Béthune) est un ancien journaliste devenu secrétaire national du Parti communiste français (PCF) le 25 novembre 2018. Il a été député de la 20e circonscription du Nord de juin 2017 à juin 2024 et candidat du PCF à l'élection présidentielle de 2022 (2,28 %, 8e place). Il est maire de Saint-Amand-les-Eaux depuis le 30 janvier 2025 et a été réélu en mars 2026. Selon Wikipédia en français (citant Le Figaro), il a annoncé sa candidature à l'élection présidentielle de 2027 sur TF1 le 6 septembre 2026, sous le slogan « Vivre ».",
+  "offices": [
+   "Conseiller municipal de Saint-Amand-les-Eaux",
+   "Député (Nord, 20e circonscription)",
+   "Secrétaire national du PCF",
+   "Maire de Saint-Amand-les-Eaux",
+   "Candidat du PCF à l'élection présidentielle (2,28 %, 8e)"
+  ],
+  "legal": [
+   "Mediapart (2022) a affirmé que Roussel avait occupé un emploi fictif d'assistant parlementaire auprès du député PCF Jean-Jacques Candelier (2009-2014). Le Parquet national financier a ouvert une enquête préliminaire le 11 mars 2022. Roussel conteste ces accusations et dit avoir travaillé sur le suivi des conflits dans le Douaisis ; Candelier a déclaré à L'Humanité que Roussel avait bien travaillé comme son assistant. Aucune mise en examen ni aucun classement n'est signalé ; statut repris de Wikipédia en français, non confirmé auprès d'une source judiciaire ou de l'AFP."
+  ],
+  "reversals": [
+   {
+    "topic": "OTAN",
+    "before": "Préconisait que la France quitte le commandement intégré de l'OTAN, présenté comme nécessaire à l'indépendance nationale.",
+    "after": "Après l'invasion de l'Ukraine par la Russie en 2022, il ne propose plus le retrait de la France de l'OTAN (il s'oppose toujours à l'adhésion de l'Ukraine à l'OTAN et à l'UE)."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Député de 2017 à 2024, dans l'opposition (groupe PCF / GDR). Il a été rapporteur d'une proposition de loi visant à créer une liste française des paradis fiscaux (2017-2018). Aucune loi adoptée sous son nom n'est documentée dans les sources consultées.",
+    "assessment": "Le bilan législatif n'a pas pu être vérifié sur les sites de votes nominatifs (datan.fr, nosdeputes.fr) ni auprès de médias de sensibilités différentes ; seule une source secondaire (Wikipédia) était disponible."
+   },
+   {
+    "what": "Propositions du programme présidentiel de 2022 (non adoptées) : SMIC porté à 1 500 euros nets, âge légal de départ à la retraite ramené à 60 ans, impôt sur la fortune rétabli et triplé, recrutement de 30 000 policiers, et mix énergétique associant nucléaire et renouvelables.",
+    "assessment": "Il s'agit de propositions de campagne, non de mesures mises en œuvre ; le programme de 2027 n'a pas été vérifié."
+   },
+   {
+    "what": "Maire de Saint-Amand-les-Eaux depuis le 30 janvier 2025, successeur d'Alain Bocquet ; sa liste a remporté les élections municipales de mars 2026 dès le premier tour avec 51,06 % et il a été réélu maire le 22 mars 2026.",
+    "assessment": "Le bilan exécutif est court (environ 1,7 an) ; aucune évaluation de son bilan municipal n'a été trouvée dans les sources consultées."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non vérifié directement. Mediapart a publié l'accusation d'emploi fictif en 2022 ; Roussel a répondu en accusant son fondateur Edwy Plenel de l'avoir publiée pour favoriser la candidature de Mélenchon.",
+   "right_media": "Non vérifié directement. Wikipédia rapporte une intervention sur CNews en mars 2025 au cours de laquelle il a affirmé que le racisme anti-blancs existe ; la façon dont les médias de droite le présentent n'a pas pu être vérifiée.",
+   "neutral_media": "Non vérifié directement ; la couverture du Monde, de franceinfo, de l'AFP et de Public Sénat n'a pas pu être consultée."
+  }
+ }
+}

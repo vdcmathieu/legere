@@ -1,0 +1,210 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "candidate",
+  "bio",
+  "offices",
+  "executive_experience_years",
+  "legal",
+  "reversals",
+  "delivery",
+  "traits",
+  "media_portrayal",
+  "sources_note"
+ ],
+ "properties": {
+  "candidate": {
+   "type": "string"
+  },
+  "bio": {
+   "type": "string"
+  },
+  "offices": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "office",
+     "from",
+     "to",
+     "kind"
+    ],
+    "properties": {
+     "office": {
+      "type": "string"
+     },
+     "from": {
+      "type": "string"
+     },
+     "to": {
+      "type": "string"
+     },
+     "kind": {
+      "type": "string",
+      "enum": [
+       "national_executive",
+       "local_executive",
+       "legislative",
+       "party",
+       "european",
+       "other"
+      ]
+     }
+    }
+   }
+  },
+  "executive_experience_years": {
+   "type": "number"
+  },
+  "legal": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "case",
+     "status",
+     "date",
+     "sources"
+    ],
+    "properties": {
+     "case": {
+      "type": "string"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "convicted_final",
+       "convicted_appeal_pending",
+       "indicted",
+       "investigation",
+       "acquitted",
+       "dismissed",
+       "civil_or_other"
+      ]
+     },
+     "date": {
+      "type": "string"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "reversals": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "topic",
+     "before",
+     "after",
+     "years",
+     "sources"
+    ],
+    "properties": {
+     "topic": {
+      "type": "string"
+     },
+     "before": {
+      "type": "string"
+     },
+     "after": {
+      "type": "string"
+     },
+     "years": {
+      "type": "string"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "delivery": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "what",
+     "assessment",
+     "sources"
+    ],
+    "properties": {
+     "what": {
+      "type": "string"
+     },
+     "assessment": {
+      "type": "string"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "traits": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "trait",
+     "evidence",
+     "source_leans"
+    ],
+    "properties": {
+     "trait": {
+      "type": "string"
+     },
+     "evidence": {
+      "type": "string"
+     },
+     "source_leans": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "media_portrayal": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "left_media",
+    "right_media",
+    "neutral_media"
+   ],
+   "properties": {
+    "left_media": {
+     "type": "string"
+    },
+    "right_media": {
+     "type": "string"
+    },
+    "neutral_media": {
+     "type": "string"
+    }
+   }
+  },
+  "sources_note": {
+   "type": "string"
+  }
+ }
+}

@@ -1,0 +1,550 @@
+{
+  "version": "0.1",
+  "audited_on": "2026-10-05",
+  "audited_files": ["statements.json v0.1 (70 statements)", "questionnaire.json v0.1"],
+  "method": "Item-by-item review against VAA wording standards (euandi / Boussole présidentielle / CEVIPOF practice): loaded terms, double-barrelling, purpose clauses, presuppositions, jargon, negations, cross-divide term meaning, and currency of factual premises as of 5 October 2026. Factual premises were checked against dated press coverage and reference pages; where a fact could not be confirmed it is phrased cautiously in the context entries.",
+  "wording": [
+    {
+      "id": "eco3",
+      "problem": "leading",
+      "current_fr": "Baisser les impôts de production et les cotisations patronales pour renforcer la compétitivité des entreprises.",
+      "proposed_fr": "Baisser les impôts de production et les cotisations sociales payées par les entreprises.",
+      "meaning_change": false,
+      "why": "The purpose clause « pour renforcer la compétitivité » states the proponents' justification inside the item and pushes toward agreement; « impôts de production » is also jargon for most respondents, so the gloss « payées par les entreprises » helps. The policy content is unchanged."
+    },
+    {
+      "id": "eco4",
+      "problem": "presupposition",
+      "current_fr": "Protéger certaines filières françaises par des droits de douane ou des quotas, même si cela augmente certains prix.",
+      "proposed_fr": "Défendre des droits de douane ou des quotas pour protéger certaines filières françaises (agriculture, industrie), même si cela augmente certains prix.",
+      "meaning_change": false,
+      "why": "Tariffs and quotas are an exclusive EU competence; a French president can only push for them in Brussels. « Défendre » removes the implicit claim that France can decide alone, and naming two example sectors reduces the vagueness of « certaines filières »."
+    },
+    {
+      "id": "eco5",
+      "problem": "presupposition",
+      "current_fr": "Remettre sous contrôle public des secteurs stratégiques comme l'énergie ou les autoroutes.",
+      "proposed_fr": "Nationaliser ou renationaliser des entreprises de secteurs stratégiques comme les autoroutes, l'eau ou l'énergie.",
+      "meaning_change": false,
+      "why": "« Remettre » presupposes these sectors were public, which is only true of motorways; EDF is already 100 % state-owned since 2023, so « l'énergie » as an example is confusing. « Contrôle public » is also ambiguous (regulation vs ownership); the candidates' coded positions concern ownership, which « nationaliser » makes explicit."
+    },
+    {
+      "id": "ret2",
+      "problem": "leading",
+      "current_fr": "Relever l'âge de départ à la retraite au-delà de 64 ans pour équilibrer le système.",
+      "proposed_fr": "Relever l'âge légal de départ à la retraite au-delà de 64 ans.",
+      "meaning_change": false,
+      "why": "The purpose clause « pour équilibrer le système » is a justification. Separately (see keying), since the 2023 reform is suspended at 62 ans 9 mois until January 2028, the salient 2027 choice is whether to resume the march to 64, which no current item captures; ret2 only captures the position of candidates who go beyond 64."
+    },
+    {
+      "id": "ret3",
+      "problem": "jargon",
+      "current_fr": "Introduire une part de capitalisation obligatoire dans le système de retraite.",
+      "proposed_fr": "Introduire une part obligatoire de retraite par capitalisation (cotisations placées et investies), à côté de la retraite par répartition.",
+      "meaning_change": false,
+      "why": "« Capitalisation » is understood by the politically engaged but not by all respondents; the gloss defines it without the loaded framings used by either side (« fonds de pension », « épargne pour tous »)."
+    },
+    {
+      "id": "fin1",
+      "problem": "double_barrelled",
+      "current_fr": "Ramener le déficit public sous 3 % du PIB doit être une priorité, même au prix de fortes baisses de dépenses.",
+      "proposed_fr": "Ramener rapidement le déficit public sous 3 % du PIB, même au prix de fortes baisses de dépenses.",
+      "meaning_change": false,
+      "why": "The item couples the goal (3 %) with one instrument (spending cuts); a respondent who wants 3 % through tax rises has no consistent answer. Keeping the trade-off is defensible for a VAA, but the attitude wording « doit être une priorité » breaks the format of the other items, which are concrete proposals. The retest item r_fin1 should mirror the same two elements (see other_modules)."
+    },
+    {
+      "id": "fin2",
+      "problem": "vague",
+      "current_fr": "Réduire le nombre de fonctionnaires.",
+      "proposed_fr": "Réduire le nombre total de fonctionnaires et d'agents publics (État, collectivités, hôpitaux).",
+      "meaning_change": false,
+      "why": "Respondents read « fonctionnaires » differently (central administration only vs teachers and nurses). Candidates who promise cuts usually exempt teachers, police and carers; the parenthesis makes clear the item is about the total headcount, which is how the candidates are coded."
+    },
+    {
+      "id": "fin3",
+      "problem": "double_barrelled",
+      "current_fr": "Accepter davantage de dette publique pour financer la transition écologique et les services publics.",
+      "proposed_fr": "Accepter davantage de dette publique pour financer des priorités comme la transition écologique ou les services publics.",
+      "meaning_change": false,
+      "why": "« Et » makes it a package: someone willing to borrow for the climate but not for running costs cannot answer. « Comme … ou » keeps the two examples while making the object the acceptance of debt itself."
+    },
+    {
+      "id": "trav1",
+      "problem": "vague",
+      "current_fr": "Augmenter le SMIC nettement plus vite que l'inflation.",
+      "proposed_fr": "Donner au SMIC un « coup de pouce » nettement supérieur à sa revalorisation automatique sur l'inflation.",
+      "meaning_change": false,
+      "why": "Many respondents do not know the SMIC is already indexed on inflation; without that premise « plus vite que l'inflation » can read as « protéger du coût de la vie » and attract near-universal agreement. The proposed wording names the actual decision (a discretionary boost)."
+    },
+    {
+      "id": "trav2",
+      "problem": "leading",
+      "current_fr": "Réduire la durée ou le montant des allocations chômage pour inciter à la reprise d'emploi.",
+      "proposed_fr": "Réduire la durée ou le montant des allocations chômage.",
+      "meaning_change": false,
+      "why": "The purpose clause is the proponents' argument (incentive effect) and is contested; it belongs in the context explainer, not in the stem. « Durée ou montant » remains a mild double-barrel but the candidates are coded on the direction of change, so it is acceptable."
+    },
+    {
+      "id": "trav3",
+      "problem": "outdated_fact",
+      "current_fr": "Conditionner le RSA à des heures d'activité obligatoires.",
+      "proposed_fr": "Maintenir l'obligation de 15 à 20 heures d'activité par semaine pour les bénéficiaires du RSA.",
+      "meaning_change": false,
+      "why": "Since 1 January 2025 the RSA is already conditional on 15-20 hours of weekly activity (loi plein emploi). The current stem describes the status quo as if it were a proposal; the direction of the item (agree = pro-conditionality) is preserved, so coded positions stay valid, but candidates who want to abolish the obligation should be checked for -2 rather than -1."
+    },
+    {
+      "id": "imm2",
+      "problem": "presupposition",
+      "current_fr": "Organiser un référendum sur la politique d'immigration.",
+      "proposed_fr": "Réviser la Constitution pour permettre un référendum sur la politique d'immigration.",
+      "meaning_change": false,
+      "why": "Article 11 does not allow a referendum on immigration as it stands, so the item presupposes a constitutional change. More importantly it duplicates ins5 (« Élargir le champ du référendum … sur l'immigration ou la justice »). One of the two should be dropped; keying imm2 as cult +1 also conflates an institutional preference (direct democracy, which parts of the left also favour) with a restrictive immigration stance."
+    },
+    {
+      "id": "imm5",
+      "problem": "double_barrelled",
+      "current_fr": "Réserver en priorité aux citoyens français l'accès au logement social et à certaines prestations sociales.",
+      "proposed_fr": "Accorder aux citoyens français une priorité sur les étrangers pour l'accès au logement social et à certaines prestations sociales.",
+      "meaning_change": false,
+      "why": "« Réserver » (exclusive) and « en priorité » (preferential) contradict each other. The two objects (housing, benefits) are kept together because they form one policy concept (« priorité nationale ») and candidates are coded on the concept; naming the slogan itself would cue the party, so it is left out."
+    },
+    {
+      "id": "imm6",
+      "problem": "jargon",
+      "current_fr": "Supprimer le droit du sol.",
+      "proposed_fr": "Supprimer le droit du sol (l'acquisition de la nationalité française par les enfants nés en France de parents étrangers).",
+      "meaning_change": false,
+      "why": "The expression is widely used but often misunderstood (many believe birth in France confers nationality automatically at birth). A neutral gloss reduces measurement error without changing the proposal. Note that some candidates propose to restrict rather than abolish; the context entry covers the Mayotte precedent."
+    },
+    {
+      "id": "sec3",
+      "problem": "vague",
+      "current_fr": "Confier le contrôle des forces de l'ordre à un organisme indépendant de la police.",
+      "proposed_fr": "Confier les enquêtes sur les fautes des policiers et gendarmes à un organisme indépendant, à la place de l'IGPN et de l'IGGN.",
+      "meaning_change": false,
+      "why": "« Contrôle des forces de l'ordre » could mean operational command. The proposal in the programmes is about replacing internal inspection bodies for misconduct investigations; naming them makes the item concrete."
+    },
+    {
+      "id": "eu4",
+      "problem": "jargon",
+      "current_fr": "Supprimer la règle de l'unanimité pour la politique étrangère européenne.",
+      "proposed_fr": "Supprimer la règle de l'unanimité pour les décisions de politique étrangère de l'Union européenne (décisions à la majorité, sans droit de veto national).",
+      "meaning_change": false,
+      "why": "The practical consequence (losing the French veto) is what respondents react to; without the gloss the item under-measures opposition and over-measures agreement among respondents who only hear « more efficient Europe »."
+    },
+    {
+      "id": "eu5",
+      "problem": "leading",
+      "current_fr": "Ne pas appliquer certaines règles européennes lorsqu'elles empêchent de mettre en œuvre le programme choisi par les électeurs.",
+      "proposed_fr": "Refuser d'appliquer certaines règles européennes (budgétaires, de concurrence…) lorsque le gouvernement élu les juge contraires à son programme.",
+      "meaning_change": false,
+      "why": "« Le programme choisi par les électeurs » is a persuasive framing borrowed from the « désobéissance » discourse, and the item starts with a negation. The item also largely duplicates eu1 (primacy of national law) and inflates the eu +1 count; consider replacing it with a -1 keyed item (see keying)."
+    },
+    {
+      "id": "int4",
+      "problem": "outdated_fact",
+      "current_fr": "Suspendre l'accord d'association entre l'UE et Israël en raison de la conduite de la guerre à Gaza.",
+      "proposed_fr": "Suspendre l'accord d'association entre l'UE et Israël en raison de la guerre menée à Gaza.",
+      "meaning_change": false,
+      "why": "A ceasefire has formally been in place since October 2025 (fragile, with continuing strikes), and in April 2026 EU ministers failed to reach unanimity to suspend the agreement. « La conduite de la guerre » reads as a present-tense description; the shorter wording stays valid whatever the state of the ceasefire at the time of use."
+    },
+    {
+      "id": "int6",
+      "problem": "double_barrelled",
+      "current_fr": "Rétablir un service militaire ou national obligatoire.",
+      "proposed_fr": "Rendre obligatoire pour tous les jeunes un service national, militaire ou civique.",
+      "meaning_change": false,
+      "why": "« Militaire ou national » blends two proposals that split candidates (some want a military draft, others a civic service). The obligation is the shared core on which candidates are coded; the rewording keeps the disjunction but makes the obligation the object of the sentence. Since 2026 a 10-month voluntary military service exists, so « rétablir » no longer describes the choice accurately."
+    },
+    {
+      "id": "ecol2",
+      "problem": "vague",
+      "current_fr": "Interdire en France certains pesticides, même si des concurrents étrangers continuent de les utiliser.",
+      "proposed_fr": "Maintenir en France l'interdiction de pesticides encore autorisés ailleurs en Europe (comme l'acétamipride), même si des concurrents étrangers continuent de les utiliser.",
+      "meaning_change": false,
+      "why": "« Certains pesticides » lets everyone agree. The live 2026 cleavage is the re-authorisation of acetamipride (loi Duplomb, censured on this point in August 2025; new bill tabled April 2026); naming it anchors the item in the real decision."
+    },
+    {
+      "id": "ecol3",
+      "problem": "outdated_fact",
+      "current_fr": "Maintenir la fin de la vente des voitures thermiques neuves en 2035.",
+      "proposed_fr": "Maintenir l'objectif européen de 100 % de voitures neuves sans émissions en 2035 (fin des ventes de thermiques neuves), plutôt que l'assouplir.",
+      "meaning_change": false,
+      "why": "In December 2025 the European Commission proposed to lower the 2035 target from 100 % to 90 % CO2 reduction with flexibilities (hybrids, e-fuels); the revision is still being negotiated in autumn 2026. The item must make clear that the status quo is now contested in Brussels, otherwise « maintenir » is ambiguous."
+    },
+    {
+      "id": "ene1",
+      "problem": "vague",
+      "current_fr": "Construire de nouveaux réacteurs nucléaires au-delà des six EPR2 déjà prévus.",
+      "proposed_fr": "Construire de nouveaux réacteurs nucléaires au-delà des six EPR2 déjà engagés, par exemple les huit réacteurs supplémentaires à l'étude.",
+      "meaning_change": false,
+      "why": "The PPE3 decree of February 2026 confirms six EPR2 and puts eight more « à l'étude ». A respondent who supports the eight does not know whether that counts as « au-delà des six »; the example resolves it. « Engagés » is more accurate than « prévus » since the final investment decision is still pending."
+    },
+    {
+      "id": "ene3",
+      "problem": "vague",
+      "current_fr": "Suspendre le développement de nouvelles éoliennes.",
+      "proposed_fr": "Décréter un moratoire sur l'installation de nouvelles éoliennes, terrestres et en mer.",
+      "meaning_change": false,
+      "why": "Candidates differ on onshore vs offshore; the coded positions correspond to a general moratorium, so the item should say so. « Moratoire » is the term used by both proponents and opponents."
+    },
+    {
+      "id": "soc1",
+      "problem": "outdated_fact",
+      "current_fr": "Autoriser l'aide active à mourir, sous conditions strictes.",
+      "proposed_fr": "Maintenir la loi de 2026 qui ouvre, sous conditions strictes, un droit à l'aide à mourir.",
+      "meaning_change": false,
+      "why": "The law creating a right to assisted dying was definitively adopted on 15 July 2026 and validated by the Conseil constitutionnel on 14 August 2026. The question is now whether to keep, restrict or repeal it. Direction is preserved, but the candidate coding should be rechecked: opposing a bill and promising to repeal a promulgated law are not the same intensity. « Aide à mourir » is the statutory term; « euthanasie » and « suicide assisté » are used by opponents and are avoided."
+    },
+    {
+      "id": "soc3",
+      "problem": "double_barrelled",
+      "current_fr": "Étendre l'interdiction des signes religieux ostensibles aux parents accompagnant les sorties scolaires et à l'université.",
+      "proposed_fr": "Interdire les signes religieux ostensibles aux parents qui accompagnent les sorties scolaires.",
+      "meaning_change": true,
+      "why": "School-trip chaperones and universities are distinct proposals with different supporters (several centre and right candidates support the first but not the second). Splitting is the clean fix; the proposal keeps the more salient half. If the pair must stay together for coding reasons, at least replace « et » by « ainsi qu' » and recheck candidates coded +1 who only support one half."
+    },
+    {
+      "id": "soc4",
+      "problem": "double_barrelled",
+      "current_fr": "La laïcité doit garantir la neutralité de l'État, sans restreindre davantage l'expression religieuse des citoyens.",
+      "proposed_fr": "Ne pas restreindre davantage par la loi l'expression religieuse des citoyens dans l'espace public.",
+      "meaning_change": false,
+      "why": "The first clause (« neutralité de l'État ») is consensual and invites acquiescence; « laïcité » itself means different things on either side of the divide (neutrality of the state vs neutrality of users of public space), so the term should not carry the measurement. The operative content is the second clause, which is what candidates are coded on."
+    },
+    {
+      "id": "soc5",
+      "problem": "leading",
+      "current_fr": "Ouvrir la gestation pour autrui (GPA) dans un cadre encadré et non commercial.",
+      "proposed_fr": "Autoriser la gestation pour autrui (GPA) non commerciale, dans un cadre strict.",
+      "meaning_change": false,
+      "why": "« Dans un cadre encadré » is redundant and the accumulation of safeguards softens the proposal. The item also discriminates very little among the 12 candidates (almost none supports it); consider replacing it with a cult -1 item that does (see keying)."
+    },
+    {
+      "id": "edu2",
+      "problem": "loaded_term",
+      "current_fr": "Recruter massivement des enseignants pour réduire le nombre d'élèves par classe.",
+      "proposed_fr": "Recruter beaucoup plus d'enseignants afin de réduire le nombre d'élèves par classe.",
+      "meaning_change": false,
+      "why": "« Massivement » is the proponents' adverb. The purpose clause is kept here because it defines the policy (hiring to cut class sizes rather than, say, to cover absences)."
+    },
+    {
+      "id": "edu3",
+      "problem": "outdated_fact",
+      "current_fr": "Regrouper les élèves par niveau dans certaines matières au collège.",
+      "proposed_fr": "Rendre obligatoires au collège les groupes de niveau (« groupes de besoins ») en français et en mathématiques.",
+      "meaning_change": false,
+      "why": "Ability groups in 6e and 5e were made compulsory in 2024 and became optional from September 2026. The live decision is whether to impose them again; direction (agree = pro-grouping) is unchanged."
+    },
+    {
+      "id": "edu5",
+      "problem": "double_barrelled",
+      "current_fr": "Supprimer Parcoursup et la sélection à l'entrée de l'université.",
+      "proposed_fr": "Mettre fin à toute sélection à l'entrée de l'université.",
+      "meaning_change": true,
+      "why": "Several candidates want to replace the Parcoursup platform while keeping selection; others want to end selection. The current item cannot separate them. The proposal keeps the substantive half (selection), on which the left/right coding is clean; candidates coded on « supprimer Parcoursup » alone must be recoded."
+    },
+    {
+      "id": "san2",
+      "problem": "leading",
+      "current_fr": "Augmenter la part payée par les patients (franchises) pour maîtriser les dépenses de santé.",
+      "proposed_fr": "Augmenter la part des soins laissée à la charge des patients (franchises et forfaits).",
+      "meaning_change": false,
+      "why": "Purpose clause removed; the context entry explains the cost-control rationale. Note the annual cap on franchises was raised from 100 to 140 euros by decree in October 2026, so « augmenter » now means « augmenter encore »."
+    },
+    {
+      "id": "r_imm1",
+      "problem": "negation",
+      "current_fr": "Maintenir au moins le niveau actuel d'immigration légale (travail, regroupement familial, études).",
+      "proposed_fr": "Maintenir ou augmenter le niveau actuel d'immigration légale (travail, regroupement familial, études).",
+      "meaning_change": false,
+      "why": "The reversal is asymmetric: disagreeing with « réduire fortement » includes « réduire un peu », which the reversal excludes. « Maintenir ou augmenter » is clearer and still the logical complement of a strong reduction."
+    },
+    {
+      "id": "r_fin1",
+      "problem": "vague",
+      "current_fr": "Le redressement des comptes publics peut attendre s'il impose de fortes baisses de dépenses.",
+      "proposed_fr": "Renoncer à ramener rapidement le déficit sous 3 % du PIB si cela impose de fortes baisses de dépenses.",
+      "meaning_change": false,
+      "why": "The reversal should mirror the same two elements as fin1 (the 3 % target and spending cuts); « redressement des comptes publics » is a different, looser object, which weakens the reliability estimate."
+    },
+    {
+      "id": "r_soc1",
+      "problem": "outdated_fact",
+      "current_fr": "L'aide active à mourir ne devrait pas être autorisée, même sous conditions strictes.",
+      "proposed_fr": "Abroger la loi de 2026 sur l'aide à mourir.",
+      "meaning_change": false,
+      "why": "Must follow the soc1 update (law adopted July 2026). The affirmative form also removes the double negation (« ne devrait pas … même »), which is the main source of reversed-item confusion."
+    },
+    {
+      "id": "r_eu2",
+      "problem": "negation",
+      "current_fr": "L'Union européenne ne devrait pas s'endetter en commun, quel que soit l'objectif.",
+      "proposed_fr": "Laisser chaque État financer seul sa défense, son climat et son industrie, sans emprunt commun européen.",
+      "meaning_change": false,
+      "why": "« Quel que soit l'objectif » makes the reversal more absolute than the original, so (orig + rev) is not a clean acquiescence measure; the proposed affirmative wording mirrors the three objects of eu2."
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "rank": 1,
+      "theme": "Pouvoir d'achat et prix de l'énergie",
+      "fr": "Baisser la TVA sur l'électricité, le gaz et les carburants à 5,5 %.",
+      "en": "Cut VAT on electricity, gas and motor fuels to 5.5%.",
+      "area": "ene",
+      "axis": "none",
+      "key": 0,
+      "why": "Purchasing power is the top-cited problem and energy prices are its most concrete form; the item is a flagship of the RN programme, rejected by the Macron camp and LR on cost grounds and by the left and greens in favour of price caps or targeted cheques. It splits the field three ways while being understood by everyone."
+    },
+    {
+      "rank": 2,
+      "theme": "Audiovisuel public",
+      "fr": "Privatiser tout ou partie de l'audiovisuel public (France Télévisions, Radio France).",
+      "en": "Privatise all or part of public broadcasting (France Télévisions, Radio France).",
+      "area": "ins",
+      "axis": "none",
+      "key": 0,
+      "why": "A clean yes/no that separates RN and Reconquête (privatisation), parts of LR (reform or partial sale) from the centre and the whole left (keep, with a reformed funding). It is salient after the 2025-2026 debates on the funding of public media and is absent from the bank."
+    },
+    {
+      "rank": 3,
+      "theme": "Logement et construction",
+      "fr": "Assouplir les normes de construction et l'objectif « zéro artificialisation nette » (ZAN) pour construire davantage de logements.",
+      "en": "Loosen building rules and the 'zero net land take' (ZAN) target to build more housing.",
+      "area": "san",
+      "axis": "econ",
+      "key": 1,
+      "why": "Housing is the only major area where the bank has one item (rent control). Supply-side deregulation of ZAN and energy-performance rules is a shared plank of RN, LR and Horizons, opposed by greens and LFI and nuanced by PS; it captures the supply vs regulation cleavage that san3 alone cannot."
+    },
+    {
+      "rank": 4,
+      "theme": "Financement de la protection sociale",
+      "fr": "Augmenter la TVA pour financer une baisse des cotisations sociales sur les salaires (« TVA sociale »).",
+      "en": "Raise VAT to fund a cut in social contributions on wages ('social VAT').",
+      "area": "eco",
+      "axis": "econ",
+      "key": 1,
+      "why": "Proposed by Édouard Philippe and discussed by Attal and Retailleau, rejected by RN (regressive) and by the left; a 2027-specific cleavage that splits the right-of-centre field rather than reproducing the left/right split of the existing econ items."
+    },
+    {
+      "rank": 5,
+      "theme": "Agriculture",
+      "fr": "Garantir aux agriculteurs des prix minimaux (prix planchers) pour leurs produits.",
+      "en": "Guarantee farmers minimum (floor) prices for their produce.",
+      "area": "ecol",
+      "axis": "econ",
+      "key": -1,
+      "why": "The area « Écologie & agriculture » contains no farm-income item. Floor prices are backed by LFI, PCF and the greens, half-backed by RN (which prefers exemptions and tariffs), and rejected by the centre and LR in favour of the EGalim framework. It discriminates where Mercosur (opposed by nearly every French candidate) would not."
+    },
+    {
+      "rank": 6,
+      "theme": "Nouvelle-Calédonie et outre-mer",
+      "fr": "Permettre à la Nouvelle-Calédonie d'accéder à l'indépendance si une majorité de ses électeurs le choisit lors d'une nouvelle consultation.",
+      "en": "Let New Caledonia become independent if a majority of its voters choose so in a new consultation.",
+      "area": "ins",
+      "axis": "none",
+      "key": 0,
+      "why": "The Bougival constitutional bill failed in the National Assembly in 2026 and the question returns to the next president. The left (LFI, greens, PCF) supports a new self-determination path, RN and LR oppose, the centre is divided; nothing in the bank covers the overseas territories."
+    },
+    {
+      "rank": 7,
+      "theme": "Numérique et jeunesse",
+      "fr": "Interdire l'accès aux réseaux sociaux aux moins de 15 ans.",
+      "en": "Ban access to social networks for under-15s.",
+      "area": "soc",
+      "axis": "none",
+      "key": 0,
+      "why": "The only digital/AI item in the bank is surveillance (sec5). A minimum age for social media is championed by Macron's camp and parts of LR and RN, contested by LFI and the greens on feasibility and liberties; it introduces a cleavage that cuts across the usual blocs and is highly salient for parents."
+    },
+    {
+      "rank": 8,
+      "theme": "Décentralisation",
+      "fr": "Transférer davantage de compétences et de recettes fiscales de l'État aux régions et aux départements.",
+      "en": "Transfer more powers and tax revenue from the state to regions and départements.",
+      "area": "ins",
+      "axis": "none",
+      "key": 0,
+      "why": "The institutions area is entirely about national mechanisms (VIe République, 49.3, referendums). Girondin positions (Philippe, Retailleau, part of PS) vs jacobin ones (RN, LFI) are a genuine cleavage that does not map onto the three axes, which is exactly what the « none » category is for."
+    }
+  ],
+  "keying": {
+    "diagnosis": "cult +1: imm1, imm2, imm3, imm5, imm6, sec1, sec2, sec5, int6, soc2, soc3, edu1 (12) vs cult -1: imm4, imm7, sec3, sec4, soc1, soc4, soc5 (7). eu +1: eu1, eu3, eu5, eu6, int3, ene4 (6) vs eu -1: eu2, eu4 (2). econ is balanced 10/10. With an unbalanced key, acquiescence bias shifts every respondent toward the +1 pole; the cult axis also measures mostly immigration and Islam, so a respondent liberal on justice but restrictive on immigration is pulled to TAN.",
+    "recommendations": [
+      "Re-key imm2 to axis none (it is an institutional item and duplicates ins5), or drop it: cult becomes 11/7.",
+      "Replace eu5 (near-duplicate of eu1) by eu7 below: eu becomes 5/3; adding eu8 makes it 5/4.",
+      "Add cult -1 items sec6 and imm8 below: cult becomes 11/9. Consider replacing soc5 (very low discrimination) by one of them to keep the bank at 70.",
+      "int3 (NATO integrated command) is keyed eu +1; it fits the 'sovereignty' pole as defined but is not about the EU. Keep, but document that the axis is 'sovereignty vs integration', not 'EU' alone."
+    ],
+    "items": [
+      {
+        "id": "eu7",
+        "fr": "Construire une défense européenne commune (armée européenne, achats d'armement en commun), même si la France perd une partie de son autonomie militaire.",
+        "en": "Build a common European defence (European army, joint arms procurement), even if France loses some military autonomy.",
+        "area": "eu",
+        "axis": "eu",
+        "key": -1,
+        "why": "Clear integrationist item with a cost clause; supported by the Macron camp and PS, opposed by RN, LFI and Reconquête."
+      },
+      {
+        "id": "eu8",
+        "fr": "Poursuivre l'adhésion de l'Ukraine à l'Union européenne.",
+        "en": "Continue Ukraine's accession to the European Union.",
+        "area": "eu",
+        "axis": "eu",
+        "key": -1,
+        "why": "Enlargement is the other integration marker; it splits RN (against), LFI (reserved), LR (conditions) from the centre and PS (for)."
+      },
+      {
+        "id": "sec6",
+        "fr": "Remettre un récépissé lors de chaque contrôle d'identité pour lutter contre les contrôles au faciès.",
+        "en": "Issue a receipt at every identity check to curb ethnic profiling.",
+        "area": "sec",
+        "axis": "cult",
+        "key": -1,
+        "why": "A GAL item on policing that is not about immigration or religion; backed by LFI, greens, PS, rejected by LR, RN and most of the centre."
+      },
+      {
+        "id": "imm8",
+        "fr": "Faciliter la naturalisation des étrangers qui résident et travaillent légalement en France depuis plusieurs années.",
+        "en": "Make naturalisation easier for foreigners who have lived and worked legally in France for several years.",
+        "area": "imm",
+        "axis": "cult",
+        "key": -1,
+        "why": "The bank has four restrictive immigration items and two liberal ones; naturalisation conditions (tightened by the 2024 law and 2025 circulars) are an active cleavage with a liberal pole that is easy to code."
+      }
+    ]
+  },
+  "context": [
+    {"id": "eco1", "today_fr": "L'ISF a été supprimé en 2018 et remplacé par l'IFI, qui ne taxe que le patrimoine immobilier au-delà de 1,3 million d'euros.", "pour_fr": "Taxer aussi le patrimoine financier ferait contribuer les plus grandes fortunes, dont les actifs sont surtout financiers, et rapporterait plusieurs milliards par an.", "contre_fr": "Taxer le patrimoine financier peut pousser les capitaux et les entrepreneurs à partir, ce qui réduit l'investissement et le rendement de l'impôt."},
+    {"id": "eco2", "today_fr": "Il n'existe pas d'impôt minimum sur les très hauts patrimoines ; la « taxe Zucman » a été rejetée par l'Assemblée lors du budget 2026.", "pour_fr": "Les 1 800 foyers les plus riches paient proportionnellement moins d'impôt que les classes moyennes grâce aux holdings, et un plancher de 2 % corrigerait cela.", "contre_fr": "Un impôt sur un patrimoine souvent non liquide (parts d'entreprise) obligerait à vendre ou à délocaliser, et son rendement réel est très incertain."},
+    {"id": "eco3", "today_fr": "Les impôts de production ont été réduits depuis 2021 ; la suppression totale de la CVAE a été reportée (vers 2028-2030) et les cotisations patronales sont déjà allégées sur les bas salaires.", "pour_fr": "Les entreprises françaises paient plus d'impôts de production que leurs concurrentes européennes, ce qui pénalise l'industrie et l'emploi.", "contre_fr": "Chaque baisse coûte plusieurs milliards à l'État et aux collectivités sans garantie d'effet sur l'emploi, alors que le déficit est déjà élevé."},
+    {"id": "eco4", "today_fr": "Les droits de douane sont une compétence de l'Union européenne, qui en a par exemple imposé sur les voitures électriques chinoises en 2024.", "pour_fr": "Protéger certaines filières évite la disparition d'emplois et de savoir-faire face à des concurrents aux normes sociales ou environnementales plus faibles.", "contre_fr": "Les protections renchérissent les produits pour les ménages et exposent les exportateurs français à des mesures de rétorsion."},
+    {"id": "eco5", "today_fr": "EDF est détenue à 100 % par l'État depuis 2023 ; les autoroutes sont concédées à des sociétés privées jusqu'en 2031-2036, et l'eau est gérée localement, souvent par des entreprises privées.", "pour_fr": "Un contrôle public permet de fixer les prix et les investissements selon l'intérêt général plutôt que la rentabilité pour les actionnaires.", "contre_fr": "Racheter ces entreprises coûterait des dizaines de milliards et l'État n'a pas toujours mieux géré que des opérateurs soumis à la concurrence."},
+    {"id": "eco6", "today_fr": "Les droits de succession s'appliquent au-delà d'un abattement de 100 000 euros par parent et par enfant, avec un barème allant jusqu'à 45 % ; la grande majorité des héritages en ligne directe en sont exonérés.", "pour_fr": "Baisser ces droits permet de transmettre le fruit d'une vie de travail déjà taxé et aide les jeunes générations à s'installer.", "contre_fr": "Les droits de succession limitent la concentration des fortunes héritées et rapportent près de 20 milliards par an qu'il faudrait compenser."},
+    {"id": "ret1", "today_fr": "La réforme de 2023 porte progressivement l'âge légal à 64 ans, mais elle est suspendue par la loi de financement 2026 : l'âge est gelé à 62 ans et 9 mois jusqu'en janvier 2028.", "pour_fr": "Revenir à 62 ans rend la retraite accessible à ceux qui ont commencé tôt ou exercent des métiers pénibles, et la réforme a été adoptée sans vote direct.", "contre_fr": "Avec l'allongement de la vie et moins d'actifs par retraité, repasser à 62 ans creuserait le déficit du système de plusieurs milliards par an."},
+    {"id": "ret2", "today_fr": "L'âge légal est actuellement gelé à 62 ans et 9 mois ; la reprise de la réforme vers 64 ans est prévue en 2028 sauf nouvelle décision du Parlement.", "pour_fr": "Plusieurs voisins européens sont à 65-67 ans ; travailler plus longtemps est la façon la plus sûre d'équilibrer un système par répartition sans baisser les pensions.", "contre_fr": "Beaucoup de seniors sont déjà sans emploi avant l'âge légal, et reculer encore l'âge transfère le coût vers le chômage et l'invalidité."},
+    {"id": "ret3", "today_fr": "Le système français repose sur la répartition ; la capitalisation n'existe que de façon volontaire (plans d'épargne retraite) ou marginale (retraite additionnelle des fonctionnaires).", "pour_fr": "Une part de capitalisation diversifie les sources de financement et fait bénéficier tous les salariés des rendements des marchés, aujourd'hui réservés à ceux qui peuvent épargner.", "contre_fr": "Les cotisations détournées vers la capitalisation manqueraient pour payer les pensions actuelles, et les rendements dépendent des marchés financiers."},
+    {"id": "fin1", "today_fr": "Le déficit public a été d'environ 5,4 % du PIB en 2025 et le budget 2026 vise un peu moins de 5 % ; l'objectif officiel est de repasser sous 3 % vers 2029.", "pour_fr": "Chaque année de déficit augmente la charge d'intérêts (déjà plus de 60 milliards) et réduit la marge de manœuvre pour les crises futures.", "contre_fr": "Des coupes brutales freinent la croissance et dégradent les services publics, ce qui peut aggraver le déficit plutôt que le réduire."},
+    {"id": "fin2", "today_fr": "La France compte environ 5,7 millions d'agents publics (État, collectivités, hôpitaux), soit près d'un emploi sur cinq.", "pour_fr": "Réduire les effectifs, notamment dans l'administration et les agences, est un levier d'économies durable et de simplification.", "contre_fr": "L'essentiel des effectifs sont des enseignants, des soignants et des policiers, et les réductions passées ont dégradé ces services."},
+    {"id": "fin3", "today_fr": "La dette publique dépasse 3 400 milliards d'euros, soit environ 116 % du PIB, et la France emprunte à des taux plus élevés que l'Allemagne ou l'Espagne.", "pour_fr": "Investir aujourd'hui dans le climat et les services publics coûte moins cher que réparer plus tard, et les investissements créent la croissance qui rembourse.", "contre_fr": "Plus de dette signifie plus d'intérêts à payer et une dépendance accrue aux marchés, avec le risque d'une crise de financement."},
+    {"id": "fin4", "today_fr": "La Constitution ne fixe aucun plafond de déficit ; les règles budgétaires relèvent d'une loi organique de 2012 et du cadre européen.", "pour_fr": "Une règle constitutionnelle engage durablement les gouvernements, comme en Allemagne, et rassure les prêteurs.", "contre_fr": "Une règle rigide empêche de réagir aux crises et transfère au juge constitutionnel des choix qui reviennent aux élus."},
+    {"id": "trav1", "today_fr": "Le SMIC est revalorisé automatiquement sur l'inflation (dernière hausse de 2,4 % en juin 2026) ; aucun « coup de pouce » discrétionnaire n'a été donné depuis 2012.", "pour_fr": "Le SMIC net reste proche du seuil de pauvreté pour une famille, et une hausse soutient la consommation.", "contre_fr": "Une hausse plus rapide que la productivité détruit des emplois peu qualifiés et tasse les salaires juste au-dessus du SMIC."},
+    {"id": "trav2", "today_fr": "La durée maximale d'indemnisation est de 18 mois avant 55 ans ; un accord de février 2026 réduit encore les droits après une rupture conventionnelle.", "pour_fr": "Des droits plus courts accélèrent le retour à l'emploi dans un marché où de nombreux postes sont vacants.", "contre_fr": "Les baisses successives n'ont pas prouvé leur effet sur l'emploi et précarisent les chômeurs les plus éloignés du marché du travail."},
+    {"id": "trav3", "today_fr": "Depuis janvier 2025, les bénéficiaires du RSA doivent effectuer 15 à 20 heures d'activité par semaine (formation, démarches, immersion), avec un régime de suspension des droits en cas de manquement.", "pour_fr": "L'accompagnement obligatoire rompt l'isolement et remet des personnes éloignées de l'emploi sur un parcours d'insertion.", "contre_fr": "L'obligation stigmatise les allocataires, mobilise beaucoup de moyens administratifs et les premières évaluations ne montrent pas d'effet net sur l'emploi."},
+    {"id": "trav4", "today_fr": "La durée légale est de 35 heures depuis 2000 ; la durée effective des temps pleins est d'environ 37 heures.", "pour_fr": "Réduire le temps de travail partage l'emploi, améliore la santé et la vie de famille, et des expériences de semaine de 4 jours sont concluantes.", "contre_fr": "Travailler moins pour le même salaire augmente le coût du travail et réduit la production dans un pays qui travaille déjà moins que ses voisins."},
+    {"id": "imm1", "today_fr": "La France délivre environ 330 000 premiers titres de séjour par an, dont un tiers pour études et un quart pour motif familial ; la loi de janvier 2024 a durci certaines conditions.", "pour_fr": "Réduire les entrées légales allège la pression sur le logement et les services publics et facilite l'intégration de ceux qui sont déjà là.", "contre_fr": "L'économie, les hôpitaux et les universités dépendent de ces flux, et le regroupement familial est un droit protégé par les conventions internationales."},
+    {"id": "imm2", "today_fr": "L'article 11 de la Constitution ne permet pas de référendum sur l'immigration ; il faudrait d'abord réviser la Constitution.", "pour_fr": "Un référendum trancherait démocratiquement un sujet qui divise depuis des décennies et donnerait une légitimité forte à la politique choisie.", "contre_fr": "Une question unique simplifie à l'excès un sujet complexe et peut remettre en cause des droits fondamentaux à la majorité simple."},
+    {"id": "imm3", "today_fr": "L'AME couvre les soins des étrangers en situation irrégulière après trois mois de présence (plus de 400 000 bénéficiaires, environ 1,3 milliard d'euros) ; depuis avril 2026, une pièce d'identité avec photo est exigée.", "pour_fr": "Limiter l'aide aux soins urgents réduit une dépense en hausse et supprime ce que certains voient comme une incitation à rester sans titre.", "contre_fr": "Soigner tard coûte plus cher et les maladies non traitées se propagent ; les médecins et la Cour des comptes jugent le dispositif actuel plus efficace."},
+    {"id": "imm4", "today_fr": "La loi de 2024 permet une régularisation au cas par cas dans les métiers en tension, à titre expérimental ; une circulaire de janvier 2025 a durci les critères.", "pour_fr": "Ces travailleurs occupent déjà des emplois que personne ne pourvoit ; les régulariser sécurise les employeurs et fait rentrer des cotisations.", "contre_fr": "Régulariser crée un appel d'air et récompense l'entrée irrégulière au détriment de ceux qui respectent les procédures."},
+    {"id": "imm5", "today_fr": "Les étrangers en séjour régulier ont accès au logement social et aux prestations sous conditions de résidence (par exemple cinq ans pour le RSA) ; une préférence fondée sur la nationalité exigerait une révision de la Constitution.", "pour_fr": "La solidarité nationale doit d'abord bénéficier aux citoyens qui la financent depuis longtemps, surtout quand le logement social manque.", "contre_fr": "Les étrangers en règle cotisent comme les autres, et une discrimination par la nationalité contredit le principe d'égalité et le droit européen."},
+    {"id": "imm6", "today_fr": "Un enfant né en France de parents étrangers devient français à sa majorité s'il y a vécu cinq ans ; à Mayotte, une loi de mai 2025 exige que les deux parents soient en séjour régulier depuis au moins un an.", "pour_fr": "La nationalité devrait résulter d'un choix et d'une adhésion, pas du seul lieu de naissance, et cela réduirait une motivation migratoire.", "contre_fr": "Le droit du sol existe depuis le XIXe siècle et favorise l'intégration ; le supprimer créerait des générations d'étrangers nés et élevés en France."},
+    {"id": "imm7", "today_fr": "Seuls les citoyens de l'Union européenne peuvent voter aux municipales ; étendre ce droit aux autres étrangers exigerait une révision constitutionnelle.", "pour_fr": "Les résidents de longue date paient des impôts locaux et sont concernés par les décisions municipales ; plusieurs pays européens leur donnent ce droit.", "contre_fr": "Le droit de vote est le cœur de la citoyenneté ; les résidents étrangers qui veulent participer aux élections peuvent demander la nationalité française, ouverte après cinq ans de séjour."},
+    {"id": "sec1", "today_fr": "Les peines planchers pour récidivistes ont existé de 2007 à 2014 ; aujourd'hui le juge fixe librement la peine dans la limite du maximum légal.", "pour_fr": "Des minimums garantissent une réponse ferme et prévisible à la récidive et limitent les disparités entre tribunaux.", "contre_fr": "Les peines automatiques empêchent d'adapter la sanction au cas et avaient surtout rempli les prisons sans réduire la récidive."},
+    {"id": "sec2", "today_fr": "Les mineurs bénéficient d'une « excuse de minorité » qui divise la peine par deux ; la loi de 2025 qui voulait l'inverser pour les 16-18 ans a été censurée sur ce point par le Conseil constitutionnel.", "pour_fr": "Des mineurs de 16 ou 17 ans impliqués dans des crimes graves ou le narcotrafic savent ce qu'ils font et doivent répondre comme des adultes.", "contre_fr": "Le cerveau et la personnalité évoluent jusqu'à 25 ans, et la justice des mineurs, centrée sur l'éducation, obtient moins de récidive."},
+    {"id": "sec3", "today_fr": "Les enquêtes sur les fautes des policiers et gendarmes sont menées par l'IGPN et l'IGGN, services internes ; le Défenseur des droits peut enquêter mais sans pouvoir de sanction.", "pour_fr": "Un organisme externe renforce la confiance du public et évite que la police s'enquête elle-même, comme au Royaume-Uni.", "contre_fr": "Les inspections internes connaissent le métier et sont déjà contrôlées par les procureurs ; un organe externe risquerait d'être moins efficace."},
+    {"id": "sec4", "today_fr": "L'usage de cannabis reste un délit, puni en pratique d'une amende forfaitaire ; seul le cannabis thérapeutique a fait l'objet d'une expérimentation.", "pour_fr": "La légalisation encadrée assèche le trafic, contrôle la qualité et rapporte des recettes fiscales, comme en Allemagne ou au Canada.", "contre_fr": "La légalisation banalise un produit nocif pour les jeunes et n'a pas fait disparaître le marché noir là où elle a été tentée."},
+    {"id": "sec5", "today_fr": "Les caméras « algorithmiques » (détection automatique d'événements, sans reconnaissance faciale) sont expérimentées depuis les JO 2024 ; le Parlement a prolongé et élargi l'expérimentation en 2025-2026.", "pour_fr": "L'analyse automatique permet de surveiller plus d'espaces avec moins d'agents et de détecter plus vite les incidents.", "contre_fr": "Une surveillance permanente et automatisée de l'espace public change le rapport entre l'État et les citoyens, et son efficacité réelle est peu démontrée."},
+    {"id": "eu1", "today_fr": "Le droit de l'Union prime sur le droit national, y compris sur les lois françaises ; seule l'« identité constitutionnelle » de la France fait exception selon le Conseil constitutionnel.", "pour_fr": "Les lois votées par les représentants des Français ne devraient pas être écartées par des règles ou des juges non élus.", "contre_fr": "Sans primauté du droit commun, chaque État choisirait les règles qu'il applique et le marché unique comme les droits garantis à tous disparaîtraient."},
+    {"id": "eu2", "today_fr": "L'Union a emprunté en commun pour le plan de relance post-Covid (750 milliards) et, en 2025, pour des prêts de défense (SAFE, 150 milliards) ; l'emprunt commun reste exceptionnel.", "pour_fr": "Mutualiser l'emprunt finance des biens communs (défense, climat) à moindre coût et évite que seuls les États les plus solides investissent.", "contre_fr": "Une dette commune engage les contribuables de chaque pays pour les choix des autres et transfère des pouvoirs budgétaires à Bruxelles."},
+    {"id": "eu3", "today_fr": "La France verse environ 30 milliards d'euros par an au budget européen et est contributeur net d'une dizaine de milliards ; le prochain cadre financier 2028-2034 est en négociation.", "pour_fr": "Les milliards versés en net seraient plus utiles en France, et plusieurs États ont déjà obtenu des rabais.", "contre_fr": "La contribution finance la PAC, les fonds régionaux et des politiques communes dont la France tire un bénéfice économique bien supérieur."},
+    {"id": "eu4", "today_fr": "Les décisions de politique étrangère de l'Union exigent l'unanimité des 27, ce qui permet à un seul État de bloquer sanctions ou déclarations.", "pour_fr": "La majorité qualifiée éviterait les blocages d'un seul État et donnerait à l'Europe une voix plus rapide et plus forte.", "contre_fr": "La France perdrait son veto sur des sujets de souveraineté essentiels et pourrait être engagée contre son avis."},
+    {"id": "eu5", "today_fr": "Les règles européennes (budget, concurrence, marchés publics) s'imposent aux États ; ne pas les appliquer expose à des procédures et des amendes de la Commission et de la Cour de justice.", "pour_fr": "Un gouvernement élu doit pouvoir appliquer son programme sans être bloqué par des règles décidées ailleurs, quitte à assumer un bras de fer.", "contre_fr": "Désobéir aux règles communes ouvre la voie à ce que tous les États fassent de même et isole la France."},
+    {"id": "eu6", "today_fr": "La France est membre fondateur de l'Union ; le Royaume-Uni en est sorti en 2020 après le Brexit.", "pour_fr": "Sortir rendrait à la France la maîtrise complète de ses lois, de sa monnaie et de ses frontières.", "contre_fr": "Le Brexit a montré le coût économique et diplomatique d'une sortie, et l'euro comme le marché unique sont au cœur de l'économie française."},
+    {"id": "int1", "today_fr": "La France a fourni à l'Ukraine des canons Caesar, des missiles et des avions Mirage, pour plusieurs milliards d'euros ; en octobre 2026, des pourparlers sont en cours mais aucun cessez-le-feu n'est conclu.", "pour_fr": "Soutenir l'Ukraine défend le droit international et la sécurité de l'Europe face à une agression qui pourrait s'étendre.", "contre_fr": "L'aide militaire prolonge une guerre sans issue claire et mobilise des moyens dont l'armée française manque elle-même."},
+    {"id": "int2", "today_fr": "La France et le Royaume-Uni conduisent une « coalition des volontaires » prête à déployer une force de réassurance après un cessez-le-feu ; aucune troupe n'est déployée à ce jour.", "pour_fr": "Des garanties concrètes sont la seule façon de rendre un cessez-le-feu durable et crédible face à la Russie.", "contre_fr": "Déployer des soldats français expose à un affrontement direct avec une puissance nucléaire sans mandat clair."},
+    {"id": "int3", "today_fr": "La France a quitté le commandement intégré de l'OTAN en 1966 et l'a réintégré en 2009 ; elle reste membre de l'Alliance dans les deux cas.", "pour_fr": "Quitter le commandement intégré rend à la France sa liberté stratégique vis-à-vis des États-Unis sans quitter l'Alliance.", "contre_fr": "Le commandement intégré donne à la France de l'influence sur la planification alliée et des garanties au moment où la menace russe est la plus forte."},
+    {"id": "int4", "today_fr": "L'accord d'association UE-Israël de 2000 reste en vigueur : en avril 2026, les ministres européens n'ont pas réuni l'unanimité pour le suspendre ; un cessez-le-feu fragile est en place à Gaza depuis octobre 2025.", "pour_fr": "L'accord est conditionné au respect des droits humains, et le suspendre est le levier le plus concret dont l'Europe dispose.", "contre_fr": "Suspendre l'accord isolerait Israël sans améliorer la situation à Gaza et priverait l'Europe de toute influence sur les parties."},
+    {"id": "int5", "today_fr": "Le budget des armées atteint environ 2 % du PIB (près de 57 milliards en 2026) ; la loi de programmation actualisée en 2026 prévoit une hausse, et l'OTAN vise 3,5 % de dépenses de défense d'ici 2035.", "pour_fr": "La guerre en Ukraine et le désengagement américain imposent de reconstituer des armées capables de tenir un conflit de haute intensité.", "contre_fr": "Un point de PIB de plus représente près de 30 milliards par an à trouver dans un budget déjà en déficit."},
+    {"id": "int6", "today_fr": "La conscription est suspendue depuis 1997 ; le SNU a été abandonné et un service militaire volontaire de dix mois a été lancé en 2026, avec un objectif de quelques milliers de jeunes par an.", "pour_fr": "Un service obligatoire renforce la cohésion nationale, brasse les milieux sociaux et prépare le pays aux crises.", "contre_fr": "Encadrer 800 000 jeunes par classe d'âge coûterait des milliards et détournerait l'armée de ses missions."},
+    {"id": "int7", "today_fr": "L'Union a adopté son 21e paquet de sanctions contre la Russie en juillet 2026 ; aucune levée n'est engagée et les négociations de paix n'ont pas abouti.", "pour_fr": "Une levée progressive est la monnaie d'échange la plus réaliste pour obtenir et faire respecter un accord de paix.", "contre_fr": "Lever les sanctions avant des garanties solides récompenserait l'agression et financerait le réarmement russe."},
+    {"id": "ecol1", "today_fr": "Les ZFE restreignent la circulation des véhicules les plus polluants dans les grandes agglomérations ; leur suppression votée par le Parlement en 2025-2026 a été annulée par le Conseil constitutionnel pour un motif de procédure, et elles restent en vigueur.", "pour_fr": "Les ZFE pénalisent les ménages modestes et les ruraux qui ne peuvent pas changer de voiture, pour un effet limité sur l'air.", "contre_fr": "La pollution de l'air cause des dizaines de milliers de décès prématurés par an et les ZFE sont l'outil le plus efficace pour la réduire en ville."},
+    {"id": "ecol2", "today_fr": "L'acétamipride, un néonicotinoïde, est interdit en France depuis 2018 mais autorisé dans l'Union jusqu'en 2033 ; sa réintroduction votée en 2025 a été censurée par le Conseil constitutionnel, et une nouvelle proposition a été déposée en 2026.", "pour_fr": "Des interdictions plus strictes qu'ailleurs protègent la santé et les pollinisateurs, et la France peut entraîner l'Europe.", "contre_fr": "Interdire seul en France met les agriculteurs en concurrence déloyale avec des produits importés traités avec ces mêmes substances."},
+    {"id": "ecol3", "today_fr": "Le règlement européen de 2023 impose 100 % de voitures neuves sans émissions en 2035 ; en décembre 2025 la Commission a proposé d'abaisser l'objectif à 90 % avec des flexibilités, révision encore en négociation.", "pour_fr": "Un cap clair pour 2035 donne aux constructeurs la visibilité pour investir et est indispensable aux objectifs climatiques.", "contre_fr": "Les voitures électriques restent chères et les constructeurs européens perdent du terrain face à la Chine ; un assouplissement protège l'emploi industriel."},
+    {"id": "ecol4", "today_fr": "La taxe sur les billets d'avion a été fortement relevée en 2025 (davantage pour les jets privés) ; le kérosène reste exonéré de taxe en vertu d'accords internationaux.", "pour_fr": "L'aérien est le mode de transport le moins taxé et le plus émetteur par passager ; le taxer finance le train et corrige une inégalité.", "contre_fr": "Les taxes nationales détournent le trafic vers les aéroports voisins et fragilisent les compagnies et aéroports régionaux français."},
+    {"id": "ecol5", "today_fr": "La France s'est engagée à réduire ses émissions de 55 % d'ici 2030 par rapport à 1990 ; la baisse a ralenti en 2024-2025.", "pour_fr": "Les dégâts climatiques coûteront plus cher que la transition, et retarder ne fait qu'augmenter la facture.", "contre_fr": "Sans croissance, il n'y a ni emplois ni recettes pour financer la transition, et la France pèse moins de 1 % des émissions mondiales."},
+    {"id": "ene1", "today_fr": "La programmation énergétique publiée en février 2026 confirme six EPR2 (Penly, Gravelines, Bugey) et met huit réacteurs supplémentaires à l'étude ; la décision finale d'investissement d'EDF est encore attendue.", "pour_fr": "Le nucléaire fournit une électricité bas carbone et pilotable, et la demande électrique va fortement augmenter.", "contre_fr": "Les EPR2 coûtent des dizaines de milliards, n'arriveront pas avant 2040, et chaque euro engagé manque aux renouvelables moins chers et plus rapides."},
+    {"id": "ene2", "today_fr": "Le parc de 57 réacteurs fournit environ deux tiers de l'électricité ; l'objectif de ramener le nucléaire à 50 % a été supprimé en 2023.", "pour_fr": "Le nucléaire laisse des déchets pour des millénaires et dépend d'un uranium importé ; les renouvelables peuvent prendre le relais.", "contre_fr": "Sortir du nucléaire obligerait à recourir au gaz et au charbon, comme en Allemagne, et augmenterait les émissions et les prix."},
+    {"id": "ene3", "today_fr": "La France compte environ 25 GW d'éolien terrestre et quelques parcs en mer ; la programmation de 2026 a revu à la baisse les objectifs éoliens et solaires.", "pour_fr": "Les éoliennes dégradent les paysages, sont intermittentes et dépendent de subventions alors que le nucléaire suffit.", "contre_fr": "L'éolien est aujourd'hui l'une des électricités les moins chères et les nouveaux réacteurs n'arriveront pas avant 2040."},
+    {"id": "ene4", "today_fr": "La France fait partie du marché européen couplé de l'électricité ; l'ARENH a pris fin au 31 décembre 2025 et un nouveau mécanisme (versement nucléaire universel) redistribue les revenus du nucléaire, les tarifs réglementés reflétant les prix de gros.", "pour_fr": "Les prix français suivraient le coût réel du nucléaire au lieu du prix du gaz fixé sur le marché européen.", "contre_fr": "Sortir du marché priverait la France des exportations qui rapportent des milliards et des importations qui sécurisent l'hiver."},
+    {"id": "ins1", "today_fr": "La Ve République, en place depuis 1958, donne au président des pouvoirs étendus ; le passage à une VIe République exigerait une révision constitutionnelle ou une assemblée constituante.", "pour_fr": "Un régime plus parlementaire rééquilibrerait un pouvoir présidentiel excessif et rapprocherait les décisions des citoyens.", "contre_fr": "La stabilité de la Ve République a évité les crises de régime, et les parlements fragmentés récents montrent les limites d'un régime d'assemblée."},
+    {"id": "ins2", "today_fr": "Les députés sont élus au scrutin majoritaire à deux tours ; la proportionnelle n'a été utilisée qu'en 1986, et une proposition transpartisane de 2026 n'a pas abouti.", "pour_fr": "La proportionnelle représente fidèlement les courants d'opinion et pousse à des coalitions assumées.", "contre_fr": "Elle risque de rendre les majorités introuvables et de donner aux partis le pouvoir de choisir les élus."},
+    {"id": "ins3", "today_fr": "Il n'existe pas de référendum d'initiative citoyenne ; le référendum d'initiative partagée de 2008 exige 185 parlementaires et 4,7 millions de signatures et n'a jamais abouti.", "pour_fr": "Le RIC permet aux citoyens de proposer ou d'abroger des lois entre deux élections et réduit le sentiment d'impuissance.", "contre_fr": "Des référendums fréquents favorisent les décisions à chaud et peuvent contourner les protections des minorités."},
+    {"id": "ins4", "today_fr": "L'article 49.3 permet d'adopter un texte sans vote sauf motion de censure ; limité depuis 2008 hors textes budgétaires, il a été utilisé trois fois en janvier 2026 pour le budget.", "pour_fr": "Le 49.3 permet d'adopter des lois sans majorité et de contourner le débat parlementaire.", "contre_fr": "Sans 49.3, une assemblée fragmentée peut bloquer tout budget, comme l'ont montré les crises de 2024-2026."},
+    {"id": "ins5", "today_fr": "L'article 11 limite le référendum à l'organisation des pouvoirs publics, aux réformes économiques, sociales et environnementales et aux traités ; l'immigration et la justice pénale en sont exclues.", "pour_fr": "Les Français devraient pouvoir se prononcer directement sur les sujets qui les préoccupent le plus.", "contre_fr": "Les libertés et les droits fondamentaux ne devraient pas dépendre d'un vote d'opinion à la majorité simple."},
+    {"id": "soc1", "today_fr": "La loi créant un droit à l'aide à mourir pour les adultes atteints d'une affection grave et incurable, avec souffrances réfractaires et discernement, a été adoptée en juillet 2026 et validée par le Conseil constitutionnel en août 2026.", "pour_fr": "Les personnes en fin de vie doivent pouvoir choisir d'abréger leurs souffrances, comme c'est possible en Belgique ou en Espagne.", "contre_fr": "Le rôle de la médecine est de soulager, pas de donner la mort, et les plus vulnérables peuvent se sentir poussés à choisir."},
+    {"id": "soc2", "today_fr": "Le voile intégral est interdit dans l'espace public depuis 2010 et les signes religieux à l'école depuis 2004 ; le foulard reste autorisé dans la rue et les lieux publics.", "pour_fr": "Le voile est vu par ses opposants comme un signe de soumission et de séparatisme que la République ne doit pas accepter dans l'espace commun.", "contre_fr": "Interdire un vêtement religieux dans la rue viole la liberté de conscience et serait censuré par les juges français et européens."},
+    {"id": "soc3", "today_fr": "Aucune loi n'interdit les signes religieux aux parents accompagnateurs ni aux étudiants ; le Sénat a voté des interdictions mais l'Assemblée ne les a pas adoptées.", "pour_fr": "Les sorties scolaires prolongent l'école et l'université est un service public : la neutralité devrait s'y appliquer.", "contre_fr": "Les parents et les étudiants sont des usagers, pas des agents de l'État, et la neutralité ne s'impose qu'aux seconds."},
+    {"id": "soc4", "today_fr": "La loi de 1905 sépare l'État des cultes et garantit la liberté de conscience ; la loi de 2021 contre le séparatisme a étendu la neutralité à certains délégataires de service public.", "pour_fr": "Multiplier les interdictions transforme la laïcité en instrument contre une religion et fragilise la paix civile.", "contre_fr": "Sans règles supplémentaires, la pression communautaire dans certains quartiers et services menace l'égalité femmes-hommes et la liberté de ne pas croire."},
+    {"id": "soc5", "today_fr": "La GPA est interdite en France depuis 1994 ; les enfants nés par GPA à l'étranger voient leur filiation reconnue sous conditions.", "pour_fr": "Encadrer la GPA en France protégerait les mères porteuses et les enfants mieux que la situation actuelle où les couples partent à l'étranger.", "contre_fr": "Porter un enfant pour autrui fait du corps des femmes un service et crée un risque d'exploitation, même sans paiement."},
+    {"id": "edu1", "today_fr": "Une expérimentation de tenue unique a eu lieu dans une centaine d'établissements de 2024 à 2026 ; le bilan publié en 2026 est mitigé et la plupart des collectivités y ont mis fin.", "pour_fr": "Une tenue commune gomme les différences sociales visibles, limite le harcèlement et renforce le sentiment d'appartenance.", "contre_fr": "L'expérimentation n'a montré aucun effet net sur le climat scolaire ou les résultats, pour un coût réel."},
+    {"id": "edu2", "today_fr": "La France compte environ 850 000 enseignants ; les classes sont un peu plus chargées que la moyenne de l'OCDE au primaire, et la baisse démographique réduit les effectifs d'élèves.", "pour_fr": "Des classes moins chargées améliorent les apprentissages, surtout pour les élèves en difficulté, comme l'a montré le dédoublement des CP.", "contre_fr": "Le nombre d'élèves baisse déjà et les concours peinent à recruter ; mieux vaut revaloriser et former les enseignants existants."},
+    {"id": "edu3", "today_fr": "Les groupes de niveau en français et en mathématiques, obligatoires en 6e et 5e depuis 2024, sont devenus facultatifs à la rentrée 2026.", "pour_fr": "Regrouper les élèves par besoins permet d'adapter le rythme et d'aider ceux qui décrochent.", "contre_fr": "Les groupes de niveau enferment les élèves faibles dans des parcours sans ambition et accroissent les inégalités."},
+    {"id": "edu4", "today_fr": "L'enseignement privé sous contrat scolarise 17 % des élèves ; l'État paie les enseignants et finance les trois quarts de ses coûts, sans obligation de mixité sociale.", "pour_fr": "L'argent public ne devrait pas financer des établissements qui concentrent les élèves favorisés et accentuent la ségrégation scolaire.", "contre_fr": "Les familles choisissent le privé pour sa qualité ; le pénaliser réduirait la liberté de choix et renverrait des élèves vers un public saturé."},
+    {"id": "edu5", "today_fr": "Parcoursup gère depuis 2018 l'accès au supérieur et permet aux universités de classer les candidats ; certaines filières refusent des bacheliers faute de places.", "pour_fr": "Le bac devrait garantir l'accès à l'université, et Parcoursup génère stress et opacité pour des centaines de milliers de familles.", "contre_fr": "Sans sélection, les filières saturées tirent au sort ou voient des taux d'échec massifs en première année."},
+    {"id": "san1", "today_fr": "Près de six millions de Français n'ont pas de médecin traitant ; la loi Garot votée à l'Assemblée en 2025 a été fortement atténuée par le Sénat en 2026 et n'est pas définitivement adoptée.", "pour_fr": "La formation des médecins est payée par la collectivité ; quelques années en zone sous-dotée sont une contrepartie raisonnable.", "contre_fr": "La contrainte détourne des vocations et pousse vers le salariat ou l'étranger, sans régler la pénurie globale de médecins."},
+    {"id": "san2", "today_fr": "Les franchises (1 euro par boîte de médicament, 2 euros par consultation) sont plafonnées par an ; le plafond passe de 100 à 140 euros en octobre 2026.", "pour_fr": "Une participation modérée responsabilise sur la consommation de soins et évite des hausses d'impôts ou de cotisations.", "contre_fr": "Ces restes à charge touchent surtout les malades chroniques et les plus modestes, qui renoncent à se soigner."},
+    {"id": "san3", "today_fr": "L'encadrement des loyers est expérimenté dans Paris, Lyon, Lille, Montpellier, Bordeaux et quelques autres villes ; sa prolongation au-delà de novembre 2026 est en cours d'adoption.", "pour_fr": "L'encadrement limite les hausses abusives là où la pénurie donne tout le pouvoir aux propriétaires.", "contre_fr": "Les plafonds réduisent l'offre locative et l'entretien des logements, et déplacent la pénurie plutôt que de la résoudre."},
+    {"id": "san4", "today_fr": "Le marché de l'énergie est ouvert depuis 2007 ; le transport ferroviaire s'ouvre progressivement (concurrents sur le TGV et certains TER) et plusieurs services publics locaux sont déjà délégués.", "pour_fr": "La concurrence a fait baisser les prix du TGV là où elle existe et oblige les opérateurs historiques à s'améliorer.", "contre_fr": "La concurrence fragmente les réseaux, délaisse les lignes non rentables et transfère les bénéfices vers des actionnaires privés."}
+  ],
+  "other_modules": {
+    "open_questions": [
+      "o1 is sound; its area follow-up used as an importance prior is good practice. Consider wording the follow-up as « À quel thème ce problème se rattache-t-il le plus ? » since several problems straddle areas.",
+      "o2 (« une France qui va mieux ») is a positive-vision prompt; fine for reflection but it primes optimism before statements. Keep, but make it optional.",
+      "o3 (« mesure ou valeur … empêcherait absolument ») is a useful veto probe; store it so o5 can echo it back (« vous aviez indiqué que X était rédhibitoire »)."
+    ],
+    "response_scale": [
+      "« Neutre / partagé » conflates the mid-point and ambivalence; with a separate « Sans avis », this is acceptable. Consider « Partagé / ni l'un ni l'autre » to avoid the word « neutre » which the intro uses to contrast with « sans avis ».",
+      "The « important » toggle doubling the weight is standard (euandi); document that weights are applied to both the axis scores and the match, or only the match."
+    ],
+    "gates": [
+      "eu1 ≤ -1 → impute eu6 = -2: the implication (no primacy of national law → no Frexit) is logically valid, but imputing -2 from eu1 = -1 overstates intensity. Impute -2 only when eu1 = -2, else -1 (the 0.5 weight already dampens, but the sign-intensity should still be proportional).",
+      "ret1 ≥ 1 → impute ret2 = -2: valid (wanting 62 excludes wanting >64). Same intensity remark.",
+      "ene2 ≥ 1 → impute ene1 = -2: valid.",
+      "eu1 = 0 is undefined: eu5/eu6 are neither asked nor imputed. Define the default (ask) for every gate at 0.",
+      "ask_next branches (trav4 after ret1 ≥ 1; eco2/eco5 after eco1 ≥ 1; eco3/eco6 after eco1 ≤ -1; imm4/imm7 vs imm5/imm6; int2/int5 vs int7/int3) produce missingness that is correlated with the trait being measured: left-leaning respondents answer more econ -1 items, restrictive respondents more cult +1 items. If axis scores are means over answered items this is harmless; if the candidate match sums agreements, respondents reached through different branches are compared on different item sets. Either keep these items in the core pool or normalise the match per answered item.",
+      "No gate handles trav3 after the status-quo rewording; none needed.",
+      "After the soc1 update, add a gate: soc1 ≤ -1 → ask r_soc1 is still fine (the retest must be asked regardless of the gate, otherwise the acquiescence index is biased)."
+    ],
+    "retest": [
+      "All four reversed items are keyed to different axes, which is good for the acquiescence index, but three of the four originals are agree-keyed toward the +1 pole of their axis (imm1 cult+, fin1 econ+, eu2 is eu-, soc1 cult-). Add a reversal of an econ -1 original (e.g. r_trav1: « Laisser le SMIC évoluer uniquement avec l'inflation, sans coup de pouce ») so acquiescence is estimated across both poles.",
+      "Three of the four reversals use a negation (« ne devrait pas », « peut attendre »); negated reversals produce more errors than affirmative opposites. Proposed affirmative rewordings are in the wording section (r_imm1, r_fin1, r_soc1, r_eu2).",
+      "r_soc1 is now factually outdated (law adopted July 2026) and must change together with soc1.",
+      "Averaging (orig - rev)/2 into the original is reasonable; also log |orig + rev| per person so results can show a reliability caveat when it exceeds 2."
+    ],
+    "dilemmas": [
+      "d1: « charges » is the employers' term for social contributions; use « impôts et cotisations ». Option b's cost (« garder un niveau d'impôts élevé ») is phrased as a status quo while a's cost is an action (« réduire certains services ») ; make them parallel: « quitte à augmenter ou maintenir des impôts élevés ».",
+      "d2: balanced (« un peu » on both sides). Fine.",
+      "d3: balanced; « libertés publiques » is slightly technical, « libertés individuelles » is more common.",
+      "d4: balanced; note it mixes immigration (cult) and labour-market policy (econ); keying b_sign cult +1 is defensible but the item will also load on econ.",
+      "d5: unbalanced. Option a (« Préserver d'abord l'identité et les traditions ») carries no cost clause, option b (« Adapter d'abord la France à une société plus diverse ») reads as a concession. Proposed: a « Préserver d'abord l'identité et les traditions de la France, quitte à limiter les changements culturels » / b « Accueillir d'abord la diversité culturelle, quitte à faire évoluer les traditions ».",
+      "d6: balanced and well formed.",
+      "d7: unbalanced. a's cost (« coûte plus cher à court terme ») is concrete and personal; b's cost (« ralentir certaines mesures écologiques ») is abstract and mild, and « protéger le pouvoir d'achat » is universally attractive. Proposed b: « Protéger d'abord le pouvoir d'achat, quitte à retarder la baisse des émissions et de la pollution ».",
+      "d8: a is double-barrelled (« système politique et économique »); b (« réformes progressives dans le cadre actuel ») is fine. Proposed a: « Changer en profondeur le système actuel, quitte à une période d'instabilité » to add the missing cost clause.",
+      "Scoring -3..+3 with a 3-step strength is fine; make sure the axis placement uses the dilemmas only as a convergent-validity check, as the comment says, and never to override the statement-based score silently."
+    ],
+    "leadership": [
+      "g1 is fine; « président de région » could be « président de région ou de département » to avoid reading as a regional bias.",
+      "g2/g2b are well designed; g2b makes the Le Pen case explicit without naming anyone. Define how « condamnation » is scored for candidates convicted long ago of minor offences (threshold or recency).",
+      "g3 (« constance des positions ») is scored against a « reversals » count; constancy is not unambiguously a virtue (updating on evidence). Keep, but the results page should show the reversals, not just a score.",
+      "g4 bipolar item is balanced; « assume la confrontation » is slightly more loaded than « cherche le compromis »; alternative: « tranche vite, quitte à affronter les oppositions ».",
+      "g5 (« orientations suivies depuis 2017 ») is a de facto continuity-with-Macron item, asked after the statements, so it does not cue them; acceptable, but it is the only item that identifies a camp without naming it. Flag it in the results as such.",
+      "g6 (sincere/strategic) is a good design; make sure poll viability is shown with its source and date and never blended into the match."
+    ],
+    "importance": [
+      "A 100-point constant-sum over 14 areas is heavy on mobile and produces many zeros; consider a 3-level rating per area or a « top 5 » pick, then normalise. If constant-sum is kept, prefill from o1 and allow a « répartir équitablement » reset."
+    ],
+    "expectation_and_results": [
+      "Asking the expected vote only after all answers are locked is the right design.",
+      "o5 (« premier résultat ») presupposes the respondent looked at their top match; fine."
+    ]
+  },
+  "summary": [
+    "Four statements rest on premises that changed in 2025-2026 and now describe the status quo or a moving target: trav3 (RSA already conditional on 15-20 h since Jan 2025), soc1 and its retest r_soc1 (assisted-dying law adopted July 2026 and validated by the Conseil constitutionnel in Aug 2026), ecol3 (Commission proposed in Dec 2025 to soften the 2035 target; still under negotiation), edu3 (ability groups optional since Sept 2026). All can be re-stemmed as « maintenir / rendre obligatoire » without changing candidate coding direction, but soc1 intensities should be rechecked.",
+    "Other factual anchors verified for the context explainers: pension age frozen at 62 ans 9 mois until Jan 2028 under the LFSS 2026; three uses of 49.3 in Jan 2026 for the 2026 budget; ZFE abolition struck down as a procedural rider so ZFE remain in force; AME kept with an ID requirement since April 2026; PPE3 decree of Feb 2026 confirms 6 EPR2 plus 8 under study; ARENH replaced by the VNU; franchises cap raised to 140 euros in Oct 2026; EU-Israel agreement not suspended (April 2026); 21st Russia sanctions package (July 2026); no Ukraine ceasefire as of 5 Oct 2026.",
+    "Wording: six items carry a persuasive purpose clause (eco3, ret2, trav2, san2, edu2 « massivement », eu5 « programme choisi par les électeurs ») and should be cut to the bare proposal; four are double-barrelled in a way that splits candidates (fin3, int6, soc3, edu5), two of which (soc3, edu5) need a meaning-changing split; soc4 pairs a consensual clause with the operative one and should keep only the latter; two near-duplicates (imm2 vs ins5, eu5 vs eu1) inflate the +1 side of the cult and eu axes.",
+    "Keying: cult is 12 agree-keyed restrictive items vs 7 liberal ones and eu is 6 vs 2, so acquiescence pushes every respondent toward TAN and sovereignty. Proposed fix: re-key imm2 to « none », replace eu5 with a European-defence item (eu7) and add Ukraine accession (eu8), add two cult -1 items (identity-check receipts sec6, easier naturalisation imm8), optionally replacing soc5 which almost no candidate supports.",
+    "Coverage: no item on energy prices/VAT (the purchasing-power form of the campaign), public broadcasting, housing supply/ZAN, « TVA sociale », farm prices, New Caledonia/overseas, social-media age limits or decentralisation; eight ranked proposals are provided, with the energy VAT cut and public-broadcasting privatisation as the strongest discriminators across the 12-candidate field.",
+    "Other modules: d5 and d7 are unbalanced (the identity and purchasing-power options lack a symmetric cost clause), d1 uses the employer-side term « charges »; three of four retest items are negations and the set lacks an econ -1 original; the gates are logically valid but impute -2 from a -1 answer and leave the eu1 = 0 case undefined, and the ask_next branches create trait-correlated missingness that must be neutralised by per-item normalisation of the match.",
+    "Cross-divide vocabulary is largely clean: « assistanat » and « priorité nationale » are avoided, « ZFE », « droit du sol », « capitalisation » and « impôts de production » need short neutral glosses, and « laïcité » should not carry the measurement in soc4 because the two camps define it differently."
+  ]
+}

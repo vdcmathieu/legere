@@ -1,0 +1,397 @@
+{
+ "collect": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified. PS historically opposes a regressive VAT increase, but nothing sourced."
+   },
+   {
+    "id": "trav3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified. PS criticised the 2025 RSA conditionality; no sourced promise to abolish it."
+   },
+   {
+    "id": "imm8",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from PS stance favouring regularisation of working undocumented migrants; not verified with sources in this session.",
+    "sources": [],
+    "nuance": "Unsourced inference from my background knowledge; needs verification."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS has long backed identity-check receipts (2012 Hollande programme, parliamentary bills); not verified in this session.",
+    "sources": [],
+    "nuance": "Unsourced; background knowledge only."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "PS is broadly pro-European defence; Faure's exact wording on autonomy loss not verified.",
+    "sources": [],
+    "nuance": "Unsourced inference."
+   },
+   {
+    "id": "eu8",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Faure supports Ukraine strongly, but his stance on accession timing was not verified."
+   },
+   {
+    "id": "ecol6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "PS has backed minimum prices in EGalim debates, unverified for Faure personally."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS strongly defends public broadcasting against privatisation; not verified with sources in this session.",
+    "sources": [],
+    "nuance": "Unsourced; background knowledge only."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "PS and Faure supported the end-of-life law; not verified in this session.",
+    "sources": [],
+    "nuance": "Unsourced; background knowledge only."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified; PS is divided on this."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "san5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved; search budget exhausted.",
+    "sources": [],
+    "nuance": "Not verified."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Olivier Faure",
+  "positions": [
+   {
+    "id": "eco7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position on 'TVA sociale' found. The PS project (Refaire société, Vivre libres) does not mention TVA sociale; its VAT proposals go the other way (reduced 5.5% rate on an anti-poverty basket of essentials).",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Créer un « panier de lutte contre la précarité » ... soumis à un taux réduit et stable de TVA de 5,5 %"
+     }
+    ],
+    "nuance": "Adjacent evidence only: the PS wants to cut VAT on essentials and raise some social contributions, which suggests hostility to a VAT-for-contributions swap, but no explicit stance was found, so it stays null. Web search budget was exhausted during verification."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project commits to rebuilding the RSA to guarantee it is unconditional and automatic. That amounts to abolishing the 15-20 h activity conditionality now in force.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Refonder le RSA pour en garantir l'inconditionnalité et l'automaticité."
+     }
+    ],
+    "nuance": "This is the party's project, adopted under Faure as First Secretary, and not a personal Faure 2027 programme. The text does not name the 15-20 h rule explicitly, but promising unconditionality is incompatible with keeping it. The confidence is medium because there is no personal statement from Faure."
+   },
+   {
+    "id": "imm8",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from adjacent positions. The PS project wants a residence permit for any foreigner with a work contract of at least 6 months, and Faure voted against the 2023 immigration law and the 2025 Mayotte nationality restrictions. Nothing specific on naturalisation was found.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Permettre l'obtention d'un titre de séjour à toute personne étrangère disposant d'un contrat de travail depuis au moins 6 mois"
+     },
+     {
+      "url": "https://datan.fr/deputes/seine-et-marne-77/depute_olivier-faure/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02-06",
+      "quote": "Conditions d'accès à la nationalité à Mayotte: contre (paraphrase of vote listing)"
+     }
+    ],
+    "nuance": "The cited proposal is about residence permits and regularisation, which is not naturalisation. The +1 is an inference from adjacent positions and should be replaced if a direct statement is found."
+   },
+   {
+    "id": "sec6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project explicitly proposes introducing a receipt for identity checks, as part of fighting discrimination and abusive police practices.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/etre-en-securites/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Instaurer un récépissé de contrôle d'identité."
+     }
+    ],
+    "nuance": "This is a party programme commitment and not a personal Faure statement. Hollande made the same promise in 2012 and did not implement it."
+   },
+   {
+    "id": "eu7",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project backs an autonomous European defence, common operational capabilities between European partners and a European defence industry. It does not commit to a European army or accept a loss of national military autonomy.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-libres/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Construire une défense européenne autonome"
+     },
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-libres/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Construire une industrie européenne de défense au service de notre autonomie stratégique"
+     }
+    ],
+    "nuance": "Coded +1 because the statement's clause 'even if France loses some military autonomy' is not endorsed: the text frames European defence as serving strategic autonomy. This is the party programme, with no personal Faure statement found."
+   },
+   {
+    "id": "eu8",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project explicitly commits to supporting Ukraine's accession to the EU, alongside military support funded by seizing frozen Russian assets.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/pacifier-le-monde/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Soutenir l'adhésion de l'Ukraine à l'Union européenne."
+     }
+    ],
+    "nuance": "This is a party programme and not a personal Faure statement. Faure also voted for the March 2024 Assemblée vote on support for Ukraine (datan). No timeline for accession is given."
+   },
+   {
+    "id": "ecol6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project proposes guaranteed minimum prices based on real production costs and higher European floor prices.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-avec-la-nature/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Instaurer des prix minimums garantis basés sur les coûts de production réels"
+     },
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-avec-la-nature/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Relever les prix planchers européens, pour qu'ils soient réellement rémunérateurs."
+     }
+    ],
+    "nuance": "This is a party programme, with no personal Faure statement found."
+   },
+   {
+    "id": "ene5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position found on cutting VAT on electricity, gas and fuels to 5.5%. The PS project mentions 5.5% VAT only for renovation work and an essentials basket.",
+    "sources": [],
+    "nuance": "The PS project addresses energy bills through investment and renovation, not an energy VAT cut. Web search budget was exhausted, so press statements by Faure could not be checked."
+   },
+   {
+    "id": "ins6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project commits to defending and strengthening public broadcasting, with secure funding through a universal and progressive contribution. That is the opposite of privatisation.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Défendre et renforcer l'audiovisuel public en sécurisant son financement avec une contribution universelle et progressive"
+     }
+    ],
+    "nuance": "This is a party programme commitment, with no personal Faure statement retrieved."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "Faure personally voted for the bill creating a right to assisted dying, at first reading on 27 May 2025 and at final adoption on 15 July 2026.",
+    "sources": [
+     {
+      "url": "https://datan.fr/deputes/seine-et-marne-77/depute_olivier-faure/votes",
+      "outlet": "Datan",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir - Pour (vote listing)"
+     }
+    ],
+    "nuance": "Two consistent personal votes in favour, so he would keep the law. No statement about extending or restricting it was found."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position found on banning religious symbols for parents accompanying school trips. The PS project's laïcité section does not address it.",
+    "sources": [],
+    "nuance": "The PS project defends 1905 laïcité while opposing using it to stigmatise Muslims, which is not specific to this statement. The PS is internally divided on the issue. Web search budget was exhausted."
+   },
+   {
+    "id": "soc6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No position found on banning religious symbols at university.",
+    "sources": [],
+    "nuance": "Not addressed in the PS project pages checked. Web search budget was exhausted."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "The PS project would abolish Parcoursup in favour of a single national public procedure and fold selective courses into universities. It does not commit to ending all selection at entry.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/sepanouir-a-egalite/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Abroger « Parcoursup » au profit d'une procédure unique, nationale, publique, démocratique, transparente et humaine"
+     }
+    ],
+    "nuance": "Per the coding note, replacing Parcoursup is not agreement with ending selection. Because the programme is silent on selection itself, this stays null. It could become 0 or +1 if a statement on selection is found."
+   },
+   {
+    "id": "san5",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The PS project defends the zero-net-land-take (ZAN) goal and wants housing built through densification, while sparing rural areas and small towns. It says nothing about loosening building rules.",
+    "sources": [
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-avec-la-nature/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "Lutter contre l'artificialisation des sols avec le « Zéro Artificialisation Nette », tout en préservant le développement de nos territoires ruraux"
+     },
+     {
+      "url": "https://projet-socialiste.fr/projet/vivre-avec-la-nature/",
+      "outlet": "Parti socialiste - Le Projet socialiste",
+      "outlet_lean": "campaign-or-party",
+      "date": "undated (consulted 2026-10-05)",
+      "quote": "« Zéro artificialisation nette » qui permet la production de logements par la densification et non l'étalement."
+     }
+    ],
+    "nuance": "Coded -1 rather than -2 because the project protects rural development within ZAN and is silent on building rules. Faure voted for the 2023 law easing ZAN implementation (datan, 27 Jun 2023), so his line accepts adjustments while keeping the target."
+   }
+  ],
+  "verification_notes": [
+   "CONTEXT: web search budget was exhausted (200/200), so verification used direct fetches of datan.fr and projet-socialiste.fr. All cited URLs were opened. The projet-socialiste.fr pages are undated, and their attribution to Faure personally rests on his role as PS First Secretary.",
+   "eco7: null -> null: confirmed that the PS project does not mention TVA sociale; added the adjacent 5.5% essentials-basket source in nuance.",
+   "trav3: null -> -2 (programme, medium): PS project 'Refonder le RSA pour en garantir l'inconditionnalité et l'automaticité' is a commitment to drop RSA conditionality; the null was a missed-evidence error.",
+   "imm8: +1 low inferred -> +1 low inferred: kept; added real sources (6-month work contract residence permit, datan vote against the Mayotte nationality restrictions); flagged that regularisation is not naturalisation.",
+   "sec6: +2 low party_line (unsourced) -> +2 medium programme: verified verbatim 'Instaurer un récépissé de contrôle d'identité.' in the PS project.",
+   "eu7: +1 low inferred (unsourced) -> +1 medium programme: verified 'Construire une défense européenne autonome' and the defence-industry sentence; strength kept at +1 because the loss-of-autonomy clause is not endorsed. Discarded an unverified 'européanisation des forces armées' paraphrase that a second fetch did not confirm.",
+   "eu8: null -> +2 medium programme: PS project states 'Soutenir l'adhésion de l'Ukraine à l'Union européenne.'; the null was a missed-evidence error.",
+   "ecol6: null -> +2 medium programme: PS project 'Instaurer des prix minimums garantis basés sur les coûts de production réels'.",
+   "ene5: null -> null: confirmed that the PS project has no energy VAT cut.",
+   "ins6: -2 low party_line (unsourced) -> -2 medium programme: verified 'Défendre et renforcer l'audiovisuel public...' in the PS project.",
+   "soc1: +2 low party_line (unsourced) -> +2 high vote: datan shows Faure personally voted POUR on 27 May 2025 and on 15 July 2026 (final adoption).",
+   "soc3: null -> null: the PS project laïcité text does not address school-trip parents.",
+   "soc6: null -> null: nothing found.",
+   "edu5: null -> null: found that the PS project abolishes Parcoursup without committing to end selection; per the coding note this is not agreement; documented in sources and nuance.",
+   "san5: null -> -1 medium programme: the PS project explicitly defends ZAN ('défense de l'objectif zéro artificialisation nette') with a rural-development caveat; the null was a missed-evidence error."
+  ]
+ }
+}

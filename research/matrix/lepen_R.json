@@ -1,0 +1,333 @@
+{
+ "collect": {
+  "candidate": "Marine Le Pen",
+  "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022 and has chaired the RN group in the Assemblée nationale since 2022. She was convicted in March 2025 and again on appeal in July 2026 in the European Parliament assistants case. On 7 July 2026 she announced her fourth presidential candidacy; Jordan Bardella, who had been the backup candidate, withdrew in her favour.",
+  "offices": [
+   {
+    "office": "Regional councillor, Île-de-France",
+    "from": "2004-03-28",
+    "to": "2010-03-21",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Member of the European Parliament",
+    "from": "2004-07-20",
+    "to": "2017-06-18",
+    "kind": "european"
+   },
+   {
+    "office": "Municipal councillor, Hénin-Beaumont",
+    "from": "2008",
+    "to": "2014",
+    "kind": "other"
+   },
+   {
+    "office": "Regional councillor, Nord-Pas-de-Calais / Hauts-de-France",
+    "from": "2010-03-26",
+    "to": "2021-07-02",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Front national / Rassemblement national",
+    "from": "2011-01-16",
+    "to": "2021-09-13",
+    "kind": "party"
+   },
+   {
+    "office": "Co-president, Europe of Nations and Freedoms group (European Parliament)",
+    "from": "2015-06-16",
+    "to": "2017-06-18",
+    "kind": "european"
+   },
+   {
+    "office": "Deputy, Pas-de-Calais 11th constituency",
+    "from": "2017-06-21",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the RN group, Assemblée nationale",
+    "from": "2022-06-28",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Departmental councillor, Pas-de-Calais",
+    "from": "2021-07-11",
+    "to": "2025-11-10",
+    "kind": "legislative"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "European Parliament parliamentary assistants case (embezzlement of EU public funds). First instance, 31 March 2025: 4 years (2 firm), EUR 100,000 fine, 5 years' ineligibility with immediate execution. Appeal, 7 July 2026: 1 year firm under electronic monitoring plus a suspended portion (reported as 3 years in total, 2 suspended), EUR 100,000 fine, 45 months' ineligibility of which 30 suspended. The court found no personal enrichment, with funds benefiting the party. The 15 firm months of ineligibility were already served, so she is eligible in 2027. Other defendants include Louis Aliot (1 year suspended), Bruno Gollnisch (3 years suspended) and Julien Odoul (8 months suspended). The RN was fined EUR 2 million (EUR 1 million suspended). A cassation appeal has been filed. Briefs are due by 15 Oct 2026. The Court of Cassation says it 'could' rule by early April 2027, which is provisional, and the first round is on 18 April 2027. The conviction is therefore not final.",
+    "status": "convicted_appeal_pending",
+    "date": "2026-07-07",
+    "sources": [
+     "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen",
+     "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+     "https://www.touteleurope.eu/vie-politique-des-etats-membres/proces-des-assistants-du-rn-marine-le-pen-condamnee-en-appel-mais-eligible-a-l-election-presidentielle-2027/",
+     "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/presidentielle-bracelet-electronique-pourvoi-en-cassation-les-questions-qui-se-posent-apres-la-condamnation-reduite-de-marine-le-pen-en-appel_8097893.html"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Euro / eurozone exit",
+    "before": "2017 campaign: proposed leaving the euro and returning to a national currency, via a referendum.",
+    "after": "2022: said she did not want to take France out of the eurozone and dropped euro exit from her programme.",
+    "years": "2017-2022",
+    "sources": [
+     "https://www.euronews.com/2017/04/30/le-pen-softens-stance-on-euro",
+     "https://www.infobae.com/en/2022/04/12/marine-le-pen-said-that-if-she-wins-the-elections-in-france-she-will-seek-to-change-the-rules-of-the-european-union"
+    ]
+   },
+   {
+    "topic": "Retirement age",
+    "before": "2007: defended retirement at 65. 2012 and 2017: return to 60.",
+    "after": "2022: 60 to 62 depending on career start. 27 Aug 2026: keeps a return to 62 with 42 years of contributions, and 60 with 40 years for early starters. This is a refinement rather than a clear reversal, and is partly counted here as a historical shift.",
+    "years": "2007-2026",
+    "sources": [
+     "https://www.journaldunet.com/business/action-publique/1554113-marine-le-pen-maintient-le-retour-a-la-retraite-a-62-ans/"
+    ]
+   },
+   {
+    "topic": "Russia / Ukraine",
+    "before": "2011: said she admired Putin 'to a certain extent'. 2014-2017: aligned with Russian discourse on Crimea and favoured lifting sanctions.",
+    "after": "After February 2022: condemns the invasion 'without ambiguity' but opposes further financial aid to Ukraine on budget grounds, and still defends the Crimea referendum. The shift is partial.",
+    "years": "2011-2026",
+    "sources": [
+     "https://legrandcontinent.eu/fr/2026/09/28/marine-le-pen-peut-elle-vraiment-rompre-avec-poutine/",
+     "https://www.europe1.fr/politique/un-rapport-parlementaire-pointe-les-liens-du-rn-avec-la-russie-marine-le-pen-sindigne-4186502"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "No national or local executive office held. Her output is legislative and party-building: leading the RN group (since 2022), a bloc of roughly 120+ deputies after the 2024 elections, as the largest single party in the Assemblée. She has also presided over the party's 'dédiabolisation', including expelling her father and renaming the FN as RN in 2018.",
+    "assessment": "Left and centre-left sources describe dédiabolisation as cosmetic. Right-wing and neutral outlets credit it with mainstreaming the party. Detailed roll-call vote analysis (datan.fr, nosdeputes.fr) was not retrieved in this session.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/D%C3%A9diabolisation",
+     "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
+    ]
+   },
+   {
+    "what": "2027 programme (shared with Bardella): national preference in social benefits and social housing, VAT on energy cut from 20% to 5.5%, income tax exemption for under-30s, minimum sentences for recidivists, expulsion of foreign offenders, return to retirement at 62.",
+    "assessment": "Financing relies largely on hoped-for savings from sharply reduced immigration. A pensions measure was costed at about EUR 9 billion. These costings come from secondary aggregator sites and should be treated cautiously.",
+    "sources": [
+     "https://www.france24.com/fr/france/20260708-marine-le-pen-candidate-en-2027-un-choix-dynastique-du-rn-qui-%C3%A9clipse-jordan-bardella",
+     "https://www.reference-entreprise.com/presidentielle-2027-la-reforme-des-retraites-de-marine-le-pen-evaluee-a-9-milliards-deuros-mais/",
+     "https://www.cnews.fr/france/2026-10-03/retraites-voici-les-propositions-des-differents-candidats-lelection"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Strategic party-manager who prioritises image and 'dédiabolisation' (expelled her father, renamed the party)",
+    "evidence": "Widely reported across encyclopaedic, neutral and French outlets, and framed as a deliberate normalisation strategy.",
+    "source_leans": [
+     "neutral",
+     "centre",
+     "left"
+    ]
+   },
+   {
+    "trait": "Combative and confrontational toward the political and judicial establishment",
+    "evidence": "Frames her conviction as political and the ineligibility as a 'political decision' (reported in coverage of the verdict); also reflected in her parliamentary style.",
+    "source_leans": [
+     "neutral",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "trait": "Dynastic or personally controlling leadership of the RN",
+    "evidence": "France 24 describes her 2026 candidacy as a 'dynastic' choice that eclipses Bardella.",
+    "source_leans": [
+     "neutral",
+     "left"
+    ]
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Portrayed as the head of a far-right party whose 'normalisation' is cosmetic, and as a convicted embezzler. Her Russian ties and the national-preference programme are emphasised. This is inferred from general patterns, as left-leaning outlets (Libération, Mediapart, L'Humanité) were not fetched directly in this session.",
+   "right_media": "Portrayed as a legitimate populist or sovereigntist leader targeted by a judicial system seen as politicised, with her programme on immigration, security and purchasing power framed favourably. This is inferred, as CNews and Europe 1 were seen only as search snippets or related items.",
+   "neutral_media": "France 24, franceinfo, LCP and Public Sénat report the verdict and eligibility in procedural detail, stress the legal uncertainty before the cassation ruling, and treat the Le Pen/Bardella arrangement as a strategic question for the RN."
+  },
+  "sources_note": "Research was cut short because the WebSearch budget was exhausted after about 7 queries in this session. Outlets actually seen or opened: Public Sénat, LCP, franceinfo, France 24, Touteleurope, Le Grand Continent, Europe 1, Euronews, Journal du Net, CNews and JDD (search snippets only), Wikipedia. Gaps: no primary roll-call analysis (datan.fr, howtheyvote.eu), the 2022 programme and RN site were not opened, and the 2012 campaign-financing and other secondary cases were not verified, so the legal list is limited to the assistants case. Wikipedia's fr summary gave a different sentence breakdown ('1 year firm + 3 years suspended') from other sources ('3 years, 2 suspended'); the Public Sénat headline is retained for the firm year. Several programme figures come from aggregator sites. Lean labels for media_portrayal and traits are partly inferred from general patterns."
+ },
+ "verify": {
+  "candidate": "Marine Le Pen",
+  "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; a cassation appeal is pending, so the conviction is not final. In July 2026 she confirmed she will run for president a fourth time, and Jordan Bardella, who had been prepared as the alternative RN candidate, stood aside.",
+  "offices": [
+   {
+    "office": "Regional councillor, Nord-Pas-de-Calais",
+    "from": "1998-03-21",
+    "to": "2004-03-28",
+    "kind": "legislative"
+   },
+   {
+    "office": "Regional councillor, Île-de-France",
+    "from": "2004-03-28",
+    "to": "2010-03-21",
+    "kind": "legislative"
+   },
+   {
+    "office": "Member of the European Parliament",
+    "from": "2004-07-20",
+    "to": "2017-06-18",
+    "kind": "european"
+   },
+   {
+    "office": "Municipal councillor, Hénin-Beaumont",
+    "from": "2008",
+    "to": "2011",
+    "kind": "legislative"
+   },
+   {
+    "office": "Regional councillor, Nord-Pas-de-Calais / Hauts-de-France",
+    "from": "2010-03-26",
+    "to": "2021-07-02",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Front national / Rassemblement national",
+    "from": "2011-01-16",
+    "to": "2021-09-13",
+    "kind": "party"
+   },
+   {
+    "office": "Co-president, Europe of Nations and Freedom group (European Parliament)",
+    "from": "2015-06-16",
+    "to": "2017-06-18",
+    "kind": "european"
+   },
+   {
+    "office": "Deputy, Pas-de-Calais 11th constituency",
+    "from": "2017-06-21",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "Departmental councillor, Pas-de-Calais (mandate ended following the ineligibility penalty)",
+    "from": "2021-07-11",
+    "to": "2025-11-10",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the RN group, Assemblée nationale",
+    "from": "2022-06-28",
+    "to": "present",
+    "kind": "legislative"
+   }
+  ],
+  "executive_experience_years": 0,
+  "legal": [
+   {
+    "case": "European Parliament parliamentary assistants case (embezzlement of EU public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine and 5 years' ineligibility with provisional (immediate) execution. Appeal, 7 July 2026: 3 years' prison of which 2 suspended (1 firm year to be served under electronic monitoring), as reported by Public Sénat and Toute l'Europe; Wikipedia gives '1 year firm + 3 years suspended', so the exact total is reported inconsistently. EUR 100,000 fine. 45 months' ineligibility, of which 30 suspended; the 15 firm months were treated as already served (to 30 June 2026), so she is eligible in 2027. Co-defendants on appeal include Louis Aliot (1 year suspended), Bruno Gollnisch (3 years suspended) and Julien Odoul (8 months suspended); Public Sénat reports the RN was fined EUR 2 million (EUR 1 million suspended). She has filed a cassation appeal. On 8 July 2026 the Court of Cassation said it 'could' rule 'au plus tard début avril 2027', a timetable it says may change; the first round is on 18 April 2027. The conviction is therefore not final.",
+    "status": "convicted_appeal_pending",
+    "date": "2026-07-07",
+    "sources": [
+     "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen",
+     "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+     "https://www.touteleurope.eu/vie-politique-des-etats-membres/proces-des-assistants-du-rn-marine-le-pen-condamnee-en-appel-mais-eligible-a-l-election-presidentielle-2027/",
+     "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/presidentielle-bracelet-electronique-pourvoi-en-cassation-les-questions-qui-se-posent-apres-la-condamnation-reduite-de-marine-le-pen-en-appel_8097893.html"
+    ]
+   },
+   {
+    "case": "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing street prayers to an 'occupation'. The Lyon court acquitted her, ruling that the statement did not target the whole Muslim community.",
+    "status": "acquitted",
+    "date": "2015-12-15",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Marine_Le_Pen"
+    ]
+   }
+  ],
+  "reversals": [
+   {
+    "topic": "Euro / eurozone exit",
+    "before": "2017 campaign: proposed leaving the euro and restoring a national currency (Euronews: 'The euro is the currency of the bankers, not the people').",
+    "after": "Late in the 2017 campaign she softened this to a 'common currency' for large firms only. By 2022 she had dropped euro exit from her programme.",
+    "years": "2017-2022",
+    "sources": [
+     "https://www.euronews.com/2017/04/30/le-pen-softens-stance-on-euro",
+     "https://www.infobae.com/en/2022/04/12/marine-le-pen-said-that-if-she-wins-the-elections-in-france-she-will-seek-to-change-the-rules-of-the-european-union"
+    ]
+   },
+   {
+    "topic": "Russia / Ukraine",
+    "before": "2017: visited Moscow and met Putin, called sanctions 'profoundly unjust and counterproductive' and proposed lifting them; defended the 2014 Crimea referendum.",
+    "after": "Since February 2022 she condemns the invasion 'without ambiguity', and in 2026 the RN denounced Russian 'hostile acts' in Europe. She still opposes further financial aid to Ukraine on budget grounds and defended the Crimea referendum again in 2023, so the shift is partial.",
+    "years": "2017-2026",
+    "sources": [
+     "https://legrandcontinent.eu/fr/2026/09/28/marine-le-pen-peut-elle-vraiment-rompre-avec-poutine/"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "She has held no national or local executive office. Her record is legislative and party-building: she has led the RN group since 2022, which became the largest single-party group in the Assemblée (about 120+ deputies) after the 2024 elections. As party leader she ran the 'dédiabolisation' strategy, including expelling her father and renaming the FN as RN in 2018.",
+    "assessment": "Sources cited by Wikipedia (Le Monde, Politico Europe, New Statesman, The Conversation) describe dédiabolisation as a deliberate normalisation strategy. Critics see it as cosmetic, while supporters credit it with mainstreaming the party. A roll-call vote analysis (datan.fr, nosdeputes.fr) was not retrieved.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/D%C3%A9diabolisation",
+     "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
+    ]
+   },
+   {
+    "what": "2027 platform (positions announced so far): return to retirement at 62, or 60 for people who started work before 20 (reaffirmed August 2026). Reported continuing themes from earlier platforms include national preference in benefits and social housing, tax cuts and expulsion of foreign offenders. The full 2027 programme was not reviewed.",
+    "assessment": "Le Pen costs the pension measure at about EUR 9 billion a year. Institut Montaigne (centre-right/liberal) estimates EUR 26.5 billion, or up to EUR 38 billion. France 24 carries a critical op-ed calling the platform's financing unexplained. Bardella has floated a different pension approach (no age floor, a capitalisation pillar), so the party line is not fully settled.",
+    "sources": [
+     "https://www.journaldunet.com/business/action-publique/1554113-marine-le-pen-maintient-le-retour-a-la-retraite-a-62-ans/",
+     "https://www.reference-entreprise.com/presidentielle-2027-la-reforme-des-retraites-de-marine-le-pen-evaluee-a-9-milliards-deuros-mais/",
+     "https://www.france24.com/fr/france/20260708-marine-le-pen-candidate-en-2027-un-choix-dynastique-du-rn-qui-%C3%A9clipse-jordan-bardella"
+    ]
+   }
+  ],
+  "traits": [
+   {
+    "trait": "Strategic party manager focused on normalising the party's image ('dédiabolisation')",
+    "evidence": "Le Monde, Politico Europe, New Statesman and The Conversation (cited in Wikipedia) describe her expelling her father and renaming the party in 2018 as a deliberate normalisation strategy.",
+    "source_leans": [
+     "neutral",
+     "centre-left",
+     "left"
+    ]
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Left-leaning outlets typically present her as the leader of a far-right party whose normalisation is mainly a matter of image. They foreground the embezzlement conviction, her past ties to Russia and the national-preference proposal. This is inferred from general patterns, as Libération, Mediapart and L'Humanité were not opened.",
+   "right_media": "Right-leaning outlets typically present her as a legitimate sovereigntist leader. They tend to frame the prosecution as politicised and to emphasise her immigration, security and purchasing-power proposals. This is inferred, as CNews and Europe 1 pages could not be opened (HTTP 403).",
+   "neutral_media": "France 24, franceinfo, LCP and Public Sénat report the verdict, the sentence and her eligibility in procedural detail and stress the uncertainty before the cassation ruling. They treat the Le Pen/Bardella arrangement as a strategic question for the RN."
+  },
+  "sources_note": "Verified in this session against Public Sénat, LCP, franceinfo, Toute l'Europe, France 24, Le Grand Continent, Euronews, Infobae, Journal du Net, Référence Entreprise, and French and English Wikipedia. CNews and Europe 1 returned HTTP 403, so their URLs were removed. Gaps: no roll-call analysis (datan.fr, nosdeputes.fr, howtheyvote.eu); the full 2027 programme was not reviewed; left- and right-leaning outlets were not read directly, so the media_portrayal lean labels are inferred. Other personal cases listed on Wikipedia (defamation, the 2015 Islamic State images tweet case after her immunity was lifted in 2017, under-declared assets, the 2022 campaign-loan financing inquiries) could not be verified for status within the search budget and are left out. Sources disagree on the appeal prison total (3 years with 2 suspended per Public Sénat and Toute l'Europe, against 1 firm + 3 suspended per Wikipedia).",
+  "verification_notes": [
+   "bio: 'On 7 July 2026 she announced her fourth candidacy' -> 'In July 2026 she confirmed...': France 24 dates the announcement 8 July, while the verdict was 7 July; the date was ambiguous, so it was generalised. Also stated explicitly that the conviction is not final.",
+   "offices: missing -> added 'Regional councillor, Nord-Pas-de-Calais 1998-03-21 to 2004-03-28': listed on fr.wikipedia.",
+   "offices: Île-de-France regional councillor kind 'local_executive' -> 'legislative': an ordinary councillor seat is not an executive role.",
+   "offices: Hénin-Beaumont municipal councillor '2008-2014', kind 'other' -> '2008-2011', 'legislative': en.wikipedia gives 2008-2011; kind made consistent with the other council seats.",
+   "offices: departmental councillor -> added note that the mandate ended because of the ineligibility penalty (fr.wikipedia).",
+   "offices: 'Europe of Nations and Freedoms' -> 'Europe of Nations and Freedom': official group name.",
+   "executive_experience_years: 0 -> 0: confirmed, as no mayoral, ministerial or regional/departmental presidency was ever held.",
+   "legal[0]: removed 'The court found no personal enrichment': not found in any source opened.",
+   "legal[0]: '1 year firm plus a suspended portion (reported as 3 years in total, 2 suspended)' -> '3 years of which 2 suspended', with the Wikipedia discrepancy noted: Public Sénat and Toute l'Europe both say 3 years with 2 suspended.",
+   "legal[0]: 'Briefs are due by 15 Oct 2026' -> removed: not found in the LCP page or any other source opened.",
+   "legal[0]: cassation timetable -> added the verbatim 'au plus tard début avril 2027' and the court's caveat that it may change (LCP).",
+   "legal[0]: RN fine EUR 2M (1M suspended) kept per Public Sénat; Toute l'Europe's page summary gave EUR 100,000, likely confusing it with Le Pen's personal fine, noted as reported by Public Sénat.",
+   "legal: added '2010 Lyon speech, incitement to hatred, acquitted 2015-12-15': a personal case documented on en.wikipedia.",
+   "reversals[Retirement age]: dropped: the draft itself called it a refinement; the '2007: 65' claim is unsourced (2007 was Jean-Marie Le Pen's campaign); the Journal du Net source documents only 2022-2026 continuity.",
+   "reversals[Russia]: '2011: admired Putin to a certain extent' -> '2017 Moscow visit, sanctions \"profoundly unjust\"': the 2011 quote was not found in any opened source; the Grand Continent documents 2017 and the 2023 Crimea remarks.",
+   "reversals[Russia]: removed the Europe 1 URL: HTTP 403, could not confirm.",
+   "reversals[Euro]: before text adds the Euronews quote and the late-2017 'common currency' softening; both URLs confirmed.",
+   "delivery[1]: removed the CNews URL: HTTP 403, could not confirm.",
+   "delivery[1]: 'VAT on energy 20%->5.5%, income-tax exemption for under-30s, minimum sentences' as the 2027 programme -> generalised as reported continuing themes: not confirmed in any 2026 source opened.",
+   "delivery[1]: assessment adds Institut Montaigne's EUR 26.5-38bn against the self-estimated EUR 9bn, and Bardella's divergence (Référence Entreprise, Journal du Net); removed the 'hoped-for savings from reduced immigration' claim as unverified.",
+   "delivery[0]: assessment rewritten to cite the outlets actually referenced on the Wikipedia Dédiabolisation page.",
+   "traits[Combative toward the judicial establishment]: dropped: no source of two different leanings was confirmed in this session.",
+   "traits[Dynastic leadership]: dropped: only one source (a France 24 op-ed), with no second leaning.",
+   "traits[0]: source_leans ['neutral','centre','left'] -> ['neutral','centre-left','left']: Le Monde, Politico, New Statesman (via Wikipedia).",
+   "media_portrayal.left_media: 'as a convicted embezzler' -> 'foreground the embezzlement conviction': the wording was judgemental, and the conviction is not final.",
+   "sources_note: rewritten to reflect what was verified and the remaining gaps."
+  ]
+ }
+}

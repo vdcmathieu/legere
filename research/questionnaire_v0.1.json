@@ -1,0 +1,104 @@
+{
+  "version": "0.1",
+  "flow": [
+    "intro",
+    "open_before",
+    "statements_core",
+    "statements_adaptive",
+    "retest",
+    "dilemmas",
+    "importance",
+    "leadership",
+    "expectation",
+    "results",
+    "open_after"
+  ],
+  "intro": {
+    "fr": "Ce questionnaire porte uniquement sur des idées et des mesures. Aucun candidat ni parti n'est nommé avant les résultats. Répondez selon ce que vous pensez, pas selon ce que vous pensez qu'un candidat défendrait. « Sans avis » n'est pas la même chose que « neutre » : utilisez-le si vous ne savez pas, il n'influencera pas le résultat. Vos réponses restent dans votre navigateur."
+  },
+  "open_before": [
+    {"id": "o1", "type": "open", "fr": "Selon vous, quel est aujourd'hui le problème le plus important auquel la France est confrontée ?",
+     "followup": {"type": "single", "fr": "À quel thème ce problème correspond-il le mieux ?", "options_from": "areas", "use": "importance_prior"}},
+    {"id": "o2", "type": "open", "fr": "Dans dix ans, à quoi ressemblerait une France qui va mieux ? Décrivez-la en quelques phrases.", "use": "reflection"},
+    {"id": "o3", "type": "open", "fr": "Y a-t-il une mesure ou une valeur qui vous empêcherait absolument de voter pour quelqu'un ?", "use": "reflection"}
+  ],
+  "statement_response": {
+    "options": [
+      {"v": -2, "fr": "Pas du tout d'accord"},
+      {"v": -1, "fr": "Plutôt pas d'accord"},
+      {"v": 0, "fr": "Neutre / partagé"},
+      {"v": 1, "fr": "Plutôt d'accord"},
+      {"v": 2, "fr": "Tout à fait d'accord"},
+      {"v": null, "fr": "Sans avis"}
+    ],
+    "important_toggle": {"fr": "Ce point compte beaucoup pour moi", "weight": 2}
+  },
+  "gates": {
+    "comment": "Skip logic. When a follow-up is skipped, its answer is imputed from the gate as a logical implication, flagged, and weighted 0.5.",
+    "rules": [
+      {"if": "eu1", "lte": -1, "skip": ["eu6"], "impute": {"eu6": -2}},
+      {"if": "eu1", "gte": 1, "ask_next": ["eu5", "eu6"]},
+      {"if": "imm1", "gte": 1, "ask_next": ["imm5", "imm6"]},
+      {"if": "imm1", "lte": -1, "ask_next": ["imm4", "imm7"]},
+      {"if": "int1", "gte": 1, "ask_next": ["int2", "int5"]},
+      {"if": "int1", "lte": -1, "ask_next": ["int7", "int3"]},
+      {"if": "ret1", "gte": 1, "ask_next": ["trav4"], "skip": ["ret2"], "impute": {"ret2": -2}},
+      {"if": "ret1", "lte": -1, "ask_next": ["ret2", "ret3"]},
+      {"if": "ene2", "gte": 1, "skip": ["ene1"], "impute": {"ene1": -2}},
+      {"if": "eco1", "gte": 1, "ask_next": ["eco2", "eco5"]},
+      {"if": "eco1", "lte": -1, "ask_next": ["eco3", "eco6"]}
+    ]
+  },
+  "retest": {
+    "comment": "Reversed rewordings of earlier statements, shown late and unannounced. Expected: answer to reversed ≈ -answer to original. Used for (a) acquiescence index = mean(orig + rev), (b) per-person reliability, (c) averaged into the original item (orig - rev)/2.",
+    "items": [
+      {"id": "r_imm1", "reverses": "imm1", "fr": "Maintenir au moins le niveau actuel d'immigration légale (travail, regroupement familial, études)."},
+      {"id": "r_fin1", "reverses": "fin1", "fr": "Le redressement des comptes publics peut attendre s'il impose de fortes baisses de dépenses."},
+      {"id": "r_soc1", "reverses": "soc1", "fr": "L'aide active à mourir ne devrait pas être autorisée, même sous conditions strictes."},
+      {"id": "r_eu2", "reverses": "eu2", "fr": "L'Union européenne ne devrait pas s'endetter en commun, quel que soit l'objectif."}
+    ]
+  },
+  "dilemmas": {
+    "comment": "Forced choice between two positively phrased goals of similar length; left/right placement randomised. Then a 3-step strength (léger / net / très net). Scored -3..+3 toward option B. Used for axis placement and as a convergent-validity check against statement-based axis scores; not matched to candidates directly.",
+    "items": [
+      {"id": "d1", "axis": "econ", "b_sign": -1, "a": "Baisser les impôts et les charges, quitte à réduire certains services publics.", "b": "Maintenir ou améliorer les services publics, quitte à garder un niveau d'impôts élevé."},
+      {"id": "d2", "axis": "econ", "b_sign": 1, "a": "Réduire les inégalités, même si cela freine un peu la croissance.", "b": "Favoriser la croissance et l'initiative, même si les inégalités augmentent un peu."},
+      {"id": "d3", "axis": "cult", "b_sign": -1, "a": "Donner plus de moyens et de pouvoirs à la police et à la justice, même si cela restreint certaines libertés.", "b": "Protéger d'abord les libertés publiques, même si cela limite certains outils de sécurité."},
+      {"id": "d4", "axis": "cult", "b_sign": 1, "a": "Ouvrir davantage l'immigration de travail pour répondre aux pénuries de main-d'œuvre.", "b": "Former et mobiliser d'abord les demandeurs d'emploi, quitte à laisser des postes vacants."},
+      {"id": "d5", "axis": "cult", "b_sign": -1, "a": "Préserver d'abord l'identité et les traditions de la France.", "b": "Adapter d'abord la France à une société plus diverse."},
+      {"id": "d6", "axis": "eu", "b_sign": 1, "a": "Renforcer l'Europe pour peser face aux États-Unis et à la Chine, quitte à partager plus de souveraineté.", "b": "Reprendre davantage de décisions au niveau national, quitte à peser moins collectivement."},
+      {"id": "d7", "axis": "none", "b_sign": 0, "a": "Accélérer la transition écologique, même si cela coûte plus cher à court terme.", "b": "Protéger d'abord le pouvoir d'achat, quitte à ralentir certaines mesures écologiques."},
+      {"id": "d8", "axis": "none", "b_sign": 0, "a": "Engager un changement profond du système politique et économique.", "b": "Mener des réformes progressives dans le cadre actuel."}
+    ]
+  },
+  "importance": {
+    "type": "constant_sum",
+    "total": 100,
+    "fr": "Répartissez 100 points entre les thèmes selon leur importance pour votre vote. Un thème à 0 point ne comptera pas.",
+    "comment": "Asked AFTER the statements so salience is not primed before answering; the o1 theme gives a prior shown as a hint. Default if skipped: equal weights."
+  },
+  "leadership": {
+    "comment": "Candidate-agnostic preferences about experience, probity, consistency and style. Produces a separate 'profile fit' score shown next to the policy match, never silently blended. Candidates are scored on these from the verified track-record data.",
+    "items": [
+      {"id": "g1", "type": "scale5", "fr": "Quelle importance accordez-vous à l'expérience de l'exercice du pouvoir (ministre, maire, président de région…) ?", "maps_to": "executive_experience_years"},
+      {"id": "g2", "type": "scale5", "fr": "Quelle importance accordez-vous au fait qu'un candidat n'ait pas été condamné par la justice ?", "maps_to": "legal"},
+      {"id": "g2b", "type": "single", "fr": "Une condamnation encore susceptible de recours (appel ou cassation en cours) doit-elle compter ?",
+       "options": [{"v": "all", "fr": "Oui, comme une condamnation"}, {"v": "half", "fr": "Oui, mais moins qu'une condamnation définitive"}, {"v": "final_only", "fr": "Non, seulement les condamnations définitives"}]},
+      {"id": "g3", "type": "scale5", "fr": "Quelle importance accordez-vous à la constance des positions d'un candidat au fil des années ?", "maps_to": "reversals"},
+      {"id": "g4", "type": "bipolar5", "fr": "Vous préférez un président ou une présidente qui…", "left": "cherche le compromis et des majorités larges", "right": "tranche et assume la confrontation pour appliquer son programme", "maps_to": "traits.style"},
+      {"id": "g5", "type": "likert5", "fr": "Les grandes orientations suivies depuis 2017 devraient être globalement poursuivies.", "maps_to": "continuity"},
+      {"id": "g6", "type": "single", "fr": "Au premier tour, vous comptez plutôt…",
+       "options": [{"v": "sincere", "fr": "voter pour la personne la plus proche de mes idées"}, {"v": "strategic", "fr": "voter pour quelqu'un qui a des chances d'être au second tour"}, {"v": "unsure", "fr": "je ne sais pas encore"}],
+       "use": "results_display: show poll viability next to matches when strategic/unsure"}
+    ]
+  },
+  "expectation": {
+    "comment": "Asked only after all answers are locked, so naming candidates cannot cue earlier answers. Compared with the result to surface confirmation bias.",
+    "fr": "Avant ce questionnaire, pour qui pensiez-vous voter au premier tour ?",
+    "options_from": "candidates_plus_undecided"
+  },
+  "open_after": [
+    {"id": "o4", "type": "open", "fr": "Ce résultat vous surprend-il ? Sur quels thèmes, et pourquoi ?", "use": "reflection"},
+    {"id": "o5", "type": "open", "fr": "Quels points de désaccord avec votre premier résultat vous paraissent rédhibitoires, et lesquels sont acceptables ?", "use": "reflection"}
+  ]
+}

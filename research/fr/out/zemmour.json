@@ -1,0 +1,444 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "S'oppose au rétablissement de l'ISF ; le programme de 2022 réduisait aussi l'IFI en sortant la résidence principale de son assiette.",
+   "nuance": "Les éléments datent de la campagne de 2022. Aucun programme pour 2027 n'avait été publié au moment de la vérification."
+  },
+  {
+   "id": "eco2",
+   "summary": "Déduit de son opposition à l'ISF et du programme de baisses d'impôts qu'il partage avec Reconquête.",
+   "nuance": "Aucune déclaration explicite de Zemmour sur la taxe Zucman n'a été vérifiée. Le budget de recherche a été épuisé avant d'en trouver une."
+  },
+  {
+   "id": "eco3",
+   "summary": "Le programme de 2022 réduisait les impôts de production de 30 milliards d'euros supplémentaires et abaissait l'impôt sur les sociétés. Il prévoyait aussi une prime « zéro charge » exonérée de cotisations sociales.",
+   "nuance": "Il s'agit du programme de 2022. En 2026, Reconquête faisait toujours campagne sur la « baisse d'impôts et de charges » (combienjegagne.fr)."
+  },
+  {
+   "id": "eco4",
+   "summary": "En 2022, il proposait une hausse des taxes sur les importations hors Union européenne, l'interdiction des importations agricoles non conformes aux normes françaises et une préférence nationale dans la commande publique.",
+   "nuance": "Codé +1 parce qu'il n'a jamais accepté l'arbitrage avec la hausse des prix. Le virage plus libéral de Reconquête en 2025-2026 pourrait atténuer cette position. Pourrait être +2."
+  },
+  {
+   "id": "eco5",
+   "summary": "Aucun élément trouvé sur une renationalisation des autoroutes ou de l'énergie.",
+   "nuance": "Le programme de 2022 prévoyait un fonds souverain d'investissement et de nouvelles centrales nucléaires (EPR), mais pas de retour des autoroutes ou de l'énergie sous contrôle public. Pas de recherche approfondie."
+  },
+  {
+   "id": "eco6",
+   "summary": "Le programme de 2022 exonérait de droits de succession et de donation les transmissions d'entreprises familiales. Il relevait aussi l'abattement sur les donations à 200 000 euros tous les 10 ans.",
+   "nuance": "Le brouillon indiquait qu'il supprimait les droits de succession en ligne directe. Cela n'a pas été vérifié ; les mesures vérifiées sont l'exonération des entreprises familiales et le relèvement de l'abattement. Ce sont des positions de 2022."
+  },
+  {
+   "id": "ret1",
+   "summary": "Le programme de 2022 relevait l'âge légal de départ à la retraite à 64 ans d'ici 2030, soit l'inverse d'un retour à 62 ans.",
+   "nuance": "Il s'agit de la position de 2022. Aucune position sur les retraites pour 2027 n'a été vérifiée."
+  },
+  {
+   "id": "ret2",
+   "summary": "Le plan de 2022 fixait l'âge à 64 ans et ajoutait une année de cotisation. Il n'allait pas au-delà de 64 ans.",
+   "nuance": "Il n'a jamais explicitement rejeté un âge supérieur à 64 ans. Codé -1 parce que son propre plan s'arrêtait à 64 ans. La position pour 2027 n'a pas été vérifiée et pourrait différer."
+  },
+  {
+   "id": "ret3",
+   "summary": "Aucun élément vérifié sur une part obligatoire de retraite par capitalisation.",
+   "nuance": "Le +1 du brouillon venait d'un souvenir. Ni la synthèse de l'Institut Montaigne sur le programme de 2022 ni Wikipédia ne mentionnent la capitalisation."
+  },
+  {
+   "id": "fin1",
+   "summary": "Le programme de 2022 visait un déficit inférieur à 3 % d'ici 2025, en partie grâce à des économies. En 2025-2026, Reconquête a fait campagne sur 130 milliards d'euros de coupes dans les dépenses.",
+   "nuance": "Les coupes devaient aussi financer des baisses d'impôts, si bien que la réduction du déficit n'est pas clairement sa première priorité. D'où le +1. Le plan de 130 milliards est celui de Sarah Knafo."
+  },
+  {
+   "id": "fin2",
+   "summary": "La page d'accueil de Reconquête met en avant « Il faut supprimer 800 000 postes de fonctionnaires ! ».",
+   "nuance": "La vidéo est de Sarah Knafo (auteur selon l'oEmbed de YouTube), pas de Zemmour lui-même. Elle figure sur la page d'accueil de son parti. Aucune déclaration personnelle de Zemmour n'a été vérifiée."
+  },
+  {
+   "id": "fin3",
+   "summary": "Déduit de la ligne du parti en faveur des coupes dans les dépenses et contre la dette, et de son scepticisme envers les subventions vertes (il réorienterait le soutien à l'éolien et au solaire).",
+   "nuance": "Déduit. Aucune déclaration explicite trouvée."
+  },
+  {
+   "id": "fin4",
+   "summary": "Soutien plausible compte tenu de sa ligne de rigueur budgétaire. Aucun élément explicite.",
+   "nuance": "Déduit. Non vérifié."
+  },
+  {
+   "id": "trav1",
+   "summary": "Le programme de 2022 ne relevait pas le SMIC. Il augmentait plutôt le salaire net en baissant la CSG (de 9,2 % à 2,5 %) et en exonérant les heures supplémentaires.",
+   "nuance": "Il s'agit du programme de 2022."
+  },
+  {
+   "id": "trav2",
+   "summary": "Déduit de sa ligne favorable au travail et hostile à l'« assistanat ». Aucune proposition explicite sur les allocations chômage n'a été trouvée.",
+   "nuance": "En septembre 2026, il a proposé d'expulser les étrangers au chômage depuis plus d'un an environ. Cela relève de l'immigration, pas du niveau des allocations."
+  },
+  {
+   "id": "trav3",
+   "summary": "En octobre 2023, Reconquête a attaqué le RN pour son opposition à l'obligation d'environ 15 heures d'activité pour les bénéficiaires du RSA, en se présentant comme le seul parti contre l'« assistanat ». Cela suppose un soutien au maintien de l'obligation.",
+   "nuance": "Il s'agit d'une position du parti, exprimée par l'équipe de Marion Maréchal, qui a depuis quitté Reconquête. Aucune déclaration personnelle de Zemmour n'a été trouvée. En 2026, Sarah Knafo a dit « il n'y a pas d'assistés en France » et mis en cause le système, ce qui peut atténuer le cadrage anti-assistanat. Rien n'indique que Reconquête veuille supprimer l'obligation."
+  },
+  {
+   "id": "trav4",
+   "summary": "Ligne favorable au travail : le programme de 2022 exonérait totalement les heures supplémentaires d'impôts et de charges. Pas de proposition de semaine de 32 heures.",
+   "nuance": "Déduit de mesures voisines. Aucune déclaration explicite sur les 32 heures."
+  },
+  {
+   "id": "imm1",
+   "summary": "Appelle à l'« immigration zéro » et à la fin du regroupement familial. En septembre 2026, il est allé plus loin en appelant à l'expulsion des résidents légaux au chômage de longue durée.",
+   "nuance": "Confirmé en 2026 (interview sur BFMTV rapportée par RTL)."
+  },
+  {
+   "id": "imm2",
+   "summary": "Le programme de 2022 soumettait l'immigration à un référendum et en appliquerait le résultat, y compris contre l'UE.",
+   "nuance": "Il s'agit du programme de 2022. Non revérifié pour 2027."
+  },
+  {
+   "id": "imm3",
+   "summary": "Le programme de 2022 supprimait purement et simplement l'AME, ce qui va plus loin qu'une prise en charge limitée aux soins urgents.",
+   "nuance": "Il veut davantage que l'énoncé : une suppression pure et simple. Codé +2 comme fort soutien à une restriction de l'AME. Les soins urgents ne subsisteraient que par les dispositifs d'urgence existants."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le programme de 2022 interdisait de régulariser toute personne entrée illégalement. En 2026, il a appelé à renvoyer tous les migrants sans papiers.",
+   "nuance": "Position explicite du programme, confirmée en 2026."
+  },
+  {
+   "id": "imm5",
+   "summary": "Le programme de 2022 retirait les prestations non contributives aux étrangers non européens, soit une « préférence nationale » pour les prestations sociales.",
+   "nuance": "Le volet sur la priorité d'accès au logement social n'a pas été vérifié."
+  },
+  {
+   "id": "imm6",
+   "summary": "Le programme de 2022 supprimait le droit du sol.",
+   "nuance": "Programme de 2022. Aucun signe de revirement."
+  },
+  {
+   "id": "imm7",
+   "summary": "Déduit de sa position en faveur de la préférence nationale et de l'immigration zéro.",
+   "nuance": "Déduit. Aucune déclaration explicite vérifiée."
+  },
+  {
+   "id": "sec1",
+   "summary": "Le programme de 2022 instaurait des peines planchers pour tous les crimes et délits, et pas seulement pour les récidivistes.",
+   "nuance": "Programme de 2022."
+  },
+  {
+   "id": "sec2",
+   "summary": "Le programme de 2022 abaissait l'âge de la majorité pénale de 18 à 16 ans.",
+   "nuance": "Va plus loin que l'énoncé : cela couvre toutes les infractions commises par des jeunes de 16 ans, pas seulement les crimes graves."
+  },
+  {
+   "id": "sec3",
+   "summary": "Favorable à la police et hostile à un contrôle externe. Aucun élément explicite.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "sec4",
+   "summary": "Présumé opposé à la légalisation du cannabis, en cohérence avec sa ligne sécuritaire. Aucune source vérifiée.",
+   "nuance": "Le brouillon qualifiait cela de « déclaration » mais sans source. Rétrogradé en position déduite."
+  },
+  {
+   "id": "sec5",
+   "summary": "Favorable à la vidéosurveillance et a salué l'IA. La proposition de surveillance assistée par IA elle-même n'a pas été vérifiée.",
+   "nuance": "Déduit."
+  },
+  {
+   "id": "eu1",
+   "summary": "Le programme de 2022 révisait l'article 55 de la Constitution pour que toute nouvelle loi nationale prévale sur le droit de l'UE existant.",
+   "nuance": "S'applique aux lois nouvelles par rapport au droit de l'UE existant. Programme de 2022."
+  },
+  {
+   "id": "eu2",
+   "summary": "Présumé opposé à l'emprunt commun européen, compte tenu de sa position souverainiste.",
+   "nuance": "Déduit. Les votes des eurodéputés de Reconquête n'ont pas été vérifiés."
+  },
+  {
+   "id": "eu3",
+   "summary": "Eurosceptique et focalisé sur la réduction des dépenses, il soutient donc probablement une contribution plus faible.",
+   "nuance": "Déduit. Aucune proposition explicite vérifiée."
+  },
+  {
+   "id": "eu4",
+   "summary": "Souverainiste opposé à tout nouveau transfert de compétence, il conserverait donc le veto.",
+   "nuance": "Déduit de « bloquer tout nouveau transfert de compétence »."
+  },
+  {
+   "id": "eu5",
+   "summary": "Le programme de 2022 écartait les règles de l'UE pour maîtriser l'immigration et suivrait un référendum sur l'immigration contre l'avis de l'UE. Il a dit que la France devrait faire « ce qu'on a envie de faire ».",
+   "nuance": "Positions de 2022."
+  },
+  {
+   "id": "eu6",
+   "summary": "Il est favorable au maintien dans l'UE, réformée en « Europe des Nations ». Il a aussi dit que sortir de l'euro serait pire que d'y être entré.",
+   "nuance": "Certains observateurs parlent de « Frexit soft ». C'est une caractérisation par des tiers, pas sa position déclarée. Positions de 2022 ; position pour 2027 non vérifiée."
+  },
+  {
+   "id": "int1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Revérification : budget WebSearch épuisé ; Wikipédia indique seulement qu'il a condamné l'invasion russe de 2022 malgré une position antérieure prorusse, ce qui ne dit rien d'une aide militaire durable. Non codé."
+  },
+  {
+   "id": "int2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; discours officiels de 2024 vérifiés, rien sur des troupes en Ukraine. Non codé."
+  },
+  {
+   "id": "int3",
+   "summary": "S'est engagé lors du meeting fondateur de Reconquête (Villepinte, décembre 2021) à sortir la France du commandement intégré de l'OTAN ; son site de campagne de 2022 critique l'appartenance au commandement intégré, qui obligerait la France à suivre les États-Unis.",
+   "nuance": "Position datant de la campagne 2021-2022. Aucune réaffirmation en 2025-2026 n'a été trouvée, et le contexte ukrainien postérieur à 2022 a pu la faire évoluer. La page de campagne critique l'appartenance mais son extrait ne contient aucune mesure explicite de sortie ; l'engagement explicite provient de comptes rendus secondaires du meeting fondateur."
+  },
+  {
+   "id": "int4",
+   "summary": "Aucune déclaration directe sur l'accord d'association UE-Israël, mais il a qualifié la guerre à Gaza de « combat de notre civilisation », s'est rendu en Israël en signe de solidarité et, en juin 2025, s'est opposé aux appels au cessez-le-feu et a pleinement soutenu les actions israéliennes.",
+   "nuance": "Déduit de son soutien constant et sans condition à la conduite de la guerre par Israël ; rien trouvé sur l'accord d'association lui-même. Faible niveau de confiance."
+  },
+  {
+   "id": "int5",
+   "summary": "Aucun élément retrouvé sur un objectif précis de dépenses de défense.",
+   "nuance": "Wikipédia note qu'il appelle à renforcer les armées, mais ne donne aucun chiffre en % du PIB ; cet énoncé n'est donc pas codé."
+  },
+  {
+   "id": "int6",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; pages de priorités de campagne et discours de 2024 vérifiés, rien trouvé. Non codé."
+  },
+  {
+   "id": "int7",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Wikipédia mentionne qu'il plaidait pour un rapprochement avec la Russie (avant 2022) mais rien sur des sanctions contre la paix. Non codé."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ene1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Page « industrie » de la campagne vérifiée : aucune mesure sur le nucléaire. Non codé."
+  },
+  {
+   "id": "ene2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ene3",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ene4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ins1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ins2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ins3",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ins4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "ins5",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "La page « indépendance » de 2022 veut remettre en cause la primauté des traités internationaux en matière d'immigration, mais rien n'a été retrouvé sur un élargissement du référendum. Non codé."
+  },
+  {
+   "id": "soc1",
+   "summary": "Zemmour a déclaré à franceinfo qu'il promettrait pendant la campagne d'abroger la loi de 2026 sur l'aide à mourir.",
+   "nuance": "Promesse explicite d'abrogation faite après l'adoption de la loi le 15 juillet 2026. En mai 2025, il l'avait qualifiée d'« espèce de rétablissement de la peine de mort qui ne dit pas son nom » (titre de CNews)."
+  },
+  {
+   "id": "soc2",
+   "summary": "Son programme présidentiel de 2022 proposait d'interdire le voile islamique (hijab) dans tous les lieux publics.",
+   "nuance": "Fondé sur le programme de 2022, qui correspond à la formulation de l'énoncé. Le site d'origine du programme redirige désormais vers un mur de connexion et l'archive n'a pas pu être consultée ; la source est donc une citation secondaire. Aucune reformulation en 2025-2026 n'a été retrouvée."
+  },
+  {
+   "id": "soc3",
+   "summary": "Le programme de 2022 interdisait le voile islamique dans tout l'espace public, et en 2025 Zemmour a dit qu'il fallait l'interdire « partout ». Cela couvre les parents accompagnant les sorties scolaires.",
+   "nuance": "Aucune déclaration ne cite spécifiquement les parents accompagnateurs de sorties scolaires. Une interdiction générale dans l'espace public les inclurait, le codage est donc déduit de la règle plus large. La mesure vise le voile islamique, pas l'ensemble des signes religieux ostensibles."
+  },
+  {
+   "id": "soc4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Non codé directement. Sa proposition d'interdire le voile dans l'espace public (soc2) suppose une opposition ; cela pourrait être codé -2 déduit si l'application le permet."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "La page « instruction » de 2022 a été vérifiée : elle prévoit la suppression du collège unique et le relèvement du niveau du bac, sans mesure sur l'uniforme. Non codé."
+  },
+  {
+   "id": "edu2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "edu3",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Le programme de 2022 propose « la suppression du collège unique », ce qui se rapproche d'une orientation par niveau mais n'est pas identique à un regroupement par niveau dans certaines matières. Non codé ; pourrait être +1 ou +2 déduit si ce lien est accepté."
+  },
+  {
+   "id": "edu4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucune déclaration trouvée sur la fin de la sélection à l'entrée à l'université.",
+   "nuance": "Les recherches sur Parcoursup ou la sélection avec Zemmour n'ont rien donné d'exploitable. Sa position générale favorise le mérite et l'autorité, ce qui rend peu probable un soutien à la fin de la sélection, mais sans élément direct, la valeur reste nulle."
+  },
+  {
+   "id": "san1",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "san2",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "san3",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "san4",
+   "summary": "Aucun élément retrouvé.",
+   "nuance": "Budget de recherche épuisé ; non codé."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucune déclaration de Zemmour ou de Reconquête sur une « TVA sociale » trouvée.",
+   "nuance": "Recherche effectuée dans Google Actualités, sur Wikipédia en français et dans le programme de 2022 archivé (fiche pouvoir d'achat : baisse des charges sociales financée par la lutte contre la fraude et la réduction des prestations pour les non-Européens, sans hausse de TVA mentionnée). Aucun élément dans un sens ou dans l'autre, la position reste donc nulle."
+  },
+  {
+   "id": "imm8",
+   "summary": "Le programme de 2022 prévoyait de durcir la naturalisation, de mettre fin au droit du sol et de déchoir de leur nationalité les délinquants binationaux. C'est l'inverse d'une naturalisation facilitée.",
+   "nuance": "Fondé sur le programme de 2022, aucune déclaration de 2025-2026 portant spécifiquement sur la naturalisation n'ayant été trouvée. La ligne « immigration zéro » n'a pas changé depuis."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucune déclaration trouvée sur les récépissés lors des contrôles d'identité.",
+   "nuance": "Une recherche sur « Zemmour récépissé / contrôles au faciès » n'a renvoyé que des récits de sa condamnation de 2011, rien sur la politique elle-même. Très probablement opposé, mais sans élément, la position reste nulle."
+  },
+  {
+   "id": "eu7",
+   "summary": "Zemmour veut une autonomie de défense française et s'oppose à une défense européenne intégrée, qui placerait selon lui la France sous la Commission européenne. Son programme de défense de 2022 rejette le « fédéralisme européen » et prévoyait de quitter le commandement intégré de l'OTAN pour retrouver sa « pleine indépendance ».",
+   "nuance": "La déclaration de 2024 sur CNews n'est connue que par la paraphrase d'un vérificateur de faits. Le programme date de 2022. Aucune déclaration de 2025-2026 sur les achats d'armement en commun n'a été trouvée."
+  },
+  {
+   "id": "eu8",
+   "summary": "Le programme européen de 2022 promettait de refuser tout nouvel élargissement de l'UE. Cela couvre l'adhésion de l'Ukraine.",
+   "nuance": "Le programme a été publié en janvier 2022, avant la demande d'adhésion de l'Ukraine (février 2022) et son statut de candidate. Il s'agit d'un refus général de l'élargissement, qui ne nomme pas l'Ukraine. Aucune déclaration de Zemmour en 2025-2026 sur l'adhésion ukrainienne n'a été trouvée. Il s'est opposé aux livraisons d'armes et aux sanctions en 2022."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucune déclaration trouvée soutenant ou rejetant des prix minimums garantis (prix planchers) pour les agriculteurs.",
+   "nuance": "Le programme agricole de 2022 reposait sur la fin des centrales d'achat communes, les circuits courts, l'interdiction des importations et le retrait des négociations de libre-échange, sans prix planchers. En janvier 2026, il a dit soutenir les agriculteurs mobilisés, mais rien sur les prix planchers. Reste nul."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucune proposition de Zemmour trouvée pour ramener la TVA sur l'énergie et les carburants à 5,5 %.",
+   "nuance": "La proposition de TVA à 5,5 % sur l'énergie trouvée dans la recherche appartient à Marine Le Pen et au RN. Les fiches de Zemmour de 2022 sur l'énergie, les automobilistes et le pouvoir d'achat proposent d'autres mesures (remplacement de l'ARENH, prise en charge de 50 % des frais de carburant par les employeurs) et aucune baisse de TVA. Reste nul."
+  },
+  {
+   "id": "ins6",
+   "summary": "Le programme de 2022 promettait de supprimer la redevance audiovisuelle en privatisant les principales chaînes de l'audiovisuel public. Zemmour a nommé France Inter et France Télévisions en décembre 2021, et Reconquête a continué à réclamer la privatisation en 2025.",
+   "nuance": "Le plan de 2021-2022 (L'Opinion) confierait France 3 et France Bleu aux régions et privatiserait France 2, franceinfo TV, France Inter, Mouv et FIP, soit une privatisation partielle mais substantielle. Cela correspond à « tout ou partie ». L'élément de 2025 est de Sarah Knafo (ligne du parti)."
+  },
+  {
+   "id": "soc6",
+   "summary": "Le programme de 2022 interdisait le voile islamique dans tout l'espace public. En mai 2025, Zemmour a évoqué le débat sur son interdiction à l'université et dit qu'il fallait l'interdire partout.",
+   "nuance": "Vise spécifiquement le voile islamique, pas tous les signes ostensibles. Les Surligneurs (27 mars 2025) rapportent aussi qu'il appelle à la « discrétion dans l'espace public »."
+  },
+  {
+   "id": "san5",
+   "summary": "Aucune déclaration de Zemmour trouvée sur l'assouplissement des règles de construction ou de l'objectif ZAN pour le logement.",
+   "nuance": "Le +1 du brouillon n'avait pas de source et reposait uniquement sur « l'hostilité à droite est courante ». Son programme de 2022 proposait d'abroger la loi SRU (selon Gilles Ivaldi, cité sur Wikipédia), ce qui est voisin mais distinct. Mis à nul plutôt que deviné."
+  }
+ ],
+ "record": {
+  "bio": "Éric Zemmour, né le 31 août 1958 à Montreuil, est un journaliste, essayiste et homme politique français. Il a travaillé au Figaro, à RTL, sur Paris Première et à CNews avant de fonder Reconquête en décembre 2021. Il est arrivé quatrième de l'élection présidentielle de 2022 avec 7,07 % et a confirmé sa candidature pour 2027 sur BFM TV le 17 septembre 2026. Reconquête est classé à l'extrême droite et national-conservateur, et fait campagne sur l'« immigration zéro », l'assimilation et l'euroscepticisme.",
+  "offices": [
+   "Candidat à l'élection présidentielle (4e, 7,07 %)",
+   "Fondateur et président de Reconquête",
+   "Candidat dans la 4e circonscription du Var (3e, éliminé au premier tour, 23,19 %)"
+  ],
+  "legal": [
+   "Provocation à la discrimination raciale (propos de mars 2010 sur Canal+ « Salut les Terriens » et sur France Ô) : 17e chambre, tribunal de Paris, 18 février 2011, amende de 1 000 EUR avec sursis dans chacun des deux jugements, plus dommages et intérêts ; Zemmour a annoncé le 1er mars 2011 qu'il ne ferait pas appel",
+   "Provocation à la haine religieuse envers les musulmans (France 5 « C à vous », septembre 2016) : cour d'appel de Paris, 3 mai 2018, amende de 5 000 EUR ; pourvoi rejeté par la Cour de cassation le 17 septembre 2019 ; la CEDH (Zemmour c. France) a conclu à l'absence de violation de l'article 10 le 20 décembre 2022",
+   "Complicité d'injure publique et provocation à la haine (CNews « Face à l'info », propos de septembre 2020 sur les mineurs migrants non accompagnés) : tribunal de Paris, 17 janvier 2022, 10 000 EUR (100 jours-amende de 100 EUR) ; confirmé en appel ; pourvoi rejeté par la Cour de cassation le 2 décembre 2025",
+   "Injure publique et provocation à la haine raciale (discours à la « Convention de la droite », 28 septembre 2019) : condamné en première instance le 25 septembre 2020, relaxé en appel le 8 septembre 2021, relaxe cassée par la Cour de cassation le 21 février 2023, condamné après renvoi par la cour d'appel de Paris le 22 février 2024 (amende de 15 000 EUR) ; pourvoi rejeté le 16 septembre 2025",
+   "Injure à caractère raciste envers Hapsatou Sy : tribunal de Paris, 12 janvier 2023, amende de 4 000 EUR ; confirmé par la cour d'appel de Paris le 28 mars 2024 ; pourvoi rejeté par la Cour de cassation le 2 septembre 2025",
+   "Diffamation envers l'avocat Patrick Klugman (propos d'avril 2022 sur France 2 à propos de la mort de Jérémie Cohen) : condamné en janvier 2024, amende de 1 000 EUR ; confirmé en appel en décembre 2024 ; pourvoi rejeté par la Cour de cassation le 2 décembre 2025",
+   "Complicité de diffamation publique envers une administration publique (INED ; affirmation sur CNews en avril 2021 selon laquelle l'INED « trafique les chiffres ») : tribunal de Paris, 29 janvier 2024, amende de 1 500 EUR avec sursis ; confirmé en appel le 11 décembre 2024 ; pourvoi rejeté par la Cour de cassation le 27 janvier 2026",
+   "Complicité de diffamation publique envers la députée Danièle Obono (propos de 2020 sur CNews) : tribunal correctionnel de Paris, 7 février 2024, amende de 1 000 EUR avec sursis ; confirmé en appel en janvier 2025 ; la Cour de cassation a confirmé la décision en juin 2026",
+   "Injure raciale (propos après le meurtre de Crépol) : tribunal correctionnel de Paris, 26 mars 2025, 9 000 EUR (60 jours-amende de 150 EUR) ; relaxé sur les autres chefs ; Zemmour a annoncé faire appel. Issue de l'appel non vérifiée",
+   "Contestation de crime contre l'humanité (affirmation sur CNews en octobre 2019 selon laquelle Pétain « a sauvé les Juifs français ») : relaxé en première instance (4 février 2021) et en appel (mai 2022) ; relaxe cassée par la Cour de cassation le 5 septembre 2023 ; condamné après renvoi par la cour d'appel de Paris le 2 avril 2025, amende de 10 000 EUR ; Zemmour a annoncé un pourvoi en cassation. Issue de la cassation non vérifiée",
+   "Jugement civil pour contrefaçon de droits d'auteur et atteinte au droit moral (extraits de films dans sa vidéo d'annonce de candidature) : tribunal judiciaire de Paris, 4 mars 2022, Zemmour et Reconquête condamnés à verser environ 70 000 EUR à Gaumont, EuropaCorp, Luc Besson, la SACD et d'autres ; pas d'appel",
+   "Contrefaçon de droits d'auteur (extraits non autorisés du documentaire « Le Collège d'à côté ») : jugement du 16 janvier 2026 ; juridiction, montant et état de l'appel non vérifiés",
+   "Injure homophobe (propos d'octobre 2019 sur CNews) : condamné en première instance le 28 septembre 2023 (4 000 EUR), relaxé par la cour d'appel de Paris le 12 septembre 2024 ; une partie civile (Stop Homophobie) a dit qu'elle formerait un pourvoi",
+   "Provocation à la discrimination (propos de janvier 2022 sur Public Sénat à propos de l'immigration et de la délinquance), poursuites de la LDH et de SOS Racisme : relaxé par le tribunal correctionnel de Paris",
+   "Diffamation (propos de février 2022 sur France Inter comparant des villes françaises à l'Afghanistan) : relaxé le 12 novembre 2024, relaxe confirmée en appel en octobre 2025 ; la commune de Vitry-sur-Seine a formé un pourvoi",
+   "Contestation de crime contre l'humanité (passage d'un livre qualifiant de « légende » la déportation d'homosexuels depuis la France) : relaxé le 18 septembre 2025 ; appel des plaignants rejeté en juin 2026",
+   "Diffamation envers l'enseignante Sophie Djigo (2022), jugé avec neuf responsables du RN les 30 et 31 mars 2026 : relaxé en juin 2026 ; l'enseignante a annoncé faire appel",
+   "Poursuites devant la 17e chambre pour des propos tenus sur CNews en 2021 et 2022 à propos de dealers de crack sénégalais (renvoi ordonné en mai 2024). Issue du procès non vérifiée"
+  ],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Il n'a exercé aucun mandat exécutif ou législatif, national ou local, son bilan est donc électoral. Il a obtenu 7,07 % au premier tour de la présidentielle de 2022. Aux élections législatives de 2022, Reconquête n'a remporté aucun siège ; son score national est donné à 4,24 % dans le brouillon et à 3,61 % sur la page Wikipédia de Reconquête. Aux élections européennes de 2024, le parti a obtenu 5,47 % et 5 eurodéputés.",
+    "assessment": "Il a fondé un parti qui dure depuis décembre 2021 mais n'a remporté aucun siège à l'Assemblée nationale. Quatre de ses cinq eurodéputés élus en 2024 (Marion Maréchal, Nicolas Bay, Guillaume Peltier et Laurence Trochu) ont été exclus en juin 2024 après avoir appelé à soutenir la coalition de droite conduite par le RN ; Sarah Knafo est restée. Seul Wikipédia a été consulté pour cet élément, aucune appréciation équilibrée issue de sources de sensibilités différentes n'est donc disponible."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Seulement partiellement vérifié. Mediapart (gauche) a rapporté la décision définitive dans l'affaire de diffamation envers Obono comme la dernière d'une longue liste de sanctions. Son chapô indique : « Dernière sanction d'une longue liste ». Libération (centre gauche) couvre aussi chaque condamnation en détail (titres vus dans les citations de Wikipédia). Aucun échantillon plus large n'a été vérifié.",
+   "right_media": "Non vérifié. Aucune couverture de CNews, d'Europe 1, du JDD ou de Valeurs actuelles n'a été ouverte durant cette session, leur traitement n'est donc pas documenté ici. Le Figaro (centre droit) a couvert la décision de la CEDH de 2022 et la condamnation pour les propos sur Pétain de 2025 dans des titres factuels (slugs d'URL uniquement ; les pages n'ont pas pu être consultées).",
+   "neutral_media": "Partiellement vérifié. franceinfo le qualifie de « candidat d'extrême droite » et rapporte ses condamnations et leur état définitif de façon factuelle. Les dépêches de l'AFP (via L'Obs) et France 24 rapportent les décisions de justice sans commentaire."
+  }
+ }
+}

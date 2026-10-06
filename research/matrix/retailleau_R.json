@@ -1,0 +1,228 @@
+{
+ "collect": {
+  "candidate": "Bruno Retailleau",
+  "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée, senator since 2004 and president of Les Républicains since May 2025. He chaired the Vendée departmental council and the Pays de la Loire region, led the LR Senate group, and served as Interior Minister in the Barnier and Bayrou governments (Sept 2024 - Oct 2025). He declared his 2027 presidential candidacy in February 2026 and won the LR nomination on 19 April 2026. He is known for a restrictive line on immigration and security and for socially conservative positions.",
+  "offices": [
+   {
+    "office": "Departmental councillor, Vendée",
+    "from": "1988",
+    "to": "2015",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Member of the National Assembly (Vendée)",
+    "from": "1994",
+    "to": "1997",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Vendée departmental council",
+    "from": "2010",
+    "to": "2015",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Senator for Vendée",
+    "from": "2004",
+    "to": "2024",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Pays de la Loire region",
+    "from": "2015",
+    "to": "2017",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Chair of the LR group in the Senate",
+    "from": "2014",
+    "to": "2024",
+    "kind": "legislative"
+   },
+   {
+    "office": "Minister of the Interior",
+    "from": "2024-09-21",
+    "to": "2025-10-12",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Senator for Vendée (resumed)",
+    "from": "2025",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of Les Républicains",
+    "from": "2025-05-18",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 8,
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Participation in a government with Macron's camp",
+    "before": "In 2022 he refused any coalition or governing deal with Macron's Renaissance party.",
+    "after": "In September 2024 he joined the Barnier government as Interior Minister, a centrist-aligned coalition.",
+    "years": "2022-2024",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Anti-narcotics plan and legislation (national anti-narcotics prosecutor's office, informant status reform); law adopted April 2025",
+    "assessment": "Presented jointly with Justice Minister Migaud and drawing on a Senate inquiry. Left-leaning senator Carlotti (Public Sénat) criticised his remarks on cutting social aid and the lack of funding for staff. Evidence on outcomes is thin in the sources I could open.",
+    "sources": [
+     "https://www.publicsenat.fr/personnalites/bruno-retailleau",
+     "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   },
+   {
+    "what": "Immigration enforcement: bilateral return agreements (Morocco, Iraq, Kazakhstan, Egypt), pressure on prefects to speed up removals, revision of the Valls regularisation circular",
+    "assessment": "Supporters count this as tougher enforcement. Critics inside the Macron camp objected to his tone, including the 'rule of law is neither absolute nor sacred' remark. Source is a Wikipedia summary, so figures on actual removals are not verified.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+     "https://en.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not directly verified: Libération and Le Monde could not be fetched. Opponents quoted via Wikipedia call his statements discriminatory, citing the 2023 'Français de papier' remark.",
+   "right_media": "Not verified: no right-leaning outlet could be fetched. Expected to frame him as a firm law-and-order figure, but this is an assumption.",
+   "neutral_media": "Public Sénat coverage (Nov 2024) is procedural and reports both the minister's plan and a senator's criticism of it."
+  },
+  "sources_note": "The session's WebSearch budget (200 calls) was exhausted before any search ran, so this profile rests on a few WebFetch reads: French and English Wikipedia (centre-neutral, secondary) and one Public Sénat article. Le Monde and Libération blocked fetching. No LR programme, roll-call data or 2026 articles were consulted, and the platform and 2027 positions are not covered. The legal list is empty because no case was found in the sources read, not because absence is confirmed. The traits list is empty because none could be corroborated by two sources of different leanings. Wikipedia text carries no external URLs and contains some questionable details, so treat every item as needing verification."
+ },
+ "verify": {
+  "candidate": "Bruno Retailleau",
+  "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again from November 2025. He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2015-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate after the party vote of 19 April 2026. He is known for a restrictive line on immigration and security and for socially conservative positions.",
+  "offices": [
+   {
+    "office": "Departmental (general) councillor, Vendée (canton of Mortagne-sur-Sèvre)",
+    "from": "1988-10-06",
+    "to": "2015-04-01",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Member of the National Assembly (Vendée, 4th constituency)",
+    "from": "1994-11-27",
+    "to": "1997-04-21",
+    "kind": "legislative"
+   },
+   {
+    "office": "Vice-president of the Pays de la Loire regional council",
+    "from": "1998-03-28",
+    "to": "2004-04-02",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Senator for Vendée",
+    "from": "2004-10-01",
+    "to": "2024-10-01",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Vendée departmental council",
+    "from": "2010-10-31",
+    "to": "2015-04-01",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Chair of the UMP/LR group in the Senate",
+    "from": "2014-10-07",
+    "to": "2024-09-30",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of the Pays de la Loire regional council",
+    "from": "2015-12-18",
+    "to": "2017-09-30",
+    "kind": "local_executive"
+   },
+   {
+    "office": "Minister of the Interior (Barnier, Bayrou, Lecornu I governments; Minister of State from 23 Dec 2024)",
+    "from": "2024-09-21",
+    "to": "2025-10-12",
+    "kind": "national_executive"
+   },
+   {
+    "office": "Senator for Vendée (resumed; re-elected 2026)",
+    "from": "2025-11-13",
+    "to": "present",
+    "kind": "legislative"
+   },
+   {
+    "office": "President of Les Républicains",
+    "from": "2025-05-18",
+    "to": "present",
+    "kind": "party"
+   }
+  ],
+  "executive_experience_years": 7.3,
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Governing alongside Macron's camp",
+    "before": "In 2022 he refused any governing agreement with Macron's Renaissance party, saying the right is 'not soluble in Macronism'.",
+    "after": "In September 2024 he became Interior Minister in Michel Barnier's government, a coalition of LR and the presidential camp, and stayed under Bayrou; he left in October 2025 over the composition of the Lecornu government.",
+    "years": "2022-2024",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bruno_Retailleau",
+     "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Anti-narcotics plan (announced November 2024 with Justice Minister Migaud) and backing for the Senate bill 'sortir la France du piège du narcotrafic' (Blanc/Durain): creation of a national anti-organised-crime prosecutor's office (PNACO) and reform of informant status. Adopted on 29 April 2025 and promulgated on 13 June 2025.",
+    "assessment": "The law came from a cross-party Senate bill. Retailleau defended it, at first with Justice Minister Darmanin. It passed the Senate unanimously and the Assembly 396-68. The Conseil constitutionnel struck down the algorithmic-intelligence provisions. Socialist senator Carlotti backed the core measures but criticised his remarks on cutting social benefits and the lack of funding (Public Sénat). Evidence on outcomes is not covered in the sources read.",
+    "sources": [
+     "https://www.publicsenat.fr/personnalites/bruno-retailleau",
+     "https://fr.wikipedia.org/wiki/Loi_visant_à_sortir_la_France_du_piège_du_narcotrafic",
+     "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   },
+   {
+    "what": "Immigration enforcement: negotiations with Iraq, Kazakhstan and Egypt on removals were announced (8 Oct 2024), along with an arrangement with Morocco to speed up returns (29 Oct 2024). A circular of 29 Oct 2024 asked prefects for 'complète mobilisation' on removals, and he announced the end of the Valls regularisation circular (Oct 2024). He also took a firm line with Algeria on readmissions.",
+    "assessment": "Supporters see this as tougher enforcement. Critics inside the presidential camp objected to his remark that the rule of law is neither 'intangible' nor 'sacré'. The sources are Wikipedia summaries, so the agreements' contents and actual removal figures are not verified.",
+    "sources": [
+     "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+     "https://en.wikipedia.org/wiki/Bruno_Retailleau"
+    ]
+   }
+  ],
+  "traits": [],
+  "media_portrayal": {
+   "left_media": "Not directly verified: Libération, Mediapart and L'Humanité were not read. The secondary sources read report that his 2023 'Français de papier' remark and his rule-of-law comment drew wide criticism from opponents.",
+   "right_media": "Not verified: no right-leaning outlet was read, so no characterisation is given.",
+   "neutral_media": "Public Sénat (Nov 2024) reports his narcotics plan procedurally and gives room to a Socialist senator's partial support and criticism."
+  },
+  "sources_note": "WebSearch was unavailable (session budget exhausted), so verification relied on WebFetch reads of French and English Wikipedia (secondary, centre/neutral), the French Wikipedia article on the narcotrafic law, and one Public Sénat article (Nov 2024, neutral-institutional). Le Monde, Libération, the Sénat site, LR programme pages and 2026 campaign coverage were not consulted directly. The 2026 facts (candidacy on 12 Feb 2026, LR vote on 19 Apr 2026 with 73.8%, Senate re-election in 2026) rest on Wikipedia only. The legal list is empty because no case personally implicating him was found in these sources; absence is not confirmed by a court or AFP search. Mediapart's 2017 report naming him as a recipient of a EUR 3,029 Senate-group reimbursement is not a judicial case against him. Traits are empty because none could be corroborated by two sources of different leanings.",
+  "verification_notes": [
+   "bio: 'senator since 2004' -> 'senator 2004-2024 and again from November 2025': the seat was interrupted while he was minister (fr.wikipedia)",
+   "bio: Interior Minister 'in the Barnier and Bayrou governments' -> added Lecornu I: fr.wikipedia lists all three",
+   "bio: 'declared in February 2026' -> '12 February 2026'; 'won the LR nomination' -> 'designated LR candidate after the party vote of 19 April 2026': exact date and wording from fr/en Wikipedia; not verified by a news outlet because search was unavailable",
+   "offices: year-only dates -> exact dates (fr.wikipedia mandate list)",
+   "offices: added Vice-president of Pays de la Loire regional council 1998-2004: missing office; not counted in executive years because it is not a presidency",
+   "offices: National Assembly 1994-1997 -> 1994-11-27 to 1997-04-21, 4th constituency",
+   "offices: LR Senate group to '2024' -> '2024-09-30'",
+   "offices: Senator resumed from '2025' -> '2025-11-13', with re-election in 2026 noted (fr.wikipedia)",
+   "executive_experience_years: 8 -> 7.3: Vendée council presidency 2010-10-31 to 2015-04-01 (4.4) + regional presidency 2015-12-18 to 2017-09-30 (1.8) + Interior 2024-09-21 to 2025-10-12 (1.06) = 7.3",
+   "reversals[0]: 'Barnier government ... a centrist-aligned coalition' -> 'a coalition of LR and the presidential camp': Barnier (LR) headed an LR plus Macron-camp coalition, so 'centrist-aligned' was inaccurate; added the 2022 quote 'not soluble in Macronism' and the October 2025 exit; added fr.wikipedia source",
+   "delivery[0]: 'law adopted April 2025' -> Senate bill by Blanc/Durain, adopted 29 Apr 2025, promulgated 13 Jun 2025, partly censured by the Conseil constitutionnel: the draft implied a government law; added the narcotrafic law Wikipedia page as source",
+   "delivery[0]: 'Presented jointly with Justice Minister Migaud' kept for the Nov 2024 plan; added that Darmanin defended the 2025 law (fr.wikipedia)",
+   "delivery[1]: 'bilateral return agreements (Morocco, Iraq, Kazakhstan, Egypt)' -> negotiations announced with Iraq, Kazakhstan and Egypt plus an arrangement with Morocco to speed returns: fr.wikipedia describes announced negotiations, not signed agreements",
+   "delivery[1]: 'revision of the Valls regularisation circular' -> 'announced the end of the Valls circular (Oct 2024)': only the announcement is verified",
+   "delivery[1]: quote 'rule of law is neither absolute nor sacred' -> 'neither intangible nor sacred' ('ni intangible, ni sacré'): exact wording",
+   "media_portrayal.left_media: removed 'Opponents ... call his statements discriminatory' attribution to left media: opponents quoted on Wikipedia are not left-leaning outlets; rephrased descriptively",
+   "media_portrayal.right_media: removed the assumed framing 'firm law-and-order figure': it was unverified speculation",
+   "legal: kept empty; Mediapart 2017 Senate-group reimbursement report and 1997 Intervilles episode are not judicial cases against him (noted in sources_note)",
+   "traits: kept empty: no trait corroborated by two sources of different leanings",
+   "sources: all remaining URLs were opened in this session; added https://fr.wikipedia.org/wiki/Loi_visant_à_sortir_la_France_du_piège_du_narcotrafic"
+  ]
+ }
+}

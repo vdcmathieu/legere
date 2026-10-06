@@ -1,0 +1,1031 @@
+{
+ "collect": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes support Ukraine; not verified live.",
+    "sources": [],
+    "nuance": "Not verified: search budget exhausted. Based on prior knowledge of party line."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "int3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens have called for suspending the EU-Israel agreement; not verified live.",
+    "sources": [],
+    "nuance": "Not verified: search budget exhausted."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "int6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Ecologists generally oppose compulsory service; not verified.",
+    "sources": [],
+    "nuance": "Inferred from party tradition only."
+   },
+   {
+    "id": "int7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Inferred from pro-Ukraine stance.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ecol1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party defends ZFE; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party supports pesticide bans; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ecol3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party backs the 2035 end of thermal car sales; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party favours taxing kerosene and private jets; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "ene1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Ecologists oppose new nuclear; Wikipedia notes her historic opposition to nuclear.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: maintains the historical ecological opposition to nuclear power"
+     }
+    ],
+    "nuance": "No 2025-2026 statement verified."
+   },
+   {
+    "id": "ene2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Ecologists favour phasing out nuclear, with renewables.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: proposed a citizens' convention on nuclear in March 2023"
+     }
+    ],
+    "nuance": "Pace and exact timeline not verified; she has been pragmatic about existing reactors."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party strongly supports wind development; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Called in Feb 2025 for a referendum creating a constituent assembly, saying Fifth Republic institutions are tired.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: Feb 2025 called for a referendum on a constituent assembly"
+     }
+    ],
+    "nuance": "Secondary source only."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party long supports proportional representation; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ins3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party favours citizen initiative referendums; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes 49.3; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "ins5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Ecologists wary of referendums on immigration or justice.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Ecologist deputies backed the assisted dying bill; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes headscarf bans; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes extending bans; not verified live.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Consistent with party stance.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party supports hiring teachers and smaller classes.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Left-wing opposition to ability grouping.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party supports conditioning private school funding on social mix.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Not researched."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes higher franchises.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party supports rent control.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "san4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes opening public services to competition.",
+    "sources": [],
+    "nuance": "Not verified."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "int1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her campaign's international doctrine (Feb 2026) says Ukraine must be supported 'sans relâche' militarily, with seized Russian assets funding military aid; her party's group voted for the March 2025 Assemblée resolution reinforcing support to Ukraine.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+      "outlet": "Marine Tondelier campaign / Les Écologistes - Carnet de doctrine international",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-06",
+      "quote": "L'Ukraine doit donc être soutenue, sans relâche, sur les plans militaire, économique et diplomatique."
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_988",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-03-12",
+      "quote": "Proposition de résolution européenne appelant au renforcement du soutien à l'Ukraine - ECOS: 34 pour, 2 abstentions, 0 contre"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (en)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "Ukraine has a right to defend itself"
+     }
+    ],
+    "nuance": "Strong, consistent position; she contrasts it with LFI/Mélenchon's stance."
+   },
+   {
+    "id": "int2",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The doctrine calls for durable security guarantees for Ukraine including deploying European troops at its borders or on its territory in a deterrent posture.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+      "outlet": "Marine Tondelier campaign / Les Écologistes - Carnet de doctrine international",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-06",
+      "quote": "en déployant des troupes européennes, à ses frontières ou sur son territoire, dans une posture dissuasive"
+     }
+    ],
+    "nuance": "Framed as European (not specifically French) troops, possibly at Ukraine's borders rather than inside it, so coded +1 rather than +2. The 2024 NFP programme she signed did not specify French ground troops."
+   },
+   {
+    "id": "int3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The doctrine does not propose leaving NATO's integrated command; it wants NATO's European pillar placed under European command and reaffirms mutual support, while building an autonomous European integrated command.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+      "outlet": "Marine Tondelier campaign / Les Écologistes - Carnet de doctrine international",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-06",
+      "quote": "le pilier européen de l'OTAN doit passer sous commandement européen pour permettre l'interopérabilité"
+     }
+    ],
+    "nuance": "Reform-from-within plus European autonomy ('Nous refusons toute vassalisation militaire'); no call for a French exit, so mild opposition to the statement."
+   },
+   {
+    "id": "int4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "She has called for suspending the EU-Israel association agreement and banning imports from settlements; her doctrine calls Gaza a genocide and demands sanctions on Israel's leaders.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (en), citing The Times and Brussels Signal",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "has called to suspend the European Union association agreement with Israel and ban the imports from Israeli settlements"
+     },
+     {
+      "url": "https://www.marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+      "outlet": "Marine Tondelier campaign / Les Écologistes - Carnet de doctrine international",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-06",
+      "quote": "Les violations du droit humanitaire à Gaza [...] doivent être condamnées et sanctionnées."
+     }
+    ],
+    "nuance": "The direct suspension call comes via a secondary source (Wikipedia citing The Times / Brussels Signal); the primary doctrine text calls for sanctions but does not name the association agreement."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No figure for defence spending as % of GDP found.",
+    "sources": [],
+    "nuance": "The doctrine favours pooled European defence spending and calls massification of French forces neither possible nor relevant in the short term, but gives no % of GDP target."
+   },
+   {
+    "id": "int6",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The 2024 NFP programme (co-signed by Les Écologistes) called for ending the Service national universel; no call for compulsory service in her 2026 doctrine.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Arrêt du service national universel pour soutenir à nouveau les associations de jeunesse"
+     }
+    ],
+    "nuance": "The doctrine favours civilian resilience training without making it compulsory. No personal statement from her was found."
+   },
+   {
+    "id": "int7",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The doctrine sees Russia's defeat as the only way to end its imperial reflex, wants Ukraine to set the negotiating terms, and wants Russian assets seized. Nothing on trading sanctions relief for a deal.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+      "outlet": "Marine Tondelier campaign / Les Écologistes - Carnet de doctrine international",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-02-06",
+      "quote": "Les conditions de négociation doivent être fixées par l'Ukraine et soutenues par l'Europe."
+     }
+    ],
+    "nuance": "Inferred: no explicit position on lifting sanctions in exchange for peace was found, so this is coded -1 rather than -2."
+   },
+   {
+    "id": "ecol1",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "The Écologiste group voted unanimously against abolishing ZFEs (May 2025) and against making them optional (April 2026).",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_2190",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-28",
+      "quote": "Supprimer les zones à faibles émissions (ZFE) - ECOS: 0 pour, 0 abstention, 14 contre"
+     },
+     {
+      "url": "https://datan.fr/groupes/legislature-17/ecos/votes",
+      "outlet": "Datan (group vote list)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-04-14",
+      "quote": "Maintenir l'existence des ZFE mais les rendre facultatives - CONTRE"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Zone_à_faibles_émissions_mobilité",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-05-28",
+      "quote": "paraphrase: Article 15 ter adopted 275-252; Écologiste group voted against suppression"
+     }
+    ],
+    "nuance": "These are group votes, since Tondelier is not an MP, and they are consistent with her campaign's air-quality booklet."
+   },
+   {
+    "id": "ecol2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Campaign booklet plans the progressive exit from synthetic pesticides by 2050; the Écologiste group voted unanimously against re-authorising acetamiprid (July 2026), which remains authorised elsewhere in the EU.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/Livret-sante-environnementale.pdf",
+      "outlet": "Marine Tondelier campaign - Livret santé environnementale",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-05-29",
+      "quote": "Planifier la sortie progressive des pesticides de synthèse et des engrais azotés à l'horizon 2050"
+     },
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8427",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-20",
+      "quote": "Loi urgence agricole : réautorisation de l'acétamipride - ECOS: contre (38/38)"
+     }
+    ],
+    "nuance": "The acetamiprid vote shows support for a French ban even though competitors elsewhere in the EU keep using the product."
+   },
+   {
+    "id": "ecol3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes back the 2035 end of sales of new combustion cars; her campaign promotes electric vehicles. Not verified live in a 2025-2026 source.",
+    "sources": [],
+    "nuance": "Not verified: web search budget exhausted and no primary text found in the campaign PDFs checked. Plausible party line, but treat with caution."
+   },
+   {
+    "id": "ecol4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The Écologistes' Sept 2025 crisis plan calls for progressively strengthening air-travel taxation, a kerosene tax on domestic flights from 2026 and a frequent-flyer tax.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "La taxe kérosène sur les vols intérieurs (hors DROM-COM et Corse) sera mise en place dès 2026"
+     }
+    ],
+    "nuance": "Private jets are not mentioned in the document checked; the measure excludes overseas territories and Corsica."
+   },
+   {
+    "id": "ecol5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "She judges capitalism incompatible with planetary limits and pushes a social and solidarity economy, which suggests climate takes precedence over growth.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: judges capitalism 'incompatible with planetary limits'"
+     }
+    ],
+    "nuance": "Inferred: no explicit growth-versus-climate trade-off statement was found."
+   },
+   {
+    "id": "ene1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her party's plan assumes nuclear plants will close progressively and puts massive means into renewables; she defends the movement's historic anti-nuclear stance.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "des moyens massifs doivent être orientés dans les énergies renouvelables pour éviter la rupture en production électrique quand les centrales nucléaires fermeront progressivement"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: defends the historical opposition of the ecological movement to nuclear and wants to restart a cultural battle against it"
+     }
+    ],
+    "nuance": "No explicit text on EPR2 found, but a phase-out stance is incompatible with building beyond the six planned."
+   },
+   {
+    "id": "ene2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her party's Sept 2025 plan plans for nuclear plants closing progressively; she defends the historic anti-nuclear stance and proposed a citizens' convention on nuclear (2023).",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "quand les centrales nucléaires fermeront progressivement"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-10",
+      "quote": "paraphrase: proposed a citizens' convention on nuclear in March 2023"
+     }
+    ],
+    "nuance": "No exact phase-out date was found in the 2025-2026 texts checked. The 2024 NFP programme left nuclear out as a point of disagreement."
+   },
+   {
+    "id": "ene3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The party plan calls for massive investment in renewables, and NFP 2024 backed offshore wind; halting wind development is contrary to this.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "des moyens massifs doivent être orientés dans les énergies renouvelables"
+     }
+    ],
+    "nuance": "Wind is not named specifically in the 2025 plan; the 2024 NFP programme explicitly backed offshore wind."
+   },
+   {
+    "id": "ene4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Her campaign wants to cut bills by decoupling electricity from gas prices, a market reform rather than an exit, within a European-federalist doctrine.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dp-bouclier-social-pour-envoi.pdf",
+      "outlet": "Marine Tondelier campaign - Bouclier social et environnemental",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-12",
+      "quote": "Faire baisser la facture d'électricité en la découplant du prix du gaz"
+     }
+    ],
+    "nuance": "Inferred: no explicit statement on leaving the EU electricity market was found."
+   },
+   {
+    "id": "ins1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her party's 2025 plan wants a citizens' convention on a Sixth Republic and a true parliamentary regime; she called in Feb 2025 for a referendum on a constituent assembly; NFP 2024 promised a constituent assembly for a VIe République.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "Saisir le Conseil Économique, Social et Environnemental pour organiser une convention citoyenne sur la VIème République"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia (fr)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02",
+      "quote": "paraphrase: called for a referendum to set up a constituent assembly; Fifth Republic institutions 'are tired'"
+     }
+    ],
+    "nuance": "She proposes a process (convention or constituent assembly) without a finalised constitutional text."
+   },
+   {
+    "id": "ins2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her party's 2025 plan demands proportional representation for the next legislative elections; NFP 2024 promised full proportional representation.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "Adopter un mode de scrutin proportionnel pour les prochaines élections législatives."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Instauration de la proportionnelle intégrale aux élections législatives"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "ins3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The party favours more direct and participatory democracy (NFP 2024: promotion of direct democracy); no explicit RIC commitment from her was verified.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Promotion d'une part de démocratie locale et directe"
+     }
+    ],
+    "nuance": "Not verified for a RIC specifically. Her 2025 referendum proposal is a government-initiated referendum on three questions, not a RIC."
+   },
+   {
+    "id": "ins4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "NFP 2024 (co-signed) promised to abolish article 49.3; her party's 2025 plan demands a PM committed to governing without 49.3 and blames it for the majoritarian deadlock.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Abrogation du troisième alinéa de l'article 49 de la Constitution (dit « 49-3 »)"
+     },
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "doit s'engager à gouverner sans recourir au 49-3"
+     }
+    ],
+    "nuance": "Abolition is from the 2024 coalition programme; the 2025 party text asks for non-use rather than repeal."
+   },
+   {
+    "id": "ins5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No position on widening referendums to immigration/justice found; her referendum proposals cover pensions, tax justice and territories.",
+    "sources": [],
+    "nuance": "Inferred from the left's opposition to RN-style immigration referendums; not verified."
+   },
+   {
+    "id": "soc1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "The Écologiste group voted overwhelmingly for the bill creating a right to assisted dying (July 2026).",
+    "sources": [
+     {
+      "url": "https://datan.fr/votes/legislature-17/vote_8280",
+      "outlet": "Datan (Assemblée roll-call)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026-07-15",
+      "quote": "Proposition de loi créant un droit à l'aide à mourir - ECOS: 33 pour, 1 abstention, 2 contre"
+     }
+    ],
+    "nuance": "This is a group vote, and no personal statement from Tondelier was verified."
+   },
+   {
+    "id": "soc2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes oppose banning the headscarf in public space; not verified live.",
+    "sources": [],
+    "nuance": "Not verified (search budget exhausted); strong code rests on well-known party line only."
+   },
+   {
+    "id": "soc3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Party opposes extending religious-symbol bans to accompanying parents and universities; not verified live.",
+    "sources": [],
+    "nuance": "Not verified (search budget exhausted)."
+   },
+   {
+    "id": "soc4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Consistent with the party's stance on laïcité as state neutrality; not verified.",
+    "sources": [],
+    "nuance": "Not verified."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found.",
+    "sources": [],
+    "nuance": "Brief check of campaign pages and Wikipedia found nothing on GPA; her reproductive-health booklet was not checked in full."
+   },
+   {
+    "id": "edu1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her 2026 education dossier presents the RN's school uniform as a choice the Écologistes reject in favour of an emancipatory school.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dossierpresse-rentree.pdf",
+      "outlet": "Les Écologistes - Dossier de presse rentrée 2026",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-31",
+      "quote": "le RN propose d'établir l'autorité [...] par l'instauration d'un uniforme au primaire et au collège, nous faisons un autre choix"
+     }
+    ],
+    "nuance": "The rejection is implicit, a contrast with the RN, with no explicit pledge to block uniforms."
+   },
+   {
+    "id": "edu2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her 2026 education dossier pledges to recruit teachers and cut primary classes to 19 pupils by 2032 (12 in REP/REP+).",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dossierpresse-rentree.pdf",
+      "outlet": "Les Écologistes - Dossier de presse rentrée 2026",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-31",
+      "quote": "réduisant la taille des classes à 19 élèves en 2032 et généraliser les effectifs à 12 élèves [...] en REP et REP+"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "edu3",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her 2026 education dossier pledges to repeal the 'choc des savoirs' ability groups in 6e/5e, calling them social sorting.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dossierpresse-rentree.pdf",
+      "outlet": "Les Écologistes - Dossier de presse rentrée 2026",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-31",
+      "quote": "Abroger le «choc des savoirs» (groupes de niveaux en sixième et cinquième)."
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "edu4",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her 2026 education dossier proposes cutting public funding of private schools to 50% and conditioning it on social-mix and inclusion obligations.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dossierpresse-rentree.pdf",
+      "outlet": "Les Écologistes - Dossier de presse rentrée 2026",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-31",
+      "quote": "diminuer la part de financement public à 50%, et le conditionner à des obligations de mixité sociale et d'inclusion scolaire"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "edu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "2026 dossier proposes replacing Parcoursup and MonMaster with an orientation platform without cover letters; NFP 2024 promised abolishing Parcoursup and university selection.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dossierpresse-rentree.pdf",
+      "outlet": "Les Écologistes - Dossier de presse rentrée 2026",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-08-31",
+      "quote": "Réhabiliter le droit à des études supérieures en remplaçant ParcourSup et MonMaster par une vraie plateforme d'orientation"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Suppression de Parcoursup et de la sélection dans l'université publique"
+     }
+    ],
+    "nuance": "The 2026 text speaks of replacing Parcoursup and keeps ranked, sectorised wishes. The explicit end of selection comes from the 2024 NFP text."
+   },
+   {
+    "id": "san1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her party's 2025 plan backs the Assemblée's installation-authorisation scheme for doctors; NFP 2024 promised installation obligations in medical deserts.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "L'Assemblée a voté la création d'une autorisation d'installation des médecins [...] Le texte doit maintenant avancer."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "obligations d'installation de médecins dans les déserts médicaux"
+     }
+    ],
+    "nuance": "She backs regulating where doctors can set up practice, not an explicit compulsory multi-year posting for new doctors, so this is coded +1."
+   },
+   {
+    "id": "san2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Her party's 2025 plan backs removing the higher ticket modérateur for patients without a GP; NFP 2024 aimed for zero out-of-pocket costs.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/25-09-plan-de-sortie-de-crise.pdf",
+      "outlet": "Les Écologistes - Plan de sortie de crise",
+      "outlet_lean": "campaign-or-party",
+      "date": "2025-09-04",
+      "quote": "la suppression de la majoration du ticket modérateur pour les patients qui n'arrivent pas à désigner un médecin traitant"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "garantie d'un reste à charge zéro"
+     }
+    ],
+    "nuance": "No text specifically on franchises médicales was found; the direction against higher patient co-payments is clear."
+   },
+   {
+    "id": "san3",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Her Sept 2026 campaign 'bouclier social' pledges to generalise, improve and make permanent rent control.",
+    "sources": [
+     {
+      "url": "https://www.marinetondelier.fr/s/dp-bouclier-social-pour-envoi.pdf",
+      "outlet": "Marine Tondelier campaign - Bouclier social et environnemental",
+      "outlet_lean": "campaign-or-party",
+      "date": "2026-09-12",
+      "quote": "Généraliser, améliorer et pérenniser l'encadrement des loyers."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "l'encadrement des loyers de manière obligatoire dans les zones tendues"
+     }
+    ],
+    "nuance": ""
+   },
+   {
+    "id": "san4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "NFP 2024 (co-signed) refused privatising hydroelectric dams; her campaign frames public services as needing repair, not more competition.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (fr) - NFP programme",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Refus de la privatisation des barrages hydroélectriques"
+     }
+    ],
+    "nuance": "No 2025-2026 statement on rail or energy competition was found. Coded -1 because the only evidence is the hydro-dam point; the European Greens have not opposed rail opening outright."
+   }
+  ],
+  "verification_notes": [
+   "CONTEXT: WebSearch budget for the session was exhausted (200/200); verification relied on WebFetch and curl of primary sources: marinetondelier.fr campaign PDFs (Carnet de doctrine international Feb 2026, Plan de sortie de crise Sept 2025, dossier rentrée Aug 2026, bouclier social Sept 2026, livret santé environnementale May 2026), datan.fr roll-calls, and Wikipedia (fr/en, NFP programme). lesecologistes.fr (557-measure programme) is behind Cloudflare and could not be read.",
+   "int1: +1 low party_line -> +2 high programme: doctrine says Ukraine must be supported 'sans relâche' militarily; ECOS voted for March 2025 Ukraine support resolution.",
+   "int2: null -> +1 medium programme: doctrine backs deploying European troops at Ukraine's borders or on its territory as a security guarantee; European rather than specifically French, so +1.",
+   "int3: null -> -1 medium programme: doctrine wants NATO's European pillar under European command and reaffirms mutual support, so it does not propose leaving.",
+   "int4: +2 low party_line -> +2 medium statement: en.wikipedia (citing The Times/Brussels Signal) reports she called to suspend the association agreement; the doctrine demands sanctions. Source added.",
+   "int5: null kept: doctrine checked, no % of GDP target.",
+   "int6: -1 low inferred -> -1 low party_line: NFP 2024 called to end the SNU; source added.",
+   "int7: -2 low inferred -> -1 low inferred: no evidence on sanctions-for-peace trade, so the strong code was not justified; doctrine adjacent quote added.",
+   "ecol1: -2 low party_line -> -2 high vote: ECOS unanimously against ZFE abolition (28 May 2025) and against making ZFE optional (14 Apr 2026).",
+   "ecol2: +2 low party_line -> +2 medium programme: campaign booklet plans a synthetic pesticide exit by 2050; ECOS voted 38/38 against re-authorising acetamiprid (July 2026).",
+   "ecol3: +2 low party_line kept, unverified: no source found within constraints; flagged in nuance.",
+   "ecol4: +2 low party_line -> +2 medium programme: Sept 2025 plan gives a domestic kerosene tax from 2026 and stronger air taxation (private jets not mentioned).",
+   "ecol5: null -> +1 low inferred: she calls capitalism incompatible with planetary limits (fr.wikipedia).",
+   "ene1: -2 medium party_line -> -2 medium programme: 2025 plan assumes nuclear plants 'fermeront progressivement'; primary source added.",
+   "ene2: +2 medium party_line -> +2 medium programme: same primary quote; Wikipedia paraphrase verified.",
+   "ene3: -2 low party_line -> -2 medium programme: 2025 plan wants massive renewable investment; wind not named, noted.",
+   "ene4: null -> -1 low inferred: campaign proposes decoupling electricity from gas prices (market reform, not exit), within a European-federalist doctrine.",
+   "ins1: +2 medium statement -> +2 medium programme: 2025 plan calls for a citizens' convention on a VIe République and a parliamentary regime; NFP 2024 constituent assembly; Wikipedia Feb 2025 statement confirmed.",
+   "ins2: +2 low party_line -> +2 high programme: 2025 plan demands proportional representation for next legislative elections; NFP 2024 full PR.",
+   "ins3: +1 low party_line kept; NFP 'démocratie directe' source added; RIC not specifically verified.",
+   "ins4: +2 low party_line -> +2 medium programme: NFP 2024 abolition of 49.3; 2025 plan demands governing without 49.3.",
+   "soc1: +2 low party_line -> +2 medium vote: ECOS 33-1-2 for the aide à mourir bill (15 July 2026).",
+   "soc2/soc3/soc4: codes kept, unverified (no search budget). Strong codes rest on party line only; flagged.",
+   "soc5: null kept after brief check.",
+   "edu1: null -> -1 medium programme: Aug 2026 dossier contrasts RN uniform proposal with 'nous faisons un autre choix'.",
+   "edu2: +2 low party_line -> +2 high programme: 19 pupils per primary class by 2032, 12 in REP.",
+   "edu3: -2 low inferred -> -2 high programme: pledge to repeal 'choc des savoirs' ability groups.",
+   "edu4: +2 low party_line -> +2 high programme: cut public funding to 50% and condition it on social-mix obligations.",
+   "edu5: null -> +2 medium programme: 2026 replace Parcoursup; NFP 2024 abolish Parcoursup and selection.",
+   "san1: null -> +1 medium programme: backs doctors' installation authorisation (2025) and NFP installation obligations; not explicit multi-year posting.",
+   "san2: -2 low party_line -> -2 medium programme: 2025 plan backs removing the ticket modérateur surcharge; NFP 'reste à charge zéro'.",
+   "san3: +2 low party_line -> +2 high programme: Sept 2026 'Généraliser, améliorer et pérenniser l'encadrement des loyers'.",
+   "san4: -2 low party_line -> -1 low party_line: only evidence is NFP 2024 refusing hydro dam privatisation; strong code unjustified.",
+   "No fabricated URLs were found in the draft; its only cited URL (fr.wikipedia Marine_Tondelier) is live and supports the paraphrases."
+  ]
+ }
+}

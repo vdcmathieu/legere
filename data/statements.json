@@ -1,0 +1,738 @@
+{
+ "version": "0.2",
+ "scale": "Each statement is a concrete policy proposal. Respondent and candidate positions are coded on the same 5-point scale: -2 strongly disagree, -1 disagree, 0 neutral/mixed, +1 agree, +2 strongly agree. null = no known position / no opinion.",
+ "axes": {
+  "econ": "Economic: + = market/right (lower taxes, smaller state), - = redistribution/left",
+  "cult": "Cultural: + = authority/tradition/restriction (TAN), - = liberal/libertarian (GAL)",
+  "eu": "Europe: + = sovereignty/national primacy, - = deeper EU integration",
+  "none": "Cross-cutting item, not keyed to an axis"
+ },
+ "areas": [
+  {
+   "id": "eco",
+   "fr": "Économie & fiscalité",
+   "en": "Economy & taxes"
+  },
+  {
+   "id": "ret",
+   "fr": "Retraites",
+   "en": "Pensions"
+  },
+  {
+   "id": "fin",
+   "fr": "Dépenses publiques & dette",
+   "en": "Public spending & debt"
+  },
+  {
+   "id": "trav",
+   "fr": "Travail & protection sociale",
+   "en": "Work & welfare"
+  },
+  {
+   "id": "imm",
+   "fr": "Immigration",
+   "en": "Immigration"
+  },
+  {
+   "id": "sec",
+   "fr": "Sécurité & justice",
+   "en": "Security & justice"
+  },
+  {
+   "id": "eu",
+   "fr": "Europe",
+   "en": "European Union"
+  },
+  {
+   "id": "int",
+   "fr": "International & défense",
+   "en": "Foreign policy & defence"
+  },
+  {
+   "id": "ecol",
+   "fr": "Écologie & agriculture",
+   "en": "Ecology & agriculture"
+  },
+  {
+   "id": "ene",
+   "fr": "Énergie",
+   "en": "Energy"
+  },
+  {
+   "id": "ins",
+   "fr": "Institutions & démocratie",
+   "en": "Institutions & democracy"
+  },
+  {
+   "id": "soc",
+   "fr": "Société & laïcité",
+   "en": "Society & secularism"
+  },
+  {
+   "id": "edu",
+   "fr": "Éducation",
+   "en": "Education"
+  },
+  {
+   "id": "san",
+   "fr": "Santé, logement & services publics",
+   "en": "Health, housing & public services"
+  }
+ ],
+ "statements": [
+  {
+   "id": "eco1",
+   "area": "eco",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Rétablir un impôt sur la fortune incluant le patrimoine financier (type ISF).",
+   "en": "Reinstate a wealth tax that includes financial assets (ISF-style)."
+  },
+  {
+   "id": "eco2",
+   "area": "eco",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Instaurer un impôt minimum d'environ 2 % sur les patrimoines supérieurs à 100 millions d'euros.",
+   "en": "Introduce a minimum tax of about 2% on fortunes above EUR 100 million (Zucman-style)."
+  },
+  {
+   "id": "eco3",
+   "area": "eco",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Baisser les impôts de production et les cotisations sociales payées par les entreprises.",
+   "en": "Cut production taxes and employer social contributions to boost business competitiveness."
+  },
+  {
+   "id": "eco4",
+   "area": "eco",
+   "axis": "none",
+   "key": 0,
+   "fr": "Défendre des droits de douane ou des quotas pour protéger certaines filières françaises (agriculture, industrie), même si cela augmente certains prix.",
+   "en": "Protect some French sectors with tariffs or quotas, even if some prices rise."
+  },
+  {
+   "id": "eco5",
+   "area": "eco",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Nationaliser ou renationaliser des entreprises de secteurs stratégiques comme les autoroutes, l'eau ou l'énergie.",
+   "en": "Bring strategic sectors such as energy or motorways back under public control."
+  },
+  {
+   "id": "eco6",
+   "area": "eco",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Baisser l'impôt sur les successions et les donations.",
+   "en": "Lower inheritance and gift taxes."
+  },
+  {
+   "id": "eco7",
+   "area": "eco",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Augmenter la TVA pour financer une baisse des cotisations sociales sur les salaires (« TVA sociale »).",
+   "en": "Raise VAT to fund lower social contributions on wages ('social VAT').",
+   "new": true
+  },
+  {
+   "id": "ret1",
+   "area": "ret",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Ramener l'âge légal de départ à la retraite à 62 ans ou moins.",
+   "en": "Bring the legal retirement age back to 62 or lower."
+  },
+  {
+   "id": "ret2",
+   "area": "ret",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Relever l'âge légal de départ à la retraite au-delà de 64 ans.",
+   "en": "Raise the retirement age above 64 to balance the system."
+  },
+  {
+   "id": "ret3",
+   "area": "ret",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Introduire une part obligatoire de retraite par capitalisation (cotisations placées et investies), à côté de la retraite par répartition.",
+   "en": "Introduce a mandatory funded (capitalisation) component in the pension system."
+  },
+  {
+   "id": "fin1",
+   "area": "fin",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Ramener rapidement le déficit public sous 3 % du PIB, même au prix de fortes baisses de dépenses.",
+   "en": "Bringing the deficit below 3% of GDP should be a priority, even at the cost of large spending cuts."
+  },
+  {
+   "id": "fin2",
+   "area": "fin",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Réduire le nombre total de fonctionnaires et d'agents publics (État, collectivités, hôpitaux).",
+   "en": "Reduce the number of civil servants."
+  },
+  {
+   "id": "fin3",
+   "area": "fin",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Accepter davantage de dette publique pour financer des priorités comme la transition écologique ou les services publics.",
+   "en": "Accept more public debt to fund the green transition and public services."
+  },
+  {
+   "id": "fin4",
+   "area": "fin",
+   "axis": "none",
+   "key": 0,
+   "fr": "Inscrire dans la Constitution une règle limitant le déficit public (« règle d'or »).",
+   "en": "Write a deficit-limiting 'golden rule' into the Constitution."
+  },
+  {
+   "id": "trav1",
+   "area": "trav",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Donner au SMIC un « coup de pouce » nettement supérieur à sa revalorisation automatique sur l'inflation.",
+   "en": "Raise the minimum wage significantly faster than inflation."
+  },
+  {
+   "id": "trav2",
+   "area": "trav",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Réduire la durée ou le montant des allocations chômage.",
+   "en": "Reduce the length or amount of unemployment benefits to encourage return to work."
+  },
+  {
+   "id": "trav3",
+   "area": "trav",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Maintenir l'obligation de 15 à 20 heures d'activité par semaine pour les bénéficiaires du RSA.",
+   "en": "Make the RSA minimum income conditional on mandatory activity hours.",
+   "recode": true
+  },
+  {
+   "id": "trav4",
+   "area": "trav",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Réduire le temps de travail hebdomadaire (vers 32 heures).",
+   "en": "Reduce weekly working time (towards 32 hours)."
+  },
+  {
+   "id": "imm1",
+   "area": "imm",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Réduire fortement l'immigration légale (travail, regroupement familial, études).",
+   "en": "Sharply reduce legal immigration (work, family reunification, students)."
+  },
+  {
+   "id": "imm2",
+   "area": "imm",
+   "axis": "none",
+   "key": 0,
+   "fr": "Réviser la Constitution pour permettre un référendum sur la politique d'immigration.",
+   "en": "Hold a referendum on immigration policy."
+  },
+  {
+   "id": "imm3",
+   "area": "imm",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Remplacer l'aide médicale d'État (AME) par une aide limitée aux soins urgents.",
+   "en": "Replace state medical aid for undocumented migrants (AME) with urgent-care-only aid."
+  },
+  {
+   "id": "imm4",
+   "area": "imm",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Régulariser les travailleurs sans papiers dans les métiers en tension.",
+   "en": "Regularise undocumented workers in labour-shortage occupations."
+  },
+  {
+   "id": "imm5",
+   "area": "imm",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Accorder aux citoyens français une priorité sur les étrangers pour l'accès au logement social et à certaines prestations sociales.",
+   "en": "Give French citizens priority access to social housing and some welfare benefits."
+  },
+  {
+   "id": "imm6",
+   "area": "imm",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Supprimer le droit du sol (l'acquisition de la nationalité française par les enfants nés en France de parents étrangers).",
+   "en": "Abolish birthright citizenship (droit du sol)."
+  },
+  {
+   "id": "imm7",
+   "area": "imm",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Accorder le droit de vote aux élections locales aux étrangers non européens résidant en France.",
+   "en": "Give non-EU foreign residents the right to vote in local elections."
+  },
+  {
+   "id": "imm8",
+   "area": "imm",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Faciliter la naturalisation des étrangers qui résident et travaillent légalement en France depuis plusieurs années.",
+   "en": "Make naturalisation easier for foreigners who have lived and worked legally in France for several years.",
+   "new": true
+  },
+  {
+   "id": "sec1",
+   "area": "sec",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Instaurer des peines minimales obligatoires pour les récidivistes (peines planchers).",
+   "en": "Introduce mandatory minimum sentences for repeat offenders."
+  },
+  {
+   "id": "sec2",
+   "area": "sec",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Permettre de juger comme des adultes les mineurs de plus de 16 ans auteurs de crimes graves.",
+   "en": "Allow minors over 16 who commit serious crimes to be tried as adults."
+  },
+  {
+   "id": "sec3",
+   "area": "sec",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Confier les enquêtes sur les fautes des policiers et gendarmes à un organisme indépendant, à la place de l'IGPN et de l'IGGN.",
+   "en": "Give oversight of the police to a body independent of the police."
+  },
+  {
+   "id": "sec4",
+   "area": "sec",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Légaliser et encadrer le cannabis récréatif.",
+   "en": "Legalise and regulate recreational cannabis."
+  },
+  {
+   "id": "sec5",
+   "area": "sec",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Généraliser la vidéosurveillance assistée par intelligence artificielle dans l'espace public.",
+   "en": "Roll out AI-assisted video surveillance in public spaces."
+  },
+  {
+   "id": "sec6",
+   "area": "sec",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Remettre un récépissé lors de chaque contrôle d'identité pour lutter contre les contrôles au faciès.",
+   "en": "Issue a receipt at every identity check to curb ethnic profiling.",
+   "new": true
+  },
+  {
+   "id": "eu1",
+   "area": "eu",
+   "axis": "eu",
+   "key": 1,
+   "fr": "Faire primer le droit français sur le droit européen lorsqu'ils entrent en conflit.",
+   "en": "Make French law prevail over EU law when they conflict."
+  },
+  {
+   "id": "eu2",
+   "area": "eu",
+   "axis": "eu",
+   "key": -1,
+   "fr": "Permettre à l'Union européenne d'emprunter en commun pour financer la défense, le climat ou l'industrie.",
+   "en": "Allow the EU to borrow jointly to fund defence, climate or industry."
+  },
+  {
+   "id": "eu3",
+   "area": "eu",
+   "axis": "eu",
+   "key": 1,
+   "fr": "Réduire la contribution de la France au budget de l'Union européenne.",
+   "en": "Reduce France's contribution to the EU budget."
+  },
+  {
+   "id": "eu4",
+   "area": "eu",
+   "axis": "eu",
+   "key": -1,
+   "fr": "Supprimer la règle de l'unanimité pour les décisions de politique étrangère de l'Union européenne (décisions à la majorité, sans droit de veto national).",
+   "en": "Abolish unanimity voting for EU foreign policy."
+  },
+  {
+   "id": "eu5",
+   "area": "eu",
+   "axis": "eu",
+   "key": 1,
+   "fr": "Refuser d'appliquer certaines règles européennes (budgétaires, de concurrence…) lorsque le gouvernement élu les juge contraires à son programme.",
+   "en": "Refuse to apply some EU rules when they block the programme voters chose."
+  },
+  {
+   "id": "eu6",
+   "area": "eu",
+   "axis": "eu",
+   "key": 1,
+   "fr": "La France devrait sortir de l'Union européenne.",
+   "en": "France should leave the European Union."
+  },
+  {
+   "id": "eu7",
+   "area": "eu",
+   "axis": "eu",
+   "key": -1,
+   "fr": "Construire une défense européenne commune (armée européenne, achats d'armement en commun), même si la France perd une partie de son autonomie militaire.",
+   "en": "Build a common European defence (European army, joint arms procurement), even if France loses some military autonomy.",
+   "new": true
+  },
+  {
+   "id": "eu8",
+   "area": "eu",
+   "axis": "eu",
+   "key": -1,
+   "fr": "Poursuivre l'adhésion de l'Ukraine à l'Union européenne.",
+   "en": "Continue Ukraine's accession to the European Union.",
+   "new": true
+  },
+  {
+   "id": "int1",
+   "area": "int",
+   "axis": "none",
+   "key": 0,
+   "fr": "Maintenir une aide militaire importante à l'Ukraine.",
+   "en": "Keep providing substantial military aid to Ukraine."
+  },
+  {
+   "id": "int2",
+   "area": "int",
+   "axis": "none",
+   "key": 0,
+   "fr": "Envoyer des troupes françaises en Ukraine pour garantir un éventuel cessez-le-feu.",
+   "en": "Send French troops to Ukraine to guarantee a possible ceasefire."
+  },
+  {
+   "id": "int3",
+   "area": "int",
+   "axis": "eu",
+   "key": 1,
+   "fr": "Quitter le commandement intégré de l'OTAN.",
+   "en": "Leave NATO's integrated military command."
+  },
+  {
+   "id": "int4",
+   "area": "int",
+   "axis": "none",
+   "key": 0,
+   "fr": "Suspendre l'accord d'association entre l'UE et Israël en raison de la guerre menée à Gaza.",
+   "en": "Suspend the EU-Israel association agreement over the conduct of the Gaza war."
+  },
+  {
+   "id": "int5",
+   "area": "int",
+   "axis": "none",
+   "key": 0,
+   "fr": "Porter le budget de la défense à plus de 3 % du PIB.",
+   "en": "Raise defence spending above 3% of GDP."
+  },
+  {
+   "id": "int6",
+   "area": "int",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Rendre obligatoire pour tous les jeunes un service national, militaire ou civique.",
+   "en": "Reinstate compulsory military or national service."
+  },
+  {
+   "id": "int7",
+   "area": "int",
+   "axis": "none",
+   "key": 0,
+   "fr": "Lever progressivement les sanctions contre la Russie en échange d'un accord de paix en Ukraine.",
+   "en": "Gradually lift sanctions on Russia in exchange for a peace deal in Ukraine."
+  },
+  {
+   "id": "ecol1",
+   "area": "ecol",
+   "axis": "none",
+   "key": 0,
+   "fr": "Supprimer les zones à faibles émissions (ZFE) dans les villes.",
+   "en": "Abolish low-emission zones (ZFE) in cities."
+  },
+  {
+   "id": "ecol2",
+   "area": "ecol",
+   "axis": "none",
+   "key": 0,
+   "fr": "Maintenir en France l'interdiction de pesticides encore autorisés ailleurs en Europe (comme l'acétamipride), même si des concurrents étrangers continuent de les utiliser.",
+   "en": "Ban some pesticides in France even if foreign competitors keep using them."
+  },
+  {
+   "id": "ecol3",
+   "area": "ecol",
+   "axis": "none",
+   "key": 0,
+   "fr": "Maintenir l'objectif européen de 100 % de voitures neuves sans émissions en 2035 (fin des ventes de thermiques neuves), plutôt que l'assouplir.",
+   "en": "Keep the 2035 end of sales of new combustion-engine cars."
+  },
+  {
+   "id": "ecol4",
+   "area": "ecol",
+   "axis": "none",
+   "key": 0,
+   "fr": "Taxer davantage le transport aérien (kérosène, vols courts, jets privés).",
+   "en": "Tax air travel more (kerosene, short flights, private jets)."
+  },
+  {
+   "id": "ecol5",
+   "area": "ecol",
+   "axis": "none",
+   "key": 0,
+   "fr": "En cas de conflit, la lutte contre le changement climatique doit passer avant la croissance économique.",
+   "en": "When they conflict, fighting climate change should come before economic growth."
+  },
+  {
+   "id": "ecol6",
+   "area": "ecol",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Garantir aux agriculteurs des prix minimaux (prix planchers) pour leurs produits.",
+   "en": "Guarantee farmers minimum floor prices for their produce.",
+   "new": true
+  },
+  {
+   "id": "ene1",
+   "area": "ene",
+   "axis": "none",
+   "key": 0,
+   "fr": "Construire de nouveaux réacteurs nucléaires au-delà des six EPR2 déjà engagés, par exemple les huit réacteurs supplémentaires à l'étude.",
+   "en": "Build new nuclear reactors beyond the six EPR2 already planned."
+  },
+  {
+   "id": "ene2",
+   "area": "ene",
+   "axis": "none",
+   "key": 0,
+   "fr": "Sortir progressivement du nucléaire.",
+   "en": "Gradually phase out nuclear power."
+  },
+  {
+   "id": "ene3",
+   "area": "ene",
+   "axis": "none",
+   "key": 0,
+   "fr": "Décréter un moratoire sur l'installation de nouvelles éoliennes, terrestres et en mer.",
+   "en": "Halt the development of new wind turbines."
+  },
+  {
+   "id": "ene4",
+   "area": "ene",
+   "axis": "eu",
+   "key": 1,
+   "fr": "Sortir du marché européen de l'électricité pour fixer les prix au niveau national.",
+   "en": "Leave the European electricity market to set prices nationally."
+  },
+  {
+   "id": "ene5",
+   "area": "ene",
+   "axis": "none",
+   "key": 0,
+   "fr": "Baisser la TVA sur l'électricité, le gaz et les carburants à 5,5 %.",
+   "en": "Cut VAT on electricity, gas and motor fuels to 5.5%.",
+   "new": true
+  },
+  {
+   "id": "ins1",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Changer de constitution pour passer à une VIe République plus parlementaire.",
+   "en": "Adopt a new constitution for a more parliamentary Sixth Republic."
+  },
+  {
+   "id": "ins2",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Élire les députés à la proportionnelle.",
+   "en": "Elect MPs by proportional representation."
+  },
+  {
+   "id": "ins3",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Créer un référendum d'initiative citoyenne (RIC).",
+   "en": "Create a citizens' initiative referendum (RIC)."
+  },
+  {
+   "id": "ins4",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Supprimer ou restreindre fortement l'usage de l'article 49.3.",
+   "en": "Abolish or strongly restrict use of Article 49.3."
+  },
+  {
+   "id": "ins5",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Élargir le champ du référendum pour permettre de consulter directement les Français sur l'immigration ou la justice.",
+   "en": "Widen the scope of referendums to let voters decide directly on immigration or justice."
+  },
+  {
+   "id": "ins6",
+   "area": "ins",
+   "axis": "none",
+   "key": 0,
+   "fr": "Privatiser tout ou partie de l'audiovisuel public (France Télévisions, Radio France).",
+   "en": "Privatise all or part of public broadcasting.",
+   "new": true
+  },
+  {
+   "id": "soc1",
+   "area": "soc",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Maintenir la loi de 2026 qui ouvre, sous conditions strictes, un droit à l'aide à mourir.",
+   "en": "Allow assisted dying under strict conditions.",
+   "recode": true
+  },
+  {
+   "id": "soc2",
+   "area": "soc",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Interdire le port du voile islamique dans l'ensemble de l'espace public.",
+   "en": "Ban the Islamic headscarf in all public spaces."
+  },
+  {
+   "id": "soc3",
+   "area": "soc",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Interdire les signes religieux ostensibles aux parents qui accompagnent les sorties scolaires.",
+   "en": "Ban conspicuous religious symbols for parents accompanying school trips.",
+   "recode": true
+  },
+  {
+   "id": "soc4",
+   "area": "soc",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Ne pas restreindre davantage par la loi l'expression religieuse des citoyens dans l'espace public.",
+   "en": "Secularism should guarantee state neutrality without further restricting citizens' religious expression."
+  },
+  {
+   "id": "soc5",
+   "area": "soc",
+   "axis": "cult",
+   "key": -1,
+   "fr": "Autoriser la gestation pour autrui (GPA) non commerciale, dans un cadre strict.",
+   "en": "Allow regulated, non-commercial surrogacy."
+  },
+  {
+   "id": "soc6",
+   "area": "soc",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Interdire les signes religieux ostensibles à l'université.",
+   "en": "Ban conspicuous religious symbols at university.",
+   "new": true
+  },
+  {
+   "id": "edu1",
+   "area": "edu",
+   "axis": "cult",
+   "key": 1,
+   "fr": "Instaurer l'uniforme ou une tenue commune obligatoire à l'école.",
+   "en": "Make school uniforms mandatory."
+  },
+  {
+   "id": "edu2",
+   "area": "edu",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Recruter beaucoup plus d'enseignants afin de réduire le nombre d'élèves par classe.",
+   "en": "Hire teachers on a large scale to reduce class sizes."
+  },
+  {
+   "id": "edu3",
+   "area": "edu",
+   "axis": "none",
+   "key": 0,
+   "fr": "Rendre obligatoires au collège les groupes de niveau (« groupes de besoins ») en français et en mathématiques.",
+   "en": "Group lower-secondary pupils by ability level in some subjects."
+  },
+  {
+   "id": "edu4",
+   "area": "edu",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Réduire le financement public des écoles privées sous contrat qui ne respectent pas des objectifs de mixité sociale.",
+   "en": "Cut public funding for state-contracted private schools that miss social-mix targets."
+  },
+  {
+   "id": "edu5",
+   "area": "edu",
+   "axis": "none",
+   "key": 0,
+   "fr": "Mettre fin à toute sélection à l'entrée de l'université.",
+   "en": "End all selection for university entry.",
+   "recode": true
+  },
+  {
+   "id": "san1",
+   "area": "san",
+   "axis": "none",
+   "key": 0,
+   "fr": "Obliger les nouveaux médecins à s'installer pendant quelques années dans les zones qui en manquent.",
+   "en": "Require new doctors to practise for a few years in under-served areas."
+  },
+  {
+   "id": "san2",
+   "area": "san",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Augmenter la part des soins laissée à la charge des patients (franchises et forfaits).",
+   "en": "Increase patient co-payments to control health spending."
+  },
+  {
+   "id": "san3",
+   "area": "san",
+   "axis": "econ",
+   "key": -1,
+   "fr": "Encadrer les loyers dans toutes les zones où le logement est rare.",
+   "en": "Cap rents in all areas with housing shortages."
+  },
+  {
+   "id": "san4",
+   "area": "san",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Ouvrir davantage les services publics (transports, énergie) à la concurrence.",
+   "en": "Open public services (transport, energy) further to competition."
+  },
+  {
+   "id": "san5",
+   "area": "san",
+   "axis": "econ",
+   "key": 1,
+   "fr": "Assouplir les normes de construction et l'objectif « zéro artificialisation nette » (ZAN) pour construire davantage de logements.",
+   "en": "Loosen building rules and the zero-net-land-take target to build more housing.",
+   "new": true
+  }
+ ]
+}

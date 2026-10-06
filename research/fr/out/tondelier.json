@@ -1,0 +1,438 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Le programme commun du NFP de juin 2024, que Tondelier a cofondé et porté pour Les Écologistes, prévoit le rétablissement de l'ISF assorti d'une composante climatique.",
+   "nuance": "Il s'agit du programme de la coalition de 2024. Aucun texte de campagne de Tondelier pour 2026 ni citation personnelle n'a été trouvé, et les recherches sur le web étaient épuisées lors de la vérification."
+  },
+  {
+   "id": "eco2",
+   "summary": "La taxe minimale de 2 % sur les très grandes fortunes est née d'une proposition de loi déposée par des députés du groupe Écologiste (Eva Sas, Clémentine Autain). L'Assemblée nationale l'a adoptée le 20 février 2025. Les Écologistes soutiennent sa mise en œuvre.",
+   "nuance": "Il s'agit de la proposition de loi du groupe de son propre parti. Elle n'est pas députée : il n'y a donc pas de vote personnel, et aucune citation personnelle n'a été retrouvée. L'Assemblée a rejeté l'amendement Zucman au budget 2026 le 31 octobre 2025."
+  },
+  {
+   "id": "eco3",
+   "summary": "Les Verts s'opposent en général aux baisses non ciblées des cotisations patronales et préfèrent des aides conditionnées. Aucun élément propre à Tondelier n'a été trouvé.",
+   "nuance": "Le politologue B. Villalba (2012, cité sur la page Wikipédia du parti) relève que les membres du parti divergent sur la baisse des cotisations patronales. Codé à partir de cette inférence, donc avec un faible niveau de confiance."
+  },
+  {
+   "id": "eco4",
+   "summary": "Le programme du NFP appelle à un « protectionnisme social et écologique » aux frontières de l'UE, à l'interdiction des importations qui ne respectent pas les normes sociales et environnementales, et au rejet du Mercosur et du CETA.",
+   "nuance": "Soutien partiel : la protection est de niveau européen et liée à des normes. Il ne s'agit ni de droits de douane ni de quotas sectoriels propres à la France. Programme de 2024."
+  },
+  {
+   "id": "eco5",
+   "summary": "Le programme du NFP refuse la privatisation des barrages hydroélectriques. La renationalisation complète de l'énergie ou des autoroutes n'est pas explicite dans le résumé du programme.",
+   "nuance": "Partiel : il s'agit d'un contrôle public sur certains actifs stratégiques. Le volet autoroutier est un moratoire sur les nouveaux projets autoroutiers et ne prévoit pas de reprise des concessions. Non vérifié pour 2026."
+  },
+  {
+   "id": "eco6",
+   "summary": "Le programme du NFP prévoit de réformer les droits de succession et de créer un « héritage maximum », ce qui est l'inverse d'une baisse.",
+   "nuance": "Programme de la coalition de 2024. Le sens de la « réforme » est fixé par le plafonnement de l'héritage maximum."
+  },
+  {
+   "id": "ret1",
+   "summary": "Le programme du NFP prévoit d'abroger la réforme de 2023 et de revenir à la retraite à 60 ans. Les Écologistes ont combattu la réforme Borne, et Tondelier a qualifié l'Assemblée de « ZAD démocratique » contre celle-ci.",
+   "nuance": "L'âge cible est de 60 ans, soit moins de 62 ans, ce qui correspond à l'énoncé. Programme de 2024. Sa formulation de campagne pour 2026 n'a pas été vérifiée."
+  },
+  {
+   "id": "ret2",
+   "summary": "Elle s'est opposée au relèvement à 64 ans de 2023, et le programme du NFP veut revenir à 60 ans ; elle s'oppose donc à un relèvement de l'âge au-delà de 64 ans.",
+   "nuance": "Découle directement de ret1."
+  },
+  {
+   "id": "ret3",
+   "summary": "Les Verts défendent le système par répartition ; une capitalisation obligatoire est donc peu probable.",
+   "nuance": "Inféré. Aucune déclaration explicite trouvée, et les recherches étaient épuisées."
+  },
+  {
+   "id": "fin1",
+   "summary": "Le programme du NFP refuse les règles européennes d'austérité budgétaire et privilégie de nouvelles recettes plutôt que des coupes. Cela exclut de faire de l'objectif de 3 % une priorité au prix de coupes importantes.",
+   "nuance": "Aucune déclaration propre à Tondelier sur l'objectif de 3 % n'a été retrouvée. Codé -2 parce que l'énoncé porte sur de fortes réductions de dépenses, que le programme rejette explicitement."
+  },
+  {
+   "id": "fin2",
+   "summary": "Le programme du NFP rétablit les postes supprimés dans le service public (ONF, OFB, Météo-France, Cerema) et augmente les effectifs de police, ce qui est l'inverse d'une réduction du nombre de fonctionnaires.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "fin3",
+   "summary": "Les Verts sont favorables à l'investissement pour la transition écologique, en partie financé par la dette (une « règle verte » européenne et l'emprunt commun de l'UE), tout en insistant aussi sur de nouveaux impôts.",
+   "nuance": "Codé +1 et non +2 parce que l'accent du financement est mis sur la taxation des plus riches. Aucune acceptation explicite d'un surcroît de dette nationale n'a été retrouvée."
+  },
+  {
+   "id": "fin4",
+   "summary": "Les Verts s'opposent probablement à une règle d'or constitutionnelle sur le déficit, puisqu'ils rejettent les règles d'austérité.",
+   "nuance": "Inféré du « refus des règles d'austérité budgétaire » du NFP. Aucune déclaration directe retrouvée."
+  },
+  {
+   "id": "trav1",
+   "summary": "Le programme du NFP relève le SMIC (1 600 euros nets, bien au-dessus de l'inflation) et indexe les salaires sur l'inflation.",
+   "nuance": "Le chiffre de 1 600 euros provient du titre du Monde cité sur la page (« ISF climatique et smic à 1 600 euros net »). Programme de 2024, non confirmé pour 2026."
+  },
+  {
+   "id": "trav2",
+   "summary": "Le parti s'est opposé aux réformes de l'assurance chômage qui réduisent les allocations.",
+   "nuance": "Ligne du parti, non vérifiée lors de cette session."
+  },
+  {
+   "id": "trav3",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "trav4",
+   "summary": "Le parti est historiquement favorable à un passage vers les 32 heures. Le programme du NFP s'engage seulement à étudier les 32 heures.",
+   "nuance": "+1 parce que l'engagement de 2024 se limite à une étude. La position personnelle de Tondelier en 2026 n'a pas été confirmée."
+  },
+  {
+   "id": "imm1",
+   "summary": "Le programme du NFP abroge la loi sur l'immigration de 2024, crée une voie d'immigration légale et sûre et fait de la carte de séjour de 10 ans le titre de séjour de droit commun, ce qui est l'inverse d'une forte réduction de l'immigration légale.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "imm2",
+   "summary": "S'oppose à un référendum sur l'immigration.",
+   "nuance": "Inféré de son opposition aux propositions de référendum de la droite. Aucune citation directe retrouvée."
+  },
+  {
+   "id": "imm3",
+   "summary": "Le programme du NFP garantit l'accès à l'AME, ce qui est l'inverse de la limiter aux soins urgents.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le programme du NFP régularise les travailleurs sans papiers, les étudiants et les parents d'enfants scolarisés, ce qui va au-delà des métiers en tension.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "imm5",
+   "summary": "S'oppose à la préférence nationale.",
+   "nuance": "Ligne du parti. Tondelier s'est fait connaître en s'opposant au RN à Hénin-Beaumont. Aucune citation directe retrouvée."
+  },
+  {
+   "id": "imm6",
+   "summary": "S'oppose à l'abolition du droit du sol.",
+   "nuance": "Ligne du parti. Aucune citation directe retrouvée."
+  },
+  {
+   "id": "imm7",
+   "summary": "Le droit de vote aux élections locales pour les résidents étrangers est une position ancienne des Écologistes.",
+   "nuance": "Position du parti. Non retrouvée dans les documents de campagne de Tondelier pour 2026."
+  },
+  {
+   "id": "sec1",
+   "summary": "S'oppose aux peines planchers.",
+   "nuance": "Ligne du parti. Non vérifiée lors de cette session."
+  },
+  {
+   "id": "sec2",
+   "summary": "Les Verts se sont opposés à la loi Attal de 2025, qui durcit la justice des mineurs et limite l'« excuse de minorité » pour les crimes graves.",
+   "nuance": "Le scrutin public du groupe n'a pas été retrouvé. Probablement -2 si une source est trouvée ; maintenu à -1 faute d'éléments."
+  },
+  {
+   "id": "sec3",
+   "summary": "Le programme du NFP remplace l'IGPN et l'IGGN par un nouvel organisme indépendant rattaché au Défenseur des droits. Le parti souhaite aussi que les affaires de violences policières soient traitées par une institution indépendante.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "sec4",
+   "summary": "Le programme des Écologistes comprend la légalisation des drogues douces avec régulation et taxation. Le manifeste 2024 des Verts européens soutient la légalisation du cannabis pour les adultes dans un cadre réglementé.",
+   "nuance": "Ligne du parti. Aucune citation personnelle de Tondelier pour 2025-2026 retrouvée. Wikipédia emploie ailleurs la formule plus nuancée « plutôt favorable », mais les points du programme sont explicites."
+  },
+  {
+   "id": "sec5",
+   "summary": "Le programme du NFP interdit la reconnaissance faciale et place la vidéosurveillance sous l'évaluation du Défenseur des droits. Les Verts européens demandent l'interdiction de la surveillance biométrique de masse et de la police prédictive fondée sur l'IA.",
+   "nuance": "Programme de 2024."
+  },
+  {
+   "id": "eu1",
+   "summary": "Les Écologistes sont un parti eurofédéraliste, ce qui est incompatible avec la primauté du droit français sur le droit de l'UE.",
+   "nuance": "Identité du parti. Aucune citation directe de Tondelier sur la primauté du droit."
+  },
+  {
+   "id": "eu2",
+   "summary": "Le manifeste 2024 des Verts européens, sur lequel Les Écologistes ont fait campagne, veut un fonds de l'UE pour la transition écologique financé principalement par un emprunt commun de l'UE.",
+   "nuance": "La source porte sur le climat et l'industrie. L'emprunt pour la défense n'a pas été explicitement vérifié. Aucune citation personnelle de Tondelier retrouvée."
+  },
+  {
+   "id": "eu3",
+   "summary": "Les Écologistes, à travers le manifeste 2024 des Verts européens et le programme du NFP, veulent un budget de l'UE nettement plus important, financé par des ressources propres. C'est l'inverse d'une baisse de la contribution de la France.",
+   "nuance": "Ligne du parti, 2024. Un financement par ressources propres pourrait en théorie réduire les contributions nationales, mais l'objectif principal est un budget plus important."
+  },
+  {
+   "id": "eu4",
+   "summary": "Le manifeste 2024 des Verts européens (liste des Écologistes) affirme que l'unanimité bloque la politique étrangère de l'UE et soutient la fin des vetos nationaux. Le parti est eurofédéraliste.",
+   "nuance": "Explicite au niveau des Verts européens en 2024. Aucune citation personnelle de Tondelier retrouvée."
+  },
+  {
+   "id": "eu5",
+   "summary": "Les Écologistes sont un parti eurofédéraliste qui veut que les règles budgétaires de l'UE soient réformées au niveau de l'UE. La formule du NFP « refus des règles d'austérité budgétaire » rejette les règles d'austérité sans s'engager à une non-application unilatérale.",
+   "nuance": "La formulation du NFP laisse une part d'ambiguïté, ce qui explique -1 et non -2. Aucune déclaration de Tondelier pour 2025-2026 sur la « désobéissance » n'a été retrouvée."
+  },
+  {
+   "id": "eu6",
+   "summary": "Les Écologistes sont eurofédéralistes et résolument opposés à une sortie de l'UE.",
+   "nuance": "Non controversé."
+  },
+  {
+   "id": "int1",
+   "summary": "La doctrine internationale de sa campagne (février 2026) affirme que l'Ukraine doit être soutenue « sans relâche » sur le plan militaire, les avoirs russes saisis finançant l'aide militaire ; le groupe de son parti a voté en faveur de la résolution de l'Assemblée nationale de mars 2025 renforçant le soutien à l'Ukraine.",
+   "nuance": "Position forte et constante ; elle la distingue de celle de LFI et de Mélenchon."
+  },
+  {
+   "id": "int2",
+   "summary": "La doctrine appelle à des garanties de sécurité durables pour l'Ukraine, y compris le déploiement de troupes européennes à ses frontières ou sur son territoire dans une posture de dissuasion.",
+   "nuance": "Présentées comme des troupes européennes (et non spécifiquement françaises), possiblement aux frontières de l'Ukraine plutôt qu'à l'intérieur, d'où un codage +1 et non +2. Le programme du NFP de 2024 qu'elle a signé ne précisait pas l'envoi de troupes terrestres françaises."
+  },
+  {
+   "id": "int3",
+   "summary": "La doctrine ne propose pas de quitter le commandement intégré de l'OTAN ; elle veut placer le pilier européen de l'OTAN sous commandement européen et réaffirme le soutien mutuel, tout en construisant un commandement intégré européen autonome.",
+   "nuance": "Réforme de l'intérieur et autonomie européenne (« Nous refusons toute vassalisation militaire ») ; aucun appel à une sortie de la France, d'où une opposition modérée à l'énoncé."
+  },
+  {
+   "id": "int4",
+   "summary": "Elle a appelé à suspendre l'accord d'association UE-Israël et à interdire les importations issues des colonies ; sa doctrine qualifie Gaza de génocide et demande des sanctions contre les dirigeants israéliens.",
+   "nuance": "L'appel direct à la suspension provient d'une source secondaire (Wikipédia citant The Times / Brussels Signal) ; le texte de la doctrine, source primaire, appelle à des sanctions mais ne nomme pas l'accord d'association."
+  },
+  {
+   "id": "int5",
+   "summary": "Aucun chiffre de dépenses de défense en % du PIB trouvé.",
+   "nuance": "La doctrine privilégie des dépenses de défense européennes mutualisées et juge la massification des forces françaises ni possible ni pertinente à court terme, mais ne fixe aucun objectif en % du PIB."
+  },
+  {
+   "id": "int6",
+   "summary": "Le programme du NFP de 2024 (cosigné par Les Écologistes) appelait à mettre fin au Service national universel ; aucun appel à un service obligatoire dans sa doctrine de 2026.",
+   "nuance": "La doctrine privilégie une formation à la résilience civile sans la rendre obligatoire. Aucune déclaration personnelle de sa part n'a été trouvée."
+  },
+  {
+   "id": "int7",
+   "summary": "La doctrine voit dans la défaite de la Russie le seul moyen de mettre fin à son réflexe impérial, veut que l'Ukraine fixe les conditions de la négociation et veut que les avoirs russes soient saisis. Rien sur un allègement des sanctions en échange d'un accord.",
+   "nuance": "Inféré : aucune position explicite sur la levée des sanctions en échange de la paix n'a été trouvée, d'où un codage -1 et non -2."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Le groupe Écologiste a voté à l'unanimité contre la suppression des ZFE (mai 2025) et contre leur caractère facultatif (avril 2026).",
+   "nuance": "Il s'agit de votes de groupe, Tondelier n'étant pas députée, et ils sont cohérents avec le livret de sa campagne sur la qualité de l'air."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le livret de campagne prévoit la sortie progressive des pesticides de synthèse d'ici 2050 ; le groupe Écologiste a voté à l'unanimité contre la réautorisation de l'acétamipride (juillet 2026), qui reste autorisé ailleurs dans l'UE.",
+   "nuance": "Le vote sur l'acétamipride montre un soutien à une interdiction française, même si des concurrents ailleurs dans l'UE continuent d'utiliser le produit."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Les Écologistes soutiennent la fin de la vente de voitures neuves thermiques en 2035 ; sa campagne promeut les véhicules électriques. Non vérifié en direct dans une source de 2025-2026.",
+   "nuance": "Non vérifié : le budget de recherche web était épuisé et aucun texte primaire n'a été trouvé dans les PDF de campagne consultés. Ligne du parti plausible, à prendre avec prudence."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le plan de crise des Écologistes de septembre 2025 prévoit de renforcer progressivement la fiscalité du transport aérien, une taxe sur le kérosène des vols intérieurs à partir de 2026 et une taxe sur les grands voyageurs fréquents.",
+   "nuance": "Les jets privés ne sont pas mentionnés dans le document consulté ; la mesure exclut les territoires d'outre-mer et la Corse."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Elle juge le capitalisme incompatible avec les limites planétaires et défend une économie sociale et solidaire, ce qui suggère que le climat prime sur la croissance.",
+   "nuance": "Inféré : aucune déclaration explicite sur l'arbitrage entre croissance et climat n'a été trouvée."
+  },
+  {
+   "id": "ene1",
+   "summary": "Le plan de son parti suppose une fermeture progressive des centrales nucléaires et consacre des moyens massifs aux énergies renouvelables ; elle défend la position antinucléaire historique du mouvement.",
+   "nuance": "Aucun texte explicite sur l'EPR2 trouvé, mais une position de sortie est incompatible avec la construction au-delà des six réacteurs prévus."
+  },
+  {
+   "id": "ene2",
+   "summary": "Le plan de son parti de septembre 2025 prévoit une fermeture progressive des centrales nucléaires ; elle défend la position antinucléaire historique et a proposé une convention citoyenne sur le nucléaire (2023).",
+   "nuance": "Aucune date précise de sortie n'a été trouvée dans les textes de 2025-2026 consultés. Le programme du NFP de 2024 a laissé le nucléaire de côté comme point de désaccord."
+  },
+  {
+   "id": "ene3",
+   "summary": "Le plan du parti prévoit des investissements massifs dans les renouvelables, et le NFP de 2024 soutenait l'éolien en mer ; l'arrêt du développement de l'éolien est contraire à cette orientation.",
+   "nuance": "L'éolien n'est pas nommé spécifiquement dans le plan de 2025 ; le programme du NFP de 2024 soutenait explicitement l'éolien en mer."
+  },
+  {
+   "id": "ene4",
+   "summary": "Sa campagne veut réduire les factures en découplant le prix de l'électricité de celui du gaz, une réforme du marché plutôt qu'une sortie, dans le cadre d'une doctrine fédéraliste européenne.",
+   "nuance": "Inféré : aucune déclaration explicite sur une sortie du marché européen de l'électricité n'a été trouvée."
+  },
+  {
+   "id": "ins1",
+   "summary": "Le plan de 2025 de son parti veut une convention citoyenne sur une VIe République et un véritable régime parlementaire ; elle a appelé en février 2025 à un référendum sur une assemblée constituante ; le NFP de 2024 promettait une assemblée constituante pour une VIe République.",
+   "nuance": "Elle propose un processus (convention ou assemblée constituante) sans texte constitutionnel arrêté."
+  },
+  {
+   "id": "ins2",
+   "summary": "Le plan de 2025 de son parti réclame la proportionnelle pour les prochaines élections législatives ; le NFP de 2024 promettait la proportionnelle intégrale.",
+   "nuance": ""
+  },
+  {
+   "id": "ins3",
+   "summary": "Le parti est favorable à une démocratie plus directe et participative (NFP 2024 : promotion de la démocratie directe) ; aucun engagement explicite de sa part en faveur du RIC n'a été vérifié.",
+   "nuance": "Non vérifié pour le RIC en particulier. Sa proposition de référendum de 2025 est un référendum d'initiative gouvernementale sur trois questions, et non un RIC."
+  },
+  {
+   "id": "ins4",
+   "summary": "Le NFP de 2024 (cosigné) promettait d'abroger l'article 49.3 ; le plan de 2025 de son parti réclame un Premier ministre engagé à gouverner sans 49.3 et lui impute le blocage majoritaire.",
+   "nuance": "L'abrogation figure dans le programme de la coalition de 2024 ; le texte du parti de 2025 demande le non-usage plutôt que l'abrogation."
+  },
+  {
+   "id": "ins5",
+   "summary": "Aucune position sur l'élargissement des référendums à l'immigration ou à la justice trouvée ; ses propositions de référendum portent sur les retraites, la justice fiscale et les territoires.",
+   "nuance": "Inféré de l'opposition de la gauche aux référendums sur l'immigration de type RN ; non vérifié."
+  },
+  {
+   "id": "soc1",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "soc2",
+   "summary": "Les Écologistes s'opposent à l'interdiction du voile dans l'espace public ; non vérifié en direct.",
+   "nuance": "Non vérifié (budget de recherche épuisé) ; le codage fort repose uniquement sur la ligne bien connue du parti."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "soc4",
+   "summary": "Cohérent avec la position du parti sur la laïcité comme neutralité de l'État ; non vérifié.",
+   "nuance": "Non vérifié."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Une brève vérification des pages de campagne et de Wikipédia n'a rien donné sur la GPA ; son livret sur la santé reproductive n'a pas été examiné en entier."
+  },
+  {
+   "id": "edu1",
+   "summary": "Son dossier éducation de 2026 présente l'uniforme scolaire du RN comme un choix que les Écologistes rejettent au profit d'une école émancipatrice.",
+   "nuance": "Le rejet est implicite, par contraste avec le RN, sans engagement explicite de s'opposer aux uniformes."
+  },
+  {
+   "id": "edu2",
+   "summary": "Son dossier éducation de 2026 s'engage à recruter des enseignants et à ramener les classes de primaire à 19 élèves d'ici 2032 (12 en REP/REP+).",
+   "nuance": ""
+  },
+  {
+   "id": "edu3",
+   "summary": "Son dossier éducation de 2026 s'engage à abroger les groupes de niveau du « choc des savoirs » en 6e et 5e, qu'il qualifie de tri social.",
+   "nuance": ""
+  },
+  {
+   "id": "edu4",
+   "summary": "Son dossier éducation de 2026 propose de ramener le financement public des établissements privés à 50 % et de le conditionner à des obligations de mixité sociale et d'inclusion.",
+   "nuance": ""
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "san1",
+   "summary": "Le plan de 2025 de son parti soutient le dispositif d'autorisation d'installation des médecins adopté par l'Assemblée ; le NFP de 2024 promettait des obligations d'installation dans les déserts médicaux.",
+   "nuance": "Elle soutient la régulation du lieu d'installation des médecins, et non une affectation obligatoire de plusieurs années pour les nouveaux médecins, d'où un codage +1."
+  },
+  {
+   "id": "san2",
+   "summary": "Le plan de 2025 de son parti soutient la suppression du ticket modérateur majoré pour les patients sans médecin traitant ; le NFP de 2024 visait un reste à charge nul.",
+   "nuance": "Aucun texte portant spécifiquement sur les franchises médicales n'a été trouvé ; l'orientation contre une hausse de la participation des patients est claire."
+  },
+  {
+   "id": "san3",
+   "summary": "Son « bouclier social » de campagne de septembre 2026 s'engage à généraliser, améliorer et pérenniser l'encadrement des loyers.",
+   "nuance": ""
+  },
+  {
+   "id": "san4",
+   "summary": "Le NFP de 2024 (cosigné) refusait la privatisation des barrages hydroélectriques ; sa campagne présente les services publics comme devant être réparés, et non soumis à davantage de concurrence.",
+   "nuance": "Aucune déclaration de 2025-2026 sur la concurrence dans le ferroviaire ou l'énergie n'a été trouvée. Codé -1 parce que le seul élément disponible est le point sur les barrages hydroélectriques ; les Verts européens ne se sont pas opposés frontalement à l'ouverture du rail."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch (200/200) était épuisé avant l'exécution de toute requête, lors de la passe de codage comme lors de cette passe de vérification. Non codé."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Très probablement codable (le programme du NFP de 2024 signé par Les Écologistes incluait, selon les informations disponibles, des récépissés de contrôle d'identité), mais cela n'a pas été vérifié ; la valeur reste donc nulle."
+  },
+  {
+   "id": "eu7",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "eu8",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Probablement codable (les prix planchers figuraient dans le NFP de 2024), mais cela n'a pas été vérifié ; la valeur reste donc nulle."
+  },
+  {
+   "id": "ene5",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  },
+  {
+   "id": "san5",
+   "summary": "Aucun élément recueilli.",
+   "nuance": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+  }
+ ],
+ "record": {
+  "bio": "Marine Tondelier (née le 23 août 1986 à Bois-Bernard, dans le Pas-de-Calais) est secrétaire nationale des Écologistes (anciennement EELV) depuis décembre 2022 et a été réélue en avril 2025. Elle a été formée à Sciences Po Lille et a été déléguée générale de la fédération de la qualité de l'air Atmo France (2017-2022). Elle a siégé comme conseillère municipale d'opposition à Hénin-Beaumont de 2014 à mars 2026, date à laquelle sa liste est arrivée deuxième (18,22 %) derrière le maire sortant RN, et elle est conseillère régionale des Hauts-de-France depuis 2021. Elle a annoncé sa candidature à l'élection présidentielle de 2027 le 22 octobre 2025 et a été désignée par son parti le 8 décembre 2025.",
+  "offices": [
+   "Conseillère municipale (opposition), Hénin-Beaumont",
+   "Conseillère communautaire, Communauté d'agglomération Hénin-Carvin",
+   "Conseillère régionale, Hauts-de-France (Pas-de-Calais)",
+   "Secrétaire nationale, EELV / Les Écologistes"
+  ],
+  "legal": [
+   "Poursuite en diffamation engagée par le maire d'Hénin-Beaumont Steeve Briois et par Bruno Bilde (RN) à propos de son livre de 2017 « Nouvelles du Front » ; elle était la prévenue. Le tribunal correctionnel de Paris a jugé certains propos diffamatoires mais l'a relaxée au bénéfice de la bonne foi. Aucun appel n'a été trouvé dans les sources consultées."
+  ],
+  "reversals": [
+   {
+    "topic": "Départ du réseau social X",
+    "before": "Le 18 novembre 2024, elle a qualifié X de « catalyseur de haine » et plaidé pour sa régulation ou sa fermeture. Le 12 janvier 2025, elle a exhorté la gauche à quitter la plateforme.",
+    "after": "Le 19 janvier 2025, elle a déclaré qu'aucun départ collectif n'avait eu lieu et qu'elle resterait sur X pour défendre l'écologie sur un « terrain hostile »."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "A dirigé le parti en tant que secrétaire nationale et a été réélue dès le premier tour avec 72,64 % le 19 avril 2025. Elle n'a jamais exercé de fonction exécutive nationale ou locale ; elle n'a donc pas de bilan ministériel ou exécutif.",
+    "assessment": "Son bilan se limite à la direction du parti. Parmi ses détracteurs au sein du parti figure Sandrine Rousseau, qui a accusé en septembre 2025 son entourage de « réflexes d'appareil » (l'Opinion, 17 septembre 2025 ; Challenges, 20 septembre 2025), ainsi qu'une tribune de plus de 500 adhérents (janvier 2026) contre sa stratégie d'alliances municipales, à la suite de laquelle le parti a suspendu les signataires qui ne l'ont pas retirée. Cela provient d'une seule source secondaire (Wikipédia) et n'a pas été corroboré directement."
+   },
+   {
+    "what": "A été une voix médiatique de premier plan du Nouveau Front populaire pendant la campagne des législatives de 2024 et a figuré dans la liste « 100 Next » du Time en 2024.",
+    "assessment": "Cela a accru sa notoriété nationale. L'appréciation repose sur une seule source."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non vérifié : aucun média de gauche n'a pu être lu.",
+   "right_media": "Non vérifié : aucun média de droite n'a pu être lu.",
+   "neutral_media": "Non vérifié directement. Un résumé fondé sur Wikipédia indique que le Time (100 Next, 2024) l'a présentée comme une bâtisseuse de la coalition de gauche."
+  }
+ }
+}

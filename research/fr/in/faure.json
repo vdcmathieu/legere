@@ -1,0 +1,440 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "The PS signed the June 2024 Nouveau Front populaire programme, which commits to reintroducing the ISF abolished in 2017. Nothing personal and recent from Faure was found.",
+   "nuance": "This is a 2024 party-line commitment and may be out of date. Since 2025 the PS has put the Zucman tax first. No sign was found that it has dropped ISF restoration."
+  },
+  {
+   "id": "eco2",
+   "summary": "The PS 2026 budget counter-proposals included implementing the Zucman tax, and the whole left backed it in 2025.",
+   "nuance": "This is the party position. No personal Faure quote could be retrieved because the search budget was used up. The PS's later 'Zucman light' variants were not checked."
+  },
+  {
+   "id": "eco3",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up, so this could only be checked against fetched pages. Not verified."
+  },
+  {
+   "id": "eco4",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eco5",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. The NFP page fetched does not mention nationalisation."
+  },
+  {
+   "id": "eco6",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "ret1",
+   "summary": "Faure negotiated with Lecornu to delay the 2023 reform, freezing the legal age at 62 years 9 months until January 2028. It was voted on 12 Nov 2025. The 2024 NFP programme the PS signed backs a retirement age of 60.",
+   "nuance": "His own action was a partial step: a freeze above 62, not a return to 62. The party line (2024) goes further, to 60. No personal 2026 statement on a full return to 62 was found."
+  },
+  {
+   "id": "ret2",
+   "summary": "He negotiated the suspension of the 64 reform, and the party line backs 60. Both are clearly against raising the age above 64.",
+   "nuance": "No direct quote on 'above 64' was found. The code rests on the freeze he negotiated plus the party line."
+  },
+  {
+   "id": "ret3",
+   "summary": "No direct position found on mandatory capitalisation. His campaign book proposes making AI companies contribute to fund pensions, which points towards financing pay-as-you-go pensions.",
+   "nuance": "Left null because it would only be inferred. The PS has historically opposed mandatory capitalisation, but that was not verified."
+  },
+  {
+   "id": "fin1",
+   "summary": "The 2024 NFP programme the PS signed rejects the deficit rules. That points against making the 3% target a priority at the cost of large cuts.",
+   "nuance": "This is a 2024 party line. In the 2025 budget negotiations the PS accepted a deficit-reduction path (not verified here), so -1 rather than -2."
+  },
+  {
+   "id": "fin2",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "fin3",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. The NFP rejection of deficit rules is close to this statement but not explicit, so left null."
+  },
+  {
+   "id": "fin4",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "trav1",
+   "summary": "His campaign book 'La loi du plus juste' (17 Sept 2026) proposes raising the SMIC to EUR 1,700 and tying corporate aid to wage increases. The 2024 NFP programme the PS signed promised a 14% rise in the minimum wage.",
+   "nuance": "The only source is secondary. The +2 assumes EUR 1,700 is net, which would be a large rise above inflation. If it were gross, it would be below the current gross SMIC. Net or gross was not confirmed."
+  },
+  {
+   "id": "trav2",
+   "summary": "The 2024 NFP programme the PS signed commits to reversing the unemployment-benefit reform.",
+   "nuance": "This is a 2024 party line and nothing personal and recent from Faure was found."
+  },
+  {
+   "id": "trav3",
+   "summary": "The PS project commits to rebuilding the RSA to guarantee it is unconditional and automatic. That amounts to abolishing the 15-20 h activity conditionality now in force.",
+   "nuance": "This is the party's project, adopted under Faure as First Secretary, and not a personal Faure 2027 programme. The text does not name the 15-20 h rule explicitly, but promising unconditionality is incompatible with keeping it. The confidence is medium because there is no personal statement from Faure."
+  },
+  {
+   "id": "trav4",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. The NFP and Faure pages fetched do not mention 32 hours."
+  },
+  {
+   "id": "imm1",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "imm2",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "imm3",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "imm4",
+   "summary": "His campaign book (Sept 2026) proposes regularising 400,000 undocumented workers.",
+   "nuance": "The proposal is broader than labour-shortage occupations, so it fully covers the statement. The only source is secondary."
+  },
+  {
+   "id": "imm5",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "imm6",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "imm7",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "sec1",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "sec2",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "sec3",
+   "summary": "No position on independent police oversight was found. In Sept 2026 he criticised 'contrôles au faciès' in the police. In 2021 he had asked for police to have a 'droit de regard' on court decisions, then called the phrase 'malheureuse'.",
+   "nuance": "His criticism of discriminatory police checks is close to this statement but does not state a position on an independent oversight body. Left null."
+  },
+  {
+   "id": "sec4",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "sec5",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu1",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu2",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu3",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu4",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu5",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "eu6",
+   "summary": "No evidence found.",
+   "nuance": "Web search budget used up. Not verified."
+  },
+  {
+   "id": "int1",
+   "summary": "Faure personally voted for the 12 March 2025 European resolution calling for stronger support to Ukraine (incl. using Russian assets to fund military aid), and for the March 2024 government declaration on Ukraine aid strategy.",
+   "nuance": "Own votes; no 2026 statement retrieved (web search budget exhausted)."
+  },
+  {
+   "id": "int2",
+   "summary": "PS open to a French reassurance contingent after a ceasefire under conditions.",
+   "nuance": "Conditional on ceasefire and parliamentary debate; not verified live."
+  },
+  {
+   "id": "int3",
+   "summary": "No Faure statement on leaving NATO's integrated command found; the PS group voted for Sweden/Finland NATO accession (2022), and leaving NATO was an LFI demand PS cadres objected to in the 2022 NUPES deal.",
+   "nuance": "Faure himself negotiated the 2022 NUPES accord; the objection to NATO exit came from PS cadres, not Faure. Integrated command specifically not addressed. Inferred from pro-NATO group votes."
+  },
+  {
+   "id": "int4",
+   "summary": "PS called for suspending the EU-Israel association agreement.",
+   "nuance": "Not verified live; no source retrieved."
+  },
+  {
+   "id": "int5",
+   "summary": "PS supports higher defence spending; a >3% GDP threshold is unconfirmed.",
+   "nuance": "Likely supports increase, exact threshold unknown."
+  },
+  {
+   "id": "int6",
+   "summary": "PS favours voluntary service rather than compulsory.",
+   "nuance": "Not verified live."
+  },
+  {
+   "id": "int7",
+   "summary": "PS opposes easing sanctions on Russia as a concession; the 2025 resolution Faure voted for called for seizing Russian assets.",
+   "nuance": "Not verified live beyond the adjacent 2025 vote (see int1)."
+  },
+  {
+   "id": "ecol1",
+   "summary": "PS group voted against abolishing ZFE (28 May 2025) and in April 2026 backed the government amendment to keep ZFE in existence (as optional) rather than abolish them.",
+   "nuance": "Group votes; Faure not listed individually on either vote. Willingness to make ZFE optional shows a softened defence, but consistent opposition to abolition."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Faure voted against the Duplomb law (July 2025) and against reauthorising acetamiprid in the July 2026 agricultural emergency law.",
+   "nuance": "Own votes; the acetamiprid ban persists although other EU states allow it, matching the statement's wording."
+  },
+  {
+   "id": "ecol3",
+   "summary": "PS broadly supports the 2035 target, with calls for social support.",
+   "nuance": "Possible flexibility on hybrids not checked."
+  },
+  {
+   "id": "ecol4",
+   "summary": "PS favours taxing private jets and kerosene.",
+   "nuance": "Not verified live."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Ecological priority is part of PS framing, softened by social justice emphasis.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "ene1",
+   "summary": "Faure voted against the March 2023 nuclear acceleration law (procedures for building new reactors, target of six EPR); no 2025-26 statement backing reactors beyond six EPR2 found.",
+   "nuance": "Older (2023) vote; PS opposition may have been partly procedural. Current position unverified."
+  },
+  {
+   "id": "ene2",
+   "summary": "No clear current Faure position on phasing out nuclear found; evidence is conflicting.",
+   "nuance": "Draft's Wikipedia citation misattributed: the 2022 objection to dismantling EPR projects came from PS cadres criticising Faure's NUPES deal, not from Faure. Faure also voted against the 2023 nuclear acceleration law."
+  },
+  {
+   "id": "ene3",
+   "summary": "PS supports renewables development, including wind.",
+   "nuance": "Not verified live."
+  },
+  {
+   "id": "ene4",
+   "summary": "PS wants reform of the EU market, not exit.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "ins1",
+   "summary": "Faure sympathetic to institutional renewal and more parliamentary balance.",
+   "nuance": "Exact wording of VIe République commitment unverified."
+  },
+  {
+   "id": "ins2",
+   "summary": "PS supports proportional representation.",
+   "nuance": "Full vs dose of PR unverified."
+  },
+  {
+   "id": "ins3",
+   "summary": "PS supports expanded citizen referendum mechanisms.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "ins4",
+   "summary": "PS has historically criticised 49.3, but Faure accepted in January 2026 that the government use 49.3 to pass the budget.",
+   "nuance": "Pragmatic acceptance in 2026 undercuts a strong +2; any programme commitment to abolish 49.3 unverified."
+  },
+  {
+   "id": "ins5",
+   "summary": "PS wary of referendums on immigration or justice.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "soc1",
+   "summary": "Faure personally voted for the bill creating a right to assisted dying, at first reading on 27 May 2025 and at final adoption on 15 July 2026.",
+   "nuance": "Two consistent personal votes in favour, so he would keep the law. No statement about extending or restricting it was found."
+  },
+  {
+   "id": "soc2",
+   "summary": "PS opposes a general headscarf ban in public space.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "soc3",
+   "summary": "No position found on banning religious symbols for parents accompanying school trips. The PS project's laïcité section does not address it.",
+   "nuance": "The PS project defends 1905 laïcité while opposing using it to stigmatise Muslims, which is not specific to this statement. The PS is internally divided on the issue. Web search budget was exhausted."
+  },
+  {
+   "id": "soc4",
+   "summary": "Traditional PS laicite stance of neutrality of the state.",
+   "nuance": "Faure's 2026 emphasis unverified."
+  },
+  {
+   "id": "soc5",
+   "summary": "No evidence found.",
+   "nuance": "PS divided."
+  },
+  {
+   "id": "edu1",
+   "summary": "No known PS support for mandatory uniforms.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "edu2",
+   "summary": "PS prioritises teacher hiring and smaller classes.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "edu3",
+   "summary": "PS opposes streaming by level (groupes de niveau).",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "edu4",
+   "summary": "PS supports conditioning private school funding on social mix.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "edu5",
+   "summary": "The PS project would abolish Parcoursup in favour of a single national public procedure and fold selective courses into universities. It does not commit to ending all selection at entry.",
+   "nuance": "Per the coding note, replacing Parcoursup is not agreement with ending selection. Because the programme is silent on selection itself, this stays null. It could become 0 or +1 if a statement on selection is found."
+  },
+  {
+   "id": "san1",
+   "summary": "PS supports regulating doctors' installation (limiting new installations in well-served zones), a weaker version than a mandatory posting in under-served areas.",
+   "nuance": "Cross-party amendment led by PS deputy Garot; Faure's own vote not listed. Older source."
+  },
+  {
+   "id": "san2",
+   "summary": "PS opposes raising franchises.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "san3",
+   "summary": "PS supports rent control in tense zones.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "san4",
+   "summary": "PS opposes further competition opening of public services.",
+   "nuance": "Unverified."
+  },
+  {
+   "id": "eco7",
+   "summary": "No position on 'TVA sociale' found. The PS project (Refaire société, Vivre libres) does not mention TVA sociale; its VAT proposals go the other way (reduced 5.5% rate on an anti-poverty basket of essentials).",
+   "nuance": "Adjacent evidence only: the PS wants to cut VAT on essentials and raise some social contributions, which suggests hostility to a VAT-for-contributions swap, but no explicit stance was found, so it stays null. Web search budget was exhausted during verification."
+  },
+  {
+   "id": "imm8",
+   "summary": "Inferred from adjacent positions. The PS project wants a residence permit for any foreigner with a work contract of at least 6 months, and Faure voted against the 2023 immigration law and the 2025 Mayotte nationality restrictions. Nothing specific on naturalisation was found.",
+   "nuance": "The cited proposal is about residence permits and regularisation, which is not naturalisation. The +1 is an inference from adjacent positions and should be replaced if a direct statement is found."
+  },
+  {
+   "id": "sec6",
+   "summary": "The PS project explicitly proposes introducing a receipt for identity checks, as part of fighting discrimination and abusive police practices.",
+   "nuance": "This is a party programme commitment and not a personal Faure statement. Hollande made the same promise in 2012 and did not implement it."
+  },
+  {
+   "id": "eu7",
+   "summary": "The PS project backs an autonomous European defence, common operational capabilities between European partners and a European defence industry. It does not commit to a European army or accept a loss of national military autonomy.",
+   "nuance": "Coded +1 because the statement's clause 'even if France loses some military autonomy' is not endorsed: the text frames European defence as serving strategic autonomy. This is the party programme, with no personal Faure statement found."
+  },
+  {
+   "id": "eu8",
+   "summary": "The PS project explicitly commits to supporting Ukraine's accession to the EU, alongside military support funded by seizing frozen Russian assets.",
+   "nuance": "This is a party programme and not a personal Faure statement. Faure also voted for the March 2024 Assemblée vote on support for Ukraine (datan). No timeline for accession is given."
+  },
+  {
+   "id": "ecol6",
+   "summary": "The PS project proposes guaranteed minimum prices based on real production costs and higher European floor prices.",
+   "nuance": "This is a party programme, with no personal Faure statement found."
+  },
+  {
+   "id": "ene5",
+   "summary": "No position found on cutting VAT on electricity, gas and fuels to 5.5%. The PS project mentions 5.5% VAT only for renovation work and an essentials basket.",
+   "nuance": "The PS project addresses energy bills through investment and renovation, not an energy VAT cut. Web search budget was exhausted, so press statements by Faure could not be checked."
+  },
+  {
+   "id": "ins6",
+   "summary": "The PS project commits to defending and strengthening public broadcasting, with secure funding through a universal and progressive contribution. That is the opposite of privatisation.",
+   "nuance": "This is a party programme commitment, with no personal Faure statement retrieved."
+  },
+  {
+   "id": "soc6",
+   "summary": "No position found on banning religious symbols at university.",
+   "nuance": "Not addressed in the PS project pages checked. Web search budget was exhausted."
+  },
+  {
+   "id": "san5",
+   "summary": "The PS project defends the zero-net-land-take (ZAN) goal and wants housing built through densification, while sparing rural areas and small towns. It says nothing about loosening building rules.",
+   "nuance": "Coded -1 rather than -2 because the project protects rural development within ZAN and is silent on building rules. Faure voted for the 2023 law easing ZAN implementation (datan, 27 Jun 2023), so his line accepts adjustments while keeping the target."
+  }
+ ],
+ "record": {
+  "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, though PS members later voted for a primary limited to the socialist pole. He announced his presidential bid on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS/Place publique primary of October 2026.",
+  "offices": [
+   "Deputy, Seine-et-Marne 11th constituency",
+   "PS national spokesman",
+   "President of the Socialist group in the Assemblée nationale (SER, renamed Nouvelle Gauche in 2017)",
+   "First Secretary of the Parti socialiste"
+  ],
+  "legal": [],
+  "reversals": [
+   {
+    "topic": "Use of article 49.3 for the 2026 budget",
+    "before": "Autumn 2025: the PS made non-use of article 49.3 for the 2026 budget one of its conditions for not censuring the Lecornu government, and obtained that commitment",
+    "after": "Late January 2026: accepted that the government use 49.3 to adopt the 2026 budget because no majority could be found, against opposition from other left parties"
+   }
+  ],
+  "delivery": [
+   {
+    "what": "Had an amendment adopted in December 2014 that enabled the single-fare Pass Navigo in Île-de-France",
+    "assessment": "Cited as a concrete parliamentary achievement in his Wikipedia profile. It has not been independently assessed, and no sources of differing leanings were consulted."
+   },
+   {
+    "what": "Kept the PS in left alliances: NUPES 2022, NFP 2024, and a common-candidate principle for 2027 agreed in Bagneux in July 2025",
+    "assessment": "Credited with keeping the PS in a union strategy. Opponents inside the PS, who would rather back Raphaël Glucksmann in a federation, accuse him of being subordinate to Mélenchon/LFI. PS members later rejected his preferred open primary (55.5% backed a primary limited to the socialist pole). Only Wikipedia was consulted."
+   },
+   {
+    "what": "Negotiated a suspension of the 2023 pension reform with PM Lecornu in late 2025 (legal age frozen at 62 years 9 months until January 2028), which was voted on 12 November 2025 in the PLFSS 2026; he voted for the PLFSS on final reading on 16 December 2025",
+    "assessment": "A concrete concession obtained while the PS was in opposition. Other left parties criticised the compromise. No sources of differing leanings were obtained."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Not researched: no left-leaning outlet could be consulted. Do not rely on this field.",
+   "right_media": "Not researched: no right-leaning outlet could be consulted. Do not rely on this field.",
+   "neutral_media": "Not researched: no neutral outlet could be consulted. Do not rely on this field."
+  }
+ }
+}

@@ -1,0 +1,433 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "S'oppose à la taxation du patrimoine : cite l'IFI (successeur plus étroit de l'ISF) comme l'une des causes de la crise du logement, et exclut toute hausse d'impôt pour réduire la dette. Aucun texte de source primaire proposant de supprimer purement et simplement les impôts sur la fortune n'a été trouvé.",
+   "nuance": "La citation de l'agrégateur « Supprimer les taxes sur la fortune et les successions » n'a pas pu être retrouvée sur les pages du programme ; elle a donc été écartée. Le codage -2 repose sur son hostilité à l'IFI et son refus de toute hausse d'impôt. Le niveau de confiance est faible, faute de déclaration explicite sur un rétablissement de l'ISF."
+  },
+  {
+   "id": "eco2",
+   "summary": "Exclut de réduire la dette par des hausses d'impôts (« jamais augmenter l'impôt »). Cela est incompatible avec un nouvel impôt minimum de 2 % sur les grandes fortunes.",
+   "nuance": "Aucune citation vérifiée ne nomme spécifiquement la taxe Zucman. Le budget de recherches sur le web était épuisé. Le codage découle de son refus explicite de toute hausse d'impôt."
+  },
+  {
+   "id": "eco3",
+   "summary": "Le programme ramène les impôts de production de 2 % à 1 % du PIB (suppression de la C3S et de la CVAE) et supprime les charges patronales au niveau du SMIC pour les particuliers employeurs. La FAQ prévoit 120 Md€ de baisse des cotisations et 40 Md€ de baisse des impôts de production.",
+   "nuance": "Confirmé sur la page principale du programme."
+  },
+  {
+   "id": "eco4",
+   "summary": "Aucune position sur les droits de douane ou les quotas n'a été trouvée. Le programme vise à relocaliser la production en France en baissant les charges et en déréglementant, sans mentionner les droits de douane.",
+   "nuance": "Les pages du programme et la FAQ de campagne ont été recherchées avec les termes douane, protection et libre-échange, sans aucun résultat."
+  },
+  {
+   "id": "eco5",
+   "summary": "Veut un État « recentré sur ses missions régaliennes » et un « choc de déréglementation massif ». Aucune déclaration spécifique sur l'énergie ou les autoroutes.",
+   "nuance": "Déduit de sa doctrine générale. Il soutient la construction de nouveaux réacteurs nucléaires, mais ne dit rien sur la propriété d'EDF ou des autoroutes."
+  },
+  {
+   "id": "eco6",
+   "summary": "Le programme prévoit de réformer les droits de succession sur les entreprises, soit un allègement partiel et sectoriel.",
+   "nuance": "Partiel : limité à la transmission d'entreprise, d'où le +1. L'affirmation selon laquelle il voudrait supprimer tous les droits de succession n'a pas pu être vérifiée dans des sources primaires."
+  },
+  {
+   "id": "ret1",
+   "summary": "Refuse d'abroger la réforme de 2023 (âge légal de 64 ans) et l'a dit à plusieurs reprises, y compris lorsque la suspension était en discussion.",
+   "nuance": "Position constante de 2024 à 2026."
+  },
+  {
+   "id": "ret2",
+   "summary": "La page du programme qualifie encore l'âge légal de 65 ans d'impératif national urgent. La FAQ de campagne (mise à jour en octobre 2026) indique qu'il ne fait plus de l'âge sa réponse et place en premier la capitalisation obligatoire.",
+   "nuance": "Ses propres sources de campagne se contredisent. Le texte le plus ancien du programme fixe 65 ans, mais la présentation la plus récente (franceinfo, 31 mars 2026) minimise tout nouveau seuil d'âge. Codé +1 avec une confiance faible."
+  },
+  {
+   "id": "ret3",
+   "summary": "Propose de faire passer en capitalisation toutes les pensions au-delà d'un socle par répartition, financée par des cotisations obligatoires, soit environ 40 % de l'ensemble des pensions. Il la qualifie d'« obligatoire et collective ».",
+   "nuance": "Explicitement obligatoire, d'où le +2. La formulation « liberté de choisir » du brouillon provenait d'une phrase de synthèse générique de la page d'accueil du programme."
+  },
+  {
+   "id": "fin1",
+   "summary": "Qualifie la maîtrise du déficit d'« impératif absolu ». Prévoit 80 Md€ de réductions de dépenses la première année et au moins 200 Md€ sur le quinquennat.",
+   "nuance": "Le seuil de 3 % n'est pas nommé, mais la priorité donnée aux déficits et l'ampleur des coupes sont explicites."
+  },
+  {
+   "id": "fin2",
+   "summary": "Ne remplacerait plus tous les 500 000 départs annuels de la fonction publique, en commençant par les emplois administratifs. Comme maire, il a réduit d'environ 20 % les effectifs municipaux de Cannes.",
+   "nuance": "La source Wikipédia a été remplacée : la paraphrase citée ne figurait pas sur la page. La réduction des effectifs passe par les départs non remplacés, non par des licenciements."
+  },
+  {
+   "id": "fin3",
+   "summary": "Veut abaisser le ratio de dette, avec 40 Md€ d'économies affectés au désendettement. Refuse les baisses d'impôts financées par la dette.",
+   "nuance": "La règle de déficit qu'il propose porte sur les dépenses de fonctionnement, non sur l'investissement ; elle laisse donc une marge pour emprunter afin d'investir. L'orientation générale reste nettement hostile à un surcroît de dette. La citation de l'agrégateur « Aucun emprunt supplémentaire » n'a pas pu être vérifiée et a été écartée."
+  },
+  {
+   "id": "fin4",
+   "summary": "Le programme prévoit une règle institutionnelle limitant les déficits publics (une règle d'or sur les dépenses de fonctionnement).",
+   "nuance": "Le texte parle de règle « institutionnelle » et non explicitement « constitutionnelle ». Elle s'inscrit dans un programme plus large de réforme constitutionnelle. Si la formulation strictement constitutionnelle importe, un +1 est défendable."
+  },
+  {
+   "id": "trav1",
+   "summary": "Veut augmenter les salaires nets en baissant les cotisations sociales, et non en imposant des hausses de salaire.",
+   "nuance": "Aucune déclaration explicite sur la revalorisation du SMIC. Il rejette les hausses de salaire imposées au profit de baisses de cotisations, ce qui revient à une opposition claire mais implicite, d'où le -1."
+  },
+  {
+   "id": "trav2",
+   "summary": "Refuse d'annuler la réforme de l'assurance chômage. Propose une allocation unique plafonnée à un pourcentage du SMIC afin que le travail rapporte toujours plus que l'inactivité.",
+   "nuance": "Il défend les baisses existantes et plafonne les aides sociales pour encourager le travail, mais ne fait aucune nouvelle proposition explicite de raccourcissement ou de réduction des allocations chômage, d'où le +1."
+  },
+  {
+   "id": "trav3",
+   "summary": "Aucun élément trouvé. Les pages du programme et de la FAQ consultées (aides sociales, économies, ambition française) ne mentionnent pas les heures d'activité du RSA. La seule mesure sur le RSA trouvée est un taux de charges patronales négatif pour l'embauche de personnes au RSA depuis plus de deux ans.",
+   "nuance": "Sa ligne favorable aux incitations au travail (« Quelqu'un qui travaille à temps plein doit gagner au moins 500€ de plus que quelqu'un qui ne travaille pas ») laisse penser qu'il y est favorable, mais la déclaration n'est pas codée par inférence. Nécessite une nouvelle passe avec recherche sur le web."
+  },
+  {
+   "id": "trav4",
+   "summary": "Le programme prévoit des incitations à travailler davantage. C'est l'inverse d'un passage aux 32 heures.",
+   "nuance": "Aucune déclaration explicite sur les 32 heures, mais l'orientation du programme va nettement vers plus de travail. Reclassé de « inféré/faible » à « programme/moyen »."
+  },
+  {
+   "id": "imm1",
+   "summary": "Propose de diviser par huit le nombre de titres de séjour délivrés, avec des quotas pour la main-d'œuvre qualifiée et des conditions plus strictes pour le regroupement familial.",
+   "nuance": "Confirmé sur la page principale du programme. Cela remplace la paraphrase de Wikipédia."
+  },
+  {
+   "id": "imm2",
+   "summary": "Dit qu'un référendum sera nécessaire pour affranchir la politique d'immigration des contraintes des traités. Élargirait l'article 11 afin que l'immigration puisse être soumise à référendum.",
+   "nuance": "Le codage est inchangé. Les sources sont désormais des citations primaires explicites au lieu du simple « recours au référendum »."
+  },
+  {
+   "id": "imm3",
+   "summary": "Propose de supprimer l'AME et de la remplacer par une aide limitée aux soins urgents.",
+   "nuance": "Confirmé sur la page primaire. Il l'a répété lors du meeting de Saint-Raphaël le 4 juillet 2026."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le programme supprimerait toute possibilité de régularisation après une entrée irrégulière et rétablirait le délit de séjour irrégulier.",
+   "nuance": "La source précédente (expulsion systématique des étrangers condamnés) ne traitait pas de la régularisation. Elle a été remplacée par une citation primaire directe."
+  },
+  {
+   "id": "imm5",
+   "summary": "Subordonnerait les prestations non contributives versées aux étrangers à au moins cinq ans de résidence légale. Il s'agit d'une condition de résidence, non d'une priorité réservée aux citoyens français.",
+   "nuance": "Version partielle : une condition de résidence, non une préférence fondée sur la nationalité. Aucune priorité nationale en matière de logement social n'a été trouvée. L'étiquette « Priorité nationale » de l'agrégateur n'a pas pu être vérifiée."
+  },
+  {
+   "id": "imm6",
+   "summary": "Veut mettre fin au caractère automatique du droit du sol, sans l'abolir.",
+   "nuance": "Version partielle, d'où le +1. Confirmé sur la page primaire."
+  },
+  {
+   "id": "imm7",
+   "summary": "Aucune déclaration explicite trouvée. Son programme insiste sur l'assimilation et le durcissement des conditions pour les étrangers.",
+   "nuance": "La « citation » de l'agrégateur était sa propre déduction (« La logique globale du programme exclut... »), et non des propos de Lisnard ou de son programme. Rétrogradé en « inféré »."
+  },
+  {
+   "id": "sec1",
+   "summary": "Le programme prévoit des peines minimales obligatoires pour les récidivistes et la fin des réductions de peine automatiques.",
+   "nuance": "Confirmé sur la page primaire consacrée à la sécurité, qui comprend des peines planchers pour les récidivistes."
+  },
+  {
+   "id": "sec2",
+   "summary": "Propose d'abaisser à 16 ans l'âge de la majorité pénale et de supprimer l'excuse de minorité dès 13 ans pour les infractions graves.",
+   "nuance": "Cela va au-delà de l'énoncé tel que formulé : tous les délinquants de 16 ans et plus seraient traités comme des adultes."
+  },
+  {
+   "id": "sec3",
+   "summary": "Aucune position sur un contrôle indépendant de la police n'a été trouvée.",
+   "nuance": "Le « soutien indéfectible aux forces de l'ordre » n'est pas une position sur le contrôle. Le discours de Bayeux critique les « autorités dites indépendantes » en général, mais pas le contrôle de la police. Non codé."
+  },
+  {
+   "id": "sec4",
+   "summary": "Considère le trafic de drogue comme une menace majeure et appelle à un durcissement de la répression. Aucune déclaration explicite sur la légalisation du cannabis récréatif n'a été trouvée.",
+   "nuance": "Déduit de sa position contre les trafics. Rétrogradé depuis -2 avec une confiance moyenne."
+  },
+  {
+   "id": "sec5",
+   "summary": "Cannes dispose d'un dense réseau de vidéosurveillance sous son mandat de maire, et il veut mettre l'IA au cœur de la performance publique. Aucun appel explicite à généraliser la vidéosurveillance assistée par IA n'a été vérifié.",
+   "nuance": "Le bilan en matière de caméras étaye une position favorable à la surveillance en général. Le volet propre à l'IA n'est pas confirmé, d'où un +1 plutôt qu'un +2."
+  },
+  {
+   "id": "eu1",
+   "summary": "Réviserait l'article 55 pour que la loi française prime sur la CEDH, et appelle à ce que le droit national l'emporte sur une jurisprudence européenne extensive. Sur le droit de l'UE lui-même, il estime qu'une révision constitutionnelle ne suffit pas et cherche une clause de non-participation à la danoise.",
+   "nuance": "Partiel : primauté complète sur la CEDH, mais une clause de non-participation négociée pour le droit de l'UE plutôt qu'une dérogation unilatérale. La paraphrase de l'agrégateur a été remplacée par des sources primaires."
+  },
+  {
+   "id": "eu2",
+   "summary": "Qualifie la souveraineté européenne d'« oxymore » et défend la souveraineté budgétaire nationale. Aucune déclaration explicite sur l'emprunt commun européen n'a été trouvée.",
+   "nuance": "La citation invoquée porte sur la souveraineté, non sur la dette commune. Son programme veut aussi que l'Europe soit un « outil de puissance » à travers des projets communs comme l'espace, les données et l'énergie, ce qui va en sens contraire. Rétrogradé depuis -2 et recodé en « inféré »."
+  },
+  {
+   "id": "eu3",
+   "summary": "Aucune position explicite sur la contribution de la France au budget de l'UE n'a été trouvée.",
+   "nuance": "Le programme se borne à conditionner les transferts de cohésion de l'UE au respect de l'État de droit et à la lutte contre la corruption. Non codé."
+  },
+  {
+   "id": "eu4",
+   "summary": "Aucune position sur l'unanimité en matière de politique étrangère de l'UE n'a été trouvée.",
+   "nuance": "Son insistance sur la souveraineté nationale laisse penser à du scepticisme, mais il n'existe pas de preuve directe."
+  },
+  {
+   "id": "eu5",
+   "summary": "Lorsque des règles supranationales entravent la souveraineté nationale, il veut que les citoyens tranchent par référendum, et cherche à obtenir une exemption aux règles européennes en matière d'asile et d'immigration.",
+   "nuance": "Partiel : la voie passe par un référendum et une clause de non-participation négociée, et non par une non-application pure et simple. Maintenu à +1. Type de preuve modifié de « déclaration » à « programme »."
+  },
+  {
+   "id": "eu6",
+   "summary": "Exclut explicitement de quitter l'UE et veut la réformer.",
+   "nuance": "Une citation primaire de juin 2026 remplace la paraphrase de l'agrégateur."
+  },
+  {
+   "id": "int1",
+   "summary": "Lisnard soutient un fort appui militaire à l'Ukraine. Il a appelé à une économie de guerre et à aider l'Ukraine à retrouver une position de force avant toute négociation.",
+   "nuance": "La déclaration explicite la plus récente trouvée date de mars 2025. Rien de 2026 n'a pu être récupéré, la recherche sur le web étant indisponible. Il présente l'aide comme un moyen de renforcer la position de l'Ukraine avant les négociations, tout en évitant une confrontation directe avec la Russie. La citation de février 2024 est telle que reproduite sur le site de son parti et par l'agrégateur MonVote2027 ; la récupération de la page du parti n'a pas fait apparaître le corps de l'article."
+  },
+  {
+   "id": "int2",
+   "summary": "Aucune déclaration trouvée sur l'envoi de troupes françaises pour garantir un cessez-le-feu.",
+   "nuance": "Dans l'entretien de mars 2025 au Diplomate, il dit que la France doit agir « sans glisser vers une logique d'affrontement direct avec la Russie ». Ce n'est pas une position sur une force de réassurance après un cessez-le-feu ; elle n'est donc pas codée."
+  },
+  {
+   "id": "int3",
+   "summary": "Aucune déclaration trouvée sur le commandement intégré de l'OTAN.",
+   "nuance": "Le programme évoque « une France forte dans ses alliances » mais ne mentionne pas le commandement intégré de l'OTAN. Dans l'entretien au Diplomate, l'OTAN n'apparaît que dans la question de l'intervieweur."
+  },
+  {
+   "id": "int4",
+   "summary": "Aucune déclaration sur l'accord d'association UE-Israël n'a été trouvée. Il défend fermement le droit d'Israël à l'autodéfense et a qualifié la reconnaissance de la Palestine par la France d'apaisement prématuré, ce qui laisse penser qu'il s'opposerait à la suspension de l'accord.",
+   "nuance": "Déduit uniquement de positions voisines. Il continue de qualifier la paix à deux États d'« horizon nécessaire »."
+  },
+  {
+   "id": "int5",
+   "summary": "Il appelle à porter les dépenses de défense à 3,5 % du PIB.",
+   "nuance": "L'article de mars 2026 juge insuffisants les 2 % du PIB actuels et chiffre ce que coûterait un niveau de 3 %. Une corroboration par un média d'une autre sensibilité n'a pas été possible, la recherche étant indisponible."
+  },
+  {
+   "id": "int6",
+   "summary": "Il veut un service militaire universel et court (environ trois mois), en caserne et en uniforme.",
+   "nuance": "« Universel » suppose le caractère obligatoire. La durée est seulement évoquée, avec un point d'interrogation."
+  },
+  {
+   "id": "int7",
+   "summary": "Aucune déclaration trouvée sur la levée des sanctions contre la Russie en échange de la paix.",
+   "nuance": "Dans l'entretien de mars 2025 au Diplomate, les sanctions n'apparaissent que dans la question de l'intervieweur."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Il a signé une tribune de maires appelant à mettre fin à l'obligation nationale de créer des zones à faibles émissions (ZFE).",
+   "nuance": "Codé +1 plutôt que +2 parce que la tribune demande la fin de l'obligation nationale, ce qui laisserait les villes libres de conserver des ZFE. Elle ne demande pas de les interdire purement et simplement. Il s'agit d'un texte collectif qu'il a cosigné."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le programme rejette la surtransposition française des règles européennes sur les produits phytopharmaceutiques, appelle à un alignement réglementaire sur le marché unique et privilégie un usage « raisonné » et fondé sur la science des pesticides.",
+   "nuance": "Le programme exige aussi que les produits interdits en France le soient également à l'importation (« Ce que nous interdisons ici ne doit plus être autorisé là-bas »). Il s'agit d'une exigence de clause miroir. Elle ne vaut pas soutien à des interdictions françaises unilatérales."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Aucune source primaire trouvée sur la fin de la vente de voitures neuves thermiques en 2035.",
+   "nuance": "L'agrégateur MonVote2027 le code « tout à fait contre », en citant simulateur-lisnard2027.fr. Je n'ai pas pu confirmer que ce simulateur est officiel, sa page « À propos » étant un texte type. Sa page sur l'écologie ne mentionnait pas 2035 lors de la consultation. Il dénonce aussi les « nouveaux fascistes verts » dans le manifeste de mars 2025, mais c'est trop général pour être codé."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Le programme exige que la fiscalité verte soit compensée par des baisses d'impôts équivalentes ailleurs. Une tribune de 2023 de sa plume s'en prend aux restrictions sur les vols court-courriers. Les deux éléments vont dans le sens d'une opposition à une hausse des taxes sur le transport aérien.",
+   "nuance": "Aucune déclaration explicite sur le kérosène ou les jets privés n'a été trouvée. Le corps de la tribune de 2023 n'a pas pu être récupéré ; seul son titre critique a été vu. La règle de neutralité fiscale n'exclut pas strictement une taxe aérienne à rendement neutre, d'où le -1 avec une confiance faible."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Il rejette la décroissance et veut des solutions climatiques respectueuses du développement, dans une « économie de marché écologique ».",
+   "nuance": "Il ne place pas explicitement la croissance au-dessus du climat, mais il refuse systématiquement les arbitrages qui sacrifieraient la croissance. D'où le -1 plutôt que le -2."
+  },
+  {
+   "id": "ene1",
+   "summary": "Il appelle à « une première série de six EPR » ainsi qu'au déploiement de SMR, et à l'arrêt du démantèlement des réacteurs. Cela suppose de nouveaux réacteurs au-delà des six premiers.",
+   "nuance": "Aucun chiffre explicite au-delà de six grands réacteurs n'a été trouvé, d'où le +1. La formulation « première série » et le plan SMR vont au-delà des six EPR2."
+  },
+  {
+   "id": "ene2",
+   "summary": "Il veut faire du nucléaire l'épine dorsale de l'électricité décarbonée et arrêter le démantèlement programmé de réacteurs.",
+   "nuance": "Sa position est constante. Dans le manifeste de mars 2025, il critique aussi la fermeture de Fessenheim."
+  },
+  {
+   "id": "ene3",
+   "summary": "Le programme mettrait fin aux soutiens hors marché aux énergies renouvelables et redirigerait les sommes vers le nucléaire. C'est un recul partiel face aux nouveaux parcs éoliens, mais pas un arrêt.",
+   "nuance": "Codé comme un soutien partiel, car la fin des subventions est moins forte qu'une suspension du développement éolien. Aucune déclaration spécifique sur les éoliennes n'a été trouvée."
+  },
+  {
+   "id": "ene4",
+   "summary": "Aucune déclaration trouvée sur une sortie du marché européen de l'électricité.",
+   "nuance": "Non trouvée dans les pages du programme ni dans les pages de la FAQ consultées."
+  },
+  {
+   "id": "ins1",
+   "summary": "Le programme réforme la pratique de la Ve République : il recentre le président contre l'« hyperprésidentialisme » et renforce le rôle de contrôle du Parlement. Il n'appelle ni à une nouvelle Constitution ni à une VIe République.",
+   "nuance": "Une réforme à Constitution constante est interprétée comme une opposition modérée à une nouvelle constitution parlementaire. Il propose aussi un référendum constitutionnel pour réorganiser le territoire en provinces, ce qui relève d'un changement territorial, non d'un changement de régime."
+  },
+  {
+   "id": "ins2",
+   "summary": "Aucune déclaration trouvée sur la représentation proportionnelle.",
+   "nuance": "L'agrégateur MonVote2027 indique « plutôt contre » sans citer de source. Non codé."
+  },
+  {
+   "id": "ins3",
+   "summary": "Aucune déclaration trouvée sur un référendum d'initiative citoyenne (RIC).",
+   "nuance": "L'agrégateur note seulement que le programme ne mentionne pas le RIC. Le silence n'est pas codé."
+  },
+  {
+   "id": "ins4",
+   "summary": "Aucune déclaration trouvée sur l'article 49.3.",
+   "nuance": "Non trouvée dans le programme ni dans les pages de la FAQ."
+  },
+  {
+   "id": "ins5",
+   "summary": "Il propose d'élargir le champ de l'article 11 de la Constitution afin que les électeurs puissent se prononcer par référendum sur l'immigration.",
+   "nuance": "Cela ne concerne que l'immigration. Aucune mention de la justice n'a été trouvée. Il a annoncé « 4 référendums » en mai 2025, mais leur contenu figure dans des images qui n'ont pas pu être lues. La citation est fragmentaire telle qu'elle s'affiche."
+  },
+  {
+   "id": "soc1",
+   "summary": "Aucun élément trouvé sur la loi de 2026 relative à l'aide à mourir dans le programme, la FAQ ou Wikipédia.",
+   "nuance": "Non codé. Nécessite une nouvelle passe avec recherche sur le web."
+  },
+  {
+   "id": "soc2",
+   "summary": "Aucune déclaration trouvée sur l'interdiction du voile dans tous les espaces publics.",
+   "nuance": "Sa tribune de décembre 2025 limite l'absence de signes religieux aux lieux « où la République instruit, juge ou administre », et son programme vise les universités. Comme maire, il a interdit le burkini sur les plages de Cannes en 2016, mais le Conseil d'État a invalidé des arrêtés similaires. Rien de cela ne revient à une interdiction générale dans l'espace public, et rien n'est codé ici."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucun élément trouvé sur les parents accompagnateurs de sorties scolaires. Les pages sur l'éducation ne mentionnent ni la laïcité ni les signes religieux.",
+   "nuance": "Comme maire de Cannes, il a interdit le burkini sur les plages en 2016 (record_in_office, sujet voisin). Cela n'est pas utilisé pour coder cette déclaration. Nécessite une nouvelle passe."
+  },
+  {
+   "id": "soc4",
+   "summary": "Il veut de nouvelles restrictions, notamment une interdiction du voile à l'université. Il attaque une lecture « multiculturaliste » de la laïcité et considère le voile à l'université, les burkinis et les créneaux horaires réservés en piscine comme des avancées islamistes à portée politique.",
+   "nuance": "L'énoncé rejette toute restriction supplémentaire de l'expression religieuse des citoyens. Il en propose explicitement une ; il est donc codé -2."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucune déclaration trouvée sur la gestation pour autrui (GPA).",
+   "nuance": "L'agrégateur MonVote2027 indique « tout à fait contre » sans source. Non codé."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucune déclaration trouvée sur l'uniforme scolaire.",
+   "nuance": "Absente du programme éducation et de la FAQ sur l'école."
+  },
+  {
+   "id": "edu2",
+   "summary": "Son modèle est un corps unique d'enseignants contractuels recrutés par les chefs d'établissement, dans un cadre de fortes coupes dans la dépense publique. Les recrutements massifs pour réduire la taille des classes n'en font pas partie.",
+   "nuance": "Déduit. Il ne rejette pas explicitement les recrutements massifs."
+  },
+  {
+   "id": "edu3",
+   "summary": "Le programme crée des classes d'excellence en mathématiques et en sciences dans chaque académie, une forme de regroupement des élèves par niveau.",
+   "nuance": "Il s'agit de classes d'excellence sélectives à l'échelle de l'académie, et non de groupes de niveau au sein de chaque collège. Soutien partiel, d'où le +1."
+  },
+  {
+   "id": "edu4",
+   "summary": "Il propose un chèque éducation universel avec un financement public égal pour les écoles publiques et privées, ainsi que la suppression de la carte scolaire. C'est l'inverse d'une baisse du financement des écoles privées.",
+   "nuance": "La position est constante dans le programme et dans la FAQ."
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucun élément trouvé. Le programme éducation couvre le choix de l'école, la rémunération des enseignants, la formation professionnelle et les programmes scolaires, mais pas la sélection à l'université.",
+   "nuance": "Non codé. Nécessite une nouvelle passe."
+  },
+  {
+   "id": "san1",
+   "summary": "Il s'oppose à une régulation de l'installation des médecins. Il préfère un remboursement différencié et la formation de davantage de médecins.",
+   "nuance": "Le programme recourt à des incitations : un meilleur remboursement dans les zones sous-dotées."
+  },
+  {
+   "id": "san2",
+   "summary": "Aucune déclaration trouvée sur les franchises médicales ou la participation des patients aux frais.",
+   "nuance": "Absente du programme santé, de la FAQ et de la page du simulateur."
+  },
+  {
+   "id": "san3",
+   "summary": "Il veut libérer le marché du logement et remettrait en cause la loi ALUR, fondement juridique de l'encadrement des loyers.",
+   "nuance": "Il ne nomme pas explicitement l'encadrement des loyers. L'opposition ressort clairement de son appel à libérer le marché et à remettre en cause la loi qui l'a créé."
+  },
+  {
+   "id": "san4",
+   "summary": "Son programme libéral privilégie des solutions mixtes public-privé et la déréglementation, ce qui laisse penser qu'il soutient davantage de concurrence. Aucune déclaration sur les transports ou l'énergie n'a été trouvée.",
+   "nuance": "Déduit de sa doctrine générale. Rien n'a été trouvé spécifiquement sur la concurrence dans le rail ou l'énergie."
+  },
+  {
+   "id": "eco7",
+   "summary": "Le programme de Nouvelle Énergie indique qu'une « TVA Compétitivité / Relocalisation » pourrait être mise en place progressivement sur 12 ans, jusqu'à un taux unique de, par exemple, 25 %, en même temps que des baisses de charges sur les salaires. Il s'agit d'un schéma de TVA sociale.",
+   "nuance": "Codé +1 plutôt que +2 pour deux raisons. Le programme reste prudent (« pourrait », « par exemple »). Ses pages de FAQ les plus récentes (mises à jour le 3 octobre 2026) indiquent que la forte baisse des cotisations est financée par des réductions de dépenses et ne mentionnent pas la TVA. Une corroboration par un média indépendant reste nécessaire."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucune déclaration directe sur la naturalisation. Son programme veut une immigration légale nettement réduite (titres de séjour divisés par huit), la fin de l'acquisition automatique de la nationalité par la naissance, et une condition de cinq ans de résidence pour les prestations non contributives. Tout cela va dans le sens d'une opposition à une naturalisation facilitée.",
+   "nuance": "Déduit de positions voisines de son propre programme (droit du sol, titres de séjour). Aucun texte ne traite directement de la naturalisation des résidents légaux de longue durée."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucun élément trouvé. La page sécurité du programme et la FAQ ne mentionnent ni les contrôles d'identité ni les récépissés.",
+   "nuance": "Non codé. La recherche sur le web était indisponible pendant la vérification. Nécessite une nouvelle passe."
+  },
+  {
+   "id": "eu7",
+   "summary": "Aucun élément trouvé. La section du programme consacrée à la souveraineté (« Être maître de notre destin ») ne mentionne ni armée européenne ni achats d'armement communs.",
+   "nuance": "Non codé. Nécessite une nouvelle passe avec recherche sur le web."
+  },
+  {
+   "id": "eu8",
+   "summary": "Aucun élément trouvé sur l'adhésion de l'Ukraine à l'UE dans les pages du programme, la FAQ ou Wikipédia (FR et EN).",
+   "nuance": "Non codé. Nécessite une nouvelle passe avec recherche sur le web."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucun élément direct. Le programme agricole critique EGalim (« a ajouté des contraintes sans améliorer les marges ») et appelle à rémunérer les agriculteurs pour leurs services environnementaux. Il ne mentionne pas de prix planchers.",
+   "nuance": "Sa critique d'EGalim et son orientation libérale laissent penser à une opposition, mais rien d'explicite n'a été trouvé ; la valeur est donc laissée à null. Nécessite une nouvelle passe."
+  },
+  {
+   "id": "ene5",
+   "summary": "Pour faire baisser les prix des carburants, il propose de suspendre temporairement les certificats d'économies d'énergie (CEE) « sans creuser le déficit ». Il a préféré cette option à une baisse d'impôt, et sa plateforme place les réductions de dépenses avant les baisses d'impôts. Aucune déclaration sur un taux de TVA de 5,5 % n'a été trouvée.",
+   "nuance": "Déduit. Il propose une alternative hors TVA et sans effet sur le déficit, et son programme prévoit aussi un taux global de TVA plus élevé ; une baisse de la TVA sur l'énergie paraît donc peu probable. Il n'y a pas de rejet explicite."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucun élément trouvé. Les pages sur les économies (agences, plan de 200 Md€) ne mentionnent pas l'audiovisuel public.",
+   "nuance": "Non codé. Nécessite une nouvelle passe avec recherche sur le web."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucun élément trouvé sur les signes religieux à l'université.",
+   "nuance": "Non codé. L'interdiction du burkini de 2016 n'est qu'un sujet voisin. Nécessite une nouvelle passe."
+  },
+  {
+   "id": "san5",
+   "summary": "Lisnard qualifie le ZAN d'« véritable usine à gaz », inapplicable pour les communes en l'état. Il impute la chute de la construction de logements à l'empilement des réglementations (loi SRU, loi Climat et résilience). Son programme supprime l'article 55 de la loi SRU et fait de l'allègement réglementaire un axe central.",
+   "nuance": "Il accepte l'objectif de biodiversité mais rejette le ZAN « dans sa forme actuelle ». Un article du Figaro du 16 avril 2026 (cité par la FAQ, non consulté directement) attribue la baisse de la construction à la réglementation. L'intensité pourrait être +1 s'il veut seulement un ajustement du ZAN. La confiance est moyenne tant qu'un média indépendant n'a pas été vérifié."
+  }
+ ],
+ "record": {
+  "bio": "David Lisnard, né le 2 février 1969 à Limoges, est diplômé de Sciences Po Bordeaux (promotion 1992) et maire de Cannes depuis le 5 avril 2014 (réélu en 2020 et en mars 2026). Il a été élu président de l'Association des maires de France le 17 novembre 2021 et réélu le 22 novembre 2023. Il a appartenu au RPR, à l'UMP et aux Républicains, est devenu vice-président de LR le 28 juin 2025 et a quitté LR le 31 mars 2026. Il a annoncé sur RTL, le 21 janvier 2026, qu'il serait candidat à l'élection présidentielle de 2027 sous la bannière de son mouvement Nouvelle Énergie (fondé en 2014, lancé au niveau national en juin 2021) ; un sondage Ifop/Le Figaro de juin 2026 lui donnait environ 2 % au premier tour.",
+  "offices": [
+   "Conseiller général puis départemental des Alpes-Maritimes (canton de Cannes-Est, puis de Cannes-2 à partir de 2015)",
+   "Vice-président du conseil général puis départemental des Alpes-Maritimes (délégation au tourisme)",
+   "Maire de Cannes",
+   "Président de la communauté d'agglomération Cannes Pays de Lérins",
+   "Président de l'Association des maires de France (AMF)",
+   "Vice-président des Républicains",
+   "Fondateur et président de Nouvelle Énergie"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Gestion municipale de Cannes : dette réduite d'environ 55,5 millions d'euros entre 2014 et 2019 (Nice-Matin, 30 décembre 2019, tel que cité par Wikipédia), et réseau de vidéosurveillance étendu, décrit comme l'un des plus denses de France, parallèlement à une réorganisation de la police municipale (Le Point, 2 juin 2015, tel que cité par Wikipédia).",
+    "assessment": "Ces chiffres sont présentés comme des réussites par la presse régionale et de centre droit. Aucune appréciation critique ou de sensibilité de gauche n'a été trouvée dans les sources consultées ; l'équilibre est donc limité."
+   },
+   {
+    "what": "Arrêté municipal de juillet-août 2016 interdisant les tenues de plage « manifestant ostensiblement une appartenance religieuse » (l'interdiction dite du burkini), et désinfection des plages de Cannes à l'eau oxygénée en 2020, pendant la période du Covid (trois jours, 8 400 euros), ainsi que de certaines rues à l'eau de Javel fin mars 2020.",
+    "assessment": "Le 26 août 2016, le Conseil d'État a jugé illégal un arrêté similaire (Villeneuve-Loubet), et en mai 2018 la ville de Cannes a été condamnée à rembourser une amende délivrée en application de son arrêté ; il s'agissait d'une affaire administrative et municipale, et non d'une procédure visant sa personne. La désinfection a eu lieu malgré l'avis du ministère de la Santé et du Haut Conseil de la santé publique."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non vérifié : aucun média de gauche n'a pu être consulté directement au cours de cette session.",
+   "right_media": "Non vérifié pour la couverture de 2025-2026. Une couverture plus ancienne de centre droit, citée par Wikipédia, le présente comme une figure marquante de la droite (Le Figaro Magazine, juin 2020, titre « l'incontournable »).",
+   "neutral_media": "Le Monde (9 avril 2026, tel que cité par Wikipédia) présente sa candidature comme une offre libérale autonome à droite, une configuration inédite depuis la candidature d'Alain Madelin en 2002, et note que son libéralisme peine à convaincre au sein de la droite."
+  }
+ }
+}

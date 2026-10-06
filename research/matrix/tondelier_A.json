@@ -1,0 +1,952 @@
+{
+ "collect": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes back a wealth tax including financial assets; not verified with a Tondelier-specific 2025-26 source this session.",
+    "sources": [],
+    "nuance": "Web search quota was exhausted; coded from known Green party line (ISF/climate-wealth tax). Needs verification."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes, with the whole left, defend implementing the Zucman tax (2% minimum on very large fortunes).",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Les Écologistes, le Parti socialiste et Place publique défendent la mise en œuvre de la taxe Zucman."
+     }
+    ],
+    "nuance": "Threshold is EUR 100M in Zucman's design; no Tondelier-personal quote retrieved. Group roll-call vote not checked."
+   },
+   {
+    "id": "eco3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens generally oppose untargeted cuts in employer contributions, favouring conditional aid; not verified.",
+    "sources": [],
+    "nuance": "Inferred from party line; could be conditional support for targeted cuts."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens favour carbon border adjustment and environmental/social conditionality in trade, opposing Mercosur; tariffs on sectors not directly verified.",
+    "sources": [],
+    "nuance": "Partial: protection via climate-linked border mechanisms rather than sectoral tariffs."
+   },
+   {
+    "id": "eco5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support public control of energy (EDF, networks) and motorway concessions returning to the public sector; not verified.",
+    "sources": [],
+    "nuance": "Coded from party line."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens favour taxing inheritance more, not lowering it.",
+    "sources": [],
+    "nuance": "Inferred from left-wing fiscal stance."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes opposed the 2023 reform and call for its repeal (return to 62 or lower).",
+    "sources": [],
+    "nuance": "Unverified this session; exact target age (62 vs 60) not confirmed."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to raising the retirement age.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens defend pay-as-you-go system; mandatory capitalisation unlikely.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "fin1",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens oppose large spending cuts to hit 3%; prefer new revenue.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens call for investing in public services and more staff in hospitals, schools.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens favour investment financed partly by debt for ecological transition (exempting green investment from fiscal rules).",
+    "sources": [],
+    "nuance": "Unverified; likely +1 rather than +2 as they also stress new taxes."
+   },
+   {
+    "id": "fin4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens oppose constitutional deficit rule.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens call for raising SMIC beyond inflation (EUR 1,600 net proposal in past programmes).",
+    "sources": [],
+    "nuance": "Unverified for 2026."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed unemployment insurance reforms cutting benefits.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed the RSA activity conditionality introduced by the 2023 law.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "trav4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support working time reduction towards 32 hours.",
+    "sources": [],
+    "nuance": "Long-standing Green proposal; Tondelier's personal current stance not confirmed."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to sharply restricting legal immigration.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to a referendum on immigration.",
+    "sources": [],
+    "nuance": "Inferred from opposition to the right's proposals."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Strongly defends AME.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support regularising undocumented workers, including in shortage jobs.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to national preference.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to abolishing droit du sol.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support local voting rights for non-EU residents.",
+    "sources": [],
+    "nuance": "Long-standing Green position."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposed to peines planchers.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens opposed the 2025 loosening of juvenile justice (excuse de minorité).",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "sec3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens call for independent police oversight (reform of IGPN).",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "sec4",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support legalising and regulating cannabis.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens oppose AI video surveillance.",
+    "sources": [],
+    "nuance": "Party line (opposed Olympics algorithmic surveillance)."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Pro-European; opposes primacy of French law over EU law.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens support joint EU borrowing for climate and defence/industry.",
+    "sources": [],
+    "nuance": "Party line."
+   },
+   {
+    "id": "eu3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Greens want a stronger EU budget.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu4",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Greens favour qualified majority voting in EU foreign policy.",
+    "sources": [],
+    "nuance": "Party line (European Greens)."
+   },
+   {
+    "id": "eu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Pro-European; unlikely to endorse disobeying EU rules, though supports fiscal-rule reform.",
+    "sources": [],
+    "nuance": "Inferred."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes leaving the EU.",
+    "sources": [],
+    "nuance": "Party line."
+   }
+  ],
+  "verification_notes": []
+ },
+ "verify": {
+  "candidate": "Marine Tondelier",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The June 2024 NFP joint programme, which Tondelier co-founded and led for Les Écologistes, includes bringing back the ISF with a climate component.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06 (page accessed 2026-10)",
+      "quote": "Rétablissement de l'impôt de solidarité sur la fortune (ISF), incorporation d'une composante climatique"
+     }
+    ],
+    "nuance": "This is the 2024 coalition programme. No 2026 Tondelier campaign text or personal quote was found, and web search was exhausted during verification."
+   },
+   {
+    "id": "eco2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "The 2% minimum tax on ultra-rich fortunes started as a bill tabled by Écologiste group MPs (Eva Sas, Clémentine Autain). The Assembly adopted it on 20 Feb 2025. Les Écologistes back putting it into practice.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-2026",
+      "quote": "présentée le 7 janvier 2025 par Éva Sas et Clémentine Autain, membres du groupe écologiste et social"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-2026",
+      "quote": "Les Écologistes, le Parti socialiste et Place publique défendent la mise en œuvre de la taxe Zucman."
+     }
+    ],
+    "nuance": "This is Tondelier's own party group's bill. She is not an MP, so there is no personal vote, and no personal quote was retrieved. The Assembly rejected the Zucman amendment to the 2026 budget on 31 Oct 2025."
+   },
+   {
+    "id": "eco3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The Greens generally oppose untargeted cuts to employer contributions and prefer conditional aid. No Tondelier-specific evidence found.",
+    "sources": [],
+    "nuance": "Political scientist B. Villalba (2012, cited on the party's Wikipedia page) notes that party members diverge on cutting employer contributions. Coded from that inference, so low confidence."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme calls for 'social and ecological protectionism' at EU borders, a ban on imports that do not meet social and environmental standards, and rejection of Mercosur/CETA.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Instauration d'une règle verte européenne et d'un protectionnisme social et écologique aux frontières européennes"
+     }
+    ],
+    "nuance": "Partial support: the protection is EU-level and tied to standards. It is not France-specific sectoral tariffs or quotas. 2024 programme."
+   },
+   {
+    "id": "eco5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The NFP programme refuses privatisation of hydroelectric dams. Full renationalisation of energy or motorways is not explicit in the programme summary.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Refus de la privatisation des barrages hydroélectriques"
+     }
+    ],
+    "nuance": "Partial: this is public control of some strategic assets. The motorway item is a moratorium on new motorway projects and does not cover taking concessions back. Not verified for 2026."
+   },
+   {
+    "id": "eco6",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme calls for reforming inheritance tax and creating a 'maximum inheritance', which is the opposite of lowering it.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Réforme de l'impôt sur l'héritage ... Instauration d'un héritage maximum"
+     }
+    ],
+    "nuance": "2024 coalition programme. The direction of the 'reform' is set by the maximum-inheritance cap."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme calls for repealing the 2023 reform and returning to retirement at 60. Les Écologistes fought the Borne reform, and Tondelier called the Assembly a 'ZAD démocratique' against it.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Abrogation de la réforme des retraites et retour à la retraite à 60 ans"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2023-01",
+      "quote": "Marine Tondelier qualifie l'Assemblée nationale de « zone à défendre démocratique »"
+     }
+    ],
+    "nuance": "The target age is 60, below 62, so it fits the statement. 2024 programme. Her 2026 campaign wording was not verified."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "She opposed the 2023 increase to 64, and the NFP programme wants to go back to 60, so she opposes raising the age above 64.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Abrogation de la réforme des retraites et retour à la retraite à 60 ans"
+     }
+    ],
+    "nuance": "Follows directly from ret1."
+   },
+   {
+    "id": "ret3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The Greens defend the pay-as-you-go system, so mandatory capitalisation is unlikely.",
+    "sources": [],
+    "nuance": "Inferred. No explicit statement found, and search was exhausted."
+   },
+   {
+    "id": "fin1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "The NFP programme refuses EU budget-austerity rules and favours new revenue over cuts. That rejects making the 3% target a priority at the cost of large cuts.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Réforme de la politique agricole commune (PAC) et refus des règles d'austérité budgétaire"
+     }
+    ],
+    "nuance": "No Tondelier-specific statement on the 3% target was retrieved. Coded -2 because the statement is about large spending cuts, which the programme explicitly rejects."
+   },
+   {
+    "id": "fin2",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme restores cut public-service posts (ONF, OFB, Météo-France, Cerema) and increases police headcount, the opposite of cutting civil servants.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Rétablissement des postes supprimés dans le service public à l'Office national des forêts, l'Office français de la biodiversité, Météo-France"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "fin3",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The Greens favour investment for the ecological transition, partly debt-financed (a European 'green rule' and EU common borrowing), and also stress new taxes.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Instauration d'une règle verte européenne"
+     }
+    ],
+    "nuance": "Coded +1 rather than +2 because the financing emphasis is on taxing the wealthy. No explicit acceptance of more national debt was retrieved."
+   },
+   {
+    "id": "fin4",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "The Greens likely oppose a constitutional deficit rule, since they reject austerity rules.",
+    "sources": [],
+    "nuance": "Inferred from the NFP's 'refus des règles d'austérité budgétaire'. No direct statement retrieved."
+   },
+   {
+    "id": "trav1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme raises the SMIC (EUR 1,600 net, well above inflation) and indexes wages on inflation.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Rehaussement du salaire minimum interprofessionnel de croissance (SMIC)"
+     }
+    ],
+    "nuance": "The EUR 1,600 figure comes from the Le Monde headline cited on the page ('ISF climatique et smic à 1 600 euros net'). 2024 programme, not confirmed for 2026."
+   },
+   {
+    "id": "trav2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The party opposed unemployment-insurance reforms that cut benefits.",
+    "sources": [],
+    "nuance": "Party line, not verified this session."
+   },
+   {
+    "id": "trav3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The party opposed the RSA activity conditionality in the 2023 law.",
+    "sources": [],
+    "nuance": "Party line, not verified this session."
+   },
+   {
+    "id": "trav4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The party historically favours moving toward 32 hours. The NFP programme only commits to studying 32 hours.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Rétablissement des critères de pénibilité au travail et étude des 32 heures en lien"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "une plus grande généralisation des 35 heures et tendre vers les 32 heures"
+     }
+    ],
+    "nuance": "+1 because the 2024 commitment is only a study. Tondelier's personal 2026 stance was not confirmed."
+   },
+   {
+    "id": "imm1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme repeals the 2024 immigration law, creates a legal and safe immigration route, and makes the 10-year card the standard permit, the opposite of sharply cutting legal immigration.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Création d'une voie légale et sécurisée d'immigration"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "imm2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes a referendum on immigration.",
+    "sources": [],
+    "nuance": "Inferred from opposition to the right's referendum proposals. No direct quote retrieved."
+   },
+   {
+    "id": "imm3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme guarantees access to AME, which is the opposite of cutting it to urgent care only.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Garantie de l'accès à l'aide médicale d'État (AME, contre les lois abrogées)"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "imm4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme regularises undocumented workers, students and parents of schoolchildren, which goes beyond shortage occupations.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Régularisation des travailleurs, étudiants, parents d'enfants scolarisés, en situation irrégulière"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "imm5",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes national preference.",
+    "sources": [],
+    "nuance": "Party line. Tondelier built her profile opposing the RN in Hénin-Beaumont. No direct quote retrieved."
+   },
+   {
+    "id": "imm6",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes abolishing droit du sol.",
+    "sources": [],
+    "nuance": "Party line. No direct quote retrieved."
+   },
+   {
+    "id": "imm7",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Local voting rights for foreign residents is a long-standing Les Écologistes position.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "le droit de vote des étrangers aux élections locales"
+     }
+    ],
+    "nuance": "Party position. Not found in Tondelier's 2026 campaign material."
+   },
+   {
+    "id": "sec1",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Opposes mandatory minimum sentences (peines planchers).",
+    "sources": [],
+    "nuance": "Party line. Not verified this session."
+   },
+   {
+    "id": "sec2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The Greens opposed the 2025 Attal law, which tightened juvenile justice and limited the 'excuse de minorité' for serious crimes.",
+    "sources": [],
+    "nuance": "The group's roll-call vote was not retrieved. Likely -2 if a source is found; kept at -1 for lack of evidence."
+   },
+   {
+    "id": "sec3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme replaces IGPN/IGGN with a new independent body attached to the Défenseur des droits. The party also wants police-violence cases handled by an independent institution.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Remplacement de l'Inspection générale de la police nationale (IGPN) ... par un nouvel organisme indépendant rattaché au Défenseur des droits"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "souhaite confier la gestion des affaires de violences policières à une institution indépendante et transparente"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "sec4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes' platform includes legalising soft drugs with regulation and taxation. The European Greens' 2024 manifesto backs legalising cannabis for adults within a regulatory framework.",
+    "sources": [
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "Nous soutenons la légalisation du cannabis pour les adultes. Le but est de poser un cadre réglementaire tout en protégeant les mineurs."
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "la légalisation des drogues douces par la réglementation et la taxation de leur production et de leur distribution"
+     }
+    ],
+    "nuance": "Party line. No 2025-26 Tondelier personal quote retrieved. Wikipedia elsewhere uses the softer 'plutôt favorable', but the platform items are explicit."
+   },
+   {
+    "id": "sec5",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The NFP programme bans facial recognition and puts video-surveillance under evaluation by the Défenseur des droits. The European Greens call for banning biometric mass surveillance and AI predictive policing.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Interdiction de la reconnaissance faciale et évaluation des dispositifs de vidéosurveillance avec le Défenseur des droits"
+     },
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "interdire ... la surveillance biométrique de masse ... ainsi que la surveillance prédictive basée sur l'IA"
+     }
+    ],
+    "nuance": "2024 programme."
+   },
+   {
+    "id": "eu1",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes are a eurofederalist party, which is incompatible with French law prevailing over EU law.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "est un parti politique écologiste et eurofédéraliste français"
+     }
+    ],
+    "nuance": "Party identity. No direct Tondelier quote on legal primacy."
+   },
+   {
+    "id": "eu2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "The European Greens' 2024 manifesto, on which Les Écologistes campaigned, wants an EU ecological-transition fund financed mainly by joint EU borrowing.",
+    "sources": [
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "Ce fonds sera principalement financé par des emprunts communs à l’échelle de l'UE."
+     }
+    ],
+    "nuance": "The source covers climate and industry. Defence borrowing was not explicitly checked. No personal Tondelier quote retrieved."
+   },
+   {
+    "id": "eu3",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes, through the European Greens 2024 manifesto and the NFP programme, want a significantly larger EU budget funded by own resources. That is the opposite of cutting France's contribution.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "Tentative de taxation des plus riches au niveau européen pour consolider le budget de l'Union européenne"
+     },
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "le budget européen doit être augmenté de manière significative"
+     }
+    ],
+    "nuance": "Party line, 2024. Own-resources financing could in theory lower national contributions, but the main aim is a bigger budget."
+   },
+   {
+    "id": "eu4",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "The European Greens' 2024 manifesto (Les Écologistes' list) says unanimity blocks EU foreign policy and backs ending national vetoes. The party is eurofederalist.",
+    "sources": [
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "Le manque d’unanimité entre les États membres de l'UE sur des questions allant de la fiscalité à la politique étrangère ... empêche l'UE de prendre des décisions"
+     },
+     {
+      "url": "https://www.datocms-assets.com/87481/1713977008-manifeste-pve-2024_fr.pdf",
+      "outlet": "Parti Vert Européen, manifeste 2024 (FR)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2024-04",
+      "quote": "en mettant fin aux vetos nationaux"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Elle défend une intensification de l'harmonisation des lois des États membres, de leur système éducatif, de la politique extérieure"
+     }
+    ],
+    "nuance": "Explicit at European Greens level in 2024. No personal Tondelier quote retrieved."
+   },
+   {
+    "id": "eu5",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes are a eurofederalist party that wants EU fiscal rules reformed at EU level. The NFP line 'refus des règles d'austérité budgétaire' rejects austerity rules but does not commit to unilateral non-application.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+      "outlet": "Wikipedia (summary of NFP programme)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2024-06",
+      "quote": "refus des règles d'austérité budgétaire"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "est un parti politique écologiste et eurofédéraliste français"
+     }
+    ],
+    "nuance": "The NFP wording leaves some ambiguity, which is why this is -1 rather than -2. No 2025-26 Tondelier statement on 'désobéissance' was retrieved."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "party_line",
+    "summary": "Les Écologistes are eurofederalist and firmly against leaving the EU.",
+    "sources": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/Les_%C3%89cologistes",
+      "outlet": "Wikipedia",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "est un parti politique écologiste et eurofédéraliste français"
+     }
+    ],
+    "nuance": "Uncontroversial."
+   }
+  ],
+  "verification_notes": [
+   "Method limit: the session's WebSearch budget (200/200) was exhausted, so no news or roll-call searches were possible. Verification used the raw wikitext of the French Wikipedia pages Nouveau_Front_populaire, Les_Écologistes, Taxe_Zucman, Marine_Tondelier and Justice_des_mineurs_en_France (fetched with curl, with quotes checked verbatim), plus the European Greens 2024 French manifesto PDF. lesecologistes.fr returned 403 and huffingtonpost.fr was blocked. No Tondelier 2026 campaign programme text was retrievable. Her documented first priority is a 'sécurité sociale de l'alimentation'.",
+   "Context: Tondelier is not an MP, so she has no personal votes. She declared her candidacy on 22 Oct 2025 and was designated by Les Écologistes on 8 Dec 2025. The left primary failed in July 2026. The NFP June 2024 programme she co-founded is used as the latest written programme. No reversal in 2025-26 was found.",
+   "eco1: +2 low party_line, no source -> +2 medium programme: the NFP programme says 'Rétablissement de l'ISF ... composante climatique'.",
+   "eco2: +2 medium party_line -> +2 high vote: the 2% bill on fortunes above EUR 100M was tabled by Écologiste MPs Éva Sas and Clémentine Autain on 7 Jan 2025 and adopted by the Assembly on 20 Feb 2025. The Senate rejected it on 12 Jun 2025, and the Assembly rejected it as a PLF 2026 amendment on 31 Oct 2025.",
+   "eco3: -1 kept. The nuance now cites the verified Villalba (2012) remark on member divergence over employer contributions.",
+   "eco4: +1 low party_line -> +1 medium programme: NFP 'protectionnisme social et écologique aux frontières européennes'. The protection is EU-level and not French sectoral tariffs, so +1 holds.",
+   "eco5: +1 low party_line -> +1 low programme: NFP 'Refus de la privatisation des barrages hydroélectriques'. The motorway item is a moratorium on new projects, not renationalisation.",
+   "eco6: -2 low inferred -> -2 medium programme: NFP 'réforme de l'impôt sur l'héritage' and 'héritage maximum'.",
+   "ret1: +2 low party_line -> +2 medium programme: NFP 'retour à la retraite à 60 ans' (verified verbatim). The nuance was fixed: the target is 60, not 62.",
+   "ret2: -2 low party_line -> -2 medium programme: follows from the return to 60.",
+   "fin1: -1 low inferred -> -2 low programme: the NFP explicitly says 'refus des règles d'austérité budgétaire'. The statement requires large spending cuts, so the draft was off by one.",
+   "fin2: -2 low party_line -> -2 medium programme: the NFP restores cut public-service posts and raises police numbers. The draft summary did not address the statement (cutting civil servants) and was reworded.",
+   "fin3: +1 kept. Added the NFP 'règle verte européenne' source.",
+   "trav1: +2 low party_line -> +2 medium programme: the NFP raises the SMIC to EUR 1,600 net (Le Monde headline cited on the page).",
+   "trav4: +1 low party_line -> +1 medium programme: the NFP only says 'étude des 32 heures', and the party page says 'tendre vers les 32 heures'.",
+   "imm1: -2 low -> -2 medium programme: NFP legal migration route and 10-year card.",
+   "imm3: -2 low -> -2 medium programme: NFP 'Garantie de l'accès à l'AME'.",
+   "imm4: +2 low -> +2 medium programme: NFP regularisation of undocumented workers, students and parents.",
+   "imm7: +2 low -> +2 medium party_line: the party page lists 'droit de vote des étrangers aux élections locales'.",
+   "sec3: +2 low party_line -> +2 medium programme: the NFP replaces IGPN/IGGN with an independent body attached to the Défenseur des droits. Party-page source added.",
+   "sec4: +2 low -> +2 medium party_line: added the platform item 'légalisation des drogues douces par la réglementation et la taxation' and the EGP 2024 line 'Nous soutenons la légalisation du cannabis pour les adultes'.",
+   "sec5: -2 low party_line -> -2 medium programme: NFP ban on facial recognition, plus the EGP call to ban biometric mass surveillance and AI predictive policing.",
+   "eu1: -2 low -> -2 medium party_line: the party is explicitly 'eurofédéraliste'.",
+   "eu2: +2 low party_line, no source -> +2 medium party_line: the EGP 2024 manifesto says the transition fund is 'principalement financé par des emprunts communs'.",
+   "eu3: -2 low inferred -> -2 medium party_line: EGP 'le budget européen doit être augmenté de manière significative', and the NFP wants to 'consolider le budget de l'UE'.",
+   "eu4: +1 low party_line -> +2 medium party_line: the EGP manifesto names unanimity in foreign policy as blocking EU decisions and backs 'mettant fin aux vetos nationaux'. The draft was off by one.",
+   "eu5: -1 low inferred -> -1 low party_line: sources added. An earlier verify pass had moved this to 0, which over-reads 'refus des règles d'austérité'. That phrase calls for rejecting or reforming the rules and does not commit to unilateral non-application by a eurofederalist party.",
+   "eu6: -2 low -> -2 high party_line: eurofederalist party. Source added.",
+   "Still without a 2025-26 source (search exhausted), all left low confidence and unchanged: eco3, ret3, fin4, trav2, trav3, imm2, imm5, imm6, sec1, sec2. sec2: the Attal law (adopted 19 May 2025) limited the excuse de minorité for serious crimes, and the Conseil constitutionnel largely struck it down on 19 Jun 2025. The Écologiste group's vote was not retrieved, so -1 stays. No null positions were in the draft. No fabricated or dead URLs were found: every cited URL was fetched this session."
+  ]
+ }
+}

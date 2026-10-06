@@ -1,0 +1,450 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Le Pen proposes to abolish the real-estate IFI and replace it with a tax on financial wealth (impot sur la fortune financiere, IFF) at the same EUR 1.3m threshold. She does not back a classic ISF.",
+   "nuance": "Partial support (+1): she backs a wealth tax on financial assets but drops real estate, and the RN voted against restoring the ISF in 2024. Only secondary aggregators were checked; the RN's own text was not opened."
+  },
+  {
+   "id": "eco2",
+   "summary": "The RN group voted against the Zucman tax in the 2026 budget debate (amendments rejected 172 to 228) while promoting its own financial-wealth tax.",
+   "nuance": "Coded -1 rather than -2 because the RN backs a different tax on financial fortunes. It opposes the Zucman design itself. A -2 coding would also be defensible."
+  },
+  {
+   "id": "eco3",
+   "summary": "Proposes exempting employers from contributions on wage rises of up to 10% for 5 years (for wages under 3x SMIC), and abolishing the CVAE production tax.",
+   "nuance": "Cuts to contributions are targeted, tied to wage rises, and not a general competitiveness cut, so coded +1. The aggregator appears to draw partly on the 2022 programme."
+  },
+  {
+   "id": "eco4",
+   "summary": "Opposes free-trade agreements and promotes protectionist 'economic patriotism' and national preference in public procurement.",
+   "nuance": "Tariffs and quotas are not always explicit. The RN stresses 'intelligent protectionism' and border adjustments, so coded +1 rather than +2."
+  },
+  {
+   "id": "eco5",
+   "summary": "Supports renationalising motorway concessions (cutting tolls by about 15%) and nationalising EDF to keep electricity production under state control.",
+   "nuance": "Both sectors named in the statement are covered by explicit public-control proposals. Aggregator source only."
+  },
+  {
+   "id": "eco6",
+   "summary": "Proposes abolishing direct inheritance duties for modest and middle-class families, and exempting parental gifts of up to EUR 100,000 per child every ten years.",
+   "nuance": "The cut targets modest and middle-class estates, but it is a large cut to both inheritance and gift taxes. She opposes new levies on large inheritances."
+  },
+  {
+   "id": "ret1",
+   "summary": "Le Pen commits to bringing the legal retirement age back from 64 to 62, and to 60 for long careers. The estimated cost is about EUR 9bn per year.",
+   "nuance": "The X post could not be opened (HTTP 402), so it is unverified. Two neutral aggregators corroborate the position. Financing caveats and any timing flexibility were not checked."
+  },
+  {
+   "id": "ret2",
+   "summary": "Firmly opposes raising the age; wants to lower it.",
+   "nuance": "Consistent with ret1."
+  },
+  {
+   "id": "ret3",
+   "summary": "Le Pen supports voluntary funded (capitalisation) supplementary pensions on top of pay-as-you-go, and says they should remain voluntary. That means she does not support a mandatory component.",
+   "nuance": "MonVote codes her 'plutôt pour' capitalisation in general. On the MANDATORY component in the statement she is against, but she is open to voluntary funding, hence -1."
+  },
+  {
+   "id": "fin1",
+   "summary": "Pledges a deficit below 3% by 2030, with savings mainly from immigration, the EU contribution and fraud. Bardella floated EUR 100bn of savings in exchange for an ECB debt deal, but the RN rejects 'austerity'.",
+   "nuance": "Mixed: the 3% target is a priority, but the programme also promises tax cuts and spending increases and does not embrace 'large spending cuts' as such."
+  },
+  {
+   "id": "fin2",
+   "summary": "No general cut in civil-servant numbers. She proposes abolishing the ARS (regional health agencies) and cutting hospital administrative posts to 10% to free resources for care staff, which is a redeployment.",
+   "nuance": "The proposal concerns hospital admin posts, redirected to frontline staff, and does not cut the overall number of civil servants. The RN also promises more police, judges and carers. Single aggregator source."
+  },
+  {
+   "id": "fin3",
+   "summary": "Has no objective of launching large debt-financed public investment programmes and criticises green-transition spending. She defends public services through savings elsewhere.",
+   "nuance": "MonVote's exact question wording is unknown, so this is kept at -1 with low confidence."
+  },
+  {
+   "id": "fin4",
+   "summary": "No evidence found on a constitutional golden rule.",
+   "nuance": "Not found. Absent from the MonVote2027 and Candidats-presidentielle-2027 pages, and further web search was unavailable during verification."
+  },
+  {
+   "id": "trav1",
+   "summary": "Against large SMIC increases: the RN voted against a 2022 amendment raising the SMIC to EUR 1,500 net. She prefers employer-contribution exemptions to fund wage rises of up to 10%.",
+   "nuance": "Coded -1 because she supports wage rises through other channels. Aggregator only."
+  },
+  {
+   "id": "trav2",
+   "summary": "The RN opposed the 2019 and 2023 unemployment-insurance tightening. It supports activity conditions for the RSA but no clear cut to unemployment insurance.",
+   "nuance": "Recalled from past votes and not verified. MonVote2027 does not cover unemployment insurance, and search was unavailable."
+  },
+  {
+   "id": "trav3",
+   "summary": "Bardella said in February 2024 that he was 'parfaitement d'accord' with making the RSA conditional on 15 hours of activity. No RN or Le Pen promise to abolish the obligation was found. However, Le Pen and the whole RN group (88-0) voted against the 2023 plein-emploi law that created it.",
+   "nuance": "The evidence is mixed. Le Pen's vote was on the whole bill (France Travail reform and more), not specifically on the activity hours. The Bardella quote is relayed by an opponent outlet, although it is quoted verbatim from France 3. Code 0 if a better source shows Le Pen herself opposing the obligation."
+  },
+  {
+   "id": "trav4",
+   "summary": "Opposes cutting working time. She wants firms to be able to move away from 35 hours through branch agreements, which means flexibility upward, not toward 32 hours.",
+   "nuance": "Aggregator only."
+  },
+  {
+   "id": "imm1",
+   "summary": "Wants a sharp reduction of legal immigration with binding annual quotas, an end to family reunification, and asylum applications made from abroad.",
+   "nuance": "Student and work migration specifics are not detailed."
+  },
+  {
+   "id": "imm2",
+   "summary": "Calls for a referendum on immigration and citizenship: she demanded one on droit du sol in 2025, and plans a constitutional referendum 'Citoyenneté-Identité-Immigration' as a first act in 2027.",
+   "nuance": "The Article 11 route is legally disputed; her position is firm."
+  },
+  {
+   "id": "imm3",
+   "summary": "Wants the AME abolished in its current form. The RN's long-standing proposal replaces it with urgent-care-only aid.",
+   "nuance": "The urgent-care replacement comes from the 2022 programme and RN line; the 2026 source confirms only the suppression 'in its current form'."
+  },
+  {
+   "id": "imm4",
+   "summary": "Clearly opposes regularising undocumented workers in shortage occupations.",
+   "nuance": "Consistent with the RN's opposition to the regularisation article of the 2023 immigration law (recalled, not re-verified)."
+  },
+  {
+   "id": "imm5",
+   "summary": "National priority for housing, jobs and benefits is central, to be enshrined in the constitution.",
+   "nuance": "None."
+  },
+  {
+   "id": "imm6",
+   "summary": "Wants to abolish automatic acquisition of nationality by birth in France, by referendum.",
+   "nuance": "None."
+  },
+  {
+   "id": "imm7",
+   "summary": "The RN consistently opposes local voting rights for non-EU foreigners; no contrary evidence was found.",
+   "nuance": "Recalled party line that could not be retrieved; France-Vote's immigration page does not cover it. Confidence lowered because no source was found."
+  },
+  {
+   "id": "sec1",
+   "summary": "Backs mandatory minimum sentences for recidivists and violent crimes, and the end of automatic sentence reductions.",
+   "nuance": "Aggregator only."
+  },
+  {
+   "id": "sec2",
+   "summary": "Wants to end the 'excuse of minority' and lower the age of criminal majority to 16.",
+   "nuance": "Aggregator only. The RN framing targets repeat offenders, which is broader than the statement's 'serious crimes'."
+  },
+  {
+   "id": "sec3",
+   "summary": "Against an independent police oversight or investigation authority. Bodycams are proposed to protect officers, not as civilian oversight.",
+   "nuance": "Bodycams are not independent oversight, so -1 understated the opposition. Single aggregator source, hence low confidence."
+  },
+  {
+   "id": "sec4",
+   "summary": "Opposes cannabis legalisation and backs zero tolerance.",
+   "nuance": "Aggregator only."
+  },
+  {
+   "id": "sec5",
+   "summary": "The RN voted for algorithmic video surveillance for the 2024 Olympics, and Bardella (2026) backs developing facial recognition in public spaces. That goes beyond the statement.",
+   "nuance": "The quote is from Bardella as party president. Backing facial recognition is stronger than the AI video-surveillance rollout in the statement."
+  },
+  {
+   "id": "eu1",
+   "summary": "Wants constitutional primacy of national law over European law.",
+   "nuance": "None."
+  },
+  {
+   "id": "eu2",
+   "summary": "The RN opposes EU federal debt mutualisation; no direct 2026 source was retrieved.",
+   "nuance": "Recalled party line. Not found on the aggregators checked, and search was unavailable."
+  },
+  {
+   "id": "eu3",
+   "summary": "The programme calls for renegotiating France's contribution to the EU budget, with the aim of reducing it.",
+   "nuance": "A reduction is implied but not quantified here; savings on the EU contribution also feature in fin1."
+  },
+  {
+   "id": "eu4",
+   "summary": "Defends a Europe of sovereign nations and opposes any further transfer of sovereignty. That implies keeping the national veto in foreign policy.",
+   "nuance": "No explicit statement on unanimity in foreign policy; deduced from her stated opposition to any further transfer of sovereignty."
+  },
+  {
+   "id": "eu5",
+   "summary": "Wants to put the Constitution above EU rules and limit the effect of international and EU law, which would allow non-application where they block her programme.",
+   "nuance": "Paraphrase; consistent with eu1."
+  },
+  {
+   "id": "eu6",
+   "summary": "Rejects Frexit and euro exit; advocates treaty renegotiation.",
+   "nuance": "She reversed her 2017 euro-exit position. MonVote codes her 'plutôt contre' rather than 'tout à fait contre', but the RN explicitly rejects leaving the EU."
+  },
+  {
+   "id": "int1",
+   "summary": "On 16 Sept 2026 (LCI) Le Pen said France can no longer afford to help Ukraine financially as much as now, while training Ukrainian soldiers and supplying defensive equipment can continue.",
+   "nuance": "Partial support only (training, defensive material); wants the financial effort cut. Bardella (March 2024) opposed weapons able to reach Russian territory. This is partial opposition, not full opposition, hence -1."
+  },
+  {
+   "id": "int2",
+   "summary": "RN has consistently rejected sending French troops to Ukraine. Not re-verified live in this run.",
+   "nuance": "Coded from background knowledge of RN statements (2024-2025). The web search budget was exhausted and no URL could be confirmed. Needs live verification. Le Pen favours a peace conference over deployment."
+  },
+  {
+   "id": "int3",
+   "summary": "Le Pen's 2022 manifesto calls for France to withdraw from NATO's integrated command, and a 2026 analysis reports that she still defends this. Bardella (2024) said not during wartime.",
+   "nuance": "Le Pen's own line is exit: in the 2022 manifesto, reaffirmed per an October 2026 secondary source. Bardella (March 2024) qualified the timing, saying not while the Ukraine war continues. That is a timing caveat, not a reversal."
+  },
+  {
+   "id": "int4",
+   "summary": "On 2 July 2025, RN deputies in the European affairs committee joined macronist and LR deputies in rejecting a resolution to denounce the EU-Israel association agreement.",
+   "nuance": "The only source is an opposing party's site describing a committee vote. The factual claim is plausible but uncorroborated. No personal Le Pen statement found. Corroboration with a neutral outlet was not possible because the search budget was exhausted."
+  },
+  {
+   "id": "int5",
+   "summary": "Her targets have varied: the 2017 programme aimed at 3% of GDP by 2022, while the 2022 programme aimed at EUR 55bn by 2027 (about 2% of GDP). In 2026 the RN supports higher military budgets but stresses public-finance limits. No current commitment above 3% was found.",
+   "nuance": "No programme has ever gone above 3%: the 2017 target was exactly 3%, and the 2022 target was about 2%. In 2026 she says Ukraine aid must be cut for budget reasons, which suggests limits on defence spending too. The record is mixed; await the 2027 programme."
+  },
+  {
+   "id": "int6",
+   "summary": "Her 2017 programme proposed reinstating a compulsory three-month service, mainly civil and civic. The 2022 manifesto has no general compulsory service, only an extension of the overseas 'service militaire adapté'. No 2025-2026 position was found.",
+   "nuance": "Old evidence (2017). The service was short and mainly civic, hence only +1. It was absent from the 2022 programme, so the current position is uncertain."
+  },
+  {
+   "id": "int7",
+   "summary": "Le Pen has called sanctions on Russia useless and counterproductive (older statements). A 2026 position on lifting them in exchange for a peace deal is not verified.",
+   "nuance": "The source is old and could not be reopened (HTTP 403 on recheck), so the headline comes from earlier search results. After 2022 she has called for a peace conference. Her current line on sanctions is unverified, hence low confidence."
+  },
+  {
+   "id": "ecol1",
+   "summary": "On 28 May 2025 the RN voted with the right to abolish the ZFE (low-emission zones), calling them territorial separatism.",
+   "nuance": "This is the group vote and statements by group members. It is consistent with Le Pen's long-standing criticism of the ZFE."
+  },
+  {
+   "id": "ecol2",
+   "summary": "On 8 July 2025 the RN group voted 119-0 (2 abstentions) for the Duplomb law. The law reintroduced neonicotinoid pesticides (acetamiprid) that France had banned but other EU countries still allow.",
+   "nuance": "The vote directly concerns lifting a France-only pesticide ban in the name of a level playing field with foreign competitors. The 2022 ecology booklet did make pesticide authorisations conditional on biodiversity indicators, which is a mild counterpoint."
+  },
+  {
+   "id": "ecol3",
+   "summary": "RN opposes the 2035 end of new combustion-car sales.",
+   "nuance": "Background knowledge; not verified live because the search budget was exhausted."
+  },
+  {
+   "id": "ecol4",
+   "summary": "RN opposes new environmental taxes and 'punitive ecology'. No specific aviation position was verified.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Her 2022 ecology booklet rejects 'punitive ecology' and says France would meet Paris targets at its own pace, assessing each year according to other countries' trajectories and the French quality of life.",
+   "nuance": "The 2022 programme makes climate effort conditional on competitiveness and quality of life. The statement is a general trade-off, so the code remains an interpretation, at low confidence."
+  },
+  {
+   "id": "ene1",
+   "summary": "Her 2022 manifesto pledges to start renewing the nuclear fleet without delay (EPRs, small modular reactors, a revival of fast-neutron research), making nuclear the pivot of energy policy.",
+   "nuance": "2022 programme. Renewing the whole fleet implies far more than six EPR2. No exact 2026 number was verified."
+  },
+  {
+   "id": "ene2",
+   "summary": "Le Pen wants to preserve the entire nuclear fleet, extend its lifetime and make nuclear the pivot of energy policy.",
+   "nuance": "A long-standing, stable position."
+  },
+  {
+   "id": "ene3",
+   "summary": "Her 2022 programme sets a moratorium on any new wind turbine, onshore or offshore, plus gradual dismantling of existing ones.",
+   "nuance": "The pledge goes beyond halting new developments. It is from the 2022 programme and consistent with later RN statements."
+  },
+  {
+   "id": "ene4",
+   "summary": "Her 2022 programme promised to leave the European electricity market to bring back decent prices.",
+   "nuance": "2022 programme; a 2026 restatement was not verified."
+  },
+  {
+   "id": "ins1",
+   "summary": "RN does not favour a Sixth Republic. Le Pen favours a strong presidency plus referendums.",
+   "nuance": "Background knowledge."
+  },
+  {
+   "id": "ins2",
+   "summary": "Her 2022 programme pledges to introduce proportional representation.",
+   "nuance": "This is a long-standing RN demand, here from the 2022 programme. The RN has floated keeping a majority bonus in some versions, which was not verified."
+  },
+  {
+   "id": "ins3",
+   "summary": "Her 2022 programme pledges to create a citizens' initiative referendum (RIC).",
+   "nuance": "2022 programme. The RIC proposed there carried thresholds; not re-verified for 2027."
+  },
+  {
+   "id": "ins4",
+   "summary": "RN criticises Article 49.3 and wants it curtailed.",
+   "nuance": "Background knowledge."
+  },
+  {
+   "id": "ins5",
+   "summary": "Her 2022 manifesto pledges a referendum on immigration within six months of the election, including writing nationality rules and national priority into the Constitution.",
+   "nuance": "2022 programme; the immigration referendum is a constant RN pledge. Justice was not verified."
+  },
+  {
+   "id": "soc1",
+   "summary": "Le Pen voted against the assisted-dying bill at every reading, including the definitive adoption on 15 July 2026, as did most of the RN group (106 against, 12 for). No promise to repeal the law was found.",
+   "nuance": "Personal opposition is consistent, but per the brief -2 requires a promise of repeal, which was not found (live search for one was not possible). The RN gave freedom of vote. Bardella also opposes the law ('Le véritable progrès, c'est le soin, pas la mort', JDD)."
+  },
+  {
+   "id": "soc2",
+   "summary": "Her 2022 platform referenced her bill against Islamist ideologies, which included banning the headscarf in public space.",
+   "nuance": "2022 position. She suggested phasing it in during the 2022 campaign, and whether it stays in the 2027 programme was not verified. The URL was not re-confirmed because the search budget was exhausted."
+  },
+  {
+   "id": "soc3",
+   "summary": "On 16 September 2026 Le Pen said she would ban the Islamic veil progressively, starting with a decree covering school trips, universities, sports federations and public buildings.",
+   "nuance": "She targets the Islamic veil specifically rather than all conspicuous religious symbols, but she explicitly names school trips. The draft's sourceless party_line coding is now backed by her own recent statement."
+  },
+  {
+   "id": "soc4",
+   "summary": "RN backs a more restrictive secularism, such as veil bans and specific legislation against Islamist ideologies.",
+   "nuance": "Inferred from soc2 and soc3."
+  },
+  {
+   "id": "soc5",
+   "summary": "Her 2022 manifesto says the ban on surrogacy (GPA) will be enforced and may be strengthened.",
+   "nuance": "The same passage pledges a moratorium of at least three years on societal reforms."
+  },
+  {
+   "id": "edu1",
+   "summary": "Her 2022 programme introduces a school uniform in primary school and collège.",
+   "nuance": "2022 programme; it does not cover lycée."
+  },
+  {
+   "id": "edu2",
+   "summary": "Her 2022 school booklet caps classes at 20 pupils in grande section and CP and at 30 in secondary, and prioritises teacher pay. There is no pledge of mass hiring.",
+   "nuance": "She supports class-size caps, mostly at existing levels, but does not commit to large-scale recruitment. The record is mixed."
+  },
+  {
+   "id": "edu3",
+   "summary": "Her 2022 programme calls the collège unique 'a machine for failure' and makes the brevet an orientation exam. Ability grouping is not explicit.",
+   "nuance": "Inferred from the 2022 school booklet's criticism of the collège unique."
+  },
+  {
+   "id": "edu4",
+   "summary": "RN defends school freedom.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "edu5",
+   "summary": "The RN wants to revise Parcoursup's calendar and procedure without abolishing it, and its education programme stresses early selection. No sign of support for ending selection at university entry was found.",
+   "nuance": "Per the brief, reforming Parcoursup while keeping selection is not agreement. Inferred from the RN's pro-selection education line. No explicit statement on university entry selection was found."
+  },
+  {
+   "id": "san1",
+   "summary": "On 2 April 2025 the RN group voted 50-0 against restoring Article 1 of the Garot bill, which regulates where doctors may set up practice. Her 2022 health booklet instead relies on strong financial incentives.",
+   "nuance": "The Garot article regulates installation in over-served areas rather than compelling service in under-served ones. Even so, RN's unanimous opposition plus its incentive-only programme indicates clear opposition to coercion."
+  },
+  {
+   "id": "san2",
+   "summary": "RN opposes higher medical co-payments (franchises).",
+   "nuance": "Background knowledge; not verified live."
+  },
+  {
+   "id": "san3",
+   "summary": "RN prefers supply-side housing policy and home ownership.",
+   "nuance": "Inferred."
+  },
+  {
+   "id": "san4",
+   "summary": "Her 2022 programme renationalises motorways and keeps hydroelectricity public under EDF. It denounces the 'competition ideology gone mad' imposed on EDF.",
+   "nuance": "One exception: the 2022 programme proposes privatising public broadcasting."
+  },
+  {
+   "id": "eco7",
+   "summary": "No 2025-2026 statement by Le Pen or the RN on a 'TVA sociale' was found. The RN's October 2025 counter-budget cuts VAT on energy and abolishes it on 100 basic products, which is the opposite direction to a VAT increase.",
+   "nuance": "Inferred from the RN's VAT-cutting fiscal line. No explicit rejection of a VAT-for-contributions swap was found, so this is -1 rather than -2. The web-search budget was exhausted during verification."
+  },
+  {
+   "id": "imm8",
+   "summary": "The RN programme abolishes droit du sol and limits access to nationality to naturalisation 'on criteria of merit and assimilation'. In 2025 Le Pen voted to tighten access to nationality in Mayotte. This is the opposite of easing naturalisation.",
+   "nuance": "Consistent from 2022 to 2026. A merit-and-assimilation test is a restriction, not a facilitation."
+  },
+  {
+   "id": "sec6",
+   "summary": "No 2025-2026 RN or Le Pen statement on identity-check receipts was found. Le Pen's 2022 programme sought to give police a free hand without every arrest being challenged. In July 2026 she voted for a presumption of self-defence for police.",
+   "nuance": "Inferred from adjacent pro-police positions, with no direct evidence on récépissés. Downgraded from the draft's unsourced -2."
+  },
+  {
+   "id": "eu7",
+   "summary": "RN president Bardella rejected a European army and European defence in March 2025, arguing it would have dragged France into war with Russia. The RN advocates a Europe of sovereign nations.",
+   "nuance": "The statement is Bardella's (Le Pen's designated Prime Minister), not Le Pen's own, so evidence is party_line. No direct Le Pen quote was retrieved, and no evidence was found on joint arms procurement specifically."
+  },
+  {
+   "id": "eu8",
+   "summary": "Le Pen opposes Ukraine's accession to the EU, while supporting an association status.",
+   "nuance": "Secondary source, undated. No 2025-2026 primary source was retrieved because the search budget was exhausted. Her September 2026 line of reducing financial aid to Ukraine is consistent with this position."
+  },
+  {
+   "id": "ecol6",
+   "summary": "In February 2024 Le Pen appeared to accept the principle of floor prices, but conditionally: they would fail without removing over-transposed norms and free-trade deals. The RN programme pledges 'prix rémunérateurs' for farmers.",
+   "nuance": "Conditional support, so +1. She warned that floor prices without those conditions could lead to 'la ruine de l'agriculture'. The RN group appears to have abstained on LFI's April 2024 floor-price bill (datan vote 3652, individual RN abstentions). No 2025-2026 update was found."
+  },
+  {
+   "id": "ene5",
+   "summary": "The RN pledges to cut VAT on energy from 20% to 5.5%. Its October 2025 counter-budget explicitly covers gas, electricity, motor fuels, wood and heating oil. In 2022 Le Pen voted for an amendment to that effect.",
+   "nuance": "All three energy types and the 5.5% rate are confirmed by primary party documents."
+  },
+  {
+   "id": "ins6",
+   "summary": "The RN's 2024 legislative programme pledged to privatise public broadcasting. Le Pen proposed this in 2021, and Bardella reiterated it in June 2024 as an objective 'à terme'.",
+   "nuance": "The October 2025 counter-budget only lists 'Baisse de la dotation à l'audiovisuel public', so the timing of privatisation is unclear. No 2026 renunciation was found, but no 2026 reaffirmation by Le Pen was retrieved either."
+  },
+  {
+   "id": "soc6",
+   "summary": "On 16 September 2026 Le Pen said her first step towards banning the Islamic veil would be a decree covering universities, among other places.",
+   "nuance": "Explicit commitment naming universities, so the draft's inferred +1 is upgraded. It concerns the Islamic veil rather than all religious symbols."
+  },
+  {
+   "id": "san5",
+   "summary": "Bardella's 2024 programme proposed lifting the bans linked to DPE and ZAN to tackle the housing crisis, and the RN programme pledges to abrogate all DPE bans and obligations. In 2023 Le Pen voted for the bill easing ZAN implementation.",
+   "nuance": "Sources date from 2023-2024. No 2025-2026 update was retrieved, although nothing suggests a reversal. The 2023 ZAN bill was a broadly supported easing, so the vote alone is weaker evidence than the programme."
+  }
+ ],
+ "record": {
+  "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; a cassation appeal is pending, so the conviction is not final. In July 2026 she confirmed she will run for president a fourth time, and Jordan Bardella, who had been prepared as the alternative RN candidate, stood aside.",
+  "offices": [
+   "Regional councillor, Nord-Pas-de-Calais",
+   "Regional councillor, Île-de-France",
+   "Member of the European Parliament",
+   "Municipal councillor, Hénin-Beaumont",
+   "Regional councillor, Nord-Pas-de-Calais / Hauts-de-France",
+   "President of the Front national / Rassemblement national",
+   "Co-president, Europe of Nations and Freedom group (European Parliament)",
+   "Deputy, Pas-de-Calais 11th constituency",
+   "Departmental councillor, Pas-de-Calais (mandate ended following the ineligibility penalty)",
+   "President of the RN group, Assemblée nationale"
+  ],
+  "legal": [
+   "European Parliament parliamentary assistants case (embezzlement of EU public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine and 5 years' ineligibility with provisional (immediate) execution. Appeal, 7 July 2026: 3 years' prison of which 2 suspended (1 firm year to be served under electronic monitoring), as reported by Public Sénat and Toute l'Europe; Wikipedia gives '1 year firm + 3 years suspended', so the exact total is reported inconsistently. EUR 100,000 fine. 45 months' ineligibility, of which 30 suspended; the 15 firm months were treated as already served (to 30 June 2026), so she is eligible in 2027. Co-defendants on appeal include Louis Aliot (1 year suspended), Bruno Gollnisch (3 years suspended) and Julien Odoul (8 months suspended); Public Sénat reports the RN was fined EUR 2 million (EUR 1 million suspended). She has filed a cassation appeal. On 8 July 2026 the Court of Cassation said it 'could' rule 'au plus tard début avril 2027', a timetable it says may change; the first round is on 18 April 2027. The conviction is therefore not final.",
+   "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing street prayers to an 'occupation'. The Lyon court acquitted her, ruling that the statement did not target the whole Muslim community."
+  ],
+  "reversals": [
+   {
+    "topic": "Euro / eurozone exit",
+    "before": "2017 campaign: proposed leaving the euro and restoring a national currency (Euronews: 'The euro is the currency of the bankers, not the people').",
+    "after": "Late in the 2017 campaign she softened this to a 'common currency' for large firms only. By 2022 she had dropped euro exit from her programme."
+   },
+   {
+    "topic": "Russia / Ukraine",
+    "before": "2017: visited Moscow and met Putin, called sanctions 'profoundly unjust and counterproductive' and proposed lifting them; defended the 2014 Crimea referendum.",
+    "after": "Since February 2022 she condemns the invasion 'without ambiguity', and in 2026 the RN denounced Russian 'hostile acts' in Europe. She still opposes further financial aid to Ukraine on budget grounds and defended the Crimea referendum again in 2023, so the shift is partial."
+   }
+  ],
+  "delivery": [
+   {
+    "what": "She has held no national or local executive office. Her record is legislative and party-building: she has led the RN group since 2022, which became the largest single-party group in the Assemblée (about 120+ deputies) after the 2024 elections. As party leader she ran the 'dédiabolisation' strategy, including expelling her father and renaming the FN as RN in 2018.",
+    "assessment": "Sources cited by Wikipedia (Le Monde, Politico Europe, New Statesman, The Conversation) describe dédiabolisation as a deliberate normalisation strategy. Critics see it as cosmetic, while supporters credit it with mainstreaming the party. A roll-call vote analysis (datan.fr, nosdeputes.fr) was not retrieved."
+   },
+   {
+    "what": "2027 platform (positions announced so far): return to retirement at 62, or 60 for people who started work before 20 (reaffirmed August 2026). Reported continuing themes from earlier platforms include national preference in benefits and social housing, tax cuts and expulsion of foreign offenders. The full 2027 programme was not reviewed.",
+    "assessment": "Le Pen costs the pension measure at about EUR 9 billion a year. Institut Montaigne (centre-right/liberal) estimates EUR 26.5 billion, or up to EUR 38 billion. France 24 carries a critical op-ed calling the platform's financing unexplained. Bardella has floated a different pension approach (no age floor, a capitalisation pillar), so the party line is not fully settled."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Left-leaning outlets typically present her as the leader of a far-right party whose normalisation is mainly a matter of image. They foreground the embezzlement conviction, her past ties to Russia and the national-preference proposal. This is inferred from general patterns, as Libération, Mediapart and L'Humanité were not opened.",
+   "right_media": "Right-leaning outlets typically present her as a legitimate sovereigntist leader. They tend to frame the prosecution as politicised and to emphasise her immigration, security and purchasing-power proposals. This is inferred, as CNews and Europe 1 pages could not be opened (HTTP 403).",
+   "neutral_media": "France 24, franceinfo, LCP and Public Sénat report the verdict, the sentence and her eligibility in procedural detail and stress the uncertainty before the cassation ruling. They treat the Le Pen/Bardella arrangement as a strategic question for the RN."
+  }
+ }
+}

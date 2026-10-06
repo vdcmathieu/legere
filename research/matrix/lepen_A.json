@@ -1,0 +1,1233 @@
+{
+ "collect": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen proposes to abolish the real-estate IFI and replace it with a tax on financial wealth (impot sur la fortune financiere). Not a classic ISF.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/isf-2027-candidats",
+      "outlet": "La Facture 2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Marine Le Pen propose de supprimer l'IFI (qui pese sur l'immobilier) et de le remplacer par un impot sur la fortune financiere"
+     }
+    ],
+    "nuance": "Partial support (+1): taxes financial assets but drops real estate. Source is a secondary aggregator; the RN's own text was not opened."
+   },
+   {
+    "id": "eco2",
+    "position": -1,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "The RN group voted against the Zucman tax in the 2026 budget debate (amendments rejected 172 to 228) while promoting its own financial-wealth tax.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-rejetee-par-l-assemblee-nationale-413632",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-10-31",
+      "quote": "Paraphrase: PS, Ecologists, LFI and PCF voted for; EPR, LR, Horizons, MoDem and RN voted against."
+     }
+    ],
+    "nuance": "Coded -1 not -2 because the RN backs a different tax on financial fortunes; it opposes the Zucman design itself."
+   },
+   {
+    "id": "eco3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "RN programme favours employer-contribution relief tied to wage rises and cuts in production taxes, centred on competitiveness and economic patriotism.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: employer contribution exemptions on wage rises up to 10%."
+     }
+    ],
+    "nuance": "Support partly from 2022 programme knowledge; no 2026 primary source opened."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes free-trade agreements and promotes protectionist 'economic patriotism' and national preference in public procurement.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: opposes free-trade agreements; supports economic patriotism."
+     }
+    ],
+    "nuance": "Tariffs/quotas are not always explicit; RN stresses 'intelligent protectionism' and border adjustments. +1 not +2."
+   },
+   {
+    "id": "eco5",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports renationalising motorway concessions (toll cuts about 15%) and public control of energy (nuclear, EDF, tariffs).",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: renationalise motorway concessions, cut tolls 15%."
+     }
+    ],
+    "nuance": "Motorways clear; energy mainly nuclear-centred and tariff regulation."
+   },
+   {
+    "id": "eco6",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes eliminating inheritance tax for modest families and raising parental gift allowance to EUR 100,000 per child.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: end succession taxes for modest families; donations exemption EUR 100,000 per child."
+     }
+    ],
+    "nuance": "Targeted rather than across-the-board cut."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Le Pen promises to restore the legal age to 62 (60 for long careers) in her programme, estimated cost about EUR 9bn per year.",
+    "sources": [
+     {
+      "url": "https://x.com/Valeurs/status/2054915144950378562",
+      "outlet": "Valeurs actuelles (X)",
+      "outlet_lean": "far-right",
+      "date": "2026",
+      "quote": "Marine Le Pen promet que le RN gardera la retraite a 62 ans dans son programme"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: lower the legal age to 62, possibly 60 for some workers."
+     }
+    ],
+    "nuance": "Only far-right and aggregator sources seen; financing caveats and possible timing flexibility not verified."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Firmly opposes raising the age; wants to lower it.",
+    "sources": [
+     {
+      "url": "https://www.sondages-presidentielle2027.fr/candidats/marine-le-pen.html",
+      "outlet": "Sondages-presidentielle2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: firmly opposes raising the retirement age."
+     }
+    ],
+    "nuance": "Consistent with ret1."
+   },
+   {
+    "id": "ret3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No RN proposal for mandatory capitalisation found; RN defends pay-as-you-go.",
+    "sources": [],
+    "nuance": "Inferred from pay-as-you-go defence; not searched directly (search quota exhausted)."
+   },
+   {
+    "id": "fin1",
+    "position": 0,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Pledges deficit below 3% by 2030 but rejects austerity and favours cuts mainly on immigration, EU contribution and fraud.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: return below 3% by 2030."
+     }
+    ],
+    "nuance": "Mixed: priority yes, 'large spending cuts' not embraced."
+   },
+   {
+    "id": "fin2",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Opposes mass hiring; proposes cutting administrative posts by about 10% to redirect to frontline staff.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: reduce administrative posts by 10%."
+     }
+    ],
+    "nuance": "Partial: reallocation, not a general headcount cut; single aggregator source."
+   },
+   {
+    "id": "fin3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Opposes large public investment programmes that widen the deficit and criticises green transition spending; defends public services via savings elsewhere.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: opposes large public investment programmes worsening deficits."
+     }
+    ],
+    "nuance": "Inferred; weak evidence."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a constitutional golden rule.",
+    "sources": [],
+    "nuance": "Not found."
+   },
+   {
+    "id": "trav1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Against significant SMIC increases; prefers employer contribution exemptions to fund 10% raises.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: against significant SMIC increases."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "trav2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposed the 2019 and 2023 unemployment-insurance tightening; supports activity conditionality for RSA but no clear cut in UI.",
+    "sources": [],
+    "nuance": "Recalled from past votes; not verified in this session."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports activity obligations for benefits (15-hour framework) and RSA reserved to French families.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: maintains conditional activity requirements; supports 15-hour obligation."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes reducing legal working time below 35 hours; only branch-level flexibility.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: opposes reducing below 35 hours legally."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants drastic reduction of legal immigration, binding quotas, end of family settlement/reunification, asylum processed from abroad.",
+    "sources": [
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "reduire fortement l'immigration legale, en fixant des quotas annuels contraignants"
+     },
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: end family reunification, asylum requests from abroad."
+     }
+    ],
+    "nuance": "Student/work migration specifics not detailed."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for a constitutional referendum on immigration, citizenship and national priority as a first act in 2027.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-veut-un-referendum-sur-le-droit-du-sol-pour-arreter-de-blablater_7063088.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02-08",
+      "quote": "Il y a une chose qui est mieux que le debat, c'est le vote"
+     }
+    ],
+    "nuance": "Article 11 route disputed legally; position firm."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants AME suppressed in its current form, replaced by urgent-care aid.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "suppression...dans sa forme actuelle"
+     }
+    ],
+    "nuance": "RN's long-standing line is AME replaced by AMU (urgent care); confirmed only partially here."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Clearly opposes regularising undocumented workers in shortage occupations.",
+    "sources": [
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposition nette"
+     }
+    ],
+    "nuance": "Consistent with RN votes against the 2023 immigration law's regularisation article."
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "National priority for housing, jobs and benefits is central, to be enshrined in the constitution.",
+    "sources": [
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: authorise 'national priority' in employment, housing and social benefits."
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to abolish automatic acquisition of nationality by birth in France, by referendum.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-veut-un-referendum-sur-le-droit-du-sol-pour-arreter-de-blablater_7063088.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02-08",
+      "quote": "Est-ce que vous etes d'accord pour le projet de loi supprimant l'acquisition de la nationalite par le droit du sol?"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "RN consistently opposes local voting rights for non-EU foreigners; no contrary evidence.",
+    "sources": [],
+    "nuance": "Recalled party line; not retrieved in this session."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Backs mandatory minimum sentences for recidivists and violent crimes.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: backs minimum sentences for recidivists."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports trying 16+ year-olds as adults for serious crimes.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: backs trying 16+ as adults."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "sec3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes independent oversight authorities; prefers mandatory bodycams.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: opposes independent authorities; mandatory bodycams."
+     }
+    ],
+    "nuance": "Coded -1 as she supports some accountability tools; aggregator only."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes cannabis legalisation, zero tolerance.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: legalisation sends 'a dramatic signal' to youth."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "sec5",
+    "position": 1,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Supports facial recognition and video surveillance development to identify troublemakers.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: supports facial recognition in public spaces."
+     }
+    ],
+    "nuance": "Generalised AI surveillance rollout not confirmed; +1."
+   },
+   {
+    "id": "eu1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants constitutional primacy of national law over European law.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "primaute du droit national sur le droit europeen"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "eu2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN opposes EU federal debt mutualisation; no direct 2026 source retrieved.",
+    "sources": [],
+    "nuance": "Recalled party line; searches exhausted before verification."
+   },
+   {
+    "id": "eu3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Programme calls for renegotiating (reducing) France's contribution to the EU budget.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Renegociation de la contribution francaise au budget de l'UE"
+     }
+    ],
+    "nuance": "Reduction implied, not quantified here."
+   },
+   {
+    "id": "eu4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "RN defends national veto and a Europe of sovereign nations; opposes qualified-majority extension.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "alliance d'Etats-nations souverains"
+     }
+    ],
+    "nuance": "Inferred from sovereignty doctrine."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to place the Constitution above EU rules and limit the effect of certain international norms, enabling non-application when they block her programme.",
+    "sources": [
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "reinforce the primacy of the Constitution and limit the effect of certain international rules"
+     }
+    ],
+    "nuance": "Paraphrase."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Rejects Frexit and euro exit; advocates treaty renegotiation.",
+    "sources": [
+     {
+      "url": "https://www.sondages-presidentielle2027.fr/candidats/marine-le-pen.html",
+      "outlet": "Sondages-presidentielle2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: no longer advocates euro withdrawal."
+     }
+    ],
+    "nuance": "Reversal from 2017 euro-exit position."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Marine Le Pen",
+  "positions": [
+   {
+    "id": "eco1",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen proposes to abolish the real-estate IFI and replace it with a tax on financial wealth (impot sur la fortune financiere, IFF) at the same EUR 1.3m threshold. She does not back a classic ISF.",
+    "sources": [
+     {
+      "url": "https://lafacture2027.fr/isf-2027-candidats",
+      "outlet": "La Facture 2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Marine Le Pen propose de supprimer l'IFI (qui pèse sur l'immobilier) et de le remplacer par un impôt sur la fortune financière"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: RN abstained on restoring the ISF in 2022 and voted against restoring it in 2024; proposes replacing IFI with an IFF at the same EUR 1.3m threshold."
+     }
+    ],
+    "nuance": "Partial support (+1): she backs a wealth tax on financial assets but drops real estate, and the RN voted against restoring the ISF in 2024. Only secondary aggregators were checked; the RN's own text was not opened."
+   },
+   {
+    "id": "eco2",
+    "position": -1,
+    "confidence": "high",
+    "evidence_type": "vote",
+    "summary": "The RN group voted against the Zucman tax in the 2026 budget debate (amendments rejected 172 to 228) while promoting its own financial-wealth tax.",
+    "sources": [
+     {
+      "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-rejetee-par-l-assemblee-nationale-413632",
+      "outlet": "LCP",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-10-31",
+      "quote": "Paraphrase: amendments rejected 172 to 228; the ex-majority groups, LR and the Rassemblement national opposed them."
+     }
+    ],
+    "nuance": "Coded -1 rather than -2 because the RN backs a different tax on financial fortunes. It opposes the Zucman design itself. A -2 coding would also be defensible."
+   },
+   {
+    "id": "eco3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes exempting employers from contributions on wage rises of up to 10% for 5 years (for wages under 3x SMIC), and abolishing the CVAE production tax.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: employer contribution exemption on wage rises up to 10% for 5 years; abolition of the CVAE."
+     }
+    ],
+    "nuance": "Cuts to contributions are targeted, tied to wage rises, and not a general competitiveness cut, so coded +1. The aggregator appears to draw partly on the 2022 programme."
+   },
+   {
+    "id": "eco4",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes free-trade agreements and promotes protectionist 'economic patriotism' and national preference in public procurement.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: against liberalisation agreements; proposes 'economic patriotism'."
+     }
+    ],
+    "nuance": "Tariffs and quotas are not always explicit. The RN stresses 'intelligent protectionism' and border adjustments, so coded +1 rather than +2."
+   },
+   {
+    "id": "eco5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Supports renationalising motorway concessions (cutting tolls by about 15%) and nationalising EDF to keep electricity production under state control.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: renationalise highway concessions to cut tolls 15%; backs EDF nationalisation to ensure state control of electricity production."
+     }
+    ],
+    "nuance": "Both sectors named in the statement are covered by explicit public-control proposals. Aggregator source only."
+   },
+   {
+    "id": "eco6",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Proposes abolishing direct inheritance duties for modest and middle-class families, and exempting parental gifts of up to EUR 100,000 per child every ten years.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "supprimer les droits de succession directs pour les modestes et classes moyennes, et creer une exemption pour les donations de parents a enfants jusqu'a 100 000 euros"
+     }
+    ],
+    "nuance": "The cut targets modest and middle-class estates, but it is a large cut to both inheritance and gift taxes. She opposes new levies on large inheritances."
+   },
+   {
+    "id": "ret1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Le Pen commits to bringing the legal retirement age back from 64 to 62, and to 60 for long careers. The estimated cost is about EUR 9bn per year.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: commits to returning from age 64 to 'age 62, or even 60 for certain salaried workers'; cost about EUR 9bn a year."
+     },
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Retraite possible dès 60 ans pour les carrières longues"
+     },
+     {
+      "url": "https://x.com/Valeurs/status/2054915144950378562",
+      "outlet": "Valeurs actuelles (X)",
+      "outlet_lean": "far-right",
+      "date": "2026",
+      "quote": "Marine Le Pen promet que le RN gardera la retraite a 62 ans dans son programme"
+     }
+    ],
+    "nuance": "The X post could not be opened (HTTP 402), so it is unverified. Two neutral aggregators corroborate the position. Financing caveats and any timing flexibility were not checked."
+   },
+   {
+    "id": "ret2",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Firmly opposes raising the age; wants to lower it.",
+    "sources": [
+     {
+      "url": "https://www.sondages-presidentielle2027.fr/candidats/marine-le-pen.html",
+      "outlet": "Sondages-presidentielle2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposition ferme à toute réforme repoussant l'âge légal"
+     }
+    ],
+    "nuance": "Consistent with ret1."
+   },
+   {
+    "id": "ret3",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Le Pen supports voluntary funded (capitalisation) supplementary pensions on top of pay-as-you-go, and says they should remain voluntary. That means she does not support a mandatory component.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase of Le Pen: offer French people the means to build complementary retirement through capitalisation, kept voluntary."
+     }
+    ],
+    "nuance": "MonVote codes her 'plutôt pour' capitalisation in general. On the MANDATORY component in the statement she is against, but she is open to voluntary funding, hence -1."
+   },
+   {
+    "id": "fin1",
+    "position": 0,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Pledges a deficit below 3% by 2030, with savings mainly from immigration, the EU contribution and fraud. Bardella floated EUR 100bn of savings in exchange for an ECB debt deal, but the RN rejects 'austerity'.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: Bardella committed to returning below 3% by 2030 and proposed EUR 100bn of savings tied to ECB debt buybacks."
+     }
+    ],
+    "nuance": "Mixed: the 3% target is a priority, but the programme also promises tax cuts and spending increases and does not embrace 'large spending cuts' as such."
+   },
+   {
+    "id": "fin2",
+    "position": 0,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "No general cut in civil-servant numbers. She proposes abolishing the ARS (regional health agencies) and cutting hospital administrative posts to 10% to free resources for care staff, which is a redeployment.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "supprimer les ARS et réduire à 10% les postes administratifs dans les hôpitaux pour libérer des moyens pour les soignants"
+     }
+    ],
+    "nuance": "The proposal concerns hospital admin posts, redirected to frontline staff, and does not cut the overall number of civil servants. The RN also promises more police, judges and carers. Single aggregator source."
+   },
+   {
+    "id": "fin3",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "Has no objective of launching large debt-financed public investment programmes and criticises green-transition spending. She defends public services through savings elsewhere.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: no objective to launch major public investment programmes; MonVote codes her 'tout à fait contre' on its deficit/investment question."
+     }
+    ],
+    "nuance": "MonVote's exact question wording is unknown, so this is kept at -1 with low confidence."
+   },
+   {
+    "id": "fin4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence found on a constitutional golden rule.",
+    "sources": [],
+    "nuance": "Not found. Absent from the MonVote2027 and Candidats-presidentielle-2027 pages, and further web search was unavailable during verification."
+   },
+   {
+    "id": "trav1",
+    "position": -1,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "Against large SMIC increases: the RN voted against a 2022 amendment raising the SMIC to EUR 1,500 net. She prefers employer-contribution exemptions to fund wage rises of up to 10%.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: voted against the 2022 amendment raising SMIC to EUR 1,500 net; says SMIC rises create unemployment risk."
+     }
+    ],
+    "nuance": "Coded -1 because she supports wage rises through other channels. Aggregator only."
+   },
+   {
+    "id": "trav2",
+    "position": -1,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The RN opposed the 2019 and 2023 unemployment-insurance tightening. It supports activity conditions for the RSA but no clear cut to unemployment insurance.",
+    "sources": [],
+    "nuance": "Recalled from past votes and not verified. MonVote2027 does not cover unemployment insurance, and search was unavailable."
+   },
+   {
+    "id": "trav3",
+    "position": 1,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Supports counterparts for social benefits, and the RN supports keeping the RSA conditional on activity hours. The RSA is to be reserved to French nationals under national priority.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Je pense qu'il faut des contreparties aux aides sociales de ce type qui sont versees. (Bardella, 2024)"
+     }
+    ],
+    "nuance": "The quote is from Bardella as party president, which counts as the party position. Nothing personal from Le Pen was found."
+   },
+   {
+    "id": "trav4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes cutting working time. She wants firms to be able to move away from 35 hours through branch agreements, which means flexibility upward, not toward 32 hours.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: companies should be able to 'return on 35 hours through branch agreements'."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "imm1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants a sharp reduction of legal immigration with binding annual quotas, an end to family reunification, and asylum applications made from abroad.",
+    "sources": [
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Il faut réduire fortement l'immigration légale, en fixant des quotas annuels contraignants."
+     },
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: family reunification could be hardened or limited by law; asylum applications filed outside France."
+     }
+    ],
+    "nuance": "Student and work migration specifics are not detailed."
+   },
+   {
+    "id": "imm2",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Calls for a referendum on immigration and citizenship: she demanded one on droit du sol in 2025, and plans a constitutional referendum 'Citoyenneté-Identité-Immigration' as a first act in 2027.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-veut-un-referendum-sur-le-droit-du-sol-pour-arreter-de-blablater_7063088.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02-08",
+      "quote": "Il y a une chose qui est mieux que le débat, c'est le vote"
+     },
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: Article 11 referendum on a 'Citoyenneté-Identité-Immigration' bill, first deposited January 2024."
+     }
+    ],
+    "nuance": "The Article 11 route is legally disputed; her position is firm."
+   },
+   {
+    "id": "imm3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants the AME abolished in its current form. The RN's long-standing proposal replaces it with urgent-care-only aid.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Suppression du regroupement familial et de l'AME dans sa forme actuelle"
+     }
+    ],
+    "nuance": "The urgent-care replacement comes from the 2022 programme and RN line; the 2026 source confirms only the suppression 'in its current form'."
+   },
+   {
+    "id": "imm4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Clearly opposes regularising undocumented workers in shortage occupations.",
+    "sources": [
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Opposition nette"
+     }
+    ],
+    "nuance": "Consistent with the RN's opposition to the regularisation article of the 2023 immigration law (recalled, not re-verified)."
+   },
+   {
+    "id": "imm5",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "National priority for housing, jobs and benefits is central, to be enshrined in the constitution.",
+    "sources": [
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: establish 'national priority' in employment, housing and social benefits."
+     },
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Les prestations sociales non contributives doivent être réservées aux Français (priorité nationale)."
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "imm6",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "statement",
+    "summary": "Wants to abolish automatic acquisition of nationality by birth in France, by referendum.",
+    "sources": [
+     {
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-veut-un-referendum-sur-le-droit-du-sol-pour-arreter-de-blablater_7063088.html",
+      "outlet": "franceinfo",
+      "outlet_lean": "neutral-institutional",
+      "date": "2025-02-08",
+      "quote": "Est-ce que vous êtes d'accord pour le projet de loi supprimant l'acquisition de la nationalité par le droit du sol ?"
+     },
+     {
+      "url": "https://www.france-vote.fr/candidats/marine-le-pen/immigration",
+      "outlet": "France-Vote (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "supprimer le droit du sol et de limiter l'accès à la nationalité à la naturalisation"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "imm7",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The RN consistently opposes local voting rights for non-EU foreigners; no contrary evidence was found.",
+    "sources": [],
+    "nuance": "Recalled party line that could not be retrieved; France-Vote's immigration page does not cover it. Confidence lowered because no source was found."
+   },
+   {
+    "id": "sec1",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Backs mandatory minimum sentences for recidivists and violent crimes, and the end of automatic sentence reductions.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: implementation of minimum sentences, elimination of automatic sentence reductions."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "sec2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to end the 'excuse of minority' and lower the age of criminal majority to 16.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: end the excuse of minority and lower criminal majority to 16 for repeat offenders."
+     }
+    ],
+    "nuance": "Aggregator only. The RN framing targets repeat offenders, which is broader than the statement's 'serious crimes'."
+   },
+   {
+    "id": "sec3",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "programme",
+    "summary": "Against an independent police oversight or investigation authority. Bodycams are proposed to protect officers, not as civilian oversight.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: against an independent investigation authority; mandatory body cameras for police self-protection."
+     }
+    ],
+    "nuance": "Bodycams are not independent oversight, so -1 understated the opposition. Single aggregator source, hence low confidence."
+   },
+   {
+    "id": "sec4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Opposes cannabis legalisation and backs zero tolerance.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: legalisation sends 'a dramatic signal' and would be 'a catastrophe for our youth'."
+     }
+    ],
+    "nuance": "Aggregator only."
+   },
+   {
+    "id": "sec5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "vote",
+    "summary": "The RN voted for algorithmic video surveillance for the 2024 Olympics, and Bardella (2026) backs developing facial recognition in public spaces. That goes beyond the statement.",
+    "sources": [
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Nous sommes favorables à ce qu'on développe la reconnaissance faciale pour favoriser l'identification des perturbateurs et des prédateurs. (Bardella, 2026)"
+     }
+    ],
+    "nuance": "The quote is from Bardella as party president. Backing facial recognition is stronger than the AI video-surveillance rollout in the statement."
+   },
+   {
+    "id": "eu1",
+    "position": 2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Wants constitutional primacy of national law over European law.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Inscrire dans la Constitution la primauté du droit national sur le droit européen"
+     }
+    ],
+    "nuance": "None."
+   },
+   {
+    "id": "eu2",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "party_line",
+    "summary": "The RN opposes EU federal debt mutualisation; no direct 2026 source was retrieved.",
+    "sources": [],
+    "nuance": "Recalled party line. Not found on the aggregators checked, and search was unavailable."
+   },
+   {
+    "id": "eu3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "The programme calls for renegotiating France's contribution to the EU budget, with the aim of reducing it.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Renégociation de la contribution française au budget de l'UE"
+     }
+    ],
+    "nuance": "A reduction is implied but not quantified here; savings on the EU contribution also feature in fin1."
+   },
+   {
+    "id": "eu4",
+    "position": -2,
+    "confidence": "medium",
+    "evidence_type": "party_line",
+    "summary": "Defends a Europe of sovereign nations and opposes any further transfer of sovereignty. That implies keeping the national veto in foreign policy.",
+    "sources": [
+     {
+      "url": "https://candidats-presidentielle-2027.fr/candidat/marine-le-pen",
+      "outlet": "Candidats-presidentielle-2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Transformant l'UE en alliance d'États-nations souverains"
+     },
+     {
+      "url": "https://www.sondages-presidentielle2027.fr/candidats/marine-le-pen.html",
+      "outlet": "Sondages-presidentielle2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "tout transfert supplémentaire de souveraineté"
+     }
+    ],
+    "nuance": "No explicit statement on unanimity in foreign policy; deduced from her stated opposition to any further transfer of sovereignty."
+   },
+   {
+    "id": "eu5",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "Wants to put the Constitution above EU rules and limit the effect of international and EU law, which would allow non-application where they block her programme.",
+    "sources": [
+     {
+      "url": "https://porteedevue.fr/politique/le-referendum-constitutionnel-de-marine-le-pen-ouvre-une-bataille-juridique-majeure-avant-lelection-presidentielle-de-2027/",
+      "outlet": "Portee de vue",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: the text aims to strengthen constitutional supremacy by limiting how international and EU law applies domestically."
+     }
+    ],
+    "nuance": "Paraphrase; consistent with eu1."
+   },
+   {
+    "id": "eu6",
+    "position": -2,
+    "confidence": "high",
+    "evidence_type": "programme",
+    "summary": "Rejects Frexit and euro exit; advocates treaty renegotiation.",
+    "sources": [
+     {
+      "url": "https://www.sondages-presidentielle2027.fr/candidats/marine-le-pen.html",
+      "outlet": "Sondages-presidentielle2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Renégociation de certains traités, primauté du droit national sur le droit européen sur certaines questions"
+     },
+     {
+      "url": "https://monvote2027.fr/candidat/le_pen",
+      "outlet": "MonVote2027 (aggregator)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Paraphrase: RN officially abandoned Frexit; Bardella denied a 'hidden Frexit'; codes her 'plutôt contre'."
+     }
+    ],
+    "nuance": "She reversed her 2017 euro-exit position. MonVote codes her 'plutôt contre' rather than 'tout à fait contre', but the RN explicitly rejects leaving the EU."
+   }
+  ],
+  "verification_notes": [
+   "Verification limits: the WebSearch budget was exhausted (200/200), so checks relied on WebFetch of the cited URLs. Null and party_line entries could not be searched afresh.",
+   "All cited URLs except the X post were opened and are live (monvote2027, lafacture2027, LCP, france-vote, porteedevue, candidats-presidentielle-2027, sondages-presidentielle2027, franceinfo). The X/Valeurs post returned HTTP 402 and is unverified.",
+   "eco1: +1 -> +1: code kept; added the MonVote source showing the RN voted against restoring the ISF in 2024 and proposes an IFF at the EUR 1.3m threshold; nuance updated.",
+   "eco2: -1 -> -1: LCP confirmed 172-228 and RN opposition; quote relabelled as a paraphrase of the article's wording.",
+   "eco3: +1 -> +1: added the CVAE abolition and the 5-year/3x SMIC details from MonVote.",
+   "eco5: +1 -> +2: MonVote shows explicit support for both motorway renationalisation AND EDF nationalisation, the two sectors in the statement.",
+   "eco6: +1 -> +2: abolishing direct succession duties for modest and middle classes plus a EUR 100k gift exemption is strong support for lowering both taxes; verbatim quote added.",
+   "ret1: +2 -> +2: evidence_type statement -> programme; X post unverifiable (402); added candidats-presidentielle-2027 corroboration.",
+   "ret2: quote replaced with the verbatim text from the source.",
+   "ret3: -1 inferred/low -> -1 statement/medium: MonVote reports Le Pen backs VOLUNTARY capitalisation, explicitly not mandatory. Same code, now evidence-based; the draft's 'no proposal found' was wrong.",
+   "fin1: 0 -> 0: added Bardella's EUR 100bn savings/ECB proposal to the summary and nuance.",
+   "fin2: +1 -> 0: the cited 10% is about hospital admin posts (abolish ARS, redeploy to carers), not a reduction in civil-servant numbers; summary corrected.",
+   "fin3: -1 -> -1: source quote clarified; MonVote's 'tout à fait contre' noted, question wording unknown.",
+   "trav1: evidence_type programme -> vote (2022 vote against the SMIC EUR 1,500 amendment).",
+   "trav3: +1 -> +1: evidence_type programme -> statement; the 15-hour framing was not found in the source; replaced with Bardella's verbatim 2024 quote.",
+   "imm2: added the porteedevue source on the Article 11 'Citoyenneté-Identité-Immigration' referendum.",
+   "imm3: quote corrected to the verbatim text; noted the urgent-care replacement rests on the 2022 programme.",
+   "imm5, imm6: added the France-Vote verbatim corroboration.",
+   "imm7: confidence medium -> low: party line with no retrieved source.",
+   "sec3: -1 -> -2: the source states opposition to an independent authority; bodycams are not independent oversight; confidence medium -> low (single aggregator).",
+   "sec5: +1 -> +2: the RN voted for algorithmic video surveillance (2024 Olympics) and Bardella (2026) backs facial recognition in public spaces, which goes beyond the statement; evidence_type programme -> vote.",
+   "eu4: confidence low -> medium: added sondages-presidentielle2027 'opposes any further transfer of sovereignty'.",
+   "eu5: the English text in a quote field relabelled as a paraphrase.",
+   "eu6: added MonVote corroboration (RN officially abandoned Frexit); kept -2 high."
+  ]
+ }
+}

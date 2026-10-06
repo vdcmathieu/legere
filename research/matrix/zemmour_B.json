@@ -1,0 +1,697 @@
+{
+ "collect": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "int1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "WebSearch budget (200 calls) was exhausted before this task began; WebFetch of Wikipedia/Reconquête pages returned no usable position. Not coded to avoid guessing."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "int3",
+    "position": 2,
+    "confidence": "low",
+    "evidence_type": "statement",
+    "summary": "English Wikipedia states Zemmour supports withdrawing from NATO's integrated military command.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (en)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "supports withdrawing from NATO's integrated military command (paraphrase of fetch summary)"
+     }
+    ],
+    "nuance": "Secondary source only, no date for the stance, no primary programme page or 2025-2026 statement retrieved. Needs primary corroboration."
+   },
+   {
+    "id": "int4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No direct evidence on the EU-Israel agreement.",
+    "sources": [],
+    "nuance": "Wikipedia only notes pro-Israel solidarity visit and opposition to ceasefire calls after June 2025; nothing on the association agreement, so not coded."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "soc2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "Wikipedia confirms he opposes the Islamic veil but gives no scope (all public space).",
+    "sources": [],
+    "nuance": "Position on exact wording (ban across all public space) not verified; not coded."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   }
+  ]
+ },
+ "verify": {
+  "candidate": "Éric Zemmour",
+  "positions": [
+   {
+    "id": "int1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Verifier re-check: WebSearch budget exhausted; Wikipedia only says he condemned Russia's 2022 invasion despite earlier pro-Russia stance, which says nothing about sustained military aid. Not coded."
+   },
+   {
+    "id": "int2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; official speeches 2024 checked, nothing on troops in Ukraine. Not coded."
+   },
+   {
+    "id": "int3",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "statement",
+    "summary": "Pledged at Reconquête's founding rally (Villepinte, Dec 2021) to remove France from NATO's integrated command; his 2022 campaign site criticises membership of the integrated command as forcing France to follow the US.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reconqu%C3%AAte",
+      "outlet": "Wikipedia (en), citing Washington Post 6 Dec 2021",
+      "outlet_lean": "neutral-institutional",
+      "date": "2021-12-06",
+      "quote": "remove France from NATO's integrated command"
+     },
+     {
+      "url": "https://www.ericzemmour.fr/independance",
+      "outlet": "ericzemmour.fr (2022 campaign priorities)",
+      "outlet_lean": "campaign-or-party",
+      "date": "2022",
+      "quote": "En matière militaire ensuite, où notre appartenance au commandement intégré de l'OTAN nous oblige à suivre les États-Unis"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (en)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "He supports a withdrawal from the NATO's integrated military command."
+     }
+    ],
+    "nuance": "Stance dates from the 2021-2022 campaign. No 2025-2026 reaffirmation was found, and the post-2022 Ukraine context could have moved it. The campaign page criticises membership but its excerpt contains no explicit exit measure; the explicit pledge comes via secondary reporting of the founding rally."
+   },
+   {
+    "id": "int4",
+    "position": -2,
+    "confidence": "low",
+    "evidence_type": "inferred",
+    "summary": "No direct statement on the EU-Israel association agreement, but he called the Gaza war 'the fight of our civilisation', visited Israel in solidarity and in June 2025 opposed ceasefire calls and fully backed Israeli actions.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/%C3%89ric_Zemmour",
+      "outlet": "Wikipedia (en)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2026",
+      "quote": "Following the June 2025 Israeli strikes on Iran, Zemmour opposed calls for a ceasefire and fully backed Israeli actions."
+     }
+    ],
+    "nuance": "Inferred from his consistent unconditional support for Israel's war conduct; nothing found on the association agreement itself. Low confidence."
+   },
+   {
+    "id": "int5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence on a specific defence-spending target retrieved.",
+    "sources": [],
+    "nuance": "Wikipedia notes he calls for strengthening the armed forces, but gives no % of GDP figure, so this statement is not coded."
+   },
+   {
+    "id": "int6",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; campaign priority pages and 2024 speeches checked, nothing found. Not coded."
+   },
+   {
+    "id": "int7",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Wikipedia mentions he argued for a closer relationship with Russia (pre-2022) but nothing on sanctions-for-peace. Not coded."
+   },
+   {
+    "id": "ecol1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ecol5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Campaign 'industrie' page checked: no nuclear measure in it. Not coded."
+   },
+   {
+    "id": "ene2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ene4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "ins5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "The 2022 independence page wants to question the primacy of international treaties on migration, but nothing on widening the referendum was retrieved. Not coded."
+   },
+   {
+    "id": "soc1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "soc2",
+    "position": 2,
+    "confidence": "medium",
+    "evidence_type": "programme",
+    "summary": "His 2022 presidential programme proposed banning the Islamic veil (hijab) in all public places.",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reconqu%C3%AAte",
+      "outlet": "Wikipedia (en), citing programme.zemmour2022.fr (archived 25 Jan 2022)",
+      "outlet_lean": "neutral-institutional",
+      "date": "2022-01-25",
+      "quote": "banning the Islamic veil (hijab) in all public places"
+     }
+    ],
+    "nuance": "Based on the 2022 programme, which matches the statement's wording. The original programme site now redirects to a login wall and the archive could not be fetched, so the source is a secondary citation of it. No 2025-2026 restatement was retrieved."
+   },
+   {
+    "id": "soc3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "The Oct 2022 school speech attacks abayas and qamis at school, but nothing on school-trip parents or universities. Not coded; soc2 suggests he would favour it."
+   },
+   {
+    "id": "soc4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Not coded directly. His veil-in-public-space proposal (soc2) implies opposition; it could be coded -2 inferred if the app allows it."
+   },
+   {
+    "id": "soc5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "The 2022 'instruction' page checked: it lists abolishing the collège unique and raising the bac level, with no uniform measure. Not coded."
+   },
+   {
+    "id": "edu2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "The 2022 programme proposes 'la suppression du collège unique', which is close to ability streaming but not the same as grouping by level in some subjects. Not coded; it could be +1 or +2 inferred if that link is accepted."
+   },
+   {
+    "id": "edu4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "edu5",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san1",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san2",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san3",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   },
+   {
+    "id": "san4",
+    "position": null,
+    "confidence": "none",
+    "evidence_type": "none",
+    "summary": "No evidence retrieved.",
+    "sources": [],
+    "nuance": "Search budget exhausted; not coded."
+   }
+  ],
+  "verification_notes": [
+   "Tool constraint: the session's WebSearch budget (200/200) was already used up, and Bing/DuckDuckGo/Yahoo through WebFetch returned only CAPTCHA, broken or ignored-query results. Verification relied on WebFetch of Wikipedia (en/fr/de) and Zemmour's official sites (ericzemmour.fr priorities and speeches). Most nulls could not be searched properly and stay null.",
+   "int3: +2 low -> +2 medium: the draft's only source was a paraphrased Wikipedia line. I found the verbatim Wikipedia sentence, the Reconquête article reporting the Dec 2021 Villepinte rally pledge (citing the Washington Post), and the primary ericzemmour.fr/independance page criticising integrated-command membership. Still 2021-2022 evidence with no 2025-2026 reaffirmation.",
+   "int3: replaced the paraphrased quote with verbatim quotes and added two sources.",
+   "soc2: null -> +2 (programme, medium): the en.wikipedia Reconquête article cites the 2022 programme (programme.zemmour2022.fr, archived 25 Jan 2022) proposing 'banning the Islamic veil (hijab) in all public places', which matches the statement exactly. The draft's null was a missed find.",
+   "int4: null -> -2 (inferred, low): no direct statement on the association agreement, but Wikipedia records that he called the Gaza war 'the fight of our civilisation', visited Israel in solidarity, and in June 2025 'fully backed Israeli actions'. He would plainly oppose suspension over Gaza conduct.",
+   "edu3, soc3, soc4, ins5, int5, int7: kept null but added nuance on related evidence found (collège unique abolition, school abaya speech, veil ban, treaty primacy, armed-forces strengthening, earlier pro-Russia stance), so a later pass with search budget can code them.",
+   "No fabricated or dead URLs in the draft (its only URL, en.wikipedia Zemmour, resolves and supports the claim). No party-line or opponent-characterisation errors found among the coded entries."
+  ]
+ }
+}

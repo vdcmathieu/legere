@@ -1,0 +1,430 @@
+{
+ "positions": [
+  {
+   "id": "eco1",
+   "summary": "Le programme prévoit un nouvel effort fiscal ciblé sur les très grandes fortunes, et il soutient la taxe Zucman. Il ne s'est pas engagé à rétablir un ISF large ; au sein de la primaire, c'est Ségolène Royal qui défend l'ISF.",
+   "nuance": "Il soutient un impôt sur la fortune limité aux ultra-riches (de type Zucman), et non un impôt de type ISF sur toutes les grandes fortunes, d'où la cote +1. Une vérification de franceinfo portant sur le débat de la primaire d'octobre 2026 cite Royal, et non Glucksmann, au sujet de l'ISF."
+  },
+  {
+   "id": "eco2",
+   "summary": "En septembre 2025, il a fait de la taxe Zucman « la base de tout accord » avec le gouvernement Lecornu et a continué à la défendre tout au long de la bataille budgétaire de 2025.",
+   "nuance": "Les éléments datent de l'automne 2025. Je n'ai trouvé aucune déclaration de campagne de 2026 reprenant exactement le dispositif 2 % / 100 millions. Le programme économique du PS de septembre 2026 inclut la taxe Zucman. Il s'agit de liens Google Actualités vus dans les résultats de recherche ; le corps des articles n'a pas pu être ouvert."
+  },
+  {
+   "id": "eco3",
+   "summary": "Aucun élément sur une baisse des impôts de production ou des cotisations patronales. Sa mesure salariale est une baisse de la CSG pour les salariés, financée par une taxation des « méga-héritiers ».",
+   "nuance": "Le programme critique l'« absence de conditionnement des aides publiques aux entreprises » mais ne dit rien des impôts de production. Les recherches n'ont rien donné."
+  },
+  {
+   "id": "eco4",
+   "summary": "Il défend un « protectionnisme ciblé et intelligent » : instruments de défense commerciale renforcés, clauses de sauvegarde pour les secteurs menacés, mesures antidumping et Buy European Act, principalement à l'échelle de l'UE.",
+   "nuance": "La protection se joue surtout au niveau européen, par la commande publique et la défense commerciale. Il ne dit pas accepter des hausses de prix, et des droits de douane nationaux ne sont pas proposés."
+  },
+  {
+   "id": "eco5",
+   "summary": "Aucun élément sur un retour de l'énergie ou des autoroutes sous contrôle public. Le programme soutient le nucléaire et le pilotage public du développement industriel, mais pas la nationalisation.",
+   "nuance": "Le +1 de la version préliminaire était déduit sans source. Le programme mentionne des fonds régionaux prenant des participations dans des entreprises clés, mais rien sur EDF ni sur les autoroutes. Une recherche n'a rien donné."
+  },
+  {
+   "id": "eco6",
+   "summary": "Il veut alourdir la fiscalité des « méga-héritages » : taux marginal supérieur porté de 45 % à 50 % au-delà de 2 millions d'euros, et un pacte Dutreil resserré, pour environ 15 milliards d'euros. Il affirme que 99 % des successions ne seraient pas concernées.",
+   "nuance": "Étayé par des sources de sensibilités différentes. Il ne propose pas de baisser les impôts sur les petites successions ; il les laisse simplement inchangés."
+  },
+  {
+   "id": "ret1",
+   "summary": "Il veut abroger la réforme de 2023 et conserve 62 ans comme âge légal « de référence ». Il exclut un retour général à 60 ans, et le système serait modulé selon la pénibilité : certains partiraient plus tôt, d'autres plus tard.",
+   "nuance": "Il a précisé ce point lors du débat du 4 octobre 2026 ; jusqu'à la fin septembre, il avait évité de citer un âge. Coté +1 et non +2, car 62 ans est un âge de référence et il dit que beaucoup partiraient plus tard (« Certains doivent partir plus tard, c'est la justice »)."
+  },
+  {
+   "id": "ret2",
+   "summary": "Il veut abroger la réforme des 64 ans et fixe 62 ans comme âge de référence, mais dit ouvertement que certaines personnes devront travailler plus longtemps pour équilibrer le système.",
+   "nuance": "Il s'oppose à un relèvement général de l'âge légal au-delà de 64 ans ; « abroger la réforme Macron de 2023 » figure dans le programme. Mais il accepte des départs plus tardifs pour certains groupes, en partie pour équilibrer le système, de sorte que « fortement contre » est exagéré."
+  },
+  {
+   "id": "ret3",
+   "summary": "Sa proposition de retraites d'octobre 2026 exclut explicitement la capitalisation.",
+   "nuance": "Coté d'après le titre ; la vidéo n'a pas pu être ouverte. Entrevue rapporte aussi son attachement au système par répartition (« système par répartition »)."
+  },
+  {
+   "id": "fin1",
+   "summary": "Il veut une trajectoire crédible de réduction de la dette par des économies ciblées et de nouvelles recettes, et refuse de financer ses mesures en « cassant le modèle social ». Il n'accepte pas de fortes réductions de dépenses.",
+   "nuance": "Il souhaite bien un assainissement budgétaire ; il s'agit donc d'un désaccord partiel : il rejette seulement la partie « même au prix de fortes réductions de dépenses ». Il ne s'engage pas sur une date pour atteindre les 3 %."
+  },
+  {
+   "id": "fin2",
+   "summary": "Le programme veut soutenir et mieux rémunérer les fonctionnaires et indexer le point d'indice sur l'inflation. Il ne dit rien des effectifs.",
+   "nuance": "Déduit : la position sur les effectifs découle du volet consacré à la rémunération et à l'attractivité."
+  },
+  {
+   "id": "fin3",
+   "summary": "Il veut des investissements « massifs » dans l'école, la défense, la réindustrialisation et la transition écologique, mais en réduisant la dette et les déficits. Il dit qu'il ne financera pas de mesures salariales par un accroissement de la dette.",
+   "nuance": "Position mixte. Il accepte un réinvestissement public stratégique (« Nous assumons pleinement un réinvestissement stratégique ») mais pas davantage de dette nationale. Il soutient l'emprunt commun européen (voir eu2), pas l'emprunt national."
+  },
+  {
+   "id": "fin4",
+   "summary": "Aucune position trouvée sur une règle d'or constitutionnelle. L'opposition est déduite de son soutien à l'investissement.",
+   "nuance": "Aucun élément dans un sens ou dans l'autre ; une recherche n'a rien donné. Pourrait raisonnablement être laissé sans cote."
+  },
+  {
+   "id": "trav1",
+   "summary": "Il veut un SMIC à 1 600 euros nets dans les deux ans suivant son arrivée au pouvoir, soit environ +12 %, bien au-dessus de l'inflation attendue.",
+   "nuance": "Il s'agit d'une mesure du programme de juin 2025, reprise dans la couverture de septembre 2026. Elle est moins ambitieuse que celle de Faure ou de Mélenchon (1 700 euros), mais nettement plus rapide que l'inflation."
+  },
+  {
+   "id": "trav2",
+   "summary": "Le programme demande l'abrogation de la réforme de l'assurance chômage de Macron, jugée « injuste et inefficace ».",
+   "nuance": "Programme daté de 2025 ; je n'ai trouvé aucune déclaration de 2026 qui le modifie."
+  },
+  {
+   "id": "trav3",
+   "summary": "Aucun élément trouvé sur le maintien de l'obligation d'activité de 15 à 20 heures pour les bénéficiaires du RSA.",
+   "nuance": "Une vérification par flux RSS de Google Actualités (« Glucksmann RSA », « Glucksmann RSA heures ») n'a rien donné sur sa propre position. Laissé sans cote."
+  },
+  {
+   "id": "trav4",
+   "summary": "Il ne défend pas les 32 heures : le programme ne prévoit aucune réduction du temps de travail et il souligne que certains doivent travailler plus longtemps.",
+   "nuance": "Déduit ; une recherche sur « Glucksmann 32 heures » n'a rien donné."
+  },
+  {
+   "id": "imm1",
+   "summary": "Il rejette l'« immigration zéro » comme économiquement ruineuse. Il veut abroger la loi immigration de 2024, généraliser les titres de séjour pluriannuels et ouvrir des voies légales de migration de travail adaptées aux besoins économiques.",
+   "nuance": "En 2026, il parle de « régulation réaliste et cohérente » et a proposé une convention citoyenne sur l'immigration (mai 2026). Cela signale un ton plus prudent, mais pas un soutien à de fortes réductions."
+  },
+  {
+   "id": "imm2",
+   "summary": "Il propose une convention citoyenne sur l'immigration, et non un référendum. Aucune déclaration explicite contre un référendum n'a été trouvée.",
+   "nuance": "Son programme est en général favorable aux référendums d'initiative citoyenne ; l'opposition à un référendum sur l'immigration n'est donc pas certaine. Vu dans un résultat de recherche ; l'article n'a pas pu être ouvert."
+  },
+  {
+   "id": "imm3",
+   "summary": "Aucune déclaration personnelle sur l'AME n'a été trouvée. La gauche, PS compris, défend l'AME, et son programme insiste sur l'accès des nouveaux arrivants aux droits, y compris à la santé.",
+   "nuance": "Ligne du parti uniquement ; une recherche n'a rien donné."
+  },
+  {
+   "id": "imm4",
+   "summary": "Le programme demande de faciliter la régularisation des travailleurs sans papiers et d'autoriser les demandeurs d'asile à travailler.",
+   "nuance": "Plus large que les métiers en tension, il inclut donc l'énoncé. Programme daté de 2025."
+  },
+  {
+   "id": "imm5",
+   "summary": "Il s'oppose aux mesures de préférence nationale, comme la gauche. La position du programme contre les discriminations va dans le même sens, mais je n'ai trouvé aucune déclaration précise.",
+   "nuance": "À vérifier. Probablement plus fort que -1, mais aucune source personnelle n'a été trouvée."
+  },
+  {
+   "id": "imm6",
+   "summary": "Il s'oppose à la suppression du droit du sol (ligne de la gauche).",
+   "nuance": "Aucune déclaration personnelle trouvée."
+  },
+  {
+   "id": "imm7",
+   "summary": "Le programme demande d'accorder aux étrangers extra-européens le droit de vote aux élections locales, et d'abaisser l'âge du vote à 16 ans.",
+   "nuance": "Cela figure dans le programme de son propre parti, et pas seulement dans la ligne du PS. Je n'ai trouvé aucune reprise en 2026."
+  },
+  {
+   "id": "sec1",
+   "summary": "La gauche s'oppose aux peines planchers. Son programme met l'accent sur la justice de proximité, la médiation et le travail d'intérêt général, sans minimums obligatoires.",
+   "nuance": "Aucune déclaration personnelle trouvée ; ligne du parti."
+  },
+  {
+   "id": "sec2",
+   "summary": "Opposition probable, comme la gauche ; aucune déclaration personnelle.",
+   "nuance": "Sujet non traité dans le programme."
+  },
+  {
+   "id": "sec3",
+   "summary": "La gauche soutient en général un contrôle indépendant de la police. Son programme s'engage seulement à réexaminer la doctrine française de maintien de l'ordre.",
+   "nuance": "Le programme ne dit rien d'un remplacement de l'IGPN ni de son indépendance."
+  },
+  {
+   "id": "sec4",
+   "summary": "Il ne prend pas position sur la légalisation et renvoie la question à une convention citoyenne sur la politique des drogues, « notamment la question de la légalisation du cannabis ».",
+   "nuance": "Coté 0 parce qu'il indique explicitement qu'il renvoie la question."
+  },
+  {
+   "id": "sec5",
+   "summary": "Aucun élément sur la vidéosurveillance assistée par intelligence artificielle dans l'espace public.",
+   "nuance": "La cote « vote » de la version préliminaire n'avait pas de source. Sur howtheyvote.eu, le vote final sur le règlement sur l'IA (13 mars 2024) n'indique pas le vote individuel de Glucksmann. Même s'il avait voté pour, le règlement sur l'IA encadre l'identification biométrique et ne tranche pas la question de la surveillance de l'espace public en France. Une recherche n'a rien donné."
+  },
+  {
+   "id": "eu1",
+   "summary": "Pro-européen fédéraliste. Son programme demande un nouveau traité de « réunification » de l'UE, un budget européen nettement plus important et le vote à la majorité qualifiée, ce qui est inconciliable avec la primauté du droit français sur le droit de l'UE.",
+   "nuance": "Aucune déclaration explicite sur la primauté du droit n'a été trouvée ; il s'agit donc d'une déduction. L'orientation est très probable."
+  },
+  {
+   "id": "eu2",
+   "summary": "Le programme demande un fonds européen de défense de 500 milliards d'euros financé par un emprunt commun de l'UE et réservé à la production européenne. En 2024, il avait fait campagne pour un fonds de 100 milliards d'euros financé par un emprunt européen.",
+   "nuance": "Position constante de 2024 à 2026."
+  },
+  {
+   "id": "eu3",
+   "summary": "Le programme demande d'augmenter « massivement » le budget de l'UE et de lui donner de nouvelles ressources propres.",
+   "nuance": "De nouvelles ressources propres pourraient modifier la manière dont la France contribue, mais l'orientation est clairement opposée à une réduction du budget de l'UE."
+  },
+  {
+   "id": "eu4",
+   "summary": "Le programme demande un traité faisant passer le Conseil européen au vote à la majorité qualifiée.",
+   "nuance": "Un passage général à la majorité qualifiée, qui couvre la politique étrangère, mais la politique étrangère n'est pas nommée spécifiquement."
+  },
+  {
+   "id": "eu5",
+   "summary": "Fortement pro-UE et fédéraliste ; refuser d'appliquer les règles de l'UE contredit l'ensemble de son projet européen.",
+   "nuance": "Aucune déclaration explicite trouvée ; déduit de son programme fédéraliste."
+  },
+  {
+   "id": "eu6",
+   "summary": "Tout son programme est bâti sur « Une France puissante grâce à une Europe souveraine ». Il rejette fermement une sortie de l'UE.",
+   "nuance": "Eurodéputé et chef de file d'une liste pro-européenne depuis 2019."
+  },
+  {
+   "id": "int1",
+   "summary": "Le programme 2025 de Place publique, cosigné par Glucksmann, demande une forte augmentation de l'aide militaire à l'Ukraine. Cela correspond à son appel de 2024 en faveur d'une posture d'économie de guerre.",
+   "nuance": "Le programme est daté de juin 2025 et Glucksmann est codirecteur de la publication. Je n'ai trouvé aucun signe d'un changement de position avant octobre 2026."
+  },
+  {
+   "id": "int2",
+   "summary": "Aucun élément vérifié sur l'envoi de troupes françaises pour garantir un cessez-le-feu.",
+   "nuance": "Le programme 2025 traite de l'aide, d'un fonds européen de défense et de l'extension de la dissuasion nucléaire, mais ne dit rien d'une force de réassurance. Le budget de recherche web étant épuisé, je n'ai pas pu vérifier les entretiens de 2025-2026. Ne pas déduire de position."
+  },
+  {
+   "id": "int3",
+   "summary": "En 2019, il a dit que la France devait rester dans l'OTAN. Rien trouvé sur le commandement militaire intégré en particulier.",
+   "nuance": "Rester dans l'OTAN est une question différente de rester dans son commandement intégré. Le programme 2025 ne mentionne pas l'OTAN et met plutôt l'accent sur la défense européenne. La seule source est une ancienne déclaration relayée de seconde main."
+  },
+  {
+   "id": "int4",
+   "summary": "Place publique (août 2026) demande la suspension de l'accord d'association UE-Israël.",
+   "nuance": "Il s'agit d'un communiqué du parti de Glucksmann, qu'il codirige, et non d'une déclaration personnelle vérifiée. Il justifie la suspension principalement par la colonisation de la Cisjordanie et le droit international, et pas seulement par la conduite de la guerre à Gaza. Il a aussi refusé de qualifier Gaza de « génocide » (2024)."
+  },
+  {
+   "id": "int5",
+   "summary": "Aucun objectif national en part du PIB trouvé. Le programme propose un fonds européen de défense de 500 milliards d'euros financé par un emprunt commun.",
+   "nuance": "Sa ligne ferme sur la défense rend un soutien probable, mais rien ne documente la formulation « plus de 3 % du PIB » ; elle n'est donc pas cotée."
+  },
+  {
+   "id": "int6",
+   "summary": "Le programme veut recréer un rite de passage républicain universel à la majorité, en remplacement du service militaire. Il ne dit pas qu'il serait obligatoire ni militaire.",
+   "nuance": "« Universel » renvoie à un dispositif pour tous, proche d'un service national. Son caractère obligatoire et son contenu ne sont pas précisés ; il s'agit donc d'une version plus faible de l'énoncé."
+  },
+  {
+   "id": "int7",
+   "summary": "Il veut l'interdiction immédiate des importations de gaz russe. Rien trouvé spécifiquement sur la levée des sanctions en échange d'un accord de paix.",
+   "nuance": "Déduit d'une position constamment ferme à l'égard de la Russie ; le degré de confiance est donc faible."
+  },
+  {
+   "id": "ecol1",
+   "summary": "Aucun élément trouvé sur les zones à faibles émissions (ZFE).",
+   "nuance": "Le programme 2025 ne mentionne pas les ZFE. Le budget de recherche web était épuisé."
+  },
+  {
+   "id": "ecol2",
+   "summary": "Le programme veut interdire les pesticides les plus nocifs, dont le glyphosate et les néonicotinoïdes, et imposer des clauses miroirs aux importations.",
+   "nuance": "L'UE a autorisé le glyphosate jusqu'en 2033 ; une interdiction française reviendrait donc à interdire ce que ses concurrents utilisent. Le programme associe l'interdiction à des « mesures miroirs » pour protéger les agriculteurs des importations ne respectant pas les mêmes normes, et n'emploie pas explicitement la formulation « même si les concurrents… »."
+  },
+  {
+   "id": "ecol3",
+   "summary": "Aucun élément explicite sur la fin de la vente de voitures thermiques en 2035.",
+   "nuance": "Le programme soutient les petites voitures électriques abordables, le leasing social et des flottes 100 % électriques pour les grandes entreprises. Cela suggère un soutien, mais l'échéance de 2035 n'est pas mentionnée et sa position sur la révision européenne de 2025-2026 n'est pas vérifiée."
+  },
+  {
+   "id": "ecol4",
+   "summary": "Il veut mettre fin aux exonérations de TVA et de taxe sur le kérosène, étendre l'interdiction des vols intérieurs et taxer les jets privés.",
+   "nuance": "Couvre les trois éléments de l'énoncé."
+  },
+  {
+   "id": "ecol5",
+   "summary": "Aucun élément sur le fait de placer le climat au-dessus de la croissance économique.",
+   "nuance": "Le programme présente l'écologie comme compatible avec la « puissance » et la croissance industrielle et n'énonce jamais d'arbitrage."
+  },
+  {
+   "id": "ene1",
+   "summary": "Il veut renforcer le rôle du nucléaire, y compris en construisant de nouveaux réacteurs dans les délais. Il ne s'engage pas au-delà des six EPR2 prévus.",
+   "nuance": "Soutient une version plus faible : de nouveaux réacteurs oui, mais leur nombre n'est pas précisé, et « à temps » renvoie au programme déjà prévu."
+  },
+  {
+   "id": "ene2",
+   "summary": "Il s'oppose à la sortie du nucléaire : le programme veut renforcer son rôle, et en 2024 il avait dit que la sortie ne pouvait pas être un objectif.",
+   "nuance": "En 2024, il avait évité une ligne ferme. En 2025, le programme soutient clairement le nucléaire."
+  },
+  {
+   "id": "ene3",
+   "summary": "Il veut un grand plan d'investissement pluriannuel dans toutes les énergies renouvelables, éolien compris.",
+   "nuance": "L'arrêt du développement de l'éolien n'est pas abordé directement, mais il contredit le plan annoncé."
+  },
+  {
+   "id": "ene4",
+   "summary": "Il veut qu'une partie des factures d'électricité soit fondée sur les coûts de production français plutôt que sur le prix volatil du marché. Une sortie du marché européen n'est pas proposée.",
+   "nuance": "Il partage l'objectif de prix fondés sur les coûts mais propose de le mettre en œuvre dans le cadre de l'UE ; sa ligne fédéraliste pro-européenne rend une sortie du marché peu probable. Déduit ; le degré de confiance est donc faible."
+  },
+  {
+   "id": "ins1",
+   "summary": "Il veut un régime plus parlementaire (Premier ministre investi par l'Assemblée, motion de censure constructive) et une convention citoyenne posant les bases d'une assemblée constituante pour changer la Constitution.",
+   "nuance": "Le programme n'emploie pas l'expression « VIe République », mais le fond (une nouvelle constitution, un virage parlementaire) correspond à l'énoncé."
+  },
+  {
+   "id": "ins2",
+   "summary": "Il veut introduire immédiatement la proportionnelle, de préférence avec des circonscriptions régionales.",
+   "nuance": ""
+  },
+  {
+   "id": "ins3",
+   "summary": "Il veut un droit d'initiative citoyenne pouvant déclencher des référendums locaux et nationaux.",
+   "nuance": "Le programme ne l'appelle pas « RIC » et laisse le dispositif vague (« séquences démocratiques ») ; il est donc coté comme une version partielle."
+  },
+  {
+   "id": "ins4",
+   "summary": "Il veut une motion de censure constructive qui mettrait fin à l'article 49.3.",
+   "nuance": ""
+  },
+  {
+   "id": "ins5",
+   "summary": "Aucun élément sur l'élargissement du référendum à l'immigration ou à la justice.",
+   "nuance": "Sujet non traité dans le programme 2025. Le budget de recherche web était épuisé."
+  },
+  {
+   "id": "soc1",
+   "summary": "Aucune déclaration explicite trouvée sur le maintien ou l'abrogation de la loi de 2026 sur l'aide à mourir.",
+   "nuance": "Les seuls éléments trouvés sont un passage télévisé de mars 2024 (Quotidien) où il a évoqué avec émotion la fin de vie de ses parents (Toutelatele, Gala). Les titres n'indiquent pas de position politique, et rien de postérieur à l'adoption de la loi en juillet 2026 n'a été trouvé. En tant qu'eurodéputé, il n'a pas voté la loi nationale. Laissé sans cote. Le groupe PS a fait adopter la loi (Libération, février 2026) ; une nouvelle recherche devrait donc viser une citation directe."
+  },
+  {
+   "id": "soc2",
+   "summary": "Aucun élément trouvé.",
+   "nuance": "Sujet non traité dans le programme. Le budget de recherche web était épuisé."
+  },
+  {
+   "id": "soc3",
+   "summary": "Aucun élément trouvé sur l'interdiction des signes religieux pour les parents lors des sorties scolaires.",
+   "nuance": "La recherche n'a donné qu'un entretien au Monde de 2020 sur le fondamentalisme islamiste et une couverture générale du débat en 2019-2020, sans position de Glucksmann sur les parents accompagnateurs. Un article de septembre 2026 couvre la ligne d'Olivier Faure sur le voile à l'école, mais ce n'est pas l'avis de Glucksmann. Laissé sans cote."
+  },
+  {
+   "id": "soc4",
+   "summary": "Le programme défend « fermement » la laïcité comme liberté de conscience et principe d'émancipation. Il ne propose ni ne rejette de nouvelles restrictions pour les citoyens.",
+   "nuance": "Trop ambigu pour être coté au regard de la clause « sans restreindre davantage » de l'énoncé."
+  },
+  {
+   "id": "soc5",
+   "summary": "Aucun élément trouvé sur la gestation pour autrui (GPA).",
+   "nuance": "Sujet non traité dans le programme. Le budget de recherche web était épuisé."
+  },
+  {
+   "id": "edu1",
+   "summary": "Aucun élément trouvé sur l'uniforme scolaire.",
+   "nuance": "Sujet non traité dans le programme."
+  },
+  {
+   "id": "edu2",
+   "summary": "Il veut moins d'élèves par enseignant à l'école primaire et une expérimentation dans le secondaire, ainsi qu'une revalorisation salariale de tous les enseignants sur 5 ans.",
+   "nuance": "Une version plus faible : aucun engagement de recrutement « massif », et le secondaire ne bénéficierait que d'une expérimentation."
+  },
+  {
+   "id": "edu3",
+   "summary": "Aucun élément trouvé sur les groupes de niveau.",
+   "nuance": "Sujet non traité dans le programme."
+  },
+  {
+   "id": "edu4",
+   "summary": "Il veut intégrer les établissements privés sous contrat avec l'État dans la carte scolaire pour améliorer la mixité sociale. La réduction de leur financement n'est pas mentionnée.",
+   "nuance": "Partage l'objectif (mixité sociale) par un autre outil ; aucune sanction financière n'est proposée."
+  },
+  {
+   "id": "edu5",
+   "summary": "Aucun élément trouvé sur la fin de la sélection à l'entrée de l'université.",
+   "nuance": "La recherche « Glucksmann Parcoursup » a donné une couverture des débats de la primaire du PS d'octobre 2026 (par exemple « colère lycéenne », la promesse d'un ministre de l'Éducation unique), mais rien sur la suppression de la sélection. Les débats d'octobre 2026 pourraient contenir des éléments pertinents ; une nouvelle recherche est donc utile. Laissé sans cote."
+  },
+  {
+   "id": "san1",
+   "summary": "Le programme dit seulement vouloir « accompagner » l'installation des médecins. Il ne mentionne aucune obligation et n'en rejette aucune.",
+   "nuance": "La formulation suggère des incitations, mais elle n'est pas assez explicite pour être cotée."
+  },
+  {
+   "id": "san2",
+   "summary": "Place publique s'oppose fermement au projet du gouvernement de juillet 2026 de doubler les franchises médicales, qu'elle juge injuste et inefficace.",
+   "nuance": "Il s'agit d'un communiqué du parti, et non d'une déclaration personnelle vérifiée de Glucksmann (coprésident du parti)."
+  },
+  {
+   "id": "san3",
+   "summary": "Il veut l'encadrement des loyers dans les zones d'habitat sous pression.",
+   "nuance": "Les « zones en grande tension » correspondent étroitement aux « zones où le logement manque » de l'énoncé."
+  },
+  {
+   "id": "san4",
+   "summary": "Il veut renverser « le dogme de la concurrence libre et non faussée » et mettre fin à la concurrence entre les administrations publiques et le secteur privé.",
+   "nuance": "Opposition claire à davantage de concurrence en général, mais rien de précis sur la libéralisation des transports ou de l'énergie, d'où -1."
+  },
+  {
+   "id": "eco7",
+   "summary": "Aucun élément trouvé sur une « TVA sociale » (hausse de la TVA pour réduire les cotisations salariales).",
+   "nuance": "Le vérificateur a mené une brève recherche par flux RSS de Google Actualités et n'a trouvé aucun article reliant Glucksmann à une TVA sociale. Ses déclarations de 2026 rejettent les baisses de TVA sur les carburants (voir ene5) et privilégient la taxation des superprofits et des ultra-riches, ce qui ne dit rien directement d'un échange TVA contre cotisations. Laissé sans cote."
+  },
+  {
+   "id": "imm8",
+   "summary": "Aucun élément trouvé sur une naturalisation facilitée.",
+   "nuance": "Une vérification par flux RSS de Google Actualités (« Glucksmann naturalisation ») n'a donné que des résultats sans rapport. Laissé sans cote."
+  },
+  {
+   "id": "sec6",
+   "summary": "Aucun élément trouvé sur les récépissés de contrôle d'identité.",
+   "nuance": "Une vérification par flux RSS de Google Actualités (« Glucksmann récépissé contrôle ») n'a donné aucun résultat. Laissé sans cote."
+  },
+  {
+   "id": "eu7",
+   "summary": "Il réclame de longue date une défense européenne commune financée conjointement : un fonds de défense de 100 milliards d'euros par un nouvel emprunt de l'UE (2024) et un emprunt européen commun de 500 milliards d'euros (mars 2025). Aucune source vérifiable ne dit qu'il accepte une armée européenne ou une perte d'autonomie militaire de la France.",
+   "nuance": "Le soutien au cœur de l'énoncé (défense commune, financement et achats mutualisés) est clair et constant de 2024 à 2025. L'énoncé demande aussi d'accepter une armée européenne et une perte d'autonomie militaire de la France. Cette partie n'est pas confirmée : la recherche « armée européenne » n'a donné aucune déclaration de Glucksmann sur ce point. Coté +1 au lieu de +2. Le corps des articles n'a pas pu être ouvert, les liens Google Actualités étant protégés par un mur de consentement et d'encodage ; les citations sont donc les titres. Place publique se décrit comme fédéraliste européenne, ce qui suggère que +2 est possible, mais c'est la ligne du parti."
+  },
+  {
+   "id": "eu8",
+   "summary": "Il soutient l'adhésion de l'Ukraine à l'UE, selon un résumé de seconde main. C'est l'une des figures de la gauche française les plus constamment pro-ukrainiennes.",
+   "nuance": "La formulation de Wikipédia a été rouverte et confirmée. Les recherches n'ont donné aucune citation datée de 2025-2026 sur l'adhésion à l'UE en particulier. La couverture de 2024 (l'Opinion, mars 2024 : « adhésions floues et lignes claires ») suggère des nuances au sein du camp PS-Place publique qui n'ont pas pu être lues. Son engagement marqué pour l'Ukraine rend +2 plausible, mais les éléments sont secondaires ; le degré de confiance reste donc faible. Une citation primaire de 2025-2026 est nécessaire."
+  },
+  {
+   "id": "ecol6",
+   "summary": "Aucun élément direct trouvé sur des prix minimaux garantis (prix planchers) pour les agriculteurs.",
+   "nuance": "La recherche a donné une couverture de septembre 2026 (« À la foire de Châlons-en-Champagne, Raphaël Glucksmann place les agriculteurs au cœur de son programme », ici.fr) et un comparatif des programmes agricoles de Public Sénat de 2024. Aucun des textes visibles ne mentionne de prix planchers, et les articles n'ont pas pu être ouverts. Laissé sans cote, mais cette question est un bon candidat pour une nouvelle recherche avec accès complet aux articles."
+  },
+  {
+   "id": "ene5",
+   "summary": "Il s'oppose à une baisse des taxes sur les carburants. En avril 2026, il a qualifié la proposition du RN de baisser la TVA de voie vers « la faillite du pays ». En octobre 2026, il a refusé une baisse des taxes sur l'essence et plaidé pour taxer plutôt les « profits de guerre » des pétroliers.",
+   "nuance": "L'énoncé est proche de la proposition du RN d'une TVA à 5,5 % sur l'énergie, qu'il a explicitement attaquée. Le rejet est net pour les carburants et pour la baisse de TVA du RN en général. Rien de précis n'a été trouvé sur la TVA de l'électricité ou du gaz. Boursorama (septembre 2026) rapporte qu'il a demandé une aide ciblée aux carburants « bien plus substantielle » ; il s'oppose donc à la voie de la baisse d'impôt plutôt qu'à tout soulagement. Les citations sont des titres, le corps des articles n'ayant pas pu être ouvert (mur de consentement et d'encodage de Google Actualités)."
+  },
+  {
+   "id": "ins6",
+   "summary": "Aucune déclaration de Glucksmann trouvée sur la privatisation de l'audiovisuel public.",
+   "nuance": "La vérification par flux RSS de Google Actualités a donné la polémique de 2026 sur la commission Alloncle et la défense générale de l'audiovisuel public par la gauche, mais aucune citation de Glucksmann. Son camp s'oppose presque certainement à la privatisation, mais la coter reviendrait à déduire de la ligne du parti. Laissé sans cote."
+  },
+  {
+   "id": "soc6",
+   "summary": "Aucun élément trouvé sur l'interdiction des signes religieux à l'université.",
+   "nuance": "Une brève recherche n'a rien donné. Laissé sans cote."
+  },
+  {
+   "id": "san5",
+   "summary": "Aucun élément trouvé sur un assouplissement des règles de construction ou de l'objectif ZAN.",
+   "nuance": "Une brève recherche n'a rien donné de précis. Laissé sans cote."
+  }
+ ],
+ "record": {
+  "bio": "Raphaël Glucksmann (né le 15 octobre 1979) est un essayiste, documentariste et homme politique français, fils du philosophe André Glucksmann. Il a cofondé Place publique en 2018 et est député européen (groupe S&D) depuis le 2 juillet 2019, après avoir conduit la liste PS-Place publique en 2019 (6,2 %) et en 2024 (13,83 %, troisième place). Il codirige Place publique avec Aurore Lalucq depuis décembre 2022. Le 23 août 2026, au journal de 20 heures de TF1, il a annoncé sa candidature à l'élection présidentielle de 2027 par la primaire commune PS-Place publique organisée en octobre 2026.",
+  "offices": [
+   "Député européen (France ; groupe S&D)",
+   "Président de la commission spéciale du Parlement européen sur les ingérences étrangères dans l'ensemble des processus démocratiques (INGE)",
+   "Coprésident de Place publique (avec Aurore Lalucq)",
+   "Conseiller spécial du président géorgien Mikheil Saakachvili"
+  ],
+  "legal": [],
+  "reversals": [],
+  "delivery": [
+   {
+    "what": "Travail sur les droits humains en Chine au Parlement européen (Xinjiang, travail forcé dans les chaînes d'approvisionnement), qui a conduit la Chine à le sanctionner en 2021 (Wikipédia indique que les sanctions ont été levées en avril 2025, lorsque la Chine a levé les sanctions visant des eurodéputés en exercice) ; a dirigé une délégation de sept eurodéputés à Taïwan en novembre 2021.",
+    "assessment": "Documenté sur Wikipédia ; la levée en avril 2025 des sanctions visant des eurodéputés est confirmée par la presse, mais aucun des extraits consultés ne nomme Glucksmann individuellement. Aucune évaluation de l'impact croisant plusieurs sensibilités n'a pu être réunie."
+   },
+   {
+    "what": "A présidé la commission spéciale du Parlement européen sur les ingérences étrangères (élu président le 23 septembre 2020) ; a proposé un fonds européen de défense de 100 milliards d'euros durant la campagne de 2024.",
+    "assessment": "Présidence confirmée par les versions française et anglaise de Wikipédia ; les résultats législatifs et une évaluation équilibrée n'ont pas été vérifiés. La proposition de 100 milliards d'euros provient de la version préliminaire d'origine et n'a pas été revérifiée."
+   }
+  ],
+  "media_portrayal": {
+   "left_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
+   "right_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
+   "neutral_media": "Non étudié de manière systématique. La couverture récente dans plusieurs médias (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) a rapporté deux épisodes : une note de campagne sur les « publics cibles » révélée par Politico le 12 mai 2026, qu'il a qualifiée de volée et sans valeur politique, et une vidéo enregistrée le 17 septembre 2026 et diffusée par Le Média le 2 octobre, dans laquelle il a insulté Mélenchon et Le Pen et déclaré que Ségolène Royal avait fait « la danse du ventre » pour Macron ; il s'est excusé auprès de Royal pour des propos « inélégants » lors du débat de la primaire du 4 octobre."
+  }
+ }
+}
