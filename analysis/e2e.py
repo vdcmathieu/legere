@@ -2,7 +2,9 @@
 
 Plays one respondent through every screen, checks for console errors,
 horizontal overflow and dead ends, and saves screenshots.
-Usage: python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [persona=<cid>]
+Usage: python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [motion] [persona=<cid>]
+Screenshots are taken with reduced motion so they never catch an animation mid-way; pass "motion"
+to run with animations on and check that they never block a click.
 """
 import random, sys
 from pathlib import Path
@@ -11,9 +13,10 @@ from playwright.sync_api import sync_playwright
 url, out = sys.argv[1], Path(sys.argv[2])
 mobile = "mobile" in sys.argv[3:]
 dark = "dark" in sys.argv[3:]
+motion = "motion" in sys.argv[3:]
 persona = next((a.split("=")[1] for a in sys.argv[3:] if a.startswith("persona=")), None)
 out.mkdir(parents=True, exist_ok=True)
-tag = ("mobile" if mobile else "desktop") + ("-dark" if dark else "") + (f"-{persona}" if persona else "")
+tag = ("mobile" if mobile else "desktop") + ("-dark" if dark else "") + ("-motion" if motion else "") + (f"-{persona}" if persona else "")
 rnd = random.Random(7)
 errors, notes = [], []
 
@@ -47,7 +50,7 @@ with sync_playwright() as p:
     b = p.chromium.launch()
     ctx = b.new_context(viewport={"width": 360, "height": 780} if mobile else {"width": 1280, "height": 900},
                         color_scheme="dark" if dark else "light", device_scale_factor=2 if mobile else 1,
-                        has_touch=mobile, is_mobile=mobile)
+                        has_touch=mobile, is_mobile=mobile, reduced_motion="no-preference" if motion else "reduce")
     page = ctx.new_page()
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))
