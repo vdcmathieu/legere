@@ -12290,10 +12290,24 @@
     "eco2": {
      "id": "eco2",
      "position": 2,
-     "confidence": "medium",
-     "evidence_type": "party_line",
-     "summary": "The PS 2026 budget counter-proposals included implementing the Zucman tax, and the whole left backed it in 2025.",
+     "confidence": "high",
+     "evidence_type": "statement",
+     "summary": "Faure personally defended the Zucman tax in September 2025 ('part of the answers', 1,800 people above EUR 100 million) and announced on 15 October 2025 that PS deputies would table it as an amendment to the 2026 budget.",
      "sources": [
+      {
+       "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-sur-les-ultrariches-au-centre-de-l-equation-politique-398413",
+       "outlet": "LCP (quoting franceinfo)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2025-09-10",
+       "quote": "La taxe Zucman fait partie des réponses : elle ne concerne que 1 800 personnes dont le patrimoine dépasse 100 millions d'euros"
+      },
+      {
+       "url": "https://www.brut.media/fr/articles/budget-2026-olivier-faure-annonce-que-le-ps-proposera-la-taxe-zucman-par-amendement",
+       "outlet": "Brut (quoting BFMTV-RMC)",
+       "outlet_lean": "centre",
+       "date": "2025-10-15",
+       "quote": "le PS proposera la taxe Zucman par amendement"
+      },
       {
        "url": "https://fr.wikipedia.org/wiki/Taxe_Zucman",
        "outlet": "Wikipedia",
@@ -12302,9 +12316,9 @@
        "quote": "Le Parti socialiste présente des contre-propositions budgétaires pour 2026 qui comprennent la mise en œuvre de la taxe Zucman."
       }
      ],
-     "nuance": "This is the party position. No personal Faure quote could be retrieved because the search budget was used up. The PS's later 'Zucman light' variants were not checked.",
-     "summary_fr": "Les contre-propositions budgétaires du PS pour 2026 comprenaient la mise en œuvre de la taxe Zucman, que l'ensemble de la gauche a soutenue en 2025.",
-     "nuance_fr": "Il s'agit de la position du parti. Aucune citation personnelle de Faure n'a pu être retrouvée, le budget de recherches web ayant été épuisé. Les variantes ultérieures « Zucman light » du PS n'ont pas été vérifiées."
+     "nuance": "The amendment was rejected by the Assembly on 31 October 2025. In 2026 the PS has also floated lighter variants, which were not checked here.",
+     "summary_fr": "Faure a personnellement défendu la taxe Zucman en septembre 2025 (« fait partie des réponses », 1 800 personnes au-dessus de 100 millions d'euros) et a annoncé le 15 octobre 2025 que les députés PS la déposeraient par amendement au budget 2026.",
+     "nuance_fr": "L'amendement a été rejeté par l'Assemblée le 31 octobre 2025. En 2026, le PS a aussi évoqué des variantes allégées, non vérifiées ici."
     },
     "eco3": {
      "id": "eco3",
@@ -12577,9 +12591,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "imm4": {
      "id": "imm4",
@@ -12640,9 +12654,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "sec2": {
      "id": "sec2",
@@ -12736,9 +12750,9 @@
      "evidence_type": "none",
      "summary": "No evidence found.",
      "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
+     "nuance": "No personal statement found.",
      "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "nuance_fr": "Aucune déclaration personnelle trouvée."
     },
     "eu5": {
      "id": "eu5",
@@ -13452,7 +13466,7 @@
    },
    "record": {
     "candidate": "Olivier Faure",
-    "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, though PS members later voted for a primary limited to the socialist pole. He announced his presidential bid on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS/Place publique primary of October 2026.",
+    "bio": "Olivier Faure (born 18 August 1968 in La Tronche, Isère) is a French Socialist politician who joined the PS in 1984. He was deputy chief of staff to François Hollande at the PS (2000-2007) and has been deputy for Seine-et-Marne's 11th constituency since June 2012. He has been First Secretary of the Parti socialiste since April 2018 and was re-elected in 2021, 2023 and June 2025. He backed the NUPES alliance in 2022 and the Nouveau Front populaire in 2024. In July 2025 he helped agree the principle of a common left candidate for 2027, but in July 2026 PS members voted for a primary limited to the socialist pole. He announced his presidential bid on TF1 on 30 August 2026, published the book \"La loi du plus juste\" on 17 September 2026, and is running in the PS-Place publique primary ('Choisir 2027', online rounds on 9-10 and 16-17 October 2026).",
     "offices": [
      {
       "office": "Deputy, Seine-et-Marne 11th constituency",
@@ -13489,14 +13503,15 @@
      {
       "topic": "Use of article 49.3 for the 2026 budget",
       "before": "Autumn 2025: the PS made non-use of article 49.3 for the 2026 budget one of its conditions for not censuring the Lecornu government, and obtained that commitment",
-      "after": "Late January 2026: accepted that the government use 49.3 to adopt the 2026 budget because no majority could be found, against opposition from other left parties",
+      "after": "January 2026: after Prime Minister Lecornu announced on 19 January that he would use 49.3 to pass the 2026 budget, Faure announced that PS deputies would not censure the government, against the other left parties",
       "years": "2025-2026",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Olivier_Faure"
+       "https://fr.wikipedia.org/wiki/Olivier_Faure",
+       "https://lcp.fr/actualites/budget-nous-ne-censurerons-pas-le-gouvernement-declare-le-premier-secretaire-du-ps"
       ],
       "topic_fr": "Recours à l'article 49.3 pour le budget 2026",
       "before_fr": "Automne 2025 : le PS a fait du non-recours à l'article 49.3 pour le budget 2026 l'une de ses conditions pour ne pas censurer le gouvernement Lecornu, et a obtenu cet engagement",
-      "after_fr": "Fin janvier 2026 : a accepté que le gouvernement recoure au 49.3 pour adopter le budget 2026 faute de majorité, contre l'avis des autres partis de gauche"
+      "after_fr": "Janvier 2026 : après l'annonce par le Premier ministre Lecornu, le 19 janvier, du recours au 49.3 pour faire adopter le budget 2026, Faure a annoncé que les députés PS ne censureraient pas le gouvernement, contre l'avis des autres partis de gauche"
      }
     ],
     "delivery": [
@@ -13530,18 +13545,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched: no left-leaning outlet could be consulted. Do not rely on this field.",
-     "right_media": "Not researched: no right-leaning outlet could be consulted. Do not rely on this field.",
-     "neutral_media": "Not researched: no neutral outlet could be consulted. Do not rely on this field."
-    },
-    "sources_note": "Sources: French Wikipedia (secondary source, no lean label) and datan.fr (primary roll-call aggregator). The session's WebSearch budget (200 calls) was used up, and direct fetches of Public Sénat and franceinfo pages returned nothing usable. As a result, no press outlet of any lean was consulted. Legal is empty because Wikipedia and datan mention no judicial case involving him personally. This is absence of evidence, not confirmed absence. Traits and media portrayal are empty or unresearched because the two-lean bar could not be met. Executive experience is 0 because his posts were parliamentary, party or staff roles: he was never minister, mayor or executive president. Datan gives 92% participation in solemn votes and 95% loyalty to the SOC group. A rerun with a higher search limit is recommended to add press sources of differing leanings.",
-    "bio_fr": "Olivier Faure (né le 18 août 1968 à La Tronche, Isère) est un homme politique socialiste français qui a adhéré au PS en 1984. Il a été directeur adjoint de cabinet de François Hollande au PS (2000-2007) et est député de la 11e circonscription de Seine-et-Marne depuis juin 2012. Il est premier secrétaire du Parti socialiste depuis avril 2018 et a été réélu en 2021, 2023 et juin 2025. Il a soutenu l'alliance NUPES en 2022 et le Nouveau Front populaire en 2024. En juillet 2025, il a contribué à faire adopter le principe d'une candidature commune de la gauche pour 2027, même si les adhérents du PS ont ensuite voté en faveur d'une primaire limitée au pôle socialiste. Il a annoncé sa candidature à la présidentielle le 30 août 2026, a publié le livre « La loi du plus juste » le 17 septembre 2026 et participe à la primaire PS/Place publique d'octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non étudié : aucun média de gauche n'a pu être consulté. Ne pas se fier à ce champ.",
-     "right_media": "Non étudié : aucun média de droite n'a pu être consulté. Ne pas se fier à ce champ.",
-     "neutral_media": "Non étudié : aucun média neutre n'a pu être consulté. Ne pas se fier à ce champ."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), LCP (16 Sept 2026 primary line-up; January 2026 budget and 49.3), AFP dispatches relayed by Bourse Direct (30 Aug 2026 candidacy; September 2026 book) and Public Sénat (8 Sept 2026, primary rules and dates). Press searches found no judicial case, complaint or investigation concerning him personally. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Olivier Faure (né le 18 août 1968 à La Tronche, Isère) est un homme politique socialiste français qui a adhéré au PS en 1984. Il a été directeur adjoint de cabinet de François Hollande au PS (2000-2007) et est député de la 11e circonscription de Seine-et-Marne depuis juin 2012. Il est premier secrétaire du Parti socialiste depuis avril 2018 et a été réélu en 2021, 2023 et juin 2025. Il a soutenu l'alliance NUPES en 2022 et le Nouveau Front populaire en 2024. En juillet 2025, il a contribué à faire adopter le principe d'une candidature commune de la gauche pour 2027, mais en juillet 2026 les adhérents du PS ont voté pour une primaire limitée au pôle socialiste. Il a annoncé sa candidature à la présidentielle sur TF1 le 30 août 2026, a publié le livre « La loi du plus juste » le 17 septembre 2026 et participe à la primaire PS-Place publique (« Choisir 2027 », tours en ligne les 9-10 et 16-17 octobre 2026)."
    },
    "verification_notes": [
     "SESSION LIMIT: the WebSearch budget for this session was already used up (200/200), so no searches could be run. I checked by opening known pages directly with WebFetch: fr/en Wikipedia Olivier_Faure, fr Taxe_Zucman, en New_Popular_Front, parti-socialiste.fr, projet-socialiste.fr, letempsduprojet.fr, plus several Wikipedia pages that returned nothing useful. Each null was re-checked only against those pages, not by fresh searches. This candidate should be re-run once the search budget is raised.",
@@ -13601,7 +13606,8 @@
     "soc3: null -> null: the PS project laïcité text does not address school-trip parents.",
     "soc6: null -> null: nothing found.",
     "edu5: null -> null: found that the PS project abolishes Parcoursup without committing to end selection; per the coding note this is not agreement; documented in sources and nuance.",
-    "san5: null -> -1 medium programme: the PS project explicitly defends ZAN ('défense de l'objectif zéro artificialisation nette') with a rural-development caveat; the null was a missed-evidence error."
+    "san5: null -> -1 medium programme: the PS project explicitly defends ZAN ('défense de l'objectif zéro artificialisation nette') with a rural-development caveat; the null was a missed-evidence error.",
+    "2026-10-06 fact-check: see research/factcheck/faure.md"
    ]
   },
   "tondelier": {
