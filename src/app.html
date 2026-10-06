@@ -1360,7 +1360,7 @@ screens.results = () => {
       <div class="lead-main">
         <span class="label">Votre résultat · vous êtes le plus proche de</span>
         <div class="head">${tied.length === 1 ? avatar(T, "lg") : `<span class="pile">${tied.slice(0, 3).map(k => avatar(CANDS[k], "lg")).join("")}</span>`}<p class="who ${tied.length > 1 ? "many" : ""}">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : T.name)}</p></div>
-        <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(T.party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
+        <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : esc(T.party)}</p>
         <p class="small solid">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
         ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
       </div>
