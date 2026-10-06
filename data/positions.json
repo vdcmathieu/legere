@@ -10747,26 +10747,19 @@
      "position": 2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "In September 2025 he made the Zucman tax 'the basis of any agreement' with the Lecornu government and kept pushing for it through the 2025 budget fight.",
+     "summary": "In September 2025 he made a tax on the ultra-rich the 'condition of possibility of any agreement' with the Lecornu government, while saying the design and amount could be discussed.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZXBRR0dqTkcwNUhXRk5QaFVwVG1IbUdsUmN0OUs3UjU4LUVtbmNHd19MMnRIRWZmX2tZWHduU0NVcEpYLTNLSUVHZ2diSV9Jd2kxamNqdzVrb2trYzZkNEljcG1JejYzYmNuemNCWERfQzFCVmRpaWdOa1JVUk45WHdRS3RZQmpmcWdlemNaZm5CQmtfWmhDbVVscmFLWVh5Q2ZPemZPRVBHRS1lMnEweEtLX1Nwd1V3bEFSZVF4ajJsTGNh?oc=5",
-       "outlet": "France 24",
-       "outlet_lean": "centre",
+       "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-sur-les-ultrariches-au-centre-de-l-equation-politique-398413",
+       "outlet": "LCP (quoting RTL)",
+       "outlet_lean": "neutral-institutional",
        "date": "2025-09-11",
-       "quote": "Taxe Zucman : \"la base de tout accord\" pour Glucksmann, \"une illusion\" pour Larcher"
-      },
-      {
-       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQa2NaZzc1LVpTaEhuX3JhTkNuMVZCMnhTQXB4dXBhT2RFQjlieU9xSEZKZGNJcXVrb0VfcTdTMEZXSjM4X1lYSEwyR0xxc0EwZkZPTHlCNDJVOWEyeFNmREpzR05ZMHB4OVFrTEEyZ2w5SHBmUHg4aHNlR2V6bklUYTl6SG04aGIzZGJ3cENXSm83d0ZWeVFBRTJIY05wbHhuNHBFMUJyZGh4Z3U3bmxoZDZhcTR3VWlPZTBlaGJGUHM3a291eXRyS1ZZRHp5QVVqWjEwWmZTczhxbllWUVFwOWhqdkJTVi0zbHNvSFhEelRLZUIwa1duV3dLVDBsU0REa3JqWloycUZHOVhIcUdSVkNwNFpZY2ZGOHdlaXRVa2Q1OGZGalNB?oc=5",
-       "outlet": "parlons-politique.fr",
-       "outlet_lean": "centre",
-       "date": "2025-10-05",
-       "quote": "Glucksmann critique Lecornu et réclame la taxe Zucman"
+       "quote": "On peut discuter des modalités, on peut discuter de l'assiette, on peut discuter du montant [...] la condition de possibilité de tout accord"
       }
      ],
-     "nuance": "The evidence is from autumn 2025. I found no 2026 campaign statement that repeats the exact 2%/100M design. The PS economic programme of September 2026 includes the Zucman tax. These are Google News links seen in search results; the article bodies could not be opened.",
-     "summary_fr": "En septembre 2025, il a fait de la taxe Zucman « la base de tout accord » avec le gouvernement Lecornu et a continué à la défendre tout au long de la bataille budgétaire de 2025.",
-     "nuance_fr": "Les éléments datent de l'automne 2025. Je n'ai trouvé aucune déclaration de campagne de 2026 reprenant exactement le dispositif 2 % / 100 millions. Le programme économique du PS de septembre 2026 inclut la taxe Zucman. Il s'agit de liens Google Actualités vus dans les résultats de recherche ; le corps des articles n'a pas pu être ouvert."
+     "nuance": "The evidence is from autumn 2025 and he left the exact design open. The PS economic programme of September 2026 includes the Zucman tax.",
+     "summary_fr": "En septembre 2025, il a fait d'un impôt sur les ultra-riches « la condition de possibilité de tout accord » avec le gouvernement Lecornu, tout en disant que les modalités et le montant pouvaient se discuter.",
+     "nuance_fr": "Les éléments datent de l'automne 2025 et il a laissé ouvert le dispositif exact. Le programme économique du PS de septembre 2026 inclut la taxe Zucman."
     },
     "eco3": {
      "id": "eco3",
@@ -12140,7 +12133,7 @@
    },
    "record": {
     "candidate": "Raphaël Glucksmann",
-    "bio": "Raphaël Glucksmann (born 15 October 1979) is a French essayist, documentary filmmaker and politician, son of philosopher André Glucksmann. He co-founded Place publique in 2018 and has been a Member of the European Parliament (S&D group) since 2 July 2019, leading the PS-Place publique list in 2019 (6.2%) and 2024 (13.83%, third place). He has co-led Place publique with Aurore Lalucq since December 2022. On 23 August 2026, on TF1's evening news, he announced his candidacy for the 2027 presidential election through the joint PS-Place publique primary held in October 2026.",
+    "bio": "Raphaël Glucksmann (born 15 October 1979) is a French essayist, documentary filmmaker and politician, son of philosopher André Glucksmann. He co-founded Place publique in 2018 and has been a Member of the European Parliament (S&D group) since 2 July 2019, after leading the PS-Place publique list in 2019 (6.19%) and 2024 (13.83%, third place). He has co-led Place publique with Aurore Lalucq since 16 December 2022. On 23 August 2026, on TF1's evening news, he announced his candidacy for the 2027 presidential election through the PS-Place publique primary ('Choisir 2027', online rounds on 9-10 and 16-17 October 2026).",
     "offices": [
      {
       "office": "Member of the European Parliament (France; S&D group)",
@@ -12150,11 +12143,11 @@
       "office_fr": "Député européen (France ; groupe S&D)"
      },
      {
-      "office": "Chair of the European Parliament Special Committee on Foreign Interference in all Democratic Processes (INGE)",
+      "office": "Chair of the European Parliament special committees on foreign interference (INGE, then ING2)",
       "from": "2020-09-23",
-      "to": "2022",
+      "to": "2023",
       "kind": "european",
-      "office_fr": "Président de la commission spéciale du Parlement européen sur les ingérences étrangères dans l'ensemble des processus démocratiques (INGE)"
+      "office_fr": "Président des commissions spéciales du Parlement européen sur les ingérences étrangères (INGE, puis ING2)"
      },
      {
       "office": "Co-president of Place publique (with Aurore Lalucq)",
@@ -12195,18 +12188,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
-     "right_media": "Not researched: outlet-level coverage could not be gathered (web search budget exhausted).",
-     "neutral_media": "Not systematically researched. Recent coverage across outlets (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) reported two episodes: a campaign memo on 'target audiences' leaked by Politico on 12 May 2026, which he called stolen and of no political value, and a video recorded on 17 September 2026 and released by Le Média on 2 October, in which he insulted Mélenchon and Le Pen and said Ségolène Royal had done 'la danse du ventre' for Macron; he apologised to Royal for 'inelegant' remarks during the 4 October primary debate."
-    },
-    "sources_note": "Sources consulted: the French and English Wikipedia articles on Glucksmann (via WebFetch summaries), plus Bing News result listings used to confirm the dates of his candidacy announcement (TF1, 23 August 2026; reported by BFMTV, TF1 Info, Valeurs actuelles, Le Temps), the May 2026 memo leak (20 Minuten, citing Politico), and the October 2026 video and apology (Le Parisien, Ouest-France, Sud Ouest, CNews). The WebSearch budget was exhausted, and no primary sources (programme, roll-call votes) were verified. The legal list is empty because Wikipedia does not mention any personal judicial case, complaint or investigation, but no dedicated court or press check was possible. Reversals and traits stay empty because the two-source, different-lean rule could not be met. Possible reversal candidates that were not documented to the required standard: his stance on LFI (he ran with the Nouveau Front populaire in 2024, then called for the left to distance itself from LFI). Wikipedia notes policy positions: very cautious use of the word 'genocide' about Gaza while denouncing a 'massacre' and the blockade, rejection of an alliance with LFI, leaving Dublin III, criticism of the 2024 EU Migration and Asylum Pact, support for wealth taxation, and support for Ukraine's EU integration. A rerun with a higher search budget is recommended.",
-    "bio_fr": "Raphaël Glucksmann (né le 15 octobre 1979) est un essayiste, documentariste et homme politique français, fils du philosophe André Glucksmann. Il a cofondé Place publique en 2018 et est député européen (groupe S&D) depuis le 2 juillet 2019, après avoir conduit la liste PS-Place publique en 2019 (6,2 %) et en 2024 (13,83 %, troisième place). Il codirige Place publique avec Aurore Lalucq depuis décembre 2022. Le 23 août 2026, au journal de 20 heures de TF1, il a annoncé sa candidature à l'élection présidentielle de 2027 par la primaire commune PS-Place publique organisée en octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
-     "right_media": "Non étudié : la couverture par les différents médias n'a pas pu être réunie (budget de recherche web épuisé).",
-     "neutral_media": "Non étudié de manière systématique. La couverture récente dans plusieurs médias (Politico, Le Monde, Mediapart, Le Parisien, Ouest-France, Sud Ouest, CNews) a rapporté deux épisodes : une note de campagne sur les « publics cibles » révélée par Politico le 12 mai 2026, qu'il a qualifiée de volée et sans valeur politique, et une vidéo enregistrée le 17 septembre 2026 et diffusée par Le Média le 2 octobre, dans laquelle il a insulté Mélenchon et Le Pen et déclaré que Ségolène Royal avait fait « la danse du ventre » pour Macron ; il s'est excusé auprès de Royal pour des propos « inélégants » lors du débat de la primaire du 4 octobre."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026), European Parliament ING2 committee minutes (2022-2023), LCP (23 Aug 2026 candidacy; 11 Sept 2025 Zucman tax), Euronews/Reuters (23 Aug 2026) and Public Sénat (8 Sept 2026, primary rules and dates). Press searches found no judicial case, complaint or investigation concerning him personally. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Reversals and traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Raphaël Glucksmann (né le 15 octobre 1979) est un essayiste, documentariste et homme politique français, fils du philosophe André Glucksmann. Il a cofondé Place publique en 2018 et est député européen (groupe S&D) depuis le 2 juillet 2019, après avoir conduit la liste PS-Place publique en 2019 (6,19 %) et en 2024 (13,83 %, troisième place). Il codirige Place publique avec Aurore Lalucq depuis le 16 décembre 2022. Le 23 août 2026, au journal de 20 heures de TF1, il a annoncé sa candidature à l'élection présidentielle de 2027 par la primaire PS-Place publique (« Choisir 2027 », tours en ligne les 9-10 et 16-17 octobre 2026)."
    },
    "verification_notes": [
     "General: WebSearch quota was exhausted, so verification used Bing News and Google News RSS feeds and direct fetches. The main primary source is the Place publique 'Acte I' programme PDF (42 chantiers, June 2025), downloaded and searched in full. Le Monde, La Dépêche, Le Point, RMC, Sud Ouest, Le Télégramme and La Tribune blocked fetching; for those I used only headlines or snippets seen in search results. Google News redirect URLs (eco2) could not be resolved to the publisher's page.",
@@ -12283,7 +12266,8 @@
     "eu8: +2/low kept. The Wikipedia quote was re-opened and confirmed verbatim. No 2025-2026 primary source was found, so confidence stays low. Nuance updated.",
     "ene5: null -> -2/medium/statement: evidence exists. A BFM headline (23 Apr 2026) says he attacked the RN's VAT-cut proposal as leading to 'la faillite du pays'. A Capital headline (2 Oct 2026) says he refuses to cut taxes on petrol.",
     "eco7, trav3, imm8, sec6, ecol6, ins6, soc1, soc3, soc6, edu5, san5: null kept after a brief Google News RSS search for each. No direct candidate position was found. Nuance updated with what was searched. ecol6, soc1 and edu5 are flagged for a rerun with full article access (Sept 2026 farm-fair coverage, July 2026 assisted-dying law, Oct 2026 primary debates).",
-    "General: the draft's 'web search budget exhausted' summaries were replaced with the verifier's actual search outcome."
+    "General: the draft's 'web search budget exhausted' summaries were replaced with the verifier's actual search outcome.",
+    "2026-10-06 fact-check: see research/factcheck/glucksmann.md"
    ]
   },
   "faure": {
