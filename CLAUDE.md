@@ -5,7 +5,7 @@ Single-page app, French UI, no backend: answers stay in the browser (localStorag
 Published privately as a claude.ai Artifact: https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb (republish to the same URL).
 
 ## Layout
-- `src/app.html` - the whole app (HTML/CSS/JS); `build.py` injects `data/*.json` into it -> `dist/legere.html`.
+- `src/app.html` - the whole app (HTML/CSS/JS); `build.py` injects `data/*.json` into it -> `dist/index.html`.
 - `data/` - statement bank, questionnaire modules, candidate positions, explainers, method page.
 - `research/` - pipeline that produced the candidate codings (journals, consolidation, translation).
 - `analysis/power.py` - Monte-Carlo power analysis behind the stop rule; `analysis/e2e.py` - browser E2E.

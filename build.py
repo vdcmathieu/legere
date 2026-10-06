@@ -7,10 +7,13 @@ Inputs (data/):
   profiles.json        per-candidate profile codes for the leadership score
   meta.json            as-of date, polls
   method.html          methodology page body
+  legal.html           mentions légales and privacy page body
+  photos.json          per-candidate portrait credits; files live in public/candidates/
+public/ is copied verbatim into dist/ (fonts, portraits, favicon).
 Core set: the statements shown to everyone before adaptive selection,
 chosen greedily for discrimination under area and axis coverage constraints.
 """
-import json, math
+import json, math, shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -85,6 +88,7 @@ def main():
     context = {c["id"]: c for c in audit.get("context", [])}
     context.update({c["id"]: c for c in jload("context_update.json", [])})
 
+    photos = {cid: {**p, "src": "candidates/" + p["file"]} for cid, p in jload("photos.json", {}).items()}
     cands = []
     for cid, c in pos["candidates"].items():
         cands.append({
@@ -97,6 +101,7 @@ def main():
                           for sid, e in c["positions"].items()},
             "record": french_record(c.get("record", {})),
             "profile": profiles.get(cid, {}),
+            "photo": photos.get(cid),
         })
     core, disc = pick_core(st["statements"], cands)
     method = (D / "method.html").read_text() if (D / "method.html").exists() else "<h2>Méthode</h2><p>À venir.</p>"
@@ -107,12 +112,17 @@ def main():
         method = method.replace(k, v)
     method = method.replace("{{N_CORE}}", str(CORE_N))
     data = {"meta": meta, "areas": st["areas"], "statements": st["statements"], "questionnaire": q,
-            "candidates": cands, "core": core, "context": context, "method_html": method}
+            "candidates": cands, "core": core, "context": context, "method_html": method,
+            "legal_html": (D / "legal.html").read_text() if (D / "legal.html").exists() else ""}
     html = (ROOT / "src" / "app.html").read_text().replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False))
-    (ROOT / "dist").mkdir(exist_ok=True)
-    (ROOT / "dist" / "legere.html").write_text(html)
+    dist = ROOT / "dist"
+    shutil.rmtree(dist, ignore_errors=True)
+    if (ROOT / "public").exists():
+        shutil.copytree(ROOT / "public", dist)
+    dist.mkdir(exist_ok=True)
+    (dist / "index.html").write_text(html)
     json.dump({"core": core, "discrimination": disc}, open(D / "core.json", "w"), indent=1)
-    print(f"built dist/legere.html ({len(html)//1024} KB), {len(cands)} candidates, core={len(core)}")
+    print(f"built dist/index.html ({len(html)//1024} KB), {len(cands)} candidates, core={len(core)}")
 
 
 if __name__ == "__main__":

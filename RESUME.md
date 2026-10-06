@@ -9,7 +9,7 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
     python3 research/translate.py split   # then translate research/fr/in -> research/fr/out (translate-workflow.js)
     python3 research/translate.py merge
     python3 research/make_profiles.py
-    python3 build.py                      # -> dist/legere.html
+    python3 build.py                      # -> dist/index.html
     python3 analysis/power.py 800         # -> analysis/power_real.json (accuracy by number of answers)
     python3 analysis/stop_rules.py analysis/stop_rules.json   # when the checkpoint fires
     python3 analysis/e2e.py <url> <outdir> [mobile] [dark] [persona=<cid>]
