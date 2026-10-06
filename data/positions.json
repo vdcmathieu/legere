@@ -5490,11 +5490,11 @@
       "office_fr": "Premier ministre"
      },
      {
-      "office": "Mayor of Le Havre (second term, re-elected 2026-03-28)",
+      "office": "Mayor of Le Havre (second term, re-elected March 2026)",
       "from": "2020-07-05",
       "to": "present",
       "kind": "local_executive",
-      "office_fr": "Maire du Havre (second mandat, réélu le 28 mars 2026)"
+      "office_fr": "Maire du Havre (second mandat, réélu en mars 2026)"
      },
      {
       "office": "President of Le Havre Seine Métropole",
@@ -5514,23 +5514,24 @@
     "executive_experience_years": 16,
     "legal": [
      {
-      "case": "Cour de justice de la République judicial investigation into Covid-19 pandemic management (opened 7 July 2020; his home was searched on 15 October 2020). He was placed under the status of témoin assisté (assisted witness) for 'abstention de combattre un sinistre' (failure to act against a disaster), not mis en examen, and the CJR's investigating commission issued a non-lieu (dismissal) for Philippe, Agnès Buzyn and Olivier Véran on 7 July 2025. Never charged or convicted.",
+      "case": "Cour de justice de la République investigation into the management of the Covid-19 pandemic (opened 7 July 2020; his home was searched on 15 October 2020). He was heard as an assisted witness (témoin assisté) for 'abstention de combattre un sinistre' and was never mis en examen. On 7 July 2025 the CJR's investigating commission issued a non-lieu for Philippe, Agnès Buzyn and Olivier Véran, following the prosecutor general's submissions of May 2025.",
       "status": "dismissed",
-      "date": "2020-07-07 (opened); 2025-07-07 (non-lieu)",
+      "date": "2025-07-07",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Cour_de_justice_de_la_République",
+       "https://www.leclubdesjuristes.com/en-bref/gestion-du-covid-19-la-cjr-prononce-un-non-lieu-a-lencontre-de-edouard-philippe-agnes-buzyn-et-olivier-veran-11443/",
+       "https://www.lequotidiendumedecin.fr/liberal-soins-de-ville/justice/gestion-du-covid-19-apres-edouard-philippe-et-agnes-buzyn-olivier-veran-place-comme-temoin-assiste",
        "https://fr.wikipedia.org/wiki/Édouard_Philippe"
       ],
-      "case_fr": "Information judiciaire de la Cour de justice de la République sur la gestion de la pandémie de Covid-19 (ouverte le 7 juillet 2020 ; son domicile a été perquisitionné le 15 octobre 2020). Il a été placé sous le statut de témoin assisté pour « abstention de combattre un sinistre », et non mis en examen, et la commission d'instruction de la CJR a rendu un non-lieu en faveur de Philippe, Agnès Buzyn et Olivier Véran le 7 juillet 2025. Jamais mis en examen pour ces faits ni condamné."
+      "case_fr": "Information judiciaire de la Cour de justice de la République sur la gestion de la pandémie de Covid-19 (ouverte le 7 juillet 2020 ; son domicile a été perquisitionné le 15 octobre 2020). Il a été entendu sous le statut de témoin assisté pour « abstention de combattre un sinistre » et n'a jamais été mis en examen. Le 7 juillet 2025, la commission d'instruction de la CJR a rendu un non-lieu en faveur d'Édouard Philippe, d'Agnès Buzyn et d'Olivier Véran, conformément aux réquisitions du parquet général de mai 2025."
      },
      {
-      "case": "In 2014 the HATVP (the transparency authority) published a critical assessment of his asset declaration because of omissions, and he later filed an updated declaration. This was an administrative finding and not a criminal case.",
+      "case": "In 2014 the HATVP (transparency authority) attached a critical 'appréciation' to his asset declaration as a deputy because of omissions (he was one of 23 parliamentarians out of 1,048 in that situation); he later filed a corrected declaration. An administrative finding, not a criminal case.",
       "status": "civil_or_other",
       "date": "2014",
       "sources": [
        "https://fr.wikipedia.org/wiki/Édouard_Philippe"
       ],
-      "case_fr": "En 2014, la HATVP (Haute Autorité pour la transparence de la vie publique) a publié une appréciation critique de sa déclaration de patrimoine en raison d'omissions, et il a ensuite déposé une déclaration mise à jour. Il s'agissait d'un constat administratif et non d'une affaire pénale."
+      "case_fr": "En 2014, la HATVP (Haute Autorité pour la transparence de la vie publique) a assorti sa déclaration de patrimoine de député d'une « appréciation » critique en raison d'omissions (il faisait partie des 23 parlementaires sur 1 048 dans ce cas) ; il a ensuite déposé une déclaration corrigée. Il s'agit d'un constat administratif et non d'une affaire pénale."
      }
     ],
     "reversals": [
@@ -5577,18 +5578,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not researched (search quota exhausted).",
-     "right_media": "Not researched (search quota exhausted).",
-     "neutral_media": "Not researched (search quota exhausted)."
-    },
-    "sources_note": "The WebSearch quota was exhausted in both the research and verification passes. All facts come from French Wikipedia pages that were opened and re-checked during verification: Édouard Philippe, Horizons, Gouvernement Philippe II and Cour de justice de la République. The CJR page cites a franceinfo article of 7 July 2025 for the non-lieu, but its URL could not be opened, so it is not cited directly. The profile is thin. It lacks cross-leaning outlets, the Horizons/2027 programme, trait corroboration and media portrayal, so the research should be re-run with search quota available. executive_experience_years counts mayor 2010-10 to 2017-05 (about 6.6 years), PM 2017-05 to 2020-07 (about 3.1) and mayor 2020-07 to 2026-10 (about 6.25), roughly 15.9 years in total. The metropole presidency overlaps the mayoralty and is not double-counted.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: PM and mayoral dates and re-election in March 2026 (LCP), candidacy announced in Le Point in September 2024, campaign launch on 5 July 2026 with the slogan 'Croire en nous' (Europe 1, Public Sénat), departure from the Horizons presidency announced 9 September 2026 with Christophe Béchu taking over on 1 October 2026 (CNews live, 9 Sept 2026; French Wikipedia), CJR non-lieu of 7 July 2025 (Le Club des juristes) and témoin assisté status (Le Quotidien du Médecin), 2013 PMA tribune and 2014 HATVP appréciation (French Wikipedia). Removed: media_portrayal (never researched). executive_experience_years (16) counts mayor 2010-2017, PM 2017-2020 and mayor since 2020; the metropole presidency is not double-counted. Delivery is not displayed and was not re-verified.",
     "bio_fr": "Édouard Philippe (né en 1970) est un homme politique français de centre droit, fondateur d'Horizons (2021). Il a été Premier ministre sous Emmanuel Macron de mai 2017 à juillet 2020 et est maire du Havre depuis 2020, réélu en mars 2026. Il a annoncé sa candidature à l'élection présidentielle de 2027 en septembre 2024 et lancé sa campagne le 5 juillet 2026 (slogan « Croire en nous »). Le 9 septembre 2026, il a annoncé qu'il quitterait la présidence d'Horizons pour bâtir une coalition plus large, et Christophe Béchu lui a succédé le 1er octobre 2026.",
-    "media_portrayal_fr": {
-     "left_media": "Non recherché (quota de recherches épuisé).",
-     "right_media": "Non recherché (quota de recherches épuisé).",
-     "neutral_media": "Non recherché (quota de recherches épuisé)."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Verification limits: the session's WebSearch budget (200/200) was used up before this run. All checks were done by WebFetch on the cited URLs, so null positions could not be re-searched. They were re-checked only against the fetched pages (programme, aggregators). All cited URLs were reachable and contained the claimed content.",
