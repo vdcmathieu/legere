@@ -1275,12 +1275,12 @@ const motion = (() => {
     let vt;
     try { vt = document.startViewTransition(() => { captured = true; apply(); if (want !== null) scrollTo(0, want); }); }
     catch (e) { apply(); delete root.dataset.nav; return; }
-    vt.finished.finally(() => { if (vtId === id) delete root.dataset.nav; });
+    const done = () => { if (vtId === id) delete root.dataset.nav; };
+    vt.finished.then(done, done);
   }
   function confirm(el, fn) {
     if (el && !reduced()) {
-      const group = el.closest("[role=group], .under, .opts, .strength") || el.parentElement;
-      group.querySelectorAll(".on").forEach(x => { if (x !== el) x.classList.remove("on"); });
+      if (el.classList.contains("opt")) (el.closest("[role=group]") || el.parentElement).querySelectorAll(".opt.on").forEach(x => { if (x !== el) x.classList.remove("on"); });
       el.classList.add("on", "picked"); el.style.viewTransitionName = "picked";
       answering = true;
     }
