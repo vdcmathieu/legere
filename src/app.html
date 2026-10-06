@@ -259,6 +259,80 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
 .fiche-head .names { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
 .fiche-head h1 { font-size: clamp(26px, 6.5vw, 32px); }
 .credit { font-size: 13px; color: var(--muted); }
+/* ===== candidates ===== */
+/* index: a trombinoscope, every card the same size and treatment, alphabetical */
+.cd-index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 12px; }
+.cd-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 20px 12px 16px; cursor: pointer; min-width: 0; }
+.cd-card .avatar { width: 76px; height: 76px; margin-bottom: 8px; }
+.cd-card b { font: 500 18px/1.2 var(--serif); text-wrap: balance; }
+.cd-card .party { font-size: 13.5px; color: var(--muted); }
+.cd-card .role { font-size: 13.5px; line-height: 1.35; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 640px) { .cd-index { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .cd-card { padding: 16px 10px 14px; } .cd-card b { font-size: 17px; } .cd-card .avatar { width: 64px; height: 64px; } }
+/* fiche */
+.cd-nav { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.cd-nav button { background: none; border: 0; padding: 8px 0; min-height: 44px; color: var(--muted); font: 500 14.5px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+.cd-nav button svg { width: 18px; height: 18px; }
+.cd-nav .pn { display: flex; gap: 16px; }
+.cd-head { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px 20px; align-items: center; }
+.cd-head .avatar { width: 96px; height: 96px; }
+.cd-head .names { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.cd-head h1 { font-size: clamp(26px, 6.5vw, 34px); }
+.cd-head .party { color: var(--muted); font-size: 15.5px; }
+.cd-head .role { font-size: 15px; line-height: 1.35; }
+.cd-head .credit { grid-column: 1 / -1; font-size: 12.5px; }
+.cd-bio { font-size: 15.5px; }
+.cd-bio.clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cd-more { align-self: flex-start; background: none; border: 0; padding: 4px 0; min-height: 32px; color: var(--ink); font: 500 14.5px var(--sans); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; cursor: pointer; }
+.cd-facts { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 18px; font-size: 14.5px; line-height: 1.4; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.cd-facts dt { color: var(--muted); }
+.cd-facts dd { margin: 0; }
+.cd-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--line); margin-top: -6px; }
+.cd-tabs button { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 12px 2px; min-height: 48px; font: 500 15px var(--sans); color: var(--muted); cursor: pointer; display: inline-flex; align-items: baseline; justify-content: center; gap: 5px; white-space: nowrap; min-width: 0; }
+.cd-tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.cd-tabs .n { font-size: 12.5px; }
+#cpanel { display: flex; flex-direction: column; gap: 14px; min-height: 200px; }
+.cd-hint { margin-top: -4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.cd-hint .cd-more { flex: none; }
+.cd-empty { font-size: 15px; }
+/* positions: one row per statement, grouped by theme; details open in the sheet so the overview never jumps */
+.cd-themes { column-count: 2; column-gap: 32px; }
+.cd-theme { break-inside: avoid; -webkit-column-break-inside: avoid; padding-bottom: 20px; }
+.cd-theme summary { list-style: none; cursor: pointer; display: block; }
+.cd-theme summary::-webkit-details-marker { display: none; }
+.cd-theme h3 { font-size: 17px; display: flex; align-items: baseline; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--ink); }
+.cd-theme h3 span { font: 500 13px var(--sans); color: var(--muted); margin-left: auto; }
+.cd-theme h3::after { content: "+"; font: 400 20px/1 var(--sans); color: var(--muted); width: 14px; text-align: right; }
+.cd-theme[open] h3::after { content: "−"; }
+.cd-theme[open] { padding-bottom: 20px; }
+.cd-theme:not([open]) { padding-bottom: 0; }
+.cd-prow { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; align-items: start; width: 100%; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; text-align: left; cursor: pointer; font: 400 14px/1.35 var(--sans); color: var(--ink); }
+.cd-prow .pos { width: 92px; min-width: 0; font-size: 12.5px; padding: 2px 4px; white-space: nowrap; margin-top: 1px; }
+.cd-prow .pos.nd { border-style: dashed; color: var(--muted); }
+.cd-prow.nd .txt { color: var(--muted); }
+.cd-stmt { font: 400 17px/1.4 var(--serif); }
+/* parcours, justice, évolutions */
+.cd-list { display: flex; flex-direction: column; }
+.cd-off { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; line-height: 1.4; }
+.cd-off .yrs { color: var(--muted); }
+.cd-case, .cd-rev { display: flex; flex-direction: column; gap: 6px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; line-height: 1.45; }
+.cd-case .meta, .cd-rev .meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.cd-rev .meta b { font-weight: 600; }
+.cd-rev .ba { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 10px; }
+.cd-rev .ba span { color: var(--muted); }
+.cd-list > .small { padding-top: 12px; }
+@media (max-width: 700px) {
+  .cd-themes { column-count: 1; }
+  .cd-head { grid-template-columns: 72px minmax(0, 1fr); gap: 8px 14px; }
+  .cd-head .avatar { width: 72px; height: 72px; }
+  .cd-tabs button { font-size: 14px; }
+  .cd-off { grid-template-columns: 84px minmax(0, 1fr); }
+}
+@media (hover: hover) {
+  .cd-card:hover { border-color: var(--ink); }
+  .cd-nav button:hover, .cd-tabs button:hover { color: var(--ink); }
+  .cd-prow:hover .txt { text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; }
+}
+/* ===== /candidates ===== */
 
 /* long-form pages (method, legal) */
 .page h1 { font-size: clamp(28px, 7vw, 36px); }
@@ -543,11 +617,11 @@ function screenFromHash(h) {
   const parts = (h || "").replace(/^#\/?/, "").split("/").filter(Boolean);
   const screen = Object.keys(ROUTES).find(k => ROUTES[k] === (parts[0] || ""));
   if (!screen || (screen === "legal" && !HAS_LEGAL)) return null;
-  if (screen === "cands" && parts[1] && CANDS.some(c => c.id === parts[1])) st.candSel = parts[1];
+  if (screen === "cands") st.candSel = parts[1] && CANDS.some(c => c.id === parts[1]) ? parts[1] : null;
   return screen;
 }
-function go(screen) {
-  st.screen = screen; save();
+function go(screen, candId) {
+  st.screen = screen; if (screen === "cands") st.candSel = candId || null; save();
   const h = hashFor(screen);
   if (location.hash !== h) history.pushState(null, "", h); /* pushState does not fire hashchange: render once, below */
   render(); window.scrollTo(0, 0);
@@ -1106,37 +1180,119 @@ function profileTable(pf, order) {
   <p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
 }
 
-/* ------------------------------------------------------------------ candidate fiches */
-screens.cands = () => {
-  const sel = st.candSel || CANDS[0].id;
-  const c = CANDS.find(x => x.id === sel) || CANDS[0];
-  const rec = c.record || {};
+/* ------------------------------------------------------------------ candidates: index and fiches */
+/* alphabetical by surname: the only order that favours nobody */
+const CANDS_AZ = CANDS.slice().sort((a, b) => (a.short || a.name).localeCompare(b.short || b.name, "fr", { sensitivity: "base" }));
+const KIND_RANK = { national_executive: 0, legislative: 1, european: 2, local_executive: 3, party: 4, other: 5 };
+const isCurrentOffice = o => !o.to || o.to === "present";
+function currentOffices(c) { return ((c.record || {}).offices || []).filter(isCurrentOffice).sort((a, b) => (KIND_RANK[a.kind] ?? 9) - (KIND_RANK[b.kind] ?? 9)); }
+function nDocumented(c) { return S.filter(s => { const p = c.positions[s.id]; return p && p.p !== null && p.p !== undefined; }).length; }
+const MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+function dateFr(d) {
+  const m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/.exec(d || "");
+  if (!m) return d || "";
+  const day = m[3] ? (m[3] === "01" ? "1er" : String(+m[3])) + " " : "";
+  return m[2] ? `${day}${MONTHS_FR[+m[2] - 1]} ${m[1]}` : m[1];
+}
+function yearSpan(o) {
+  const y = s => (s || "").slice(0, 4);
+  if (isCurrentOffice(o)) return `depuis ${y(o.from)}`;
+  return y(o.from) === y(o.to) ? y(o.from) : `${y(o.from)}–${y(o.to)}`;
+}
+function photoCredit(c) {
   const ph = c.photo;
-  return brandBar() + `<div class="stack">
-    <span class="label">Fiches candidats : positions codées et sources</span>
-    <div class="stack-s"><label for="csel" class="muted small">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
-    <div class="fiche-head">${PHOTOS ? `<img class="avatar xl" src="${esc(ph.src)}" alt="Portrait de ${esc(c.name)}" width="112" height="112">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="muted">${esc(c.party)}</p></div></div>
-    ${PHOTOS && (ph.author || ph.license) ? `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}, recadrée et passée en noir et blanc.</p>` : ""}
-    ${rec.bio ? `<p>${esc(rec.bio)}</p>` : ""}
-    <div class="grid2">
-      <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (!o.to || o.to === "present" ? "aujourd'hui" : o.to))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
-      <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<div class="stack-s"><p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>${urlList(l.sources)}</div>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}
-      <p class="muted" style="font-size:13.5px">${PRESUMPTION}</p></div>
-    </div>
-    ${(rec.reversals || []).length ? `<div class="card"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
-    ${rec.media_portrayal ? `<div class="card"><span class="label">Comment la presse le présente</span>
-      <p class="small"><b>Presse de gauche :</b> ${esc(rec.media_portrayal.left_media)}</p>
-      <p class="small"><b>Presse de droite :</b> ${esc(rec.media_portrayal.right_media)}</p>
-      <p class="small"><b>Médias neutres :</b> ${esc(rec.media_portrayal.neutral_media)}</p></div>` : ""}
-    <div class="card"><span class="label">Positions sur les ${S.length} propositions</span>
-      ${AREAS.map(a => `<h3 style="margin-top:6px">${esc(a.fr)}</h3>${S.filter(s => s.area === a.id).map(s => { const p = c.positions[s.id]; return `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:8px">
-        <p class="small"><span class="pos">${esc(p && p.p !== null && p.p !== undefined ? POS_FR[String(p.p)] : "?")}</span> ${esc(s.fr)}</p>
-        ${p && p.p !== null ? `<p class="muted" style="font-size:13.5px">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}. ${esc(p.summary || "")}${p.nuance ? " " + esc(p.nuance) : ""}</p>${srcList(p.sources)}` : `<p class="muted" style="font-size:13.5px">Pas de position documentée.</p>`}
-      </div>`; }).join("")}`).join("")}
-    </div>
-  </div>` + footer();
+  if (!PHOTOS || !ph || !(ph.author || ph.license)) return "";
+  return `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}, recadrée et passée en noir et blanc.</p>`;
+}
+let candTab = "positions"; /* which fiche section is open; not persisted */
+
+screens.cands = () => {
+  const c = st.candSel && CANDS.find(x => x.id === st.candSel);
+  return brandBar() + (c ? candFiche(c) : candIndex()) + footer();
 };
-screens.cands.wire = () => { wireBrand(); $("#csel").onchange = e => { st.candSel = e.target.value; save(); go("cands"); }; };
+
+function candIndex() {
+  return `<div class="stack">
+    <div class="stack-s"><span class="label">Fiches candidats</span><h1>Les ${CANDS_AZ.length} candidats</h1>
+    <p class="muted small">Par ordre alphabétique. Chaque fiche suit le même plan : positions sur les ${S.length} propositions avec leurs sources, parcours, affaires judiciaires et changements de position.</p></div>
+    <div class="cd-index">${CANDS_AZ.map((c, i) => { const o = currentOffices(c)[0]; return `<button type="button" class="cd-card" data-cand="${esc(c.id)}" data-reveal style="--i:${i}">${avatar(c)}<b>${esc(c.name)}</b><span class="party">${esc(c.party)}</span><span class="role">${esc(o ? o.office.replace(/\s*\([^)]*\)/g, "") : "")}</span></button>`; }).join("")}</div>
+  </div>`;
+}
+
+function candFiche(c) {
+  const i = CANDS_AZ.findIndex(x => x.id === c.id);
+  const prev = CANDS_AZ[(i - 1 + CANDS_AZ.length) % CANDS_AZ.length], next = CANDS_AZ[(i + 1) % CANDS_AZ.length];
+  const rec = c.record || {}, cur = currentOffices(c), nd = nDocumented(c);
+  const tabs = [["positions", "Positions", nd], ["parcours", "Parcours", (rec.offices || []).length], ["justice", "Justice", (rec.legal || []).length], ["evolutions", "Évolutions", (rec.reversals || []).length]];
+  const nav = `<nav class="cd-nav" aria-label="Autres candidats"><button type="button" data-cand="">${ICON.back}Tous les candidats</button>
+    <span class="pn"><button type="button" data-cand="${esc(prev.id)}" aria-label="Candidat précédent : ${esc(prev.name)}">‹ ${esc(prev.short || prev.name)}</button><button type="button" data-cand="${esc(next.id)}" aria-label="Candidat suivant : ${esc(next.name)}">${esc(next.short || next.name)} ›</button></span></nav>`;
+  return `<div class="stack cd-fiche">
+    ${nav}
+    <header class="cd-head">${PHOTOS ? `<img class="avatar" src="${esc(c.photo.src)}" alt="Portrait de ${esc(c.name)}" width="96" height="96">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="party">${esc(c.party)}</p>${cur[0] ? `<p class="role">${esc(cur[0].office)}</p>` : ""}</div>${photoCredit(c)}</header>
+    ${rec.bio ? `<div class="stack-s"><p class="cd-bio clamp" id="cbio">${esc(rec.bio)}</p><button type="button" class="cd-more" id="cbio-more" aria-expanded="false" hidden>Lire la suite</button></div>` : ""}
+    <dl class="cd-facts">
+      <dt>Mandats en cours</dt><dd>${cur.length ? cur.slice(0, 2).map(o => esc(o.office)).join("<br>") : "Aucun mandat en cours recensé."}</dd>
+      <dt>Positions documentées</dt><dd>${nd} sur ${S.length} propositions, chacune avec ses sources.</dd>
+    </dl>
+    <div class="cd-tabs" role="tablist" aria-label="Sections de la fiche">${tabs.map(([id, lbl, n]) => `<button type="button" role="tab" id="tab-${id}" aria-controls="cpanel" aria-selected="${candTab === id}" data-tab="${id}">${lbl}<span class="n num">${n}</span></button>`).join("")}</div>
+    <div id="cpanel" role="tabpanel" aria-labelledby="tab-${candTab}">${candPanel(c)}</div>
+    ${nav}
+  </div>`;
+}
+
+function candPanel(c) {
+  const rec = c.record || {};
+  if (candTab === "parcours") {
+    const offs = (rec.offices || []).slice().sort((a, b) => (b.from || "").localeCompare(a.from || ""));
+    return offs.length ? `<div class="cd-list">${offs.map((o, i) => `<div class="cd-off" data-reveal style="--i:${i}"><span class="yrs num">${esc(yearSpan(o))}</span><span>${esc(o.office)}</span></div>`).join("")}</div>` : `<p class="cd-empty">Aucun mandat recensé.</p>`;
+  }
+  if (candTab === "justice") {
+    const cases = (rec.legal || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    return `<div class="cd-list">${cases.length ? cases.map((l, i) => `<article class="cd-case" data-reveal style="--i:${i}"><p class="meta"><span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span><span class="muted num">${esc(dateFr(l.date))}</span></p><p>${esc(l.case)}</p>${urlList(l.sources)}</article>`).join("")
+      : `<p class="cd-empty">Aucune affaire judiciaire personnelle recensée.</p>`}
+      <p class="muted small">${PRESUMPTION}</p></div>`;
+  }
+  if (candTab === "evolutions") {
+    const revs = rec.reversals || [];
+    return revs.length ? `<div class="cd-list">${revs.map((r, i) => `<article class="cd-rev" data-reveal style="--i:${i}"><p class="meta"><b>${esc(r.topic)}</b><span class="muted num">${esc(r.years || "")}</span></p><div class="ba"><span>Avant</span><p>${esc(r.before)}</p><span>Après</span><p>${esc(r.after)}</p></div>${urlList(r.sources)}</article>`).join("")}</div>`
+      : `<p class="cd-empty">Aucun changement de position documenté.</p>`;
+  }
+  const open = matchMedia("(min-width: 701px)").matches;
+  return `<div class="cd-hint"><p class="muted small">Touchez une proposition pour lire le résumé, la nuance et les sources.</p><button type="button" class="cd-more" id="cd-toggle" data-open="${open}">${open ? "Tout replier" : "Tout déplier"}</button></div>
+    <div class="cd-themes">${AREAS.map((a, i) => { const rows = S.filter(s => s.area === a.id); return `<details class="cd-theme"${open ? " open" : ""} data-reveal style="--i:${i}"><summary><h3>${esc(a.fr)}<span class="num">${rows.length}</span></h3></summary>${rows.map(s => { const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined; return `<button type="button" class="cd-prow${ok ? "" : " nd"}" data-s="${esc(s.id)}"><span class="pos${ok ? "" : " nd"}">${ok ? esc(POS_FR[String(p.p)]) : "—"}${ok ? "" : '<span class="sr">position non documentée</span>'}</span><span class="txt">${esc(s.fr)}</span></button>`; }).join("")}</details>`; }).join("")}</div>`;
+}
+
+function candPositionSheet(c, s) {
+  const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined;
+  openSheet(ABY[s.area] ? ABY[s.area].fr : "Proposition", `<p class="cd-stmt">${esc(s.fr)}</p>
+    <div class="block"><span class="label">${esc(c.name)}</span>${ok ? `<p><span class="pos">${esc(POS_FR[String(p.p)])}</span> <span class="muted small">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}</span></p>` : `<p class="muted">Pas de position documentée sur cette proposition.</p>`}</div>
+    ${ok && p.summary ? `<div class="block"><span class="label">En résumé</span><p>${esc(p.summary)}</p></div>` : ""}
+    ${ok && p.nuance ? `<div class="block"><span class="label">Nuance</span><p>${esc(p.nuance)}</p></div>` : ""}
+    ${ok && p.sources && p.sources.length ? `<div class="block"><span class="label">Sources</span>${srcList(p.sources)}</div>` : ""}`);
+}
+
+function wireCandPanel(c) {
+  $$("#cpanel .cd-prow").forEach(b => { b.onclick = () => { const s = SBY[b.dataset.s]; if (s) candPositionSheet(c, s); }; });
+  const tg = $("#cd-toggle");
+  if (tg) tg.onclick = () => { const open = tg.dataset.open !== "true"; tg.dataset.open = String(open); tg.textContent = open ? "Tout replier" : "Tout déplier"; $$("#cpanel .cd-theme").forEach(d => { d.open = open; }); };
+}
+screens.cands.wire = () => {
+  wireBrand();
+  $$("[data-cand]").forEach(b => { b.onclick = () => go("cands", b.dataset.cand || null); });
+  const c = st.candSel && CANDS.find(x => x.id === st.candSel);
+  if (!c) return;
+  const bio = $("#cbio"), more = $("#cbio-more");
+  if (bio && more) {
+    if (bio.scrollHeight > bio.clientHeight + 2) more.hidden = false;
+    more.onclick = () => { const open = bio.classList.toggle("clamp") === false; more.textContent = open ? "Réduire" : "Lire la suite"; more.setAttribute("aria-expanded", String(open)); };
+  }
+  $$(".cd-tabs [data-tab]").forEach(t => { t.onclick = () => {
+    candTab = t.dataset.tab;
+    $$(".cd-tabs [data-tab]").forEach(x => x.setAttribute("aria-selected", String(x === t)));
+    const panel = $("#cpanel"); panel.setAttribute("aria-labelledby", t.id); panel.innerHTML = candPanel(c); wireCandPanel(c);
+  }; });
+  wireCandPanel(c);
+};
 
 /* ------------------------------------------------------------------ method */
 screens.method = () => brandBar() + `<div class="stack page">${DATA.method_html}</div>` + footer();
