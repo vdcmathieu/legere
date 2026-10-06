@@ -7,19 +7,21 @@
 <meta name="theme-color" content="#141518" media="(prefers-color-scheme: dark)">
 <title>Legere - De quels candidats êtes-vous proche ? Présidentielle 2027</title>
 <meta name="description" content="Répondez à une vingtaine de propositions concrètes et découvrez de quels candidats à la présidentielle 2027 vous êtes le plus proche, et pourquoi. Sans inscription : vos réponses restent dans votre navigateur.">
+<link rel="canonical" href="https://legere.vandecatsije.com/">
+<meta property="og:url" content="https://legere.vandecatsije.com/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Legere">
 <meta property="og:title" content="Legere - De quels candidats êtes-vous proche ?">
 <meta property="og:description" content="Une vingtaine de propositions concrètes, un résultat honnête, et les sources pour le vérifier. Présidentielle 2027.">
-<meta property="og:image" content="og.png">
+<meta property="og:image" content="https://legere.vandecatsije.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Legere - Avec quelles idées êtes-vous d'accord ?">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Legere - De quels candidats êtes-vous proche ?">
 <meta name="twitter:description" content="Une vingtaine de propositions concrètes, un résultat honnête, et les sources pour le vérifier. Présidentielle 2027.">
-<meta name="twitter:image" content="og.png">
+<meta name="twitter:image" content="https://legere.vandecatsije.com/og.png">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.png" type="image/png" sizes="48x48">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -978,7 +980,6 @@ screens.results = () => {
       <table><tbody>${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<tr><td>${esc(n)}</td><td><b>${esc(CANDS[k].name)}</b></td></tr>`).join("")}</tbody></table>
       <p class="muted small">${rob.every(r => r[1] === top) ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité."}</p></div></details>
     ${pf.some(Boolean) ? `<details class="sec"><summary>Profil attendu (score séparé)</summary><div class="body">${profileTable(pf, order)}</div></details>` : ""}
-    ${st.lead.g6 && st.lead.g6 !== "sincere" ? `<details class="sec"><summary>Dynamique électorale</summary><div class="body">${viability(order)}</div></details>` : ""}
     <details class="sec"><summary>Qualité de vos réponses</summary><div class="body">
       <table><tbody>
       <tr><td>Réponses « sans avis »</td><td class="num">${nNA}</td></tr>
@@ -1103,12 +1104,6 @@ function profileTable(pf, order) {
     ${order.map(k => { const c = CANDS[k], p = pf[k], pr = c.profile || {}; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? pct(p.score) + "&nbsp;%" : "—"}</td><td class="num">${pr.exec_years != null ? String(pr.exec_years).replace(".", ",") + " ans" : "—"}</td><td>${esc(legalTxt(pr))}</td></tr>`; }).join("")}
   </tbody></table></div><p class="muted small">Seules les condamnations pénales des catégories que vous avez choisies comptent dans le score ; une condamnation encore susceptible de recours compte ${mode}, comme vous l'avez indiqué. Les enquêtes, mises en examen, relaxes et non-lieux ne comptent jamais. ${PRESUMPTION}</p>
   <p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
-}
-function viability(order) {
-  const P = DATA.meta.polls || {};
-  return `<p class="muted small">${esc(P.source || "")}</p>
-  <p class="muted small">Tout sondage est affecté de marges d'erreur, et un sondage n'est pas une prévision, surtout à six mois du scrutin. ${HAS_LEGAL ? `Mentions complètes du sondage dans les <a href="#/mentions-legales">mentions légales</a>.` : ""}</p>
-  <table><tbody>${order.map(k => { const c = CANDS[k], p = (P.values || {})[c.id]; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? (p[0] === p[1] ? p[0] : p[0] + "–" + p[1]) + "&nbsp;%" : "non disponible"}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
 /* ------------------------------------------------------------------ candidate fiches */
