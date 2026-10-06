@@ -353,6 +353,8 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   .opt .dot { transition: border-color var(--dur-1); }
   .opt .dot::after { transition: transform var(--dur-2) var(--ease-spring), background-color var(--dur-1); transform: scale(0); }
   .opt.on .dot::after { transform: scale(1); }
+  /* the control chosen a moment before a screen change is captured as is: its selected state must not be mid-transition */
+  .picked, .picked .dot, .picked .dot::after { transition: none; }
   @keyframes m-check { from { stroke-dashoffset: 22; } }
   @keyframes m-chip-icon { from { width: 0; margin-right: -8px; opacity: 0; } }
   .chip.on svg { animation: m-chip-icon var(--dur-2) var(--ease-out) both; }
@@ -372,6 +374,7 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   #reset-confirm:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
   #copied:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
 }
+@media print { [data-reveal="view"] { opacity: 1; animation: none; } }
 /* ===== /motion ===== */
 </style>
 
@@ -1278,7 +1281,7 @@ const motion = (() => {
     if (el && !reduced()) {
       const group = el.closest("[role=group], .under, .opts, .strength") || el.parentElement;
       group.querySelectorAll(".on").forEach(x => { if (x !== el) x.classList.remove("on"); });
-      el.classList.add("on"); el.style.viewTransitionName = "picked";
+      el.classList.add("on", "picked"); el.style.viewTransitionName = "picked";
       answering = true;
     }
     try { fn(); } finally { answering = false; }
