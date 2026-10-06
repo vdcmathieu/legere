@@ -13861,9 +13861,9 @@
      "evidence_type": "party_line",
      "summary": "The party opposed unemployment-insurance reforms that cut benefits.",
      "sources": [],
-     "nuance": "Party line, not verified this session.",
+     "nuance": "Party line; no personal statement found.",
      "summary_fr": "Le parti s'est opposé aux réformes de l'assurance chômage qui réduisent les allocations.",
-     "nuance_fr": "Ligne du parti, non vérifiée lors de cette session."
+     "nuance_fr": "Ligne du parti ; aucune déclaration personnelle trouvée."
     },
     "trav3": {
      "id": "trav3",
@@ -14018,9 +14018,9 @@
      "evidence_type": "party_line",
      "summary": "Opposes mandatory minimum sentences (peines planchers).",
      "sources": [],
-     "nuance": "Party line. Not verified this session.",
+     "nuance": "Party line; no personal statement found.",
      "summary_fr": "S'oppose aux peines planchers.",
-     "nuance_fr": "Ligne du parti. Non vérifiée lors de cette session."
+     "nuance_fr": "Ligne du parti ; aucune déclaration personnelle trouvée."
     },
     "sec2": {
      "id": "sec2",
@@ -14743,11 +14743,11 @@
      "position": 2,
      "confidence": "low",
      "evidence_type": "inferred",
-     "summary": "Consistent with the party's stance on laïcité as state neutrality; not verified.",
+     "summary": "Inferred from the party's stance on laïcité as state neutrality; no personal statement found.",
      "sources": [],
-     "nuance": "Not verified.",
-     "summary_fr": "Cohérent avec la position du parti sur la laïcité comme neutralité de l'État ; non vérifié.",
-     "nuance_fr": "Non vérifié."
+     "nuance": "Inferred only.",
+     "summary_fr": "Déduit de la position du parti sur la laïcité comme neutralité de l'État ; aucune déclaration personnelle trouvée.",
+     "nuance_fr": "Déduction seulement."
     },
     "soc5": {
      "id": "soc5",
@@ -15057,7 +15057,7 @@
    },
    "record": {
     "candidate": "Marine Tondelier",
-    "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025.",
+    "bio": "Marine Tondelier (born 23 August 1986, Bois-Bernard, Pas-de-Calais) has been National Secretary of Les Écologistes (formerly EELV) since December 2022 and was re-elected in April 2025. She trained at Sciences Po Lille and was délégué générale of the air-quality federation Atmo France (2017-2022). She sat as an opposition councillor in Hénin-Beaumont from 2014 to March 2026, when her list came second (18.22%) behind the incumbent RN mayor, and has been a Hauts-de-France regional councillor since 2021. She announced her 2027 presidential candidacy on 22 October 2025 and was designated by her party on 8 December 2025 for a united-left primary that never took place. On 21 September 2026 the party's federal council deferred the choice of strategy to a member vote on 10-13 December 2026; her candidacy stands until then.",
     "offices": [
      {
       "office": "Municipal councillor (opposition), Hénin-Beaumont",
@@ -15091,27 +15091,30 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'; she was the defendant. The Paris tribunal correctionnel found some statements defamatory but acquitted (relaxe) her on grounds of good faith. No appeal was found in the sources consulted.",
+      "case": "Defamation prosecution brought by Hénin-Beaumont mayor Steeve Briois and Bruno Bilde (RN) over her 2017 book 'Nouvelles du Front'. The Paris tribunal correctionnel found the statements defamatory but acquitted (relaxe) her and her publisher on grounds of good faith (judgment reported 6 November 2020). Whether an appeal was lodged could not be checked.",
       "status": "acquitted",
-      "date": "Judgment reported by France Bleu on 6 November 2020 (Paris tribunal correctionnel); exact judgment day not confirmed",
+      "date": "2020-11",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+       "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+       "https://www.brut.media/fr/articles/injures-publiques-marine-tondelier-porte-plainte-contre-le-maire-rn-steeve-briois"
       ],
-      "case_fr": "Poursuite en diffamation engagée par le maire d'Hénin-Beaumont Steeve Briois et par Bruno Bilde (RN) à propos de son livre de 2017 « Nouvelles du Front » ; elle était la prévenue. Le tribunal correctionnel de Paris a jugé certains propos diffamatoires mais l'a relaxée au bénéfice de la bonne foi. Aucun appel n'a été trouvé dans les sources consultées."
+      "case_fr": "Poursuite en diffamation engagée par le maire d'Hénin-Beaumont Steeve Briois et par Bruno Bilde (RN) à propos de son livre de 2017 « Nouvelles du Front ». Le tribunal correctionnel de Paris a jugé les propos diffamatoires mais l'a relaxée, ainsi que son éditeur, au bénéfice de la bonne foi (jugement rapporté le 6 novembre 2020). L'existence d'un appel n'a pas pu être vérifiée."
      }
     ],
     "reversals": [
      {
       "topic": "Leaving the social network X",
-      "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025 she urged the left to leave the platform.",
-      "after": "On 19 January 2025 she said no collective departure had happened and that she would stay on X to defend ecology on 'hostile terrain'.",
+      "before": "On 18 November 2024 she called X a 'catalyst of hate' and argued for regulating or closing it. On 12 January 2025, on RTL, she said 'we must all leave Twitter' and proposed to the other NFP leaders that they leave together.",
+      "after": "A week later she said no collective departure had happened and that she would stay on X, where the political and media system is organised, to do her job.",
       "years": "Nov 2024 - Jan 2025",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Marine_Tondelier"
+       "https://fr.wikipedia.org/wiki/Marine_Tondelier",
+       "https://www.jeanmarcmorandini.com/article-595796-la-patronne-des-ecologistes-marine-tondelier-annonce-sur-rtl-avoir-propose-aux-dirigeants-du-nouveau-front-populaire-de-quitter-x-et-demande-son-interdiction-en-europe-regardez.html",
+       "https://www.sudradio.fr/emission/les-perles-du-jour-202"
       ],
       "topic_fr": "Départ du réseau social X",
-      "before_fr": "Le 18 novembre 2024, elle a qualifié X de « catalyseur de haine » et plaidé pour sa régulation ou sa fermeture. Le 12 janvier 2025, elle a exhorté la gauche à quitter la plateforme.",
-      "after_fr": "Le 19 janvier 2025, elle a déclaré qu'aucun départ collectif n'avait eu lieu et qu'elle resterait sur X pour défendre l'écologie sur un « terrain hostile »."
+      "before_fr": "Le 18 novembre 2024, elle a qualifié X de « catalyseur de haine » et plaidé pour sa régulation ou sa fermeture. Le 12 janvier 2025, sur RTL, elle a déclaré « on doit tous quitter Twitter » et proposé aux autres dirigeants du NFP de partir ensemble.",
+      "after_fr": "Une semaine plus tard, elle a déclaré qu'aucun départ collectif n'avait eu lieu et qu'elle resterait sur X, autour duquel le système politico-médiatique est organisé, pour faire son travail."
      }
     ],
     "delivery": [
@@ -15135,18 +15138,8 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not verified: no left-leaning outlet could be read.",
-     "right_media": "Not verified: no right-leaning outlet could be read.",
-     "neutral_media": "Not verified directly. A summary based on Wikipedia reports that Time (100 Next, 2024) covered her as a builder of the left-wing coalition."
-    },
-    "sources_note": "The WebSearch budget (200 calls) was exhausted for both the research and the verification pass, so nothing could be cross-checked against AFP, franceinfo, Le Monde or Public Sénat. Every claim rests on the French Wikipedia article, fetched on 5 Oct 2026, and on the press references it cites (France Bleu 6 Nov 2020; l'Opinion 17 Sep 2025; Challenges 20 Sep 2025). Wikipedia is a secondary source. Claims should be re-verified against primary sources (the Les Écologistes programme, her interviews and court reporting) once the search budget is raised (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION). According to Wikipedia, the left-wing primary project failed in July 2026 and her candidacy is maintained pending an internal referendum on 10-13 December 2026. The programme, multi-lean trait sourcing and media portrayal were not researched.",
-    "bio_fr": "Marine Tondelier (née le 23 août 1986 à Bois-Bernard, dans le Pas-de-Calais) est secrétaire nationale des Écologistes (anciennement EELV) depuis décembre 2022 et a été réélue en avril 2025. Elle a été formée à Sciences Po Lille et a été déléguée générale de la fédération de la qualité de l'air Atmo France (2017-2022). Elle a siégé comme conseillère municipale d'opposition à Hénin-Beaumont de 2014 à mars 2026, date à laquelle sa liste est arrivée deuxième (18,22 %) derrière le maire sortant RN, et elle est conseillère régionale des Hauts-de-France depuis 2021. Elle a annoncé sa candidature à l'élection présidentielle de 2027 le 22 octobre 2025 et a été désignée par son parti le 8 décembre 2025.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié : aucun média de gauche n'a pu être lu.",
-     "right_media": "Non vérifié : aucun média de droite n'a pu être lu.",
-     "neutral_media": "Non vérifié directement. Un résumé fondé sur Wikipédia indique que le Time (100 Next, 2024) l'a présentée comme une bâtisseuse de la coalition de gauche."
-    }
+    "sources_note": "Fact-check of 6 October 2026 with web search. Verified against the French Wikipedia article (fetched 6 Oct 2026, including its France Bleu reference of 6 Nov 2020 for the defamation judgment), Public Sénat (21 Sept 2026: the party buried the left primary and deferred the choice of strategy to a member vote on 10-13 December 2026, her investiture standing until then), Brut and Prensa Latina (22 Oct 2025 candidacy), Jean-Marc Morandini (12 Jan 2025 RTL remarks on X) and Sud Radio (her decision to stay on X). Whether an appeal was lodged in the 2020 defamation case could not be checked. The media-portrayal field was removed: no outlet-level characterisation could be documented to the required standard. Traits stay empty for the same reason. Delivery items are not displayed and were not re-verified.",
+    "bio_fr": "Marine Tondelier (née le 23 août 1986 à Bois-Bernard, dans le Pas-de-Calais) est secrétaire nationale des Écologistes (anciennement EELV) depuis décembre 2022 et a été réélue en avril 2025. Elle a été formée à Sciences Po Lille et a été déléguée générale de la fédération de la qualité de l'air Atmo France (2017-2022). Elle a siégé comme conseillère municipale d'opposition à Hénin-Beaumont de 2014 à mars 2026, date à laquelle sa liste est arrivée deuxième (18,22 %) derrière le maire sortant RN, et elle est conseillère régionale des Hauts-de-France depuis 2021. Elle a annoncé sa candidature à l'élection présidentielle de 2027 le 22 octobre 2025 et a été désignée par son parti le 8 décembre 2025 pour une primaire de la gauche qui n'a finalement pas eu lieu. Le 21 septembre 2026, le conseil fédéral du parti a renvoyé le choix de la stratégie à un vote des adhérents du 10 au 13 décembre 2026 ; sa candidature est maintenue jusque-là."
    },
    "verification_notes": [
     "Method limit: the session's WebSearch budget (200/200) was exhausted, so no news or roll-call searches were possible. Verification used the raw wikitext of the French Wikipedia pages Nouveau_Front_populaire, Les_Écologistes, Taxe_Zucman, Marine_Tondelier and Justice_des_mineurs_en_France (fetched with curl, with quotes checked verbatim), plus the European Greens 2024 French manifesto PDF. lesecologistes.fr returned 403 and huffingtonpost.fr was blocked. No Tondelier 2026 campaign programme text was retrievable. Her documented first priority is a 'sécurité sociale de l'alimentation'.",
@@ -15233,7 +15226,8 @@
     "Null checks by direct fetch: fr.wikipedia.org/wiki/Marine_Tondelier had no statement on any of the 14 items. It confirms she declared her candidacy on 22 Oct 2025, Les Écologistes designated her on 8 Dec 2025, and her candidacy depends on an internal referendum after the left primary failed in July 2026. fr.wikipedia.org/wiki/Nouveau_Front_populaire showed only section headings with no policy text. nouveaufrontpopulaire.fr failed with an SSL handshake error.",
     "sec6, ecol6 and edu5 are the most likely to have real evidence (2024 NFP programme planks and party statements). They should be re-researched first. Even if found, a 2024 coalition programme counts only as party_line or programme evidence, and the edu5 split rule (replacing Parcoursup while keeping selection is not agreement) must be applied.",
     "ACTION NEEDED: raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION, or run this candidate in a fresh session, then redo both the coding and the verification. The current output is not usable for the voting-advice matrix.",
-    "The relayed user request also asked to 'caffeinate'. A subagent cannot hold the machine awake for the whole chain, so the orchestrating session needs to start that itself (caffeinate -dimsu)."
+    "The relayed user request also asked to 'caffeinate'. A subagent cannot hold the machine awake for the whole chain, so the orchestrating session needs to start that itself (caffeinate -dimsu).",
+    "2026-10-06 fact-check: see research/factcheck/tondelier.md"
    ]
   },
   "roussel": {
