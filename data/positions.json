@@ -3663,22 +3663,20 @@
       "status": "convicted_final",
       "date": "2019-12-09",
       "sources": [
-       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon",
-       "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+       "https://www.publicsenat.fr/actualites/politique/melenchon-condamne-a-trois-mois-avec-sursis-pour-la-perquisition-houleuse-a-lfi",
+       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
       ],
       "case_fr": "Rébellion, provocation et intimidation envers l'autorité judiciaire lors des perquisitions du 16 octobre 2018 au siège de LFI : jugé à Bobigny les 19 et 20 septembre 2019 et condamné le 9 décembre 2019 à 3 mois d'emprisonnement avec sursis et 8 000 euros d'amende. Il n'a pas fait appel ; la condamnation est donc définitive."
      },
      {
-      "case": "European Parliament assistants affair (suspected use of EP-paid assistants for the Parti de Gauche, 2009-2017; preliminary inquiry July 2017, judicial investigation from November 2018). Investigating judges closed the instruction on 26 May 2026 without placing Mélenchon under formal investigation (no mise en examen). Two former assistants were témoins assistés. Telos reports that no evidence established his direct involvement or an organised scheme. No formal non-lieu order was located in this check, but with no one mis en examen no trial can follow.",
-      "status": "dismissed",
+      "case": "European Parliament assistants case (suspected use of EP-paid assistants for party work, 2009-2017): preliminary inquiry opened in 2017, judicial investigation from November 2018. The investigating judges closed the investigation on 26 May 2026 without Mélenchon ever being placed under formal investigation (mis en examen) or given assisted-witness status; two former assistants were assisted witnesses. The closing order (non-lieu or referral of other persons) was not yet public as of 6 October 2026.",
+      "status": "investigation",
       "date": "2026-05-26",
       "sources": [
-       "https://www.lessentiel.lu/fr/story/france-melenchon-devrait-finalement-echapper-au-proces-103571189",
        "https://www.lejdd.fr/politique/enquete-sur-les-assistants-parlementaires-de-lfi-linstruction-terminee-sans-mise-en-examen-174903",
-       "https://www.telos-eu.com/fr/politique-francaise-et-internationale/le-pen-bayrou-et-melenchon-face-aux-juges-trois-destins-differents-une-meme-motivation.html",
-       "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
+       "https://www.publicsenat.fr/actualites/politique/assistants-d-eurodeputes-l-enquete-elargie-a-jean-luc-melenchon-76177"
       ],
-      "case_fr": "Affaire des assistants parlementaires européens (soupçon d'utilisation d'assistants payés par le Parlement européen pour le Parti de Gauche, 2009-2017 ; enquête préliminaire en juillet 2017, information judiciaire à partir de novembre 2018). Les juges d'instruction ont clos l'instruction le 26 mai 2026 sans mettre Mélenchon en examen. Deux anciens assistants ont été placés sous le statut de témoin assisté. Telos rapporte qu'aucun élément n'a établi son implication directe ni un système organisé. Aucune ordonnance formelle de non-lieu n'a été trouvée lors de cette vérification, mais, aucune personne n'étant mise en examen, aucun procès ne peut suivre."
+      "case_fr": "Affaire des assistants parlementaires européens (soupçon d'emplois d'assistants payés par le Parlement européen pour le travail du parti, 2009-2017) : enquête préliminaire ouverte en 2017, information judiciaire à partir de novembre 2018. Les juges d'instruction ont clôturé l'instruction le 26 mai 2026 sans que Mélenchon ait jamais été mis en examen ni placé sous le statut de témoin assisté ; deux anciens assistants étaient témoins assistés. L'ordonnance de règlement (non-lieu ou renvoi d'autres personnes) n'était pas connue au 6 octobre 2026."
      }
     ],
     "reversals": [
@@ -3698,15 +3696,15 @@
      {
       "topic": "Russia / Ukraine",
       "before": "2014: called the annexation of Crimea 'absolutely predictable' and opposed sanctions on Russia.",
-      "after": "February 2022: condemned the Russian invasion while still assigning NATO a share of responsibility; by June 2022 he endorsed arms deliveries, affirming Ukraine's right to defend itself, while opposing deeper French military involvement.",
+      "after": "February 2022: condemned the Russian invasion while advocating 'non-alignment' between Russia and the United States and questioning Western arms deliveries ('if we sent anti-tank weapons, I want to know why', March 2022). He now says Ukraine has the right to defend itself; the shift is partial.",
       "years": "2014-2022",
       "sources": [
-       "https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+       "https://www.publicsenat.fr/actualites/politique/ukraine-si-c-est-vrai-qu-on-a-envoye-des-armes-antichars-je-veux-savoir-pourquoi-s",
        "https://fr.wikipedia.org/wiki/Jean-Luc_Mélenchon"
       ],
       "topic_fr": "Russie / Ukraine",
       "before_fr": "2014 : a qualifié l'annexion de la Crimée d'« absolument prévisible » et s'est opposé aux sanctions contre la Russie.",
-      "after_fr": "Février 2022 : a condamné l'invasion russe tout en attribuant à l'OTAN une part de responsabilité ; en juin 2022, il approuvait les livraisons d'armes, affirmant le droit de l'Ukraine à se défendre, tout en s'opposant à une implication militaire française plus poussée."
+      "after_fr": "Février 2022 : a condamné l'invasion russe tout en prônant le « non-alignement » entre la Russie et les États-Unis et en questionnant les livraisons d'armes occidentales (« si c'est vrai qu'on a envoyé des armes antichars, je veux savoir pourquoi », mars 2022). Il reconnaît depuis le droit de l'Ukraine à se défendre ; l'évolution est partielle."
      }
     ],
     "delivery": [
@@ -3741,18 +3739,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not directly sampled in this check. LFI and sympathetic outlets present him as the main voice of social rupture and ecological planning, and present the judicial cases as political harassment. After the May 2026 closure, LFI said that no investigating judge had found grounds for a mise en examen.",
-     "right_media": "Right-leaning outlets (JDD, CNews) cover him largely through his legal cases and the 2018 searches. They reported the May 2026 closure of the assistants investigation without indictment.",
-     "neutral_media": "Neutral and encyclopedic sources (Wikipedia, Telos, L'Essentiel) describe a left-wing leader with a long PS career. They mention both his oratorical talent and controversies over provocative statements, and report that he was never charged in the EP assistants case."
-    },
-    "sources_note": "Original research and this verification both hit the 200-search WebSearch cap. The check therefore used direct fetches of French and English Wikipedia (including the French wikitext through the Wikipedia API), L'Essentiel, JDD, Telos and the aggregator pages. CNews returned 403 and could not be confirmed. No primary court releases, AFP, franceinfo or Le Monde pages could be opened, and the French Wikipedia statement that he did not appeal the 2019 judgment is cited to secondary press there. Not consulted: roll-call votes (datan/nosdeputes), the primary programme text, and left-leaning outlets (Libération, Mediapart, L'Humanité). Lean coverage is skewed to neutral and right sources. Aggregators (testpolitique, elyseescope, monvote2027) are secondary and of uncertain lean. Treat delivery and media_portrayal as provisional.",
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy (3 May 2026, TF1; LCP, La Libre), 2019 conviction (Public Sénat, 9 Dec 2019, no appeal announced), closure of the EP-assistants investigation on 26 May 2026 without mise en examen (JDD, 27 May 2026), office dates (French Wikipedia infobox), 2014 Crimea and 2022 Ukraine statements (Public Sénat). Changed: the Ukraine reversal no longer claims he endorsed arms deliveries in June 2022 (he questioned them); the assistants case is labelled as a closed investigation awaiting its closing order rather than a non-lieu. Removed: media_portrayal (not sampled). Delivery and traits are not displayed and were not re-verified; the 2027 programme items there come from aggregators.",
     "bio_fr": "Jean-Luc Mélenchon est un homme politique français né en 1951. Il a passé une trentaine d'années au Parti socialiste, où il a été sénateur de l'Essonne et ministre délégué à l'Enseignement professionnel (2000-2002), a quitté le PS en 2008 pour cofonder le Parti de Gauche, puis a fondé La France insoumise (LFI) en 2016. Il a été député européen de 2009 à 2017 et député des Bouches-du-Rhône de 2017 à 2022, et s'est présenté à l'élection présidentielle en 2012 (quatrième), 2017 (quatrième) et 2022 (troisième). Le 3 mai 2026, il a annoncé une quatrième candidature pour 2027, fondée sur une version actualisée de L'Avenir en commun et sur une VIe République issue d'une assemblée constituante.",
-    "media_portrayal_fr": {
-     "left_media": "Non échantillonnés directement lors de cette vérification. LFI et les médias qui lui sont favorables le présentent comme la principale voix de la rupture sociale et de la planification écologique, et présentent les affaires judiciaires comme du harcèlement politique. Après la clôture de mai 2026, LFI a affirmé qu'aucun juge d'instruction n'avait trouvé de motif de mise en examen.",
-     "right_media": "Les médias classés à droite (JDD, CNews) le couvrent surtout à travers ses affaires judiciaires et les perquisitions de 2018. Ils ont rapporté la clôture en mai 2026 de l'instruction sur les assistants sans mise en examen.",
-     "neutral_media": "Les sources neutres et encyclopédiques (Wikipédia, Telos, L'Essentiel) décrivent un dirigeant de gauche à la longue carrière au PS. Elles mentionnent à la fois son talent oratoire et les polémiques suscitées par ses déclarations provocatrices, et rapportent qu'il n'a jamais été mis en cause dans l'affaire des assistants du Parlement européen."
-    }
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Primary source added: L'Avenir en commun 2022 edition sections on laec.fr (fetched; URLs from laec.fr/sommaire). The 2025-edition chapter pages on melenchon2027.fr return 404; the 2026 aggregators La Facture and TestPolitique confirm continuity on ISF, retirement at 60, SMIC, nationalisations and EU disobedience.",
