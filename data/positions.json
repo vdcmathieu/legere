@@ -8135,19 +8135,17 @@
      "position": -2,
      "confidence": "low",
      "evidence_type": "party_line",
-     "summary": "LR backed the Duplomb law reintroducing a banned pesticide to align with EU competitors; Retailleau was associated with it and 'désavoué' when the Council censured it (Aug 2025).",
+     "summary": "LR backed the Duplomb law of July 2025, which reintroduced acetamiprid, a neonicotinoid banned in France but allowed elsewhere in the EU; the Conseil constitutionnel struck that provision down on 7 August 2025. No personal statement by Retailleau on keeping such bans was found.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/search?q=Retailleau+loi+Duplomb+pesticides&hl=fr&gl=FR&ceid=FR:fr",
-       "outlet": "TF1 Info (headline via Google News)",
-       "outlet_lean": "centre",
-       "date": "2025-08-07",
-       "quote": "Retailleau désavoué par le Conseil Constitutionnel (headline)"
+       "url": "https://lcp.fr/actualites/loi-agricole-duplomb-le-conseil-constitutionnel-censure-la-reintroduction-de-l",
+       "outlet": "LCP",
+       "outlet_lean": "neutral"
       }
      ],
-     "nuance": "Headline-level only; no personal verbatim quote retrieved.",
-     "summary_fr": "LR a soutenu la loi Duplomb, qui réintroduisait un pesticide interdit pour s'aligner sur les concurrents de l'UE ; Retailleau y a été associé et « désavoué » lorsque le Conseil constitutionnel l'a censurée (août 2025).",
-     "nuance_fr": "Niveau des titres uniquement ; aucune citation personnelle textuelle retrouvée."
+     "nuance": "",
+     "summary_fr": "LR a soutenu la loi Duplomb de juillet 2025, qui réintroduisait l'acétamipride, un néonicotinoïde interdit en France mais autorisé ailleurs dans l'UE ; le Conseil constitutionnel a censuré cette disposition le 7 août 2025. Aucune déclaration personnelle de Retailleau sur le maintien de telles interdictions n'a été trouvée.",
+     "nuance_fr": ""
     },
     "ecol3": {
      "id": "ecol3",
@@ -8457,19 +8455,22 @@
      "position": -2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "Pushes further restrictions (anti-'entrisme' bill adopted by the Senate in May 2026, veil ban at university), against the view that secularism should not restrict citizens' religious expression further.",
+     "summary": "Pushes further restrictions: his bill against 'entrisme islamiste' was adopted by the Senate on 5 May 2026 (208 to 124), and in January 2025 he said he favoured banning the veil at university and on school outings.",
      "sources": [
       {
-       "url": "https://news.google.com/rss/search?q=Retailleau+Isra%C3%ABl+accord+d%27association&hl=fr&gl=FR&ceid=FR:fr",
-       "outlet": "Mizane Info (headline via Google News)",
-       "outlet_lean": "campaign-or-party",
-       "date": "2026-05-07",
-       "quote": "le Sénat adopte la loi Retailleau contre l'entrisme (headline)"
+       "url": "https://www.publicsenat.fr/actualites/politique/lutte-contre-lentrisme-islamiste-le-senat-adopte-le-texte-de-bruno-retailleau-la-gauche-fait-part-de-sa-honte",
+       "outlet": "Public Sénat",
+       "outlet_lean": "neutral"
+      },
+      {
+       "url": "https://www.leclubdesjuristes.com/en-bref/entrisme-islamiste-le-senat-adopte-la-proposition-de-loi-retailleau-15755/",
+       "outlet": "Le Club des juristes",
+       "outlet_lean": "neutral"
       }
      ],
-     "nuance": "Upgraded from inferred to statement/record based on 2026 bill and university-veil proposal.",
-     "summary_fr": "Pousse à de nouvelles restrictions (projet de loi contre l'« entrisme » adopté par le Sénat en mai 2026, interdiction du voile à l'université), à l'opposé de l'idée que la laïcité ne devrait pas restreindre davantage l'expression religieuse des citoyens.",
-     "nuance_fr": "Reclassé de déduit à déclaration/bilan sur la base du projet de loi de 2026 et de la proposition d'interdiction du voile à l'université."
+     "nuance": "",
+     "summary_fr": "Pousse à de nouvelles restrictions : sa proposition de loi contre l'« entrisme islamiste » a été adoptée par le Sénat le 5 mai 2026 (208 voix contre 124), et en janvier 2025 il s'est dit favorable à l'interdiction du voile à l'université et lors des sorties scolaires.",
+     "nuance_fr": ""
     },
     "soc5": {
      "id": "soc5",
@@ -8870,7 +8871,7 @@
    },
    "record": {
     "candidate": "Bruno Retailleau",
-    "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again from November 2025. He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2015-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate after the party vote of 19 April 2026. He is known for a restrictive line on immigration and security and for socially conservative positions.",
+    "bio": "Bruno Retailleau (born 20 November 1960 in Cholet) is a conservative politician from the Vendée and has been president of Les Républicains since May 2025. He was senator for Vendée from 2004 to 2024 and again since November 2025 (re-elected on 27 September 2026). He chaired the Vendée departmental council (2010-2015) and the Pays de la Loire region (2016-2017), led the LR group in the Senate (2014-2024), and was Interior Minister in the Barnier, Bayrou and short-lived Lecornu I governments (September 2024 - October 2025). He declared his 2027 presidential candidacy on 12 February 2026 and was designated LR candidate by a members' vote on 19 April 2026 (73.8%). He is known for a restrictive line on immigration and security and for socially conservative positions.",
     "offices": [
      {
       "office": "Departmental (general) councillor, Vendée (canton of Mortagne-sur-Sèvre)",
@@ -8894,18 +8895,18 @@
       "office_fr": "Vice-président du conseil régional des Pays de la Loire"
      },
      {
-      "office": "Senator for Vendée",
+      "office": "Senator for Vendée (seat taken by his substitute one month after his appointment as minister)",
       "from": "2004-10-01",
-      "to": "2024-10-01",
+      "to": "2024-10-20",
       "kind": "legislative",
-      "office_fr": "Sénateur de la Vendée"
+      "office_fr": "Sénateur de la Vendée (siège occupé par son suppléant un mois après sa nomination au gouvernement)"
      },
      {
-      "office": "President of the Vendée departmental council",
+      "office": "President of the Vendée general council",
       "from": "2010-10-31",
       "to": "2015-04-01",
       "kind": "local_executive",
-      "office_fr": "Président du conseil départemental de la Vendée"
+      "office_fr": "Président du conseil général de la Vendée"
      },
      {
       "office": "Chair of the UMP/LR group in the Senate",
@@ -8916,7 +8917,7 @@
      },
      {
       "office": "President of the Pays de la Loire regional council",
-      "from": "2015-12-18",
+      "from": "2016-01-04",
       "to": "2017-09-30",
       "kind": "local_executive",
       "office_fr": "Président du conseil régional des Pays de la Loire"
@@ -8929,11 +8930,11 @@
       "office_fr": "Ministre de l'Intérieur (gouvernements Barnier, Bayrou, Lecornu I ; ministre d'État depuis le 23 décembre 2024)"
      },
      {
-      "office": "Senator for Vendée (resumed; re-elected 2026)",
+      "office": "Senator for Vendée (resumed; re-elected 27 September 2026)",
       "from": "2025-11-13",
       "to": "present",
       "kind": "legislative",
-      "office_fr": "Sénateur de la Vendée (retour ; réélu en 2026)"
+      "office_fr": "Sénateur de la Vendée (retour ; réélu le 27 septembre 2026)"
      },
      {
       "office": "President of Les Républicains",
@@ -8984,18 +8985,10 @@
      }
     ],
     "traits": [],
-    "media_portrayal": {
-     "left_media": "Not directly verified: Libération, Mediapart and L'Humanité were not read. The secondary sources read report that his 2023 'Français de papier' remark and his rule-of-law comment drew wide criticism from opponents.",
-     "right_media": "Not verified: no right-leaning outlet was read, so no characterisation is given.",
-     "neutral_media": "Public Sénat (Nov 2024) reports his narcotics plan procedurally and gives room to a Socialist senator's partial support and criticism."
-    },
-    "sources_note": "WebSearch was unavailable (session budget exhausted), so verification relied on WebFetch reads of French and English Wikipedia (secondary, centre/neutral), the French Wikipedia article on the narcotrafic law, and one Public Sénat article (Nov 2024, neutral-institutional). Le Monde, Libération, the Sénat site, LR programme pages and 2026 campaign coverage were not consulted directly. The 2026 facts (candidacy on 12 Feb 2026, LR vote on 19 Apr 2026 with 73.8%, Senate re-election in 2026) rest on Wikipedia only. The legal list is empty because no case personally implicating him was found in these sources; absence is not confirmed by a court or AFP search. Mediapart's 2017 report naming him as a recipient of a EUR 3,029 Senate-group reimbursement is not a judicial case against him. Traits are empty because none could be corroborated by two sources of different leanings.",
-    "bio_fr": "Bruno Retailleau (né le 20 novembre 1960 à Cholet) est un homme politique conservateur vendéen et président des Républicains depuis mai 2025. Il a été sénateur de la Vendée de 2004 à 2024, puis de nouveau depuis novembre 2025. Il a présidé le conseil départemental de la Vendée (2010-2015) et la région Pays de la Loire (2015-2017), dirigé le groupe LR au Sénat (2014-2024) et été ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, éphémère (septembre 2024 - octobre 2025). Il a déclaré sa candidature à l'élection présidentielle de 2027 le 12 février 2026 et a été désigné candidat LR après le vote des adhérents du 19 avril 2026. Il est connu pour une ligne restrictive sur l'immigration et la sécurité et pour des positions socialement conservatrices.",
-    "media_portrayal_fr": {
-     "left_media": "Non vérifié directement : Libération, Mediapart et L'Humanité n'ont pas été lus. Les sources secondaires lues rapportent que sa remarque de 2023 sur les « Français de papier » et son commentaire sur l'État de droit ont suscité de larges critiques de la part de ses opposants.",
-     "right_media": "Non vérifié : aucun média orienté à droite n'a été lu, donc aucune caractérisation n'est donnée.",
-     "neutral_media": "Public Sénat (novembre 2024) rend compte de son plan antidrogue de façon procédurale et laisse place au soutien partiel et aux critiques d'un sénateur socialiste."
-    }
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: candidacy declared 12 Feb 2026 (AFP via Public Sénat, Reuters), LR members' vote of 19 Apr 2026 at 73.8% (Le Temps/AFP), re-election as senator on 27 Sep 2026 with the 'Union pour la Vendée' list at 62.48% (interior ministry results), office dates (French Wikipedia infobox: conseiller général 1988-2015, deputy 1994-1997, regional vice-president 1998-2004, senator 1 Oct 2004 - 20 Oct 2024 and since 13 Nov 2025, general council president 2010-2015, Senate group chair 2014-2024, regional president 4 Jan 2016 - 30 Sep 2017, interior minister 21 Sep 2024 - 12 Oct 2025, LR president since 18 May 2025), 2022 'pas soluble dans le macronisme' quote (Public Sénat). No judicial case concerning him personally was found. Removed: media_portrayal (not researched). Delivery is not displayed and was not re-verified.",
+    "bio_fr": "Bruno Retailleau (né le 20 novembre 1960 à Cholet) est un homme politique conservateur vendéen et président des Républicains depuis mai 2025. Il a été sénateur de la Vendée de 2004 à 2024, puis de nouveau depuis novembre 2025 (réélu le 27 septembre 2026). Il a présidé le conseil général de la Vendée (2010-2015) et la région Pays de la Loire (2016-2017), dirigé le groupe LR au Sénat (2014-2024) et été ministre de l'Intérieur dans les gouvernements Barnier, Bayrou et Lecornu I, éphémère (septembre 2024 - octobre 2025). Il a déclaré sa candidature à l'élection présidentielle de 2027 le 12 février 2026 et a été désigné candidat LR par le vote des adhérents du 19 avril 2026 (73,8 %). Il est connu pour une ligne restrictive sur l'immigration et la sécurité et pour des positions socialement conservatrices.",
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Search note: the WebSearch budget was exhausted (200/200). I verified through Google News RSS with decoded publisher URLs and fetched the articles directly. Every URL cited was opened or appeared in those results.",
