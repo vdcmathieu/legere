@@ -476,6 +476,8 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
 .cd-theme h3 span { font: 500 13px var(--sans); color: var(--muted); margin-left: auto; }
 .cd-theme h3::after { content: "+"; font: 400 20px/1 var(--sans); color: var(--muted); width: 14px; text-align: right; }
 .cd-theme[open] h3::after { content: "−"; }
+.cd-tally { margin: 6px 0 4px; }
+.cd-theme[open] .cd-tally { display: none; }
 .cd-theme[open] { padding-bottom: 20px; }
 .cd-theme:not([open]) { padding-bottom: 0; }
 .cd-prow { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; align-items: start; width: 100%; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; text-align: left; cursor: pointer; font: 400 14px/1.35 var(--sans); color: var(--ink); }
@@ -1338,7 +1340,7 @@ screens.results = () => {
     tile("rob", `Le premier rang change‑t‑il selon la méthode ?`, robOk ? "Le premier rang ne dépend pas de ces choix de calcul." : "Le premier rang change selon la méthode de calcul : prenez-le comme une égalité.",
       `<ul class="specs">${[["Calcul principal (distance par proposition, vos poids)", top], ...rob].map(([n, k]) => `<li><span class="mark" aria-hidden="true">${k === top ? ICON.check : "≠"}</span><span class="n">${esc(n)}</span><b>${esc(CANDS[k].short || CANDS[k].name)}</b><span class="sr">${k === top ? ", même premier" : ", premier différent"}</span></li>`).join("")}</ul>`, null),
     expK >= 0 || exp === "undecided" ? tile("exp", `Votre intention de départ`, expK >= 0 ? `${esc(CANDS[expK].name)} est classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées.` : "Vous étiez indécis.",
-      `<p class="small">${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées dans le détail." : ""}</p>`,
+      expK >= 0 ? `<p class="small">Vous pensiez voter pour ce candidat : ${pct(sc[expK])}&nbsp;% d'accord avec vos réponses.${expK !== top ? " Les propositions où vous divergez de lui sont listées dans le détail." : ""}</p>` : "",
       expK >= 0 && expK !== top ? [`Là où vous divergez de ${esc(CANDS[expK].short || CANDS[expK].name)}`, disagreements(eff, expK)] : null) : "",
     pf.some(Boolean) ? tile("prof", `Profil attendu`, "Score séparé, jamais mélangé à la proximité d'idées.",
       `<ul class="bars">${topN.map(k => { const p = pf[k]; return `<li>${avatar(CANDS[k])}<span class="n">${esc(CANDS[k].short || CANDS[k].name)}</span><span class="bar" aria-hidden="true"><i data-grow style="--w:${p ? pct(p.score) : 0}%;width:${p ? pct(p.score) : 0}%"></i></span><span class="v num">${p ? pct(p.score) + "&nbsp;%" : "—"}</span></li>`; }).join("")}</ul>`,
@@ -1600,9 +1602,12 @@ function candPanel(c) {
     return revs.length ? `<div class="cd-list">${revs.map((r, i) => `<article class="cd-rev" data-reveal style="--i:${i}"><p class="meta"><b>${esc(r.topic)}</b><span class="muted num">${esc(r.years || "")}</span></p><div class="ba"><span>Avant</span><p>${esc(r.before)}</p><span>Après</span><p>${esc(r.after)}</p></div>${urlList(r.sources)}</article>`).join("")}</div>`
       : `<p class="cd-empty">Aucun changement de position documenté.</p>`;
   }
-  const open = matchMedia("(min-width: 701px)").matches;
+  const open = false; /* closed by default: each theme's summary line already gives the balance */
+  const tally = rows => { const v = rows.map(s => c.positions[s.id]).map(p => p && p.p !== null && p.p !== undefined ? p.p : null);
+    const n = f => v.filter(f).length, pr = n(x => x > 0), co = n(x => x !== null && x < 0), mid = n(x => x === 0), nd = n(x => x === null);
+    return [pr && `${pr} pour`, co && `${co} contre`, mid && `${mid} partagé${mid > 1 ? "es" : "e"}`, nd && `${nd} non documentée${nd > 1 ? "s" : ""}`].filter(Boolean).join(" · "); };
   return `<div class="cd-hint"><p class="muted small">Touchez une proposition pour lire le résumé, la nuance et les sources.</p><button type="button" class="cd-more" id="cd-toggle" data-open="${open}">${open ? "Tout replier" : "Tout déplier"}</button></div>
-    <div class="cd-themes">${AREAS.map((a, i) => { const rows = S.filter(s => s.area === a.id); return `<details class="cd-theme"${open ? " open" : ""} data-reveal style="--i:${i}"><summary><h3>${esc(a.fr)}<span class="num">${rows.length}</span></h3></summary>${rows.map(s => { const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined; return `<button type="button" class="cd-prow${ok ? "" : " nd"}" data-s="${esc(s.id)}"><span class="pos${ok ? "" : " nd"}">${ok ? esc(POS_FR[String(p.p)]) : "—"}${ok ? "" : '<span class="sr">position non documentée</span>'}</span><span class="txt">${esc(s.fr)}</span></button>`; }).join("")}</details>`; }).join("")}</div>`;
+    <div class="cd-themes">${AREAS.map((a, i) => { const rows = S.filter(s => s.area === a.id); return `<details class="cd-theme"${open ? " open" : ""} data-reveal style="--i:${i}"><summary><h3>${esc(a.fr)}<span class="num">${rows.length}</span></h3><p class="cd-tally muted small">${tally(rows)}</p></summary>${rows.map(s => { const p = c.positions[s.id], ok = p && p.p !== null && p.p !== undefined; return `<button type="button" class="cd-prow${ok ? "" : " nd"}" data-s="${esc(s.id)}"><span class="pos${ok ? "" : " nd"}">${ok ? esc(POS_FR[String(p.p)]) : "—"}${ok ? "" : '<span class="sr">position non documentée</span>'}</span><span class="txt">${esc(s.fr)}</span></button>`; }).join("")}</details>`; }).join("")}</div>`;
 }
 
 function candPositionSheet(c, s) {
