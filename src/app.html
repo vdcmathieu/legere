@@ -111,6 +111,9 @@ a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--
 nav.links { display: flex; gap: 2px; }
 nav.links button { background: none; border: 0; padding: 10px 10px; min-height: 44px; color: var(--muted); font: 500 15px var(--sans); cursor: pointer; border-radius: 8px; }
 nav.links button[aria-current="page"] { color: var(--ink); }
+nav.links button { white-space: nowrap; }
+nav.links .short { display: none; }
+@media (max-width: 440px) { nav.links .full { display: none; } nav.links .short { display: inline; } }
 .qbar { display: flex; align-items: center; gap: 10px; min-height: 64px; padding: 10px 0; }
 .qbar .progress { flex: 1; }
 .icon-btn { width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--ink); flex: none; }
@@ -220,7 +223,7 @@ dialog.sheet .block .label { color: var(--ink); font-weight: 600; }
 .ci .track { position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--line); }
 .ci .band { position: absolute; top: 3px; height: 10px; background: var(--accent-soft); border: 1px solid var(--muted); border-radius: 3px; }
 .ci .pt { position: absolute; top: 0; width: 3px; height: 16px; background: var(--ink); border-radius: 2px; }
-.res-row.tie .who b::after { content: " · ex æquo"; font-weight: 400; color: var(--muted); font-size: 13.5px; }
+.res-row.tie .who b::after { content: " · ex æquo"; font-weight: 400; color: var(--muted); font-size: 13.5px; white-space: nowrap; }
 .refine { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .refine button { text-align: left; display: flex; align-items: center; gap: 14px; background: var(--card); border: 1.5px solid var(--line); border-radius: var(--r); padding: 14px 16px; cursor: pointer; min-height: 64px; width: 100%; }
 .refine button b { display: block; font: 500 17px var(--sans); }
@@ -317,7 +320,9 @@ function fresh() {
     ans: {}, imp: {}, hist: [], queue: null, retestShown: [], stopOffered: false, refining: false, seenResults: false,
     dil: {}, dilOrder: null, points: null, lvl: null, lead: {}, expect: null, after: {}, candSel: null };
 }
-function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+/* nothing is stored until the visitor has answered something; a reset removes the key outright */
+function blank() { return !Object.keys(st.ans).length && !Object.keys(st.dil).length && !st.lvl && !Object.keys(st.lead).length && !Object.values(st.open).some(Boolean) && !Object.values(st.after).some(Boolean) && !st.expect; }
+function save() { try { if (blank()) localStorage.removeItem(KEY); else localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
 function load() { try { const s = localStorage.getItem(KEY); return s ? Object.assign(fresh(), JSON.parse(s)) : null; } catch (e) { return null; } }
 
 /* seeded RNG so a session's order is stable across reloads */
@@ -575,7 +580,7 @@ function avatar(c, cls) { return PHOTOS ? `<img class="avatar ${cls || ""}" src=
 function brandBar() {
   const cur = id => st.screen === id ? ' aria-current="page"' : "";
   return `<header class="top"><button type="button" class="brand" id="nav-home" aria-label="Legere, accueil">${ICON.cockade}Legere</button>
-    <nav class="links" aria-label="Navigation"><button type="button" id="nav-cands"${cur("cands")}>Candidats</button><button type="button" id="nav-method"${cur("method")}>Comment ça marche</button></nav></header>`;
+    <nav class="links" aria-label="Navigation"><button type="button" id="nav-cands"${cur("cands")}>Candidats</button><button type="button" id="nav-method"${cur("method")}><span class="full">Comment ça marche</span><span class="short" aria-hidden="true">Méthode</span></button></nav></header>`;
 }
 function footer() {
   return `<footer class="foot">
@@ -648,7 +653,7 @@ screens.home.wire = () => {
   wireBrand();
   $("#start").onclick = () => { if (!st.queue) initQueue(); go(resumeScreen() === "home" ? "statements" : resumeScreen()); };
   const r = $("#reset"); if (r) r.onclick = () => { $("#reset-confirm").hidden = false; };
-  const y = $("#reset-yes"); if (y) y.onclick = () => { st = fresh(); save(); render(); };
+  const y = $("#reset-yes"); if (y) y.onclick = () => { try { localStorage.removeItem(KEY); } catch (e) {} st = fresh(); render(); };
 };
 
 /* statements: one per screen */
@@ -900,7 +905,7 @@ function profileFit(c) {
     const mode = L.g2b || "half";
     const pen = pr.convictions.filter(x => cats.includes(x.cat))
       .map(x => x.status === "convicted_final" ? 1 : mode === "all" ? 1 : mode === "half" ? 0.5 : 0);
-    parts.push([L.g2w, 1 - Math.max(0, ...pen), "Condamnations"]);
+    parts.push([L.g2w, 1 - Math.max(0, ...pen), "Condamnations retenues"]);
   }
   if (L.g3 > 0 && pr.reversals != null) parts.push([L.g3, Math.max(0, 1 - pr.reversals / 5), "Constance"]);
   if (L.g4 !== undefined && pr.style != null) parts.push([2, 1 - Math.abs(L.g4 - pr.style) / 4, "Style"]);
@@ -940,7 +945,7 @@ screens.results = () => {
     <span class="label">Votre résultat · ${nEff} propositions prises en compte</span>
     <div class="lead">
       <span class="label">Vous êtes le plus proche de</span>
-      <div class="head">${tied.length === 1 ? avatar(CANDS[top], "lg") : ""}<p class="who">${esc(tied.length > 3 ? listFr(tieNames.slice(0, 3)) + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p></div>
+      <div class="head">${tied.length === 1 ? avatar(CANDS[top], "lg") : ""}<p class="who">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p></div>
       <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(CANDS[top].party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
       <p class="small">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
     </div>
@@ -1077,22 +1082,32 @@ function disagreements(eff, k) {
     <p class="muted small">Vous : <span class="pos">${esc(POS_FR[String(Math.round(r.e.v))] || fmtPos(Math.round(r.e.v)))}</span> · ${esc(c.name)} : <span class="pos">${esc(POS_FR[String(r.cp.p)] || fmtPos(r.cp.p))}</span> (${esc(TYPE_FR[r.cp.type] || r.cp.type)}, ${esc(CONF_FR[r.cp.conf] || "")}). ${esc(r.cp.summary || "")}</p>
     ${srcList(r.cp.sources)}</div>`).join("");
 }
+const PRESUMPTION = "Toute personne mise en cause est présumée innocente tant que sa culpabilité n'a pas été établie par une décision définitive.";
+/* bare URLs (legal cases) shown by their site name */
+function urlList(urls) {
+  if (!urls || !urls.length) return "";
+  const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "source"; } };
+  return `<p class="src">${urls.slice(0, 3).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(host(u))}</a>`).join(" · ")}</p>`;
+}
 function srcList(src) {
   if (!src || !src.length) return "";
-  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.outlet || "source")}</a> ${s.lean ? `<span class="lean">${esc(LEAN_FR[s.lean] || s.lean)}</span>` : ""}`).join(" · ")}</p>`;
+  return `<p class="src">${src.slice(0, 3).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.outlet || "source")}</a> ${s.lean ? `<span class="lean">${esc(LEAN_FR[s.lean] || s.lean)}</span>` : ""}`).join(" · ")}</p>`;
 }
 function profileTable(pf, order) {
   if (pf.every(p => !p)) return `<p class="muted">Vous n'avez accordé d'importance à aucun critère de profil.</p>`;
   const catFr = { probity: "probité", speech: "délit de parole", other: "autre délit" };
   const legalTxt = pr => !pr.convictions ? "—" : !pr.convictions.length ? "aucune" :
-    pr.convictions.map(x => `${catFr[x.cat]}${x.status === "convicted_final" ? "" : " (recours en cours)"}`).filter((x, i, a) => a.indexOf(x) === i).join(", ");
-  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th class="num">Exécutif</th><th>Condamnations</th></tr></thead><tbody>
+    pr.convictions.map(x => `${catFr[x.cat]}${x.status === "convicted_final" ? " (définitive)" : " (non définitive, recours en cours)"}`).filter((x, i, a) => a.indexOf(x) === i).join(", ");
+  const mode = { all: "comme une condamnation définitive", half: "pour moitié", final_only: "pas du tout" }[st.lead.g2b] || "pour moitié";
+  return `<div class="tablewrap"><table><thead><tr><th>Candidat</th><th class="num">Profil</th><th class="num">Exécutif</th><th>Condamnations pénales</th></tr></thead><tbody>
     ${order.map(k => { const c = CANDS[k], p = pf[k], pr = c.profile || {}; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? pct(p.score) + "&nbsp;%" : "—"}</td><td class="num">${pr.exec_years != null ? String(pr.exec_years).replace(".", ",") + " ans" : "—"}</td><td>${esc(legalTxt(pr))}</td></tr>`; }).join("")}
-  </tbody></table></div><p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
+  </tbody></table></div><p class="muted small">Seules les condamnations pénales des catégories que vous avez choisies comptent dans le score ; une condamnation encore susceptible de recours compte ${mode}, comme vous l'avez indiqué. Les enquêtes, mises en examen, relaxes et non-lieux ne comptent jamais. ${PRESUMPTION}</p>
+  <p class="muted small">Détail et sources dans les fiches candidats. Le style et la continuité reposent sur une estimation documentée mais discutable : voir la méthode.</p>`;
 }
 function viability(order) {
   const P = DATA.meta.polls || {};
-  return `<p class="muted small">${esc(P.source || "")}. Un sondage n'est pas une prévision, surtout à six mois du scrutin.</p>
+  return `<p class="muted small">${esc(P.source || "")}</p>
+  <p class="muted small">Tout sondage est affecté de marges d'erreur, et un sondage n'est pas une prévision, surtout à six mois du scrutin. ${HAS_LEGAL ? `Mentions complètes du sondage dans les <a href="#/mentions-legales">mentions légales</a>.` : ""}</p>
   <table><tbody>${order.map(k => { const c = CANDS[k], p = (P.values || {})[c.id]; return `<tr><td>${esc(c.name)}</td><td class="num">${p ? (p[0] === p[1] ? p[0] : p[0] + "–" + p[1]) + "&nbsp;%" : "non disponible"}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
@@ -1106,11 +1121,12 @@ screens.cands = () => {
     <span class="label">Fiches candidats : positions codées et sources</span>
     <div class="stack-s"><label for="csel" class="muted small">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
     <div class="fiche-head">${PHOTOS ? `<img class="avatar xl" src="${esc(ph.src)}" alt="Portrait de ${esc(c.name)}" width="112" height="112">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="muted">${esc(c.party)}</p></div></div>
-    ${PHOTOS && (ph.author || ph.license) ? `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener">source</a>)` : ""}.</p>` : ""}
+    ${PHOTOS && (ph.author || ph.license) ? `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}.</p>` : ""}
     ${rec.bio ? `<p>${esc(rec.bio)}</p>` : ""}
     <div class="grid2">
-      <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (o.to || ""))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
-      <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}</div>
+      <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (!o.to || o.to === "present" ? "aujourd'hui" : o.to))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
+      <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<div class="stack-s"><p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>${urlList(l.sources)}</div>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}
+      <p class="muted" style="font-size:13.5px">${PRESUMPTION}</p></div>
     </div>
     ${(rec.reversals || []).length ? `<div class="card"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
     ${rec.media_portrayal ? `<div class="card"><span class="label">Comment la presse le présente</span>

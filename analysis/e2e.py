@@ -140,6 +140,13 @@ with sync_playwright() as p:
     shot(page, "11-fiche"); overflow(page, "fiche")
     page.click("#nav-method"); page.wait_for_timeout(300)
     shot(page, "12-method"); overflow(page, "method")
+    notes.append("method route: " + page.evaluate("location.hash"))
+    if page.locator("#foot-legal").count():
+        page.click("#foot-legal"); page.wait_for_timeout(300)
+        shot(page, "13-legal"); overflow(page, "legal")
+        notes.append("legal route: " + page.evaluate("location.hash") + " | h1: " + page.locator("h1").first.inner_text()[:50])
+    page.go_back(); page.wait_for_timeout(300)
+    notes.append("browser back lands on: " + page.evaluate("location.hash"))
     page.reload(); page.wait_for_timeout(600)
     notes.append("after reload screen: " + page.locator("h1, h2").first.inner_text()[:80])
     page.click("#nav-home"); page.wait_for_timeout(200)
