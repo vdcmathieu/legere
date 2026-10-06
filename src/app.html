@@ -223,7 +223,7 @@ kbd { font: 12px var(--sans); border: 1px solid var(--line); border-bottom-width
 .foot .fine { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 13.5px; }
 
 /* sheet (dialog) */
-dialog.sheet { border: 0; padding: 0; background: var(--card); color: var(--ink); border-radius: 18px 18px 0 0; width: 100%; max-width: 100%; margin: auto 0 0; max-height: 85vh; max-height: 85dvh; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
+dialog.sheet { border: 0; padding: 0; background: var(--card); color: var(--ink); border-radius: var(--r-lg) var(--r-lg) 0 0; width: 100%; max-width: 100%; margin: auto 0 0; max-height: 85vh; max-height: 85dvh; box-shadow: 0 -10px 40px rgba(0,0,0,.25); }
 dialog.sheet::backdrop { background: rgba(0,0,0,.45); }
 dialog.sheet .inner { padding: 12px 20px 28px; display: flex; flex-direction: column; gap: 14px; overflow: auto; max-height: 85dvh; }
 dialog.sheet .grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 4px; }
@@ -232,7 +232,7 @@ dialog.sheet h2 { font-size: 22px; padding-top: 6px; }
 dialog.sheet .block { display: flex; flex-direction: column; gap: 4px; font-size: 16px; line-height: 1.45; }
 dialog.sheet .block .label { color: var(--ink); font-weight: 600; }
 @media (min-width: 640px) {
-  dialog.sheet { margin: auto; border-radius: 18px; max-width: 560px; }
+  dialog.sheet { margin: auto; border-radius: var(--r-lg); max-width: 560px; }
   dialog.sheet .grip { display: none; }
 }
 
