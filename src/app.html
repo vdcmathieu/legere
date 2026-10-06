@@ -285,6 +285,94 @@ select { font: 16px var(--sans); padding: 12px 40px 12px 14px; min-height: 52px;
   .refine button:hover { border-color: var(--ink); }
   .foot nav button:hover { text-decoration-color: var(--ink); }
 }
+
+/* ===== motion =====
+   Motion explains three things: where you came from (screen slides follow the direction of travel),
+   what changed (the chosen answer confirms before the next question arrives, bars grow, numbers count),
+   and what matters (one staggered entrance per screen). Everything that moves lives inside
+   @media (prefers-reduced-motion: no-preference); with reduced motion only instant state changes remain.
+
+   Tokens: --dur-1 (micro: press, toggle) · --dur-2 (screen change, open) · --dur-3 (bars, counts, entrances)
+           --ease-out (arrivals) · --ease-in (departures) · --ease-spring (a small confirming overshoot)
+
+   Hooks for any screen's markup (attributes only):
+     data-reveal          fades and rises in when rendered; style="--i:3" staggers by 40ms per index
+     data-reveal="view"   same, but waits until scrolled into view (IntersectionObserver), for long pages
+     data-grow            a bar or meter that grows from 0 to its laid-out width (scaleX, left origin); --i staggers
+     data-count="63"      the first integer in the element's text counts up from 0 to data-count; --i staggers
+   The quiz progress fill (.qbar .progress > i) tweens between questions via the View Transitions API. */
+:root { --dur-1: 120ms; --dur-2: 240ms; --dur-3: 520ms; --ease-out: cubic-bezier(.2, .7, .2, 1); --ease-in: cubic-bezier(.5, 0, .9, .5); --ease-spring: cubic-bezier(.3, 1.4, .5, 1); }
+.q { animation: none; }
+@media (prefers-reduced-motion: no-preference) {
+  /* screen change: a short slide in the direction of travel. View Transitions where supported (html[data-nav]), a plain enter class otherwise */
+  @keyframes m-in-fwd { from { opacity: 0; transform: translateX(28px); } }
+  @keyframes m-in-back { from { opacity: 0; transform: translateX(-28px); } }
+  @keyframes m-in-fade { from { opacity: 0; transform: translateY(6px); } }
+  @keyframes m-out-fwd { to { opacity: 0; transform: translateX(-20px); } }
+  @keyframes m-out-back { to { opacity: 0; transform: translateX(20px); } }
+  @keyframes m-out-fade { to { opacity: 0; } }
+  @keyframes m-pick { 38% { transform: scale(1.02); opacity: 1; } to { transform: scale(1.02) translateX(-20px); opacity: 0; } }
+  .ribbon { view-transition-name: ribbon; }
+  .qbar .progress > i { view-transition-name: progress-fill; }
+  ::view-transition { pointer-events: none; }
+  ::view-transition-group(root) { animation-duration: var(--dur-2); }
+  ::view-transition-old(root), ::view-transition-new(root) { animation-duration: var(--dur-2); animation-fill-mode: both; mix-blend-mode: normal; }
+  ::view-transition-old(root) { animation-name: m-out-fade; animation-timing-function: var(--ease-in); }
+  ::view-transition-new(root) { animation-name: m-in-fade; animation-timing-function: var(--ease-out); }
+  html[data-nav="fwd"]::view-transition-old(root), html[data-nav="answer"]::view-transition-old(root) { animation-name: m-out-fwd; }
+  html[data-nav="fwd"]::view-transition-new(root), html[data-nav="answer"]::view-transition-new(root) { animation-name: m-in-fwd; }
+  html[data-nav="back"]::view-transition-old(root) { animation-name: m-out-back; }
+  html[data-nav="back"]::view-transition-new(root) { animation-name: m-in-back; }
+  /* an answer: the old question holds a beat with the chosen option confirmed, then leaves; the chosen row lingers a little longer */
+  html[data-nav="answer"]::view-transition-old(root) { animation-delay: 110ms; animation-duration: 180ms; }
+  html[data-nav="answer"]::view-transition-new(root) { animation-delay: 150ms; }
+  html[data-nav="answer"]::view-transition-group(root) { animation-delay: 110ms; animation-duration: 180ms; }
+  ::view-transition-group(picked) { animation: none; }
+  ::view-transition-old(picked) { animation: m-pick 290ms var(--ease-in) both; }
+  ::view-transition-group(progress-fill) { animation-duration: var(--dur-3); animation-timing-function: var(--ease-out); }
+  ::view-transition-old(progress-fill), ::view-transition-new(progress-fill) { animation: none; mix-blend-mode: normal; }
+  ::view-transition-old(progress-fill) { display: none; }
+  #app.enter-fwd { animation: m-in-fwd var(--dur-2) var(--ease-out) both; }
+  #app.enter-back { animation: m-in-back var(--dur-2) var(--ease-out) both; }
+  #app.enter-fade { animation: m-in-fade var(--dur-2) var(--ease-out) both; }
+
+  /* entrance hooks */
+  @keyframes m-reveal { from { opacity: 0; transform: translateY(10px); } }
+  @keyframes m-grow { from { transform: scaleX(0); } }
+  [data-reveal] { animation: m-reveal var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms); }
+  [data-reveal="view"] { animation: none; opacity: 0; }
+  [data-reveal="view"].in { animation: m-reveal var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms); opacity: 1; }
+  [data-grow] { animation: m-grow var(--dur-3) var(--ease-out) both; animation-delay: calc(var(--i, 0) * 40ms + 80ms); transform-origin: left center; }
+  .ribbon.draw { animation: m-grow 700ms var(--ease-out) both; transform-origin: left center; }
+
+  /* answering */
+  .opt, .chip, .btn, .refine button, .icon-btn { transition: border-color var(--dur-1), background-color var(--dur-1), color var(--dur-1), transform var(--dur-1) var(--ease-out), opacity var(--dur-1); }
+  .opt:active, .chip:active, .refine button:active { transform: scale(.985); }
+  .btn:active:not(:disabled) { transform: scale(.98); }
+  .icon-btn:active:not(:disabled) { transform: scale(.9); }
+  .opt .dot { transition: border-color var(--dur-1); }
+  .opt .dot::after { transition: transform var(--dur-2) var(--ease-spring), background-color var(--dur-1); transform: scale(0); }
+  .opt.on .dot::after { transform: scale(1); }
+  @keyframes m-check { from { stroke-dashoffset: 22; } }
+  @keyframes m-chip-icon { from { width: 0; margin-right: -8px; opacity: 0; } }
+  .chip.on svg { animation: m-chip-icon var(--dur-2) var(--ease-out) both; }
+  .chip.on svg path { stroke-dasharray: 22; animation: m-check 280ms var(--ease-out) 80ms both; }
+  .count { transition: color var(--dur-2); }
+
+  /* opening: the sheet rises, the disclosure unfolds, its body settles */
+  dialog.sheet { transition: translate var(--dur-2) var(--ease-out), opacity var(--dur-2) var(--ease-out), overlay var(--dur-2) allow-discrete, display var(--dur-2) allow-discrete; }
+  dialog.sheet:not([open]) { translate: 0 24px; opacity: 0; }
+  dialog.sheet::backdrop { transition: background-color var(--dur-2), overlay var(--dur-2) allow-discrete, display var(--dur-2) allow-discrete; }
+  dialog.sheet:not([open])::backdrop { background: rgba(0, 0, 0, 0); }
+  @starting-style { dialog.sheet[open] { translate: 0 24px; opacity: 0; } dialog.sheet[open]::backdrop { background: rgba(0, 0, 0, 0); } }
+  details.sec .body { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+  details.sec::details-content { block-size: 0; overflow: clip; transition: block-size var(--dur-2) var(--ease-out), content-visibility var(--dur-2) allow-discrete; }
+  details.sec[open]::details-content { block-size: auto; }
+  details.sec { interpolate-size: allow-keywords; }
+  #reset-confirm:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+  #copied:not([hidden]) { animation: m-reveal var(--dur-2) var(--ease-out) both; }
+}
+/* ===== /motion ===== */
 </style>
 
 <div class="ribbon" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -632,23 +720,23 @@ screens.home = () => {
   const n = nStatementsAnswered();
   const started = n > 0;
   return brandBar() + `<div class="hero">
-    <span class="label">Élection présidentielle d'avril 2027, ${CANDS.length} candidats</span>
-    <h1>Avec quelles idées êtes-vous d'accord&nbsp;?</h1>
-    <p class="intro">Des propositions concrètes, une à la fois. Dites si vous êtes d'accord ou non. À la fin, vous découvrez de quels candidats vous êtes le plus proche, et pourquoi.</p>
+    <span class="label" data-reveal style="--i:0">Élection présidentielle d'avril 2027, ${CANDS.length} candidats</span>
+    <h1 data-reveal style="--i:1">Avec quelles idées êtes-vous d'accord&nbsp;?</h1>
+    <p class="intro" data-reveal style="--i:2">Des propositions concrètes, une à la fois. Dites si vous êtes d'accord ou non. À la fin, vous découvrez de quels candidats vous êtes le plus proche, et pourquoi.</p>
     <ul class="facts">
-      <li>${ICON.clock}<span>Une dizaine de minutes. Le questionnaire s'arrête de lui-même dès que votre résultat est stable.</span></li>
-      <li>${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
-      <li>${ICON.lock}<span>Vos réponses restent dans votre navigateur. Rien n'est envoyé.</span></li>
+      <li data-reveal style="--i:3">${ICON.clock}<span>Une dizaine de minutes. Le questionnaire s'arrête de lui-même dès que votre résultat est stable.</span></li>
+      <li data-reveal style="--i:4">${ICON.eye}<span>Aucun candidat ni parti n'est nommé avant le résultat, pour que vous répondiez sur les idées.</span></li>
+      <li data-reveal style="--i:5">${ICON.lock}<span>Vos réponses restent dans votre navigateur. Rien n'est envoyé.</span></li>
     </ul>
-    ${started ? `<div class="card">
+    ${started ? `<div class="card" data-reveal style="--i:6">
       <span class="label">En cours</span>
-      <div class="progress" aria-hidden="true"><i style="width:${Math.min(100, n / MIN_STOP * 100)}%"></i></div>
+      <div class="progress" aria-hidden="true"><i data-grow style="--i:6;width:${Math.min(100, n / MIN_STOP * 100)}%"></i></div>
       <p>${st.seenResults ? "Votre résultat est disponible." : `Vous avez répondu à ${n} proposition${n > 1 ? "s" : ""}.`}</p>
       <button class="btn primary" id="start" type="button">${st.seenResults ? "Voir mon résultat" : "Reprendre"}</button>
       <button class="btn link" id="reset" type="button">Tout recommencer</button>
       <div id="reset-confirm" hidden class="note">Effacer toutes vos réponses ? <button class="btn link" id="reset-yes" type="button">Oui, effacer</button></div>
-    </div>` : `<button class="btn primary" id="start" type="button">Commencer</button>`}
-    <p class="muted small">Positions des candidats établies à partir de leurs programmes, déclarations et votes, chacune avec ses sources.</p>
+    </div>` : `<button class="btn primary" id="start" type="button" data-reveal style="--i:6">Commencer</button>`}
+    <p class="muted small" data-reveal style="--i:7">Positions des candidats établies à partir de leurs programmes, déclarations et votes, chacune avec ses sources.</p>
   </div>` + footer();
 };
 screens.home.wire = () => {
@@ -682,12 +770,12 @@ screens.statements = () => {
   else { progress = nAns >= MIN_STOP ? 94 : nAns / MIN_STOP * 90; count = nAns + 1; }
   return quizBar(progress, count, !st.hist.length) + `<div class="q" aria-live="polite">
     <span class="label">${esc(area.fr)}</span>
-    <h1 class="statement">${termify(s.fr)}</h1>
-    ${plain ? `<div class="plain"><span class="label">De quoi parle-t-on ?</span><p>${esc(plain)}</p>${ctx ? `<button type="button" class="more" id="more">Arguments pour et contre</button>` : ""}</div>` : ""}
-    <div class="opts" role="group" aria-label="Votre réponse">
+    <h1 class="statement" data-reveal style="--i:0">${termify(s.fr)}</h1>
+    ${plain ? `<div class="plain" data-reveal style="--i:1"><span class="label">De quoi parle-t-on ?</span><p>${esc(plain)}</p>${ctx ? `<button type="button" class="more" id="more">Arguments pour et contre</button>` : ""}</div>` : ""}
+    <div class="opts" role="group" aria-label="Votre réponse" data-reveal style="--i:2">
       ${OPTS.filter(o => o.v !== null).map((o, i) => `<button type="button" class="opt ${v === o.v ? "on" : ""}" data-v="${o.v}" aria-pressed="${v === o.v}"><span class="dot" aria-hidden="true"></span>${esc(o.fr)}<span class="key" aria-hidden="true">${i + 1}</span></button>`).join("")}
     </div>
-    <div class="under">
+    <div class="under" data-reveal style="--i:3">
       <button type="button" class="chip ${v === null ? "on" : ""}" id="na">Sans avis</button>
       ${isRet ? "" : `<button type="button" class="chip ${st.imp[id] ? "on" : ""}" id="impt" aria-pressed="${!!st.imp[id]}">${st.imp[id] ? ICON.check : ""}Important pour moi</button>`}
     </div>
@@ -702,8 +790,8 @@ screens.statements.wire = () => {
     if (SBY[id]) applyGates(id, v);
     save(); render(); window.scrollTo(0, 0);
   };
-  $$(".opt[data-v]").forEach(b => b.onclick = () => answer(+b.dataset.v));
-  $("#na").onclick = () => answer(null);
+  $$(".opt[data-v]").forEach(b => b.onclick = () => motion.confirm(b, () => answer(+b.dataset.v)));
+  $("#na").onclick = () => motion.confirm($("#na"), () => answer(null));
   const im = $("#impt"); if (im) im.onclick = () => { st.imp[id] = !st.imp[id]; save(); im.classList.toggle("on", st.imp[id]); im.setAttribute("aria-pressed", st.imp[id]); im.innerHTML = (st.imp[id] ? ICON.check : "") + "Important pour moi"; };
   $("#back").onclick = goBack;
   $("#quit").onclick = () => go(st.refining ? "results" : "home");
@@ -719,7 +807,7 @@ screens.statements.wire = () => {
   document.onkeydown = e => {
     if (st.screen !== "statements" || $("#sheet").open || e.target.closest("textarea,input,select")) return;
     const m = { "1": -2, "2": -1, "3": 0, "4": 1, "5": 2, "0": null };
-    if (e.key in m) { e.preventDefault(); answer(m[e.key]); }
+    if (e.key in m) { e.preventDefault(); motion.confirm($(`.opt[data-v="${m[e.key]}"]`) || $("#na"), () => answer(m[e.key])); }
     else if (e.key === "Backspace" || e.key === "ArrowLeft") { e.preventDefault(); goBack(); }
   };
 };
@@ -735,16 +823,16 @@ screens.ready = () => {
   const rem = remainingStatements().length;
   const p = st.stopP;
   return `<div class="qbar"><span class="label">Propositions · ${n} réponses</span></div><div class="stack" style="padding-top:8px">
-    <h1>${st.exhausted ? "Vous avez tout vu." : "Votre résultat est prêt."}</h1>
-    <p>${st.exhausted ? "Vous avez répondu à toutes les propositions disponibles." : p >= STOP_P
+    <h1 data-reveal style="--i:0">${st.exhausted ? "Vous avez tout vu." : "Votre résultat est prêt."}</h1>
+    <p data-reveal style="--i:1">${st.exhausted ? "Vous avez répondu à toutes les propositions disponibles." : p >= STOP_P
       ? `Avec vos ${n} réponses, le même candidat arrive en tête dans ${pct(p)}&nbsp;% des simulations${rem ? ` : c'est assez net pour le voir. Vous pourrez ensuite répondre à d'autres propositions pour affiner le classement` : ""}.`
       : `Avec vos ${n} réponses, plusieurs candidats restent proches de vous à égalité ou presque. D'autres propositions changeraient peu ce constat : le résultat vous montre ces candidats côte à côte.`}</p>
-    <div class="card soft">
+    <div class="card soft" data-reveal style="--i:2">
       <label for="expect"><b>Une question facultative avant de le voir.</b><br><span class="small">${esc(Q.expectation.fr)} Cela sert uniquement à comparer votre intention de départ avec le résultat.</span></label>
       <select id="expect"><option value="">Je préfère ne pas répondre</option>${[...CANDS.map(c => [c.id, `${c.name} (${c.party})`]), ["undecided", "Je ne savais pas encore"], ["blank", "Vote blanc ou abstention"]].map(([v, t]) => `<option value="${v}" ${st.expect === v ? "selected" : ""}>${esc(t)}</option>`).join("")}</select>
     </div>
-    <button class="btn primary" id="on" type="button">Voir mon résultat</button>
-    ${rem ? `<button class="btn ghost" id="more" type="button">Répondre à d'autres propositions d'abord</button>` : ""}
+    <button class="btn primary" id="on" type="button" data-reveal style="--i:3">Voir mon résultat</button>
+    ${rem ? `<button class="btn ghost" id="more" type="button" data-reveal style="--i:4">Répondre à d'autres propositions d'abord</button>` : ""}
   </div>`;
 };
 screens.ready.wire = () => {
@@ -765,7 +853,7 @@ screens.dilemmas = () => {
     <span class="label">Arbitrage ${idx + 1} sur ${items.length}</span>
     <h1 style="font-size:24px">Si vous deviez choisir, vous privilégieriez…</h1>
     <div class="dilemma" role="group" aria-label="Votre choix">${sides.map(([k, t]) => `<button type="button" class="opt ${cur.side === k ? "on" : ""}" data-k="${k}" aria-pressed="${cur.side === k}"><span class="dot" aria-hidden="true"></span><span>${esc(t)}</span></button>`).join("")}</div>
-    ${cur.side ? `<div class="stack-s"><span class="label">Avec quelle netteté ?</span><div class="strength" role="group" aria-label="Netteté">
+    ${cur.side ? `<div class="stack-s" data-reveal><span class="label">Avec quelle netteté ?</span><div class="strength" role="group" aria-label="Netteté">
       ${["Légèrement", "Nettement", "Très nettement"].map((t, i) => `<button type="button" class="opt" data-s="${i + 1}">${t}</button>`).join("")}</div></div>` : `<p class="muted small">Il n'y a pas de bonne réponse : ces choix servent à vérifier la cohérence de vos réponses.</p>`}
   </div>`;
 };
@@ -773,8 +861,8 @@ screens.dilemmas.wire = () => {
   const items = Q.dilemmas.items;
   const idx = items.findIndex(d => st.dil[d.id] === undefined || st.dil[d.id].strength === undefined);
   const d = items[idx];
-  $$("[data-k]").forEach(b => b.onclick = () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); });
-  $$("[data-s]").forEach(b => b.onclick = () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); window.scrollTo(0, 0); });
+  $$("[data-k]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.dil[d.id] = { side: b.dataset.k }; save(); render(); }));
+  $$("[data-s]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.dil[d.id].strength = +b.dataset.s; save(); render(); window.scrollTo(0, 0); }));
   $("#back").onclick = () => {
     if (st.dil[d.id]) delete st.dil[d.id];
     else if (idx > 0) delete st.dil[items[idx - 1].id];
@@ -854,7 +942,7 @@ screens.leadership = () => {
 screens.leadership.wire = () => {
   const items = leadItems();
   const idx = items.findIndex(it => !leadAnswered(it));
-  $$("[data-l]").forEach(b => b.onclick = () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; save(); render(); window.scrollTo(0, 0); });
+  $$("[data-l]").forEach(b => b.onclick = () => motion.confirm(b, () => { st.lead[b.dataset.l] = b.dataset.s !== undefined ? b.dataset.s : +b.dataset.v; save(); render(); window.scrollTo(0, 0); }));
   $$("[data-m]").forEach(b => b.onclick = () => {
     const id = b.dataset.m, v = b.dataset.s;
     let sel = Array.isArray(st.lead[id]) ? st.lead[id].slice() : [];
@@ -945,24 +1033,24 @@ screens.results = () => {
   const refineCard = (id, title, sub, done) => `<button type="button" data-go="${id}"><span><b>${title}</b><span>${sub}</span></span>${done ? `<span class="done">${ICON.check} fait</span>` : ""}</button>`;
   return brandBar() + `<div class="stack">
     <span class="label">Votre résultat · ${nEff} propositions prises en compte</span>
-    <div class="lead">
+    <div class="lead" data-reveal style="--i:0">
       <span class="label">Vous êtes le plus proche de</span>
       <div class="head">${tied.length === 1 ? avatar(CANDS[top], "lg") : ""}<p class="who">${esc(tied.length > 3 ? tieNames.slice(0, 3).join(", ") + ` et ${tied.length - 3} autres` : tied.length > 1 ? listFr(tieNames) : CANDS[top].name)}</p></div>
       <p class="party">${tied.length > 1 ? `${tied.length} candidats à égalité dans la marge d'incertitude.` : `${esc(CANDS[top].party)} · ${pct(sc[top])}&nbsp;% d'accord avec vos réponses.`}</p>
       <p class="small">${solid} : dans ${pct(pTop)}&nbsp;% des simulations de vos réponses, ${tied.length > 1 ? "l'un de ces candidats" : "ce candidat"} arrive en tête.${rem && pTop < 0.9 ? " Répondre à d'autres propositions peut le préciser." : ""}</p>
     </div>
-    <h2>Le classement complet</h2>
-    <div class="ranking ${PHOTOS ? "photos" : ""}">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
+    <h2 data-reveal style="--i:1">Le classement complet</h2>
+    <div class="ranking ${PHOTOS ? "photos" : ""}" data-reveal style="--i:2">${order.map((k, i) => { const c = CANDS[k], b = bs[k]; return `<div class="res-row ${tied.includes(k) && tied.length > 1 ? "tie" : ""}">
       <span class="rank num">${i + 1}</span>${avatar(c)}
       <div class="who"><b>${esc(c.name)}</b><span>${esc(c.party)}</span></div>
-      <div class="ci" aria-hidden="true"><div class="track"></div><div class="band" style="left:${X(b.lo)};width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
-      <div class="pct">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
+      <div class="ci" aria-hidden="true"><div class="track"></div><div class="band" data-grow style="--i:${Math.min(i, 8)};left:${X(b.lo)};width:calc(${X(b.hi)} - ${X(b.lo)})"></div><div class="pt" style="left:${X(sc[k])}"></div></div>
+      <div class="pct" data-count="${pct(sc[k])}" style="--i:${Math.min(i, 8)}">${pct(sc[k])}&nbsp;%</div></div>`; }).join("")}</div>
     <p class="muted small">Le pourcentage mesure l'accord entre vos réponses et les positions documentées du candidat. La bande claire montre la marge d'incertitude ; quand deux bandes se recouvrent largement, l'ordre entre ces candidats n'est pas certain.</p>
     ${tied.length > 1 ? `<div class="note">${esc(listFr(tieNames))} : avec vos réponses, l'écart entre ${tied.length > 2 ? "ces candidats" : "ces deux candidats"} reste dans la marge d'incertitude. Répondre à davantage de propositions peut les départager.</div>` : ""}
 
-    <h2>Affiner mon résultat</h2>
-    <p class="muted small">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
-    <div class="refine">
+    <h2 data-reveal="view">Affiner mon résultat</h2>
+    <p class="muted small" data-reveal="view">Tout est facultatif. Chaque étape enrichit le résultat et vous y ramène.</p>
+    <div class="refine" data-reveal="view" style="--i:1">
       ${rem ? refineCard("more", "Répondre à d'autres propositions", `${rem} restantes · précise le classement`, false) : ""}
       ${refineCard("importance", "Pondérer mes thèmes", "1 minute · donne plus de poids à ce qui compte pour vous", !!st.lvl)}
       ${refineCard("dilemmas", "Trancher 8 arbitrages", "2 minutes · vérifie la cohérence de vos réponses", dilemmasDone())}
@@ -970,8 +1058,8 @@ screens.results = () => {
       ${refineCard("reflect", "Pour réfléchir", "Questions ouvertes, sans notation", Object.values(st.open).some(Boolean) || Object.values(st.after).some(Boolean))}
     </div>
 
-    <h2>Comprendre ce résultat</h2>
-    <div>
+    <h2 data-reveal="view">Comprendre ce résultat</h2>
+    <div data-reveal="view" style="--i:1">
     <details class="sec"><summary>Là où vous divergez de ${esc(CANDS[top].name)}</summary><div class="body">${disagreements(eff, top)}</div></details>
     ${expK >= 0 || exp === "undecided" ? `<details class="sec" open><summary>Votre intention de départ</summary><div class="body"><p>${expK >= 0 ? `Vous pensiez voter pour <b>${esc(CANDS[expK].name)}</b>, classé ${order.indexOf(expK) + 1}<sup>e</sup> sur ${CANDS.length} pour la proximité d'idées (${pct(sc[expK])}&nbsp;%).` : "Vous étiez indécis."} ${expK >= 0 && expK !== top ? "Les propositions où vous divergez de ce candidat sont listées ci-dessous." : ""}</p>${expK >= 0 && expK !== top ? disagreements(eff, expK) : ""}</div></details>` : ""}
     <details class="sec"><summary>Accord par thème avec les ${Math.min(4, CANDS.length)} premiers</summary><div class="body">${areaTable(eff, order.slice(0, 4))}</div></details>
@@ -1115,20 +1203,20 @@ screens.cands = () => {
   return brandBar() + `<div class="stack">
     <span class="label">Fiches candidats : positions codées et sources</span>
     <div class="stack-s"><label for="csel" class="muted small">Candidat</label><select id="csel">${CANDS.map(x => `<option value="${x.id}" ${x.id === c.id ? "selected" : ""}>${esc(x.name)} (${esc(x.party)})</option>`).join("")}</select></div>
-    <div class="fiche-head">${PHOTOS ? `<img class="avatar xl" src="${esc(ph.src)}" alt="Portrait de ${esc(c.name)}" width="112" height="112">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="muted">${esc(c.party)}</p></div></div>
+    <div class="fiche-head" data-reveal style="--i:0">${PHOTOS ? `<img class="avatar xl" src="${esc(ph.src)}" alt="Portrait de ${esc(c.name)}" width="112" height="112">` : ""}<div class="names"><h1>${esc(c.name)}</h1><p class="muted">${esc(c.party)}</p></div></div>
     ${PHOTOS && (ph.author || ph.license) ? `<p class="credit">Photo : ${esc(ph.author || "auteur inconnu")}${ph.license ? `, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license)}</a>` : esc(ph.license)}` : ""}${ph.source_url ? ` (<a href="${esc(ph.source_url)}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}, recadrée et passée en noir et blanc.</p>` : ""}
-    ${rec.bio ? `<p>${esc(rec.bio)}</p>` : ""}
-    <div class="grid2">
+    ${rec.bio ? `<p data-reveal style="--i:1">${esc(rec.bio)}</p>` : ""}
+    <div class="grid2" data-reveal style="--i:2">
       <div class="card"><span class="label">Parcours</span>${(rec.offices || []).slice(0, 10).map(o => `<p class="small">${esc(o.office)} <span class="muted num">${esc(String(o.from || "").slice(0, 4))}–${esc(/^\d{4}/.test(o.to || "") ? o.to.slice(0, 4) : (!o.to || o.to === "present" ? "aujourd'hui" : o.to))}</span></p>`).join("") || "<p class='muted'>—</p>"}</div>
       <div class="card"><span class="label">Affaires judiciaires</span>${(rec.legal || []).map(l => `<div class="stack-s"><p class="small">${esc(l.case)} <span class="lean">${esc(STATUS_FR[l.status] || l.status)}</span> <span class="muted num">${esc(l.date)}</span></p>${urlList(l.sources)}</div>`).join("") || "<p class='small'>Aucune affaire personnelle recensée.</p>"}
       <p class="muted" style="font-size:13.5px">${PRESUMPTION}</p></div>
     </div>
-    ${(rec.reversals || []).length ? `<div class="card"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
-    ${rec.media_portrayal ? `<div class="card"><span class="label">Comment la presse le présente</span>
+    ${(rec.reversals || []).length ? `<div class="card" data-reveal="view"><span class="label">Changements de position documentés</span>${rec.reversals.map(r => `<p class="small"><b>${esc(r.topic)}</b> (${esc(r.years)}) : ${esc(r.before)} → ${esc(r.after)}</p>`).join("")}</div>` : ""}
+    ${rec.media_portrayal ? `<div class="card" data-reveal="view"><span class="label">Comment la presse le présente</span>
       <p class="small"><b>Presse de gauche :</b> ${esc(rec.media_portrayal.left_media)}</p>
       <p class="small"><b>Presse de droite :</b> ${esc(rec.media_portrayal.right_media)}</p>
       <p class="small"><b>Médias neutres :</b> ${esc(rec.media_portrayal.neutral_media)}</p></div>` : ""}
-    <div class="card"><span class="label">Positions sur les ${S.length} propositions</span>
+    <div class="card" data-reveal="view"><span class="label">Positions sur les ${S.length} propositions</span>
       ${AREAS.map(a => `<h3 style="margin-top:6px">${esc(a.fr)}</h3>${S.filter(s => s.area === a.id).map(s => { const p = c.positions[s.id]; return `<div class="stack-s" style="border-bottom:1px solid var(--line);padding-bottom:8px">
         <p class="small"><span class="pos">${esc(p && p.p !== null && p.p !== undefined ? POS_FR[String(p.p)] : "?")}</span> ${esc(s.fr)}</p>
         ${p && p.p !== null ? `<p class="muted" style="font-size:13.5px">${esc(TYPE_FR[p.type] || p.type)} · ${esc(CONF_FR[p.conf] || "")}. ${esc(p.summary || "")}${p.nuance ? " " + esc(p.nuance) : ""}</p>${srcList(p.sources)}` : `<p class="muted" style="font-size:13.5px">Pas de position documentée.</p>`}
@@ -1144,15 +1232,99 @@ screens.method.wire = wireBrand;
 screens.legal = () => brandBar() + `<div class="stack page">${HAS_LEGAL ? DATA.legal_html : "<h1>Mentions légales</h1><p>À venir.</p>"}</div>` + footer();
 screens.legal.wire = wireBrand;
 
+/* ===== motion =====
+   motion.swap(apply)      render() hands it the DOM swap; it decides the direction of travel from the screen depth
+                           (a deeper screen slides in from the right, a shallower one from the left, siblings cross-fade,
+                           an in-place re-render swaps without a transition) and runs it inside a View Transition when
+                           the browser has one, with a CSS enter class otherwise. First paint and reduced motion: plain swap.
+   motion.confirm(el, fn)  an answer handler wrapper: marks the chosen control as selected before fn() re-renders,
+                           so the old screen is captured with the choice confirmed and holds a beat before leaving.
+   motion.hooks()          after each swap: counts up [data-count] and watches [data-reveal="view"] (see the CSS block). */
+const motion = (() => {
+  const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const DEPTH = { home: 0, cands: 1, method: 1, legal: 1, statements: 2, ready: 3, results: 4, dilemmas: 5, importance: 5, leadership: 5, reflect: 5 };
+  const stepOf = () => st.screen === "statements" ? st.hist.length
+    : st.screen === "dilemmas" ? Object.values(st.dil).filter(d => d && d.strength).length
+    : st.screen === "leadership" ? leadItems().filter(leadAnswered).length : 0;
+  let prev = null, answering = false, vtId = 0, io = null;
+  function direction() {
+    const cur = { screen: st.screen, step: stepOf() }, was = prev; prev = cur;
+    if (!was) return null;
+    let d = null;
+    if (was.screen !== cur.screen) { const a = DEPTH[was.screen] ?? 1, b = DEPTH[cur.screen] ?? 1; d = b > a ? "fwd" : b < a ? "back" : "fade"; }
+    else d = cur.step > was.step ? "fwd" : cur.step < was.step ? "back" : null;
+    return d === "fwd" && answering ? "answer" : d;
+  }
+  function swap(apply) {
+    const dir = direction(), app = $("#app"), root = document.documentElement;
+    if (!dir || reduced() || !document.startViewTransition) {
+      apply();
+      app.classList.remove("enter-fwd", "enter-back", "enter-fade");
+      if (dir && !reduced()) { void app.offsetWidth; app.classList.add("enter-" + (dir === "answer" ? "fwd" : dir)); }
+      return;
+    }
+    /* callers scroll to the top right after render(); the old screen is captured next frame, so put its scroll back
+       for the capture and apply the caller's scroll to the new screen instead */
+    const y = scrollY; let want = null, captured = false;
+    requestAnimationFrame(() => { if (!captured) { want = scrollY; scrollTo(0, y); } });
+    root.dataset.nav = dir;
+    const id = ++vtId;
+    let vt;
+    try { vt = document.startViewTransition(() => { captured = true; apply(); if (want !== null) scrollTo(0, want); }); }
+    catch (e) { apply(); delete root.dataset.nav; return; }
+    vt.finished.finally(() => { if (vtId === id) delete root.dataset.nav; });
+  }
+  function confirm(el, fn) {
+    if (el && !reduced()) {
+      const group = el.closest("[role=group], .under, .opts, .strength") || el.parentElement;
+      group.querySelectorAll(".on").forEach(x => { if (x !== el) x.classList.remove("on"); });
+      el.classList.add("on"); el.style.viewTransitionName = "picked";
+      answering = true;
+    }
+    try { fn(); } finally { answering = false; }
+  }
+  function count(el) {
+    const target = parseFloat(el.dataset.count); if (isNaN(target)) return;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let node, m = null;
+    while ((node = walker.nextNode())) { m = /\d+/.exec(node.nodeValue); if (m) break; }
+    if (!m) return;
+    const pre = node.nodeValue.slice(0, m.index), post = node.nodeValue.slice(m.index + m[0].length);
+    const delay = (parseFloat(getComputedStyle(el).getPropertyValue("--i")) || 0) * 40, dur = 520;
+    let t0 = null;
+    const frame = now => {
+      if (!el.isConnected) return;
+      if (t0 === null) t0 = now + delay;
+      const p = Math.min(1, Math.max(0, (now - t0) / dur)), e = 1 - Math.pow(1 - p, 3);
+      node.nodeValue = pre + Math.round(target * e) + post;
+      if (p < 1) requestAnimationFrame(frame);
+    };
+    node.nodeValue = pre + "0" + post; requestAnimationFrame(frame);
+  }
+  function hooks() {
+    if (io) io.disconnect();
+    const views = $$('[data-reveal="view"]:not(.in)');
+    if (reduced() || !("IntersectionObserver" in window)) { views.forEach(v => v.classList.add("in")); return; }
+    io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -6% 0px" });
+    views.forEach(v => io.observe(v));
+    $$("[data-count]").forEach(count);
+  }
+  if (!reduced()) $(".ribbon").classList.add("draw");
+  return { swap, confirm, hooks };
+})();
+/* ===== /motion ===== */
+
 /* ------------------------------------------------------------------ router */
 function render() {
   let html = "", guard = 0, s;
   do { s = st.screen; html = (screens[s] || screens.home)(); } while (st.screen !== s && guard++ < 4);
   const fn = screens[st.screen] || screens.home;
   document.onkeydown = null;
-  $("#root").classList.toggle("wide", ["cands", "method", "legal"].includes(st.screen));
-  $("#app").innerHTML = html;
-  (fn.wire || (() => {}))();
+  motion.swap(() => {
+    $("#root").classList.toggle("wide", ["cands", "method", "legal"].includes(st.screen));
+    $("#app").innerHTML = html;
+    (fn.wire || (() => {}))();
+    motion.hooks();
+  });
   save();
   if (location.hash !== hashFor(st.screen)) history.replaceState(null, "", hashFor(st.screen));
 }
