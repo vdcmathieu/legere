@@ -1618,7 +1618,7 @@
    },
    "record": {
     "candidate": "Marine Le Pen",
-    "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; a cassation appeal is pending, so the conviction is not final. In July 2026 she confirmed she will run for president a fourth time, and Jordan Bardella, who had been prepared as the alternative RN candidate, stood aside.",
+    "bio": "Marine Le Pen (born 1968) is a French lawyer-turned-politician who led the Front national, renamed Rassemblement national (RN) in 2018, from 2011 to 2021. She reached the presidential runoff in 2017 and 2022, and has been deputy for Pas-de-Calais since 2017 and chair of the RN group in the Assemblée nationale since 2022. She was convicted at first instance in March 2025 and on appeal on 7 July 2026 in the European Parliament assistants case; she has lodged a cassation appeal, so the conviction is not final. On 7 July 2026 she announced a fourth presidential candidacy, presenting Jordan Bardella, president of the RN, as her future Prime Minister.",
     "offices": [
      {
       "office": "Regional councillor, Nord-Pas-de-Calais",
@@ -1677,11 +1677,11 @@
       "office_fr": "Députée, 11e circonscription du Pas-de-Calais"
      },
      {
-      "office": "Departmental councillor, Pas-de-Calais (mandate ended following the ineligibility penalty)",
+      "office": "Departmental councillor, Pas-de-Calais (declared to have resigned by the prefect on 10 April 2025 after the ineligibility sentence with provisional execution; confirmed by the Conseil d'État on 10 November 2025)",
       "from": "2021-07-11",
-      "to": "2025-11-10",
+      "to": "2025-04-10",
       "kind": "legislative",
-      "office_fr": "Conseillère départementale, Pas-de-Calais (mandat achevé à la suite de la peine d'inéligibilité)"
+      "office_fr": "Conseillère départementale, Pas-de-Calais (démission d'office prononcée par le préfet le 10 avril 2025 à la suite de la peine d'inéligibilité avec exécution provisoire, confirmée par le Conseil d'État le 10 novembre 2025)"
      },
      {
       "office": "President of the RN group, Assemblée nationale",
@@ -1694,25 +1694,26 @@
     "executive_experience_years": 0,
     "legal": [
      {
-      "case": "European Parliament parliamentary assistants case (embezzlement of EU public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine and 5 years' ineligibility with provisional (immediate) execution. Appeal, 7 July 2026: 3 years' prison of which 2 suspended (1 firm year to be served under electronic monitoring), as reported by Public Sénat and Toute l'Europe; Wikipedia gives '1 year firm + 3 years suspended', so the exact total is reported inconsistently. EUR 100,000 fine. 45 months' ineligibility, of which 30 suspended; the 15 firm months were treated as already served (to 30 June 2026), so she is eligible in 2027. Co-defendants on appeal include Louis Aliot (1 year suspended), Bruno Gollnisch (3 years suspended) and Julien Odoul (8 months suspended); Public Sénat reports the RN was fined EUR 2 million (EUR 1 million suspended). She has filed a cassation appeal. On 8 July 2026 the Court of Cassation said it 'could' rule 'au plus tard début avril 2027', a timetable it says may change; the first round is on 18 April 2027. The conviction is therefore not final.",
+      "case": "European Parliament assistants case (embezzlement of public funds, 2004-2016). First instance, 31 March 2025: 4 years' prison (2 firm), EUR 100,000 fine, 5 years' ineligibility with provisional execution. Appeal, Paris court of appeal, 7 July 2026: 3 years' prison of which 2 suspended and 1 firm year to be served under electronic monitoring, EUR 100,000 fine, 45 months' ineligibility of which 30 suspended; the 15 firm months were counted as already served, so she is eligible in 2027. She has lodged a cassation appeal; on 8 July 2026 the Cour de cassation said it could rule 'no later than early April 2027', a timetable it said may change. The conviction is not final.",
       "status": "convicted_appeal_pending",
       "date": "2026-07-07",
       "sources": [
-       "https://www.publicsenat.fr/actualites/politique/direct-suivez-le-delibere-du-proces-en-appel-de-marine-le-pen",
-       "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+       "https://fr.euronews.com/2026/07/07/marine-le-pen-condamnee-a-45-mois-dineligibilite-dont-30-mois-assortis-de-sursis",
        "https://www.touteleurope.eu/vie-politique-des-etats-membres/proces-des-assistants-du-rn-marine-le-pen-condamnee-en-appel-mais-eligible-a-l-election-presidentielle-2027/",
-       "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/presidentielle-bracelet-electronique-pourvoi-en-cassation-les-questions-qui-se-posent-apres-la-condamnation-reduite-de-marine-le-pen-en-appel_8097893.html"
+       "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer",
+       "https://www.leclubdesjuristes.com/en-bref/condamnation-de-marine-le-pen-la-cour-de-cassation-pourrait-statuer-sur-son-pourvoi-au-plus-tard-debut-avril-2027-16873/"
       ],
-      "case_fr": "Affaire des assistants parlementaires du Parlement européen (détournement de fonds publics de l'UE, 2004-2016). Première instance, 31 mars 2025 : 4 ans d'emprisonnement (dont 2 ferme), 100 000 euros d'amende et 5 ans d'inéligibilité avec exécution provisoire (immédiate). Appel, 7 juillet 2026 : 3 ans d'emprisonnement dont 2 avec sursis (1 an ferme à purger sous bracelet électronique), selon Public Sénat et Toute l'Europe ; Wikipédia indique « 1 an ferme + 3 ans avec sursis », le total exact est donc rapporté de manière incohérente. 100 000 euros d'amende. 45 mois d'inéligibilité, dont 30 avec sursis ; les 15 mois fermes ont été considérés comme déjà purgés (jusqu'au 30 juin 2026), si bien qu'elle est éligible en 2027. Parmi les coprévenus en appel figurent Louis Aliot (1 an avec sursis), Bruno Gollnisch (3 ans avec sursis) et Julien Odoul (8 mois avec sursis) ; Public Sénat rapporte que le RN a été condamné à une amende de 2 millions d'euros (dont 1 million avec sursis). Elle a formé un pourvoi en cassation. Le 8 juillet 2026, la Cour de cassation a indiqué qu'elle « pourrait » statuer « au plus tard début avril 2027 », un calendrier qui, selon elle, peut évoluer ; le premier tour a lieu le 18 avril 2027. La condamnation n'est donc pas définitive."
+      "case_fr": "Affaire des assistants parlementaires au Parlement européen (détournement de fonds publics, 2004-2016). Première instance, 31 mars 2025 : 4 ans d'emprisonnement dont 2 ferme, 100 000 euros d'amende, 5 ans d'inéligibilité avec exécution provisoire. Appel, cour d'appel de Paris, 7 juillet 2026 : 3 ans d'emprisonnement dont 2 avec sursis et 1 an ferme aménagé sous bracelet électronique, 100 000 euros d'amende, 45 mois d'inéligibilité dont 30 avec sursis ; les 15 mois fermes ont été considérés comme déjà exécutés, elle est donc éligible en 2027. Elle a formé un pourvoi en cassation ; le 8 juillet 2026, la Cour de cassation a indiqué qu'elle pourrait statuer « au plus tard début avril 2027 », calendrier qu'elle dit susceptible d'évoluer. La condamnation n'est pas définitive."
      },
      {
-      "case": "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing street prayers to an 'occupation'. The Lyon court acquitted her, ruling that the statement did not target the whole Muslim community.",
+      "case": "Prosecution for incitement to hatred over a December 2010 Lyon speech comparing Muslim street prayers to an 'occupation'. The Lyon criminal court acquitted her on 15 December 2015, the prosecution itself having asked for an acquittal.",
       "status": "acquitted",
       "date": "2015-12-15",
       "sources": [
-       "https://en.wikipedia.org/wiki/Marine_Le_Pen"
+       "https://www.lalibre.be/international/2015/12/15/prieres-de-rue-comparees-a-loccupation-marine-le-pen-est-relaxee-par-la-justice-francaise-VIFYASRH7JBONN2NRHIZFP5LWE/",
+       "https://www.lyonmag.com/article/76133/prieres-de-rue-et-occupation-le-parquet-requiert-la-relaxe-de-marine-le-pen"
       ],
-      "case_fr": "Poursuite pour provocation à la haine à raison d'un discours prononcé à Lyon en décembre 2010, comparant les prières de rue à une « occupation ». Le tribunal de Lyon l'a relaxée, jugeant que ces propos ne visaient pas l'ensemble de la communauté musulmane."
+      "case_fr": "Poursuite pour provocation à la haine à raison d'un discours prononcé à Lyon en décembre 2010, comparant les prières de rue à une « occupation ». Le tribunal correctionnel de Lyon l'a relaxée le 15 décembre 2015, le parquet ayant lui-même requis la relaxe."
      }
     ],
     "reversals": [
@@ -1731,15 +1732,15 @@
      },
      {
       "topic": "Russia / Ukraine",
-      "before": "2017: visited Moscow and met Putin, called sanctions 'profoundly unjust and counterproductive' and proposed lifting them; defended the 2014 Crimea referendum.",
-      "after": "Since February 2022 she condemns the invasion 'without ambiguity', and in 2026 the RN denounced Russian 'hostile acts' in Europe. She still opposes further financial aid to Ukraine on budget grounds and defended the Crimea referendum again in 2023, so the shift is partial.",
-      "years": "2017-2026",
+      "before": "March 2017: visited Moscow and met Vladimir Putin, called the EU sanctions on Russia unjust and proposed lifting them.",
+      "after": "Since February 2022 she condemns the Russian invasion of Ukraine, while still opposing part of the military and financial support to Ukraine, so the shift is partial.",
+      "years": "2017-2022",
       "sources": [
        "https://legrandcontinent.eu/fr/2026/09/28/marine-le-pen-peut-elle-vraiment-rompre-avec-poutine/"
       ],
       "topic_fr": "Russie / Ukraine",
-      "before_fr": "2017 : s'est rendue à Moscou et a rencontré Vladimir Poutine, a qualifié les sanctions de « profondément injustes et contre-productives » et proposé de les lever ; a défendu le référendum de 2014 en Crimée.",
-      "after_fr": "Depuis février 2022, elle condamne l'invasion « sans ambiguïté », et en 2026 le RN a dénoncé des « actes hostiles » de la Russie en Europe. Elle s'oppose toujours à de nouvelles aides financières à l'Ukraine pour des raisons budgétaires et a de nouveau défendu le référendum de Crimée en 2023 ; l'évolution est donc partielle."
+      "before_fr": "Mars 2017 : s'est rendue à Moscou et a rencontré Vladimir Poutine, a jugé injustes les sanctions européennes contre la Russie et proposé de les lever.",
+      "after_fr": "Depuis février 2022, elle condamne l'invasion russe de l'Ukraine, tout en restant opposée à une partie du soutien militaire et financier à l'Ukraine ; l'évolution est donc partielle."
      }
     ],
     "delivery": [
@@ -1776,18 +1777,10 @@
       ]
      }
     ],
-    "media_portrayal": {
-     "left_media": "Left-leaning outlets typically present her as the leader of a far-right party whose normalisation is mainly a matter of image. They foreground the embezzlement conviction, her past ties to Russia and the national-preference proposal. This is inferred from general patterns, as Libération, Mediapart and L'Humanité were not opened.",
-     "right_media": "Right-leaning outlets typically present her as a legitimate sovereigntist leader. They tend to frame the prosecution as politicised and to emphasise her immigration, security and purchasing-power proposals. This is inferred, as CNews and Europe 1 pages could not be opened (HTTP 403).",
-     "neutral_media": "France 24, franceinfo, LCP and Public Sénat report the verdict, the sentence and her eligibility in procedural detail and stress the uncertainty before the cassation ruling. They treat the Le Pen/Bardella arrangement as a strategic question for the RN."
-    },
-    "sources_note": "Verified in this session against Public Sénat, LCP, franceinfo, Toute l'Europe, France 24, Le Grand Continent, Euronews, Infobae, Journal du Net, Référence Entreprise, and French and English Wikipedia. CNews and Europe 1 returned HTTP 403, so their URLs were removed. Gaps: no roll-call analysis (datan.fr, nosdeputes.fr, howtheyvote.eu); the full 2027 programme was not reviewed; left- and right-leaning outlets were not read directly, so the media_portrayal lean labels are inferred. Other personal cases listed on Wikipedia (defamation, the 2015 Islamic State images tweet case after her immunity was lifted in 2017, under-declared assets, the 2022 campaign-loan financing inquiries) could not be verified for status within the search budget and are left out. Sources disagree on the appeal prison total (3 years with 2 suspended per Public Sénat and Toute l'Europe, against 1 firm + 3 suspended per Wikipedia).",
-    "bio_fr": "Marine Le Pen (née en 1968) est une avocate devenue femme politique française, qui a dirigé le Front national, rebaptisé Rassemblement national (RN) en 2018, de 2011 à 2021. Elle a atteint le second tour de l'élection présidentielle en 2017 et en 2022, est députée du Pas-de-Calais depuis 2017 et présidente du groupe RN à l'Assemblée nationale depuis 2022. Elle a été condamnée en première instance en mars 2025 et en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires européens ; un pourvoi en cassation est en cours, la condamnation n'est donc pas définitive. En juillet 2026, elle a confirmé qu'elle sera candidate à la présidentielle pour la quatrième fois, et Jordan Bardella, qui avait été préparé comme candidat alternatif du RN, s'est effacé.",
-    "media_portrayal_fr": {
-     "left_media": "Les médias de gauche la présentent généralement comme la dirigeante d'un parti d'extrême droite dont la normalisation relève surtout de l'image. Ils mettent en avant la condamnation pour détournement de fonds, ses liens passés avec la Russie et la proposition de préférence nationale. Ceci est déduit de tendances générales, Libération, Mediapart et L'Humanité n'ayant pas été consultés.",
-     "right_media": "Les médias de droite la présentent généralement comme une dirigeante souverainiste légitime. Ils tendent à présenter les poursuites comme politisées et à mettre l'accent sur ses propositions en matière d'immigration, de sécurité et de pouvoir d'achat. Ceci est déduit, les pages de CNews et d'Europe 1 n'ayant pas pu être ouvertes (HTTP 403).",
-     "neutral_media": "France 24, franceinfo, LCP et Public Sénat rapportent le verdict, la peine et son éligibilité de manière détaillée sur le plan procédural et soulignent l'incertitude avant la décision de la Cour de cassation. Ils traitent l'arrangement entre Marine Le Pen et Jordan Bardella comme une question stratégique pour le RN."
-    }
+    "media_portrayal": null,
+    "sources_note": "Fact-check of 6 October 2026 with web search: bio, offices, legal statuses, candidacy and reversals re-verified against Euronews, LCP, Toute l'Europe, Le Club des juristes, Conseil d'État / Public Sénat (departmental council), La Libre / Lyon Mag (2015 acquittal), AFP-sourced press for the 7 July 2026 candidacy, and French Wikipedia for office dates. The media_portrayal block was removed: the earlier text was inferred without reading the outlets. Delivery and traits are not displayed and were not re-verified. The Cour de cassation ruling is still pending; recheck before April 2027.",
+    "bio_fr": "Marine Le Pen (née en 1968) est une avocate devenue femme politique, qui a dirigé le Front national, rebaptisé Rassemblement national (RN) en 2018, de 2011 à 2021. Elle a atteint le second tour de l'élection présidentielle en 2017 et en 2022, est députée du Pas-de-Calais depuis 2017 et présidente du groupe RN à l'Assemblée nationale depuis 2022. Elle a été condamnée en première instance en mars 2025 et en appel le 7 juillet 2026 dans l'affaire des assistants parlementaires européens ; elle a formé un pourvoi en cassation, la condamnation n'est donc pas définitive. Le 7 juillet 2026, elle a annoncé sa quatrième candidature à la présidentielle, en présentant Jordan Bardella, président du RN, comme son futur Premier ministre.",
+    "media_portrayal_fr": null
    },
    "verification_notes": [
     "Verification limits: the WebSearch budget was exhausted (200/200), so checks relied on WebFetch of the cited URLs. Null and party_line entries could not be searched afresh.",
