@@ -22,7 +22,7 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
 
 ## Next
 1. Gap-fill pass with Codex (own web search): 227 uncoded cells (Zemmour, Faure, Ruffin, Glucksmann, Attal, Lisnard worst), 109 unsourced cells, cross-lean corroboration (partisan press of both sides), and the 9 context facts the explainer agent could not confirm.
-2. After the PS-Place publique primary (17-18 Oct 2026): drop the losing candidate(s).
+2. After the PS-Place publique primary (online rounds 9-10 and 16-17 Oct 2026): drop the losing candidate(s).
 3. After the Cour de cassation ruling on Le Pen: update record and profile.
 4. Re-run the pipeline and republish to the same artifact URL.
 
