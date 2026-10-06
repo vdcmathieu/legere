@@ -5,3 +5,5 @@ analysis/e2e-out*/
 docs/screens/
 .claude/worktrees/
 .vercel/
+.vercel
+.env*
