@@ -1,0 +1,110 @@
+{
+  "lepen": {
+    "file": "lepen.jpg",
+    "author": "Vox España",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cumbre_de_Madrid_8_de_Febrero_-_Marine_Le_Pen.jpg",
+    "year": 2025,
+    "title": "File:Cumbre de Madrid 8 de Febrero - Marine Le Pen.jpg"
+  },
+  "melenchon": {
+    "file": "melenchon.jpg",
+    "author": "jlm2017.fr",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Luc_Mélenchon_en_mai_2026-_55261894422.jpg",
+    "year": 2026,
+    "title": "File:Jean Luc Mélenchon en mai 2026- 55261894422.jpg"
+  },
+  "philippe": {
+    "file": "philippe.jpg",
+    "author": "Maxime Davaine",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Philippe_en_2025.png",
+    "year": 2025,
+    "title": "File:Edouard Philippe en 2025.png"
+  },
+  "attal": {
+    "file": "attal.jpg",
+    "author": "Ismail Aissoub",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025.jpg",
+    "year": 2025,
+    "title": "File:Gabriel Attal 2025.jpg"
+  },
+  "retailleau": {
+    "file": "retailleau.jpg",
+    "author": "Thomas Bresson",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2025-03-24_18-59-56_BRetailleau-Belfort.jpg",
+    "year": 2025,
+    "title": "File:2025-03-24 18-59-56 BRetailleau-Belfort.jpg"
+  },
+  "zemmour": {
+    "file": "zemmour.jpg",
+    "author": "Anh De France",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d'Éric_Zemmour,_avril_2022.jpg",
+    "year": 2022,
+    "title": "File:Portrait d'Éric Zemmour, avril 2022.jpg"
+  },
+  "glucksmann": {
+    "file": "glucksmann.jpg",
+    "author": "Mathieu Delmestre",
+    "license": "Domaine public",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2024-03-03_-_Congrès_du_PSE-_105_-_Raphael_Glucksmann.jpg",
+    "year": 2024,
+    "title": "File:2024-03-03 - Congrès du PSE- 105 - Raphael Glucksmann.jpg"
+  },
+  "faure": {
+    "file": "faure.jpg",
+    "author": "Chris93",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saint-Denis_HDV_drapeau_Palestine_22_septembre_2025_-_Olivier_Faure_Basilique.jpg",
+    "year": 2025,
+    "title": "File:Saint-Denis HDV drapeau Palestine 22 septembre 2025 - Olivier Faure Basilique.jpg"
+  },
+  "tondelier": {
+    "file": "tondelier.jpg",
+    "author": "Greenbox",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg",
+    "year": 2021,
+    "title": "File:20210819 tondelier.m-cr3.jpg"
+  },
+  "roussel": {
+    "file": "roussel.jpg",
+    "author": "Zouhaïr NAKARA (NakaraZn)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fabien_Roussel_2022.jpg",
+    "year": 2021,
+    "title": "File:Fabien Roussel 2022.jpg"
+  },
+  "ruffin": {
+    "file": "ruffin.jpg",
+    "author": "Thinkerview",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:François_Ruffin.jpg",
+    "year": 2022,
+    "title": "File:François Ruffin.jpg"
+  },
+  "lisnard": {
+    "file": "lisnard.jpg",
+    "author": "Marie tavares",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:David_Lisnard.jpg",
+    "year": 2026,
+    "title": "File:David Lisnard.jpg"
+  }
+}
