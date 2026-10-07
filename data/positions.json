@@ -33,22 +33,29 @@
     },
     "eco2": {
      "id": "eco2",
-     "position": -1,
+     "position": -2,
      "confidence": "high",
-     "evidence_type": "vote",
-     "summary": "The RN group voted against the Zucman tax in the 2026 budget debate (amendments rejected 172 to 228) while promoting its own financial-wealth tax.",
+     "evidence_type": "statement",
+     "summary": "Le Pen called the Zucman tax a 'stupid and harmful' proposal, and the RN group voted against the Zucman amendments in the 2026 budget debate (rejected 228 to 172 on 31 Oct 2025). The RN promotes its own financial-wealth tax instead.",
      "sources": [
+      {
+       "url": "https://www.publicsenat.fr/actualites/economie/budget-2026-le-rn-seloigne-de-la-gauche-sur-la-fiscalite",
+       "outlet": "Public Sénat",
+       "outlet_lean": "neutral-institutional",
+       "date": "2025-10-21",
+       "quote": "ce que Marine Le Pen qualifiait il y a quelques jours de proposition « stupide et nocive »"
+      },
       {
        "url": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-rejetee-par-l-assemblee-nationale-413632",
        "outlet": "LCP",
        "outlet_lean": "neutral-institutional",
        "date": "2025-10-31",
-       "quote": "Paraphrase: amendments rejected 172 to 228; the ex-majority groups, LR and the Rassemblement national opposed them."
+       "quote": "Paraphrase: amendments rejected 172 to 228; LR and the Rassemblement national opposed them"
       }
      ],
-     "nuance": "Coded -1 rather than -2 because the RN backs a different tax on financial fortunes. It opposes the Zucman design itself. A -2 coding would also be defensible.",
-     "summary_fr": "Le groupe RN a voté contre la taxe Zucman lors du débat budgétaire de 2026 (amendements rejetés par 172 voix contre 228) tout en promouvant son propre impôt sur la fortune financière.",
-     "nuance_fr": "Codé -1 plutôt que -2 parce que le RN défend un autre impôt sur les fortunes financières. Il s'oppose à la conception même de la taxe Zucman. Un codage à -2 serait aussi défendable."
+     "nuance": "Her alternative (an IFF replacing the IFI) is a different instrument and does not soften her explicit rejection of a 2% minimum tax above EUR 100m.",
+     "summary_fr": "Marine Le Pen a qualifié la taxe Zucman de proposition « stupide et nocive », et le groupe RN a voté contre les amendements Zucman lors du débat budgétaire 2026 (rejetés 228 voix contre 172 le 31 octobre 2025). Le RN défend à la place son propre impôt sur la fortune financière.",
+     "nuance_fr": "Son alternative (un IFF remplaçant l'IFI) est un autre dispositif et n'atténue pas son rejet explicite d'un impôt minimum de 2 % au-delà de 100 millions."
     },
     "eco3": {
      "id": "eco3",
@@ -297,29 +304,36 @@
     },
     "trav3": {
      "id": "trav3",
-     "position": 1,
+     "position": 0,
      "confidence": "low",
-     "evidence_type": "party_line",
-     "summary": "Bardella said in February 2024 that he was 'parfaitement d'accord' with making the RSA conditional on 15 hours of activity. No RN or Le Pen promise to abolish the obligation was found. However, Le Pen and the whole RN group (88-0) voted against the 2023 plein-emploi law that created it.",
+     "evidence_type": "vote",
+     "summary": "Mixed record. Le Pen and the whole RN group voted against the 2023 'plein emploi' law that created the 15-hour activity requirement, and RN deputies said they opposed the 15 hours; in February 2024 Bardella said he was 'parfaitement d'accord' with conditioning the RSA on 15 hours of activity. No RN pledge to repeal the obligation has been found.",
      "sources": [
       {
-       "url": "https://linsoumission.fr/2024/02/08/bardella-reforme-rsa-rn-bardella/",
-       "outlet": "L'Insoumission (LFI-aligned media)",
-       "outlet_lean": "far-left",
-       "date": "2024-02-08",
-       "quote": "« Je pense qu'il faut des contreparties aux prestations sociales de ce type qui sont versées », a expliqué le président du parti"
-      },
-      {
        "url": "https://datan.fr/votes/legislature-16/vote_2717",
-       "outlet": "datan.fr",
+       "outlet": "Datan (Assemblée roll-call)",
        "outlet_lean": "neutral-institutional",
        "date": "2023-10-10",
-       "quote": "Vote final - Pour le plein emploi - Marine Le Pen, Rassemblement National: CONTRE (RN group: 0 pour, 88 contre)"
+       "quote": "Paraphrase: Vote final - Pour le plein emploi - Marine Le Pen: CONTRE (RN: 0 pour, 88 contre)"
+      },
+      {
+       "url": "https://linsoumission.fr/2024/02/08/bardella-reforme-rsa-rn-bardella/",
+       "outlet": "L'Insoumission (LFI-aligned media, quoting France 3)",
+       "outlet_lean": "far-left",
+       "date": "2024-02-08",
+       "quote": "« Je pense qu'il faut des contreparties aux prestations sociales de ce type »"
+      },
+      {
+       "url": "https://www.economiematin.fr/?p=123571",
+       "outlet": "Economie Matin",
+       "outlet_lean": "centre",
+       "date": "2023",
+       "quote": "Réforme du RSA : le RN est contre et propose un RSA national"
       }
      ],
-     "nuance": "The evidence is mixed. Le Pen's vote was on the whole bill (France Travail reform and more), not specifically on the activity hours. The Bardella quote is relayed by an opponent outlet, although it is quoted verbatim from France 3. Code 0 if a better source shows Le Pen herself opposing the obligation.",
-     "summary_fr": "Jordan Bardella a déclaré en février 2024 être « parfaitement d'accord » avec la conditionnalité du RSA à 15 heures d'activité. Aucune promesse du RN ou de Marine Le Pen de supprimer cette obligation n'a été trouvée. Cependant, Marine Le Pen et l'ensemble du groupe RN (88 voix contre 0) ont voté contre la loi plein-emploi de 2023 qui l'a créée.",
-     "nuance_fr": "Les éléments sont contrastés. Le vote de Marine Le Pen portait sur l'ensemble du texte (réforme de France Travail et autres dispositions), et non spécifiquement sur les heures d'activité. La citation de Jordan Bardella est relayée par un média adverse, bien qu'elle soit citée textuellement depuis France 3. Coder 0 si une meilleure source montre que Marine Le Pen elle-même s'oppose à l'obligation."
+     "nuance": "Opposition at the time of the vote, later acceptance by the party president, no commitment to repeal: an explicitly mixed position, hence 0.",
+     "summary_fr": "Bilan mitigé. Marine Le Pen et tout le groupe RN ont voté contre la loi « plein emploi » de 2023 qui a créé les 15 heures d'activité, et les députés RN disaient s'opposer aux 15 heures ; en février 2024 Jordan Bardella s'est dit « parfaitement d'accord » pour conditionner le RSA à 15 heures d'activité. Aucun engagement du RN à abroger l'obligation n'a été trouvé.",
+     "nuance_fr": "Opposition au moment du vote, acceptation ultérieure par le président du parti, pas d'engagement d'abrogation : position mitigée, d'où 0."
     },
     "trav4": {
      "id": "trav4",
@@ -4007,11 +4021,25 @@
     },
     "ret3": {
      "id": "ret3",
-     "position": 1,
+     "position": 2,
      "confidence": "medium",
      "evidence_type": "statement",
-     "summary": "Proposes a mixed pay-as-you-go plus capitalisation system, in which the state makes an initial deposit into each young worker's savings plan. Mandatory contributions are not stated.",
+     "summary": "Philippe's September 2026 pension plan adds a mandatory collective funded tier ('capitalisation obligatoire') alongside pay-as-you-go, with a state-seeded savings plan for each young worker; the economy minister publicly objected to its 'obligatoire' character.",
      "sources": [
+      {
+       "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+       "outlet": "Public Sénat",
+       "outlet_lean": "neutral-institutional",
+       "date": "2026-09-30",
+       "quote": "d'abord par un fonds collectif obligatoire, « neutre sur le coût du travail »"
+      },
+      {
+       "url": "https://www.moneyvox.fr/retraite/actualites/103749/pas-sur-que-ce-soit-le-bon-moment-le-ministre-de-economie-frileux-sur-une-part-obligatoire-de-retraite-par-capitalisation",
+       "outlet": "MoneyVox",
+       "outlet_lean": "centre",
+       "date": "2026-09",
+       "quote": "Paraphrase: le ministre de l'Économie frileux sur une part obligatoire de retraite par capitalisation (proposée par Édouard Philippe)"
+      },
       {
        "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
        "outlet": "LCP",
@@ -4020,9 +4048,9 @@
        "quote": "construire un système différent, mixte, qui associera répartition et capitalisation"
       }
      ],
-     "nuance": "Partial support: he wants a capitalisation component, but it is not clearly mandatory.",
-     "summary_fr": "Propose un système mixte, par répartition et par capitalisation, dans lequel l'État effectue un premier versement sur le plan d'épargne de chaque jeune actif. Le caractère obligatoire des cotisations n'est pas précisé.",
-     "nuance_fr": "Soutien partiel : il souhaite une part de capitalisation, mais son caractère obligatoire n'est pas clairement établi."
+     "nuance": "LCP's report of his 29 September 2026 video only says 'mixed, pay-as-you-go and funded'; the mandatory character is reported by Public Sénat (30 September 2026) and by the economy minister's reaction.",
+     "summary_fr": "Le plan retraites de septembre 2026 d'Édouard Philippe ajoute un étage collectif de capitalisation obligatoire à côté de la répartition, avec un plan d'épargne abondé par l'État pour chaque jeune actif ; le ministre de l'Économie a publiquement contesté son caractère « obligatoire ».",
+     "nuance_fr": "Le compte rendu de LCP de sa vidéo du 29 septembre 2026 ne dit que « mixte, répartition et capitalisation » ; le caractère obligatoire est rapporté par Public Sénat (30 septembre 2026) et par la réaction du ministre de l'Économie."
     },
     "fin1": {
      "id": "fin1",
@@ -5704,16 +5732,16 @@
     "eco2": {
      "id": "eco2",
      "position": -2,
-     "confidence": "medium",
+     "confidence": "high",
      "evidence_type": "vote",
-     "summary": "The Assemblée rejected the Zucman tax (2% on fortunes over EUR 100m) on 31 Oct 2025 by 228 to 172. The bloc central, which includes the Renaissance group Attal chairs, opposed it and called it a 'mirage'.",
+     "summary": "Attal personally voted against the amendment creating the Zucman tax on 31 Oct 2025; the bloc central called it a 'mirage'.",
      "sources": [
       {
-       "url": "https://www.touteleurope.eu/economie-et-social/budget-2026-l-assemblee-nationale-rejette-la-taxe-zucman-tous-les-regards-braques-a-gauche/",
-       "outlet": "Toute l'Europe",
+       "url": "https://datan.fr/deputes/hauts-de-seine-92/depute_gabriel-attal/votes",
+       "outlet": "Datan (Assemblée roll-call)",
        "outlet_lean": "neutral-institutional",
        "date": "2025-10-31",
-       "quote": "était considérée comme un \" mirage \" par le bloc central"
+       "quote": "Paraphrase: Instaurer la taxe Zucman sur les patrimoines supérieurs à 100 millions d'euros - Gabriel Attal: CONTRE"
       },
       {
        "url": "https://www.lejdd.fr/economie/budget-2026-la-taxe-zucman-rejetee-par-les-deputes-163556",
@@ -5723,9 +5751,9 @@
        "quote": "rejetée par l'Assemblée nationale, avec 228 voix contre et 172 pour"
       }
      ],
-     "nuance": "Group-level vote. Attal's personal roll-call vote was not checked on datan/assemblee-nationale. He commented after the rejection (BFM, 31 Oct 2025) that a compromise 'ne plaît pas à tout le monde'. A 2026 Le Figaro piece on candidates' tax plans (paywalled) was not read.",
-     "summary_fr": "L'Assemblée a rejeté la taxe Zucman (2 % sur les patrimoines supérieurs à 100 millions d'euros) le 31 octobre 2025 par 228 voix contre 172. Le bloc central, dont fait partie le groupe Renaissance présidé par Attal, s'y est opposé et l'a qualifiée de « mirage ».",
-     "nuance_fr": "Vote au niveau du groupe. Le vote nominatif personnel d'Attal n'a pas été vérifié sur datan/assemblee-nationale. Il a commenté le rejet (BFM, 31 octobre 2025) en disant qu'un compromis « ne plaît pas à tout le monde ». Un article du Figaro de 2026 sur les projets fiscaux des candidats (payant) n'a pas été lu."
+     "nuance": "Personal roll-call vote (Datan).",
+     "summary_fr": "Gabriel Attal a personnellement voté contre l'amendement instaurant la taxe Zucman le 31 octobre 2025 ; le bloc central la qualifiait de « mirage ».",
+     "nuance_fr": "Vote nominatif personnel (Datan)."
     },
     "eco3": {
      "id": "eco3",
@@ -6258,17 +6286,17 @@
     },
     "eu4": {
      "id": "eu4",
-     "position": 1,
-     "confidence": "low",
-     "evidence_type": "inferred",
-     "summary": "Denounces 'vétocratie européenne' and says the 27-member EU has reached its limits. But he says sovereign (régalien) powers would stay with member states.",
+     "position": null,
+     "confidence": "none",
+     "evidence_type": "none",
+     "summary": "No position on ending unanimity in EU foreign policy. His Reims speech (17 Sept 2026) denounces 'vétocratie européenne' but answers it with a core group of willing states using enhanced cooperation, not with majority voting, and he says sovereign (régalien) powers would stay with member states.",
      "sources": [
       {
        "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
        "outlet": "attalpresident.fr",
        "outlet_lean": "campaign-or-party",
        "date": "2026-09-17",
-       "quote": "vétocratie européenne"
+       "quote": "les coopérations renforcées déjà permises par les traités européens devront être utilisées"
       },
       {
        "url": "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html",
@@ -6278,9 +6306,9 @@
        "quote": "les compétences régaliennes resteraient à la main des États"
       }
      ],
-     "nuance": "His veto critique targets economic, technological and ecological integration. Keeping régalien powers national cuts against majority voting in foreign policy, so partial (+1) and inferred.",
-     "summary_fr": "Dénonce la « vétocratie européenne » et dit que l'UE à 27 a atteint ses limites. Mais il affirme que les compétences régaliennes resteraient aux États membres.",
-     "nuance_fr": "Sa critique du veto vise l'intégration économique, technologique et écologique. Le maintien des compétences régaliennes au niveau national va à l'encontre du vote à la majorité en politique étrangère, d'où un soutien partiel (+1), déduit."
+     "nuance": "Adjacent evidence points both ways (anti-veto rhetoric versus régalien powers kept national), so the item is left null rather than inferred.",
+     "summary_fr": "Aucune position sur la fin de l'unanimité en politique étrangère de l'UE. Son discours de Reims (17 septembre 2026) dénonce la « vétocratie européenne » mais y répond par un noyau d'États volontaires utilisant les coopérations renforcées, non par le vote à la majorité, et il précise que les compétences régaliennes resteraient aux États.",
+     "nuance_fr": "Les indices adjacents vont dans les deux sens (rhétorique anti-veto contre maintien du régalien au niveau national) : l'item est laissé non codé plutôt qu'inféré."
     },
     "eu5": {
      "id": "eu5",
@@ -6464,14 +6492,36 @@
     },
     "ecol2": {
      "id": "ecol2",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence retrieved.",
-     "sources": [],
-     "nuance": "Renaissance backed a competitiveness-oriented approach (loi Duplomb debate) but nothing personal verified.",
-     "summary_fr": "Aucun élément retrouvé.",
-     "nuance_fr": "Renaissance a soutenu une approche axée sur la compétitivité (débat sur la loi Duplomb) mais rien de personnel n'a été vérifié."
+     "position": -2,
+     "confidence": "high",
+     "evidence_type": "vote",
+     "summary": "Attal personally voted for the Duplomb law (8 July 2025), which reintroduced acetamiprid, and for the July 2026 emergency farm law article re-authorising acetamiprid after the Conseil constitutionnel censure. Both votes lift a France-only ban on a pesticide still allowed elsewhere in the EU.",
+     "sources": [
+      {
+       "url": "https://datan.fr/deputes/hauts-de-seine-92/depute_gabriel-attal/votes",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2025-07-08",
+       "quote": "Paraphrase: Loi Duplomb sur l'agriculture - Gabriel Attal: POUR"
+      },
+      {
+       "url": "https://datan.fr/deputes/hauts-de-seine-92/depute_gabriel-attal/votes",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2026-07-20",
+       "quote": "Paraphrase: Loi urgence agricole : réautorisation de l'acétamipride - Gabriel Attal: POUR"
+      },
+      {
+       "url": "https://datan.fr/votes/legislature-17/vote_8427",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2026-07-20",
+       "quote": "Paraphrase: EPR: 51 pour, 16 abstentions, 15 contre"
+      }
+     ],
+     "nuance": "Own roll-call votes. The EPR group was split on the 2026 vote (51 for, 16 abstentions, 15 against), so this is Attal's personal choice, not only a group line.",
+     "summary_fr": "Gabriel Attal a voté personnellement pour la loi Duplomb (8 juillet 2025), qui réintroduisait l'acétamipride, puis pour l'article de la loi d'urgence agricole de juillet 2026 réautorisant l'acétamipride après la censure du Conseil constitutionnel. Ces deux votes lèvent une interdiction propre à la France d'un pesticide encore autorisé ailleurs dans l'UE.",
+     "nuance_fr": "Votes nominatifs personnels. Le groupe EPR était divisé en 2026 (51 pour, 16 abstentions, 15 contre) : il s'agit d'un choix personnel d'Attal et pas seulement d'une ligne de groupe."
     },
     "ecol3": {
      "id": "ecol3",
@@ -8021,13 +8071,28 @@
     "int3": {
      "id": "int3",
      "position": -2,
-     "confidence": "low",
-     "evidence_type": "inferred",
-     "summary": "No sign Retailleau or LR wants to leave NATO's integrated command; EPP-backed Atlanticist right.",
-     "sources": [],
-     "nuance": "Inferred; no direct statement found. Received EPP's full support in Sept 2026.",
-     "summary_fr": "Rien n'indique que Retailleau ou LR veuille quitter le commandement intégré de l'OTAN ; droite atlantiste soutenue par le PPE.",
-     "nuance_fr": "Déduit ; aucune déclaration directe trouvée. A reçu le soutien complet du PPE en septembre 2026."
+     "confidence": "medium",
+     "evidence_type": "statement",
+     "summary": "In his 14 July 2026 op-ed Retailleau rejects leaving NATO ('Pas en sortant de l'OTAN comme le proposent certains, ce serait un cadeau'), while calling for a European security architecture less dependent on Washington, bilateral European alliances and an independent nuclear deterrent.",
+     "sources": [
+      {
+       "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+       "outlet": "Les Républicains (op-ed by Retailleau)",
+       "outlet_lean": "campaign-or-party",
+       "date": "2026-07-14",
+       "quote": "Pas en sortant de l'OTAN comme le proposent certains – ce serait un cadeau"
+      },
+      {
+       "url": "https://www.lefigaro.fr/vox/monde/bruno-retailleau-l-unite-nationale-premiere-de-nos-armes-20260713",
+       "outlet": "Le Figaro",
+       "outlet_lean": "centre-right",
+       "date": "2026-07-13",
+       "quote": "Bruno Retailleau : « L'unité nationale du 14 juillet, première de nos armes »"
+      }
+     ],
+     "nuance": "He answers the 'leave NATO' camp directly; the integrated command is not named, but leaving it is the concrete measure 'certains' (Le Pen, Mélenchon, Zemmour) propose, so the rejection covers the statement.",
+     "summary_fr": "Dans sa tribune du 14 juillet 2026, Bruno Retailleau refuse de sortir de l'OTAN (« Pas en sortant de l'OTAN comme le proposent certains, ce serait un cadeau »), tout en appelant à une architecture de sécurité européenne moins dépendante de Washington, à des alliances bilatérales européennes et à une dissuasion nucléaire indépendante.",
+     "nuance_fr": "Il répond directement au camp du « sortir de l'OTAN » ; le commandement intégré n'est pas nommé, mais en sortir est la mesure concrète que proposent « certains » (Le Pen, Mélenchon, Zemmour), le refus couvre donc l'énoncé."
     },
     "int4": {
      "id": "int4",
@@ -12291,29 +12356,29 @@
     },
     "ret1": {
      "id": "ret1",
-     "position": 1,
+     "position": 2,
      "confidence": "medium",
-     "evidence_type": "vote",
-     "summary": "Faure negotiated with Lecornu to delay the 2023 reform, freezing the legal age at 62 years 9 months until January 2028. It was voted on 12 Nov 2025. The 2024 NFP programme the PS signed backs a retirement age of 60.",
+     "evidence_type": "programme",
+     "summary": "The PS project and Faure's primary platform bring the legal retirement age back to 62 ('ramené à 62 ans'), repeal the 2023 Borne reform and then rebuild a pay-as-you-go system on 43 contribution years. He restated 62 at the 4 October 2026 primary debate.",
      "sources": [
       {
-       "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
-       "outlet": "Wikipedia",
+       "url": "https://votons-2027.fr/candidats/faure/programme/retraite",
+       "outlet": "Votons 2027 (citing projet-socialiste.fr)",
        "outlet_lean": "neutral-institutional",
-       "date": "2026-10",
-       "quote": "un vote sur le décalage de l'application de la réforme des retraites de 2023 de manière à geler l'âge légal à 62 ans et 9 mois jusqu'en janvier 2028"
+       "date": "2026",
+       "quote": "L'âge légal de départ, ramené à 62 ans, ne disparaîtra pas pour autant : il continuera de jouer un rôle de protection minimale pour les salariés."
       },
       {
-       "url": "https://en.wikipedia.org/wiki/New_Popular_Front",
-       "outlet": "Wikipedia",
+       "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+       "outlet": "Public Sénat",
        "outlet_lean": "neutral-institutional",
-       "date": "2026-10",
-       "quote": "supports a retirement age of 60"
+       "date": "2026-09-30",
+       "quote": "Olivier Faure se dit pour sa part favorable à l'abrogation de la réforme de 2023 et à un retour à 62 ans"
       }
      ],
-     "nuance": "His own action was a partial step: a freeze above 62, not a return to 62. The party line (2024) goes further, to 60. No personal 2026 statement on a full return to 62 was found.",
-     "summary_fr": "Faure a négocié avec Lecornu le report de la réforme de 2023, avec un gel de l'âge légal à 62 ans et 9 mois jusqu'en janvier 2028. Cette mesure a été votée le 12 novembre 2025. Le programme du NFP de 2024 que le PS a signé défend un âge de départ à 60 ans.",
-     "nuance_fr": "Son action personnelle a été une étape partielle : un gel au-dessus de 62 ans, et non un retour à 62 ans. La ligne du parti (2024) va plus loin, jusqu'à 60 ans. Aucune déclaration personnelle de 2026 sur un retour complet à 62 ans n'a été trouvée."
+     "nuance": "62 would remain a 'minimum protection' in a 43-year contribution system, so some people would retire later.",
+     "summary_fr": "Le projet socialiste et la plateforme de primaire de Faure ramènent l'âge légal à 62 ans (« ramené à 62 ans »), abrogent la réforme Borne de 2023 puis rebâtissent un système par répartition fondé sur 43 annuités. Il a redit 62 ans au débat de la primaire du 4 octobre 2026.",
+     "nuance_fr": "62 ans resterait une « protection minimale » dans un système à 43 annuités : certains partiraient plus tard."
     },
     "ret2": {
      "id": "ret2",
@@ -12511,14 +12576,22 @@
     },
     "imm3": {
      "id": "imm3",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence found.",
-     "sources": [],
-     "nuance": "No personal statement found.",
-     "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Aucune déclaration personnelle trouvée."
+     "position": -2,
+     "confidence": "medium",
+     "evidence_type": "programme",
+     "summary": "The PS project, adopted under Faure, commits to 'defend the AME' (state medical aid for undocumented migrants), the opposite of cutting it to urgent care only.",
+     "sources": [
+      {
+       "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+       "outlet": "Parti socialiste - Le Projet socialiste",
+       "outlet_lean": "campaign-or-party",
+       "date": "undated (consulted 2026-10-07)",
+       "quote": "Défendre l'aide médicale d'État (AME)"
+      }
+     ],
+     "nuance": "Party programme, no personal quote from Faure.",
+     "summary_fr": "Le projet socialiste, adopté sous la direction de Faure, s'engage à « défendre l'aide médicale d'État (AME) », à l'opposé d'une limitation aux soins urgents.",
+     "nuance_fr": "Programme de parti, sans citation personnelle de Faure."
     },
     "imm4": {
      "id": "imm4",
@@ -12563,14 +12636,22 @@
     },
     "imm7": {
      "id": "imm7",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence found.",
-     "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
-     "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "position": 2,
+     "confidence": "medium",
+     "evidence_type": "programme",
+     "summary": "The PS project commits to extending the right to vote in local elections to non-EU foreigners.",
+     "sources": [
+      {
+       "url": "https://projet-socialiste.fr/projet/refaire-societe/",
+       "outlet": "Parti socialiste - Le Projet socialiste",
+       "outlet_lean": "campaign-or-party",
+       "date": "undated (consulted 2026-10-07)",
+       "quote": "Étendre le droit de vote aux étrangers extra-européens aux élections locales"
+      }
+     ],
+     "nuance": "Party programme; no personal Faure quote retrieved.",
+     "summary_fr": "Le projet socialiste s'engage à étendre le droit de vote aux élections locales aux étrangers extra-européens.",
+     "nuance_fr": "Programme de parti ; aucune citation personnelle de Faure retrouvée."
     },
     "sec1": {
      "id": "sec1",
@@ -12585,44 +12666,60 @@
     },
     "sec2": {
      "id": "sec2",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence found.",
-     "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
-     "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "position": -2,
+     "confidence": "medium",
+     "evidence_type": "programme",
+     "summary": "The PS project pledges to repeal the 2025 Attal juvenile-justice law and to preserve the specificity of juvenile justice, the opposite of trying 16-year-olds as adults.",
+     "sources": [
+      {
+       "url": "https://projet-socialiste.fr/projet/etre-en-securites/",
+       "outlet": "Parti socialiste - Le Projet socialiste",
+       "outlet_lean": "campaign-or-party",
+       "date": "undated (consulted 2026-10-07)",
+       "quote": "Conserver l'équilibre entre protection et sanction [...] abroger la loi Attal de 2025 [...] la spécificité de la justice des mineurs"
+      }
+     ],
+     "nuance": "Party programme, no personal quote from Faure.",
+     "summary_fr": "Le projet socialiste s'engage à abroger la loi Attal de 2025 sur la justice des mineurs et à conserver la spécificité de la justice des mineurs, à l'opposé d'un jugement des plus de 16 ans comme des adultes.",
+     "nuance_fr": "Programme de parti, sans citation personnelle de Faure."
     },
     "sec3": {
      "id": "sec3",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No position on independent police oversight was found. In Sept 2026 he criticised 'contrôles au faciès' in the police. In 2021 he had asked for police to have a 'droit de regard' on court decisions, then called the phrase 'malheureuse'.",
+     "position": 1,
+     "confidence": "medium",
+     "evidence_type": "programme",
+     "summary": "The PS project creates an external authority to oversee the action of internal security forces, while keeping the IGPN and IGGN as internal inspection bodies.",
      "sources": [
       {
-       "url": "https://fr.wikipedia.org/wiki/Olivier_Faure",
-       "outlet": "Wikipedia",
-       "outlet_lean": "neutral-institutional",
-       "date": "2026-10",
-       "quote": "une réalité des contrôles au faciès et des discriminations"
+       "url": "https://projet-socialiste.fr/projet/etre-en-securites/",
+       "outlet": "Parti socialiste - Le Projet socialiste",
+       "outlet_lean": "campaign-or-party",
+       "date": "undated (consulted 2026-10-07)",
+       "quote": "une autorité externe de contrôle de l'action des forces de sécurité intérieure [...] L'IGPN et l'IGGN demeureront des corps d'inspection interne"
       }
      ],
-     "nuance": "His criticism of discriminatory police checks is close to this statement but does not state a position on an independent oversight body. Left null.",
-     "summary_fr": "Aucune position sur un contrôle indépendant de la police n'a été trouvée. En septembre 2026, il a critiqué les « contrôles au faciès » au sein de la police. En 2021, il avait demandé que les policiers aient un « droit de regard » sur les décisions de justice, avant de qualifier cette formule de « malheureuse ».",
-     "nuance_fr": "Sa critique des contrôles d'identité discriminatoires se rapproche de cette affirmation, mais n'exprime pas de position sur un organe de contrôle indépendant. Laissé à null."
+     "nuance": "Partial match: an external oversight body is added, but the IGPN/IGGN are kept rather than replaced, hence +1.",
+     "summary_fr": "Le projet socialiste crée une autorité externe de contrôle de l'action des forces de sécurité intérieure, tout en conservant l'IGPN et l'IGGN comme corps d'inspection interne.",
+     "nuance_fr": "Correspondance partielle : une autorité externe est ajoutée, mais l'IGPN et l'IGGN sont conservées plutôt que remplacées, d'où +1."
     },
     "sec4": {
      "id": "sec4",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence found.",
-     "sources": [],
-     "nuance": "Web search budget used up. Not verified.",
-     "summary_fr": "Aucun élément trouvé.",
-     "nuance_fr": "Budget de recherches web épuisé. Non vérifié."
+     "position": 1,
+     "confidence": "medium",
+     "evidence_type": "programme",
+     "summary": "The PS project launches a citizens' convention on drug use and cannabis legalisation and states that legalisation 'will have to go hand in hand' with strict state control of production and sale.",
+     "sources": [
+      {
+       "url": "https://projet-socialiste.fr/projet/etre-en-securites/",
+       "outlet": "Parti socialiste - Le Projet socialiste",
+       "outlet_lean": "campaign-or-party",
+       "date": "undated (consulted 2026-10-07)",
+       "quote": "Lancer une convention citoyenne sur l'usage des drogues et la légalisation du cannabis [...] La légalisation devra aller de pair avec un contrôle étatique strict"
+      }
+     ],
+     "nuance": "The citizens' convention step rules out +2, but the text presents legalisation as the intended outcome.",
+     "summary_fr": "Le projet socialiste lance une convention citoyenne sur l'usage des drogues et la légalisation du cannabis et précise que la légalisation « devra aller de pair » avec un contrôle étatique strict de la production et de la commercialisation.",
+     "nuance_fr": "L'étape de la convention citoyenne empêche un +2, mais le texte présente la légalisation comme l'issue visée."
     },
     "sec5": {
      "id": "sec5",
@@ -14649,14 +14746,22 @@
     },
     "soc1": {
      "id": "soc1",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence gathered.",
-     "sources": [],
-     "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded.",
-     "summary_fr": "Aucun élément recueilli.",
-     "nuance_fr": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+     "position": 2,
+     "confidence": "medium",
+     "evidence_type": "vote",
+     "summary": "The Écologiste group voted 33 to 2 for the final adoption of the assisted-dying law on 15 July 2026, and the party's platform backs legalising active aid in dying.",
+     "sources": [
+      {
+       "url": "https://datan.fr/votes/legislature-17/vote_8280",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2026-07-15",
+       "quote": "Paraphrase: Proposition de loi créant un droit à l'aide à mourir - ECOS: 33 pour, 1 abstention, 2 contre"
+      }
+     ],
+     "nuance": "Group vote (Tondelier is not a deputy). No repeal or restriction is proposed.",
+     "summary_fr": "Le groupe écologiste a voté 33 voix contre 2 pour l'adoption définitive de la loi sur l'aide à mourir le 15 juillet 2026, et la plateforme du parti soutient la légalisation de l'aide active à mourir.",
+     "nuance_fr": "Vote de groupe (Tondelier n'est pas députée). Aucune abrogation ni restriction n'est proposée."
     },
     "soc2": {
      "id": "soc2",
@@ -14780,14 +14885,22 @@
     },
     "edu5": {
      "id": "edu5",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence gathered.",
-     "sources": [],
-     "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Not coded.",
-     "summary_fr": "Aucun élément recueilli.",
-     "nuance_fr": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Non codé."
+     "position": 2,
+     "confidence": "low",
+     "evidence_type": "programme",
+     "summary": "The 2024 NFP programme, co-signed by Les Écologistes, abolishes Parcoursup and selection in public universities.",
+     "sources": [
+      {
+       "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+       "outlet": "Wikipedia (summary of NFP programme)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2024-06",
+       "quote": "Suppression de Parcoursup et de la sélection dans l'université publique"
+      }
+     ],
+     "nuance": "2024 coalition programme; explicit on selection itself, not only on the platform.",
+     "summary_fr": "Le programme du NFP de 2024, cosigné par Les Écologistes, supprime Parcoursup et la sélection à l'université publique.",
+     "nuance_fr": "Programme de coalition de 2024 ; explicite sur la sélection elle-même et pas seulement sur la plateforme."
     },
     "san1": {
      "id": "san1",
@@ -14910,14 +15023,22 @@
     },
     "sec6": {
      "id": "sec6",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence gathered.",
-     "sources": [],
-     "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Very likely codable (the 2024 NFP programme Les Écologistes signed reportedly included ID-check receipts), but this was not verified, so it stays null.",
-     "summary_fr": "Aucun élément recueilli.",
-     "nuance_fr": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Très probablement codable (le programme du NFP de 2024 signé par Les Écologistes incluait, selon les informations disponibles, des récépissés de contrôle d'identité), mais cela n'a pas été vérifié ; la valeur reste donc nulle."
+     "position": 2,
+     "confidence": "low",
+     "evidence_type": "programme",
+     "summary": "The 2024 NFP programme, co-signed by Les Écologistes, includes receipts for identity checks.",
+     "sources": [
+      {
+       "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+       "outlet": "Wikipedia (summary of NFP programme)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2024-06",
+       "quote": "Mise en place des récépissés pour les contrôles d'identité"
+      }
+     ],
+     "nuance": "2024 coalition programme, not restated in her 2026 material; the same source is used for other Tondelier cells.",
+     "summary_fr": "Le programme du NFP de 2024, cosigné par Les Écologistes, prévoit la mise en place de récépissés pour les contrôles d'identité.",
+     "nuance_fr": "Programme de coalition de 2024, non repris dans ses textes de 2026 ; la même source sert à d'autres cellules Tondelier."
     },
     "eu7": {
      "id": "eu7",
@@ -14943,14 +15064,22 @@
     },
     "ecol6": {
      "id": "ecol6",
-     "position": null,
-     "confidence": "none",
-     "evidence_type": "none",
-     "summary": "No evidence gathered.",
-     "sources": [],
-     "nuance": "Research incomplete: WebSearch budget exhausted in both coding and verification passes. Likely codable (prix planchers was an NFP 2024 plank), but not verified, so it stays null.",
-     "summary_fr": "Aucun élément recueilli.",
-     "nuance_fr": "Recherche incomplète : le budget de WebSearch a été épuisé lors des passes de codage et de vérification. Probablement codable (les prix planchers figuraient dans le NFP de 2024), mais cela n'a pas été vérifié ; la valeur reste donc nulle."
+     "position": 2,
+     "confidence": "low",
+     "evidence_type": "programme",
+     "summary": "The 2024 NFP programme, co-signed by Les Écologistes, establishes a floor price that pays farmers.",
+     "sources": [
+      {
+       "url": "https://fr.wikipedia.org/wiki/Nouveau_Front_populaire",
+       "outlet": "Wikipedia (summary of NFP programme)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2024-06",
+       "quote": "Instauration d'un prix plancher et rémunérateur aux agriculteurs"
+      }
+     ],
+     "nuance": "2024 coalition programme; not restated in her 2026 booklets as checked.",
+     "summary_fr": "Le programme du NFP de 2024, cosigné par Les Écologistes, instaure un prix plancher et rémunérateur pour les agriculteurs.",
+     "nuance_fr": "Programme de coalition de 2024 ; non repris dans ses livrets de 2026 tels que consultés."
     },
     "ene5": {
      "id": "ene5",
@@ -15983,14 +16112,29 @@
     },
     "ecol2": {
      "id": "ecol2",
-     "position": 1,
-     "confidence": "low",
-     "evidence_type": "inferred",
-     "summary": "The PCF supports phasing out pesticides alongside support for farmers. The 'despite foreign competition' clause is unverified.",
-     "sources": [],
-     "nuance": "No Roussel statement on the loi Duplomb or acetamiprid was found in a brief search. He favours protectionist measures and mirror clauses, which may make him hesitant about unilateral bans.",
-     "summary_fr": "Le PCF soutient la sortie progressive des pesticides, accompagnée d'un soutien aux agriculteurs. La clause « malgré la concurrence étrangère » n'est pas vérifiée.",
-     "nuance_fr": "Aucune déclaration de Roussel sur la loi Duplomb ou l'acétamipride n'a été trouvée lors d'une brève recherche. Il est favorable aux mesures protectionnistes et aux clauses miroirs, ce qui peut le rendre réticent à des interdictions unilatérales."
+     "position": 2,
+     "confidence": "medium",
+     "evidence_type": "vote",
+     "summary": "The GDR group (PCF deputies) voted unanimously against the Duplomb law (17-0, 8 July 2025) and against re-authorising acetamiprid in the July 2026 emergency farm law (15-0). Both votes defend a France-only pesticide ban that competitors elsewhere in the EU do not face.",
+     "sources": [
+      {
+       "url": "https://datan.fr/votes/legislature-17/vote_2957",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2025-07-08",
+       "quote": "Paraphrase: GDR: pour 0, contre 17, abstention 0"
+      },
+      {
+       "url": "https://datan.fr/votes/legislature-17/vote_8427",
+       "outlet": "Datan (Assemblée roll-call)",
+       "outlet_lean": "neutral-institutional",
+       "date": "2026-07-20",
+       "quote": "Paraphrase: Loi urgence agricole : réautorisation de l'acétamipride - GDR: 0 pour, 0 abstention, 15 contre"
+      }
+     ],
+     "nuance": "Group votes: Roussel has not been a deputy since 2024. His protectionist line (mirror clauses) accompanies the ban rather than contradicting it.",
+     "summary_fr": "Le groupe GDR (députés PCF) a voté unanimement contre la loi Duplomb (17-0, 8 juillet 2025) et contre la réautorisation de l'acétamipride dans la loi d'urgence agricole de juillet 2026 (15-0). Ces deux votes défendent une interdiction propre à la France que les concurrents européens ne subissent pas.",
+     "nuance_fr": "Votes de groupe : Roussel n'est plus député depuis 2024. Sa ligne protectionniste (clauses miroirs) accompagne l'interdiction plutôt qu'elle ne la contredit."
     },
     "ecol3": {
      "id": "ecol3",
