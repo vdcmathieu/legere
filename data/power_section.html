@@ -1,13 +1,13 @@
 <p>La question a été traitée par simulation (analyse de puissance de Monte-Carlo) : 800 répondants fictifs dont on connaît la « vraie » proximité, qui répondent avec l'imprécision mesurée dans les enquêtes d'opinion (une même personne interrogée deux fois ne redonne la même réponse qu'avec une corrélation d'environ 0,65). On compte ensuite, selon le nombre de réponses, combien de fois le premier du classement est bien le bon.</p>
 <div class="tablewrap"><table><thead><tr><th class="num">Propositions répondues</th><th class="num">Ordre aléatoire</th><th class="num">Ordre adaptatif (Legere)</th></tr></thead><tbody>
-<tr><td class="num">15</td><td class="num">66&nbsp;%</td><td class="num">79&nbsp;%</td></tr>
-<tr><td class="num">20</td><td class="num">76&nbsp;%</td><td class="num"><b>87&nbsp;%</b></td></tr>
-<tr><td class="num">25</td><td class="num">77&nbsp;%</td><td class="num">91&nbsp;%</td></tr>
-<tr><td class="num">30</td><td class="num">81&nbsp;%</td><td class="num">93&nbsp;%</td></tr>
-<tr><td class="num">35</td><td class="num">85&nbsp;%</td><td class="num">94&nbsp;%</td></tr>
+<tr><td class="num">15</td><td class="num">63&nbsp;%</td><td class="num">78&nbsp;%</td></tr>
+<tr><td class="num">20</td><td class="num">70&nbsp;%</td><td class="num"><b>86&nbsp;%</b></td></tr>
+<tr><td class="num">25</td><td class="num">78&nbsp;%</td><td class="num">89&nbsp;%</td></tr>
+<tr><td class="num">30</td><td class="num">83&nbsp;%</td><td class="num">92&nbsp;%</td></tr>
+<tr><td class="num">35</td><td class="num">88&nbsp;%</td><td class="num">92&nbsp;%</td></tr>
 <tr><td class="num">80 (toutes)</td><td class="num">98&nbsp;%</td><td class="num">98&nbsp;%</td></tr>
 </tbody></table></div>
 <p class="muted" style="font-size:13px">Part des répondants dont le premier du classement est le bon, parmi ceux qui ont un candidat nettement plus proche que les autres (au moins 5 points d'écart).</p>
 <p>Choisir les propositions une à une permet d'aller vite : après les {{N_CORE}} propositions communes, chaque proposition suivante est choisie pour départager les candidats encore en tête. Ainsi, 20 réponses donnent le bon premier dans près de 9 cas sur 10, contre 30 à 40 réponses dans un ordre quelconque.</p>
-<p>Le seuil d'arrêt (le même candidat en tête dans au moins 70&nbsp;% des rééchantillonnages, à partir de 20 réponses, au plus tard à 35) donne dans la simulation un résultat après 22 réponses ou moins pour la moitié des répondants, et le bon premier dans 93&nbsp;% des cas nets. Un seuil de 90&nbsp;% aurait envoyé deux répondants sur trois jusqu'à 35 réponses sans gain de précision. Pour environ un tiers des répondants simulés, deux candidats ou plus sont à moins de 5 points l'un de l'autre : même avec toutes les propositions, le premier n'est alors le bon que de justesse, et Legere affiche une égalité plutôt qu'un gagnant.</p>
+<p>Le seuil d'arrêt (le même candidat en tête dans au moins 70&nbsp;% des rééchantillonnages, à partir de 20 réponses, au plus tard à 35) donne dans la simulation un résultat après 23 réponses ou moins pour la moitié des répondants, et le bon premier dans 93&nbsp;% des cas nets. Un seuil de 90&nbsp;% aurait envoyé deux répondants sur trois jusqu'à 35 réponses sans gain de précision. Pour environ un tiers des répondants simulés, deux candidats ou plus sont à moins de 5 points l'un de l'autre : même avec toutes les propositions, le premier n'est alors le bon que de justesse, et Legere affiche une égalité plutôt qu'un gagnant.</p>
 <p class="muted" style="font-size:13px">Simulations reproductibles : <code>analysis/power.py</code> (précision selon le nombre de réponses, fiabilité de réponse testée à 0,55, 0,65 et 0,75) et <code>analysis/stop_rules.py</code> (moment de l'arrêt). Les positions inconnues des candidats sont exclues du calcul, ce qui rend les résultats sensibles aux candidats encore peu documentés.</p>

@@ -26,5 +26,11 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
 3. After the Cour de cassation ruling on Le Pen: update record and profile.
 4. Re-run the pipeline and republish to the same artifact URL.
 
+5. Coding audit of 2026-10-07 (`research/audit/`): 18 confirmed cells fixed. Still open, need a neutrality call:
+   int3 magnitudes for Glucksmann/Faure vs Attal (F08), ecol2 Philippe -1 vs -2 (F20), imm5 Glucksmann vs Tondelier/Roussel (F24),
+   sec2 left-bloc magnitudes (F30), fin4 evidence-free guesses for Glucksmann and Zemmour (F29), soc4 Zemmour (F27), imm6 Philippe vs Attal (F23),
+   soc4 negated wording (F26, would flip 12 cells), eco1 French wording ("pas seulement l'immobilier") vs Le Pen's +1 for a financial-only tax,
+   Zemmour's current retirement-age position (F22). Faure stays the thinnest-coded candidate (smallest clone margin, 0.046 over Tondelier).
+
 ## Flow (2026-10-06)
-10 fixed statements (`CORE_N` in build.py), then adaptive picks. The result is offered from 20 answers when one candidate wins >= 70% of bootstrap draws (`STOP_P` in src/app.html), at the latest after 35 (`MAX_STOP`). Simulated median: 22 answers, 93% correct top-1 among clear cases.
+10 fixed statements (`CORE_N` in build.py), then adaptive picks. The result is offered from 20 answers when one candidate wins >= 70% of bootstrap draws (`STOP_P` in src/app.html), at the latest after 35 (`MAX_STOP`). Simulated median: 23 answers, 93% correct top-1 among clear cases (re-run 2026-10-07 after the coding audit).
