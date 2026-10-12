@@ -33,4 +33,9 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
    Zemmour's current retirement-age position (F22). Faure stays the thinnest-coded candidate (smallest clone margin, 0.046 over Tondelier).
 
 ## Flow (2026-10-06)
-10 fixed statements (`CORE_N` in build.py), then adaptive picks. The result is offered from 20 answers when one candidate wins >= 70% of bootstrap draws (`STOP_P` in src/app.html), at the latest after 35 (`MAX_STOP`). Simulated median: 23 answers, 93% correct top-1 among clear cases (re-run 2026-10-07 after the coding audit).
+10 fixed statements (`CORE_N` in build.py), then adaptive picks. The result is offered from 20 answers when one candidate wins >= 60% of bootstrap draws (`STOP_P` in src/app.html), at the latest after 35 (`MAX_STOP`). Simulated median: 22 answers, 95% correct top-1 among clear cases (re-run 2026-10-12 after the scoring fix).
+
+## Scoring (2026-10-12)
+Every candidate is scored over the same answered statements; an uncoded cell counts as a two-step gap (50% agreement). Confidence only steers question choice (adaptive picks, core set), never the score.
+Before, uncoded cells dropped out of a candidate's average and low-confidence cells weighed less, so thinly coded candidates (Faure, Ruffin) were judged on their best-documented subset: Mélenchon voters who departed from him on a few Ukraine/NATO/EU/nuclear items got Faure.
+Still open from that check: `ins5` Mélenchon +1 (low) contradicts `imm2` -1 on the same RIC evidence; `int1` Mélenchon -2 rests on 2022-2024 evidence.
