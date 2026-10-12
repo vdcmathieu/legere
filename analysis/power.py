@@ -25,7 +25,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent.parent
 RNG = np.random.default_rng(2027)
 CONF_W = {"high": 1.0, "medium": 0.8, "low": 0.5, "none": 0.0}
-PRIOR_K = 2.0  # shrinkage: pseudo-items at 50% agreement
+UNKNOWN_GAP = 2.0  # an undocumented position counts as a two-step gap: 50% agreement
 
 
 # ---------------------------------------------------------------- data
@@ -63,12 +63,12 @@ def synthetic(ids):
 
 # ---------------------------------------------------------------- scoring
 def scores(u, mask, C, W, item_w=None):
-    """City-block agreement in [0,1], confidence-weighted, shrunk to 0.5."""
-    iw = np.ones(C.shape[1]) if item_w is None else item_w
-    valid = mask[None, :] & ~np.isnan(C)
-    w = np.where(valid, W * iw[None, :], 0.0)
-    agree = 1 - np.abs(np.nan_to_num(C) - u[None, :]) / 4
-    return ((w * agree).sum(1) + PRIOR_K * 0.5) / (w.sum(1) + PRIOR_K)
+    """City-block agreement in [0,1] over the same answered items for every candidate,
+    an unknown position counting as 50%, as in the app. W (confidence) only steers item choice."""
+    iw = np.where(mask, 1.0 if item_w is None else item_w, 0.0)
+    gap = np.where(np.isnan(C), UNKNOWN_GAP, np.abs(np.nan_to_num(C) - u[None, :]))
+    den = iw.sum()
+    return ((1 - gap / 4) @ iw) / den if den else np.full(C.shape[0], 0.5)
 
 
 def discrimination(C, W):

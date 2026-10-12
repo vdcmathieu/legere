@@ -34,7 +34,7 @@ for t in T:
         s = P.scores(obs, mask, C, W)
         per_n[n] = (np.sort(wins)[::-1] / B, int(s.argmax()), list(np.argsort(-s)[:2]))
     rows.append((top, srt[-1] - srt[-2] >= 0.05, per_n))
-rules = {"top1>=.90": lambda p: p[0] >= .9, "top1>=.80": lambda p: p[0] >= .8, "top1>=.70": lambda p: p[0] >= .7,
+rules = {"top1>=.90": lambda p: p[0] >= .9, "top1>=.80": lambda p: p[0] >= .8, "top1>=.70": lambda p: p[0] >= .7, "top1>=.60": lambda p: p[0] >= .6, "top1>=.50": lambda p: p[0] >= .5,
          "top2>=.90": lambda p: p[0] + p[1] >= .9, "top2>=.95": lambda p: p[0] + p[1] >= .95}
 out = {}
 for name, rule in rules.items():

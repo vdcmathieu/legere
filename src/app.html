@@ -653,12 +653,12 @@ const AREAS = DATA.areas, ABY = Object.fromEntries(AREAS.map(a => [a.id, a]));
 const Q = DATA.questionnaire;
 const RET = Q.retest.items, RBY = Object.fromEntries(RET.map(r => [r.id, r]));
 const CANDS = DATA.candidates;
-const CONF = { high: 1, medium: 0.8, low: 0.5, none: 0 };
-const PRIOR_K = 2;
+const CONF = { high: 1, medium: 0.8, low: 0.5, none: 0 }; /* picks informative questions; never weighs the score */
+const UNKNOWN_GAP = 2; /* an undocumented position counts as a two-step gap: 50 % agreement, "we don't know" */
 const KEY = "legere-2027-v1";
 const OPTS = Q.statement_response.options;
 const MIN_STOP = DATA.core.length + 10; /* the stop rule can fire from here */
-const STOP_P = 0.7; /* bootstrap share of first places; 0.9 sent two thirds of respondents to the cap for no accuracy gain (analysis/stop_rules.py) */
+const STOP_P = 0.6; /* bootstrap share of first places; with every candidate scored on the same statements, 0.6 keeps the median at 22 answers and 95 % right among clear cases, 0.7 sent half of respondents to the cap (analysis/stop_rules.py) */
 const MAX_STOP = DATA.core.length + 25; /* past this, more answers barely change the ranking (analysis/power.py): offer the result anyway */
 
 let st = load() || fresh();
@@ -711,20 +711,21 @@ function areaWeights() {
 
 /* ------------------------------------------------------------------ scoring */
 function candPos(c, id) { const p = c.positions[id]; return p && p.p !== null && p.p !== undefined ? p : null; }
+function gap(c, id, v) { const cp = candPos(c, id); return cp ? Math.abs(v - cp.p) : UNKNOWN_GAP; }
+/* every candidate is scored over the same answered statements, so no one is judged only on their best-documented subset */
 function scoreAll(eff, opt = {}) {
   const aw = opt.equalAreas ? null : areaWeights();
   const metric = opt.metric || "cityblock";
   return CANDS.map(c => {
     let num = 0, den = 0, sq = 0;
     for (const [id, e] of Object.entries(eff)) {
-      const cp = candPos(c, id); if (!cp) continue;
-      const w = (aw ? aw[SBY[id].area] : 1) * (opt.noFlags ? Math.min(e.w, 1) : e.w) * (CONF[cp.conf] ?? 0.5);
+      const w = (aw ? aw[SBY[id].area] : 1) * (opt.noFlags ? Math.min(e.w, 1) : e.w);
       if (!w) continue;
-      const d = Math.abs(e.v - cp.p);
+      const d = gap(c, id, e.v);
       num += w * (1 - d / 4); sq += w * d * d; den += w;
     }
-    if (metric === "euclid") return den ? ((1 - Math.sqrt(sq / den) / 4) * den + PRIOR_K * 0.5) / (den + PRIOR_K) : 0.5;
-    return (num + PRIOR_K * 0.5) / (den + PRIOR_K);
+    if (!den) return 0.5;
+    return metric === "euclid" ? 1 - Math.sqrt(sq / den) / 4 : num / den;
   });
 }
 /* bootstrap over answered statements + response jitter calibrated by retest consistency */
@@ -734,20 +735,20 @@ function bootstrap(eff, B = 1000) {
   const r = rng(st.seed + n);
   const pj = jitterProb();
   const aw = areaWeights();
-  const pre = ids.map(id => CANDS.map(c => { const cp = candPos(c, id); return cp ? [cp.p, (CONF[cp.conf] ?? 0.5)] : null; }));
+  const pre = ids.map(id => CANDS.map(c => { const cp = candPos(c, id); return cp ? cp.p : null; }));
   const draws = Array.from({ length: K }, () => new Float64Array(B));
   const firsts = new Float64Array(K);
   for (let b = 0; b < B; b++) {
-    const num = new Float64Array(K), den = new Float64Array(K);
+    const num = new Float64Array(K); let den = 0;
     for (let t = 0; t < n; t++) {
       const i = Math.floor(r() * n), id = ids[i], e = eff[id];
       let v = e.v;
       if (r() < pj) v = Math.max(-2, Math.min(2, v + (r() < 0.5 ? -1 : 1)));
-      const base = aw[SBY[id].area] * e.w;
-      for (let k = 0; k < K; k++) { const cp = pre[i][k]; if (!cp) continue; const w = base * cp[1]; num[k] += w * (1 - Math.abs(v - cp[0]) / 4); den[k] += w; }
+      const w = aw[SBY[id].area] * e.w; den += w;
+      for (let k = 0; k < K; k++) { const p = pre[i][k]; num[k] += w * (1 - (p === null ? UNKNOWN_GAP : Math.abs(v - p)) / 4); }
     }
     let best = -1, bk = 0;
-    for (let k = 0; k < K; k++) { const s = (num[k] + PRIOR_K * 0.5) / (den[k] + PRIOR_K); draws[k][b] = s; if (s > best) { best = s; bk = k; } }
+    for (let k = 0; k < K; k++) { const s = den ? num[k] / den : 0.5; draws[k][b] = s; if (s > best) { best = s; bk = k; } }
     firsts[bk]++;
   }
   return CANDS.map((c, k) => { const d = Array.from(draws[k]).sort((a, b) => a - b); return { lo: d[Math.floor(B * 0.05)], hi: d[Math.floor(B * 0.95)], pFirst: firsts[k] / B, draws: draws[k] }; });
@@ -1072,7 +1073,7 @@ screens.statements = () => {
       ${isRet ? "" : `<button type="button" class="chip ${st.imp[id] ? "on" : ""}" id="impt" aria-pressed="${!!st.imp[id]}">${st.imp[id] ? ICON.check : ""}Important pour moi</button>`}
     </div>
     ${st.refining ? `<button type="button" class="btn ghost" id="to-results">Voir mon résultat</button>` : ""}
-    <p class="kbd-hint">« Sans avis » ne compte pas dans le résultat.<span class="kbd-only"> Au clavier : <kbd>1</kbd> à <kbd>5</kbd>, <kbd>0</kbd> sans avis.</span></p>
+    <p class="kbd-hint">« Sans avis » ne compte pas dans le résultat.<span class="kbd-only"> Au clavier : <kbd>1</kbd> à <kbd>5</kbd>, <kbd>0</kbd> sans avis.</span></p>
   </div>`;
 };
 screens.statements.wire = () => {
@@ -1185,7 +1186,7 @@ screens.importance = () => {
   if (!st.lvl) { st.lvl = Object.fromEntries(AREAS.map(a => [a.id, 1])); syncPoints(); save(); }
   return `<div class="qbar"><button type="button" class="icon-btn" id="back" aria-label="Retour au résultat">${ICON.back}</button><span class="label">Vos priorités</span></div><div class="stack">
     <h1 style="font-size:26px">Quels thèmes pèsent le plus dans votre vote&nbsp;?</h1>
-    <p class="muted">« Plus » compte double, « Moins » compte moitié. Laissez « Normal » pour les thèmes qui ne vous préoccupent ni plus ni moins que les autres.${st.o1area ? ` Vous aviez cité un problème lié à « ${esc(ABY[st.o1area].fr)} ».` : ""}</p>
+    <p class="muted">« Plus » compte double, « Moins » compte moitié. Laissez « Normal » pour les thèmes qui ne vous préoccupent ni plus ni moins que les autres.${st.o1area ? ` Vous aviez cité un problème lié à « ${esc(ABY[st.o1area].fr)} ».` : ""}</p>
     <div class="prio">${AREAS.map(a => `<div class="prio-row"><span>${esc(a.fr)}</span>
       <div class="lvls" role="group" aria-label="${esc(a.fr)}">${LVL_FR.map((t, i) => `<button type="button" class="opt lvl ${st.lvl[a.id] === i ? "on" : ""}" data-a="${a.id}" data-l="${i}" aria-pressed="${st.lvl[a.id] === i}">${t}</button>`).join("")}</div></div>`).join("")}</div>
     <button class="btn primary" id="on" type="button">Enregistrer et voir le résultat</button>
@@ -1310,7 +1311,7 @@ screens.results = () => {
   const lo = Math.min(...order.map(k => bs[k].lo)) - 0.02, hi = Math.max(...order.map(k => bs[k].hi)) + 0.02;
   const X = x => ((x - lo) / (hi - lo) * 100).toFixed(2) + "%";
   /* robustness: rank of top under alternative specifications */
-  const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « Important pour moi »", scoreAll(eff, { noFlags: true })]];
+  const specs = [["Distance euclidienne", scoreAll(eff, { metric: "euclid" })], ["Thèmes à poids égal", scoreAll(eff, { equalAreas: true })], ["Sans vos « Important pour moi »", scoreAll(eff, { noFlags: true })]];
   const rob = specs.map(([n, s]) => [n, CANDS.map((c, k) => k).sort((a, b) => s[b] - s[a])[0]]);
   const robOk = rob.every(r => r[1] === top);
   const ua = userAxes(), da = dilemmaAxes();
@@ -1358,11 +1359,11 @@ screens.results = () => {
       `<ul class="bars">${topN.map(k => { const p = pf[k]; return `<li>${avatar(CANDS[k])}<span class="n">${esc(CANDS[k].short || CANDS[k].name)}</span><span class="bar" aria-hidden="true"><i data-grow style="--w:${p ? pct(p.score) : 0}%;width:${p ? pct(p.score) : 0}%"></i></span><span class="v num">${p ? pct(p.score) + "&nbsp;%" : "—"}</span></li>`; }).join("")}</ul>`,
       [`Les ${CANDS.length} candidats et les critères`, profileTable(pf, order)]) : "",
     tile("qual", `Qualité de vos réponses`, inc === null ? "Les questions reformulées apparaissent quand vous continuez à répondre après ce premier résultat." : inc >= 1.5 ? "Vos réponses aux propositions reformulées se contredisent en partie." : "Vos réponses aux propositions reformulées sont cohérentes.",
-      `<dl class="kv"><div><dt>Réponses « sans avis »</dt><dd class="num">${nNA}</dd></div>
+      `<dl class="kv"><div><dt>Réponses « sans avis »</dt><dd class="num">${nNA}</dd></div>
       <div><dt>Cohérence aux questions reformulées <span class="muted">(0 = parfaite, 4 = opposée)</span></dt><dd class="num">${inc === null ? "—" : inc.toFixed(1).replace(".", ",")}</dd></div>
       <div><dt>Tendance à acquiescer <span class="muted">(0 = aucune)</span></dt><dd class="num">${acq === null ? "—" : (acq > 0 ? "+" : "") + acq.toFixed(1).replace(".", ",")}</dd></div></dl>
       ${inc !== null && inc >= 1.5 ? `<p class="note">Vos réponses à des propositions reformulées en sens inverse se contredisent en partie. L'incertitude affichée a été élargie en conséquence.</p>` : ""}
-      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}`, null),
+      ${st.open.o3 ? `<p class="muted small">Vous avez écrit ce qui vous empêcherait de voter pour quelqu'un : « ${esc(st.open.o3)} ». Vérifiez ce point dans les fiches des candidats en tête.</p>` : ""}`, null),
   ].filter(Boolean);
   /* the theme heatmap (two columns) and the map fill the first two rows; the last short tile stretches so no row ends with a hole */
   const rest = tiles.length - 2, fill = rest % 3 === 1 ? "w3" : rest % 3 === 2 ? "w2" : "";
@@ -1485,12 +1486,12 @@ function euStrip(u, d, W = plotWidth()) {
   </svg></div>
   <p class="muted small">De l'intégration à la souveraineté : ${pts.map(o => esc(o.c.short || o.c.name)).join(" · ")}</p>`;
 }
-/* mean agreement per theme for the given candidates, over the statements answered in that theme */
+/* mean agreement per theme for the given candidates, over the statements answered in that theme, scored as in scoreAll; "—" when nothing in the theme is documented */
 function areaCells(eff, ks) {
   return AREAS.map(a => {
     const ids = Object.keys(eff).filter(id => SBY[id].area === a.id);
     if (!ids.length) return null;
-    const cells = ks.map(k => { let n = 0, s = 0; ids.forEach(id => { const cp = candPos(CANDS[k], id); if (!cp) return; n++; s += 1 - Math.abs(eff[id].v - cp.p) / 4; }); return n ? s / n : null; });
+    const cells = ks.map(k => ids.some(id => candPos(CANDS[k], id)) ? ids.reduce((s, id) => s + 1 - gap(CANDS[k], id, eff[id].v) / 4, 0) / ids.length : null);
     return { area: a, n: ids.length, cells };
   }).filter(Boolean);
 }
