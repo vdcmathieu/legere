@@ -38,4 +38,4 @@ Published (private): https://claude.ai/artifact/5Mts8uDsDoKvMdV1KZXNrb
 ## Scoring (2026-10-12)
 Every candidate is scored over the same answered statements; an uncoded cell counts as a two-step gap (50% agreement). Confidence only steers question choice (adaptive picks, core set), never the score.
 Before, uncoded cells dropped out of a candidate's average and low-confidence cells weighed less, so thinly coded candidates (Faure, Ruffin) were judged on their best-documented subset: Mélenchon voters who departed from him on a few Ukraine/NATO/EU/nuclear items got Faure.
-Still open from that check: `ins5` Mélenchon +1 (low) contradicts `imm2` -1 on the same RIC evidence; `int1` Mélenchon -2 rests on 2022-2024 evidence.
+Follow-up (`research/audit/2026-10-12-apply.py`): Mélenchon `int1` (-2 on 2022-2024 evidence, 2027 programme silent) and `ins5` (+1 inferred from his general RIC, contradicting `imm2`) set to unknown.

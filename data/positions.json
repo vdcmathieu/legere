@@ -2651,8 +2651,8 @@
     },
     "int1": {
      "id": "int1",
-     "position": -2,
-     "confidence": "medium",
+     "position": null,
+     "confidence": "none",
      "evidence_type": "vote",
      "summary": "In March 2024 LFI voted against the France-Ukraine security accord, which included up to 3bn euros of military aid. Mélenchon regretted EU arms deliveries in 2022, calling them co-belligerence. The 2027 programme focuses on a diplomatic framework for a ceasefire and says nothing about military aid.",
      "sources": [
@@ -2678,9 +2678,9 @@
        "quote": "En Ukraine, agir pour créer un cadre diplomatique permettant d'obtenir un cessez-le-feu, le retrait des troupes russes"
       }
      ],
-     "nuance": "No explicit 2025-2026 statement against arms deliveries was found. The 2024 vote was a non-binding Article 50-1 consultation. The 2027 programme is silent on aid, so -2 rests on 2022-2024 evidence and confidence is lowered to medium.",
+     "nuance": "The 2027 programme is silent on military aid; the evidence against it dates from 2022 and from a non-binding 2024 vote, so no current position is coded.",
      "summary_fr": "En mars 2024, LFI a voté contre l'accord de sécurité France-Ukraine, qui prévoyait jusqu'à 3 milliards d'euros d'aide militaire. En 2022, Mélenchon a regretté les livraisons d'armes de l'UE, les qualifiant de cobelligérance. Le programme 2027 met l'accent sur un cadre diplomatique pour un cessez-le-feu et ne dit rien de l'aide militaire.",
-     "nuance_fr": "Aucune déclaration explicite de 2025-2026 contre les livraisons d'armes n'a été trouvée. Le vote de 2024 était une consultation non contraignante au titre de l'article 50-1. Le programme 2027 est muet sur l'aide ; -2 repose donc sur des éléments de 2022-2024 et la confiance est abaissée à moyenne."
+     "nuance_fr": "Le programme 2027 ne dit rien de l'aide militaire ; les éléments contre datent de 2022 et d'un vote non contraignant de 2024 : aucune position actuelle n'est donc codée."
     },
     "int2": {
      "id": "int2",
@@ -3067,8 +3067,8 @@
     },
     "ins5": {
      "id": "ins5",
-     "position": 1,
-     "confidence": "low",
+     "position": null,
+     "confidence": "none",
      "evidence_type": "inferred",
      "summary": "The programme's RIC can propose or repeal any law, and referendums become compulsory for constitutional changes and new EU treaties. No explicit endorsement of referendums on immigration or justice was found.",
      "sources": [
@@ -3080,9 +3080,9 @@
        "quote": "Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen"
       }
      ],
-     "nuance": "A general-purpose RIC implicitly reaches these topics, but the statement echoes a right-wing proposal on immigration that LFI does not back as such.",
+     "nuance": "His RIC could reach any subject, but no statement backs a referendum on immigration or justice as such, so no position is coded.",
      "summary_fr": "Le RIC du programme peut proposer ou abroger toute loi, et les référendums deviennent obligatoires pour les modifications constitutionnelles et les nouveaux traités européens. Aucun soutien explicite à des référendums sur l'immigration ou la justice n'a été trouvé.",
-     "nuance_fr": "Un RIC à portée générale couvre implicitement ces sujets, mais la proposition reprend une idée de la droite sur l'immigration que LFI ne soutient pas en tant que telle."
+     "nuance_fr": "Son RIC pourrait porter sur tout sujet, mais aucune déclaration ne soutient en tant que tel un référendum sur l'immigration ou la justice : aucune position n'est donc codée."
     },
     "ins4": {
      "id": "ins4",
