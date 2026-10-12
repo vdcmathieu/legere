@@ -2,7 +2,7 @@
 
 Voting-advice questionnaire for the April 2027 French presidential election (formerly "Isoloir 2027").
 Single-page app, French UI, no backend: answers stay in the browser (localStorage key `legere-2027-v1`).
-Public site: https://legere.vandecatsije.com (Vercel project `legere`, static `dist/`): `python3 build.py && vercel deploy --prod`.
+Public site: https://legere.vandecatsije.com (Vercel project `legere`, static `dist/`): Vercel runs `python3 build.py` on every push, so merging to `main` deploys production and each PR gets a preview.
 Cookieless Vercel Web Analytics loads only on the production host; any new tracking must keep answers out of URLs and be reflected in `data/legal.html`.
 
 ## Layout
